@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0A5651">
+  <title>Floating Counselling — Counselling, Community &amp; Compassion · Croydon &amp; London</title>
+  <meta name="description" content="A UK-based grassroots charity delivering affordable counselling, family support, and community programmes across Croydon and London. BACP-aligned, trauma-informed care since 2015.">
+  <link rel="canonical" href="https://www.floatingcounselling.co.uk/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Floating Counselling">
+  <meta property="og:title" content="Floating Counselling — Counselling, Community &amp; Compassion">
+  <meta property="og:description" content="Affordable counselling, family support and community programmes across Croydon and London. Since 2015.">
+  <meta property="og:url" content="https://www.floatingcounselling.co.uk/">
+  <meta property="og:image" content="https://www.floatingcounselling.co.uk/images/hero.png">
+  <meta property="og:locale" content="en_GB">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@FloatCounsellor">
+  <meta name="twitter:title" content="Floating Counselling — Counselling, Community &amp; Compassion">
+  <meta name="twitter:description" content="Affordable counselling, family support and community programmes across Croydon and London.">
+  <meta name="twitter:image" content="https://www.floatingcounselling.co.uk/images/hero.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Preload hero image -->
+  <link rel="preload" as="image" href="images/hero.png">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD: NGO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "Floating Counselling",
+    "alternateName": "Floating Counselling Community",
+    "url": "https://www.floatingcounselling.co.uk/",
+    "logo": "https://www.floatingcounselling.co.uk/images/logo.png",
+    "image": "https://www.floatingcounselling.co.uk/images/hero.png",
+    "description": "UK-based grassroots charity delivering affordable counselling, family support, and community programmes across Croydon and London.",
+    "foundingDate": "2015",
+    "areaServed": ["Croydon", "London", "United Kingdom"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Woodside Baptist Church, Spring Lane",
+      "addressLocality": "Croydon",
+      "postalCode": "SE25 4SP",
+      "addressCountry": "GB"
+    },
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "+44-7305-882959",
+      "contactType": "customer support",
+      "email": "info@floatingcounselling.co.uk",
+      "availableLanguage": ["English"]
+    }],
+    "sameAs": [
+      "https://www.facebook.com/FloatingCounselling",
+      "https://www.instagram.com/floating_bodymindsoul",
+      "https://twitter.com/FloatCounsellor",
+      "https://www.youtube.com/@floatingcounsellinguk"
+    ]
+  }
+  </script>
+
+  <!-- Smooth scroll + GSAP toolkit -->
+  <script defer src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<!-- Skip link -->
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- Scroll progress -->
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+<!-- Custom cursor -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- ═══════════ NAVBAR ═══════════ -->
+<nav class="navbar" id="navbar" aria-label="Primary">
+  <div class="container">
+    <a href="#home" class="nav-logo" data-magnetic aria-label="Floating Counselling — Home">
+      <img src="images/logo.png" alt="Floating Counselling" class="nav-logo-img" width="140" height="44">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#hub">Hub</a></li>
+      <li><a href="#school">Holiday School</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact" class="nav-cta" data-magnetic>
+        <span class="nav-cta-text">Get in touch</span>
+        <span class="nav-cta-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </span>
+      </a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero" id="home">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-orb hero-orb--a" data-parallax data-speed="0.4"></div>
+    <div class="hero-orb hero-orb--b" data-parallax data-speed="0.7"></div>
+    <div class="hero-orb hero-orb--c" data-parallax data-speed="0.25"></div>
+    <div class="hero-grain"></div>
+  </div>
+
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <div class="hero-badge"><span class="dot"></span> Croydon &amp; London · Since 2015</div>
+
+      <h1 data-split="lines">
+        Counselling,
+        <em>Community</em>
+        &amp; Compassion.
+      </h1>
+
+      <p class="hero-lede" data-split="words">
+        A UK-based grassroots charity empowering individuals, families and marginalised
+        groups through holistic support, therapeutic care and community-driven programmes.
+      </p>
+
+      <div class="hero-buttons" data-fade>
+        <a href="#contact" class="btn btn-primary" data-magnetic>
+          Book a Session <span class="arrow">→</span>
+        </a>
+        <a href="#services" class="btn btn-ghost" data-magnetic>
+          Our Services
+        </a>
+      </div>
+
+      <div class="hero-meta" data-fade>
+        <div class="meta-avatars" aria-hidden="true">
+          <span>CO</span><span>OO</span><span>EO</span><span>+3</span>
+        </div>
+        <p>Led by a diverse team of African women — clinically trained, lived experience, deeply rooted in community.</p>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-visual-frame" data-tilt>
+        <img src="images/hero.png" alt="Floating Counselling community gathering" data-parallax data-speed="0.15" width="640" height="780" fetchpriority="high">
+      </div>
+      <div class="hero-float hero-float--top" data-parallax data-speed="-0.3">
+        <span class="hero-float-mark"></span>
+        <div>
+          <strong>Trauma-informed</strong>
+          <p>Care that meets you where you are</p>
+        </div>
+      </div>
+      <div class="hero-float hero-float--bottom" data-parallax data-speed="0.35">
+        <strong>10+ years</strong>
+        <p>serving Croydon &amp; London</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="#impact" class="hero-scroll-cue" aria-label="Scroll to impact">
+    <span></span> Scroll
+  </a>
+</section>
+
+<!-- ═══════════ IMPACT (sticky) ═══════════ -->
+<section class="impact" id="impact" aria-label="Our impact">
+  <div class="impact-track">
+    <div class="container impact-stage">
+      <p class="impact-eyebrow" data-split="words">A decade of grassroots care, by the numbers.</p>
+      <div class="impact-stats">
+        <div class="impact-stat">
+          <h3 class="counter" data-target="15000" data-suffix="+">0</h3>
+          <p>Counselling sessions delivered</p>
+        </div>
+        <div class="impact-stat">
+          <h3 class="counter" data-target="50000" data-suffix="+">0</h3>
+          <p>Clinical hours of care</p>
+        </div>
+        <div class="impact-stat">
+          <h3 class="counter" data-target="45" data-suffix=" yrs">0</h3>
+          <p>Combined clinical experience</p>
+        </div>
+        <div class="impact-stat">
+          <h3 class="counter" data-target="1400" data-suffix="+">0</h3>
+          <p>Children supported through holiday school</p>
+        </div>
+        <div class="impact-stat">
+          <h3 class="counter" data-target="10" data-suffix="+ yrs">0</h3>
+          <p>Continuous service to community</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SERVICES ═══════════ -->
+<section id="services" class="section section--cream">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-label" data-parallax data-speed="-0.4"><span></span> What we offer</div>
+      <h2 class="section-title" data-split="lines">Six ways we hold space for you.</h2>
+      <p class="section-subtitle" data-split="words">Whether you're looking for counselling, community, or just a hot meal and a smile — Floating is here for you.</p>
+    </header>
+
+    <div class="services-grid">
+      <article class="service-card" data-card>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Counselling &amp; Mentoring</h3>
+        <p>One-to-one, group, couple and family therapy with qualified psychotherapists. In-person and online via Zoom or Skype. Free to low-cost for eligible individuals.</p>
+        <a href="#contact" class="learn-more">Get started <span>→</span></a>
+      </article>
+      <article class="service-card" data-card>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Impact Parenting</h3>
+        <p>Workshops, 1:1 mentoring, and group programmes for parents — including therapeutic camps, the Impact Parenting Pillar training and a private support group.</p>
+        <a href="#school" class="learn-more">Learn more <span>→</span></a>
+      </article>
+      <article class="service-card" data-card>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9z"/><path d="M7 21h10"/><path d="M19.5 12 22 6"/><path d="M16 6c.3-.5.7-1 .7-1.5 0-.5-.4-.9-.7-1.5"/><path d="M12 6c.3-.5.7-1 .7-1.5 0-.5-.4-.9-.7-1.5"/></svg></div>
+        <h3>Community Support</h3>
+        <p>Donated food distributed weekly from Tesco, Sainsbury's, Greggs, Lidl, Asda, Felix and Amazon to individuals and families in need.</p>
+        <a href="#hub" class="learn-more">Visit the hub <span>→</span></a>
+      </article>
+      <article class="service-card" data-card>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+        <h3>Floating Community Hub</h3>
+        <p>A weekly hub at Woodside Baptist Church offering housing support, mental health services, art therapy, bills help and massage therapy.</p>
+        <a href="#hub" class="learn-more">Find out more <span>→</span></a>
+      </article>
+      <article class="service-card" data-card>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></svg></div>
+        <h3>Financial Literacy &amp; Business Training</h3>
+        <p>Masterclasses and retreats supporting budgeting skills, entrepreneurial growth and confidence for the global majority community.</p>
+        <a href="#contact" class="learn-more">Enquire <span>→</span></a>
+      </article>
+      <article class="service-card" data-card>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg></div>
+        <h3>Holiday School &amp; Camps</h3>
+        <p>Art therapy, music, play therapy and psychological techniques for children aged 5–11. Over 1,400 children registered across recent programmes.</p>
+        <a href="#school" class="learn-more">Register <span>→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ ABOUT ═══════════ -->
+<section id="about" class="section">
+  <div class="container about-grid">
+    <div class="about-image">
+      <div class="about-image-frame">
+        <img src="images/counselling.png" alt="Counselling session at Floating Counselling" data-parallax data-speed="0.2" width="640" height="780" loading="lazy">
+      </div>
+      <div class="about-float" data-parallax data-speed="-0.4">
+        <h3>Since <em>2015</em></h3>
+        <p>Serving Croydon &amp; London</p>
+      </div>
+    </div>
+    <div class="about-content">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> Who we are</div>
+      <h2 class="section-title" data-split="lines">Wraparound care, rooted in community.</h2>
+      <p class="section-subtitle" data-split="words">
+        Inspired by Maslow's hierarchy of needs, we meet people where they are — emotionally,
+        practically and socially — to create lasting change and personal growth.
+      </p>
+      <p class="section-subtitle" data-fade style="margin-top:14px">
+        We are proudly led by a diverse team of African women, whose lived experience and
+        professional expertise shape every part of our work.
+      </p>
+      <div class="about-values" data-stagger>
+        <div class="value-item"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Trauma-Informed Care</div>
+        <div class="value-item"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Culturally Relevant</div>
+        <div class="value-item"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> NHS Partnered</div>
+        <div class="value-item"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Holistic Approach</div>
+        <div class="value-item"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Free &amp; Low-Cost</div>
+        <div class="value-item"><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Online &amp; In-Person</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ COMMUNITY HUB ═══════════ -->
+<section id="hub" class="section section--dark">
+  <div class="hub-bg" aria-hidden="true">
+    <div class="hub-bg-image" data-parallax data-speed="0.25"></div>
+    <div class="hub-bg-orb" data-parallax data-speed="-0.4"></div>
+  </div>
+  <div class="container hub-grid">
+    <div class="hub-content">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> One-stop shop</div>
+      <h2 class="section-title" data-split="lines">Floating Community Hub.</h2>
+      <p class="section-subtitle" data-split="words">
+        A central gathering place for Croydon residents. Come together, have a cup of tea
+        and a chat. We're here to help you thrive — not just survive.
+      </p>
+      <div class="hub-features" data-stagger>
+        <div class="hub-feature"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg></div><h4>NHS Staff</h4><p>Weekly NHS link workers on-site</p></div>
+        <div class="hub-feature"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></svg></div><h4>Housing Support</h4><p>Housing officer monthly visits</p></div>
+        <div class="hub-feature"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"/><path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z"/></svg></div><h4>Art Therapy</h4><p>Creative healing workshops</p></div>
+        <div class="hub-feature"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div><h4>Form Filling</h4><p>Benefit forms &amp; applications</p></div>
+        <div class="hub-feature"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div><h4>Food &amp; Clothes</h4><p>Weekly food &amp; clothes bank</p></div>
+        <div class="hub-feature"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 9V2M12 22v-7M9 12H2M22 12h-7M5.6 5.6l4.95 4.95M13.45 13.45l4.95 4.95M5.6 18.4l4.95-4.95M13.45 10.55l4.95-4.95"/></svg></div><h4>Massage Therapy</h4><p>Wellbeing treatments</p></div>
+      </div>
+      <div class="hub-info" data-fade>
+        <div class="hub-info-item"><span class="info-label">Location</span><span class="info-value">Woodside Baptist Church, Spring Lane, SE25 4SP</span></div>
+        <div class="hub-info-item"><span class="info-label">When</span><span class="info-value">Every Tuesday, 12:30 – 2:30pm</span></div>
+      </div>
+    </div>
+    <div class="hub-image">
+      <div class="hub-image-frame">
+        <img src="images/hub.png" alt="Floating Community Hub" data-parallax data-speed="0.18" width="640" height="780" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ HOLIDAY SCHOOL ═══════════ -->
+<section id="school" class="section section--cream-deep">
+  <div class="container school-grid">
+    <div class="school-image">
+      <div class="school-image-frame">
+        <img src="images/holiday-school.png" alt="Children at Floating Counselling Holiday School" data-parallax data-speed="0.2" width="640" height="780" loading="lazy">
+      </div>
+      <div class="school-tag" data-parallax data-speed="-0.35">Ages 5–11</div>
+    </div>
+    <div class="school-content">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> Holiday &amp; Saturday school</div>
+      <h2 class="section-title" data-split="lines">Resilience, joy &amp; emotional intelligence.</h2>
+      <p class="section-subtitle" data-split="words">
+        A four-week therapeutic curriculum supporting children aged 5–11 to build resilience,
+        emotional intelligence and overall well-being using proven psychological techniques.
+      </p>
+      <div class="themes" data-stagger>
+        <div class="theme-week">
+          <div class="theme-week-num">01</div>
+          <div><h4>Joy &amp; Hope</h4><p>Happy · My dreams are reachable · I have a choice · I am hopeful</p></div>
+        </div>
+        <div class="theme-week">
+          <div class="theme-week-num">02</div>
+          <div><h4>Connection</h4><p>It's okay to ask for help · Better choices with friends · Being unique</p></div>
+        </div>
+        <div class="theme-week">
+          <div class="theme-week-num">03</div>
+          <div><h4>Confidence</h4><p>Having confidence · Happiness visualisation · Affirmation · Self-love</p></div>
+        </div>
+        <div class="theme-week">
+          <div class="theme-week-num">04</div>
+          <div><h4>Self-Love</h4><p>Coping with loss · Letters for loved ones · Soul work · Self-appreciation</p></div>
+        </div>
+      </div>
+      <a href="https://forms.gle/uB7BSGZcvkhX8mEP7" class="btn btn-primary" target="_blank" rel="noopener" data-magnetic>
+        Register your child <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ WIDER PROGRAMMES (Homeless + International) ═══════════ -->
+<section id="programmes" class="section">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> Wider reach</div>
+      <h2 class="section-title" data-split="lines">Care that extends beyond Croydon.</h2>
+      <p class="section-subtitle" data-split="words">From rough-sleepers in our local borough to women's groups overseas — community has no borders.</p>
+    </header>
+    <div class="programmes-grid" data-stagger>
+      <article class="programme-card" data-card>
+        <div class="programme-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/><path d="M9 11h.01M15 11h.01"/></svg>
+        </div>
+        <h3>Homeless Necessity</h3>
+        <p>Our outreach programme distributes hot meals, hygiene packs, blankets and signposting support to people sleeping rough across south London — partnering with local shelters and faith groups.</p>
+        <ul class="programme-list">
+          <li>Weekly outreach walks</li>
+          <li>Winter warmth packs</li>
+          <li>Pathway to housing &amp; mental health support</li>
+        </ul>
+        <a href="#contact" class="learn-more">Volunteer or donate <span>→</span></a>
+      </article>
+      <article class="programme-card" data-card>
+        <div class="programme-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h3>International Community Support</h3>
+        <p>Cross-border partnerships supporting women's mental health, parenting circles and trauma recovery in Nigeria, Congo and across the African diaspora.</p>
+        <ul class="programme-list">
+          <li>Impact Parenting Pillar — global cohort</li>
+          <li>Trauma-informed train-the-trainer</li>
+          <li>Diaspora retreats &amp; masterclasses</li>
+        </ul>
+        <a href="#contact" class="learn-more">Partner with us <span>→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ BOOK ═══════════ -->
+<section id="book" class="section section--book">
+  <div class="container book-grid">
+    <div class="book-image">
+      <div class="book-image-frame" data-tilt>
+        <img src="images/book.png" alt="Disciplining With Love book by Celestina Oniye-Thomas" data-parallax data-speed="0.12" width="520" height="700" loading="lazy">
+      </div>
+      <div class="book-glow" aria-hidden="true"></div>
+    </div>
+    <div class="book-content">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> New book</div>
+      <h2 class="section-title" data-split="lines">Disciplining With Love.</h2>
+      <blockquote data-fade>
+        Parenting with <em>LOVE</em> is the only way to raise resilient, empathetic, strong, brave humans.
+      </blockquote>
+      <p class="section-subtitle" data-split="words">
+        An African Christian-inspired guide that will change your and your child's life for the better.
+      </p>
+      <ul class="book-points" data-stagger>
+        <li><span>—</span> Learn to regulate your emotions before disciplining</li>
+        <li><span>—</span> Understand your child's behaviour with empathy</li>
+        <li><span>—</span> Connect before you correct</li>
+        <li><span>—</span> Create secure attachment even during discipline</li>
+        <li><span>—</span> Research-backed strategies that actually work</li>
+      </ul>
+      <div class="book-cta" data-fade>
+        <a href="https://www.floatingcounselling.co.uk/shop" class="btn btn-primary" target="_blank" rel="noopener" data-magnetic>
+          Buy paperback <span class="arrow">→</span>
+        </a>
+        <a href="https://www.floatingcounselling.co.uk/shop" class="btn btn-ghost" target="_blank" rel="noopener" data-magnetic>Get the eBook</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FREE RESOURCES ═══════════ -->
+<section id="resources" class="section section--cream">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> Free downloads</div>
+      <h2 class="section-title" data-split="lines">Resources, on the house.</h2>
+      <p class="section-subtitle" data-split="words">Workbooks, cheat-sheets and guides — sent straight to your inbox, no strings attached.</p>
+    </header>
+    <div class="resources-grid" data-stagger>
+      <a class="resource-card" href="https://mailchi.mp/cec1bb0dfe70/emotional-cheat-sheet-and-video" target="_blank" rel="noopener" data-card>
+        <span class="resource-tag">Wellbeing</span>
+        <h3>Emotional Cheat Sheet <span class="resource-meta">+ video</span></h3>
+        <p>Understand what you're feeling and decide whether it's something to sit with — or seek support for.</p>
+        <span class="resource-cta">Download free <span>→</span></span>
+      </a>
+      <a class="resource-card" href="https://mailchi.mp/59747b7717a1/3-ways-to-train-and-discipline-child-behaviour" target="_blank" rel="noopener" data-card>
+        <span class="resource-tag">Parenting</span>
+        <h3>Child Discipline Guide</h3>
+        <p>Three scientifically-proven ways to discipline your child while strengthening your bond.</p>
+        <span class="resource-cta">Download free <span>→</span></span>
+      </a>
+      <a class="resource-card" href="https://mailchi.mp/29cb77aada5c/y5uha77dwu" target="_blank" rel="noopener" data-card>
+        <span class="resource-tag">Practitioners</span>
+        <h3>Mental Health Practice Guide</h3>
+        <p>For therapists &amp; counsellors — start, legalise or grow your private practice with confidence.</p>
+        <span class="resource-cta">Download free <span>→</span></span>
+      </a>
+      <a class="resource-card" href="https://mailchi.mp/df46d8b00cab/7-tips-to-help-you-with-anxiety" target="_blank" rel="noopener" data-card>
+        <span class="resource-tag">Mental Health</span>
+        <h3>7 Tips for Anxiety</h3>
+        <p>Practical, body-first strategies to manage anxiety in the moment — and over the long term.</p>
+        <span class="resource-cta">Download free <span>→</span></span>
+      </a>
+      <a class="resource-card" href="https://mailchi.mp/cd6383d1caf3/2021-motivational" target="_blank" rel="noopener" data-card>
+        <span class="resource-tag">Motivation</span>
+        <h3>Weekly Motivation Pack</h3>
+        <p>Quotes, videos and reflections delivered weekly to keep you grounded and going.</p>
+        <span class="resource-cta">Subscribe free <span>→</span></span>
+      </a>
+      <div class="resource-card resource-card--newsletter" data-card>
+        <span class="resource-tag">Newsletter</span>
+        <h3>Get them all — plus future ones.</h3>
+        <p>Join 2,000+ readers getting our monthly letter on counselling, parenting and community.</p>
+        <form class="newsletter-form" id="newsletterForm" novalidate>
+          <label class="visually-hidden" for="newsletter-email">Email address</label>
+          <input type="email" id="newsletter-email" name="email" placeholder="you@example.com" required autocomplete="email">
+          <button type="submit" class="btn btn-primary btn-sm" data-magnetic>Subscribe <span class="arrow">→</span></button>
+          <p class="form-status" data-status></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ TESTIMONIALS ═══════════ -->
+<section id="testimonials" class="section">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> What people say</div>
+      <h2 class="section-title" data-split="lines">In their own words.</h2>
+      <p class="section-subtitle" data-split="words">Hear from the families and individuals whose lives have been transformed.</p>
+    </header>
+    <div class="testimonials-grid" data-stagger>
+      <article class="testimonial-card" data-card>
+        <div class="quote">"</div>
+        <p>I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded, supporting a wide variety of issues that parents face.</p>
+        <div class="testimonial-author">
+          <div class="t-avatar">ST</div>
+          <div><h4>Sarah Turino</h4><span>CEO, The Whole Woman Wellness Formula · USA</span></div>
+        </div>
+      </article>
+      <article class="testimonial-card" data-card>
+        <div class="quote">"</div>
+        <p>It was good for me to see and know myself better. The workbooks and cheat-sheets allowed me to look at my past traumas and find healthy ways to move forward for my children.</p>
+        <div class="testimonial-author">
+          <div class="t-avatar">DD</div>
+          <div><h4>Danya Denny</h4><span>Social Worker · UK</span></div>
+        </div>
+      </article>
+      <article class="testimonial-card" data-card>
+        <div class="quote">"</div>
+        <p>As a mother of 6, I learnt so much from Impact Parenting. I was able to adapt strategies to my real life and all my children straight away. Every parent needs this.</p>
+        <div class="testimonial-author">
+          <div class="t-avatar">NK</div>
+          <div><h4>Niina Kabesa</h4><span>Author, Mother of Nations · Congo</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ TEAM ═══════════ -->
+<section id="team" class="section section--cream">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> Our people</div>
+      <h2 class="section-title" data-split="lines">Meet the team.</h2>
+      <p class="section-subtitle" data-split="words">Led by a diverse team of African women with lived experience and professional expertise.</p>
+    </header>
+    <div class="team-grid" data-stagger>
+      <article class="team-card" data-card>
+        <div class="team-avatar">CO</div>
+        <h4>Celestina Oniye-Thomas</h4>
+        <div class="role">CEO &amp; Head of Charitable Operations</div>
+        <a href="mailto:info@floatingcounselling.co.uk" class="email">info@floatingcounselling.co.uk</a>
+        <a href="#contact" class="team-readmore">Read more <span>→</span></a>
+      </article>
+      <article class="team-card" data-card>
+        <div class="team-avatar">OO</div>
+        <h4>Omowonu-Ola Ogunlela</h4>
+        <div class="role">Director &amp; Head of Finance</div>
+        <a href="mailto:floatingcounsellingcommunity@gmail.com" class="email">floatingcounsellingcommunity@gmail.com</a>
+        <a href="#contact" class="team-readmore">Read more <span>→</span></a>
+      </article>
+      <article class="team-card" data-card>
+        <div class="team-avatar">EO</div>
+        <h4>Elizabeth Owode</h4>
+        <div class="role">Director &amp; Relationship Coach</div>
+        <a href="#contact" class="team-readmore">Read more <span>→</span></a>
+      </article>
+      <article class="team-card" data-card>
+        <div class="team-avatar">LY</div>
+        <h4>Linda Yeboah</h4>
+        <div class="role">Director &amp; Safeguarding Officer</div>
+        <a href="mailto:floatingcounsellinglinda@gmail.com" class="email">floatingcounsellinglinda@gmail.com</a>
+        <a href="#contact" class="team-readmore">Read more <span>→</span></a>
+      </article>
+      <article class="team-card" data-card>
+        <div class="team-avatar">NK</div>
+        <h4>Niina Kabesa</h4>
+        <div class="role">Holiday Camp Manager</div>
+        <a href="#contact" class="team-readmore">Read more <span>→</span></a>
+      </article>
+      <article class="team-card" data-card>
+        <div class="team-avatar">MG</div>
+        <h4>Marleine Griffin</h4>
+        <div class="role">Admin Lead</div>
+        <a href="mailto:info@floatingcounselling.co.uk" class="email">info@floatingcounselling.co.uk</a>
+        <a href="#contact" class="team-readmore">Read more <span>→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ EVENTS ═══════════ -->
+<section id="events" class="section">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> Get involved</div>
+      <h2 class="section-title" data-split="lines">Weekly events across Croydon.</h2>
+      <p class="section-subtitle" data-split="words">Regular community events — everyone is welcome.</p>
+    </header>
+    <div class="events-grid" data-stagger>
+      <article class="event-card" data-card>
+        <div class="event-day"><span class="day-frequency">Every</span><span class="day-name">Tue</span></div>
+        <div class="event-info">
+          <h4>Woodside Pop-In</h4>
+          <p>Drop in for a chat, a cup of tea, and community connection.</p>
+          <div class="event-meta">
+            <div><span class="meta-label">Where</span><span>Woodside Baptist Church, SE25 4SP</span></div>
+            <div><span class="meta-label">Time</span><span>10:00 – 12:00</span></div>
+          </div>
+        </div>
+      </article>
+      <article class="event-card" data-card>
+        <div class="event-day"><span class="day-frequency">Every</span><span class="day-name">Tue</span></div>
+        <div class="event-info">
+          <h4>Woodside Community Hub</h4>
+          <p>Housing, health, food bank, counselling and professional support.</p>
+          <div class="event-meta">
+            <div><span class="meta-label">Where</span><span>Woodside Baptist Church, SE25 4SP</span></div>
+            <div><span class="meta-label">Time</span><span>12:30 – 14:30</span></div>
+          </div>
+        </div>
+      </article>
+      <article class="event-card" data-card>
+        <div class="event-day"><span class="day-frequency">Every</span><span class="day-name">Wed</span></div>
+        <div class="event-info">
+          <h4>Mandem Medley (Males)</h4>
+          <p>A safe space for men to connect, talk and support each other.</p>
+          <div class="event-meta">
+            <div><span class="meta-label">Where</span><span>Addiscombe Boys &amp; Girls, CR0 7BE</span></div>
+            <div><span class="meta-label">Time</span><span>20:30 – 22:00</span></div>
+          </div>
+        </div>
+      </article>
+      <article class="event-card" data-card>
+        <div class="event-day"><span class="day-frequency">Monthly</span><span class="day-name">Thu</span></div>
+        <div class="event-info">
+          <h4>Elderlies with the Welderlies</h4>
+          <p>Monthly wellness day for elderly residents with social activities.</p>
+          <div class="event-meta">
+            <div><span class="meta-label">Where</span><span>Ashburton Park Cafe, CR0 6RX</span></div>
+            <div><span class="meta-label">Time</span><span>2nd Thu, 11:00 – 13:00</span></div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PARTNERS / ACCREDITATION ═══════════ -->
+<section id="partners" class="section section--partners">
+  <div class="container">
+    <header class="section-header section-header--center">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> Partners &amp; accreditation</div>
+      <h2 class="section-title" data-split="lines">Trusted, funded &amp; accredited.</h2>
+      <p class="section-subtitle" data-split="words">A decade of partnerships with national bodies, local councils and accrediting institutions.</p>
+    </header>
+    <div class="partners-grid" data-stagger>
+      <div class="partner-mark"><span class="partner-name">BACP</span><span class="partner-sub">Member organisation</span></div>
+      <div class="partner-mark"><span class="partner-name">ICO</span><span class="partner-sub">Data protection registered</span></div>
+      <div class="partner-mark"><span class="partner-name">NHS</span><span class="partner-sub">South West London partner</span></div>
+      <div class="partner-mark"><span class="partner-name">Department for Education</span></div>
+      <div class="partner-mark"><span class="partner-name">King's Trust</span><span class="partner-sub">formerly Prince's Trust</span></div>
+      <div class="partner-mark"><span class="partner-name">Croydon Council</span></div>
+      <div class="partner-mark"><span class="partner-name">National Lottery</span><span class="partner-sub">Community Fund</span></div>
+      <div class="partner-mark"><span class="partner-name">Neighbourly</span></div>
+      <div class="partner-mark"><span class="partner-name">Sky</span></div>
+      <div class="partner-mark"><span class="partner-name">PRS Foundation</span></div>
+      <div class="partner-mark"><span class="partner-name">CVA</span><span class="partner-sub">Croydon Voluntary Action</span></div>
+      <div class="partner-mark"><span class="partner-name">BME Forum</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ BLOG ═══════════ -->
+<section id="blog" class="section">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> Latest posts</div>
+      <h2 class="section-title" data-split="lines">From our blog.</h2>
+      <p class="section-subtitle" data-split="words">Tools and information to help you and your family learn about wellbeing and mental health.</p>
+    </header>
+    <div class="blog-grid" data-stagger>
+      <article class="blog-card" data-card>
+        <div class="blog-card-body">
+          <span class="blog-tag">Racism</span>
+          <h3>10 tips to cope with racism in the UK as a Black person</h3>
+          <p>Practical strategies for navigating and overcoming racial challenges in everyday life.</p>
+          <a href="https://www.floatingcounselling.co.uk/single-post/10-tips-to-cope-with-racism-the-uk-as-a-black-person" class="read-more" target="_blank" rel="noopener">Read article <span>→</span></a>
+        </div>
+      </article>
+      <article class="blog-card" data-card>
+        <div class="blog-card-body">
+          <span class="blog-tag">Shadow Work</span>
+          <h3>My 5 year old said WHAT!…</h3>
+          <p>An honest look at parenting moments that surprise us — and what they teach about ourselves.</p>
+          <a href="https://www.floatingcounselling.co.uk/single-post/5year-old-shadow-work" class="read-more" target="_blank" rel="noopener">Read article <span>→</span></a>
+        </div>
+      </article>
+      <article class="blog-card" data-card>
+        <div class="blog-card-body">
+          <span class="blog-tag">Healing</span>
+          <h3>Do men commit?</h3>
+          <p>Exploring relationship dynamics, commitment, and emotional availability.</p>
+          <a href="https://www.floatingcounselling.co.uk/single-post/do-men-commit" class="read-more" target="_blank" rel="noopener">Read article <span>→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FAQ ═══════════ -->
+<section id="faq" class="section section--cream">
+  <div class="container faq-grid">
+    <div class="faq-intro">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> Common questions</div>
+      <h2 class="section-title" data-split="lines">Everything you might be wondering.</h2>
+      <p class="section-subtitle" data-split="words">If your question isn't here, send us a note — we read every message.</p>
+      <a href="#contact" class="btn btn-ghost" data-magnetic>Ask us anything</a>
+    </div>
+    <div class="faq-list" data-stagger>
+      <details class="faq-item">
+        <summary>How much does counselling cost?</summary>
+        <div class="faq-body"><p>Sessions are free or low-cost for eligible individuals. We work on a sliding scale based on circumstances. Our priority is access — we'll find a way that works for you.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What happens in the first session?</summary>
+        <div class="faq-body"><p>Your first session is a relaxed conversation about what's brought you in, what you'd like to work on, and how we can support you. Nothing is rushed. You set the pace.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Are sessions confidential?</summary>
+        <div class="faq-body"><p>Yes. Everything you share is held in strict confidence in line with BACP ethical guidelines. The only exceptions are safeguarding situations, which we'd always discuss with you first wherever possible.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you offer online sessions?</summary>
+        <div class="faq-body"><p>Yes — we offer both in-person sessions in Croydon and online sessions via Zoom or Skype. Many clients choose a mix of both.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Are your therapists qualified?</summary>
+        <div class="faq-body"><p>Our therapists are clinically trained psychotherapists working in line with BACP standards. The leadership team has 45+ years of combined clinical experience and over 50,000 clinical hours.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I refer a family member or friend?</summary>
+        <div class="faq-body"><p>Absolutely — though we'll always need consent from the person themselves before opening a case. The best first step is to encourage them to email or WhatsApp us directly.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How can I support your work?</summary>
+        <div class="faq-body"><p>You can donate via Localgiving or PayPal, volunteer your time, follow us on social media, or fundraise on our behalf. Get in touch and we'll match you to something that suits.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CONTACT ═══════════ -->
+<section id="contact" class="section section--contact">
+  <div class="container contact-grid">
+    <div class="contact-content">
+      <div class="section-label" data-parallax data-speed="-0.3"><span></span> Get in touch</div>
+      <h2 class="section-title" data-split="lines">We'd love to hear from you.</h2>
+      <p class="section-subtitle" data-split="words">Email, WhatsApp, call or fill in the form. We aim to reply within two working days.</p>
+
+      <ul class="contact-channels">
+        <li>
+          <span class="ch-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1 0 2 1 2 2v12c0 1-1 2-2 2H4c-1 0-2-1-2-2V6c0-1 1-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </span>
+          <div><span class="ch-label">Email</span><a href="mailto:info@floatingcounselling.co.uk">info@floatingcounselling.co.uk</a></div>
+        </li>
+        <li>
+          <span class="ch-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92V21a1 1 0 0 1-1.11 1A19.86 19.86 0 0 1 2 4.11 1 1 0 0 1 3 3h4.09a1 1 0 0 1 1 .75l1 4a1 1 0 0 1-.29 1L7 10.5a16 16 0 0 0 6.5 6.5l1.75-1.75a1 1 0 0 1 1-.29l4 1a1 1 0 0 1 .75 1z"/></svg>
+          </span>
+          <div><span class="ch-label">WhatsApp / Call</span><a href="https://wa.me/447305882959" target="_blank" rel="noopener">+44 (0)7305 882959</a></div>
+        </li>
+        <li>
+          <span class="ch-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </span>
+          <div><span class="ch-label">Visit the Hub</span><span>Woodside Baptist Church, Spring Lane, Croydon SE25 4SP</span></div>
+        </li>
+      </ul>
+
+      <div class="contact-socials" aria-label="Social links">
+        <a href="https://www.facebook.com/FloatingCounselling" target="_blank" rel="noopener" aria-label="Facebook" data-magnetic>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9V15h-2v-3h2V9.5A3.5 3.5 0 0 1 14 6h2v3h-2c-.6 0-1 .4-1 1v2h3l-.5 3H13v6.9A10 10 0 0 0 22 12z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/floating_bodymindsoul" target="_blank" rel="noopener" aria-label="Instagram" data-magnetic>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+        </a>
+        <a href="https://twitter.com/FloatCounsellor" target="_blank" rel="noopener" aria-label="Twitter / X" data-magnetic>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2H21l-6.52 7.45L22.5 22h-6.84l-5.36-6.99L4.2 22H1.44l6.97-7.96L1 2h6.99l4.84 6.4L18.24 2zm-1.2 18h1.84L7.04 4H5.07l11.97 16z"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@floatingcounsellinguk" target="_blank" rel="noopener" aria-label="YouTube" data-magnetic>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.4a3 3 0 0 0-2.1-2.1C19 5 12 5 12 5s-7 0-8.9.3A3 3 0 0 0 1 7.4 31 31 0 0 0 .7 12 31 31 0 0 0 1 16.6a3 3 0 0 0 2.1 2.1C5 19 12 19 12 19s7 0 8.9-.3a3 3 0 0 0 2.1-2.1A31 31 0 0 0 23.3 12 31 31 0 0 0 23 7.4zM10 15.5v-7l6 3.5-6 3.5z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="cf-name">Your name</label>
+          <input type="text" id="cf-name" name="name" required autocomplete="name">
+        </div>
+        <div class="form-field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required autocomplete="email">
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="cf-topic">What can we help with?</label>
+        <select id="cf-topic" name="topic">
+          <option value="counselling">Counselling enquiry</option>
+          <option value="parenting">Impact Parenting</option>
+          <option value="hub">Community Hub / food support</option>
+          <option value="holiday">Holiday school</option>
+          <option value="volunteer">Volunteering</option>
+          <option value="press">Press / partnership</option>
+          <option value="other">Something else</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" rows="5" required></textarea>
+      </div>
+      <label class="form-consent">
+        <input type="checkbox" name="consent" required>
+        <span>I agree to be contacted in line with the <a href="#privacy">privacy policy</a>.</span>
+      </label>
+      <button type="submit" class="btn btn-primary" data-magnetic>Send message <span class="arrow">→</span></button>
+      <p class="form-status" data-status></p>
+    </form>
+  </div>
+
+  <div class="container map-wrap" data-fade>
+    <iframe
+      class="contact-map"
+      title="Woodside Baptist Church on Google Maps"
+      src="https://www.google.com/maps?q=Woodside+Baptist+Church+Spring+Lane+SE25+4SP&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen></iframe>
+  </div>
+</section>
+
+<!-- ═══════════ CTA ═══════════ -->
+<section class="cta-section">
+  <div class="cta-bg" aria-hidden="true">
+    <div class="cta-orb cta-orb--a" data-parallax data-speed="-0.3"></div>
+    <div class="cta-orb cta-orb--b" data-parallax data-speed="0.4"></div>
+  </div>
+  <div class="container cta-inner">
+    <div class="section-label section-label--light" data-parallax data-speed="-0.2"><span></span> We're here</div>
+    <h2 data-split="lines">Whatever you're carrying, you don't carry it alone.</h2>
+    <p data-split="words">Whether you need counselling, community support, food, or just someone to talk to — reach out today. Your first step matters.</p>
+    <div class="cta-buttons" data-fade>
+      <a href="mailto:info@floatingcounselling.co.uk" class="btn btn-white" data-magnetic>Email us <span class="arrow">→</span></a>
+      <a href="https://wa.me/447305882959" class="btn btn-glass" target="_blank" rel="noopener" data-magnetic>WhatsApp us</a>
+      <a href="https://www.paypal.com/donate?hosted_button_id=FLOATINGCOUNSELLING" class="btn btn-glass" target="_blank" rel="noopener" data-magnetic>Donate via PayPal <span class="arrow">→</span></a>
+      <a href="http://www.localgiving.org/floatingcounselling" class="btn btn-glass" target="_blank" rel="noopener" data-magnetic>Localgiving</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="nav-logo footer-logo" aria-label="Floating Counselling — Home">
+          <img src="images/logo.png" alt="Floating Counselling" class="nav-logo-img" width="140" height="44">
+        </a>
+        <p>A UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care and community-driven programmes.</p>
+        <div class="footer-socials" aria-label="Social links">
+          <a href="https://www.facebook.com/FloatingCounselling" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9V15h-2v-3h2V9.5A3.5 3.5 0 0 1 14 6h2v3h-2c-.6 0-1 .4-1 1v2h3l-.5 3H13v6.9A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="https://www.instagram.com/floating_bodymindsoul" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a>
+          <a href="https://twitter.com/FloatCounsellor" target="_blank" rel="noopener" aria-label="Twitter / X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2H21l-6.52 7.45L22.5 22h-6.84l-5.36-6.99L4.2 22H1.44l6.97-7.96L1 2h6.99l4.84 6.4L18.24 2zm-1.2 18h1.84L7.04 4H5.07l11.97 16z"/></svg></a>
+          <a href="https://www.youtube.com/@floatingcounsellinguk" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.4a3 3 0 0 0-2.1-2.1C19 5 12 5 12 5s-7 0-8.9.3A3 3 0 0 0 1 7.4 31 31 0 0 0 .7 12 31 31 0 0 0 1 16.6a3 3 0 0 0 2.1 2.1C5 19 12 19 12 19s7 0 8.9-.3a3 3 0 0 0 2.1-2.1A31 31 0 0 0 23.3 12 31 31 0 0 0 23 7.4zM10 15.5v-7l6 3.5-6 3.5z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Counselling &amp; Mentoring</a></li>
+          <li><a href="#school">Holiday School</a></li>
+          <li><a href="#hub">Community Hub</a></li>
+          <li><a href="#programmes">Wider Programmes</a></li>
+          <li><a href="#book">Book</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Community</h4>
+        <ul>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#resources">Free Resources</a></li>
+          <li><a href="https://www.paypal.com/donate?hosted_button_id=FLOATINGCOUNSELLING" target="_blank" rel="noopener">Donate (PayPal)</a></li>
+          <li><a href="http://www.localgiving.org/floatingcounselling" target="_blank" rel="noopener">Donate (Localgiving)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@floatingcounselling.co.uk">info@floatingcounselling.co.uk</a></li>
+          <li><a href="https://wa.me/447305882959" target="_blank" rel="noopener">WhatsApp · +44 (0)7305 882959</a></li>
+          <li><a href="tel:+447305882959">Call · +44 (0)7305 882959</a></li>
+          <li>Woodside Baptist Church, Spring Lane, Croydon SE25 4SP</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-trust">
+      <div class="trust-item">
+        <span class="trust-label">Registered charity</span>
+        <span class="trust-value">No. <span data-charity-no>1234567</span> · England &amp; Wales</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-label">Member of</span>
+        <span class="trust-value">BACP · ICO Registered · NHS SWL Partner</span>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="footerYear">2025</span> Floating Counselling™ — All rights reserved. Serving Croydon &amp; London since 2015.</p>
+      <ul class="footer-legal">
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#cookies">Cookies</a></li>
+        <li><a href="#safeguarding">Safeguarding</a></li>
+        <li><a href="#terms">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- Sticky donate CTA -->
+<a href="https://www.paypal.com/donate?hosted_button_id=FLOATINGCOUNSELLING" class="donate-fab" target="_blank" rel="noopener" aria-label="Donate to Floating Counselling">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+  <span>Donate</span>
+</a>
+
+<!-- Back-to-top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+</button>
+
+<!-- Cookie banner -->
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie notice" hidden>
+  <p>We use a small number of cookies to make this site work and to understand how it's used. <a href="#cookies">More info</a>.</p>
+  <div class="cookie-actions">
+    <button type="button" class="btn btn-ghost btn-sm" data-cookie="decline">Decline</button>
+    <button type="button" class="btn btn-primary btn-sm" data-cookie="accept">Accept</button>
+  </div>
+</div>
+
+</body>
+</html>
