@@ -296,35 +296,57 @@
     const impactSection = document.getElementById('impact');
     const counters = document.querySelectorAll('.counter');
     const isNarrow = window.matchMedia('(max-width: 720px)').matches;
-    if (impactSection && counters.length && !isNarrow) {
-      // Pin the full-width track so the centered container stays centered
-      ScrollTrigger.create({
-        trigger: impactSection,
-        start: 'top top',
-        end: '+=80%',
-        pin: '.impact-track',
-        pinSpacing: true,
-      });
-
-      // Counter tween driven by scroll
-      counters.forEach((c) => {
-        const target = parseInt(c.dataset.target || '0', 10);
-        const suffix = c.dataset.suffix || '';
-        const obj = { val: 0 };
-        gsap.to(obj, {
-          val: target,
-          ease: 'power2.out',
-          scrollTrigger: {
-            trigger: impactSection,
-            start: 'top center',
-            end: 'bottom center',
-            scrub: 0.6,
-          },
-          onUpdate: () => {
-            c.textContent = Math.round(obj.val).toLocaleString() + suffix;
-          },
+    if (impactSection && counters.length) {
+      if (!isNarrow) {
+        // Desktop: Pin the full-width track so the centered container stays centered
+        ScrollTrigger.create({
+          trigger: impactSection,
+          start: 'top top',
+          end: '+=80%',
+          pin: '.impact-track',
+          pinSpacing: true,
         });
-      });
+
+        // Counter tween driven by scroll
+        counters.forEach((c) => {
+          const target = parseInt(c.dataset.target || '0', 10);
+          const suffix = c.dataset.suffix || '';
+          const obj = { val: 0 };
+          gsap.to(obj, {
+            val: target,
+            ease: 'power2.out',
+            scrollTrigger: {
+              trigger: impactSection,
+              start: 'top center',
+              end: 'bottom center',
+              scrub: 0.6,
+            },
+            onUpdate: () => {
+              c.textContent = Math.round(obj.val).toLocaleString() + suffix;
+            },
+          });
+        });
+      } else {
+        // Mobile: Simple tween when section enters viewport
+        counters.forEach((c) => {
+          const target = parseInt(c.dataset.target || '0', 10);
+          const suffix = c.dataset.suffix || '';
+          const obj = { val: 0 };
+          gsap.to(obj, {
+            val: target,
+            duration: 1.8,
+            ease: 'power2.out',
+            scrollTrigger: {
+              trigger: impactSection,
+              start: 'top 80%',
+              once: true,
+            },
+            onUpdate: () => {
+              c.textContent = Math.round(obj.val).toLocaleString() + suffix;
+            },
+          });
+        });
+      }
     }
 
     /* ── 12. Magnetic buttons ───────────────────────── */
@@ -403,7 +425,7 @@
     const yearEl = document.getElementById('footerYear');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    /* Sticky donate FAB + back-to-top — auto-hide while scrolling down */
+    /* Sticky donate FAB + back-to-top */
     const donateFab = document.querySelector('.donate-fab');
     const backToTop = document.getElementById('backToTop');
     let lastFabY = 0;
@@ -411,14 +433,14 @@
     function onScrollFabs() {
       const y = window.scrollY;
       const max = document.documentElement.scrollHeight - window.innerHeight;
-      // Track direction with hysteresis (12px) to avoid flicker
       if (y > lastFabY + 12) scrollingDown = true;
       else if (y < lastFabY - 12) scrollingDown = false;
       lastFabY = y;
+      // Donate FAB: always show when in range (don't hide on scroll-down)
       const inFabRange = y > 600 && y < max - 200;
-      const showFab = inFabRange && !scrollingDown;
+      if (donateFab) donateFab.classList.toggle('is-visible', inFabRange);
+      // Back-to-top: hide while scrolling down
       const showTop = y > 1200 && !scrollingDown;
-      if (donateFab) donateFab.classList.toggle('is-visible', showFab);
       if (backToTop) backToTop.classList.toggle('is-visible', showTop);
     }
     window.addEventListener('scroll', onScrollFabs, { passive: true });
