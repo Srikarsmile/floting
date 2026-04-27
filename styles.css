@@ -1855,7 +1855,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
 
   /* Hero — tighter, less padded */
-  .hero { padding-top: 84px; min-height: auto; padding-bottom: 24px; }
+  .hero { padding-top: 110px; min-height: auto; padding-bottom: 24px; }
   .hero-grid { gap: 28px; }
   .hero-content { gap: 16px; }
   .hero-badge { font-size: 0.72rem; padding: 7px 13px; }
