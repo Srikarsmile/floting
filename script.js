@@ -26,10 +26,11 @@
     let lenis = null;
     if (hasLenis && !reduceMotion) {
       lenis = new Lenis({
-        lerp: 0.15,             // higher = more responsive (less smoothing trail)
+        lerp: 0.1,
         smoothWheel: true,
-        wheelMultiplier: 1.1,
-        touchMultiplier: 1.5,
+        wheelMultiplier: 1.0,
+        touchMultiplier: 1.8,
+        syncTouch: false,
       });
       window.lenis = lenis;
 
@@ -61,14 +62,18 @@
     /* ── 3. Navbar — scrolled + show/hide ──────────── */
     const navbar = document.getElementById('navbar');
     let lastScroll = 0;
-    function onScroll() {
+    let navTicking = false;
+    function updateNav() {
       const y = window.scrollY;
       navbar.classList.toggle('scrolled', y > 40);
       if (y > 200 && y > lastScroll + 6) navbar.classList.add('is-hidden');
       else if (y < lastScroll - 6 || y < 200) navbar.classList.remove('is-hidden');
       lastScroll = y;
+      navTicking = false;
     }
-    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('scroll', () => {
+      if (!navTicking) { navTicking = true; requestAnimationFrame(updateNav); }
+    }, { passive: true });
 
     /* ── 4. Mobile nav ──────────────────────────────── */
     const navToggle = document.getElementById('navToggle');
@@ -91,14 +96,17 @@
     /* ── 5. Scroll progress bar ─────────────────────── */
     const progress = document.querySelector('.scroll-progress span');
     if (progress) {
+      let progTicking = false;
+      function updateProgress() {
+        const h = document.documentElement;
+        const max = h.scrollHeight - h.clientHeight;
+        const pct = max > 0 ? (h.scrollTop || window.scrollY) / max : 0;
+        progress.style.width = (pct * 100).toFixed(2) + '%';
+        progTicking = false;
+      }
       window.addEventListener(
         'scroll',
-        () => {
-          const h = document.documentElement;
-          const max = h.scrollHeight - h.clientHeight;
-          const pct = max > 0 ? (h.scrollTop || window.scrollY) / max : 0;
-          progress.style.width = (pct * 100).toFixed(2) + '%';
-        },
+        () => { if (!progTicking) { progTicking = true; requestAnimationFrame(updateProgress); } },
         { passive: true }
       );
     }
