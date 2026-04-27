@@ -1041,6 +1041,9 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: var(--s-9); margin-bottom: var(--s-10);
 }
+.footer-grid--compact {
+  grid-template-columns: 1.5fr 1fr;
+}
 .footer-brand .nav-logo { font-size: 1.4rem; margin-bottom: var(--s-5); display: inline-flex; }
 .footer-brand p { font-size: 0.9rem; line-height: 1.7; max-width: 420px; }
 .footer h4 {
