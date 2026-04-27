@@ -114,6 +114,12 @@
         el.style.opacity = 1;
         el.style.transform = 'none';
       });
+      // Snap counters to their final values (no animation)
+      document.querySelectorAll('.counter').forEach((c) => {
+        const target = parseInt(c.dataset.target || '0', 10);
+        const suffix = c.dataset.suffix || '';
+        c.textContent = target.toLocaleString() + suffix;
+      });
       return;
     }
 
@@ -389,15 +395,23 @@
     const yearEl = document.getElementById('footerYear');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    /* Sticky donate FAB + back-to-top */
+    /* Sticky donate FAB + back-to-top — auto-hide while scrolling down */
     const donateFab = document.querySelector('.donate-fab');
     const backToTop = document.getElementById('backToTop');
+    let lastFabY = 0;
+    let scrollingDown = false;
     function onScrollFabs() {
       const y = window.scrollY;
       const max = document.documentElement.scrollHeight - window.innerHeight;
-      const showFab = y > 600 && y < max - 200;
+      // Track direction with hysteresis (12px) to avoid flicker
+      if (y > lastFabY + 12) scrollingDown = true;
+      else if (y < lastFabY - 12) scrollingDown = false;
+      lastFabY = y;
+      const inFabRange = y > 600 && y < max - 200;
+      const showFab = inFabRange && !scrollingDown;
+      const showTop = y > 1200 && !scrollingDown;
       if (donateFab) donateFab.classList.toggle('is-visible', showFab);
-      if (backToTop) backToTop.classList.toggle('is-visible', y > 1200);
+      if (backToTop) backToTop.classList.toggle('is-visible', showTop);
     }
     window.addEventListener('scroll', onScrollFabs, { passive: true });
     onScrollFabs();
