@@ -9,7 +9,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260510-5';
+    this.version = '20260510-6';
     this.isolationTimer = 0;
     this.isolationObserver = null;
   }
@@ -223,19 +223,40 @@ class FloatingHome extends HTMLElement {
     this.style.setProperty('position', 'relative', 'important');
     this.style.setProperty('z-index', '1', 'important');
     this.style.setProperty('box-sizing', 'border-box', 'important');
+    this.style.setProperty('left', 'auto', 'important');
+    this.style.setProperty('right', 'auto', 'important');
+    this.style.setProperty('margin-left', '0', 'important');
+    this.style.setProperty('margin-right', '0', 'important');
+    this.style.setProperty('margin-top', '0', 'important');
+
+    if (this.isWixEditorPreview()) {
+      this.style.setProperty('width', '100%', 'important');
+      this.style.setProperty('max-width', '100%', 'important');
+      this.style.setProperty('min-height', '720px', 'important');
+      this.style.setProperty('overflow', 'hidden', 'important');
+      this.style.setProperty('contain', 'content', 'important');
+      return;
+    }
+
     this.style.setProperty('width', '100%', 'important');
     this.style.setProperty('max-width', 'none', 'important');
     this.style.setProperty('min-height', '100vh', 'important');
-    this.style.setProperty('left', 'auto', 'important');
-    this.style.setProperty('right', 'auto', 'important');
-    this.style.setProperty('margin-right', '0', 'important');
     this.style.setProperty('overflow', 'visible', 'important');
     this.style.setProperty('contain', 'none', 'important');
     this.fitWixViewport();
   }
 
+  isWixEditorPreview() {
+    const href = window.location.href || '';
+    const referrer = document.referrer || '';
+
+    return /CustomElementPreviewIframe|editor-elements-library|editor\.wix\.com|\/html\/editor\//i.test(
+      `${href} ${referrer}`,
+    );
+  }
+
   fitWixViewport() {
-    if (!this.isConnected) return;
+    if (!this.isConnected || this.isWixEditorPreview()) return;
 
     const viewportWidth = Math.max(
       document.documentElement.clientWidth || 0,
@@ -268,6 +289,8 @@ class FloatingHome extends HTMLElement {
   }
 
   scheduleWixIsolation() {
+    if (this.isWixEditorPreview()) return;
+
     this.isolateFromWixLayout();
 
     [60, 250, 900, 1800, 3200].forEach((delay) => {
@@ -288,7 +311,7 @@ class FloatingHome extends HTMLElement {
   }
 
   isolateFromWixLayout() {
-    if (!this.isConnected) return;
+    if (!this.isConnected || this.isWixEditorPreview()) return;
 
     this.prepareWixHost();
 
