@@ -1,7 +1,7 @@
 import wixData from "wix-data";
 
 const floatingHomeId = "customElement1";
-const floatingBuildVersion = "20260511-01";
+const floatingBuildVersion = "20260511-02";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
 
