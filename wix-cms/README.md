@@ -25,11 +25,11 @@ Import seed: `FloatingHomeContent.csv`
 Wix display name: `FloatingHomeItems`
 Wix collection ID used in page code: `Import2`
 
-Use this for repeated sections: services, testimonials, team, partners, holiday weeks, hub flyers, and original page links.
+Use this for repeated sections: pathways, services, community model cards, testimonials, team, partners, holiday weeks, hub flyers, assistant prompts, and original page links.
 
 Fields:
 
-- `section` - Text. Supported values: `services`, `holidayValues`, `holidaySupport`, `holidayWeeks`, `hubEvents`, `hubFlyers`, `testimonials`, `team`, `partners`, `originalPages`
+- `section` - Text. Supported values: `pathways`, `services`, `communityModel`, `holidayValues`, `holidaySupport`, `holidayWeeks`, `hubEvents`, `hubFlyers`, `testimonials`, `team`, `partners`, `originalPages`, `assistantPrompts`
 - `order` - Number
 - `title` - Text
 - `subtitle` - Text

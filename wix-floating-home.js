@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260510-14';
+    this.version = '20260510-17';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.cmsData = null;
@@ -560,7 +560,9 @@ class FloatingHome extends HTMLElement {
   }
 
   renderCmsLists() {
+    this.renderPathways();
     this.renderServices();
+    this.renderCommunityModel();
     this.renderHolidayValues();
     this.renderHolidaySupport();
     this.renderHolidayWeeks();
@@ -570,6 +572,7 @@ class FloatingHome extends HTMLElement {
     this.renderTeam();
     this.renderPartners();
     this.renderOriginalPages();
+    this.renderAssistantPrompts();
   }
 
   cmsEntry(key) {
@@ -690,6 +693,23 @@ class FloatingHome extends HTMLElement {
     });
   }
 
+  renderPathways() {
+    this.replaceList('.pathway-grid', 'pathways', (node, item) => {
+      this.setNodeText(node.querySelector('.pathway-kicker'), this.itemText(item, ['tag', 'subtitle', 'label']));
+      this.setNodeText(node.querySelector('h3'), this.itemText(item, ['title', 'name']));
+      this.setNodeText(node.querySelector('p'), this.itemText(item, ['body', 'description', 'text']));
+      this.setLink(node.querySelector('a'), item);
+    });
+  }
+
+  renderCommunityModel() {
+    this.replaceList('.community-model-cards', 'communityModel', (node, item) => {
+      this.setNodeText(node.querySelector('span'), this.itemText(item, ['tag', 'subtitle', 'label']));
+      this.setNodeText(node.querySelector('h3'), this.itemText(item, ['title', 'name']));
+      this.setNodeText(node.querySelector('p'), this.itemText(item, ['body', 'description', 'text']));
+    });
+  }
+
   renderHolidayValues() {
     this.renderPillList('.holiday-values', 'holidayValues');
   }
@@ -799,6 +819,24 @@ class FloatingHome extends HTMLElement {
     });
   }
 
+  renderAssistantPrompts() {
+    const items = this.cmsItems('assistantPrompts');
+    if (!items.length) return;
+
+    ['.assistant-prompts', '.assistant-panel-prompts'].forEach((selector) => {
+      const container = this.shadowRoot.querySelector(selector);
+      if (!container) return;
+
+      container.replaceChildren();
+      items.forEach((item) => {
+        const link = document.createElement('a');
+        link.textContent = this.itemText(item, ['title', 'name', 'ctaLabel']) || 'Ask for help';
+        link.setAttribute('href', this.itemText(item, ['url', 'href', 'link']) || '#contact');
+        container.appendChild(link);
+      });
+    });
+  }
+
   setNodeText(node, value) {
     if (node && value) node.textContent = value;
   }
@@ -872,6 +910,36 @@ class FloatingHome extends HTMLElement {
           navLinks.classList.remove('open');
           navToggle.setAttribute('aria-expanded', 'false');
         });
+      });
+    }
+
+    const assistantPanel = root.querySelector('[data-assistant-panel]');
+    const assistantWidget = root.querySelector('[data-assistant-widget]');
+    const assistantOpenButtons = root.querySelectorAll('[data-assistant-open]');
+    const assistantCloseButtons = root.querySelectorAll('[data-assistant-close]');
+
+    const setAssistantOpen = (open) => {
+      if (!assistantPanel) return;
+      assistantPanel.hidden = !open;
+      if (assistantWidget) assistantWidget.classList.toggle('is-open', open);
+      assistantOpenButtons.forEach((button) => {
+        button.setAttribute('aria-expanded', String(open));
+      });
+    };
+
+    assistantOpenButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        setAssistantOpen(Boolean(assistantPanel && assistantPanel.hidden));
+      });
+    });
+
+    assistantCloseButtons.forEach((button) => {
+      button.addEventListener('click', () => setAssistantOpen(false));
+    });
+
+    if (assistantPanel) {
+      assistantPanel.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => setAssistantOpen(false));
       });
     }
 

@@ -1,10 +1,17 @@
 section,order,title,subtitle,tag,body,image,alt,url,ctaLabel,email,role,initials,enabled
+pathways,10,"I need counselling",,"Therapy","Start with one-to-one, family, couple, group, online or in-person therapeutic support.",,,"#contact","Book a session",,,,true
+pathways,20,"I need parenting support",,"Family","Get practical tools for behaviour, attachment, trauma recovery and family confidence.",,,"#parenting","View parenting help",,,,true
+pathways,30,"I need practical help",,"Community","Use the hub for food, clothing, forms, housing questions, NHS links and wellbeing support.",,,"#hub","Visit the hub",,,,true
+pathways,40,"I want to volunteer or partner",,"Partners","Support local residents through food donations, funding, skills, events or professional help.",,,"#contact","Start a partnership",,,,true
 services,10,"Counselling & Mentoring",,,"Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person and online, with free to low-cost care for elderly, Universal Credit and low-income clients.",,,"#contact","Get started",,,,true
 services,20,"Impact Parenting",,,"Workshops, 1:1 mentoring, and group programmes for parents — including therapeutic camps, the Impact Parenting Pillar training and a private support group.",,,"#parenting","Learn more",,,,true
 services,30,"Community Support",,,"Donated food distributed weekly from Tesco, Sainsbury's, Greggs, Lidl, Asda, Felix and Amazon to individuals and families in need.",,,"#hub","Visit the hub",,,,true
 services,40,"Floating Community Hub",,,"A weekly hub at Woodside Baptist Church offering housing support, mental health services, art therapy, bills help and massage therapy.",,,"#hub","Find out more",,,,true
 services,50,"Financial Literacy & Business Training",,,"Masterclasses and retreats supporting budgeting skills, entrepreneurial growth and confidence for the global majority community.",,,"#contact","Enquire",,,,true
 services,60,"Holiday School & Camps",,,"Art therapy, music, play therapy and psychological techniques for children aged 5-11. Over 1,400 children registered across recent programmes.",,,"#holiday-school","Register",,,,true
+communityModel,10,"Food, forms and practical stability",,"Immediate needs","Weekly community hub, food and clothes support, form filling, housing questions, bills help and local referrals.",,,,,,,,true
+communityModel,20,"Counselling, mentoring and family repair",,"Therapeutic care","Trauma-informed therapy, relationship work, parenting tools and emotional support for adults, children and families.",,,,,,,,true
+communityModel,30,"Confidence, skills and opportunity",,"Longer-term growth","Holiday school, financial literacy, business training, creative wellbeing, volunteering and partnership pathways.",,,,,,,,true
 holidayValues,10,"I AM Honesty",,,,,,,,,,,true
 holidayValues,20,"I AM Fairness",,,,,,,,,,,true
 holidayValues,30,"I AM Kindness",,,,,,,,,,,true
@@ -52,3 +59,8 @@ originalPages,30,"Holiday School",,"Children","Creative therapeutic school progr
 originalPages,40,"Free Resources",,"Resources","Parenting and wellbeing support materials from the original Floating Counselling website.",,,https://www.floatingcounselling.co.uk/freeresources,"Open original page",,,,true
 originalPages,50,"Events",,"Events","Community workshops, support days and Floating Counselling events from the original website.",,,https://www.floatingcounselling.co.uk/events,"Open original page",,,,true
 originalPages,60,"Homeless Necessity",,"Outreach","Community outreach and support for people facing homelessness and practical hardship.",,,https://www.floatingcounselling.co.uk/homelessproject,"Open original page",,,,true
+assistantPrompts,10,"Counselling enquiry",,,"Route me to the therapy team.",,,"#contact",,,,,true
+assistantPrompts,20,"Parenting support",,,"Show Impact Parenting options.",,,"#parenting",,,,,true
+assistantPrompts,30,"Food or community hub",,,"Show practical support and hub details.",,,"#hub",,,,,true
+assistantPrompts,40,"Holiday school",,,"Show children's holiday school support.",,,"#holiday-school",,,,,true
+assistantPrompts,50,"Volunteer or partner",,,"Route me to partnership enquiries.",,,"#contact",,,,,true

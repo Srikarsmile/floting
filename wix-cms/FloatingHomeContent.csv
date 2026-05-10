@@ -3,9 +3,14 @@ hero.title,"Counselling, Community & Compassion.",,,,true
 hero.lede,"A UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care, practical help and community-driven programmes designed as wraparound care.",,,,true
 hero.image,,https://srikarsmile.github.io/floting/images/hero.png,Floating Counselling community gathering,,true
 hero.primaryUrl,,,,#contact,true
-hero.secondaryUrl,,,,#services,true
+hero.secondaryUrl,,,,#pathways,true
+pathways.title,"Choose the help you need today.",,,,true
+pathways.subtitle,"Tell us what feels most urgent and we will point you towards the right support, whether that starts with therapy, practical help, family work or a partnership conversation.",,,,true
+impact.note,"Practical community support and therapeutic care sit together, so people can stabilise today and grow tomorrow.",,,,true
 services.title,"Six ways we hold space for you.",,,,true
 services.subtitle,"Whether you're looking for counselling, community, or just a hot meal and a smile — Floating is here for you.",,,,true
+communityModel.title,"More than counselling. A joined-up support system.",,,,true
+communityModel.subtitle,"People often need more than one kind of support. Floating brings practical, emotional and long-term help together so families are not passed from place to place.",,,,true
 about.title,"Wraparound care, rooted in community.",,,,true
 about.subtitle,"Inspired by Maslow's hierarchy of needs, we meet people where they are — emotionally, practically and socially — to create lasting change and personal growth.",,,,true
 about.body,"We are proudly led by a diverse team of African women, whose lived experience and professional expertise shape every part of our work.",,,,true
@@ -31,6 +36,8 @@ originalPages.title,"Key pages and programmes retained.",,,,true
 originalPages.subtitle,"The local rebuild now includes the main home-page content and keeps clear routes to the deeper original pages.",,,,true
 faq.title,"Everything you might be wondering.",,,,true
 faq.subtitle,"If your question isn't here, send us a note — we read every message.",,,,true
+assistant.title,"A guided first step for people who do not know what to ask for.",,,,true
+assistant.subtitle,"Answer one simple question and we will guide you towards counselling, family support, community hub help, volunteering or partnership enquiries.",,,,true
 contact.title,"We'd love to hear from you.",,,,true
 contact.subtitle,"Email, WhatsApp, call or fill in the form. We aim to reply within two working days.",,,,true
 cta.title,"Whatever you're carrying, you don't carry it alone.",,,,true

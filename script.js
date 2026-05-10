@@ -456,6 +456,42 @@
       });
     }
 
+    /* Ask Floating assistant widget */
+    const assistantPanel = document.querySelector('[data-assistant-panel]');
+    const assistantWidget = document.querySelector('[data-assistant-widget]');
+    const assistantOpenButtons = document.querySelectorAll('[data-assistant-open]');
+    const assistantCloseButtons = document.querySelectorAll('[data-assistant-close]');
+
+    function setAssistantOpen(open) {
+      if (!assistantPanel) return;
+      assistantPanel.hidden = !open;
+      if (assistantWidget) assistantWidget.classList.toggle('is-open', open);
+      assistantOpenButtons.forEach((button) => {
+        button.setAttribute('aria-expanded', String(open));
+      });
+    }
+
+    assistantOpenButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const isOpen = assistantPanel && !assistantPanel.hidden;
+        setAssistantOpen(!isOpen);
+      });
+    });
+
+    assistantCloseButtons.forEach((button) => {
+      button.addEventListener('click', () => setAssistantOpen(false));
+    });
+
+    if (assistantPanel) {
+      assistantPanel.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => setAssistantOpen(false));
+      });
+    }
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') setAssistantOpen(false);
+    });
+
     /* Cookie banner */
     const banner = document.getElementById('cookieBanner');
     if (banner) {
