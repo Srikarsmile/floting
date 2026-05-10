@@ -9,7 +9,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260510-6';
+    this.version = '20260510-7';
     this.isolationTimer = 0;
     this.isolationObserver = null;
   }
@@ -289,7 +289,15 @@ class FloatingHome extends HTMLElement {
   }
 
   scheduleWixIsolation() {
-    if (this.isWixEditorPreview()) return;
+    if (this.isWixEditorPreview()) {
+      this.isolateEditorLegacyWixLayout();
+
+      [80, 350, 900, 1800].forEach((delay) => {
+        window.setTimeout(() => this.isolateEditorLegacyWixLayout(), delay);
+      });
+
+      return;
+    }
 
     this.isolateFromWixLayout();
 
@@ -341,6 +349,43 @@ class FloatingHome extends HTMLElement {
     });
 
     this.fitWixViewport();
+  }
+
+  isolateEditorLegacyWixLayout() {
+    if (!this.isConnected) return;
+
+    this.prepareWixHost();
+
+    const path = [];
+    let current = this;
+
+    while (
+      current &&
+      current.nodeType === Node.ELEMENT_NODE &&
+      current !== document.body &&
+      current !== document.documentElement &&
+      path.length < 32
+    ) {
+      path.push(current);
+      current = current.parentElement;
+    }
+
+    path.forEach((node, index) => {
+      const childToKeep = index === 0 ? this : path[index - 1];
+
+      Array.from(node.children || []).forEach((child) => {
+        if (child !== childToKeep && !child.contains(this)) {
+          this.hideLegacyWixNode(child);
+        }
+      });
+    });
+
+    const root = this.shadowRoot && this.shadowRoot.querySelector('.floating-root');
+    if (root) {
+      root.style.setProperty('width', '100%', 'important');
+      root.style.setProperty('max-width', '100%', 'important');
+      root.style.setProperty('overflow-x', 'hidden', 'important');
+    }
   }
 
   expandWixLayoutNode(node) {
