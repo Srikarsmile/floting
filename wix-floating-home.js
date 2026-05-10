@@ -9,11 +9,27 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260510-3';
+    this.version = '20260510-4';
+    this.isolationTimer = 0;
+    this.isolationObserver = null;
   }
 
   connectedCallback() {
+    this.prepareWixHost();
     this.render();
+    this.scheduleWixIsolation();
+  }
+
+  disconnectedCallback() {
+    if (this.isolationObserver) {
+      this.isolationObserver.disconnect();
+      this.isolationObserver = null;
+    }
+
+    if (this.isolationTimer) {
+      window.clearTimeout(this.isolationTimer);
+      this.isolationTimer = 0;
+    }
   }
 
   asset(path) {
@@ -190,6 +206,7 @@ class FloatingHome extends HTMLElement {
       this.rewriteLocalAssets();
       this.finalizeContent();
       this.bindInteractions();
+      this.scheduleWixIsolation();
     } catch (error) {
       root.innerHTML = `
         <div class="floating-error">
@@ -198,6 +215,103 @@ class FloatingHome extends HTMLElement {
         </div>
       `;
     }
+  }
+
+  prepareWixHost() {
+    this.setAttribute('data-floating-home-host', 'true');
+    this.style.setProperty('display', 'block', 'important');
+    this.style.setProperty('position', 'relative', 'important');
+    this.style.setProperty('z-index', '1', 'important');
+    this.style.setProperty('width', '100vw', 'important');
+    this.style.setProperty('max-width', '100vw', 'important');
+    this.style.setProperty('min-height', '100vh', 'important');
+    this.style.setProperty('left', '50%', 'important');
+    this.style.setProperty('right', '50%', 'important');
+    this.style.setProperty('margin-left', '-50vw', 'important');
+    this.style.setProperty('margin-right', '-50vw', 'important');
+    this.style.setProperty('overflow', 'visible', 'important');
+    this.style.setProperty('contain', 'none', 'important');
+  }
+
+  scheduleWixIsolation() {
+    this.isolateFromWixLayout();
+
+    [60, 250, 900, 1800, 3200].forEach((delay) => {
+      window.setTimeout(() => this.isolateFromWixLayout(), delay);
+    });
+
+    if (!this.isolationObserver && document.body) {
+      this.isolationObserver = new MutationObserver(() => {
+        if (this.isolationTimer) window.clearTimeout(this.isolationTimer);
+        this.isolationTimer = window.setTimeout(() => {
+          this.isolationTimer = 0;
+          this.isolateFromWixLayout();
+        }, 80);
+      });
+
+      this.isolationObserver.observe(document.body, { childList: true, subtree: true });
+    }
+  }
+
+  isolateFromWixLayout() {
+    if (!this.isConnected) return;
+
+    this.prepareWixHost();
+
+    const path = [];
+    let current = this;
+
+    while (
+      current &&
+      current.nodeType === Node.ELEMENT_NODE &&
+      current !== document.body &&
+      current !== document.documentElement &&
+      path.length < 40
+    ) {
+      path.push(current);
+      current = current.parentElement;
+    }
+
+    path.forEach((node, index) => {
+      const childToKeep = index === 0 ? this : path[index - 1];
+      this.expandWixLayoutNode(node);
+
+      Array.from(node.children || []).forEach((child) => {
+        if (child !== childToKeep && !child.contains(this)) {
+          this.hideLegacyWixNode(child);
+        }
+      });
+    });
+  }
+
+  expandWixLayoutNode(node) {
+    if (!node || node === document.body || node === document.documentElement) return;
+
+    node.style.setProperty('width', '100%', 'important');
+    node.style.setProperty('max-width', 'none', 'important');
+    node.style.setProperty('min-height', '0', 'important');
+    node.style.setProperty('height', 'auto', 'important');
+    node.style.setProperty('overflow', 'visible', 'important');
+    node.style.setProperty('padding-left', '0', 'important');
+    node.style.setProperty('padding-right', '0', 'important');
+
+    if (node !== this) {
+      node.style.setProperty('margin-left', '0', 'important');
+      node.style.setProperty('margin-right', '0', 'important');
+    }
+  }
+
+  hideLegacyWixNode(node) {
+    if (!node || node === this || node.contains(this)) return;
+
+    node.setAttribute('data-floating-home-hidden', 'true');
+    node.setAttribute('aria-hidden', 'true');
+    node.style.setProperty('display', 'none', 'important');
+    node.style.setProperty('visibility', 'hidden', 'important');
+    node.style.setProperty('pointer-events', 'none', 'important');
+    node.style.setProperty('height', '0', 'important');
+    node.style.setProperty('min-height', '0', 'important');
+    node.style.setProperty('overflow', 'hidden', 'important');
   }
 
   rewriteLocalAssets() {
