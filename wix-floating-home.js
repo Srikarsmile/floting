@@ -9,7 +9,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260510-4';
+    this.version = '20260510-5';
     this.isolationTimer = 0;
     this.isolationObserver = null;
   }
@@ -222,15 +222,49 @@ class FloatingHome extends HTMLElement {
     this.style.setProperty('display', 'block', 'important');
     this.style.setProperty('position', 'relative', 'important');
     this.style.setProperty('z-index', '1', 'important');
-    this.style.setProperty('width', '100vw', 'important');
-    this.style.setProperty('max-width', '100vw', 'important');
+    this.style.setProperty('box-sizing', 'border-box', 'important');
+    this.style.setProperty('width', '100%', 'important');
+    this.style.setProperty('max-width', 'none', 'important');
     this.style.setProperty('min-height', '100vh', 'important');
-    this.style.setProperty('left', '50%', 'important');
-    this.style.setProperty('right', '50%', 'important');
-    this.style.setProperty('margin-left', '-50vw', 'important');
-    this.style.setProperty('margin-right', '-50vw', 'important');
+    this.style.setProperty('left', 'auto', 'important');
+    this.style.setProperty('right', 'auto', 'important');
+    this.style.setProperty('margin-right', '0', 'important');
     this.style.setProperty('overflow', 'visible', 'important');
     this.style.setProperty('contain', 'none', 'important');
+    this.fitWixViewport();
+  }
+
+  fitWixViewport() {
+    if (!this.isConnected) return;
+
+    const viewportWidth = Math.max(
+      document.documentElement.clientWidth || 0,
+      window.innerWidth || 0,
+    );
+
+    if (!viewportWidth) return;
+
+    const rect = this.getBoundingClientRect();
+    const currentMarginLeft = Number.parseFloat(this.style.marginLeft) || 0;
+    const currentMarginTop = Number.parseFloat(this.style.marginTop) || 0;
+    const naturalLeft = rect.left - currentMarginLeft + (window.scrollX || 0);
+    const naturalTop = rect.top - currentMarginTop + (window.scrollY || 0);
+    const topOffset = naturalTop > 0 && naturalTop < 640 ? -naturalTop : 0;
+
+    this.style.setProperty('width', `${viewportWidth}px`, 'important');
+    this.style.setProperty('max-width', `${viewportWidth}px`, 'important');
+    this.style.setProperty('margin-left', `${-naturalLeft}px`, 'important');
+    this.style.setProperty('margin-top', `${topOffset}px`, 'important');
+
+    const root = this.shadowRoot && this.shadowRoot.querySelector('.floating-root');
+    if (root) {
+      root.style.setProperty('width', '100%', 'important');
+      root.style.setProperty('max-width', '100%', 'important');
+      root.style.setProperty('overflow-x', 'hidden', 'important');
+    }
+
+    document.documentElement.style.setProperty('overflow-x', 'hidden', 'important');
+    document.body.style.setProperty('overflow-x', 'hidden', 'important');
   }
 
   scheduleWixIsolation() {
@@ -282,6 +316,8 @@ class FloatingHome extends HTMLElement {
         }
       });
     });
+
+    this.fitWixViewport();
   }
 
   expandWixLayoutNode(node) {
