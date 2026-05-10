@@ -1,0 +1,37 @@
+key,value,image,alt,url,enabled
+hero.title,"Counselling, Community & Compassion.",,,,true
+hero.lede,"A UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care, practical help and community-driven programmes designed as wraparound care.",,,,true
+hero.image,,https://srikarsmile.github.io/floting/images/hero.png,Floating Counselling community gathering,,true
+hero.primaryUrl,,,,#contact,true
+hero.secondaryUrl,,,,#services,true
+services.title,"Six ways we hold space for you.",,,,true
+services.subtitle,"Whether you're looking for counselling, community, or just a hot meal and a smile — Floating is here for you.",,,,true
+about.title,"Wraparound care, rooted in community.",,,,true
+about.subtitle,"Inspired by Maslow's hierarchy of needs, we meet people where they are — emotionally, practically and socially — to create lasting change and personal growth.",,,,true
+about.body,"We are proudly led by a diverse team of African women, whose lived experience and professional expertise shape every part of our work.",,,,true
+about.image,,https://srikarsmile.github.io/floting/images/counselling.png,Counselling session at Floating Counselling,,true
+parenting.title,"Therapy with realistic tools and strategy for a better life.",,,,true
+parenting.subtitle,"Floating combines 45 years as clinical psychotherapists with 50,000+ clinical hours of working to help individuals, children and parents live better and be better.",,,,true
+parenting.body,"The Impact Parenting approach gives families practical, scientifically grounded strategies to heal trauma, parent more effectively, and reduce generational trauma across the family system.",,,,true
+parenting.image,,https://srikarsmile.github.io/floting/images/original-impact-parenting.png,Impact Parenting support artwork from Floating Counselling,,true
+parenting.infographic,,https://srikarsmile.github.io/floting/images/original-impact-infographic.png,Floating Counselling community organisation impact infographic,,true
+holiday.title,"Values, resilience and creativity for children 5-11.",,,,true
+holiday.subtitle,"Raising children gets easier with trained professionals supporting physical health, resilience, emotional intelligence and wellbeing through art, music, play therapy, sand play, piano, guitar and proven psychological techniques.",,,,true
+hub.title,"Floating Community Hub.",,,,true
+hub.subtitle,"A central gathering place for Croydon residents. Come together, have a cup of tea and a chat. We're here to help you thrive — not just survive.",,,,true
+hub.body,"Built by residents for residents, the hub brings together weekly food and clothes support, low-cost and free counselling, NHS staff, form filling, housing support, utility bill help, art therapy, massage therapy and practical advocacy in one place.",,,,true
+hub.image,,https://srikarsmile.github.io/floting/images/original-hub-whatsapp.jpg,Floating Community Hub Croydon flyer,,true
+testimonials.title,"In their own words.",,,,true
+testimonials.subtitle,"Hear from the families and individuals whose lives have been transformed.",,,,true
+team.title,"Meet the team.",,,,true
+team.subtitle,"Led by a diverse team of African women with lived experience and professional expertise.",,,,true
+partners.title,"Supported by community partnerships since 2015.",,,,true
+partners.subtitle,"Original site funders, sponsors, partners and registrations from 2015-2023.",,,,true
+originalPages.title,"Key pages and programmes retained.",,,,true
+originalPages.subtitle,"The local rebuild now includes the main home-page content and keeps clear routes to the deeper original pages.",,,,true
+faq.title,"Everything you might be wondering.",,,,true
+faq.subtitle,"If your question isn't here, send us a note — we read every message.",,,,true
+contact.title,"We'd love to hear from you.",,,,true
+contact.subtitle,"Email, WhatsApp, call or fill in the form. We aim to reply within two working days.",,,,true
+cta.title,"Whatever you're carrying, you don't carry it alone.",,,,true
+cta.subtitle,"Whether you need counselling, community support, food, or just someone to talk to — reach out today. Your first step matters.",,,,true

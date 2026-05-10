@@ -5,19 +5,37 @@ const floatingHomeAssetBase = (() => {
 })();
 
 class FloatingHome extends HTMLElement {
+  static get observedAttributes() {
+    return ['data-cms'];
+  }
+
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260510-11';
+    this.version = '20260510-12';
     this.isolationTimer = 0;
     this.isolationObserver = null;
+    this.cmsData = null;
+    this.hasRendered = false;
   }
 
   connectedCallback() {
     this.prepareWixHost();
+    this.readCmsAttribute();
     this.render();
     this.scheduleWixIsolation();
+  }
+
+  attributeChangedCallback(name, previousValue, nextValue) {
+    if (name !== 'data-cms' || previousValue === nextValue) return;
+
+    this.readCmsAttribute();
+    if (this.hasRendered) {
+      this.applyCmsData();
+      this.finalizeContent();
+      this.bindInteractions();
+    }
   }
 
   disconnectedCallback() {
@@ -232,6 +250,8 @@ class FloatingHome extends HTMLElement {
       `;
 
       this.rewriteLocalAssets();
+      this.hasRendered = true;
+      this.applyCmsData();
       this.finalizeContent();
       this.bindInteractions();
       this.scheduleWixIsolation();
@@ -450,6 +470,360 @@ class FloatingHome extends HTMLElement {
         node.setAttribute('src', this.asset(source.replace(/^\.\//, '')));
       }
     });
+  }
+
+  readCmsAttribute() {
+    const rawValue = this.getAttribute('data-cms');
+
+    if (!rawValue) {
+      this.cmsData = null;
+      return;
+    }
+
+    try {
+      this.cmsData = this.normalizeCmsPayload(JSON.parse(rawValue));
+    } catch (error) {
+      this.cmsData = null;
+      this.setAttribute('data-cms-error', 'invalid-json');
+    }
+  }
+
+  normalizeCmsPayload(payload) {
+    const source = payload && typeof payload === 'object' ? payload : {};
+    const content = {};
+    const groupedItems = {};
+
+    if (Array.isArray(source.content)) {
+      source.content.forEach((entry) => {
+        if (!entry || entry.enabled === false || !entry.key) return;
+        content[String(entry.key)] = entry;
+      });
+    } else if (source.content && typeof source.content === 'object') {
+      Object.keys(source.content).forEach((key) => {
+        const value = source.content[key];
+        content[key] = value && typeof value === 'object' ? { key, ...value } : { key, value };
+      });
+    }
+
+    const itemSource = source.items;
+    if (Array.isArray(itemSource)) {
+      itemSource.forEach((item) => {
+        if (!item || item.enabled === false || !item.section) return;
+        const section = String(item.section);
+        if (!groupedItems[section]) groupedItems[section] = [];
+        groupedItems[section].push(item);
+      });
+    } else if (itemSource && typeof itemSource === 'object') {
+      Object.keys(itemSource).forEach((section) => {
+        groupedItems[section] = Array.isArray(itemSource[section])
+          ? itemSource[section].filter((item) => item && item.enabled !== false)
+          : [];
+      });
+    }
+
+    Object.keys(groupedItems).forEach((section) => {
+      groupedItems[section].sort((a, b) => {
+        const left = Number(a.order ?? a.sortOrder ?? 0);
+        const right = Number(b.order ?? b.sortOrder ?? 0);
+        return left - right;
+      });
+    });
+
+    return { content, items: groupedItems };
+  }
+
+  applyCmsData() {
+    if (!this.cmsData || !this.shadowRoot) return;
+
+    this.applyCmsContentOverrides();
+    this.renderCmsLists();
+    this.rewriteLocalAssets();
+    this.setAttribute('data-cms-ready', 'true');
+  }
+
+  applyCmsContentOverrides() {
+    const root = this.shadowRoot;
+
+    root.querySelectorAll('[data-cms-text]').forEach((node) => {
+      const value = this.cmsText(node.getAttribute('data-cms-text'));
+      if (value !== null) node.textContent = value;
+    });
+
+    root.querySelectorAll('[data-cms-href]').forEach((node) => {
+      const value = this.cmsUrl(node.getAttribute('data-cms-href'));
+      if (value) node.setAttribute('href', value);
+    });
+
+    root.querySelectorAll('[data-cms-image]').forEach((node) => {
+      this.applyCmsImage(node, this.cmsEntry(node.getAttribute('data-cms-image')));
+    });
+  }
+
+  renderCmsLists() {
+    this.renderServices();
+    this.renderHolidayValues();
+    this.renderHolidaySupport();
+    this.renderHolidayWeeks();
+    this.renderHubEvents();
+    this.renderHubFlyers();
+    this.renderTestimonials();
+    this.renderTeam();
+    this.renderPartners();
+    this.renderOriginalPages();
+  }
+
+  cmsEntry(key) {
+    if (!key || !this.cmsData) return null;
+    return this.cmsData.content[key] || null;
+  }
+
+  cmsText(key) {
+    return this.entryText(this.cmsEntry(key));
+  }
+
+  cmsUrl(key) {
+    const entry = this.cmsEntry(key);
+    if (!entry) return '';
+    return this.stringValue(entry.url || entry.href || entry.link || entry.value);
+  }
+
+  cmsItems(section) {
+    if (!section || !this.cmsData) return [];
+    return this.cmsData.items[section] || [];
+  }
+
+  entryText(entry) {
+    if (entry === null || entry === undefined) return null;
+    if (typeof entry === 'string' || typeof entry === 'number') return String(entry);
+
+    return this.stringValue(
+      entry.value ?? entry.text ?? entry.body ?? entry.description ?? entry.title ?? entry.name ?? null,
+    );
+  }
+
+  itemText(item, fields) {
+    for (const field of fields) {
+      const value = item && item[field];
+      if (value !== undefined && value !== null && value !== '') return this.stringValue(value);
+    }
+
+    return '';
+  }
+
+  stringValue(value) {
+    if (value === null || value === undefined) return '';
+    if (typeof value === 'string') return value;
+    if (typeof value === 'number' || typeof value === 'boolean') return String(value);
+    if (typeof value === 'object') {
+      return value.text || value.value || value.url || value.src || '';
+    }
+    return String(value);
+  }
+
+  mediaValue(value) {
+    if (!value) return '';
+
+    if (typeof value === 'object') {
+      return this.mediaValue(value.src || value.url || value.image || value.fileUrl || value.value);
+    }
+
+    const rawValue = String(value).trim();
+    if (!rawValue) return '';
+
+    const wixMatch = rawValue.match(/^(?:wix:)?image:\/\/v1\/([^/#?]+)/i);
+    if (wixMatch) {
+      return `https://static.wixstatic.com/media/${wixMatch[1]}`;
+    }
+
+    if (/^(images|\.\/images)\//.test(rawValue)) {
+      return this.asset(rawValue.replace(/^\.\//, ''));
+    }
+
+    return rawValue;
+  }
+
+  applyCmsImage(node, entryOrItem) {
+    if (!node || !entryOrItem) return;
+
+    const image = this.mediaValue(
+      entryOrItem.image || entryOrItem.imageUrl || entryOrItem.photo || entryOrItem.logo || entryOrItem.media || entryOrItem.value,
+    );
+    const alt = this.stringValue(entryOrItem.alt || entryOrItem.altText || entryOrItem.title || entryOrItem.name);
+    const img = node.matches && node.matches('img') ? node : node.querySelector && node.querySelector('img');
+
+    if (img && image) {
+      img.setAttribute('src', image);
+      img.removeAttribute('srcset');
+    }
+
+    if (img && alt) {
+      img.setAttribute('alt', alt);
+    }
+  }
+
+  replaceList(selector, section, renderItem) {
+    const root = this.shadowRoot;
+    const container = root.querySelector(selector);
+    const items = this.cmsItems(section);
+
+    if (!container || !items.length) return;
+
+    const templates = Array.from(container.children);
+    if (!templates.length) return;
+
+    container.replaceChildren();
+    items.forEach((item, index) => {
+      const template = templates[index] || templates[templates.length - 1];
+      const node = template.cloneNode(true);
+      node.style.opacity = '';
+      node.style.transform = '';
+      renderItem.call(this, node, item, index);
+      container.appendChild(node);
+    });
+  }
+
+  renderServices() {
+    this.replaceList('.services-grid', 'services', (node, item) => {
+      this.setNodeText(node.querySelector('h3'), this.itemText(item, ['title', 'name']));
+      this.setNodeText(node.querySelector('p'), this.itemText(item, ['body', 'description', 'text']));
+      this.setLink(node.querySelector('a'), item);
+    });
+  }
+
+  renderHolidayValues() {
+    this.renderPillList('.holiday-values', 'holidayValues');
+  }
+
+  renderHolidaySupport() {
+    this.renderPillList('.support-list', 'holidaySupport');
+  }
+
+  renderPillList(selector, section) {
+    const root = this.shadowRoot;
+    const container = root.querySelector(selector);
+    const items = this.cmsItems(section);
+
+    if (!container || !items.length) return;
+
+    container.replaceChildren();
+    items.forEach((item) => {
+      const pill = document.createElement('span');
+      pill.textContent = this.itemText(item, ['title', 'name', 'value', 'text']);
+      container.appendChild(pill);
+    });
+  }
+
+  renderHolidayWeeks() {
+    this.replaceList('.holiday-week-grid', 'holidayWeeks', (node, item) => {
+      this.applyCmsImage(node.querySelector('img'), item);
+      this.setNodeText(node.querySelector('span'), this.itemText(item, ['tag', 'subtitle', 'label']));
+      this.setNodeText(node.querySelector('h3'), this.itemText(item, ['title', 'name']));
+      this.setNodeText(node.querySelector('p'), this.itemText(item, ['body', 'description', 'text']));
+    });
+  }
+
+  renderHubEvents() {
+    this.replaceList('.hub-events', 'hubEvents', (node, item) => {
+      this.setNodeText(node.querySelector('h3'), this.itemText(item, ['title', 'name']));
+      this.setNodeText(node.querySelector('p'), this.itemText(item, ['body', 'description', 'text']));
+    });
+  }
+
+  renderHubFlyers() {
+    this.replaceList('.hub-flyer-grid', 'hubFlyers', (node, item) => {
+      this.applyCmsImage(node.querySelector('img'), item);
+    });
+  }
+
+  renderTestimonials() {
+    this.replaceList('.testimonials-grid', 'testimonials', (node, item) => {
+      this.setNodeText(node.querySelector('p'), this.itemText(item, ['body', 'quote', 'description', 'text']));
+      this.setNodeText(node.querySelector('.testimonial-author h4'), this.itemText(item, ['title', 'name']));
+      this.setNodeText(node.querySelector('.testimonial-author span'), this.itemText(item, ['subtitle', 'role', 'location']));
+      this.setNodeText(node.querySelector('.t-avatar'), this.itemText(item, ['initials']) || this.initials(this.itemText(item, ['title', 'name'])));
+    });
+  }
+
+  renderTeam() {
+    this.replaceList('.team-grid', 'team', (node, item) => {
+      const image = this.mediaValue(item.image || item.imageUrl || item.photo);
+      let photo = node.querySelector('.team-photo');
+
+      if (image) {
+        if (!photo) {
+          const avatar = node.querySelector('.team-avatar');
+          photo = document.createElement('figure');
+          photo.className = 'team-photo';
+          photo.innerHTML = '<img alt="">';
+          if (avatar) avatar.replaceWith(photo);
+          else node.prepend(photo);
+        }
+        this.applyCmsImage(photo, item);
+      } else if (photo) {
+        const avatar = document.createElement('div');
+        avatar.className = 'team-avatar team-avatar--fallback';
+        avatar.textContent = this.itemText(item, ['initials']) || this.initials(this.itemText(item, ['title', 'name']));
+        photo.replaceWith(avatar);
+      }
+
+      this.setNodeText(node.querySelector('h4'), this.itemText(item, ['title', 'name']));
+      this.setNodeText(node.querySelector('.role'), this.itemText(item, ['role', 'subtitle']));
+
+      const email = this.itemText(item, ['email']);
+      const emailNode = node.querySelector('.email');
+      if (emailNode && email) {
+        emailNode.textContent = email;
+        emailNode.setAttribute('href', `mailto:${email}`);
+        emailNode.hidden = false;
+      } else if (emailNode) {
+        emailNode.hidden = true;
+      }
+
+      this.setLink(node.querySelector('.team-readmore'), item);
+    });
+  }
+
+  renderPartners() {
+    this.replaceList('.partners-logo-grid', 'partners', (node, item) => {
+      this.applyCmsImage(node.querySelector('img'), item);
+    });
+  }
+
+  renderOriginalPages() {
+    this.replaceList('#original-pages .resources-grid', 'originalPages', (node, item) => {
+      this.setNodeText(node.querySelector('.resource-tag'), this.itemText(item, ['tag', 'subtitle', 'label']));
+      this.setNodeText(node.querySelector('h3'), this.itemText(item, ['title', 'name']));
+      this.setNodeText(node.querySelector('p'), this.itemText(item, ['body', 'description', 'text']));
+      this.setLink(node, item);
+      this.setNodeText(node.querySelector('.resource-cta'), this.itemText(item, ['ctaLabel']) || 'Open original page →');
+    });
+  }
+
+  setNodeText(node, value) {
+    if (node && value) node.textContent = value;
+  }
+
+  setLink(node, item) {
+    if (!node || !item) return;
+    const href = this.itemText(item, ['url', 'href', 'link']);
+    const label = this.itemText(item, ['ctaLabel', 'buttonLabel', 'linkLabel']);
+
+    if (href) node.setAttribute('href', href);
+    if (label) {
+      const span = node.querySelector && node.querySelector('span');
+      if (span && node.classList.contains('learn-more')) span.textContent = '→';
+      const labelNode = node.classList.contains('learn-more') ? node.childNodes[0] : null;
+      if (labelNode && labelNode.nodeType === Node.TEXT_NODE) labelNode.textContent = `${label} `;
+    }
+  }
+
+  initials(name) {
+    return String(name || '')
+      .split(/\s+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((part) => part[0].toUpperCase())
+      .join('');
   }
 
   finalizeContent() {
