@@ -5,7 +5,8 @@ class FloatingHome extends HTMLElement {
   }
 
   connectedCallback() {
-    const asset = (path) => new URL(path, import.meta.url).href;
+    const assetBase = 'https://srikarsmile.github.io/floting/';
+    const asset = (path) => `${assetBase}${String(path).replace(/^\/+/, '')}`;
     const year = new Date().getFullYear();
 
     this.shadowRoot.innerHTML = `
