@@ -1162,48 +1162,70 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .holiday-week-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: var(--s-5);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(18px, 2.4vw, 28px);
 }
 .holiday-week-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.92fr) minmax(0, 1fr);
+  min-height: 286px;
   overflow: hidden;
-  border-radius: var(--radius);
-  background: var(--clr-bg);
-  border: 1px solid var(--clr-line);
-  box-shadow: var(--shadow-soft);
-  transition: transform var(--t-mid) var(--ease-out), box-shadow var(--t-mid) var(--ease-out);
+  border-radius: var(--radius-lg);
+  background: rgba(251,247,238,0.9);
+  border: 1px solid rgba(10,86,81,0.12);
+  box-shadow: 0 24px 70px -52px rgba(10,42,40,0.45);
+  transition: transform var(--t-mid) var(--ease-out),
+              box-shadow var(--t-mid) var(--ease-out),
+              border-color var(--t-mid) var(--ease-out);
 }
 .holiday-week-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
+  border-color: rgba(196,106,74,0.28);
   box-shadow: var(--shadow);
 }
 .holiday-week-card img {
+  display: block;
+  box-sizing: border-box;
   width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  object-position: top center;
+  height: 100%;
+  min-height: 286px;
+  max-height: 340px;
+  padding: 16px;
+  object-fit: contain;
+  object-position: center;
+  background:
+    linear-gradient(135deg, rgba(12,168,156,0.10), rgba(196,106,74,0.10)),
+    var(--clr-bg-warm);
+  border-right: 1px solid rgba(10,86,81,0.10);
 }
 .holiday-week-card div {
-  padding: var(--s-5);
+  align-self: center;
+  padding: clamp(24px, 3vw, 36px);
 }
 .holiday-week-card span {
-  display: inline-block;
-  color: var(--clr-accent);
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 6px 11px;
+  border-radius: 999px;
+  color: var(--clr-primary);
+  background: rgba(10,86,81,0.08);
   font-size: var(--fs-eyebrow);
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.16em;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 14px;
 }
 .holiday-week-card h3 {
-  color: var(--clr-primary);
-  font-size: 1.04rem;
-  margin-bottom: 8px;
+  color: var(--clr-primary-deep);
+  font-size: clamp(1.2rem, 1.55vw, 1.5rem);
+  line-height: 1.16;
+  margin-bottom: 12px;
 }
 .holiday-week-card p {
   color: var(--clr-text-light);
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-size: 0.98rem;
+  line-height: 1.58;
 }
 
 /* ═══════════════════════════════════════════
@@ -2475,7 +2497,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   .resource-card--newsletter { grid-column: span 2; }
   .partners-grid { grid-template-columns: repeat(4, 1fr); }
   .partners-logo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .holiday-week-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .holiday-week-grid { grid-template-columns: minmax(0, 1fr); }
   .hub-events { grid-template-columns: 1fr; }
   .faq-grid { grid-template-columns: 1fr; gap: 40px; }
   .faq-intro { position: static; }
@@ -2604,7 +2626,19 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   .original-photo-card--paper img { height: 400px; }
   .holiday-panel { padding: 22px 20px; }
   .support-list { margin-bottom: 28px; }
-  .holiday-week-card div { padding: 18px; }
+  .holiday-week-card {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+  }
+  .holiday-week-card img {
+    height: clamp(210px, 58vw, 310px);
+    min-height: 0;
+    max-height: none;
+    padding: 12px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(10,86,81,0.10);
+  }
+  .holiday-week-card div { padding: 22px 20px; }
   .hub-events { gap: 10px; }
   .hub-flyer-grid { margin-top: 32px; }
   .partners-logo-grid {
