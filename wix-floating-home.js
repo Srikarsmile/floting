@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260510-12';
+    this.version = '20260510-13';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.cmsData = null;
@@ -315,7 +315,7 @@ class FloatingHome extends HTMLElement {
     const currentMarginTop = Number.parseFloat(this.style.marginTop) || 0;
     const naturalLeft = rect.left - currentMarginLeft + (window.scrollX || 0);
     const naturalTop = rect.top - currentMarginTop + (window.scrollY || 0);
-    const topOffset = naturalTop > 0 && naturalTop < 640 ? -naturalTop : 0;
+    const topOffset = naturalTop > 0 ? -naturalTop : 0;
 
     this.style.setProperty('width', `${viewportWidth}px`, 'important');
     this.style.setProperty('max-width', `${viewportWidth}px`, 'important');

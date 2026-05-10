@@ -1,7 +1,7 @@
 import wixData from "wix-data";
 
 const floatingHomeId = "customElement1";
-const floatingBuildVersion = "20260510-12";
+const floatingBuildVersion = "20260510-13";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
 
@@ -28,13 +28,39 @@ function asList(selector) {
   return elements;
 }
 
+function getElementKey(element) {
+  return (element && (element.uniqueId || element.id)) || "";
+}
+
+function findFloatingHomeElement() {
+  const configuredElement = asList("#" + floatingHomeId)[0];
+
+  if (configuredElement) {
+    return configuredElement;
+  }
+
+  const candidates = [];
+
+  ["CustomElement", "HtmlComponent"].forEach(function (selector) {
+    asList(selector).forEach(function (element) {
+      if (element && candidates.indexOf(element) === -1) {
+        candidates.push(element);
+      }
+    });
+  });
+
+  return candidates[0] || null;
+}
+
 function addKeepPath(element, keepIds) {
   let current = element;
   let guard = 0;
 
   while (current && guard < 32) {
-    if (current.id) {
-      keepIds[current.id] = true;
+    const key = getElementKey(current);
+
+    if (key) {
+      keepIds[key] = true;
     }
 
     current = current.parent;
@@ -74,6 +100,7 @@ function collectPageElements() {
     "Header",
     "HtmlComponent",
     "Image",
+    "Iframe",
     "Line",
     "Menu",
     "Repeater",
@@ -87,7 +114,7 @@ function collectPageElements() {
 
   selectors.forEach(function (selector) {
     asList(selector).forEach(function (element) {
-      const key = element && (element.uniqueId || element.id);
+      const key = getElementKey(element);
 
       if (!key || seen[key]) {
         return;
@@ -108,7 +135,7 @@ function isStructuralPageElement(element) {
 }
 
 function applyFloatingHomeLayout() {
-  const floatingHome = asList("#" + floatingHomeId)[0];
+  const floatingHome = findFloatingHomeElement();
 
   if (!floatingHome) {
     return;
@@ -122,7 +149,9 @@ function applyFloatingHomeLayout() {
       return;
     }
 
-    if (element.id && keepIds[element.id]) {
+    const key = getElementKey(element);
+
+    if (key && keepIds[key]) {
       showElement(element);
       return;
     }
@@ -218,7 +247,7 @@ function loadFloatingCms() {
 }
 
 function applyFloatingCms(payload) {
-  const floatingHome = asList("#" + floatingHomeId)[0];
+  const floatingHome = findFloatingHomeElement();
 
   if (!floatingHome || !payload) {
     return;
@@ -243,6 +272,7 @@ $w.onReady(function () {
   });
 
   loadFloatingCms().then(function (payload) {
+    applyFloatingHomeLayout();
     applyFloatingCms(payload);
 
     [120, 600, 1600].forEach(function (delay) {
