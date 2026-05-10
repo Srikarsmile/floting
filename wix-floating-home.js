@@ -9,7 +9,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260510-9';
+    this.version = '20260510-11';
     this.isolationTimer = 0;
     this.isolationObserver = null;
   }
