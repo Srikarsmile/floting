@@ -2,8 +2,8 @@ import wixData from "wix-data";
 
 const floatingHomeId = "customElement1";
 const floatingBuildVersion = "20260510-12";
-const cmsContentCollection = "FloatingHomeContent";
-const cmsItemsCollection = "FloatingHomeItems";
+const cmsContentCollection = "Import1";
+const cmsItemsCollection = "Import2";
 
 function asList(selector) {
   const elements = [];

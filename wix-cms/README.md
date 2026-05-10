@@ -4,6 +4,9 @@ The custom element reads two Wix Content Manager collections. If the collections
 
 ## Collection 1: `FloatingHomeContent`
 
+Wix display name: `FloatingHomeContent`
+Wix collection ID used in page code: `Import1`
+
 Use this for one-off text, image and link overrides.
 
 Fields:
@@ -18,6 +21,9 @@ Fields:
 Import seed: `FloatingHomeContent.csv`
 
 ## Collection 2: `FloatingHomeItems`
+
+Wix display name: `FloatingHomeItems`
+Wix collection ID used in page code: `Import2`
 
 Use this for repeated sections: services, testimonials, team, partners, holiday weeks, hub flyers, and original page links.
 
@@ -43,7 +49,7 @@ Import seed: `FloatingHomeItems.csv`
 ## Editing Workflow
 
 1. Open Wix Content Manager.
-2. Create both collections with the exact collection IDs above.
+2. Use the Wix collection IDs above in `wix-home-page-code.js`. Wix may keep generated IDs such as `Import1` and `Import2` even after you rename the display names.
 3. Add the fields above.
 4. Import the CSV seed files.
 5. Edit rows in Wix CMS. Save the site, then use Test Site.
