@@ -1,7 +1,7 @@
 import wixData from "wix-data";
 
 const floatingHomeId = "customElement1";
-const floatingBuildVersion = "20260510-13";
+const floatingBuildVersion = "20260510-14";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
 
@@ -63,6 +63,61 @@ function addKeepPath(element, keepIds) {
       keepIds[key] = true;
     }
 
+    current = current.parent;
+    guard += 1;
+  }
+}
+
+function getChildren(element) {
+  const children = [];
+
+  try {
+    const elementChildren = element && element.children;
+
+    if (!elementChildren) {
+      return children;
+    }
+
+    if (typeof elementChildren.forEach === "function") {
+      elementChildren.forEach(function (child) {
+        children.push(child);
+      });
+      return children;
+    }
+
+    if (typeof elementChildren.length === "number") {
+      for (let index = 0; index < elementChildren.length; index += 1) {
+        children.push(elementChildren[index]);
+      }
+    }
+  } catch (error) {
+    // Not every Wix element exposes children consistently in editor preview.
+  }
+
+  return children;
+}
+
+function hideUnkeptChildren(element, keepIds) {
+  getChildren(element).forEach(function (child) {
+    const key = getElementKey(child);
+    const shouldKeep = key && keepIds[key];
+
+    if (shouldKeep) {
+      showElement(child);
+      hideUnkeptChildren(child, keepIds);
+      return;
+    }
+
+    hideElement(child);
+  });
+}
+
+function hideUnkeptAncestorChildren(element, keepIds) {
+  let current = element;
+  let guard = 0;
+
+  while (current && guard < 32) {
+    hideUnkeptChildren(current, keepIds);
     current = current.parent;
     guard += 1;
   }
@@ -143,6 +198,8 @@ function applyFloatingHomeLayout() {
 
   const keepIds = {};
   addKeepPath(floatingHome, keepIds);
+  hideUnkeptChildren(asList("Page")[0], keepIds);
+  hideUnkeptAncestorChildren(floatingHome, keepIds);
 
   collectPageElements().forEach(function (element) {
     if (!element || isStructuralPageElement(element)) {
