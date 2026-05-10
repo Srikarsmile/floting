@@ -9,7 +9,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260510-8';
+    this.version = '20260510-9';
     this.isolationTimer = 0;
     this.isolationObserver = null;
   }
@@ -199,6 +199,34 @@ class FloatingHome extends HTMLElement {
           .floating-root .back-to-top {
             display: none !important;
           }
+
+          ${this.isWixEditorPreview() ? `
+          :host,
+          .floating-root {
+            background: var(--clr-primary-deep, #063836) !important;
+          }
+
+          .floating-root .hero,
+          .floating-root .section:not(.section--dark):not(.section--cream):not(.section--cream-deep):not(.section--book):not(.section--contact) {
+            background: var(--clr-bg, #f4efe3) !important;
+          }
+
+          .floating-root .section--cream {
+            background: var(--clr-bg-warm, #ece4d2) !important;
+          }
+
+          .floating-root .section--contact {
+            background: var(--clr-bg, #f4efe3) !important;
+          }
+
+          .floating-root .section--cream-deep {
+            background: var(--clr-bg-deep, #e1d7bf) !important;
+          }
+
+          .floating-root .footer {
+            background: var(--clr-primary-deep, #063836) !important;
+          }
+          ` : ''}
         </style>
         <div class="floating-root">${bodyHtml}</div>
       `;
