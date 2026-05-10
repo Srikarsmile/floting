@@ -9,7 +9,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260510-7';
+    this.version = '20260510-8';
     this.isolationTimer = 0;
     this.isolationObserver = null;
   }
@@ -248,11 +248,8 @@ class FloatingHome extends HTMLElement {
 
   isWixEditorPreview() {
     const href = window.location.href || '';
-    const referrer = document.referrer || '';
 
-    return /CustomElementPreviewIframe|editor-elements-library|editor\.wix\.com|\/html\/editor\//i.test(
-      `${href} ${referrer}`,
-    );
+    return /CustomElementPreviewIframe|editor-elements-library|editor\.wix\.com|\/html\/editor\//i.test(href);
   }
 
   fitWixViewport() {
