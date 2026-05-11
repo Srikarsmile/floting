@@ -13,18 +13,25 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260511-02';
+    this.version = '20260511-03';
     this.isolationTimer = 0;
     this.isolationObserver = null;
+    this.layoutWatchdog = 0;
     this.cmsData = null;
     this.hasRendered = false;
+    this.boundRepairWixLayout = () => {
+      if (!this.isConnected || this.isWixEditorPreview()) return;
+      this.isolateFromWixLayout();
+    };
   }
 
   connectedCallback() {
+    this.classList.remove('is-ready');
     this.prepareWixHost();
     this.readCmsAttribute();
     this.render();
     this.scheduleWixIsolation();
+    this.startWixLayoutWatchdog();
   }
 
   attributeChangedCallback(name, previousValue, nextValue) {
@@ -48,6 +55,8 @@ class FloatingHome extends HTMLElement {
       window.clearTimeout(this.isolationTimer);
       this.isolationTimer = 0;
     }
+
+    this.stopWixLayoutWatchdog();
   }
 
   asset(path) {
@@ -70,7 +79,7 @@ class FloatingHome extends HTMLElement {
         }
 
         .floating-loader {
-          min-height: 520px;
+          min-height: 100vh;
           display: grid;
           place-items: center;
           padding: 48px;
@@ -99,7 +108,7 @@ class FloatingHome extends HTMLElement {
       const bodyHtml = doc.body ? doc.body.innerHTML : '';
 
       root.innerHTML = `
-        <link rel="stylesheet" href="${this.asset('styles.css')}">
+        <link rel="stylesheet" href="${this.asset('styles.css')}" data-floating-stylesheet>
         <style>
           :host {
             display: block;
@@ -108,6 +117,16 @@ class FloatingHome extends HTMLElement {
             background: #f4efe3;
             color: #1f3937;
             font-family: "Inter Tight", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          }
+
+          .floating-loader {
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 48px;
+            color: var(--clr-primary, #0A5651);
+            background: var(--clr-bg, #F4EFE3);
+            font: 600 16px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
           }
 
           :host,
@@ -164,6 +183,21 @@ class FloatingHome extends HTMLElement {
             --t-fast: 0.25s;
             --t-mid: 0.5s;
             --t-slow: 0.9s;
+          }
+
+          .floating-root {
+            opacity: 0;
+            visibility: hidden;
+          }
+
+          :host(.is-ready) .floating-loader {
+            display: none;
+          }
+
+          :host(.is-ready) .floating-root {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 180ms ease;
           }
 
           .floating-root {
@@ -246,8 +280,11 @@ class FloatingHome extends HTMLElement {
           }
           ` : ''}
         </style>
+        <div class="floating-loader">Loading Floating Counselling...</div>
         <div class="floating-root">${bodyHtml}</div>
       `;
+
+      const stylesheetReady = this.waitForStylesheet(root.querySelector('[data-floating-stylesheet]'));
 
       this.rewriteLocalAssets();
       this.hasRendered = true;
@@ -255,6 +292,8 @@ class FloatingHome extends HTMLElement {
       this.finalizeContent();
       this.bindInteractions();
       this.scheduleWixIsolation();
+      await stylesheetReady;
+      this.classList.add('is-ready');
     } catch (error) {
       root.innerHTML = `
         <div class="floating-error">
@@ -263,6 +302,35 @@ class FloatingHome extends HTMLElement {
         </div>
       `;
     }
+  }
+
+  waitForStylesheet(stylesheet) {
+    return new Promise((resolve) => {
+      let settled = false;
+      const finish = () => {
+        if (settled) return;
+        settled = true;
+        resolve();
+      };
+
+      if (!stylesheet) {
+        finish();
+        return;
+      }
+
+      stylesheet.addEventListener('load', finish, { once: true });
+      stylesheet.addEventListener('error', finish, { once: true });
+
+      try {
+        if (stylesheet.sheet) {
+          window.setTimeout(finish, 0);
+        }
+      } catch (error) {
+        // Cross-origin stylesheet inspection may be blocked; the timeout still reveals the page.
+      }
+
+      window.setTimeout(finish, 1800);
+    });
   }
 
   prepareWixHost() {
@@ -361,6 +429,38 @@ class FloatingHome extends HTMLElement {
 
       this.isolationObserver.observe(document.body, { childList: true, subtree: true });
     }
+  }
+
+  startWixLayoutWatchdog() {
+    if (this.isWixEditorPreview() || this.layoutWatchdog) return;
+
+    const repair = this.boundRepairWixLayout;
+
+    window.addEventListener('resize', repair, { passive: true });
+    window.addEventListener('orientationchange', repair, { passive: true });
+    window.addEventListener('pageshow', repair, { passive: true });
+    window.addEventListener('focus', repair, { passive: true });
+    document.addEventListener('visibilitychange', repair, { passive: true });
+
+    [0, 120, 500, 1200, 2600, 5200].forEach((delay) => {
+      window.setTimeout(repair, delay);
+    });
+
+    this.layoutWatchdog = window.setInterval(repair, 1500);
+  }
+
+  stopWixLayoutWatchdog() {
+    if (!this.layoutWatchdog) return;
+
+    const repair = this.boundRepairWixLayout;
+
+    window.clearInterval(this.layoutWatchdog);
+    this.layoutWatchdog = 0;
+    window.removeEventListener('resize', repair);
+    window.removeEventListener('orientationchange', repair);
+    window.removeEventListener('pageshow', repair);
+    window.removeEventListener('focus', repair);
+    document.removeEventListener('visibilitychange', repair);
   }
 
   isolateFromWixLayout() {
