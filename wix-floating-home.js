@@ -6,14 +6,14 @@ const floatingHomeAssetBase = (() => {
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
-    return ['data-cms'];
+    return ['data-cms', 'data-floating-build'];
   }
 
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260512-04';
+    this.version = '20260512-05';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -27,6 +27,7 @@ class FloatingHome extends HTMLElement {
 
   connectedCallback() {
     this.classList.remove('is-ready');
+    this.readBuildVersion();
     this.prepareWixHost();
     this.readCmsAttribute();
     this.render();
@@ -35,7 +36,23 @@ class FloatingHome extends HTMLElement {
   }
 
   attributeChangedCallback(name, previousValue, nextValue) {
-    if (name !== 'data-cms' || previousValue === nextValue) return;
+    if (previousValue === nextValue) return;
+
+    if (name === 'data-floating-build') {
+      const previousVersion = this.version;
+
+      this.readBuildVersion();
+
+      if (this.hasRendered && this.version !== previousVersion) {
+        this.hasRendered = false;
+        this.classList.remove('is-ready');
+        this.render();
+      }
+
+      return;
+    }
+
+    if (name !== 'data-cms') return;
 
     this.readCmsAttribute();
     if (this.hasRendered) {
@@ -62,6 +79,14 @@ class FloatingHome extends HTMLElement {
   asset(path) {
     const cleanPath = String(path).replace(/^\/+/, '');
     return `${this.assetBase}${cleanPath}?v=${this.version}`;
+  }
+
+  readBuildVersion() {
+    const buildVersion = String(this.getAttribute('data-floating-build') || '').trim();
+
+    if (/^[0-9A-Za-z._-]+$/.test(buildVersion)) {
+      this.version = buildVersion;
+    }
   }
 
   async render() {
