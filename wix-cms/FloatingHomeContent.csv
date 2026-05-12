@@ -7,8 +7,8 @@ hero.secondaryUrl,,,,#pathways,true
 pathways.title,"Choose the help you need today.",,,,true
 pathways.subtitle,"Tell us what feels most urgent and we will point you towards the right support, whether that starts with therapy, practical help, family work or a partnership conversation.",,,,true
 impact.note,"Practical community support and therapeutic care sit together, so people can stabilise today and grow tomorrow.",,,,true
-services.title,"Six ways we hold space for you.",,,,true
-services.subtitle,"Whether you're looking for counselling, community, or just a hot meal and a smile — Floating is here for you.",,,,true
+services.title,"Core support, without the maze.",,,,true
+services.subtitle,"Start with the kind of help you need most. We will route you to the right person from there.",,,,true
 communityModel.title,"More than counselling. A joined-up support system.",,,,true
 communityModel.subtitle,"People often need more than one kind of support. Floating brings practical, emotional and long-term help together so families are not passed from place to place.",,,,true
 about.title,"Wraparound care, rooted in community.",,,,true
@@ -30,14 +30,14 @@ testimonials.title,"In their own words.",,,,true
 testimonials.subtitle,"Hear from the families and individuals whose lives have been transformed.",,,,true
 team.title,"Meet the team.",,,,true
 team.subtitle,"Led by a diverse team of African women with lived experience and professional expertise.",,,,true
-partners.title,"Supported by community partnerships since 2015.",,,,true
-partners.subtitle,"Original site funders, sponsors, partners and registrations from 2015-2023.",,,,true
-originalPages.title,"Key pages and programmes retained.",,,,true
-originalPages.subtitle,"The local rebuild now includes the main home-page content and keeps clear routes to the deeper original pages.",,,,true
+partners.title,"Supported by trusted partners.",,,,true
+partners.subtitle,"A compact view of the funders, sponsors and registrations behind the work.",,,,true
+originalPages.title,"Key pages and programmes retained.",,,,false
+originalPages.subtitle,"The local rebuild now includes the main home-page content and keeps clear routes to the deeper original pages.",,,,false
 faq.title,"Everything you might be wondering.",,,,true
 faq.subtitle,"If your question isn't here, send us a note — we read every message.",,,,true
-assistant.title,"A guided first step for people who do not know what to ask for.",,,,true
-assistant.subtitle,"Answer one simple question and we will guide you towards counselling, family support, community hub help, volunteering or partnership enquiries.",,,,true
+assistant.title,"A guided first step for people who do not know what to ask for.",,,,false
+assistant.subtitle,"Answer one simple question and we will guide you towards counselling, family support, community hub help, volunteering or partnership enquiries.",,,,false
 contact.title,"We'd love to hear from you.",,,,true
 contact.subtitle,"Email, WhatsApp, call or fill in the form. We aim to reply within two working days.",,,,true
 cta.title,"Whatever you're carrying, you don't carry it alone.",,,,true

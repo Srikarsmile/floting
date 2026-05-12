@@ -767,9 +767,28 @@ class FloatingHome extends HTMLElement {
   replaceList(selector, section, renderItem) {
     const root = this.shadowRoot;
     const container = root.querySelector(selector);
-    const items = this.cmsItems(section);
+    let items = this.cmsItems(section);
 
     if (!container || !items.length) return;
+    if (container.dataset.cmsStatic === 'true') return;
+
+    const skipTitles = String(container.dataset.cmsSkipTitles || '')
+      .split('|')
+      .map((title) => title.trim().toLowerCase())
+      .filter(Boolean);
+    if (skipTitles.length) {
+      items = items.filter((item) => {
+        const title = this.itemText(item, ['title', 'name']).trim().toLowerCase();
+        return !skipTitles.includes(title);
+      });
+    }
+
+    const limit = Number.parseInt(container.dataset.cmsLimit || '', 10);
+    if (Number.isFinite(limit) && limit > 0) {
+      items = items.slice(0, limit);
+    }
+
+    if (!items.length) return;
 
     const templates = Array.from(container.children);
     if (!templates.length) return;

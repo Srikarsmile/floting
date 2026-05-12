@@ -5,10 +5,10 @@ pathways,30,"I need practical help",,"Community","Use the hub for food, clothing
 pathways,40,"I want to volunteer or partner",,"Partners","Support local residents through food donations, funding, skills, events or professional help.",,,"#contact","Start a partnership",,,,true
 services,10,"Counselling & Mentoring",,,"Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person and online, with free to low-cost care for elderly, Universal Credit and low-income clients.",,,"#contact","Get started",,,,true
 services,20,"Impact Parenting",,,"Workshops, 1:1 mentoring, and group programmes for parents — including therapeutic camps, the Impact Parenting Pillar training and a private support group.",,,"#parenting","Learn more",,,,true
-services,30,"Community Support",,,"Donated food distributed weekly from Tesco, Sainsbury's, Greggs, Lidl, Asda, Felix and Amazon to individuals and families in need.",,,"#hub","Visit the hub",,,,true
-services,40,"Floating Community Hub",,,"A weekly hub at Woodside Baptist Church offering housing support, mental health services, art therapy, bills help and massage therapy.",,,"#hub","Find out more",,,,true
-services,50,"Financial Literacy & Business Training",,,"Masterclasses and retreats supporting budgeting skills, entrepreneurial growth and confidence for the global majority community.",,,"#contact","Enquire",,,,true
-services,60,"Holiday School & Camps",,,"Art therapy, music, play therapy and psychological techniques for children aged 5-11. Over 1,400 children registered across recent programmes.",,,"#holiday-school","Register",,,,true
+services,30,"Community Support",,,"Donated food distributed weekly from Tesco, Sainsbury's, Greggs, Lidl, Asda, Felix and Amazon to individuals and families in need.",,,"#hub","Visit the hub",,,,false
+services,30,"Floating Community Hub",,,"A weekly hub at Woodside Baptist Church offering housing support, mental health services, art therapy, bills help and massage therapy.",,,"#hub","Find out more",,,,true
+services,50,"Financial Literacy & Business Training",,,"Masterclasses and retreats supporting budgeting skills, entrepreneurial growth and confidence for the global majority community.",,,"#contact","Enquire",,,,false
+services,40,"Holiday School & Camps",,,"Art therapy, music, play therapy and psychological techniques for children aged 5-11. Over 1,400 children registered across recent programmes.",,,"#holiday-school","Register",,,,true
 communityModel,10,"Food, forms and practical stability",,"Immediate needs","Weekly community hub, food and clothes support, form filling, housing questions, bills help and local referrals.",,,,,,,,true
 communityModel,20,"Counselling, mentoring and family repair",,"Therapeutic care","Trauma-informed therapy, relationship work, parenting tools and emotional support for adults, children and families.",,,,,,,,true
 communityModel,30,"Confidence, skills and opportunity",,"Longer-term growth","Holiday school, financial literacy, business training, creative wellbeing, volunteering and partnership pathways.",,,,,,,,true
@@ -17,48 +17,48 @@ holidayValues,20,"I AM Fairness",,,,,,,,,,,true
 holidayValues,30,"I AM Kindness",,,,,,,,,,,true
 holidayValues,40,"I AM Integrity",,,,,,,,,,,true
 holidayValues,50,"I AM Outspoken",,,,,,,,,,,true
-holidaySupport,10,"Electric engineers",,,,,,,,,,,true
-holidaySupport,20,"Fitness instructors",,,,,,,,,,,true
-holidaySupport,30,"Professional bankers",,,,,,,,,,,true
-holidaySupport,40,"Chartered accountants",,,,,,,,,,,true
-holidaySupport,50,"Actresses and singers",,,,,,,,,,,true
-holidaySupport,60,"Psychotherapist and artist",,,,,,,,,,,true
-holidaySupport,70,"Healthy eating",,,,,,,,,,,true
-holidayWeeks,10,"You & Food Matter Project",,"Week 1","Happy, dreams and hope are reachable, good choices, and being hopeful.",https://srikarsmile.github.io/floting/images/original-holiday-week1.jpg,Holiday school week 1 newsletter,,,,,,true
-holidayWeeks,20,"Friendship and uniqueness",,"Week 2","Asking for help, making better choices with friends, being unique, and the beauty of why each child is unique.",https://srikarsmile.github.io/floting/images/original-holiday-week2.png,Holiday school week 2 newsletter,,,,,,true
-holidayWeeks,30,"Confidence and self-love",,"Week 3","Confidence, happiness visualisation, affirmation, mirror work and self-love.",https://srikarsmile.github.io/floting/images/original-holiday-week3.png,Holiday school week 3 newsletter,,,,,,true
-holidayWeeks,40,"Loss, endings and appreciation",,"Week 4","Coping with endings, letters for loved ones, soul work, self-love and appreciation for self.",https://srikarsmile.github.io/floting/images/original-holiday-week4.png,Holiday school week 4 newsletter,,,,,,true
-hubEvents,10,"Professionals every week in 2025",,,"Different professionals attend through the year to support residents with practical and wellbeing needs.",,,,,,,,true
-hubEvents,20,"Housing officer support",,,"A housing officer is at the hub during the last week of the month for benefit forms, housing questions and related support.",,,,,,,,true
-hubEvents,30,"Mental & Physical Health Matters",,,"On the last Tuesday of every month, residents can join health sessions, workshops and community connection opportunities.",,,,,,,,true
+holidaySupport,10,"Electric engineers",,,,,,,,,,,false
+holidaySupport,20,"Fitness instructors",,,,,,,,,,,false
+holidaySupport,30,"Professional bankers",,,,,,,,,,,false
+holidaySupport,40,"Chartered accountants",,,,,,,,,,,false
+holidaySupport,50,"Actresses and singers",,,,,,,,,,,false
+holidaySupport,60,"Psychotherapist and artist",,,,,,,,,,,false
+holidaySupport,70,"Healthy eating",,,,,,,,,,,false
+holidayWeeks,10,"Creative therapeutic school support",,"Programme snapshot","Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",https://srikarsmile.github.io/floting/images/original-holiday-week1.jpg,Holiday school programme snapshot,,,,,,true
+holidayWeeks,20,"Friendship and uniqueness",,"Week 2","Asking for help, making better choices with friends, being unique, and the beauty of why each child is unique.",https://srikarsmile.github.io/floting/images/original-holiday-week2.png,Holiday school week 2 newsletter,,,,,,false
+holidayWeeks,30,"Confidence and self-love",,"Week 3","Confidence, happiness visualisation, affirmation, mirror work and self-love.",https://srikarsmile.github.io/floting/images/original-holiday-week3.png,Holiday school week 3 newsletter,,,,,,false
+holidayWeeks,40,"Loss, endings and appreciation",,"Week 4","Coping with endings, letters for loved ones, soul work, self-love and appreciation for self.",https://srikarsmile.github.io/floting/images/original-holiday-week4.png,Holiday school week 4 newsletter,,,,,,false
+hubEvents,10,"Professionals every week in 2025",,,"Different professionals attend through the year to support residents with practical and wellbeing needs.",,,,,,,,false
+hubEvents,20,"Housing officer support",,,"A housing officer is at the hub during the last week of the month for benefit forms, housing questions and related support.",,,,,,,,false
+hubEvents,30,"Mental & Physical Health Matters",,,"On the last Tuesday of every month, residents can join health sessions, workshops and community connection opportunities.",,,,,,,,false
 hubFlyers,10,,,,,https://srikarsmile.github.io/floting/images/original-hub-whatsapp.jpg,Floating Community Hub WhatsApp flyer,,,,,,true
-hubFlyers,20,,,,,https://srikarsmile.github.io/floting/images/original-hub-housing.jpg,Woodside housing support flyer,,,,,,true
-hubFlyers,30,,,,,https://srikarsmile.github.io/floting/images/original-hub-health.jpg,Mental and physical health matters in Croydon flyer,,,,,,true
+hubFlyers,20,,,,,https://srikarsmile.github.io/floting/images/original-hub-housing.jpg,Woodside housing support flyer,,,,,,false
+hubFlyers,30,,,,,https://srikarsmile.github.io/floting/images/original-hub-health.jpg,Mental and physical health matters in Croydon flyer,,,,,,false
 testimonials,10,"Sarah Turino","CEO, The Whole Woman Wellness Formula · USA",,"I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded and supported a wide variety of issues that parents face. I have teenage children and really needed this. It was full of knowledge to parent more consciously.",,,,,,,ST,true
 testimonials,20,"Danya Denny","Social Worker · UK",,"My son had terrible twos where he would throw himself on the floor and not follow boundaries. I have now been helped to know his personality better and been given realistic tools to help him be more resilient in a loving way.",,,,,,,DD,true
-testimonials,30,"Niina Kabesa","Author, Mother of Nations · Congo",,"As a mother of six, I learnt so much from Impact Parenting. I was able to adapt strategies to my real life and all my children straight away, and I am still using the workbooks and resources months later. Every parent needs this.",,,,,,,NK,true
+testimonials,30,"Niina Kabesa","Author, Mother of Nations · Congo",,"As a mother of six, I learnt so much from Impact Parenting. I was able to adapt strategies to my real life and all my children straight away, and I am still using the workbooks and resources months later. Every parent needs this.",,,,,,,NK,false
 team,10,"Celestina Oniye-Thomas",,,"",https://srikarsmile.github.io/floting/images/team-celestina.jpg,Celestina Oniye-Thomas,,,info@floatingcounselling.co.uk,"CEO & Head of Charitable Operations",CO,true
 team,20,"Omowonu-Ola Ogunlela",,,"",https://srikarsmile.github.io/floting/images/team-omowonu.jpg,Omowonu-Ola Ogunlela,,,floatingcounsellingcommunity@gmail.com,"Director & Head of Finance",OO,true
 team,30,"Elizabeth Owode",,,"",https://srikarsmile.github.io/floting/images/team-elizabeth.png,Elizabeth Owode,,,,Director & Relationship Coach,EO,true
-team,40,"Linda Yeboah",,,"",,,,,floatingcounsellinglinda@gmail.com,"Director & Safeguarding Officer",LY,true
-team,50,"Niina Kabesa",,,"",https://srikarsmile.github.io/floting/images/team-niina.jpg,Niina Kabesa,,,,Holiday Camp Manager,NK,true
-team,60,"Marleine Griffin",,,"",https://srikarsmile.github.io/floting/images/team-marleine.jpg,Marleine Griffin,,,info@floatingcounselling.co.uk,Admin Lead,MG,true
+team,40,"Linda Yeboah",,,"",,,,,floatingcounsellinglinda@gmail.com,"Director & Safeguarding Officer",LY,false
+team,50,"Niina Kabesa",,,"",https://srikarsmile.github.io/floting/images/team-niina.jpg,Niina Kabesa,,,,Holiday Camp Manager,NK,false
+team,60,"Marleine Griffin",,,"",https://srikarsmile.github.io/floting/images/team-marleine.jpg,Marleine Griffin,,,info@floatingcounselling.co.uk,Admin Lead,MG,false
 partners,10,,,,,https://srikarsmile.github.io/floting/images/partner-dfe.jpg,Department for Education,,,,,,true
 partners,20,,,,,https://srikarsmile.github.io/floting/images/partner-croydon.jpg,Croydon Council,,,,,,true
 partners,30,,,,,https://srikarsmile.github.io/floting/images/partner-swl.png,South West London CCGs,,,,,,true
 partners,40,,,,,https://srikarsmile.github.io/floting/images/partner-lottery.jpg,The National Lottery Community Fund,,,,,,true
 partners,50,,,,,https://srikarsmile.github.io/floting/images/partner-bme.jpg,BME Forum,,,,,,true
 partners,60,,,,,https://srikarsmile.github.io/floting/images/partner-cva.jpg,Croydon Voluntary Action,,,,,,true
-partners,70,,,,,https://srikarsmile.github.io/floting/images/partner-bacp.jpg,BACP,,,,,,true
-partners,80,,,,,https://srikarsmile.github.io/floting/images/partner-ico.jpg,ICO,,,,,,true
-partners,90,,,,,https://srikarsmile.github.io/floting/images/partner-neighbourly.jpg,Neighbourly,,,,,,true
-partners,100,,,,,https://srikarsmile.github.io/floting/images/partner-prs.png,PRS for Music,,,,,,true
-originalPages,10,"Counselling Services",,"Therapy","Affordable counselling in Croydon and London, with individual, couple, family and online options.",,,https://www.floatingcounselling.co.uk/counselling,"Open original page",,,,true
-originalPages,20,"Floating Community Hub",,"Community","Weekly resident support, food and clothes bank, housing help, NHS support and wellbeing events.",,,https://www.floatingcounselling.co.uk/wch,"Open original page",,,,true
-originalPages,30,"Holiday School",,"Children","Creative therapeutic school programmes for children aged 5-11, including art, music, play and resilience work.",,,https://www.floatingcounselling.co.uk/holidayschool,"Open original page",,,,true
-originalPages,40,"Free Resources",,"Resources","Parenting and wellbeing support materials from the original Floating Counselling website.",,,https://www.floatingcounselling.co.uk/freeresources,"Open original page",,,,true
-originalPages,50,"Events",,"Events","Community workshops, support days and Floating Counselling events from the original website.",,,https://www.floatingcounselling.co.uk/events,"Open original page",,,,true
-originalPages,60,"Homeless Necessity",,"Outreach","Community outreach and support for people facing homelessness and practical hardship.",,,https://www.floatingcounselling.co.uk/homelessproject,"Open original page",,,,true
+partners,70,,,,,https://srikarsmile.github.io/floting/images/partner-bacp.jpg,BACP,,,,,,false
+partners,80,,,,,https://srikarsmile.github.io/floting/images/partner-ico.jpg,ICO,,,,,,false
+partners,90,,,,,https://srikarsmile.github.io/floting/images/partner-neighbourly.jpg,Neighbourly,,,,,,false
+partners,100,,,,,https://srikarsmile.github.io/floting/images/partner-prs.png,PRS for Music,,,,,,false
+originalPages,10,"Counselling Services",,"Therapy","Affordable counselling in Croydon and London, with individual, couple, family and online options.",,,https://www.floatingcounselling.co.uk/counselling,"Open original page",,,,false
+originalPages,20,"Floating Community Hub",,"Community","Weekly resident support, food and clothes bank, housing help, NHS support and wellbeing events.",,,https://www.floatingcounselling.co.uk/wch,"Open original page",,,,false
+originalPages,30,"Holiday School",,"Children","Creative therapeutic school programmes for children aged 5-11, including art, music, play and resilience work.",,,https://www.floatingcounselling.co.uk/holidayschool,"Open original page",,,,false
+originalPages,40,"Free Resources",,"Resources","Parenting and wellbeing support materials from the original Floating Counselling website.",,,https://www.floatingcounselling.co.uk/freeresources,"Open original page",,,,false
+originalPages,50,"Events",,"Events","Community workshops, support days and Floating Counselling events from the original website.",,,https://www.floatingcounselling.co.uk/events,"Open original page",,,,false
+originalPages,60,"Homeless Necessity",,"Outreach","Community outreach and support for people facing homelessness and practical hardship.",,,https://www.floatingcounselling.co.uk/homelessproject,"Open original page",,,,false
 assistantPrompts,10,"Counselling enquiry",,,"Route me to the therapy team.",,,"#contact",,,,,true
 assistantPrompts,20,"Parenting support",,,"Show Impact Parenting options.",,,"#parenting",,,,,true
 assistantPrompts,30,"Food or community hub",,,"Show practical support and hub details.",,,"#hub",,,,,true
