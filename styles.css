@@ -446,22 +446,30 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   max-width: 700px;
 }
 .impact-stats {
-  display: grid; grid-template-columns: repeat(5, 1fr);
-  gap: clamp(28px, 3.5vw, 60px);
-  width: 100%; max-width: 1240px;
+  display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(24px, 3vw, 48px);
+  width: 100%; max-width: 1320px;
+}
+.impact-stat {
+  min-width: 0;
+  display: grid;
+  align-content: start;
+  justify-items: center;
 }
 .impact-stat h3 {
   font-family: var(--font-display);
-  font-size: clamp(2.25rem, 4.4vw, 3.8rem);
+  font-size: clamp(2.25rem, 4.1vw, 3.55rem);
   font-weight: 500; color: var(--clr-bg);
-  line-height: 1.05; letter-spacing: -0.045em;
+  line-height: 1; letter-spacing: -0.035em;
   margin-bottom: var(--s-3);
   font-feature-settings: 'tnum';
   font-variation-settings: 'opsz' 96;
+  white-space: nowrap;
 }
 .impact-stat p {
   font-size: var(--fs-small); color: rgba(251,246,236,0.7);
-  max-width: 220px; margin: 0 auto;
+  line-height: 1.45;
+  max-width: 210px; min-height: 2.9em; margin: 0 auto;
 }
 
 /* ═══════════════════════════════════════════
