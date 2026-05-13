@@ -220,7 +220,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .nav-links a:not(.nav-cta):hover { color: var(--clr-primary); }
 .nav-links a:not(.nav-cta):hover::after { width: 100%; }
 
-.nav-cta {
+.nav-links .nav-cta {
   background: var(--clr-primary);
   color: var(--clr-bg) !important;
   padding: 14px 28px;
@@ -233,22 +233,24 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   letter-spacing: 0.01em;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   transition: background var(--t-fast) var(--ease-out),
               box-shadow var(--t-mid) var(--ease-out),
               color var(--t-fast) var(--ease-out),
               transform var(--t-fast) var(--ease-out);
   white-space: nowrap;
+  flex-shrink: 0;
 }
-.nav-cta:hover {
+.nav-links .nav-cta:hover {
   background: var(--clr-primary-soft);
   box-shadow: 0 14px 30px -10px rgba(10,86,81,0.5);
   color: var(--clr-bg) !important;
 }
-.nav-cta-arrow {
+.nav-links .nav-cta-arrow {
   display: inline-block;
   transition: transform var(--t-mid) var(--ease-out);
 }
-.nav-cta:hover .nav-cta-arrow {
+.nav-links .nav-cta:hover .nav-cta-arrow {
   transform: translateX(4px);
 }
 
