@@ -1,7 +1,8 @@
 import wixData from "wix-data";
+import wixWindow from "wix-window";
 
 const floatingHomeId = "customElement1";
-const floatingBuildVersion = "20260512-05";
+const floatingBuildVersion = "20260513-01";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
 
@@ -196,6 +197,20 @@ function applyFloatingHomeLayout() {
     return;
   }
 
+  showElement(floatingHome);
+
+  if (typeof floatingHome.setAttribute === "function") {
+    try {
+      floatingHome.setAttribute("data-floating-build", floatingBuildVersion);
+    } catch (error) {
+      // Attribute support depends on the Wix custom element render target.
+    }
+  }
+
+  if (wixWindow.viewMode === "Editor") {
+    return;
+  }
+
   const keepIds = {};
   addKeepPath(floatingHome, keepIds);
   hideUnkeptChildren(asList("Page")[0], keepIds);
@@ -217,14 +232,6 @@ function applyFloatingHomeLayout() {
   });
 
   showElement(floatingHome);
-
-  if (typeof floatingHome.setAttribute === "function") {
-    try {
-      floatingHome.setAttribute("data-floating-build", floatingBuildVersion);
-    } catch (error) {
-      // Attribute support depends on the Wix custom element render target.
-    }
-  }
 }
 
 function normaliseCmsImage(value) {
