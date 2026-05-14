@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260514-01';
+    this.version = '20260514-02';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -131,6 +131,7 @@ class FloatingHome extends HTMLElement {
       const html = await response.text();
       const doc = new DOMParser().parseFromString(html, 'text/html');
       const bodyHtml = doc.body ? doc.body.innerHTML : '';
+      const editorPreview = this.isWixEditorPreview();
 
       root.innerHTML = `
         <link rel="stylesheet" href="${this.asset('styles.css')}" data-floating-stylesheet>
@@ -211,8 +212,8 @@ class FloatingHome extends HTMLElement {
           }
 
           .floating-root {
-            opacity: 0;
-            visibility: hidden;
+            opacity: ${editorPreview ? '1' : '0'};
+            visibility: ${editorPreview ? 'visible' : 'hidden'};
           }
 
           :host(.is-ready) .floating-loader {
@@ -277,7 +278,7 @@ class FloatingHome extends HTMLElement {
             display: none !important;
           }
 
-          ${this.isWixEditorPreview() ? `
+          ${editorPreview ? `
           :host,
           .floating-root {
             background: var(--clr-primary-deep, #063836) !important;

@@ -1,8 +1,7 @@
 import wixData from "wix-data";
-import wixWindow from "wix-window";
 
 const floatingHomeId = "customElement1";
-const floatingBuildVersion = "20260514-01";
+const floatingBuildVersion = "20260514-02";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
 
@@ -205,10 +204,6 @@ function applyFloatingHomeLayout() {
     } catch (error) {
       // Attribute support depends on the Wix custom element render target.
     }
-  }
-
-  if (wixWindow.viewMode === "Editor") {
-    return;
   }
 
   const keepIds = {};
