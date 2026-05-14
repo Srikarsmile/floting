@@ -1,7 +1,7 @@
 import wixData from "wix-data";
 
 const floatingHomeId = "customElement1";
-const floatingBuildVersion = "20260514-03";
+const floatingBuildVersion = "20260514-04";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
 
@@ -97,14 +97,16 @@ function getChildren(element) {
   return children;
 }
 
-function hideUnkeptChildren(element, keepIds) {
+function hideUnkeptChildren(element, keepIds, stopAtKey) {
   getChildren(element).forEach(function (child) {
     const key = getElementKey(child);
     const shouldKeep = key && keepIds[key];
 
     if (shouldKeep) {
       showElement(child);
-      hideUnkeptChildren(child, keepIds);
+      if (key !== stopAtKey) {
+        hideUnkeptChildren(child, keepIds, stopAtKey);
+      }
       return;
     }
 
@@ -112,12 +114,12 @@ function hideUnkeptChildren(element, keepIds) {
   });
 }
 
-function hideUnkeptAncestorChildren(element, keepIds) {
-  let current = element;
+function hideUnkeptAncestorChildren(element, keepIds, stopAtKey) {
+  let current = element && element.parent;
   let guard = 0;
 
   while (current && guard < 32) {
-    hideUnkeptChildren(current, keepIds);
+    hideUnkeptChildren(current, keepIds, stopAtKey);
     current = current.parent;
     guard += 1;
   }
@@ -189,6 +191,12 @@ function isStructuralPageElement(element) {
   return type.indexOf("page") !== -1 || type.indexOf("document") !== -1;
 }
 
+function isCustomRenderElement(element) {
+  const type = String((element && element.type) || "").toLowerCase();
+
+  return type.indexOf("html") !== -1 || type.indexOf("iframe") !== -1;
+}
+
 function applyFloatingHomeLayout() {
   const floatingHome = findFloatingHomeElement();
 
@@ -207,12 +215,19 @@ function applyFloatingHomeLayout() {
   }
 
   const keepIds = {};
+  const floatingHomeKey = getElementKey(floatingHome);
+
   addKeepPath(floatingHome, keepIds);
-  hideUnkeptChildren(asList("Page")[0], keepIds);
-  hideUnkeptAncestorChildren(floatingHome, keepIds);
+  hideUnkeptChildren(asList("Page")[0], keepIds, floatingHomeKey);
+  hideUnkeptAncestorChildren(floatingHome, keepIds, floatingHomeKey);
 
   collectPageElements().forEach(function (element) {
     if (!element || isStructuralPageElement(element)) {
+      return;
+    }
+
+    if (isCustomRenderElement(element)) {
+      showElement(element);
       return;
     }
 
