@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260514-04';
+    this.version = '20260514-05';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -712,12 +712,6 @@ class FloatingHome extends HTMLElement {
 
   scheduleWixIsolation() {
     if (this.isWixEditorPreview()) {
-      this.isolateEditorLegacyWixLayout();
-
-      [80, 350, 900, 1800].forEach((delay) => {
-        window.setTimeout(() => this.isolateEditorLegacyWixLayout(), delay);
-      });
-
       return;
     }
 
