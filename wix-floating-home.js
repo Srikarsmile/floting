@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260514-02';
+    this.version = '20260514-03';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -123,6 +123,13 @@ class FloatingHome extends HTMLElement {
       </style>
       <div class="floating-loader">Loading Floating Counselling...</div>
     `;
+
+    if (this.isWixEditorCanvas()) {
+      root.innerHTML = this.renderEditorCanvasPreview();
+      this.hasRendered = true;
+      this.classList.add('is-ready');
+      return;
+    }
 
     try {
       const response = await fetch(this.asset('index.html'), { mode: 'cors' });
@@ -390,8 +397,284 @@ class FloatingHome extends HTMLElement {
 
   isWixEditorPreview() {
     const href = window.location.href || '';
+    const referrer = document.referrer || '';
 
-    return /CustomElementPreviewIframe|editor-elements-library|editor\.wix\.com|\/html\/editor\//i.test(href);
+    return /CustomElementPreviewIframe|editor-elements-library|editor\.wix\.com|\/html\/editor\//i.test(`${href} ${referrer}`);
+  }
+
+  isWixEditorCanvas() {
+    const href = window.location.href || '';
+    const referrer = document.referrer || '';
+
+    return (
+      /CustomElementPreviewIframe|editor-elements-library/i.test(href) &&
+      /editor\.wix\.com\/html\/editor\/web\/renderer\/edit/i.test(referrer)
+    );
+  }
+
+  renderEditorCanvasPreview() {
+    const logo = this.asset('images/logo.webp');
+    const hero = this.asset('images/hero.webp');
+
+    return `
+      <style>
+        :host {
+          display: block;
+          width: 100%;
+          min-height: 900px;
+          background: #f4efe3;
+          color: #123f3b;
+          font-family: "Inter Tight", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          contain: content;
+          overflow: hidden;
+        }
+
+        .editor-home {
+          min-height: 900px;
+          padding: 30px clamp(28px, 5vw, 64px) 56px;
+          background:
+            radial-gradient(circle at 83% 17%, rgba(199,221,218,0.85), transparent 34%),
+            linear-gradient(115deg, #f4efe3 0%, #f6f1e6 48%, #eef6ef 100%);
+          box-sizing: border-box;
+        }
+
+        .editor-nav {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 24px;
+          margin-bottom: 58px;
+        }
+
+        .editor-logo {
+          display: block;
+          width: min(210px, 28vw);
+          min-width: 150px;
+          height: auto;
+        }
+
+        .editor-links {
+          display: flex;
+          align-items: center;
+          gap: clamp(16px, 2vw, 28px);
+          font-size: 15px;
+          font-weight: 700;
+          color: #244744;
+          white-space: nowrap;
+        }
+
+        .editor-links span:last-child {
+          padding: 12px 20px;
+          border-radius: 999px;
+          color: #f9f2e6;
+          background: #0a5651;
+        }
+
+        .editor-hero {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) minmax(320px, 0.88fr);
+          align-items: center;
+          gap: clamp(36px, 5vw, 78px);
+        }
+
+        .editor-badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 12px;
+          margin-bottom: 34px;
+          padding: 13px 22px;
+          border: 1px solid rgba(10, 86, 81, 0.12);
+          border-radius: 999px;
+          background: rgba(229, 236, 224, 0.78);
+          box-shadow: inset 0 0 0 1px rgba(255,255,255,0.36);
+          color: #245f5a;
+          font-weight: 750;
+        }
+
+        .editor-badge span {
+          width: 9px;
+          height: 9px;
+          border-radius: 50%;
+          background: #c46a4a;
+        }
+
+        h1 {
+          margin: 0 0 26px;
+          max-width: 760px;
+          font-family: "Bricolage Grotesque", "Inter Tight", system-ui, sans-serif;
+          font-size: clamp(54px, 7.2vw, 96px);
+          line-height: 1.04;
+          letter-spacing: 0;
+          color: #0a5651;
+        }
+
+        h1 em {
+          color: #c46a4a;
+          font-style: italic;
+          font-weight: 500;
+        }
+
+        .editor-copy {
+          max-width: 690px;
+          margin: 0 0 38px;
+          color: #627370;
+          font-size: clamp(19px, 2vw, 25px);
+          line-height: 1.55;
+          font-weight: 500;
+        }
+
+        .editor-buttons {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 18px;
+        }
+
+        .editor-button {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 58px;
+          padding: 0 34px;
+          border-radius: 999px;
+          border: 2px solid #0a5651;
+          color: #0a5651;
+          font-size: 18px;
+          font-weight: 800;
+        }
+
+        .editor-button.primary {
+          min-width: 220px;
+          color: #f8f1e4;
+          background: #0a5651;
+        }
+
+        .editor-visual {
+          position: relative;
+          min-height: 520px;
+        }
+
+        .editor-visual img {
+          width: 100%;
+          height: 100%;
+          min-height: 520px;
+          object-fit: cover;
+          border-radius: 34px;
+          box-shadow: 0 34px 90px -42px rgba(8, 43, 39, 0.45);
+        }
+
+        .editor-note {
+          position: absolute;
+          top: 72px;
+          left: -52px;
+          max-width: 290px;
+          padding: 24px 28px;
+          border-radius: 22px;
+          background: #fffaf1;
+          box-shadow: 0 22px 70px -34px rgba(8, 43, 39, 0.42);
+        }
+
+        .editor-note strong {
+          display: block;
+          margin-bottom: 4px;
+          color: #0a5651;
+          font-size: 20px;
+        }
+
+        .editor-note p {
+          margin: 0;
+          color: #6b7b78;
+          font-size: 15px;
+        }
+
+        .editor-stats {
+          display: grid;
+          grid-template-columns: repeat(5, minmax(0, 1fr));
+          gap: 18px;
+          margin-top: 54px;
+          padding-top: 28px;
+          border-top: 1px solid rgba(10, 86, 81, 0.12);
+        }
+
+        .editor-stat strong {
+          display: block;
+          margin-bottom: 4px;
+          color: #0a5651;
+          font-size: clamp(28px, 3vw, 44px);
+          line-height: 1;
+          font-weight: 750;
+        }
+
+        .editor-stat span {
+          color: #687876;
+          font-size: 14px;
+          font-weight: 650;
+          line-height: 1.35;
+        }
+
+        @media (max-width: 900px) {
+          :host,
+          .editor-home {
+            min-height: 760px;
+          }
+
+          .editor-links {
+            display: none;
+          }
+
+          .editor-hero {
+            grid-template-columns: 1fr;
+          }
+
+          .editor-visual {
+            display: none;
+          }
+
+          .editor-stats {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+        }
+      </style>
+      <div class="editor-home">
+        <header class="editor-nav">
+          <img class="editor-logo" src="${logo}" alt="Floating Counselling">
+          <div class="editor-links" aria-hidden="true">
+            <span>Services</span>
+            <span>Find help</span>
+            <span>Parenting</span>
+            <span>Holiday School</span>
+            <span>Book a Session</span>
+          </div>
+        </header>
+
+        <main class="editor-hero">
+          <section>
+            <div class="editor-badge"><span></span> Croydon &amp; London · Since 2015</div>
+            <h1>Counselling, <em>Community</em> &amp; Compassion.</h1>
+            <p class="editor-copy">A UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care, practical help and community-driven programmes designed as wraparound care.</p>
+            <div class="editor-buttons" aria-hidden="true">
+              <span class="editor-button primary">Book a Session</span>
+              <span class="editor-button">Find the right support</span>
+            </div>
+          </section>
+
+          <section class="editor-visual" aria-label="Floating Counselling community gathering">
+            <img src="${hero}" alt="">
+            <div class="editor-note">
+              <strong>Trauma-informed</strong>
+              <p>Care that meets you where you are</p>
+            </div>
+          </section>
+        </main>
+
+        <section class="editor-stats" aria-label="Floating Counselling impact">
+          <div class="editor-stat"><strong>15,000+</strong><span>Counselling sessions delivered</span></div>
+          <div class="editor-stat"><strong>50,000+</strong><span>Clinical hours of care</span></div>
+          <div class="editor-stat"><strong>45 yrs</strong><span>Combined clinical experience</span></div>
+          <div class="editor-stat"><strong>1,400+</strong><span>Children supported</span></div>
+          <div class="editor-stat"><strong>10+ yrs</strong><span>Serving the community</span></div>
+        </section>
+      </div>
+    `;
   }
 
   fitWixViewport() {
