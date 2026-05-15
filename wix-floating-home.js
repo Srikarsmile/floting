@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260515-02';
+    this.version = '20260515-03';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -414,7 +414,7 @@ class FloatingHome extends HTMLElement {
 
   renderEditorCanvasPreview() {
     const logo = this.asset('images/logo.webp');
-    const hero = this.asset('images/counselling.webp');
+    const hero = this.asset('images/counselling-real-20260515.webp');
 
     return `
       <style>
