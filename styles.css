@@ -297,6 +297,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 
 .hero-badge {
   display: inline-flex; align-items: center; gap: 10px;
+  max-width: 100%; flex-wrap: wrap; line-height: 1.25;
   background: rgba(10,86,81,0.07); padding: 9px 18px; border-radius: 100px;
   font-size: var(--fs-small); font-weight: 500; color: var(--clr-primary);
   margin-bottom: var(--s-7);
@@ -377,6 +378,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .hero-float {
   position: absolute; z-index: 2;
+  max-width: min(340px, 58%);
   background: rgba(255,255,255,0.95);
   backdrop-filter: blur(14px);
   border-radius: var(--radius);
@@ -400,7 +402,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   border: 1.5px solid var(--clr-bg); border-radius: 4px;
 }
 .hero-float--top { top: 8%; left: -10%; }
-.hero-float--bottom { bottom: 10%; right: -10%; }
+.hero-float--bottom { bottom: 10%; left: -8%; }
 
 /* Scroll cue */
 .hero-scroll-cue {

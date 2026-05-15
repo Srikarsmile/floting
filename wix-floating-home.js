@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260515-01';
+    this.version = '20260515-02';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -414,7 +414,7 @@ class FloatingHome extends HTMLElement {
 
   renderEditorCanvasPreview() {
     const logo = this.asset('images/logo.webp');
-    const hero = this.asset('images/hero.webp');
+    const hero = this.asset('images/counselling.webp');
 
     return `
       <style>
@@ -648,7 +648,7 @@ class FloatingHome extends HTMLElement {
 
         <main class="editor-hero">
           <section>
-            <div class="editor-badge"><span></span> Croydon &amp; London · Since 2015</div>
+            <div class="editor-badge"><span></span> Croydon · Redbridge · Durham · Newham</div>
             <h1>Counselling, <em>Community</em> &amp; Compassion.</h1>
             <p class="editor-copy">A UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care, practical help and community-driven programmes designed as wraparound care.</p>
             <div class="editor-buttons" aria-hidden="true">
@@ -671,7 +671,7 @@ class FloatingHome extends HTMLElement {
           <div class="editor-stat"><strong>50,000+</strong><span>Clinical hours of care</span></div>
           <div class="editor-stat"><strong>45 yrs</strong><span>Combined clinical experience</span></div>
           <div class="editor-stat"><strong>1,400+</strong><span>Children supported</span></div>
-          <div class="editor-stat"><strong>10+ yrs</strong><span>Serving the community</span></div>
+          <div class="editor-stat"><strong>10+ yrs</strong><span>Croydon, Redbridge, Durham &amp; Newham</span></div>
         </section>
       </div>
     `;
