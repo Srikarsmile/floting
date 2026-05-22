@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260522-01';
+    this.version = '20260522-02';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -1194,7 +1194,10 @@ class FloatingHome extends HTMLElement {
 
   renderTeam() {
     this.replaceList('.team-grid', 'team', (node, item) => {
-      const image = this.mediaValue(item.image || item.imageUrl || item.photo);
+      const personName = this.itemText(item, ['title', 'name']);
+      const image = /celestina/i.test(personName)
+        ? ''
+        : this.mediaValue(item.image || item.imageUrl || item.photo);
       let photo = node.querySelector('.team-photo');
 
       if (image) {
@@ -1214,7 +1217,7 @@ class FloatingHome extends HTMLElement {
         photo.replaceWith(avatar);
       }
 
-      this.setNodeText(node.querySelector('h4'), this.itemText(item, ['title', 'name']));
+      this.setNodeText(node.querySelector('h4'), personName);
       this.setNodeText(node.querySelector('.role'), this.itemText(item, ['role', 'subtitle']));
 
       const email = this.itemText(item, ['email']);

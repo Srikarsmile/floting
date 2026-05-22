@@ -1557,7 +1557,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .cta-section {
   background: linear-gradient(135deg, var(--clr-primary-deep), var(--clr-primary) 60%, var(--clr-primary-soft));
   color: var(--clr-bg); text-align: center;
-  padding: clamp(80px, 11vw, 140px) 0;
+  padding: clamp(48px, 5vw, 72px) 0;
   position: relative; overflow: hidden;
 }
 .cta-bg { position: absolute; inset: 0; pointer-events: none; contain: paint; }
@@ -2945,7 +2945,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   .theme-week-num { font-size: 1.4rem; min-width: 36px; }
 
   /* CTA */
-  .cta-section { padding: 72px 0; }
+  .cta-section { padding: 48px 0; }
   .cta-buttons { flex-direction: column; align-items: stretch; }
   .cta-buttons .btn { justify-content: center; width: 100%; }
 
