@@ -1,13 +1,13 @@
 section,order,title,subtitle,tag,body,image,alt,url,ctaLabel,email,role,initials,enabled
 pathways,10,"I need counselling",,"Therapy","Start with one-to-one, family, couple, group, online or in-person therapeutic support.",,,"#contact","Book a session",,,,true
 pathways,20,"I need parenting support",,"Family","Get practical tools for behaviour, attachment, trauma recovery and family confidence.",,,"#parenting","View parenting help",,,,true
-pathways,30,"I need practical help",,"Community","Use the hub for food, clothing, forms, housing questions, NHS links and wellbeing support.",,,"#hub","Visit the hub",,,,true
-pathways,40,"I want to volunteer or partner",,"Partners","Support local residents through food donations, funding, skills, events or professional help.",,,"#contact","Start a partnership",,,,true
-services,10,"Counselling & Mentoring",,,"Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person and online, with free to low-cost care for elderly, Universal Credit and low-income clients.",,,"#contact","Get started",,,,true
-services,20,"Impact Parenting",,,"Workshops, 1:1 mentoring, and group programmes for parents — including therapeutic camps, the Impact Parenting Pillar training and a private support group.",,,"#parenting","Learn more",,,,true
-services,30,"Community Support",,,"Donated food distributed weekly from Tesco, Sainsbury's, Greggs, Lidl, Asda, Felix and Amazon to individuals and families in need.",,,"#hub","Visit the hub",,,,false
-services,30,"Floating Community Hub",,,"A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Durham and Newham, offering practical support, wellbeing services and advocacy.",,,"#hub","Find out more",,,,true
-services,50,"Financial Literacy & Business Training",,,"Masterclasses and retreats supporting budgeting skills, entrepreneurial growth and confidence for the global majority community.",,,"#contact","Enquire",,,,false
+pathways,30,"I need practical help",,"Community","Use the hub for food, clothing, forms, housing questions, bills help, digital inclusion and wellbeing support.",,,"#hub","Visit the hub",,,,true
+pathways,40,"I want to volunteer or partner",,"Partners","Support local residents through food donations, funding, fundraising, skills, events or professional help.",,,"#fundraiser","Fundraise with us",,,,true
+services,10,"Counselling & Mentoring",,,"Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person across our project boroughs and online, with free and low-cost care for elderly, Universal Credit and low-income clients.",,,"#contact","Get started",,,,true
+services,20,"Impact Parenting",,,"Workshops, 1:1 mentoring and group programmes for parents, including therapeutic camps, the Impact Parenting Pillar training and a private support group.",,,"#parenting","Learn more",,,,true
+services,30,"Floating Community Hub",,,"A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Newham, Durham and Southwark, offering practical support, wellbeing services and advocacy.",,,"#hub","Find out more",,,,true
+services,50,"Food Bank & Essentials",,,"Weekly donated food, clothes and practical essentials for individuals and families who need immediate support.",,,"#hub","Visit the hub",,,,true
+services,60,"Financial Literacy & Employment Support",,,"Budgeting, employment confidence, skills support and enterprise guidance for people rebuilding stability.",,,"#contact","Ask about support",,,,true
 services,40,"Holiday School & Camps",,,"Art therapy, music, play therapy and psychological techniques for children aged 5-11. Over 1,400 children registered across recent programmes.",,,"#holiday-school","Register",,,,true
 communityModel,10,"Food, forms and practical stability",,"Immediate needs","Weekly community hub, food and clothes support, form filling, housing questions, bills help and local referrals.",,,,,,,,true
 communityModel,20,"Counselling, mentoring and family repair",,"Therapeutic care","Trauma-informed therapy, relationship work, parenting tools and emotional support for adults, children and families.",,,,,,,,true
@@ -30,7 +30,7 @@ holidayWeeks,30,"Confidence and self-love",,"Week 3","Confidence, happiness visu
 holidayWeeks,40,"Loss, endings and appreciation",,"Week 4","Coping with endings, letters for loved ones, soul work, self-love and appreciation for self.",https://srikarsmile.github.io/floting/images/original-holiday-week4.png,Holiday school week 4 newsletter,,,,,,false
 hubEvents,10,"Croydon Hub every Tuesday",,,"Join the Floating Community Hub at Ashburton Park Cafe Hall, Lower Addiscombe, CR0 6RX, from 12:30-2:30pm.",,,,,,,,true
 hubEvents,20,"Housing officer support",,,"A housing officer is at the hub during the last week of the month for benefit forms, housing questions and related support.",,,,,,,,false
-hubEvents,30,"Projects across communities",,,"Floating also delivers community projects in Redbridge, Durham and Newham so local support is easier to find.",,,,,,,,true
+hubEvents,30,"Projects across communities",,,"Floating also delivers community projects in Redbridge, Newham, Durham and Southwark so local support is easier to find.",,,,,,,,true
 hubFlyers,10,,,,,https://srikarsmile.github.io/floting/images/hub-real-20260515.webp,Floating Community Hub community gathering,,,,,,true
 hubFlyers,20,,,,,https://srikarsmile.github.io/floting/images/original-hub-housing.jpg,Housing support flyer,,,,,,false
 hubFlyers,30,,,,,https://srikarsmile.github.io/floting/images/original-hub-health.jpg,Mental and physical health matters in Croydon flyer,,,,,,false
@@ -40,7 +40,7 @@ testimonials,30,"Niina Kabesa","Author, Mother of Nations · Congo",,"As a mothe
 team,10,"Celestina Oniye-Thomas",,,"",https://srikarsmile.github.io/floting/images/team-celestina.jpg,Celestina Oniye-Thomas,,,info@floatingcounselling.co.uk,"CEO & Head of Charitable Operations",CO,true
 team,20,"Omowonu-Ola Ogunlela",,,"",https://srikarsmile.github.io/floting/images/team-omowonu.jpg,Omowonu-Ola Ogunlela,,,floatingcounsellingcommunity@gmail.com,"Director & Head of Finance",OO,true
 team,30,"Elizabeth Owode",,,"",https://srikarsmile.github.io/floting/images/team-elizabeth.png,Elizabeth Owode,,,,Director & Relationship Coach,EO,true
-team,40,"Linda Yeboah",,,"",,,,,floatingcounsellinglinda@gmail.com,"Director & Safeguarding Officer",LY,false
+team,40,"Linda Yeboah",,,"",,,,,floatingcounsellinglinda@gmail.com,"Director & Safeguarding Officer",LY,true
 team,50,"Niina Kabesa",,,"",https://srikarsmile.github.io/floting/images/team-niina.jpg,Niina Kabesa,,,,Holiday Camp Manager,NK,false
 team,60,"Marleine Griffin",,,"",https://srikarsmile.github.io/floting/images/team-marleine.jpg,Marleine Griffin,,,info@floatingcounselling.co.uk,Admin Lead,MG,false
 partners,10,,,,,https://srikarsmile.github.io/floting/images/partner-dfe.jpg,Department for Education,,,,,,true
@@ -54,7 +54,7 @@ partners,80,,,,,https://srikarsmile.github.io/floting/images/partner-ico.jpg,ICO
 partners,90,,,,,https://srikarsmile.github.io/floting/images/partner-neighbourly.jpg,Neighbourly,,,,,,false
 partners,100,,,,,https://srikarsmile.github.io/floting/images/partner-prs.png,PRS for Music,,,,,,false
 originalPages,10,"Counselling Services",,"Therapy","Affordable counselling in Croydon and London, with individual, couple, family and online options.",,,https://www.floatingcounselling.co.uk/counselling,"Open original page",,,,false
-originalPages,20,"Floating Community Hub",,"Community","Weekly resident support, food and clothes bank, housing help, NHS support and wellbeing events.",,,https://www.floatingcounselling.co.uk/wch,"Open original page",,,,false
+originalPages,20,"Floating Community Hub",,"Community","Weekly resident support, food and clothes bank, housing help, bills support and wellbeing events.",,,https://www.floatingcounselling.co.uk/wch,"Open original page",,,,false
 originalPages,30,"Holiday School",,"Children","Creative therapeutic school programmes for children aged 5-11, including art, music, play and resilience work.",,,https://www.floatingcounselling.co.uk/holidayschool,"Open original page",,,,false
 originalPages,40,"Free Resources",,"Resources","Parenting and wellbeing support materials from the original Floating Counselling website.",,,https://www.floatingcounselling.co.uk/freeresources,"Open original page",,,,false
 originalPages,50,"Events",,"Events","Community workshops, support days and Floating Counselling events from the original website.",,,https://www.floatingcounselling.co.uk/events,"Open original page",,,,false

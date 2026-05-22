@@ -392,7 +392,7 @@
         });
 
         document
-          .querySelectorAll('a, button, [data-card], .service-card, .team-card, .blog-card, .testimonial-card, .event-card, .hub-feature, .theme-week')
+          .querySelectorAll('a, button, [data-card], .service-card, .fundraiser-card, .team-card, .blog-card, .testimonial-card, .event-card, .hub-feature, .theme-week')
           .forEach((el) => {
             el.addEventListener('mouseenter', () => ring.classList.add('is-hover'));
             el.addEventListener('mouseleave', () => ring.classList.remove('is-hover'));
@@ -425,8 +425,8 @@
     const yearEl = document.getElementById('footerYear');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    /* Sticky donate FAB + back-to-top */
-    const donateFab = document.querySelector('.donate-fab');
+    /* Sticky support FABs + back-to-top */
+    const supportFabs = document.querySelectorAll('.support-fab, .donate-fab, .fundraiser-fab');
     const backToTop = document.getElementById('backToTop');
     let lastFabY = 0;
     let scrollingDown = false;
@@ -436,9 +436,9 @@
       if (y > lastFabY + 12) scrollingDown = true;
       else if (y < lastFabY - 12) scrollingDown = false;
       lastFabY = y;
-      // Donate FAB: always show when in range (don't hide on scroll-down)
+      // Support FABs: always show when in range (don't hide on scroll-down)
       const inFabRange = y > 600 && y < max - 200;
-      if (donateFab) donateFab.classList.toggle('is-visible', inFabRange);
+      supportFabs.forEach((fab) => fab.classList.toggle('is-visible', inFabRange));
       // Back-to-top: hide while scrolling down
       const showTop = y > 1200 && !scrollingDown;
       if (backToTop) backToTop.classList.toggle('is-visible', showTop);
@@ -526,7 +526,7 @@
           email.focus();
           return;
         }
-        status.textContent = 'Thanks — check your inbox to confirm. We\'ll never spam.';
+        status.textContent = 'Thanks, check your inbox to confirm. We\'ll never spam.';
         status.dataset.state = 'ok';
         email.value = '';
       });
@@ -548,7 +548,7 @@
           status.dataset.state = 'error';
           return;
         }
-        status.textContent = 'Thanks — your message has been sent. We\'ll be in touch within two working days.';
+        status.textContent = 'Thanks, your message has been sent. We\'ll be in touch within two working days.';
         status.dataset.state = 'ok';
         contactForm.reset();
       });

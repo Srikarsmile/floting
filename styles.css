@@ -208,9 +208,9 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .footer-logo:hover .nav-logo-img { opacity: 1; }
 
-.nav-links { display: flex; gap: 28px; list-style: none; align-items: center; }
+.nav-links { display: flex; gap: 22px; list-style: none; align-items: center; }
 .nav-links a {
-  font-size: 0.92rem; font-weight: 500; color: var(--clr-text);
+  font-size: 0.9rem; font-weight: 500; color: var(--clr-text);
   position: relative; padding: 12px 0;
 }
 .nav-links a:not(.nav-cta)::after {
@@ -558,6 +558,78 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   backdrop-filter: blur(10px);
 }
 .btn-glass:hover { background: rgba(255,255,255,0.22); }
+
+/* ═══════════════════════════════════════════
+   FUNDRAISER
+   ═══════════════════════════════════════════ */
+.fundraiser-section {
+  background:
+    linear-gradient(180deg, rgba(244,239,227,0.96), rgba(236,228,210,0.98)),
+    radial-gradient(circle at 12% 18%, rgba(196,106,74,0.12), transparent 34%),
+    radial-gradient(circle at 88% 76%, rgba(12,168,156,0.15), transparent 38%);
+}
+.fundraiser-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  gap: clamp(36px, 5vw, 76px);
+  align-items: start;
+}
+.fundraiser-intro {
+  position: sticky;
+  top: 120px;
+}
+.fundraiser-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-4);
+  margin-top: var(--s-7);
+}
+.fundraiser-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s-5);
+}
+.fundraiser-card {
+  min-height: 230px;
+  padding: var(--s-8);
+  border-radius: var(--radius);
+  background: rgba(251,247,238,0.86);
+  border: 1px solid rgba(10,86,81,0.11);
+  box-shadow: var(--shadow-soft);
+  transition: transform var(--t-mid) var(--ease-out),
+              box-shadow var(--t-mid) var(--ease-out),
+              border-color var(--t-mid) var(--ease-out),
+              background var(--t-mid) var(--ease-out);
+}
+.fundraiser-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(196,106,74,0.32);
+  background: var(--clr-white);
+  box-shadow: var(--shadow);
+}
+.fundraiser-card span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: var(--s-5);
+  border-radius: 50%;
+  background: rgba(196,106,74,0.13);
+  color: var(--clr-accent);
+  font-weight: 750;
+  font-size: 0.78rem;
+}
+.fundraiser-card h3 {
+  font-size: clamp(1.15rem, 1.5vw, 1.35rem);
+  color: var(--clr-primary);
+  margin-bottom: var(--s-3);
+}
+.fundraiser-card p {
+  color: var(--clr-text-light);
+  font-size: 0.96rem;
+  line-height: 1.58;
+}
 
 /* ═══════════════════════════════════════════
    SERVICES
@@ -1332,7 +1404,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
    TEAM
    ═══════════════════════════════════════════ */
 .team-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-7);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-6);
 }
 .team-card {
   text-align: center; padding: var(--s-9) var(--s-6);
@@ -2389,9 +2461,9 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .footer-legal a:hover { color: var(--clr-white); }
 
 /* ═══════════════════════════════════════════
-   STICKY DONATE FAB + BACK TO TOP
+   STICKY SUPPORT FABS + BACK TO TOP
    ═══════════════════════════════════════════ */
-.donate-fab {
+.support-fab {
   position: fixed;
   right: 24px;
   bottom: 24px;
@@ -2406,18 +2478,21 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   font-weight: 600;
   font-size: 0.92rem;
   text-decoration: none;
-  box-shadow: 0 12px 32px -10px rgba(196,106,74,0.6);
+  box-shadow: 0 12px 32px -10px rgba(10,86,81,0.42);
   transform: translateY(120%);
-  transition: transform 0.5s var(--ease-out), background var(--t-fast);
+  opacity: 0;
+  transition: transform 0.5s var(--ease-out), opacity 0.5s var(--ease-out), background var(--t-fast);
 }
-.donate-fab.is-visible { transform: translateY(0); }
-.donate-fab:hover { background: var(--clr-primary); box-shadow: 0 12px 32px -10px rgba(10,86,81,0.5); }
-.donate-fab svg { width: 18px; height: 18px; }
+.donate-fab { background: var(--clr-accent); }
+.fundraiser-fab { bottom: 78px; background: var(--clr-primary); }
+.support-fab.is-visible { transform: translateY(0); opacity: 1; }
+.support-fab:hover { background: var(--clr-primary-soft); box-shadow: 0 12px 32px -10px rgba(10,86,81,0.5); }
+.support-fab svg { width: 18px; height: 18px; }
 
 .back-to-top {
   position: fixed;
   right: 24px;
-  bottom: 84px;
+  bottom: 136px;
   z-index: 899;
   width: 44px; height: 44px;
   border-radius: 50%;
@@ -2517,8 +2592,9 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   .hub-events { grid-template-columns: 1fr; }
   .faq-grid { grid-template-columns: 1fr; gap: 40px; }
   .faq-intro { position: static; }
-  .pathway-layout, .community-model-grid, .assistant-grid { grid-template-columns: 1fr; }
+  .pathway-layout, .community-model-grid, .assistant-grid, .fundraiser-grid { grid-template-columns: 1fr; }
   .pathway-intro { position: static; }
+  .fundraiser-intro { position: static; }
   .pathway-note { grid-column: auto; }
   .support-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .contact-grid { grid-template-columns: minmax(0, 1fr); gap: 48px; }
@@ -2670,7 +2746,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   /* Cards — single column, tighter */
   .services-grid, .testimonials-grid, .blog-grid, .events-grid,
   .resources-grid, .programmes-grid, .holiday-week-grid, .hub-flyer-grid,
-  .pathway-grid, .community-model-cards {
+  .pathway-grid, .community-model-cards, .fundraiser-card-grid {
     grid-template-columns: minmax(0, 1fr);
     gap: 12px;
   }
@@ -2714,9 +2790,11 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   .partners-logo-grid img { max-height: 58px; }
   .resource-card--newsletter { grid-column: span 1; }
   .service-card, .testimonial-card, .event-card { padding: 22px 20px; }
-  .pathway-card, .community-model-card { padding: 22px 20px; min-height: 0; }
+  .pathway-card, .community-model-card, .fundraiser-card { padding: 22px 20px; min-height: 0; }
   .pathway-note { padding: 18px; align-items: flex-start; }
   .pathway-note-button { width: 100%; justify-content: center; }
+  .fundraiser-actions { flex-direction: column; align-items: stretch; margin-top: 24px; }
+  .fundraiser-actions .btn { justify-content: center; width: 100%; }
   .support-flow div { padding: 18px; }
   .impact-note { margin-top: 26px; font-size: 0.94rem; }
   .blog-card-body { padding: 22px 20px; }
@@ -2879,21 +2957,22 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   .footer-legal { flex-wrap: wrap; gap: 14px 18px; }
   .footer-bottom p { font-size: 0.82rem; }
 
-  /* Sticky donate FAB — circular icon-only on phones, safe-area aware */
-  .donate-fab {
+  /* Sticky support FABs — circular icon-only on phones, safe-area aware */
+  .support-fab {
     right: 14px;
-    bottom: calc(14px + env(safe-area-inset-bottom, 0px));
     padding: 14px;
     border-radius: 50%;
     box-shadow: 0 10px 24px -8px rgba(196,106,74,0.55);
   }
-  .donate-fab span { display: none; }
-  .donate-fab svg { width: 22px; height: 22px; }
+  .donate-fab { bottom: calc(14px + env(safe-area-inset-bottom, 0px)); }
+  .fundraiser-fab { bottom: calc(70px + env(safe-area-inset-bottom, 0px)); }
+  .support-fab span { display: none; }
+  .support-fab svg { width: 22px; height: 22px; }
 
   /* Back-to-top sits above donate */
   .back-to-top {
     right: 14px;
-    bottom: calc(78px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(126px + env(safe-area-inset-bottom, 0px));
     width: 42px; height: 42px;
   }
 
@@ -2919,12 +2998,18 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
     font-size: 0.82rem;
   }
 
-  /* Lift the donate FAB / back-to-top above the cookie banner while open */
+  /* Lift the support FABs / back-to-top above the cookie banner while open */
   body.cookie-open .donate-fab {
     bottom: calc(120px + env(safe-area-inset-bottom, 0px));
   }
+  body.cookie-open .fundraiser-fab {
+    bottom: calc(176px + env(safe-area-inset-bottom, 0px));
+  }
   body.cookie-open .back-to-top {
-    bottom: calc(178px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(232px + env(safe-area-inset-bottom, 0px));
+  }
+  body.cookie-open .assistant-widget {
+    display: none;
   }
 
   /* Tap targets — buttons/links comfortable */

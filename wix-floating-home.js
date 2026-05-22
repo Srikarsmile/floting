@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260515-03';
+    this.version = '20260522-01';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -268,7 +268,9 @@ class FloatingHome extends HTMLElement {
           }
 
           .floating-root .navbar,
+          .floating-root .support-fab,
           .floating-root .donate-fab,
+          .floating-root .fundraiser-fab,
           .floating-root .back-to-top,
           .floating-root .cookie-banner,
           .floating-root .skip-link {
@@ -280,7 +282,9 @@ class FloatingHome extends HTMLElement {
             background: rgba(244,239,227,0.97);
           }
 
+          .floating-root .support-fab,
           .floating-root .donate-fab,
+          .floating-root .fundraiser-fab,
           .floating-root .back-to-top {
             display: none !important;
           }
@@ -456,8 +460,8 @@ class FloatingHome extends HTMLElement {
         .editor-links {
           display: flex;
           align-items: center;
-          gap: clamp(16px, 2vw, 28px);
-          font-size: 15px;
+          gap: clamp(12px, 1.5vw, 22px);
+          font-size: 14px;
           font-weight: 700;
           color: #244744;
           white-space: nowrap;
@@ -642,18 +646,20 @@ class FloatingHome extends HTMLElement {
             <span>Find help</span>
             <span>Parenting</span>
             <span>Holiday School</span>
+            <span>Fundraiser</span>
             <span>Book a Session</span>
           </div>
         </header>
 
         <main class="editor-hero">
           <section>
-            <div class="editor-badge"><span></span> Croydon · Redbridge · Durham · Newham</div>
+            <div class="editor-badge"><span></span> Croydon · Redbridge · Newham · Durham · Southwark</div>
             <h1>Counselling, <em>Community</em> &amp; Compassion.</h1>
             <p class="editor-copy">A UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care, practical help and community-driven programmes designed as wraparound care.</p>
             <div class="editor-buttons" aria-hidden="true">
               <span class="editor-button primary">Book a Session</span>
               <span class="editor-button">Find the right support</span>
+              <span class="editor-button">Fundraiser</span>
             </div>
           </section>
 
@@ -671,7 +677,7 @@ class FloatingHome extends HTMLElement {
           <div class="editor-stat"><strong>50,000+</strong><span>Clinical hours of care</span></div>
           <div class="editor-stat"><strong>45 yrs</strong><span>Combined clinical experience</span></div>
           <div class="editor-stat"><strong>1,400+</strong><span>Children supported</span></div>
-          <div class="editor-stat"><strong>10+ yrs</strong><span>Croydon, Redbridge, Durham &amp; Newham</span></div>
+          <div class="editor-stat"><strong>10+ yrs</strong><span>Croydon, Redbridge, Newham, Durham &amp; Southwark</span></div>
         </section>
       </div>
     `;
