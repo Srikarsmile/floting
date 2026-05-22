@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260522-02';
+    this.version = '20260522-03';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -1195,9 +1195,7 @@ class FloatingHome extends HTMLElement {
   renderTeam() {
     this.replaceList('.team-grid', 'team', (node, item) => {
       const personName = this.itemText(item, ['title', 'name']);
-      const image = /celestina/i.test(personName)
-        ? ''
-        : this.mediaValue(item.image || item.imageUrl || item.photo);
+      const image = this.mediaValue(item.image || item.imageUrl || item.photo);
       let photo = node.querySelector('.team-photo');
 
       if (image) {
