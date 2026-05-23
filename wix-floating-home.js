@@ -1550,4 +1550,36 @@ class FloatingHome extends HTMLElement {
   }
 }
 
-customElements.define('floating-home', FloatingHome);
+function refreshFloatingHomeInstances(Constructor) {
+  document.querySelectorAll('floating-home').forEach((element) => {
+    element.version = floatingHomeCurrentBuild;
+    element.setAttribute('data-floating-build', floatingHomeCurrentBuild);
+    element.hasRendered = false;
+    element.classList.remove('is-ready');
+    if (typeof element.connectedCallback === 'function') {
+      element.connectedCallback();
+    } else if (typeof element.render === 'function') {
+      element.render();
+    }
+  });
+
+  return Constructor;
+}
+
+const existingFloatingHome = customElements.get('floating-home');
+
+if (existingFloatingHome) {
+  Object.getOwnPropertyNames(FloatingHome.prototype).forEach((name) => {
+    if (name === 'constructor') return;
+
+    Object.defineProperty(
+      existingFloatingHome.prototype,
+      name,
+      Object.getOwnPropertyDescriptor(FloatingHome.prototype, name),
+    );
+  });
+
+  refreshFloatingHomeInstances(existingFloatingHome);
+} else {
+  customElements.define('floating-home', FloatingHome);
+}

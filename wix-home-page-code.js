@@ -2,6 +2,8 @@ import wixData from "wix-data";
 
 const floatingHomeId = "customElement1";
 const floatingBuildVersion = "20260523-01";
+const floatingScriptUrl =
+  "https://srikarsmile.github.io/floting/wix-floating-home.js?v=20260523-01";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
 
@@ -167,6 +169,29 @@ function installFloatingPageGuards() {
     ].join("");
   } catch (error) {
     // Wix can restrict direct document access in some editor contexts.
+  }
+}
+
+function refreshFloatingHomeScript() {
+  try {
+    if (typeof document === "undefined") {
+      return;
+    }
+
+    const scriptId = "floating-home-script-refresh";
+    const existingScript = document.getElementById(scriptId);
+
+    if (existingScript) {
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.id = scriptId;
+    script.src = floatingScriptUrl;
+    script.defer = true;
+    document.head.appendChild(script);
+  } catch (error) {
+    // Wix may restrict direct document access in some preview contexts.
   }
 }
 
@@ -369,6 +394,7 @@ function applyFloatingCms(payload) {
 }
 
 $w.onReady(function () {
+  refreshFloatingHomeScript();
   installFloatingPageGuards();
 
   [0, 40, 120, 250, 700, 1500, 3000, 6000, 10000].forEach(function (delay) {
