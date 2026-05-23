@@ -931,6 +931,7 @@ class FloatingHome extends HTMLElement {
   hideLegacyWixNode(node) {
     if (!node || node === this || node.contains(this)) return;
 
+    this.scrubLegacyImages(node);
     node.setAttribute('data-floating-home-hidden', 'true');
     node.setAttribute('aria-hidden', 'true');
     node.style.setProperty('display', 'none', 'important');
@@ -939,6 +940,37 @@ class FloatingHome extends HTMLElement {
     node.style.setProperty('height', '0', 'important');
     node.style.setProperty('min-height', '0', 'important');
     node.style.setProperty('overflow', 'hidden', 'important');
+  }
+
+  scrubLegacyImages(node) {
+    if (!node || this.isWixEditorPreview()) return;
+
+    node.querySelectorAll('img, source').forEach((media) => {
+      if (media.closest('floating-home')) return;
+
+      const source = media.getAttribute('src');
+      const sourceSet = media.getAttribute('srcset');
+
+      if (source && !media.getAttribute('data-floating-src')) {
+        media.setAttribute('data-floating-src', source);
+      }
+
+      if (sourceSet && !media.getAttribute('data-floating-srcset')) {
+        media.setAttribute('data-floating-srcset', sourceSet);
+      }
+
+      media.removeAttribute('srcset');
+
+      if (media.tagName === 'IMG') {
+        media.setAttribute('loading', 'lazy');
+        media.setAttribute('decoding', 'async');
+        media.setAttribute('fetchpriority', 'low');
+        media.setAttribute(
+          'src',
+          'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==',
+        );
+      }
+    });
   }
 
   rewriteLocalAssets() {
