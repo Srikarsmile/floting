@@ -4,6 +4,8 @@ const floatingHomeAssetBase = (() => {
   return 'https://srikarsmile.github.io/floting/';
 })();
 
+const floatingHomeCurrentBuild = '20260523-01';
+
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
     return ['data-cms', 'data-floating-build'];
@@ -13,7 +15,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260523-01';
+    this.version = floatingHomeCurrentBuild;
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -86,9 +88,15 @@ class FloatingHome extends HTMLElement {
 
   readBuildVersion() {
     const buildVersion = String(this.getAttribute('data-floating-build') || '').trim();
+    const hasUsableVersion = /^[0-9A-Za-z._-]+$/.test(buildVersion);
 
-    if (/^[0-9A-Za-z._-]+$/.test(buildVersion)) {
-      this.version = buildVersion;
+    this.version =
+      hasUsableVersion && buildVersion >= floatingHomeCurrentBuild
+        ? buildVersion
+        : floatingHomeCurrentBuild;
+
+    if (this.getAttribute('data-floating-build') !== this.version) {
+      this.setAttribute('data-floating-build', this.version);
     }
   }
 
