@@ -13,7 +13,7 @@ class FloatingHome extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.assetBase = floatingHomeAssetBase;
-    this.version = '20260522-03';
+    this.version = '20260523-01';
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
@@ -21,6 +21,7 @@ class FloatingHome extends HTMLElement {
     this.hasRendered = false;
     this.boundRepairWixLayout = () => {
       if (!this.isConnected || this.isWixEditorPreview()) return;
+      this.hideExternalNoise();
       this.isolateFromWixLayout();
     };
   }
@@ -28,6 +29,8 @@ class FloatingHome extends HTMLElement {
   connectedCallback() {
     this.classList.remove('is-ready');
     this.readBuildVersion();
+    this.installGlobalGuards();
+    this.preloadCriticalAssets();
     this.prepareWixHost();
     this.readCmsAttribute();
     this.render();
@@ -147,7 +150,7 @@ class FloatingHome extends HTMLElement {
             display: block;
             width: 100%;
             min-height: 100vh;
-            background: #f4efe3;
+            background: #063836;
             color: #1f3937;
             font-family: "Inter Tight", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
           }
@@ -239,7 +242,7 @@ class FloatingHome extends HTMLElement {
             font-weight: 400;
             letter-spacing: -0.005em;
             color: var(--clr-text, #1f3937);
-            background: var(--clr-bg, #f4efe3);
+            background: var(--clr-primary-deep, #063836);
             line-height: 1.65;
             overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
@@ -324,6 +327,7 @@ class FloatingHome extends HTMLElement {
       const stylesheetReady = this.waitForStylesheet(root.querySelector('[data-floating-stylesheet]'));
 
       this.rewriteLocalAssets();
+      this.prepareImagesForFastPaint();
       this.hasRendered = true;
       this.applyCmsData();
       this.finalizeContent();
@@ -371,6 +375,8 @@ class FloatingHome extends HTMLElement {
   }
 
   prepareWixHost() {
+    this.installGlobalGuards();
+    this.hideExternalNoise();
     this.setAttribute('data-floating-home-host', 'true');
     this.style.setProperty('display', 'block', 'important');
     this.style.setProperty('position', 'relative', 'important');
@@ -397,6 +403,61 @@ class FloatingHome extends HTMLElement {
     this.style.setProperty('overflow', 'visible', 'important');
     this.style.setProperty('contain', 'none', 'important');
     this.fitWixViewport();
+  }
+
+  installGlobalGuards() {
+    if (!document.head || document.getElementById('floating-home-global-guards')) return;
+
+    const style = document.createElement('style');
+    style.id = 'floating-home-global-guards';
+    style.textContent = `
+      html,
+      body {
+        background: #063836 !important;
+        overflow-x: hidden !important;
+      }
+
+      [id*="poptin" i],
+      [class*="poptin" i],
+      iframe[src*="poptin" i],
+      a[href*="poptin.com" i] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+
+      [data-floating-home-hidden="true"] {
+        display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+        min-height: 0 !important;
+        overflow: hidden !important;
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  preloadCriticalAssets() {
+    if (!document.head) return;
+
+    [
+      ['preload', 'fetch', this.asset('index.html')],
+      ['preload', 'style', this.asset('styles.css')],
+      ['preload', 'image', this.asset('images/logo.webp')],
+      ['preload', 'image', this.asset('images/counselling-real-20260515.webp')],
+      ['prefetch', 'image', this.asset('images/team-celestina.jpg')],
+      ['prefetch', 'image', this.asset('images/hub-real-20260515.webp')],
+    ].forEach(([rel, as, href]) => {
+      if (document.head.querySelector(`link[rel="${rel}"][href="${href}"]`)) return;
+
+      const link = document.createElement('link');
+      link.rel = rel;
+      link.as = as;
+      link.href = href;
+      if (as === 'fetch') link.crossOrigin = 'anonymous';
+      document.head.appendChild(link);
+    });
   }
 
   isWixEditorPreview() {
@@ -878,6 +939,40 @@ class FloatingHome extends HTMLElement {
       if (source && /^(images|\.\/images)\//.test(source)) {
         node.setAttribute('src', this.asset(source.replace(/^\.\//, '')));
       }
+    });
+  }
+
+  prepareImagesForFastPaint() {
+    const images = Array.from(this.shadowRoot.querySelectorAll('img'));
+
+    images.forEach((image, index) => {
+      image.setAttribute('decoding', 'async');
+
+      if (index < 2 || image.closest('.hero, .nav-logo')) {
+        image.setAttribute('loading', 'eager');
+        image.setAttribute('fetchpriority', 'high');
+      }
+    });
+  }
+
+  hideExternalNoise() {
+    if (!document.body) return;
+
+    const selectors = [
+      '[id*="poptin" i]',
+      '[class*="poptin" i]',
+      'iframe[src*="poptin" i]',
+      'a[href*="poptin.com" i]',
+    ];
+
+    document.querySelectorAll(selectors.join(',')).forEach((node) => {
+      if (node === this || this.contains(node)) return;
+
+      node.setAttribute('aria-hidden', 'true');
+      node.style.setProperty('display', 'none', 'important');
+      node.style.setProperty('visibility', 'hidden', 'important');
+      node.style.setProperty('opacity', '0', 'important');
+      node.style.setProperty('pointer-events', 'none', 'important');
     });
   }
 

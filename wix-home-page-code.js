@@ -1,7 +1,7 @@
 import wixData from "wix-data";
 
 const floatingHomeId = "customElement1";
-const floatingBuildVersion = "20260522-03";
+const floatingBuildVersion = "20260523-01";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
 
@@ -145,6 +145,31 @@ function hideElement(element) {
   safeCall(element, "collapse");
 }
 
+function installFloatingPageGuards() {
+  try {
+    if (typeof document === "undefined") {
+      return;
+    }
+
+    const styleId = "floating-page-guards";
+    let style = document.getElementById(styleId);
+
+    if (!style) {
+      style = document.createElement("style");
+      style.id = styleId;
+      document.head.appendChild(style);
+    }
+
+    style.textContent = [
+      "html,body{background:#063836!important;overflow-x:hidden!important;}",
+      "[id*='poptin' i],[class*='poptin' i],iframe[src*='poptin' i],a[href*='poptin.com' i]{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}",
+      "[data-floating-home-hidden='true']{display:none!important;visibility:hidden!important;height:0!important;min-height:0!important;overflow:hidden!important;}",
+    ].join("");
+  } catch (error) {
+    // Wix can restrict direct document access in some editor contexts.
+  }
+}
+
 function collectPageElements() {
   const selectors = [
     "*",
@@ -198,6 +223,8 @@ function isCustomRenderElement(element) {
 }
 
 function applyFloatingHomeLayout() {
+  installFloatingPageGuards();
+
   const floatingHome = findFloatingHomeElement();
 
   if (!floatingHome) {
@@ -342,7 +369,9 @@ function applyFloatingCms(payload) {
 }
 
 $w.onReady(function () {
-  [0, 80, 250, 700, 1500, 3000, 6000].forEach(function (delay) {
+  installFloatingPageGuards();
+
+  [0, 40, 120, 250, 700, 1500, 3000, 6000, 10000].forEach(function (delay) {
     setTimeout(applyFloatingHomeLayout, delay);
   });
 });
