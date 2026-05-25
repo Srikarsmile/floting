@@ -4,7 +4,7 @@ const floatingHomeAssetBase = (() => {
   return 'https://srikarsmile.github.io/floting/';
 })();
 
-const floatingHomeCurrentBuild = '20260525-01';
+const floatingHomeCurrentBuild = '20260525-02';
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {

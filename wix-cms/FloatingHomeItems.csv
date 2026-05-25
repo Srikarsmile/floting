@@ -2,7 +2,7 @@ section,order,title,subtitle,tag,body,image,alt,url,ctaLabel,email,role,initials
 pathways,10,"I need counselling",,"Therapy","Start with one-to-one, family, couple, group, online or in-person therapeutic support.",,,"#contact","Book a session",,,,true
 pathways,20,"I need parenting support",,"Family","Get practical tools for behaviour, attachment, trauma recovery and family confidence.",,,"#parenting","View parenting help",,,,true
 pathways,30,"I need practical help",,"Community","Use the hub for food, clothing, forms, housing questions, bills help, digital inclusion and wellbeing support.",,,"#hub","Visit the hub",,,,true
-pathways,40,"I want to volunteer or partner",,"Partners","Support local residents through food donations, funding, fundraising, skills, events or professional help.",,,"#fundraiser","Fundraise with us",,,,true
+pathways,40,"I want to volunteer or partner",,"Partners","Support local residents through food donations, funding, fundraising, skills, events or professional help.",,,"#volunteer","Volunteer with us",,,,true
 services,10,"Counselling & Mentoring",,,"Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person across our project boroughs and online, with free and low-cost care for elderly, Universal Credit and low-income clients.",,,"#contact","Get started",,,,true
 services,20,"Impact Parenting",,,"Workshops, 1:1 mentoring and group programmes for parents, including therapeutic camps, the Impact Parenting Pillar training and a private support group.",,,"#parenting","Learn more",,,,true
 services,30,"Floating Community Hub",,,"A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Newham, Durham and Southwark, offering practical support, wellbeing services and advocacy.",,,"#hub","Find out more",,,,true
@@ -63,4 +63,4 @@ assistantPrompts,10,"Counselling enquiry",,,"Route me to the therapy team.",,,"#
 assistantPrompts,20,"Parenting support",,,"Show Impact Parenting options.",,,"#parenting",,,,,true
 assistantPrompts,30,"Food or community hub",,,"Show practical support and hub details.",,,"#hub",,,,,true
 assistantPrompts,40,"Holiday school",,,"Show children's holiday school support.",,,"#holiday-school",,,,,true
-assistantPrompts,50,"Volunteer or partner",,,"Route me to partnership enquiries.",,,"#contact",,,,,true
+assistantPrompts,50,"Volunteer or partner",,,"Route me to the volunteer application form.",,,"#volunteer",,,,,true
