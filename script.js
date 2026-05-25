@@ -93,6 +93,26 @@
       })
     );
 
+    const languageSelect = document.getElementById('languageSelect');
+    if (languageSelect) {
+      languageSelect.addEventListener('change', () => {
+        const language = languageSelect.value;
+        languageSelect.value = '';
+        if (!language) return;
+
+        const pageUrl = new URL(window.location.href);
+        pageUrl.hash = '';
+        const translateUrl =
+          `https://translate.google.com/translate?sl=en&tl=${encodeURIComponent(language)}&u=${encodeURIComponent(pageUrl.toString())}`;
+        window.open(translateUrl, '_blank', 'noopener,noreferrer');
+
+        navToggle.classList.remove('open');
+        navLinks.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    }
+
     /* ── 5. Scroll progress bar ─────────────────────── */
     const progress = document.querySelector('.scroll-progress span');
     if (progress) {

@@ -4,7 +4,7 @@ const floatingHomeAssetBase = (() => {
   return 'https://srikarsmile.github.io/floting/';
 })();
 
-const floatingHomeCurrentBuild = '20260523-01';
+const floatingHomeCurrentBuild = '20260525-01';
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -454,7 +454,7 @@ class FloatingHome extends HTMLElement {
       ['preload', 'style', this.asset('styles.css')],
       ['preload', 'image', this.asset('images/logo.webp')],
       ['preload', 'image', this.asset('images/counselling-real-20260515.webp')],
-      ['prefetch', 'image', this.asset('images/team-celestina.jpg')],
+      ['prefetch', 'image', this.asset('images/team-celestina.webp')],
       ['prefetch', 'image', this.asset('images/hub-real-20260515.webp')],
     ].forEach(([rel, as, href]) => {
       if (document.head.querySelector(`link[rel="${rel}"][href="${href}"]`)) return;
@@ -1189,6 +1189,52 @@ class FloatingHome extends HTMLElement {
     return rawValue;
   }
 
+  teamProfileDefaults(name) {
+    const normalizedName = String(name || '').toLowerCase();
+    const profiles = [
+      {
+        match: 'celestina',
+        image: this.asset('images/team-celestina.webp'),
+        email: 'info@floatingcounselling.co.uk',
+        url: 'https://uk.linkedin.com/in/celestina-oniye-thomas',
+        ctaLabel: 'Read more',
+      },
+      {
+        match: 'omowonu',
+        image: this.asset('images/team-omowonu.webp'),
+        email: 'floatingcounsellingcommunity@gmail.com',
+        url: 'https://financecareers.nhs.uk/resource/nhs-finance-career-stories-successful-moves-between-nhs-sectors-wonu-ogunlela/',
+        ctaLabel: 'Read more',
+      },
+      {
+        match: 'elizabeth',
+        image: this.asset('images/team-elizabeth.webp'),
+        email: 'info@floatingcounselling.co.uk',
+        url: 'https://myfamily101.kit.com/e96f58fc71',
+        ctaLabel: 'Read more',
+      },
+      {
+        match: 'linda',
+        image: this.asset('images/team-linda.webp'),
+        email: 'floatingcounsellinglinda@gmail.com',
+        url: 'mailto:floatingcounsellinglinda@gmail.com?subject=Floating%20Counselling%20enquiry',
+        ctaLabel: 'Contact',
+      },
+    ];
+
+    return profiles.find((profile) => normalizedName.includes(profile.match)) || {};
+  }
+
+  translatePageUrl() {
+    try {
+      const url = new URL(window.location.href);
+      url.hash = '';
+      return url.toString();
+    } catch (error) {
+      return 'https://www.floatingcounselling.co.uk/';
+    }
+  }
+
   applyCmsImage(node, entryOrItem) {
     if (!node || !entryOrItem) return;
 
@@ -1330,7 +1376,8 @@ class FloatingHome extends HTMLElement {
   renderTeam() {
     this.replaceList('.team-grid', 'team', (node, item) => {
       const personName = this.itemText(item, ['title', 'name']);
-      const image = this.mediaValue(item.image || item.imageUrl || item.photo);
+      const defaults = this.teamProfileDefaults(personName);
+      const image = defaults.image || this.mediaValue(item.image || item.imageUrl || item.photo);
       let photo = node.querySelector('.team-photo');
 
       if (image) {
@@ -1342,7 +1389,11 @@ class FloatingHome extends HTMLElement {
           if (avatar) avatar.replaceWith(photo);
           else node.prepend(photo);
         }
-        this.applyCmsImage(photo, item);
+        this.applyCmsImage(photo, {
+          ...item,
+          image,
+          alt: this.itemText(item, ['alt', 'altText']) || personName,
+        });
       } else if (photo) {
         const avatar = document.createElement('div');
         avatar.className = 'team-avatar team-avatar--fallback';
@@ -1353,17 +1404,25 @@ class FloatingHome extends HTMLElement {
       this.setNodeText(node.querySelector('h4'), personName);
       this.setNodeText(node.querySelector('.role'), this.itemText(item, ['role', 'subtitle']));
 
-      const email = this.itemText(item, ['email']);
+      const email = defaults.email || this.itemText(item, ['email']);
       const emailNode = node.querySelector('.email');
       if (emailNode && email) {
-        emailNode.textContent = email;
+        emailNode.textContent = 'Email';
         emailNode.setAttribute('href', `mailto:${email}`);
+        emailNode.setAttribute('title', email);
         emailNode.hidden = false;
       } else if (emailNode) {
         emailNode.hidden = true;
       }
 
-      this.setLink(node.querySelector('.team-readmore'), item);
+      this.setLink(node.querySelector('.team-readmore'), {
+        ...item,
+        url: defaults.url || this.itemText(item, ['url', 'href', 'link']),
+        ctaLabel:
+          defaults.ctaLabel ||
+          this.itemText(item, ['ctaLabel', 'buttonLabel', 'linkLabel']) ||
+          'Read more',
+      });
     });
   }
 
@@ -1410,12 +1469,26 @@ class FloatingHome extends HTMLElement {
     const href = this.itemText(item, ['url', 'href', 'link']);
     const label = this.itemText(item, ['ctaLabel', 'buttonLabel', 'linkLabel']);
 
-    if (href) node.setAttribute('href', href);
+    if (href) {
+      node.setAttribute('href', href);
+      if (/^https?:\/\//i.test(href)) {
+        node.setAttribute('target', '_blank');
+        node.setAttribute('rel', 'noopener');
+      } else {
+        node.removeAttribute('target');
+        node.removeAttribute('rel');
+      }
+    }
+
     if (label) {
       const span = node.querySelector && node.querySelector('span');
       if (span && node.classList.contains('learn-more')) span.textContent = '→';
       const labelNode = node.classList.contains('learn-more') ? node.childNodes[0] : null;
       if (labelNode && labelNode.nodeType === Node.TEXT_NODE) labelNode.textContent = `${label} `;
+      if (node.classList.contains('team-readmore')) {
+        const textNode = Array.from(node.childNodes).find((child) => child.nodeType === Node.TEXT_NODE);
+        if (textNode) textNode.textContent = `${label} `;
+      }
     }
   }
 
@@ -1474,6 +1547,25 @@ class FloatingHome extends HTMLElement {
           navLinks.classList.remove('open');
           navToggle.setAttribute('aria-expanded', 'false');
         });
+      });
+    }
+
+    const languageSelect = root.getElementById('languageSelect');
+    if (languageSelect) {
+      languageSelect.addEventListener('change', () => {
+        const language = languageSelect.value;
+        languageSelect.value = '';
+        if (!language) return;
+
+        const translateUrl =
+          `https://translate.google.com/translate?sl=en&tl=${encodeURIComponent(language)}&u=${encodeURIComponent(this.translatePageUrl())}`;
+        window.open(translateUrl, '_blank', 'noopener,noreferrer');
+
+        if (navToggle && navLinks) {
+          navToggle.classList.remove('open');
+          navLinks.classList.remove('open');
+          navToggle.setAttribute('aria-expanded', 'false');
+        }
       });
     }
 

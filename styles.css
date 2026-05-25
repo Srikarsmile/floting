@@ -227,6 +227,29 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .nav-links a:not(.nav-cta):hover { color: var(--clr-primary); }
 .nav-links a:not(.nav-cta):hover::after { width: 100%; }
 
+.nav-language {
+  display: inline-flex;
+  align-items: center;
+}
+.language-select {
+  min-height: 40px;
+  max-width: 132px;
+  padding: 0 14px;
+  border: 1px solid rgba(10,86,81,0.18);
+  border-radius: 999px;
+  background: rgba(251,247,238,0.72);
+  color: var(--clr-primary);
+  font: 600 0.84rem/1 var(--font-body);
+  letter-spacing: 0;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+}
+.language-select:hover,
+.language-select:focus {
+  border-color: rgba(10,86,81,0.34);
+  background: var(--clr-white);
+}
+
 .nav-links .nav-cta {
   background: var(--clr-primary);
   color: var(--clr-bg) !important;
@@ -1418,6 +1441,9 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   background: var(--clr-bg-warm);
   border-radius: var(--radius);
   border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   transition: transform var(--t-mid) var(--ease-out),
               box-shadow var(--t-mid) var(--ease-out),
               background var(--t-mid) var(--ease-out),
@@ -1459,12 +1485,18 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .team-card .role {
   font-size: 0.82rem; color: var(--clr-accent-warm);
   font-weight: 500; margin-bottom: var(--s-3);
+  min-height: 2.1em;
 }
 .team-card .email {
-  font-size: 0.78rem; color: var(--clr-text-light);
-  word-break: break-all;
+  background: var(--clr-primary);
+  color: var(--clr-bg);
+  border-color: var(--clr-primary);
 }
-.team-card .email:hover { color: var(--clr-primary); }
+.team-card .email:hover {
+  background: var(--clr-primary-soft);
+  border-color: var(--clr-primary-soft);
+  color: var(--clr-bg);
+}
 
 /* ═══════════════════════════════════════════
    EVENTS
@@ -2570,18 +2602,41 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 /* ═══════════════════════════════════════════
    TEAM "Read more" link
    ═══════════════════════════════════════════ */
+.team-actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 12px;
+}
+.team-card .email,
 .team-readmore {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
-  margin-top: 10px;
+  min-height: 40px;
+  padding: 9px 14px;
+  border: 1px solid rgba(10,86,81,0.2);
+  border-radius: 999px;
   font-size: 0.88rem;
   font-weight: 600;
   color: var(--clr-primary);
   text-decoration: none;
+  line-height: 1;
+}
+.team-actions .email {
+  color: var(--clr-bg);
 }
 .team-readmore span {
   transition: transform var(--t-fast) var(--ease-out);
+}
+.team-readmore:hover {
+  color: var(--clr-primary-soft);
+  border-color: rgba(10,86,81,0.36);
+  background: rgba(251,247,238,0.7);
 }
 .team-card:hover .team-readmore span { transform: translateX(4px); }
 
@@ -2684,6 +2739,17 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
     padding: 9px 16px;
     display: inline-flex;
     align-items: center;
+  }
+  .nav-language {
+    justify-content: center;
+  }
+  .language-select {
+    width: min(100%, 320px);
+    max-width: 320px;
+    min-height: 48px;
+    text-align: center;
+    font-size: 1rem;
+    background: var(--clr-white);
   }
   .nav-cta { width: min(100%, 320px); justify-content: center; padding: 16px 26px !important; }
   .nav-toggle {
@@ -2855,16 +2921,18 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
     margin: 0 0 6px;
     line-height: 1.3;
     letter-spacing: 0.06em;
+    min-height: 2.7em;
   }
-  /* Hide email on mobile — saves space; email is in contact section */
-  .team-card .email { display: none; }
+  .team-actions {
+    gap: 6px;
+    padding-top: 6px;
+  }
+  .team-card .email,
   .team-card .team-readmore {
     display: inline-flex;
     font-size: 0.78rem;
-    padding: 10px 0;
-    margin-top: 2px;
+    padding: 9px 10px;
     min-height: 40px;
-    color: var(--clr-primary);
     font-weight: 600;
   }
 
@@ -3084,11 +3152,10 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
     min-height: 44px;
     align-items: center;
   }
-  /* Team-card .email visible only on tablet+ where layout permits */
   @media (min-width: 721px) {
     .team-card .email {
       padding: 10px 0;
-      display: inline-block;
+      display: inline-flex;
       min-height: 44px;
       word-break: break-word;
     }
