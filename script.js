@@ -102,9 +102,19 @@
 
         const pageUrl = new URL(window.location.href);
         pageUrl.hash = '';
-        const translateUrl =
-          `https://translate.google.com/translate?sl=en&tl=${encodeURIComponent(language)}&u=${encodeURIComponent(pageUrl.toString())}`;
-        window.open(translateUrl, '_blank', 'noopener,noreferrer');
+        const translateUrl = new URL('https://translate.yandex.com/translate');
+        translateUrl.searchParams.set('view', 'compact');
+        translateUrl.searchParams.set('url', pageUrl.toString());
+        translateUrl.searchParams.set('lang', `en-${language}`);
+        if (typeof window.open === 'function') {
+          window.open(translateUrl.toString(), '_blank', 'noopener,noreferrer');
+        } else {
+          const translateLink = document.createElement('a');
+          translateLink.href = translateUrl.toString();
+          document.body.appendChild(translateLink);
+          translateLink.click();
+          translateLink.remove();
+        }
 
         navToggle.classList.remove('open');
         navLinks.classList.remove('open');
