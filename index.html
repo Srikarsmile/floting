@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#0A5651">
   <title>Floating Counselling — Counselling, Community &amp; Compassion · Croydon &amp; London</title>
   <meta name="description" content="A UK-based grassroots charity delivering affordable counselling, family support, fundraising and community projects across Croydon, Redbridge, Newham, Durham and Southwark. BACP-aligned, trauma-informed care since 2015.">
+  <meta name="floating-translation-endpoint" content="/api/translate">
   <link rel="canonical" href="https://www.floatingcounselling.co.uk/">
 
   <!-- Favicon -->
@@ -79,6 +80,7 @@
   <script defer src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="floating-translation.js"></script>
   <script defer src="script.js"></script>
 </head>
 <body>
@@ -111,6 +113,7 @@
         <label class="visually-hidden" for="languageSelect">Translate website</label>
         <select id="languageSelect" class="language-select" aria-label="Translate website">
           <option value="">Language</option>
+          <option value="en">English</option>
           <option value="ar">Arabic</option>
           <option value="bn">Bengali</option>
           <option value="fr">French</option>

@@ -1,9 +1,10 @@
 import wixData from "wix-data";
 
 const floatingHomeId = "customElement1";
-const floatingBuildVersion = "20260526-01";
+const floatingBuildVersion = "20260527-01";
 const floatingScriptUrl =
-  "https://srikarsmile.github.io/floting/wix-floating-home.js?v=20260526-01";
+  "https://srikarsmile.github.io/floting/wix-floating-home.js?v=20260527-01";
+const floatingTranslationEndpoint = "https://floting.vercel.app/api/translate";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
 
@@ -261,6 +262,9 @@ function applyFloatingHomeLayout() {
   if (typeof floatingHome.setAttribute === "function") {
     try {
       floatingHome.setAttribute("data-floating-build", floatingBuildVersion);
+      if (floatingTranslationEndpoint) {
+        floatingHome.setAttribute("data-translation-endpoint", floatingTranslationEndpoint);
+      }
       floatingHome.setAttribute("data-cms", "");
     } catch (error) {
       // Attribute support depends on the Wix custom element render target.

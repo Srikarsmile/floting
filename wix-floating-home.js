@@ -4,7 +4,7 @@ const floatingHomeAssetBase = (() => {
   return 'https://srikarsmile.github.io/floting/';
 })();
 
-const floatingHomeCurrentBuild = '20260526-01';
+const floatingHomeCurrentBuild = '20260527-01';
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -19,6 +19,7 @@ class FloatingHome extends HTMLElement {
     this.isolationTimer = 0;
     this.isolationObserver = null;
     this.layoutWatchdog = 0;
+    this.translationClientPromise = null;
     this.cmsData = null;
     this.hasRendered = false;
     this.boundRepairWixLayout = () => {
@@ -1235,6 +1236,108 @@ class FloatingHome extends HTMLElement {
     }
   }
 
+  translationEndpoint() {
+    return String(this.getAttribute('data-translation-endpoint') || '').trim();
+  }
+
+  loadTranslationClient() {
+    if (window.FloatingPageTranslator) {
+      return Promise.resolve(window.FloatingPageTranslator);
+    }
+
+    if (this.translationClientPromise) {
+      return this.translationClientPromise;
+    }
+
+    this.translationClientPromise = new Promise((resolve, reject) => {
+      let timeout = 0;
+      const finish = (translator) => {
+        if (!translator || !translator.create) return;
+        window.clearTimeout(timeout);
+        window.removeEventListener('floatingtranslationready', handleReady);
+        resolve(translator);
+      };
+      const handleReady = (event) => finish(event.detail);
+
+      window.addEventListener('floatingtranslationready', handleReady);
+      timeout = window.setTimeout(() => {
+        window.removeEventListener('floatingtranslationready', handleReady);
+        reject(new Error('Translation client timed out'));
+      }, 4000);
+
+      const existing = document.querySelector('script[data-floating-translation-client]');
+      if (existing) {
+        existing.addEventListener('load', () => finish(window.FloatingPageTranslator), { once: true });
+        existing.addEventListener('error', reject, { once: true });
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.src = this.asset('floating-translation.js');
+      script.defer = true;
+      script.dataset.floatingTranslationClient = 'true';
+      script.onload = () => finish(window.FloatingPageTranslator);
+      script.onerror = reject;
+      document.head.appendChild(script);
+    });
+
+    return this.translationClientPromise;
+  }
+
+  openExternalTranslation(language) {
+    const translateUrl = new URL('https://translate.yandex.com/translate');
+    translateUrl.searchParams.set('view', 'compact');
+    translateUrl.searchParams.set('url', this.translatePageUrl());
+    translateUrl.searchParams.set('lang', `en-${language}`);
+
+    if (typeof window.open === 'function') {
+      window.open(translateUrl.toString(), '_blank', 'noopener,noreferrer');
+      return;
+    }
+
+    const translateLink = document.createElement('a');
+    translateLink.href = translateUrl.toString();
+    document.body.appendChild(translateLink);
+    translateLink.click();
+    translateLink.remove();
+  }
+
+  bindLanguageTranslation(root, languageSelect, navToggle, navLinks) {
+    const closeNav = () => {
+      if (!navToggle || !navLinks) return;
+      navToggle.classList.remove('open');
+      navLinks.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    };
+
+    this.loadTranslationClient()
+      .then((translator) => {
+        if (!translator || !translator.create) throw new Error('Translation client unavailable');
+        translator.create({
+          root,
+          select: languageSelect,
+          endpoint: () => this.translationEndpoint(),
+          pageUrl: () => this.translatePageUrl(),
+          onAfterChange: closeNav,
+        });
+      })
+      .catch(() => {
+        if (languageSelect.dataset.floatingTranslatorFallbackReady === 'true') return;
+        languageSelect.dataset.floatingTranslatorFallbackReady = 'true';
+
+        languageSelect.addEventListener('change', () => {
+          const language = languageSelect.value;
+          if (!language || language === 'en') {
+            closeNav();
+            return;
+          }
+
+          this.openExternalTranslation(language);
+          closeNav();
+        });
+      });
+  }
+
   applyCmsImage(node, entryOrItem) {
     if (!node || !entryOrItem) return;
 
@@ -1552,31 +1655,7 @@ class FloatingHome extends HTMLElement {
 
     const languageSelect = root.getElementById('languageSelect');
     if (languageSelect) {
-      languageSelect.addEventListener('change', () => {
-        const language = languageSelect.value;
-        languageSelect.value = '';
-        if (!language) return;
-
-        const translateUrl = new URL('https://translate.yandex.com/translate');
-        translateUrl.searchParams.set('view', 'compact');
-        translateUrl.searchParams.set('url', this.translatePageUrl());
-        translateUrl.searchParams.set('lang', `en-${language}`);
-        if (typeof window.open === 'function') {
-          window.open(translateUrl.toString(), '_blank', 'noopener,noreferrer');
-        } else {
-          const translateLink = document.createElement('a');
-          translateLink.href = translateUrl.toString();
-          document.body.appendChild(translateLink);
-          translateLink.click();
-          translateLink.remove();
-        }
-
-        if (navToggle && navLinks) {
-          navToggle.classList.remove('open');
-          navLinks.classList.remove('open');
-          navToggle.setAttribute('aria-expanded', 'false');
-        }
-      });
+      this.bindLanguageTranslation(root, languageSelect, navToggle, navLinks);
     }
 
     const assistantPanel = root.querySelector('[data-assistant-panel]');

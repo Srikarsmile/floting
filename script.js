@@ -95,32 +95,51 @@
 
     const languageSelect = document.getElementById('languageSelect');
     if (languageSelect) {
-      languageSelect.addEventListener('change', () => {
-        const language = languageSelect.value;
-        languageSelect.value = '';
-        if (!language) return;
-
-        const pageUrl = new URL(window.location.href);
-        pageUrl.hash = '';
-        const translateUrl = new URL('https://translate.yandex.com/translate');
-        translateUrl.searchParams.set('view', 'compact');
-        translateUrl.searchParams.set('url', pageUrl.toString());
-        translateUrl.searchParams.set('lang', `en-${language}`);
-        if (typeof window.open === 'function') {
-          window.open(translateUrl.toString(), '_blank', 'noopener,noreferrer');
-        } else {
-          const translateLink = document.createElement('a');
-          translateLink.href = translateUrl.toString();
-          document.body.appendChild(translateLink);
-          translateLink.click();
-          translateLink.remove();
-        }
-
+      const closeLanguageNav = () => {
         navToggle.classList.remove('open');
         navLinks.classList.remove('open');
         navToggle.setAttribute('aria-expanded', 'false');
         document.body.style.overflow = '';
-      });
+      };
+
+      let translatorBound = false;
+      const bindTranslator = (translator) => {
+        if (translatorBound || !translator || !translator.create) return;
+        translatorBound = true;
+        translator.create({
+          root: document,
+          select: languageSelect,
+          onAfterChange: closeLanguageNav,
+        });
+      };
+
+      const bindFallback = () => {
+        if (translatorBound) return;
+        translatorBound = true;
+        languageSelect.addEventListener('change', () => {
+          const language = languageSelect.value;
+          if (!language || language === 'en') {
+            closeLanguageNav();
+            return;
+          }
+
+          const pageUrl = new URL(window.location.href);
+          pageUrl.hash = '';
+          const translateUrl = new URL('https://translate.yandex.com/translate');
+          translateUrl.searchParams.set('view', 'compact');
+          translateUrl.searchParams.set('url', pageUrl.toString());
+          translateUrl.searchParams.set('lang', `en-${language}`);
+          window.location.href = translateUrl.toString();
+          closeLanguageNav();
+        });
+      };
+
+      if (window.FloatingPageTranslator) {
+        bindTranslator(window.FloatingPageTranslator);
+      } else {
+        window.addEventListener('floatingtranslationready', (event) => bindTranslator(event.detail), { once: true });
+        window.setTimeout(bindFallback, 100);
+      }
     }
 
     /* ── 5. Scroll progress bar ─────────────────────── */

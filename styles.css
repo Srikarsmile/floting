@@ -230,6 +230,8 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .nav-language {
   display: inline-flex;
   align-items: center;
+  gap: 8px;
+  position: relative;
 }
 .language-select {
   min-height: 40px;
@@ -248,6 +250,27 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .language-select:focus {
   border-color: rgba(10,86,81,0.34);
   background: var(--clr-white);
+}
+.language-select:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+.translation-status {
+  max-width: 150px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(10,86,81,0.09);
+  color: var(--clr-primary);
+  font: 700 0.74rem/1.1 var(--font-body);
+  white-space: nowrap;
+}
+.translation-status[data-state="loading"] {
+  background: rgba(217,145,71,0.16);
+  color: #8d511e;
+}
+.translation-status[data-state="fallback"] {
+  background: rgba(180,68,57,0.12);
+  color: #883b32;
 }
 
 .nav-links .nav-cta {
@@ -2843,6 +2866,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   }
   .nav-language {
     justify-content: center;
+    flex-wrap: wrap;
   }
   .language-select {
     width: min(100%, 320px);
