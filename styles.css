@@ -759,14 +759,14 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   font-size: 0.9rem;
 }
 .volunteer-application {
-  padding: clamp(32px, 5vw, 64px);
-  min-height: 520px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 0;
+  min-height: 0;
   background:
     radial-gradient(circle at 86% 14%, rgba(12,168,156,0.13), transparent 34%),
     linear-gradient(135deg, rgba(244,239,227,0.95), rgba(251,247,238,0.98));
+}
+.volunteer-application-copy {
+  padding: clamp(28px, 4vw, 52px) clamp(28px, 5vw, 64px) var(--s-6);
 }
 .volunteer-application h3 {
   color: var(--clr-primary);
@@ -782,6 +782,22 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .volunteer-application .btn {
   width: fit-content;
+}
+.volunteer-embed {
+  height: clamp(540px, 62vw, 720px);
+  margin: 0 clamp(20px, 4vw, 40px) clamp(20px, 4vw, 40px);
+  overflow: hidden;
+  border: 1px solid rgba(10,86,81,0.12);
+  border-radius: calc(var(--radius) - 4px);
+  background: var(--clr-white);
+  box-shadow: 0 18px 44px rgba(10,42,40,0.08);
+}
+.volunteer-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: var(--clr-white);
 }
 
 /* ═══════════════════════════════════════════
@@ -3002,11 +3018,19 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   }
   .volunteer-application {
     min-height: 0;
-    padding: 28px 20px;
+    padding: 0;
+  }
+  .volunteer-application-copy {
+    padding: 26px 20px 20px;
   }
   .volunteer-application .btn {
     width: 100%;
     justify-content: center;
+  }
+  .volunteer-embed {
+    height: 620px;
+    margin: 0 14px 14px;
+    border-radius: var(--radius-sm);
   }
   .support-flow div { padding: 18px; }
   .impact-note { margin-top: 26px; font-size: 0.94rem; }
