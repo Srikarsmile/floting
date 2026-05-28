@@ -1,9 +1,9 @@
 import wixData from "wix-data";
 
 const floatingHomeId = "customElement1";
-const floatingBuildVersion = "20260528-03";
+const floatingBuildVersion = "20260528-04";
 const floatingScriptUrl =
-  "https://srikarsmile.github.io/floting/wix-floating-home.js?v=20260528-03";
+  "https://srikarsmile.github.io/floting/wix-floating-home.js?v=20260528-04";
 const floatingTranslationEndpoint = "https://floting.vercel.app/api/translate";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
