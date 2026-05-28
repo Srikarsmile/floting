@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260528-08');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260528-09');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -1764,12 +1764,32 @@ class FloatingHome extends HTMLElement {
       return;
     }
 
-    let lastFabY = window.scrollY || 0;
+    const pageScrollY = () =>
+      window.scrollY ||
+      window.pageYOffset ||
+      document.documentElement.scrollTop ||
+      (document.body && document.body.scrollTop) ||
+      0;
+    const pageScrollMax = () =>
+      Math.max(
+        0,
+        document.documentElement.scrollHeight - window.innerHeight,
+        document.body ? document.body.scrollHeight - window.innerHeight : 0,
+      );
+    const scrollPageToTop = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
+      if (document.body) {
+        document.body.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    };
+
+    let lastFabY = pageScrollY();
     let scrollingDown = false;
 
     this.updateSupportFabVisibility = () => {
-      const y = window.scrollY || document.documentElement.scrollTop || 0;
-      const max = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+      const y = pageScrollY();
+      const max = pageScrollMax();
 
       if (y > lastFabY + 12) scrollingDown = true;
       else if (y < lastFabY - 12) scrollingDown = false;
@@ -1787,13 +1807,15 @@ class FloatingHome extends HTMLElement {
 
     window.addEventListener('scroll', this.supportFabScrollHandler, { passive: true });
     window.addEventListener('resize', this.supportFabScrollHandler, { passive: true });
+    document.addEventListener('scroll', this.supportFabScrollHandler, { passive: true });
+    if (document.body) {
+      document.body.addEventListener('scroll', this.supportFabScrollHandler, { passive: true });
+    }
     this.updateSupportFabVisibility();
 
     if (backToTop && backToTop.dataset.floatingBound !== 'true') {
       backToTop.dataset.floatingBound = 'true';
-      backToTop.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
+      backToTop.addEventListener('click', scrollPageToTop);
     }
   }
 
@@ -1804,6 +1826,10 @@ class FloatingHome extends HTMLElement {
 
     window.removeEventListener('scroll', this.supportFabScrollHandler);
     window.removeEventListener('resize', this.supportFabScrollHandler);
+    document.removeEventListener('scroll', this.supportFabScrollHandler);
+    if (document.body) {
+      document.body.removeEventListener('scroll', this.supportFabScrollHandler);
+    }
     this.supportFabScrollHandler = null;
   }
 
