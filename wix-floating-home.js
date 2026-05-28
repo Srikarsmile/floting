@@ -4,7 +4,7 @@ const floatingHomeAssetBase = (() => {
   return 'https://srikarsmile.github.io/floting/';
 })();
 
-const floatingHomeCurrentBuild = '20260528-02';
+const floatingHomeCurrentBuild = '20260528-03';
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -273,9 +273,7 @@ class FloatingHome extends HTMLElement {
             transform: none !important;
           }
 
-          .floating-root .scroll-progress,
-          .floating-root .cursor-dot,
-          .floating-root .cursor-ring {
+          .floating-root .scroll-progress {
             display: none !important;
           }
 

@@ -376,71 +376,14 @@
       }
     }
 
-    /* ── 12. Magnetic buttons ───────────────────────── */
-    if (!isTouch) {
-      document.querySelectorAll('[data-magnetic]').forEach((el) => {
-        const xTo = gsap.quickTo(el, 'x', { duration: 0.5, ease: 'power3.out' });
-        const yTo = gsap.quickTo(el, 'y', { duration: 0.5, ease: 'power3.out' });
-        el.addEventListener('mousemove', (e) => {
-          const r = el.getBoundingClientRect();
-          const px = (e.clientX - r.left - r.width / 2) * 0.35;
-          const py = (e.clientY - r.top - r.height / 2) * 0.35;
-          xTo(px);
-          yTo(py);
-        });
-        el.addEventListener('mouseleave', () => {
-          xTo(0);
-          yTo(0);
-        });
-      });
-    }
-
-    /* ── 13. Custom cursor ──────────────────────────── */
-    if (!isTouch) {
-      const dot = document.querySelector('.cursor-dot');
-      const ring = document.querySelector('.cursor-ring');
-      if (dot && ring) {
-        const dotX = gsap.quickTo(dot, 'x', { duration: 0.15, ease: 'power3.out' });
-        const dotY = gsap.quickTo(dot, 'y', { duration: 0.15, ease: 'power3.out' });
-        const ringX = gsap.quickTo(ring, 'x', { duration: 0.45, ease: 'power3.out' });
-        const ringY = gsap.quickTo(ring, 'y', { duration: 0.45, ease: 'power3.out' });
-
-        let visible = false;
-        window.addEventListener('mousemove', (e) => {
-          if (!visible) {
-            dot.style.opacity = 1;
-            ring.style.opacity = 1;
-            visible = true;
-          }
-          dotX(e.clientX);
-          dotY(e.clientY);
-          ringX(e.clientX);
-          ringY(e.clientY);
-        });
-
-        document
-          .querySelectorAll('a, button, [data-card], .service-card, .fundraiser-card, .team-card, .blog-card, .testimonial-card, .event-card, .hub-feature, .theme-week')
-          .forEach((el) => {
-            el.addEventListener('mouseenter', () => ring.classList.add('is-hover'));
-            el.addEventListener('mouseleave', () => ring.classList.remove('is-hover'));
-          });
-
-        document.addEventListener('mouseleave', () => {
-          dot.style.opacity = 0;
-          ring.style.opacity = 0;
-          visible = false;
-        });
-      }
-    }
-
-    /* ── 14. Refresh on resize ──────────────────────── */
+    /* ── 12. Refresh on resize ──────────────────────── */
     let rt;
     window.addEventListener('resize', () => {
       clearTimeout(rt);
       rt = setTimeout(() => ScrollTrigger.refresh(), 200);
     });
 
-    /* ── 15. Refresh after fonts/images load ────────── */
+    /* ── 13. Refresh after fonts/images load ────────── */
     window.addEventListener('load', () => {
       ScrollTrigger.refresh();
     });

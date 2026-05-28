@@ -146,35 +146,6 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 
 /* ═══════════════════════════════════════════
-   CUSTOM CURSOR
-   ═══════════════════════════════════════════ */
-.cursor-dot, .cursor-ring {
-  position: fixed; top: 0; left: 0;
-  pointer-events: none; z-index: 1200;
-  border-radius: 50%; opacity: 0;
-  transition: opacity var(--t-fast), transform var(--t-fast);
-  will-change: transform;
-}
-.cursor-dot {
-  width: 6px; height: 6px;
-  background: var(--clr-primary);
-  transform: translate(-50%, -50%);
-}
-.cursor-ring {
-  width: 36px; height: 36px;
-  border: 1.5px solid rgba(10,86,81,0.4);
-  transform: translate(-50%, -50%);
-}
-.cursor-ring.is-hover {
-  width: 64px; height: 64px;
-  background: rgba(196,106,74,0.12);
-  border-color: var(--clr-accent);
-}
-@media (pointer: coarse) {
-  .cursor-dot, .cursor-ring { display: none; }
-}
-
-/* ═══════════════════════════════════════════
    NAVBAR
    ═══════════════════════════════════════════ */
 .navbar {
