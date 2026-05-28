@@ -3,7 +3,7 @@
 
   var DEFAULT_MANIFEST_URL = 'https://floting.vercel.app/build-manifest.json';
   var DEFAULT_ASSET_BASE = 'https://floting.vercel.app/';
-  var DEFAULT_VERSION = '20260528-05';
+  var DEFAULT_VERSION = '20260528-06';
   var LOADER_ID = 'floating-home-vercel-loader';
   var RUNTIME_ID = 'floating-home-runtime';
   var APPLY_DELAYS = [0, 40, 120, 300, 700, 1500, 3000, 6000];
@@ -24,7 +24,7 @@
     return {
       version: version,
       assetBase: assetBase,
-      runtime: normalizeUrl(manifest.runtime, assetBase + 'wix-floating-home.js?v=' + encodeURIComponent(version)),
+      runtime: normalizeUrl(manifest.runtime, assetBase + 'wix-floating-home-runtime.js?v=' + encodeURIComponent(version)),
       html: normalizeUrl(manifest.html, assetBase + 'index.html?v=' + encodeURIComponent(version)),
       styles: normalizeUrl(manifest.styles, assetBase + 'styles.css?v=' + encodeURIComponent(version)),
       translationScript: normalizeUrl(
