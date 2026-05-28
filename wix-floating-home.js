@@ -4,7 +4,7 @@ const floatingHomeAssetBase = (() => {
   return 'https://srikarsmile.github.io/floting/';
 })();
 
-const floatingHomeCurrentBuild = '20260528-01';
+const floatingHomeCurrentBuild = '20260528-02';
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -1284,24 +1284,6 @@ class FloatingHome extends HTMLElement {
     return this.translationClientPromise;
   }
 
-  openExternalTranslation(language) {
-    const translateUrl = new URL('https://translate.yandex.com/translate');
-    translateUrl.searchParams.set('view', 'compact');
-    translateUrl.searchParams.set('url', this.translatePageUrl());
-    translateUrl.searchParams.set('lang', `en-${language}`);
-
-    if (typeof window.open === 'function') {
-      window.open(translateUrl.toString(), '_blank', 'noopener,noreferrer');
-      return;
-    }
-
-    const translateLink = document.createElement('a');
-    translateLink.href = translateUrl.toString();
-    document.body.appendChild(translateLink);
-    translateLink.click();
-    translateLink.remove();
-  }
-
   bindLanguageTranslation(root, languageSelect, navToggle, navLinks) {
     const closeNav = () => {
       if (!navToggle || !navLinks) return;
@@ -1332,7 +1314,7 @@ class FloatingHome extends HTMLElement {
             return;
           }
 
-          this.openExternalTranslation(language);
+          languageSelect.value = 'en';
           closeNav();
         });
       });

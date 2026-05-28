@@ -130,28 +130,6 @@
     return meta && meta.content ? meta.content.trim() : '';
   }
 
-  function externalTranslateUrl(language, pageUrl) {
-    const url = new URL('https://translate.yandex.com/translate');
-    url.searchParams.set('view', 'compact');
-    url.searchParams.set('url', pageUrl);
-    url.searchParams.set('lang', `en-${language}`);
-    return url.toString();
-  }
-
-  function openExternalTranslation(language, pageUrl) {
-    const url = externalTranslateUrl(language, pageUrl);
-    if (typeof window.open === 'function') {
-      window.open(url, '_blank', 'noopener,noreferrer');
-      return;
-    }
-
-    const link = document.createElement('a');
-    link.href = url;
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-  }
-
   function pageUrlWithoutHash() {
     const url = new URL(window.location.href);
     url.hash = '';
@@ -342,9 +320,9 @@
       }
 
       if (!endpoint) {
-        setStatus(status, 'Opening translator', 'fallback');
-        openExternalTranslation(language, getPageUrl());
-        window.setTimeout(() => setStatus(status, '', ''), 2200);
+        select.value = 'en';
+        setStatus(status, 'Translation is temporarily unavailable', 'fallback');
+        window.setTimeout(() => setStatus(status, '', ''), 2600);
         return;
       }
 
@@ -379,9 +357,9 @@
         select.value = language;
         setStatus(status, `${targetLabel} on`, 'ready');
       } catch (error) {
-        setStatus(status, 'Opening backup translator', 'fallback');
-        openExternalTranslation(language, getPageUrl());
-        window.setTimeout(() => setStatus(status, '', ''), 2200);
+        select.value = 'en';
+        setStatus(status, 'Translation is temporarily unavailable', 'fallback');
+        window.setTimeout(() => setStatus(status, '', ''), 2600);
       } finally {
         select.disabled = false;
         select.removeAttribute('aria-busy');
@@ -411,8 +389,6 @@
 
   const api = {
     create,
-    externalTranslateUrl,
-    openExternalTranslation,
   };
 
   function publish() {

@@ -113,32 +113,10 @@
         });
       };
 
-      const bindFallback = () => {
-        if (translatorBound) return;
-        translatorBound = true;
-        languageSelect.addEventListener('change', () => {
-          const language = languageSelect.value;
-          if (!language || language === 'en') {
-            closeLanguageNav();
-            return;
-          }
-
-          const pageUrl = new URL(window.location.href);
-          pageUrl.hash = '';
-          const translateUrl = new URL('https://translate.yandex.com/translate');
-          translateUrl.searchParams.set('view', 'compact');
-          translateUrl.searchParams.set('url', pageUrl.toString());
-          translateUrl.searchParams.set('lang', `en-${language}`);
-          window.location.href = translateUrl.toString();
-          closeLanguageNav();
-        });
-      };
-
       if (window.FloatingPageTranslator) {
         bindTranslator(window.FloatingPageTranslator);
       } else {
         window.addEventListener('floatingtranslationready', (event) => bindTranslator(event.detail), { once: true });
-        window.setTimeout(bindFallback, 100);
       }
     }
 
