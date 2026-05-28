@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260528-06');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260528-07');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -337,10 +337,6 @@ class FloatingHome extends HTMLElement {
           }
 
           .floating-root .navbar,
-          .floating-root .support-fab,
-          .floating-root .donate-fab,
-          .floating-root .fundraiser-fab,
-          .floating-root .back-to-top,
           .floating-root .cookie-banner,
           .floating-root .skip-link {
             position: absolute;
@@ -349,13 +345,6 @@ class FloatingHome extends HTMLElement {
           .floating-root .navbar {
             top: 0;
             background: rgba(244,239,227,0.97);
-          }
-
-          .floating-root .support-fab,
-          .floating-root .donate-fab,
-          .floating-root .fundraiser-fab,
-          .floating-root .back-to-top {
-            display: none !important;
           }
 
           ${editorPreview ? `
