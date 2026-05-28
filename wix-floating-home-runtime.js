@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260528-07');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260528-08');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -52,6 +52,7 @@ class FloatingHome extends HTMLElement {
     this.translationClientPromise = null;
     this.cmsData = null;
     this.hasRendered = false;
+    this.supportFabScrollHandler = null;
     this.boundRepairWixLayout = () => {
       if (!this.isConnected || this.isWixEditorPreview()) return;
       this.hideExternalNoise();
@@ -125,6 +126,7 @@ class FloatingHome extends HTMLElement {
     }
 
     this.stopWixLayoutWatchdog();
+    this.stopSupportFabWatcher();
   }
 
   asset(path) {
@@ -1650,6 +1652,8 @@ class FloatingHome extends HTMLElement {
   bindInteractions() {
     const root = this.shadowRoot;
 
+    this.bindSupportFabVisibility(root);
+
     root.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener('click', (event) => {
         const href = anchor.getAttribute('href');
@@ -1660,6 +1664,7 @@ class FloatingHome extends HTMLElement {
 
         event.preventDefault();
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        this.updateSupportFabVisibility();
       });
     });
 
@@ -1747,6 +1752,59 @@ class FloatingHome extends HTMLElement {
         if (isValid) contactForm.reset();
       });
     }
+  }
+
+  bindSupportFabVisibility(root) {
+    this.stopSupportFabWatcher();
+
+    const supportFabs = root.querySelectorAll('.support-fab, .donate-fab, .fundraiser-fab');
+    const backToTop = root.getElementById('backToTop');
+
+    if (!supportFabs.length && !backToTop) {
+      return;
+    }
+
+    let lastFabY = window.scrollY || 0;
+    let scrollingDown = false;
+
+    this.updateSupportFabVisibility = () => {
+      const y = window.scrollY || document.documentElement.scrollTop || 0;
+      const max = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+
+      if (y > lastFabY + 12) scrollingDown = true;
+      else if (y < lastFabY - 12) scrollingDown = false;
+      lastFabY = y;
+
+      const inFabRange = y > 600 && y < max - 200;
+      supportFabs.forEach((fab) => fab.classList.toggle('is-visible', inFabRange));
+
+      if (backToTop) {
+        backToTop.classList.toggle('is-visible', y > 1200 && !scrollingDown);
+      }
+    };
+
+    this.supportFabScrollHandler = () => this.updateSupportFabVisibility();
+
+    window.addEventListener('scroll', this.supportFabScrollHandler, { passive: true });
+    window.addEventListener('resize', this.supportFabScrollHandler, { passive: true });
+    this.updateSupportFabVisibility();
+
+    if (backToTop && backToTop.dataset.floatingBound !== 'true') {
+      backToTop.dataset.floatingBound = 'true';
+      backToTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  }
+
+  stopSupportFabWatcher() {
+    if (!this.supportFabScrollHandler) {
+      return;
+    }
+
+    window.removeEventListener('scroll', this.supportFabScrollHandler);
+    window.removeEventListener('resize', this.supportFabScrollHandler);
+    this.supportFabScrollHandler = null;
   }
 
   escapeHtml(value) {
