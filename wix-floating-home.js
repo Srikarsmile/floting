@@ -1,14 +1,44 @@
-const floatingHomeAssetBase = (() => {
-  const script = document.currentScript;
-  if (script && script.src) return new URL('.', script.src).href;
-  return 'https://srikarsmile.github.io/floting/';
+const floatingHomeRuntimeManifest = (() => {
+  try {
+    return window.FloatingHomeManifest || {};
+  } catch (error) {
+    return {};
+  }
 })();
 
-const floatingHomeCurrentBuild = '20260528-04';
+const floatingHomeDefaultAssetBase = 'https://floting.vercel.app/';
+
+const floatingHomeAssetBase = (() => {
+  const manifestAssetBase = String(floatingHomeRuntimeManifest.assetBase || '').trim();
+  if (manifestAssetBase) {
+    try {
+      return new URL(manifestAssetBase).href;
+    } catch (error) {
+      return floatingHomeDefaultAssetBase;
+    }
+  }
+
+  const script = document.currentScript;
+  if (script && script.src) {
+    try {
+      const scriptUrl = new URL(script.src);
+      if (scriptUrl.hostname === 'srikarsmile.github.io') {
+        return floatingHomeDefaultAssetBase;
+      }
+      return new URL('.', script.src).href;
+    } catch (error) {
+      return floatingHomeDefaultAssetBase;
+    }
+  }
+
+  return floatingHomeDefaultAssetBase;
+})();
+
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260528-05');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
-    return ['data-cms', 'data-floating-build'];
+    return ['data-cms', 'data-floating-build', 'data-floating-asset-base'];
   }
 
   constructor() {
@@ -31,6 +61,7 @@ class FloatingHome extends HTMLElement {
 
   connectedCallback() {
     this.classList.remove('is-ready');
+    this.readAssetBase();
     this.readBuildVersion();
     this.installGlobalGuards();
     this.preloadCriticalAssets();
@@ -50,6 +81,20 @@ class FloatingHome extends HTMLElement {
       this.readBuildVersion();
 
       if (this.hasRendered && this.version !== previousVersion) {
+        this.hasRendered = false;
+        this.classList.remove('is-ready');
+        this.render();
+      }
+
+      return;
+    }
+
+    if (name === 'data-floating-asset-base') {
+      const previousAssetBase = this.assetBase;
+
+      this.readAssetBase();
+
+      if (this.hasRendered && this.assetBase !== previousAssetBase) {
         this.hasRendered = false;
         this.classList.remove('is-ready');
         this.render();
@@ -85,6 +130,20 @@ class FloatingHome extends HTMLElement {
   asset(path) {
     const cleanPath = String(path).replace(/^\/+/, '');
     return `${this.assetBase}${cleanPath}?v=${this.version}`;
+  }
+
+  readAssetBase() {
+    const attributeAssetBase = String(this.getAttribute('data-floating-asset-base') || '').trim();
+
+    if (!attributeAssetBase) {
+      return;
+    }
+
+    try {
+      this.assetBase = new URL(attributeAssetBase).href;
+    } catch (error) {
+      this.assetBase = floatingHomeAssetBase;
+    }
   }
 
   readBuildVersion() {
@@ -1714,6 +1773,10 @@ class FloatingHome extends HTMLElement {
 function refreshFloatingHomeInstances(Constructor) {
   document.querySelectorAll('floating-home').forEach((element) => {
     element.version = floatingHomeCurrentBuild;
+    if (floatingHomeAssetBase) {
+      element.assetBase = floatingHomeAssetBase;
+      element.setAttribute('data-floating-asset-base', floatingHomeAssetBase);
+    }
     element.setAttribute('data-floating-build', floatingHomeCurrentBuild);
     element.hasRendered = false;
     element.classList.remove('is-ready');

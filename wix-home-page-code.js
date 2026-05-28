@@ -1,9 +1,8 @@
 import wixData from "wix-data";
 
 const floatingHomeId = "customElement1";
-const floatingBuildVersion = "20260528-04";
-const floatingScriptUrl =
-  "https://srikarsmile.github.io/floting/wix-floating-home.js?v=20260528-04";
+const floatingLoaderUrl = "https://floting.vercel.app/wix-loader.js";
+const floatingManifestUrl = "https://floting.vercel.app/build-manifest.json";
 const floatingTranslationEndpoint = "https://floting.vercel.app/api/translate";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
@@ -179,7 +178,13 @@ function refreshFloatingHomeScript() {
       return;
     }
 
-    const scriptId = "floating-home-script-refresh";
+    const legacyScript = document.getElementById("floating-home-script-refresh");
+
+    if (legacyScript) {
+      legacyScript.remove();
+    }
+
+    const scriptId = "floating-home-vercel-loader";
     const existingScript = document.getElementById(scriptId);
 
     if (existingScript) {
@@ -188,8 +193,9 @@ function refreshFloatingHomeScript() {
 
     const script = document.createElement("script");
     script.id = scriptId;
-    script.src = floatingScriptUrl;
+    script.src = floatingLoaderUrl;
     script.defer = true;
+    script.setAttribute("data-manifest-url", floatingManifestUrl);
     document.head.appendChild(script);
   } catch (error) {
     // Wix may restrict direct document access in some preview contexts.
@@ -261,7 +267,7 @@ function applyFloatingHomeLayout() {
 
   if (typeof floatingHome.setAttribute === "function") {
     try {
-      floatingHome.setAttribute("data-floating-build", floatingBuildVersion);
+      floatingHome.setAttribute("data-floating-manifest-url", floatingManifestUrl);
       if (floatingTranslationEndpoint) {
         floatingHome.setAttribute("data-translation-endpoint", floatingTranslationEndpoint);
       }

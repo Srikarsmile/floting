@@ -21,7 +21,16 @@ npx vercel env add OPENROUTER_MODEL production
 
 ## Wix Custom Element
 
-If the Wix custom element is used outside the Vercel-hosted site, set this in `wix-home-page-code.js`:
+Wix should load the stable Vercel loader in `wix-home-page-code.js`:
+
+```js
+const floatingLoaderUrl = "https://floting.vercel.app/wix-loader.js";
+const floatingManifestUrl = "https://floting.vercel.app/build-manifest.json";
+```
+
+The loader reads `build-manifest.json`, then loads the current custom element runtime and asset versions from Vercel. For content updates, bump the manifest `version` and matching asset query strings in the repo, then push to GitHub. Wix does not need a page-code edit for each content build.
+
+If the Wix custom element is used outside the Vercel-hosted site, keep this endpoint in `wix-home-page-code.js`:
 
 ```js
 const floatingTranslationEndpoint = "https://floting.vercel.app/api/translate";
