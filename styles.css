@@ -2292,15 +2292,16 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   min-height: 52px;
   padding: 9px 18px 9px 9px;
   border-radius: 999px;
-  background: var(--clr-primary);
+  background: var(--clr-primary-deep);
   color: var(--clr-bg);
-  box-shadow: var(--shadow-float);
+  border: 1px solid rgba(251,247,238,0.14);
+  box-shadow: 0 18px 36px -18px rgba(6,56,54,0.72);
   font-weight: 700;
   transition: transform var(--t-fast) var(--ease-out), background var(--t-fast) var(--ease-out);
 }
 .assistant-fab:hover {
   transform: translateY(-2px);
-  background: var(--clr-primary-soft);
+  background: var(--clr-primary);
 }
 .assistant-fab-mark {
   width: 34px;
@@ -2309,7 +2310,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   display: grid;
   place-items: center;
   background: var(--clr-bg);
-  color: var(--clr-primary);
+  color: var(--clr-primary-deep);
   font-family: var(--font-display);
   font-weight: 700;
 }
@@ -2615,8 +2616,8 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .support-fab {
   position: fixed;
   right: 24px;
-  bottom: 24px;
-  z-index: 900;
+  bottom: 88px;
+  z-index: 1004;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -2632,16 +2633,25 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   opacity: 0;
   transition: transform 0.5s var(--ease-out), opacity 0.5s var(--ease-out), background var(--t-fast);
 }
-.donate-fab { background: var(--clr-accent); }
-.fundraiser-fab { bottom: 78px; background: var(--clr-primary); }
+.donate-fab {
+  bottom: 152px;
+  background: var(--clr-accent);
+  box-shadow: 0 12px 30px -12px rgba(196,106,74,0.48);
+}
+.fundraiser-fab {
+  bottom: 88px;
+  background: var(--clr-primary-soft);
+}
 .support-fab.is-visible { transform: translateY(0); opacity: 1; }
 .support-fab:hover { background: var(--clr-primary-soft); box-shadow: 0 12px 32px -10px rgba(10,86,81,0.5); }
+.donate-fab:hover { background: #B95E3E; }
+.fundraiser-fab:hover { background: var(--clr-primary); }
 .support-fab svg { width: 18px; height: 18px; }
 
 .back-to-top {
   position: fixed;
   right: 24px;
-  bottom: 136px;
+  bottom: 216px;
   z-index: 899;
   width: 44px; height: 44px;
   border-radius: 50%;
@@ -3172,17 +3182,17 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
     right: 14px;
     padding: 14px;
     border-radius: 50%;
-    box-shadow: 0 10px 24px -8px rgba(196,106,74,0.55);
+    box-shadow: 0 10px 24px -8px rgba(10,86,81,0.42);
   }
-  .donate-fab { bottom: calc(14px + env(safe-area-inset-bottom, 0px)); }
-  .fundraiser-fab { bottom: calc(70px + env(safe-area-inset-bottom, 0px)); }
+  .fundraiser-fab { bottom: calc(74px + env(safe-area-inset-bottom, 0px)); }
+  .donate-fab { bottom: calc(134px + env(safe-area-inset-bottom, 0px)); }
   .support-fab span { display: none; }
   .support-fab svg { width: 22px; height: 22px; }
 
-  /* Back-to-top sits above donate */
+  /* Back-to-top sits above the stacked support buttons */
   .back-to-top {
     right: 14px;
-    bottom: calc(126px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(194px + env(safe-area-inset-bottom, 0px));
     width: 42px; height: 42px;
   }
 
@@ -3209,14 +3219,14 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   }
 
   /* Lift the support FABs / back-to-top above the cookie banner while open */
-  body.cookie-open .donate-fab {
-    bottom: calc(120px + env(safe-area-inset-bottom, 0px));
-  }
   body.cookie-open .fundraiser-fab {
-    bottom: calc(176px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(130px + env(safe-area-inset-bottom, 0px));
+  }
+  body.cookie-open .donate-fab {
+    bottom: calc(190px + env(safe-area-inset-bottom, 0px));
   }
   body.cookie-open .back-to-top {
-    bottom: calc(232px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(250px + env(safe-area-inset-bottom, 0px));
   }
   body.cookie-open .assistant-widget {
     display: none;
