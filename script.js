@@ -432,6 +432,7 @@
     const assistantOpenButtons = document.querySelectorAll('[data-assistant-open]');
     const assistantCloseButtons = document.querySelectorAll('[data-assistant-close]');
 
+    let assistantLastFocus = null;
     function setAssistantOpen(open) {
       if (!assistantPanel) return;
       assistantPanel.hidden = !open;
@@ -439,6 +440,14 @@
       assistantOpenButtons.forEach((button) => {
         button.setAttribute('aria-expanded', String(open));
       });
+      if (open) {
+        assistantLastFocus = document.activeElement;
+        const first = assistantPanel.querySelector('a, button, [tabindex]');
+        if (first) first.focus();
+      } else if (assistantLastFocus && typeof assistantLastFocus.focus === 'function') {
+        assistantLastFocus.focus();
+        assistantLastFocus = null;
+      }
     }
 
     assistantOpenButtons.forEach((button) => {
@@ -461,6 +470,19 @@
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape') setAssistantOpen(false);
     });
+
+    /* Open a policy <details> (privacy / safeguarding / cookies) when linked to */
+    function revealDetailsTarget(hash) {
+      const id = (hash || '').replace('#', '');
+      if (!id) return;
+      const el = document.getElementById(id);
+      if (el && el.tagName === 'DETAILS') el.open = true;
+    }
+    document.querySelectorAll('a[href^="#"]').forEach((a) => {
+      a.addEventListener('click', () => revealDetailsTarget(a.getAttribute('href')));
+    });
+    window.addEventListener('hashchange', () => revealDetailsTarget(location.hash));
+    revealDetailsTarget(location.hash);
 
     /* Cookie banner */
     const banner = document.getElementById('cookieBanner');
