@@ -21,7 +21,9 @@
     yo: 'Yoruba',
   };
 
-  const BATCH_SIZE = 70;
+  const BATCH_MAX_ITEMS = 100;
+  const BATCH_MAX_CHARS = 12000;
+  const MAX_PARALLEL_BATCHES = 3;
   const CACHE_VERSION = 'floating-translation-v1';
   const TEXT_ATTRS = ['aria-label', 'alt', 'placeholder', 'title'];
   const SKIP_SELECTOR = [
@@ -200,6 +202,36 @@
     return map;
   }
 
+  function estimatedPayloadChars(entry) {
+    return Math.min(String(entry && entry.text ? entry.text : '').length, 700);
+  }
+
+  function createBatches(entries) {
+    const batches = [];
+    let current = [];
+    let currentChars = 0;
+
+    entries.forEach((entry) => {
+      const chars = estimatedPayloadChars(entry);
+      const shouldStartNewBatch = current.length > 0 && (
+        current.length >= BATCH_MAX_ITEMS ||
+        currentChars + chars > BATCH_MAX_CHARS
+      );
+
+      if (shouldStartNewBatch) {
+        batches.push(current);
+        current = [];
+        currentChars = 0;
+      }
+
+      current.push(entry);
+      currentChars += chars;
+    });
+
+    if (current.length) batches.push(current);
+    return batches;
+  }
+
   function create(options) {
     const settings = options || {};
     const root = settings.root || document;
@@ -211,6 +243,7 @@
     const textOriginals = new WeakMap();
     const attrOriginals = new WeakMap();
     const status = ensureStatus(select);
+    let translationRunId = 0;
 
     function getEndpoint() {
       if (typeof settings.endpoint === 'function') return String(settings.endpoint() || '').trim();
@@ -310,6 +343,7 @@
     }
 
     async function translate(language) {
+      const runId = (translationRunId += 1);
       const endpoint = getEndpoint();
       const entries = collect();
       const targetLabel = languageName(language);
@@ -337,19 +371,69 @@
 
         if (!translated) {
           translated = [];
-          for (let start = 0; start < entries.length; start += BATCH_SIZE) {
-            const batch = entries.slice(start, start + BATCH_SIZE);
+          const batches = createBatches(entries);
+          let nextBatchIndex = 0;
+          let completedBatches = 0;
+          let isActive = true;
+
+          async function translateBatch(batch, batchIndex) {
             const responseItems = await requestTranslations(endpoint, {
               sourceLanguage: 'en',
               targetLanguage: language,
               targetLanguageName: targetLabel,
               pageUrl: getPageUrl(),
-              items: batch.map((entry) => ({ key: entry.key, text: entry.text })),
+              items: batch.map((entry) => ({ key: entry.key, text: entry.text.slice(0, 700) })),
             });
-            translated = translated.concat(responseItems);
+
+            const normalizedItems = responseItems.map((item, index) => ({
+              key: item && item.key !== undefined ? item.key : batch[index] && batch[index].key,
+              text: item && typeof item.text === 'string' ? item.text : String(item || ''),
+              batchIndex,
+              itemIndex: index,
+            }));
+
+            if (!isActive || runId !== translationRunId) return normalizedItems;
+
+            const translatedMap = normalizeTranslations(normalizedItems);
+            batch.forEach((entry) => entry.apply(translatedMap.get(entry.key)));
+            completedBatches += 1;
+
+            if (batches.length > 1 && completedBatches < batches.length) {
+              setStatus(status, `Translating to ${targetLabel} (${completedBatches}/${batches.length})`, 'loading');
+            }
+
+            return normalizedItems;
           }
+
+          async function worker() {
+            const workerResults = [];
+            while (nextBatchIndex < batches.length) {
+              const batchIndex = nextBatchIndex;
+              nextBatchIndex += 1;
+              const batchResults = await translateBatch(batches[batchIndex], batchIndex);
+              workerResults.push(...batchResults);
+            }
+            return workerResults;
+          }
+
+          try {
+            const workers = Array.from(
+              { length: Math.min(MAX_PARALLEL_BATCHES, batches.length) },
+              () => worker(),
+            );
+            const workerResults = await Promise.all(workers);
+            translated = workerResults
+              .flat()
+              .sort((a, b) => (a.batchIndex - b.batchIndex) || (a.itemIndex - b.itemIndex));
+          } catch (error) {
+            isActive = false;
+            throw error;
+          }
+
           writeCached(cacheKey, translated);
         }
+
+        if (runId !== translationRunId) return;
 
         const translatedMap = normalizeTranslations(translated);
         entries.forEach((entry) => entry.apply(translatedMap.get(entry.key)));
@@ -357,12 +441,16 @@
         select.value = language;
         setStatus(status, `${targetLabel} on`, 'ready');
       } catch (error) {
+        entries.forEach((entry) => entry.reset());
+        setDocumentLanguage(root, 'en');
         select.value = 'en';
         setStatus(status, 'Translation is temporarily unavailable', 'fallback');
         window.setTimeout(() => setStatus(status, '', ''), 2600);
       } finally {
-        select.disabled = false;
-        select.removeAttribute('aria-busy');
+        if (runId === translationRunId) {
+          select.disabled = false;
+          select.removeAttribute('aria-busy');
+        }
       }
     }
 
