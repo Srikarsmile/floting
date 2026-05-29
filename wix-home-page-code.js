@@ -163,7 +163,7 @@ function installFloatingPageGuards() {
     }
 
     style.textContent = [
-      "html,body{background:#063836!important;overflow-x:hidden!important;}",
+      "html,body{background:#f4efe3!important;overflow-x:hidden!important;}",
       "[id*='poptin' i],[class*='poptin' i],iframe[src*='poptin' i],a[href*='poptin.com' i]{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}",
       "[data-floating-home-hidden='true']{display:none!important;visibility:hidden!important;height:0!important;min-height:0!important;overflow:hidden!important;}",
     ].join("");

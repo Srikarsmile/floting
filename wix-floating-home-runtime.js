@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260529-01');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260529-04');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -220,7 +220,7 @@ class FloatingHome extends HTMLElement {
             display: block;
             width: 100%;
             min-height: 100vh;
-            background: #063836;
+            background: #f4efe3;
             color: #1f3937;
             font-family: "Inter Tight", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
           }
@@ -312,7 +312,7 @@ class FloatingHome extends HTMLElement {
             font-weight: 400;
             letter-spacing: -0.005em;
             color: var(--clr-text, #1f3937);
-            background: var(--clr-primary-deep, #063836);
+            background: var(--clr-bg, #f4efe3);
             line-height: 1.65;
             overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
@@ -391,6 +391,7 @@ class FloatingHome extends HTMLElement {
       this.bindInteractions();
       this.scheduleWixIsolation();
       await stylesheetReady;
+      this.repairWixTopGap();
       this.classList.add('is-ready');
     } catch (error) {
       root.innerHTML = `
@@ -439,6 +440,7 @@ class FloatingHome extends HTMLElement {
     this.style.setProperty('position', 'relative', 'important');
     this.style.setProperty('z-index', '1', 'important');
     this.style.setProperty('box-sizing', 'border-box', 'important');
+    this.style.setProperty('background', '#f4efe3', 'important');
     this.style.setProperty('left', 'auto', 'important');
     this.style.setProperty('right', 'auto', 'important');
     this.style.setProperty('margin-left', '0', 'important');
@@ -470,7 +472,7 @@ class FloatingHome extends HTMLElement {
     style.textContent = `
       html,
       body {
-        background: #063836 !important;
+        background: #f4efe3 !important;
         overflow-x: hidden !important;
       }
 
@@ -834,6 +836,29 @@ class FloatingHome extends HTMLElement {
     document.body.style.setProperty('overflow-x', 'hidden', 'important');
   }
 
+  repairWixTopGap() {
+    if (!this.isConnected || this.isWixEditorPreview()) return;
+
+    const root = this.shadowRoot;
+    const anchor =
+      (root && root.querySelector('.navbar')) ||
+      (root && root.querySelector('.hero')) ||
+      this;
+    const anchorRect = anchor.getBoundingClientRect();
+    const anchorTop = anchorRect && Number.isFinite(anchorRect.top) ? anchorRect.top : 0;
+
+    if (anchorTop <= 1 || (window.scrollY || window.pageYOffset || 0) > 8) {
+      return;
+    }
+
+    const currentMarginTop = Number.parseFloat(this.style.marginTop) || 0;
+    const nextMarginTop = Math.round(currentMarginTop - anchorTop);
+
+    if (Math.abs(nextMarginTop - currentMarginTop) > 1) {
+      this.style.setProperty('margin-top', `${nextMarginTop}px`, 'important');
+    }
+  }
+
   scheduleWixIsolation() {
     if (this.isWixEditorPreview()) {
       return;
@@ -921,6 +946,7 @@ class FloatingHome extends HTMLElement {
     });
 
     this.fitWixViewport();
+    this.repairWixTopGap();
   }
 
   isolateEditorLegacyWixLayout() {
