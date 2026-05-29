@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260529-06');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260529-07');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -1785,6 +1785,8 @@ class FloatingHome extends HTMLElement {
 
     const supportFabs = root.querySelectorAll('.support-fab, .donate-fab, .fundraiser-fab');
     const backToTop = root.getElementById('backToTop');
+    const contactEl = root.getElementById('contact');
+    const footerEl = root.querySelector('.footer');
 
     if (!supportFabs.length && !backToTop) {
       return;
@@ -1821,7 +1823,11 @@ class FloatingHome extends HTMLElement {
       else if (y < lastFabY - 12) scrollingDown = false;
       lastFabY = y;
 
-      const inFabRange = y > 600 && y < max - 200;
+      const contactRect = contactEl && contactEl.getBoundingClientRect();
+      const footerRect = footerEl && footerEl.getBoundingClientRect();
+      const contactIsVisible = contactRect && contactRect.top < window.innerHeight - 40 && contactRect.bottom > 80;
+      const footerIsVisible = footerRect && footerRect.top < window.innerHeight - 40;
+      const inFabRange = y > 600 && y < max - 200 && !contactIsVisible && !footerIsVisible;
       supportFabs.forEach((fab) => fab.classList.toggle('is-visible', inFabRange));
 
       if (backToTop) {

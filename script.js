@@ -398,6 +398,8 @@
     /* Sticky support FABs + back-to-top */
     const supportFabs = document.querySelectorAll('.support-fab, .donate-fab, .fundraiser-fab');
     const backToTop = document.getElementById('backToTop');
+    const contactEl = document.getElementById('contact');
+    const footerEl = document.querySelector('.footer');
     let lastFabY = 0;
     let scrollingDown = false;
     function onScrollFabs() {
@@ -407,7 +409,11 @@
       else if (y < lastFabY - 12) scrollingDown = false;
       lastFabY = y;
       // Support FABs: always show when in range (don't hide on scroll-down)
-      const inFabRange = y > 600 && y < max - 200;
+      const contactRect = contactEl && contactEl.getBoundingClientRect();
+      const footerRect = footerEl && footerEl.getBoundingClientRect();
+      const contactIsVisible = contactRect && contactRect.top < window.innerHeight - 40 && contactRect.bottom > 80;
+      const footerIsVisible = footerRect && footerRect.top < window.innerHeight - 40;
+      const inFabRange = y > 600 && y < max - 200 && !contactIsVisible && !footerIsVisible;
       supportFabs.forEach((fab) => fab.classList.toggle('is-visible', inFabRange));
       // Back-to-top: hide while scrolling down
       const showTop = y > 1200 && !scrollingDown;
