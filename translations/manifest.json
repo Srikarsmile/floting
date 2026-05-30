@@ -1,0 +1,23 @@
+{
+  "sourceLanguage": "en",
+  "sourceHash": "oouxuf",
+  "generatedAt": "2026-05-30T10:18:39.081Z",
+  "languages": {
+    "ar": "translations/ar.json",
+    "bn": "translations/bn.json",
+    "es": "translations/es.json",
+    "fr": "translations/fr.json",
+    "hi": "translations/hi.json",
+    "pa": "translations/pa.json",
+    "pl": "translations/pl.json",
+    "pt": "translations/pt.json",
+    "ro": "translations/ro.json",
+    "so": "translations/so.json",
+    "ta": "translations/ta.json",
+    "te": "translations/te.json",
+    "tr": "translations/tr.json",
+    "uk": "translations/uk.json",
+    "ur": "translations/ur.json",
+    "yo": "translations/yo.json"
+  }
+}

@@ -1,0 +1,3865 @@
+{
+  "language": "so",
+  "languageName": "Somali",
+  "sourceLanguage": "en",
+  "sourceHash": "oouxuf",
+  "sourceUrl": "http://127.0.0.1:63690/",
+  "generatedAt": "2026-05-30T10:23:33.847Z",
+  "translations": [
+    {
+      "key": "t0",
+      "source": "Floating Counselling — Counselling, Community & Compassion · Croydon & London",
+      "text": "La-talinta Sabaynta - La-talinta, Bulshada & Naxariista · Croydon & London"
+    },
+    {
+      "key": "t1",
+      "source": "Skip to content",
+      "text": "U bood nuxurka [[t2]]] Adeegyada [[t3]]] caawimo raadso [[t4]] Waalidnimada"
+    },
+    {
+      "key": "t2",
+      "source": "Services",
+      "text": "Adeegyada"
+    },
+    {
+      "key": "t3",
+      "source": "Find help",
+      "text": "Caawin hel"
+    },
+    {
+      "key": "t4",
+      "source": "Parenting",
+      "text": "Barbaarinta"
+    },
+    {
+      "key": "t5",
+      "source": "Holiday School",
+      "text": "Dugsiga Fasaxa [[t6]] Hub [[t7]]] Lacag ururin"
+    },
+    {
+      "key": "t6",
+      "source": "Hub",
+      "text": "Hub"
+    },
+    {
+      "key": "t7",
+      "source": "Fundraiser",
+      "text": "Lacag ururin"
+    },
+    {
+      "key": "t8",
+      "source": "Volunteer",
+      "text": "Tabaruc [[t9]] Turjum mareegta"
+    },
+    {
+      "key": "t9",
+      "source": "Translate website",
+      "text": "Turjun mareegta"
+    },
+    {
+      "key": "t10",
+      "source": "Book a Session",
+      "text": "Buug cashar"
+    },
+    {
+      "key": "t11",
+      "source": "Croydon · Redbridge · Newham · Durham · Southwark",
+      "text": "Croydon · Redbridge · Newham · Durham · Southwark [[t12]]] La-talin,"
+    },
+    {
+      "key": "t12",
+      "source": "Counselling,",
+      "text": "La-talin"
+    },
+    {
+      "key": "t13",
+      "source": "Community",
+      "text": "Bulshada"
+    },
+    {
+      "key": "t14",
+      "source": "Compassion.",
+      "text": "Naxariista."
+    },
+    {
+      "key": "t15",
+      "source": "A",
+      "text": "A"
+    },
+    {
+      "key": "t16",
+      "source": "UK-based",
+      "text": "UK ku salaysan [[t17]]] xididka cawska [[t18]]] sadaqo [[t19]]] awood siinta [[t20]]] shakhsiyaad, [[t21]]] qoysaska"
+    },
+    {
+      "key": "t17",
+      "source": "grassroots",
+      "text": "gunta hoose"
+    },
+    {
+      "key": "t18",
+      "source": "charity",
+      "text": "sadaqo"
+    },
+    {
+      "key": "t19",
+      "source": "empowering",
+      "text": "awood siinta"
+    },
+    {
+      "key": "t20",
+      "source": "individuals,",
+      "text": "shakhsiyaad,"
+    },
+    {
+      "key": "t21",
+      "source": "families",
+      "text": "qoysaska"
+    },
+    {
+      "key": "t22",
+      "source": "and",
+      "text": "iyo [[t23]]] la takooray [[t24]]] kooxaha"
+    },
+    {
+      "key": "t23",
+      "source": "marginalised",
+      "text": "la takooro"
+    },
+    {
+      "key": "t24",
+      "source": "groups",
+      "text": "kooxaha"
+    },
+    {
+      "key": "t25",
+      "source": "through",
+      "text": "dhex mara"
+    },
+    {
+      "key": "t26",
+      "source": "holistic",
+      "text": "dhamaystiran [[t27]]] taageero, [[t28]]] daweyn [[t29]]] daryeel, [[t30]]] wax ku ool ah [[t31]]] caawin"
+    },
+    {
+      "key": "t27",
+      "source": "support,",
+      "text": "taageero,"
+    },
+    {
+      "key": "t28",
+      "source": "therapeutic",
+      "text": "daweyn"
+    },
+    {
+      "key": "t29",
+      "source": "care,",
+      "text": "daryeel,"
+    },
+    {
+      "key": "t30",
+      "source": "practical",
+      "text": "wax ku ool ah"
+    },
+    {
+      "key": "t31",
+      "source": "help",
+      "text": "caawin"
+    },
+    {
+      "key": "t32",
+      "source": "and",
+      "text": "iyo [[t33]]] bulshadu ay wado"
+    },
+    {
+      "key": "t33",
+      "source": "community-driven",
+      "text": "bulshadu wadato"
+    },
+    {
+      "key": "t34",
+      "source": "programmes",
+      "text": "barnaamijyada"
+    },
+    {
+      "key": "t35",
+      "source": "designed",
+      "text": "nashqadeeyay"
+    },
+    {
+      "key": "t36",
+      "source": "as",
+      "text": "sida"
+    },
+    {
+      "key": "t37",
+      "source": "wraparound",
+      "text": "duubista [[t38]]] daryeel."
+    },
+    {
+      "key": "t38",
+      "source": "care.",
+      "text": "daryeel."
+    },
+    {
+      "key": "t39",
+      "source": "Book a Session",
+      "text": "Buug cashar [[t40]]] Hel taageerada saxda ah"
+    },
+    {
+      "key": "t40",
+      "source": "Find the right support",
+      "text": "Hel taageerada saxda ah"
+    },
+    {
+      "key": "t41",
+      "source": "CO",
+      "text": "CO"
+    },
+    {
+      "key": "t42",
+      "source": "OO",
+      "text": "OO"
+    },
+    {
+      "key": "t43",
+      "source": "EO",
+      "text": "EO"
+    },
+    {
+      "key": "t44",
+      "source": "LY",
+      "text": "LY [[t45]]] Oo ay hogaaminayaan afar haween ah agaasimeyaal leh tababar caafimaad, waayo-aragnimo nool iyo xidid bulsho oo qoto dheer."
+    },
+    {
+      "key": "t45",
+      "source": "Led by four women directors with clinical training, lived experience and deep community roots.",
+      "text": "Oo ay hogaaminayaan afar haween ah agaasime oo leh tababar caafimaad, waaya-aragnimo nool iyo xidid bulsho oo qoto dheer."
+    },
+    {
+      "key": "t46",
+      "source": "Trauma-informed",
+      "text": "Xog-ogaal jug"
+    },
+    {
+      "key": "t47",
+      "source": "Care that meets you where you are",
+      "text": "Daryeelka kugula kulmaya meesha aad joogto"
+    },
+    {
+      "key": "t48",
+      "source": "5 project areas",
+      "text": "5 aagagga mashruuca"
+    },
+    {
+      "key": "t49",
+      "source": "Croydon · Redbridge · Newham · Durham · Southwark",
+      "text": "Croydon · Redbridge · Newham · Durham · Southwark"
+    },
+    {
+      "key": "t50",
+      "source": "Scroll",
+      "text": "Duub"
+    },
+    {
+      "key": "t51",
+      "source": "Find the right support",
+      "text": "Hel taageerada saxda ah"
+    },
+    {
+      "key": "t52",
+      "source": "Choose",
+      "text": "Dooro"
+    },
+    {
+      "key": "t53",
+      "source": "the",
+      "text": "ee"
+    },
+    {
+      "key": "t54",
+      "source": "help",
+      "text": "caawin"
+    },
+    {
+      "key": "t55",
+      "source": "you",
+      "text": "adiga"
+    },
+    {
+      "key": "t56",
+      "source": "need",
+      "text": "baahan"
+    },
+    {
+      "key": "t57",
+      "source": "today.",
+      "text": "maanta."
+    },
+    {
+      "key": "t58",
+      "source": "Tell",
+      "text": "Sheeg"
+    },
+    {
+      "key": "t59",
+      "source": "us",
+      "text": "anaga [[t60]]] waa maxay [[t61]]] ayaa dareemaya [[t62]]] ugu badan [[t63]]] degdeg ah"
+    },
+    {
+      "key": "t60",
+      "source": "what",
+      "text": "waa maxay"
+    },
+    {
+      "key": "t61",
+      "source": "feels",
+      "text": "dareemayo"
+    },
+    {
+      "key": "t62",
+      "source": "most",
+      "text": "inta badan"
+    },
+    {
+      "key": "t63",
+      "source": "urgent",
+      "text": "degdeg ah"
+    },
+    {
+      "key": "t64",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t65",
+      "source": "we",
+      "text": "annagu [[t66]]] doono"
+    },
+    {
+      "key": "t66",
+      "source": "will",
+      "text": "doono"
+    },
+    {
+      "key": "t67",
+      "source": "point",
+      "text": "dhibic"
+    },
+    {
+      "key": "t68",
+      "source": "you",
+      "text": "adiga"
+    },
+    {
+      "key": "t69",
+      "source": "towards",
+      "text": "ku wajahan"
+    },
+    {
+      "key": "t70",
+      "source": "the",
+      "text": "ah"
+    },
+    {
+      "key": "t71",
+      "source": "right",
+      "text": "xaq"
+    },
+    {
+      "key": "t72",
+      "source": "support,",
+      "text": "taageero,"
+    },
+    {
+      "key": "t73",
+      "source": "whether",
+      "text": "ha ahaato"
+    },
+    {
+      "key": "t74",
+      "source": "that",
+      "text": "taas"
+    },
+    {
+      "key": "t75",
+      "source": "starts",
+      "text": "bilaabma [[t76]]] leh [[t77]]] daawayn, [[t78]]] wax ku ool ah [[t79]]] caawin, [[t80]]] qoyska [[t81]]] shaqada"
+    },
+    {
+      "key": "t76",
+      "source": "with",
+      "text": "leh"
+    },
+    {
+      "key": "t77",
+      "source": "therapy,",
+      "text": "daawaynta,"
+    },
+    {
+      "key": "t78",
+      "source": "practical",
+      "text": "wax ku ool ah"
+    },
+    {
+      "key": "t79",
+      "source": "help,",
+      "text": "caawin,"
+    },
+    {
+      "key": "t80",
+      "source": "family",
+      "text": "qoyska"
+    },
+    {
+      "key": "t81",
+      "source": "work",
+      "text": "shaqayn"
+    },
+    {
+      "key": "t82",
+      "source": "or",
+      "text": "ama"
+    },
+    {
+      "key": "t83",
+      "source": "a",
+      "text": "a [[t84]]] iskaashi [[t85]]] wada hadal"
+    },
+    {
+      "key": "t84",
+      "source": "partnership",
+      "text": "iskaashiga"
+    },
+    {
+      "key": "t85",
+      "source": "conversation.",
+      "text": "wada hadal."
+    },
+    {
+      "key": "t86",
+      "source": "Therapy",
+      "text": "daawaynta [[t87]]] Waxaan u baahanahay la-talin [[t88]]] Ka bilow mid-ka-mid ah, qoys, lammaane, koox, khadka tooska ah ama taageerada daweynta shaqsi ahaaneed. [[t89]]] Qabso fadhi [[t90]]] Qoyska [[t91]]] Waxaan u baahanahay taageerada waalidnimada [[t92]]] Hel qalab wax ku ool ah oo loogu talagalay hab-dhaqanka, ku-xidhnaanta, soo kabashada dhaawacyada iyo kalsoonida qoyska. [[t93]]] Eeg caawimada waalidnimada"
+    },
+    {
+      "key": "t87",
+      "source": "I need counselling",
+      "text": "Waxaan u baahanahay la-talin"
+    },
+    {
+      "key": "t88",
+      "source": "Start with one-to-one, family, couple, group, online or in-person therapeutic support.",
+      "text": "Ka bilow mid-ka-mid ah, qoys, lammaane, koox, khadka tooska ah ama taageerada daawaynta ee shaqsi ahaan."
+    },
+    {
+      "key": "t89",
+      "source": "Book a session",
+      "text": "Qabso fadhi"
+    },
+    {
+      "key": "t90",
+      "source": "Family",
+      "text": "Qoyska"
+    },
+    {
+      "key": "t91",
+      "source": "I need parenting support",
+      "text": "Waxaan u baahanahay taageerada waalidnimada"
+    },
+    {
+      "key": "t92",
+      "source": "Get practical tools for behaviour, attachment, trauma recovery and family confidence.",
+      "text": "Hel qalab wax ku ool ah oo loogu talagalay hab-dhaqanka, ku-xidhnaanta, soo kabashada dhaawacyada iyo kalsoonida qoyska."
+    },
+    {
+      "key": "t93",
+      "source": "View parenting help",
+      "text": "Fiiri caawimada waalidnimada"
+    },
+    {
+      "key": "t94",
+      "source": "Community",
+      "text": "Bulshada"
+    },
+    {
+      "key": "t95",
+      "source": "I need practical help",
+      "text": "Waxaan u baahanahay caawimaad wax ku ool ah [[t96]] U isticmaal xarunta cuntada, dharka, foomamka, su'aalaha guriyeynta, caawinta biilasha, ka mid noqoshada dhijitaalka ah iyo taageerada ladnaanta."
+    },
+    {
+      "key": "t96",
+      "source": "Use the hub for food, clothing, forms, housing questions, bills help, digital inclusion and wellbeing support.",
+      "text": "U isticmaal xuddunta cuntada, dharka, foomamka, su'aalaha guriyeynta, caawinta biilasha, ka mid noqoshada dhijitaalka ah iyo taageerada ladnaanta."
+    },
+    {
+      "key": "t97",
+      "source": "Visit the hub",
+      "text": "Booqo xarunta [[t98]]] Shuraakada [[t99]]] Waxaan rabaa in aan iskaa wax u qabso ama shuraako [[t100]]] Ku taageer deganayaasha maxalliga ah deeqo cunto, maalgelin, lacag ururin, xirfado, dhacdooyin ama caawimo xirfadeed."
+    },
+    {
+      "key": "t98",
+      "source": "Partners",
+      "text": "Shuraakada"
+    },
+    {
+      "key": "t99",
+      "source": "I want to volunteer or partner",
+      "text": "Waxaan rabaa in aan iskaa wax u qabso ama shuraako"
+    },
+    {
+      "key": "t100",
+      "source": "Support local residents through food donations, funding, fundraising, skills, events or professional help.",
+      "text": "Ku taageer dadka deegaanka ah deeqo cunto, maalgelin, lacag ururin, xirfado, dhacdooyin ama caawimo xirfadeed."
+    },
+    {
+      "key": "t101",
+      "source": "Volunteer with us",
+      "text": "Nala tabaruc"
+    },
+    {
+      "key": "t102",
+      "source": "Not sure where to start?",
+      "text": "Ma hubtaa halka laga bilaabo?"
+    },
+    {
+      "key": "t103",
+      "source": "Tap Ask Floating to find the right service, or send one WhatsApp message and we will route you.",
+      "text": "Taabo Ask Floating si aad u heshid adeega saxda ah, ama u dir hal fariin WhatsApp annaguna waan ku soo mari doonaa"
+    },
+    {
+      "key": "t104",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t105",
+      "source": "A",
+      "text": "A"
+    },
+    {
+      "key": "t106",
+      "source": "decade",
+      "text": "toban sano"
+    },
+    {
+      "key": "t107",
+      "source": "of",
+      "text": "ee"
+    },
+    {
+      "key": "t108",
+      "source": "grassroots",
+      "text": "xididdada hoose [[t109]]] daryeel,"
+    },
+    {
+      "key": "t109",
+      "source": "care,",
+      "text": "daryeel,"
+    },
+    {
+      "key": "t110",
+      "source": "by",
+      "text": "by"
+    },
+    {
+      "key": "t111",
+      "source": "the",
+      "text": "ee"
+    },
+    {
+      "key": "t112",
+      "source": "numbers.",
+      "text": "tirooyinka. [[t113]]] Kulamo talobixin ah oo la bixiyay [[t114]]] Saacadaha daryeelka caafimaadka"
+    },
+    {
+      "key": "t113",
+      "source": "Counselling sessions delivered",
+      "text": "Kulamo latalin ah oo la qabtay"
+    },
+    {
+      "key": "t114",
+      "source": "Clinical hours of care",
+      "text": "Saacadaha caafimaadka ee daryeelka"
+    },
+    {
+      "key": "t115",
+      "source": "Combined clinical experience",
+      "text": "Khibrad caafimaad oo isku dhafan [[t116]]] Carruurta lagu taageero dugsiga fasaxa [[t117]]] Adeegga joogtada ah ee bulshada [[t118]]] Taageerada wax ku oolka ah ee bulshada iyo daryeelka daawaynta ayaa wada fadhiya, si dadku u xasiliyaan maanta oo ay u koraan berrito."
+    },
+    {
+      "key": "t116",
+      "source": "Children supported through holiday school",
+      "text": "Carruurta lagu taageero dugsiga fasaxa"
+    },
+    {
+      "key": "t117",
+      "source": "Continuous service to community",
+      "text": "Adeegga joogtada ah ee bulshada"
+    },
+    {
+      "key": "t118",
+      "source": "Practical community support and therapeutic care sit together, so people can stabilise today and grow tomorrow.",
+      "text": "Taageerada wax ku oolka ah ee bulshada iyo daryeelka daawaynta ayaa wada fadhiya, si dadku ay maanta u xasilaan oo ay berri u koraan."
+    },
+    {
+      "key": "t119",
+      "source": "What we offer",
+      "text": "Waxa aanu bixino"
+    },
+    {
+      "key": "t120",
+      "source": "Core",
+      "text": "Nuxurka [[t121]]] taageero,"
+    },
+    {
+      "key": "t121",
+      "source": "support,",
+      "text": "taageero,"
+    },
+    {
+      "key": "t122",
+      "source": "without",
+      "text": "la'aanteed"
+    },
+    {
+      "key": "t123",
+      "source": "the",
+      "text": "ee"
+    },
+    {
+      "key": "t124",
+      "source": "maze.",
+      "text": "wareer."
+    },
+    {
+      "key": "t125",
+      "source": "Start",
+      "text": "Bilow"
+    },
+    {
+      "key": "t126",
+      "source": "with",
+      "text": "leh"
+    },
+    {
+      "key": "t127",
+      "source": "the",
+      "text": "ee"
+    },
+    {
+      "key": "t128",
+      "source": "kind",
+      "text": "nooc"
+    },
+    {
+      "key": "t129",
+      "source": "of",
+      "text": "ee"
+    },
+    {
+      "key": "t130",
+      "source": "help",
+      "text": "caawin"
+    },
+    {
+      "key": "t131",
+      "source": "you",
+      "text": "adiga"
+    },
+    {
+      "key": "t132",
+      "source": "need",
+      "text": "baahan"
+    },
+    {
+      "key": "t133",
+      "source": "most.",
+      "text": "ugu badan."
+    },
+    {
+      "key": "t134",
+      "source": "We",
+      "text": "Annagu"
+    },
+    {
+      "key": "t135",
+      "source": "will",
+      "text": "doono"
+    },
+    {
+      "key": "t136",
+      "source": "route",
+      "text": "marinka"
+    },
+    {
+      "key": "t137",
+      "source": "you",
+      "text": "adiga"
+    },
+    {
+      "key": "t138",
+      "source": "to",
+      "text": "ku"
+    },
+    {
+      "key": "t139",
+      "source": "the",
+      "text": "ee"
+    },
+    {
+      "key": "t140",
+      "source": "right",
+      "text": "sax"
+    },
+    {
+      "key": "t141",
+      "source": "person",
+      "text": "qof"
+    },
+    {
+      "key": "t142",
+      "source": "from",
+      "text": "ka"
+    },
+    {
+      "key": "t143",
+      "source": "there.",
+      "text": "halkaas."
+    },
+    {
+      "key": "t144",
+      "source": "Counselling & Mentoring",
+      "text": "La-talinta & La-talinta [[t145]]] In ka badan 15,000 qof-ka-mid ah, koox, lammaane iyo fadhiyo daawaynta qoyska oo ay bixiyeen dhakhaatiir cilmi-nafsi oo aqoon leh. Shakhsi ahaan dhammaan xaafadaha mashruuca iyo khadka tooska ah, oo leh daryeel bilaash ah oo jaban oo loogu talagalay waayeelka, Credit Universal iyo macaamiisha dakhligoodu yar yahay."
+    },
+    {
+      "key": "t145",
+      "source": "Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person across our project boroughs and online, with free and low-cost care for elderly, Universal Credit and low-income clients.",
+      "text": "In ka badan 15,000 qof-ka-mid ah, koox, lammaane iyo fadhiyo daawaynta qoyska oo ay bixiyaan dhakhaatiir cilmi-nafsi oo aqoon u leh. Shakhsi ahaan dhammaan xaafadaha mashruuca iyo khadka tooska ah, oo leh daryeel bilaash ah oo jaban oo loogu talagalay waayeelka, Credit Universal iyo macaamiisha dakhligoodu yar yahay."
+    },
+    {
+      "key": "t146",
+      "source": "Get started",
+      "text": "Bilow"
+    },
+    {
+      "key": "t147",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t148",
+      "source": "Workshops, 1:1 mentoring and group programmes for parents, including therapeutic camps, the Impact Parenting Pillar training and a private support group.",
+      "text": "Aqoon-is-weydaarsiyo, 1: 1 latalin iyo barnaamijyo kooxeed oo loogu talagalay waalidiinta, oo ay ku jiraan xeryaha daweynta, tababarka Impact Parenting Pillar iyo koox taageero gaar ah."
+    },
+    {
+      "key": "t149",
+      "source": "Learn more",
+      "text": "Wax badan baro"
+    },
+    {
+      "key": "t150",
+      "source": "Floating Community Hub",
+      "text": "Xarunta Bulshada Sabaynta"
+    },
+    {
+      "key": "t151",
+      "source": "A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Newham, Durham and Southwark, offering practical support, wellbeing services and advocacy.",
+      "text": "Xarun Croydon todobaadle ah oo ku taal Ashburton Park Cafe Hall, oo lagu daray mashaariicda beesha ee Redbridge, Newham, Durham iyo Southwark, oo bixisa taageero wax ku ool ah, adeegyo fayoobi iyo u doodid."
+    },
+    {
+      "key": "t152",
+      "source": "Find out more",
+      "text": "Wax badan ka ogow"
+    },
+    {
+      "key": "t153",
+      "source": "Holiday School & Camps",
+      "text": "Dugsiga Fasaxa & Kaamamka [[t154]]] Daawaynta fanka, muusiga, daawaynta ciyaarta iyo farsamooyinka cilmi nafsiga ee carruurta da'doodu u dhaxayso 5 ilaa 11. In ka badan 1,400 carruur ah ayaa laga diiwaan geliyay barnaamijyadii dhawaa."
+    },
+    {
+      "key": "t154",
+      "source": "Art therapy, music, play therapy and psychological techniques for children aged 5 to 11. Over 1,400 children registered across recent programmes.",
+      "text": "Daawaynta fanka, muusiga, daawaynta ciyaarta iyo farsamooyinka cilmi nafsiga ee carruurta da'doodu u dhaxayso 5 ilaa 11 jir."
+    },
+    {
+      "key": "t155",
+      "source": "Register",
+      "text": "Isdiiwaangeli"
+    },
+    {
+      "key": "t156",
+      "source": "Food Bank & Essentials",
+      "text": "Bangiga Cuntada & Waxyaabaha Aasaasiga ah [[t157]]] Deeq cunto toddobaadle ah, dhar iyo waxyaabaha lagama maarmaanka u ah shakhsiyaadka iyo qoysaska u baahan taageero degdeg ah."
+    },
+    {
+      "key": "t157",
+      "source": "Weekly donated food, clothes and practical essentials for individuals and families who need immediate support.",
+      "text": "Ku-deeqidda toddobaadlaha ah ee cuntada, dharka iyo waxyaabaha lagama maarmaanka u ah shakhsiyaadka iyo qoysaska u baahan taageero degdeg ah."
+    },
+    {
+      "key": "t158",
+      "source": "Visit the hub",
+      "text": "Booqo xarunta"
+    },
+    {
+      "key": "t159",
+      "source": "Financial Literacy & Employment Support",
+      "text": "Aqoonta Maaliyadda iyo Taageerada Shaqaalaynta [[t160]]] Miisaaniyadda, kalsoonida shaqada, taageerada xirfadaha iyo hagida ganacsiga ee dadka dib u dhiska xasiloonida."
+    },
+    {
+      "key": "t160",
+      "source": "Budgeting, employment confidence, skills support and enterprise guidance for people rebuilding stability.",
+      "text": "Miisaaniyadda, kalsoonida shaqada, taageerada xirfadaha iyo hagida ganacsiga ee dadka dib u dhiska xasiloonida."
+    },
+    {
+      "key": "t161",
+      "source": "Ask about support",
+      "text": "Waydii taageerada"
+    },
+    {
+      "key": "t162",
+      "source": "Since",
+      "text": "Tan iyo markii"
+    },
+    {
+      "key": "t163",
+      "source": "Serving Croydon, Redbridge, Newham, Durham & Southwark",
+      "text": "U adeegaya Croydon, Redbridge, Newham, Durham & Southwark"
+    },
+    {
+      "key": "t164",
+      "source": "Who we are",
+      "text": "Yaanu nahay"
+    },
+    {
+      "key": "t165",
+      "source": "Wraparound",
+      "text": "Isku duubni [[t166]]] daryeel,"
+    },
+    {
+      "key": "t166",
+      "source": "care,",
+      "text": "daryeel,"
+    },
+    {
+      "key": "t167",
+      "source": "rooted",
+      "text": "xididaysan"
+    },
+    {
+      "key": "t168",
+      "source": "in",
+      "text": "gudaha"
+    },
+    {
+      "key": "t169",
+      "source": "community.",
+      "text": "bulshada."
+    },
+    {
+      "key": "t170",
+      "source": "Inspired",
+      "text": "Waxyooday"
+    },
+    {
+      "key": "t171",
+      "source": "by",
+      "text": "by"
+    },
+    {
+      "key": "t172",
+      "source": "Maslow's",
+      "text": "Maslow's"
+    },
+    {
+      "key": "t173",
+      "source": "hierarchy",
+      "text": "kala sareynta"
+    },
+    {
+      "key": "t174",
+      "source": "of",
+      "text": "ee"
+    },
+    {
+      "key": "t175",
+      "source": "needs,",
+      "text": "baahiyaha,"
+    },
+    {
+      "key": "t176",
+      "source": "we",
+      "text": "annagu"
+    },
+    {
+      "key": "t177",
+      "source": "meet",
+      "text": "kulmi"
+    },
+    {
+      "key": "t178",
+      "source": "people",
+      "text": "dadka"
+    },
+    {
+      "key": "t179",
+      "source": "where",
+      "text": "xagee"
+    },
+    {
+      "key": "t180",
+      "source": "they",
+      "text": "iyaga"
+    },
+    {
+      "key": "t181",
+      "source": "are",
+      "text": "waa"
+    },
+    {
+      "key": "t182",
+      "source": "emotionally,",
+      "text": "dareen ahaan,"
+    },
+    {
+      "key": "t183",
+      "source": "practically",
+      "text": "ficil ahaan"
+    },
+    {
+      "key": "t184",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t185",
+      "source": "socially",
+      "text": "bulsho ahaan"
+    },
+    {
+      "key": "t186",
+      "source": "to",
+      "text": "ku"
+    },
+    {
+      "key": "t187",
+      "source": "create",
+      "text": "abuur"
+    },
+    {
+      "key": "t188",
+      "source": "lasting",
+      "text": "waaraya"
+    },
+    {
+      "key": "t189",
+      "source": "change",
+      "text": "isbedel"
+    },
+    {
+      "key": "t190",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t191",
+      "source": "personal",
+      "text": "shaqsi"
+    },
+    {
+      "key": "t192",
+      "source": "growth.",
+      "text": "koritaanka. [[t193]]] Waxa si sharaf leh noo hoggaamiya koox kala duwan oo haween Afrikaan ah, kuwaas oo waayo-aragnimo nololeed iyo khibrad xirfadeed qaabeeya qayb kasta oo shaqadeena ah. [[t194]]] Aasaasahayaga, Celestina Oniye-Thomas, wuu garanayaa shaqadan gudaha. Ka dib markii ay ka badbaaday dhaawac carruurnimo iyo dhaawac laf dhabarta ah oo lix iyo toban jir ah oo ay dhakhaatiirtu u maleeyeen in ay joojinayaan socodkeeda, waxay nafteeda bartay inay mar kale socoto, waxay dib u tababartay sidii daaweeyaha maskaxeed ee isku dhafan, waxayna dhistay Sabaynta si ay qoysasku u helaan bogsashada ay u dagaallanto. [[t195]]] \"Adkeysi iyo isku kalsooni ayaa badbaadisay noloshayda.\""
+    },
+    {
+      "key": "t193",
+      "source": "We are proudly led by a diverse team of African women, whose lived experience and professional expertise shape every part of our work.",
+      "text": "Waxaa si sharaf leh noo hoggaamiya koox kala duwan oo haween Afrikaan ah, kuwaas oo waayo-aragnimo nololeed iyo khibrad xirfadeed qaabeeya qayb kasta oo shaqadeena ah."
+    },
+    {
+      "key": "t194",
+      "source": "Our founder, Celestina Oniye-Thomas, knows this work from the inside. After surviving childhood trauma and a spinal injury at sixteen that doctors thought would stop her walking, she taught herself to walk again, retrained as an integrative psychotherapist, and built Floating so families could find the healing she had to fight for.",
+      "text": "Aasaasahayaga, Celestina Oniye-Thomas, shaqadaan wuu ka garanayaa gudaha. Ka dib markii ay ka badbaaday dhaawac carruurnimo iyo dhaawac laf dhabarta ah oo lix iyo toban jir ah oo ay dhakhaatiirtu u maleeyeen in ay joojinayaan socodkeeda, waxay nafteeda bartay inay mar kale socoto, waxay dib u tababartay sidii daaweeyaha maskaxeed ee isku dhafan, waxayna dhistay Sabaynta si ay qoysasku u helaan bogsashada ay u dagaallanto."
+    },
+    {
+      "key": "t195",
+      "source": "\"Resilience and self-confidence saved my life.\"",
+      "text": "\"Adkeysi iyo kalsooni nafteyda ayaa badbaadisay nolosheyda.\""
+    },
+    {
+      "key": "t196",
+      "source": "Celestina Oniye-Thomas — Founder & CEO",
+      "text": "Celestina Oniye-Thomas - Aasaasaha & Maamulaha Guud"
+    },
+    {
+      "key": "t197",
+      "source": "Trauma-Informed Care",
+      "text": "Daryeel Xog-ogaaleed oo Dhaawac ah"
+    },
+    {
+      "key": "t198",
+      "source": "Culturally Relevant",
+      "text": "Dhaqan ahaan khuseeya"
+    },
+    {
+      "key": "t199",
+      "source": "Local Partnerships",
+      "text": "Iskaashiga Maxaliga ah"
+    },
+    {
+      "key": "t200",
+      "source": "Holistic Approach",
+      "text": "Habka Guud"
+    },
+    {
+      "key": "t201",
+      "source": "Free & Low Cost",
+      "text": "bilaash iyo qiimo jaban"
+    },
+    {
+      "key": "t202",
+      "source": "Online & In Person",
+      "text": "Online & Qof ahaan"
+    },
+    {
+      "key": "t203",
+      "source": "Introducing",
+      "text": "Isbarasho"
+    },
+    {
+      "key": "t204",
+      "source": "Therapy",
+      "text": "Daaweynta"
+    },
+    {
+      "key": "t205",
+      "source": "with",
+      "text": "leh"
+    },
+    {
+      "key": "t206",
+      "source": "realistic",
+      "text": "macquul ah"
+    },
+    {
+      "key": "t207",
+      "source": "tools",
+      "text": "qalabyada"
+    },
+    {
+      "key": "t208",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t209",
+      "source": "strategy",
+      "text": "xeelad"
+    },
+    {
+      "key": "t210",
+      "source": "for",
+      "text": "loogu talagalay"
+    },
+    {
+      "key": "t211",
+      "source": "a",
+      "text": "a [[t212]]] ka sii fiican"
+    },
+    {
+      "key": "t212",
+      "source": "better",
+      "text": "ka fiican"
+    },
+    {
+      "key": "t213",
+      "source": "life.",
+      "text": "nolosha."
+    },
+    {
+      "key": "t214",
+      "source": "Floating",
+      "text": "Sabbayn"
+    },
+    {
+      "key": "t215",
+      "source": "combines",
+      "text": "isku darka"
+    },
+    {
+      "key": "t216",
+      "source": "years",
+      "text": "sano"
+    },
+    {
+      "key": "t217",
+      "source": "as",
+      "text": "sida"
+    },
+    {
+      "key": "t218",
+      "source": "clinical",
+      "text": "caafimaad"
+    },
+    {
+      "key": "t219",
+      "source": "psychotherapists",
+      "text": "daaweeyayaasha cilmi nafsiga"
+    },
+    {
+      "key": "t220",
+      "source": "with",
+      "text": "leh"
+    },
+    {
+      "key": "t221",
+      "source": "clinical",
+      "text": "caafimaad"
+    },
+    {
+      "key": "t222",
+      "source": "hours",
+      "text": "saacadood"
+    },
+    {
+      "key": "t223",
+      "source": "of",
+      "text": "ee"
+    },
+    {
+      "key": "t224",
+      "source": "working",
+      "text": "shaqeeya"
+    },
+    {
+      "key": "t225",
+      "source": "to",
+      "text": "ku"
+    },
+    {
+      "key": "t226",
+      "source": "help",
+      "text": "caawin [[t227]]] shakhsiyaad, [[t228]]] carruurta"
+    },
+    {
+      "key": "t227",
+      "source": "individuals,",
+      "text": "shakhsiyaad,"
+    },
+    {
+      "key": "t228",
+      "source": "children",
+      "text": "caruur"
+    },
+    {
+      "key": "t229",
+      "source": "and",
+      "text": "iyo [[t230]]] waalidiinta"
+    },
+    {
+      "key": "t230",
+      "source": "parents",
+      "text": "waalidka"
+    },
+    {
+      "key": "t231",
+      "source": "live",
+      "text": "nool [[t232]]] ka sii fiican"
+    },
+    {
+      "key": "t232",
+      "source": "better",
+      "text": "ka fiican"
+    },
+    {
+      "key": "t233",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t234",
+      "source": "be",
+      "text": "ahaan lahayd"
+    },
+    {
+      "key": "t235",
+      "source": "better.",
+      "text": "ka sii fiican. [[t236]]] Habka Impact Parenting wuxuu siinayaa qoysaska xeelado wax ku ool ah, oo cilmi ahaan salka ku haya si loo bogsiiyo dhaawacyada, waalidka si wax ku ool ah, oo loo yareeyo dhaawacyada jiilka ee nidaamka qoyska."
+    },
+    {
+      "key": "t236",
+      "source": "The Impact Parenting approach gives families practical, scientifically grounded strategies to heal trauma, parent more effectively, and reduce generational trauma across the family system.",
+      "text": "Habka waalidnimada ee Saamaynta ayaa qoysaska siiya xeelado wax ku ool ah, oo cilmi ahaan salka ku haya si loo bogsiiyo dhaawacyada, waalidka si wax ku ool ah, oo loo yareeyo dhaawacyada jiilka ee nidaamka qoyska."
+    },
+    {
+      "key": "t237",
+      "source": "45 yrs",
+      "text": "45 jir"
+    },
+    {
+      "key": "t238",
+      "source": "clinical experience",
+      "text": "waayo-aragnimo caafimaad"
+    },
+    {
+      "key": "t239",
+      "source": "clinical hours",
+      "text": "saacadaha caafimaadka"
+    },
+    {
+      "key": "t240",
+      "source": "Realistic",
+      "text": "Xaqiiqo ah"
+    },
+    {
+      "key": "t241",
+      "source": "tools and tasks",
+      "text": "agabka iyo hawlaha [[t242]]] Ma ku adagtahay in la fahmo ama la maareeyo hab-dhaqanka ilmahaaga? [[t243]]] Waxaan ka caawinnaa waalidiinta inay dhisaan isku xirnaan, adkeysi iyo ku xirnaan caafimaad leh oo leh xeelado wax ku ool ah oo lagu isticmaali karo guriga."
+    },
+    {
+      "key": "t242",
+      "source": "Finding it hard to understand or manage your child’s behaviour?",
+      "text": "Ma ku adagtahay in la fahmo ama maareeyo hab-dhaqanka ilmahaaga?"
+    },
+    {
+      "key": "t243",
+      "source": "We help parents build connection, resilience and healthier attachment with practical strategies that can be used at home.",
+      "text": "Waxaan ka caawineynaa waalidiinta inay dhisaan isku xirnaan, adkeysi iyo ku xirnaan caafimaad leh oo leh xeelado wax ku ool ah oo lagu isticmaali karo guriga."
+    },
+    {
+      "key": "t244",
+      "source": "This is not for you if...",
+      "text": "Tani adiga kuma habboona haddii..."
+    },
+    {
+      "key": "t245",
+      "source": "You are not ready to heal past traumas, or you do not believe your mental and physical health is worth investing in.",
+      "text": "Diyaar uma tihid inaad bogsiiso dhaawacyada hore, ama ma rumaysnid in caafimaadkaaga maskaxeed iyo jidheed uu mudan yahay in la maalgashado."
+    },
+    {
+      "key": "t246",
+      "source": "Ask about Impact Parenting",
+      "text": "Waydii wax ku saabsan Impact Parenting"
+    },
+    {
+      "key": "t247",
+      "source": "Holiday School",
+      "text": "Dugsiga Fasaxa"
+    },
+    {
+      "key": "t248",
+      "source": "Values,",
+      "text": "Qiimaha,"
+    },
+    {
+      "key": "t249",
+      "source": "resilience",
+      "text": "adkaysi"
+    },
+    {
+      "key": "t250",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t251",
+      "source": "creativity",
+      "text": "halabuurnimo"
+    },
+    {
+      "key": "t252",
+      "source": "for",
+      "text": "loogu talagalay"
+    },
+    {
+      "key": "t253",
+      "source": "children",
+      "text": "carruurta"
+    },
+    {
+      "key": "t254",
+      "source": "Raising",
+      "text": "Korinta [[t255]]] carruurta"
+    },
+    {
+      "key": "t255",
+      "source": "children",
+      "text": "caruur"
+    },
+    {
+      "key": "t256",
+      "source": "gets",
+      "text": "helay"
+    },
+    {
+      "key": "t257",
+      "source": "easier",
+      "text": "sahlan"
+    },
+    {
+      "key": "t258",
+      "source": "with",
+      "text": "leh"
+    },
+    {
+      "key": "t259",
+      "source": "trained",
+      "text": "la tababaray"
+    },
+    {
+      "key": "t260",
+      "source": "professionals",
+      "text": "xirfadlayaal"
+    },
+    {
+      "key": "t261",
+      "source": "supporting",
+      "text": "taageeraya"
+    },
+    {
+      "key": "t262",
+      "source": "physical",
+      "text": "jireed [[t263]]] caafimaadka,"
+    },
+    {
+      "key": "t263",
+      "source": "health,",
+      "text": "caafimaadka,"
+    },
+    {
+      "key": "t264",
+      "source": "resilience,",
+      "text": "adkaysi,"
+    },
+    {
+      "key": "t265",
+      "source": "emotional",
+      "text": "qiiro leh"
+    },
+    {
+      "key": "t266",
+      "source": "intelligence",
+      "text": "sirdoonka"
+    },
+    {
+      "key": "t267",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t268",
+      "source": "wellbeing",
+      "text": "wanaagga"
+    },
+    {
+      "key": "t269",
+      "source": "through",
+      "text": "dhex mara [[t270]]] fanka, [[t271]]] muusig,"
+    },
+    {
+      "key": "t270",
+      "source": "art,",
+      "text": "fanka,"
+    },
+    {
+      "key": "t271",
+      "source": "music,",
+      "text": "muusik,"
+    },
+    {
+      "key": "t272",
+      "source": "play",
+      "text": "ciyaar [[t273]]] daawayn,"
+    },
+    {
+      "key": "t273",
+      "source": "therapy,",
+      "text": "daawaynta,"
+    },
+    {
+      "key": "t274",
+      "source": "sand",
+      "text": "ciid [[t275]]] ciyaar, [[t276]]] biyaano,"
+    },
+    {
+      "key": "t275",
+      "source": "play,",
+      "text": "ciyaar,"
+    },
+    {
+      "key": "t276",
+      "source": "piano,",
+      "text": "biyaano,"
+    },
+    {
+      "key": "t277",
+      "source": "guitar",
+      "text": "gitaarka"
+    },
+    {
+      "key": "t278",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t279",
+      "source": "proven",
+      "text": "la caddeeyey"
+    },
+    {
+      "key": "t280",
+      "source": "psychological",
+      "text": "nafsiyeed"
+    },
+    {
+      "key": "t281",
+      "source": "techniques.",
+      "text": "farsamooyinka. [[t282]]] Hadafkayaga iyo yoolalkayada [[t283]]] Annagu ma nihin kaliya dugsi fasax ah. Waxaan barnaa carruurta qiyamka waxaana ku taageernaa waxyaabaha ay u baahan yihiin si ay si gaar ah u koraan."
+    },
+    {
+      "key": "t282",
+      "source": "Our aims and objectives",
+      "text": "Hadafyadayada iyo ujeedooyinkayaga"
+    },
+    {
+      "key": "t283",
+      "source": "We are not just a holiday school. We teach children values and support them with things they need to grow up uniquely great.",
+      "text": "Annagu ma nihin dugsi fasax oo keliya. Waxaan barnaa carruurta qiyamka waxaana ku taageernaa waxyaabaha ay u baahan yihiin si ay si gaar ah u koraan."
+    },
+    {
+      "key": "t284",
+      "source": "I AM Honesty",
+      "text": "Waxaan ahay Daacadnimo"
+    },
+    {
+      "key": "t285",
+      "source": "I AM Fairness",
+      "text": "Anigu waxaan ahay Caddaalad"
+    },
+    {
+      "key": "t286",
+      "source": "I AM Kindness",
+      "text": "Waxaan ahay naxariis"
+    },
+    {
+      "key": "t287",
+      "source": "I AM Integrity",
+      "text": "Anigu waxaan ahay daacadnimo"
+    },
+    {
+      "key": "t288",
+      "source": "I AM Outspoken",
+      "text": "Anigu waxaan ahay mid aan ku hadlin"
+    },
+    {
+      "key": "t289",
+      "source": "Original programme reach",
+      "text": "Gaaritaanka barnaamijka asalka ah"
+    },
+    {
+      "key": "t290",
+      "source": "Over 400 children were registered in 2021, over 1,000 in 2022, 200 more were supported at Easter 2023, with 1,440 available Summer 2023 slots.",
+      "text": "In ka badan 400 oo caruur ah ayaa la diiwaan galiyay 2021, in ka badan 1,000 sanadka 2022, 200 ka badan ayaa la taageeray Easter 2023, iyadoo 1,440 boosaska la heli karo Xagaaga 2023."
+    },
+    {
+      "key": "t291",
+      "source": "Register via Holiday Activities Voucher",
+      "text": "Isku diwaangeli adoo isticmaalaya foojarka Hawlaha Fasaxa"
+    },
+    {
+      "key": "t292",
+      "source": "Programme snapshot",
+      "text": "Sawirka barnaamijka [[t293]]] Taageerada dugsiga daweynta hal-abuurka leh [[t294]]] Carruurtu waxay ku dhisaan kalsooni, qiyam iyo adkeysi xagga fanka, muusiga, ciyaarta iyo nashaadaadka fayoobi ee la taaban karo."
+    },
+    {
+      "key": "t293",
+      "source": "Creative therapeutic school support",
+      "text": "Taageerada dugsiga daweynta hal-abuurka leh"
+    },
+    {
+      "key": "t294",
+      "source": "Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",
+      "text": "Carruurtu waxay ku dhistaan ​​kalsooni, qiyam iyo adkeysi xagga fanka, muusiga, ciyaarta iyo nashaadaadka fayoobi ee la taaban karo."
+    },
+    {
+      "key": "t295",
+      "source": "One-stop shop",
+      "text": "Dukaan joogsi ah"
+    },
+    {
+      "key": "t296",
+      "source": "Floating",
+      "text": "Sabbayn"
+    },
+    {
+      "key": "t297",
+      "source": "Community",
+      "text": "Bulshada"
+    },
+    {
+      "key": "t298",
+      "source": "Hub.",
+      "text": "Hub."
+    },
+    {
+      "key": "t299",
+      "source": "A",
+      "text": "A"
+    },
+    {
+      "key": "t300",
+      "source": "central",
+      "text": "dhexe [[t301]]] ururinta"
+    },
+    {
+      "key": "t301",
+      "source": "gathering",
+      "text": "ururin"
+    },
+    {
+      "key": "t302",
+      "source": "place",
+      "text": "meel"
+    },
+    {
+      "key": "t303",
+      "source": "for",
+      "text": "loogu talagalay"
+    },
+    {
+      "key": "t304",
+      "source": "Croydon",
+      "text": "Croydon"
+    },
+    {
+      "key": "t305",
+      "source": "residents,",
+      "text": "deganayaasha,"
+    },
+    {
+      "key": "t306",
+      "source": "with",
+      "text": "leh"
+    },
+    {
+      "key": "t307",
+      "source": "wider",
+      "text": "ballaaran [[t308]]] mashaariicda"
+    },
+    {
+      "key": "t308",
+      "source": "projects",
+      "text": "mashaariicda"
+    },
+    {
+      "key": "t309",
+      "source": "also",
+      "text": "sidoo kale [[t310]]] adeegaya"
+    },
+    {
+      "key": "t310",
+      "source": "serving",
+      "text": "u adeegaya"
+    },
+    {
+      "key": "t311",
+      "source": "Redbridge,",
+      "text": "Redbridge,"
+    },
+    {
+      "key": "t312",
+      "source": "Newham,",
+      "text": "Newham,"
+    },
+    {
+      "key": "t313",
+      "source": "Durham",
+      "text": "Durham"
+    },
+    {
+      "key": "t314",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t315",
+      "source": "Southwark.",
+      "text": "Southwark."
+    },
+    {
+      "key": "t316",
+      "source": "Come",
+      "text": "Kaalay [[t317]]] wadajir,"
+    },
+    {
+      "key": "t317",
+      "source": "together,",
+      "text": "wada jir,"
+    },
+    {
+      "key": "t318",
+      "source": "have",
+      "text": "leeyihiin"
+    },
+    {
+      "key": "t319",
+      "source": "a",
+      "text": "a"
+    },
+    {
+      "key": "t320",
+      "source": "cup",
+      "text": "koob"
+    },
+    {
+      "key": "t321",
+      "source": "of",
+      "text": "ee"
+    },
+    {
+      "key": "t322",
+      "source": "tea",
+      "text": "shaah"
+    },
+    {
+      "key": "t323",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t324",
+      "source": "a",
+      "text": "a"
+    },
+    {
+      "key": "t325",
+      "source": "chat.",
+      "text": "sheeko [[t326]]] Xarunta Croydon waxay socotaa Talaada kasta Ashburton Park Cafe Hall. Sabeyntu waxay sidoo kale bixisaa mashaariicda bulshada Redbridge, Newham, Durham iyo Southwark, taasoo keenaysa u doodid wax ku ool ah, taageero wanaagga iyo gudbinta maxalliga ah ee bulsho kasta."
+    },
+    {
+      "key": "t326",
+      "source": "The Croydon hub runs every Tuesday at Ashburton Park Cafe Hall. Floating also delivers community projects in Redbridge, Newham, Durham and Southwark, bringing practical advocacy, wellbeing support and local referrals closer to each community.",
+      "text": "Xarunta Croydon waxay socotaa Talaada kasta Ashburton Park Cafe Hall. Sabeyntu waxay sidoo kale bixisaa mashaariicda bulshada ee Redbridge, Newham, Durham iyo Southwark, taasoo keenaysa u doodid wax ku ool ah, taageero fayoobi iyo tixraacyo maxalli ah oo u soo dhawaada beel kasta."
+    },
+    {
+      "key": "t327",
+      "source": "Bills & Grants",
+      "text": "Biilasha & Deeqaha [[t328]]] Biilasha tamarta, deeqaha guriga iyo boonooyinka inta lagu jiro usbuuca ugu horeeya."
+    },
+    {
+      "key": "t328",
+      "source": "Utility bills, home grants and vouchers during the first week.",
+      "text": "Biilasha utility, deeqaha guriga iyo boonooyinka inta lagu jiro usbuuca ugu horeeya."
+    },
+    {
+      "key": "t329",
+      "source": "Housing Support",
+      "text": "Taageerada Guryaha [[t330]]] Samaqabka iyo taageerada guriyeynta ee Croydon, Newham iyo xarumaha lammaanaha."
+    },
+    {
+      "key": "t330",
+      "source": "Wellbeing and housing support in Croydon, Newham and partner hubs.",
+      "text": "Ladnaanta iyo taageerada guriyeynta ee Croydon, Newham iyo xarumaha lammaanaha."
+    },
+    {
+      "key": "t331",
+      "source": "Digital Inclusion",
+      "text": "Ka mid noqoshada dhijitaalka ah [[t332]]] Taageerada internetka, foomamka, wacyigelinta khayaanada, WhatsApp, AI waxbarashada iyo hagida SIM bilaashka ah."
+    },
+    {
+      "key": "t332",
+      "source": "Internet support, forms, scam awareness, WhatsApp, AI education and free SIM guidance.",
+      "text": "Taageerada internetka, foomamka, wacyigelinta khiyaanada, WhatsApp, waxbarashada AI iyo hagida SIM bilaashka ah."
+    },
+    {
+      "key": "t333",
+      "source": "Art Therapy",
+      "text": "Daaweynta Farshaxanka"
+    },
+    {
+      "key": "t334",
+      "source": "Third-week creative healing with Myfamily101 and Floating Counselling Community.",
+      "text": "bogsiinta halabuurka toddobaadka saddexaad oo leh Myfamily101 iyo Floating Counselling Community."
+    },
+    {
+      "key": "t335",
+      "source": "Food Bank",
+      "text": "Bangiga cuntada [[t336]]] Cunnada toddobaadlaha ah, dharka iyo waxyaabaha lagama maarmaanka u ah shakhsiyaadka iyo qoysaska."
+    },
+    {
+      "key": "t336",
+      "source": "Weekly food, clothing and essentials for individuals and families.",
+      "text": "Cunto toddobaadle ah, dhar iyo waxyaabaha lagama maarmaanka u ah shakhsiyaadka iyo qoysaska."
+    },
+    {
+      "key": "t337",
+      "source": "Employment Support",
+      "text": "Taageerada Shaqada [[t338]]] Aqoonta dhaqaale, kalsoonida iyo taageerada shaqo ee xasiloonida muddada dheer."
+    },
+    {
+      "key": "t338",
+      "source": "Financial literacy, confidence and employment support for longer-term stability.",
+      "text": "Aqoonta dhaqaale, kalsoonida iyo taageerada shaqo ee xasilloonida muddada dheer."
+    },
+    {
+      "key": "t339",
+      "source": "Croydon office",
+      "text": "Xafiiska Croydon"
+    },
+    {
+      "key": "t340",
+      "source": "26 Avenue Road, SE25 4DX",
+      "text": "26 Avenue Road, SE25 4DX"
+    },
+    {
+      "key": "t341",
+      "source": "Map",
+      "text": "Maab"
+    },
+    {
+      "key": "t342",
+      "source": "Croydon hub",
+      "text": "Croydon xuddunta"
+    },
+    {
+      "key": "t343",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX. Talaado, 12:30 ilaa 2:30 galabnimo."
+    },
+    {
+      "key": "t344",
+      "source": "Map",
+      "text": "Maab"
+    },
+    {
+      "key": "t345",
+      "source": "Redbridge office",
+      "text": "Xafiiska Redbridge"
+    },
+    {
+      "key": "t346",
+      "source": "160-162 Cranbrook Road, IG1 4PE.",
+      "text": "160-162 Cranbrook Road, IG1 4PE."
+    },
+    {
+      "key": "t347",
+      "source": "Map",
+      "text": "Maab"
+    },
+    {
+      "key": "t348",
+      "source": "Redbridge hub",
+      "text": "Redbridge xuddunta"
+    },
+    {
+      "key": "t349",
+      "source": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Talaado, 11:30 subaxnimo ilaa 1:30 galabnimo marka laga reebo fasaxyada."
+    },
+    {
+      "key": "t350",
+      "source": "Map",
+      "text": "Maab"
+    },
+    {
+      "key": "t351",
+      "source": "Durham hub",
+      "text": "Durham xuddunta"
+    },
+    {
+      "key": "t352",
+      "source": "30 Wesley Street, Durham, DL14 8UH.",
+      "text": "30 Wesley Street, Durham, DL14 8UH."
+    },
+    {
+      "key": "t353",
+      "source": "Map",
+      "text": "Maab"
+    },
+    {
+      "key": "t354",
+      "source": "Newham",
+      "text": "Newham [[t355]]] Ladnaanta bisha iyo taageerada guriyeynta. Dib u bilaabma Juulay 2026."
+    },
+    {
+      "key": "t355",
+      "source": "Monthly wellbeing and housing support. Relaunching July 2026.",
+      "text": "Ladnaanta bisha iyo taageerada guriyeynta. Dib u bilaabma Juulay 2026."
+    },
+    {
+      "key": "t356",
+      "source": "Southwark hub",
+      "text": "Southwark xuddunta"
+    },
+    {
+      "key": "t357",
+      "source": "20 Heaton Road, Heaton Road Church, Peckham, SE15 3NL. Launching June 2026.",
+      "text": "20 Heaton Road, Heaton Road Kaniisadda, Peckham, SE15 3NL. Bilaabanaya Juun 2026."
+    },
+    {
+      "key": "t358",
+      "source": "Map",
+      "text": "Maab"
+    },
+    {
+      "key": "t359",
+      "source": "What people say",
+      "text": "Waxa ay dadku yidhaahdaan"
+    },
+    {
+      "key": "t360",
+      "source": "In",
+      "text": "gudaha"
+    },
+    {
+      "key": "t361",
+      "source": "their",
+      "text": "iyaga"
+    },
+    {
+      "key": "t362",
+      "source": "own",
+      "text": "leh"
+    },
+    {
+      "key": "t363",
+      "source": "words.",
+      "text": "erayada."
+    },
+    {
+      "key": "t364",
+      "source": "Hear",
+      "text": "Maqal"
+    },
+    {
+      "key": "t365",
+      "source": "from",
+      "text": "ka"
+    },
+    {
+      "key": "t366",
+      "source": "the",
+      "text": "ee [[t367]]] qoysaska"
+    },
+    {
+      "key": "t367",
+      "source": "families",
+      "text": "qoysaska"
+    },
+    {
+      "key": "t368",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t369",
+      "source": "individuals",
+      "text": "shakhsiyaadka"
+    },
+    {
+      "key": "t370",
+      "source": "whose",
+      "text": "oo ah"
+    },
+    {
+      "key": "t371",
+      "source": "lives",
+      "text": "nool"
+    },
+    {
+      "key": "t372",
+      "source": "have",
+      "text": "leeyihiin"
+    },
+    {
+      "key": "t373",
+      "source": "been",
+      "text": "ahaa"
+    },
+    {
+      "key": "t374",
+      "source": "transformed.",
+      "text": "isbedelay. [[t375]]] Wax badan ayaan ka bartay tababarka Impact Parenting Pillar iyo Celestina. Waxay ahayd mid si cajiib ah u soo koobnayd oo ay taageertay arrimo badan oo kala duwan oo waalidiintu la kulmaan. Waxaan leeyahay caruur da'yar runtiina waan u baahanahay. Waxay ahayd mid aqoon buuxda u leh waalidka si miyir leh."
+    },
+    {
+      "key": "t375",
+      "source": "I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded and supported a wide variety of issues that parents face. I have teenage children and really needed this. It was full of knowledge to parent more consciously.",
+      "text": "Wax badan ayaan ka bartay tababbarka Tiirka Waalidka ee Saamaynta iyo Celestina. Waxay ahayd mid si cajiib ah u soo koobnayd oo ay taageertay arrimo badan oo kala duwan oo waalidiintu la kulmaan. Waxaan leeyahay caruur da'yar runtiina waan u baahanahay. Waxay ahayd mid aqoon buuxda u leh waalidka si miyir leh."
+    },
+    {
+      "key": "t376",
+      "source": "ST",
+      "text": "ST"
+    },
+    {
+      "key": "t377",
+      "source": "Sarah Turino",
+      "text": "Sarah Turino [[t378]]] Maamulaha Guud, Formula Fayoqabka Haweenka oo dhan · USA [[t379]]] Wiilkaygu waxa uu lahaa laba-labo oo aad u xun oo uu isku tuurayo dhulka oo aanu raacin xuduudaha. Hadda waxa la iga caawiyay in aan si fiican u ogaado shakhsiyadiisa waxaana la i siiyay qalab macquul ah oo ka caawiya in uu si kalgacal leh ugu adkaysto."
+    },
+    {
+      "key": "t378",
+      "source": "CEO, The Whole Woman Wellness Formula · USA",
+      "text": "Maamulaha Guud, Qaanuunka Caafimaadka Haweeneyda oo dhan · USA"
+    },
+    {
+      "key": "t379",
+      "source": "My son had terrible twos where he would throw himself on the floor and not follow boundaries. I have now been helped to know his personality better and been given realistic tools to help him be more resilient in a loving way.",
+      "text": "Wiilkaygu waxa uu lahaa laba aad u xun oo uu isku tuuray dabaqa oo aanu raacin xuduudaha. Hadda waxa la iga caawiyay in aan si fiican u ogaado shakhsiyadiisa waxaana la i siiyay qalab macquul ah oo ka caawiya in uu si kalgacal leh ugu adkaysto."
+    },
+    {
+      "key": "t380",
+      "source": "DD",
+      "text": "DD"
+    },
+    {
+      "key": "t381",
+      "source": "Danya Denny",
+      "text": "Danya Denny"
+    },
+    {
+      "key": "t382",
+      "source": "Social Worker · UK",
+      "text": "Shaqaale bulsho · UK [[t383]]] Anigoo ah hooyo lix carruur ah leh, laga bilaabo dhasha ilaa siddeed iyo toban, waxaan wax badan ka bartay Impact Parenting oo aan la qaatay Celestina. Waxaan la qabsaday xeeladaha noloshayda dhabta ah iyo dhammaan carruurtayda isla markiiba - welina iyaga ayaan isticmaalayaa bilo ka dib. Waalid kastaa wuxuu u baahan yahay kan."
+    },
+    {
+      "key": "t383",
+      "source": "As a mother of six, from newborn to eighteen, I learnt so much from Impact Parenting with Celestina. I adapted the strategies to my real life and all my children straight away — and I'm still using them months later. Every parent needs this.",
+      "text": "Anigoo ah hooyo lix carruur ah leh, laga soo bilaabo dhallaan ilaa siddeed iyo toban, waxaan wax badan ka bartay Saamaynta Waalidnimada ee Celestina. Waxaan la qabsaday xeeladaha noloshayda dhabta ah iyo dhammaan carruurtayda isla markiiba - welina iyaga ayaan isticmaalayaa bilo ka dib. Waalid kastaa wuxuu u baahan yahay kan."
+    },
+    {
+      "key": "t384",
+      "source": "NK",
+      "text": "NK"
+    },
+    {
+      "key": "t385",
+      "source": "Niina Kabesa",
+      "text": "Niina Kabesa [[t386]]] Qoraaga & Aasaasaha, Hooyada Qaramada · Congo"
+    },
+    {
+      "key": "t386",
+      "source": "Author & Founder, Mother of Nations · Congo",
+      "text": "Qoraaga & Aasaasaha, Hooyada Qaramada · Congo"
+    },
+    {
+      "key": "t387",
+      "source": "Our people",
+      "text": "Dadkeena"
+    },
+    {
+      "key": "t388",
+      "source": "Meet",
+      "text": "Kulan"
+    },
+    {
+      "key": "t389",
+      "source": "the",
+      "text": "ee [[t390]]] kooxda."
+    },
+    {
+      "key": "t390",
+      "source": "team.",
+      "text": "kooxda."
+    },
+    {
+      "key": "t391",
+      "source": "Led",
+      "text": "Leed"
+    },
+    {
+      "key": "t392",
+      "source": "by",
+      "text": "by"
+    },
+    {
+      "key": "t393",
+      "source": "a",
+      "text": "a"
+    },
+    {
+      "key": "t394",
+      "source": "diverse",
+      "text": "kala duwan"
+    },
+    {
+      "key": "t395",
+      "source": "team",
+      "text": "kooxda"
+    },
+    {
+      "key": "t396",
+      "source": "of",
+      "text": "ee"
+    },
+    {
+      "key": "t397",
+      "source": "African",
+      "text": "Afrikaan [[t398]]] haweenka"
+    },
+    {
+      "key": "t398",
+      "source": "women",
+      "text": "dumarka"
+    },
+    {
+      "key": "t399",
+      "source": "with",
+      "text": "leh [[t400]]] noolaa"
+    },
+    {
+      "key": "t400",
+      "source": "lived",
+      "text": "noolaa"
+    },
+    {
+      "key": "t401",
+      "source": "experience",
+      "text": "waayo-aragnimo"
+    },
+    {
+      "key": "t402",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t403",
+      "source": "professional",
+      "text": "xirfadle"
+    },
+    {
+      "key": "t404",
+      "source": "expertise.",
+      "text": "khibrad."
+    },
+    {
+      "key": "t405",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "t406",
+      "source": "CEO & Head of Charitable Operations",
+      "text": "Maamulaha Guud & Madaxa Hawlaha Samafalka"
+    },
+    {
+      "key": "t407",
+      "source": "Email",
+      "text": "iimaylka"
+    },
+    {
+      "key": "t408",
+      "source": "Read more",
+      "text": "Wax badan ka sii akhri"
+    },
+    {
+      "key": "t409",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela [[t410]]] Agaasimaha & Madaxa Maaliyadda"
+    },
+    {
+      "key": "t410",
+      "source": "Director & Head of Finance",
+      "text": "Agaasimaha & Madaxa Maaliyadda"
+    },
+    {
+      "key": "t411",
+      "source": "Email",
+      "text": "iimaylka"
+    },
+    {
+      "key": "t412",
+      "source": "Read more",
+      "text": "Wax badan ka sii akhri"
+    },
+    {
+      "key": "t413",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode [[t414]]] Agaasimaha & Xiriirka Xiriirka"
+    },
+    {
+      "key": "t414",
+      "source": "Director & Relationship Coach",
+      "text": "Agaasimaha & Xiriirka Xiriirka"
+    },
+    {
+      "key": "t415",
+      "source": "Email",
+      "text": "iimaylka"
+    },
+    {
+      "key": "t416",
+      "source": "Read more",
+      "text": "Wax badan ka sii akhri"
+    },
+    {
+      "key": "t417",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah [[t418]]] Agaasimaha & Sarkaalka Ilaalinta"
+    },
+    {
+      "key": "t418",
+      "source": "Director & Safeguarding Officer",
+      "text": "Agaasimaha & Sarkaalka Ilaalinta"
+    },
+    {
+      "key": "t419",
+      "source": "Email",
+      "text": "iimaylka"
+    },
+    {
+      "key": "t420",
+      "source": "Contact",
+      "text": "La xidhiidh [[t421]]] Kafiil-bixiyeyaasha, la-hawlgalayaasha iyo maalgeliyayaasha"
+    },
+    {
+      "key": "t421",
+      "source": "Sponsors, partners and funders",
+      "text": "Kafiilka, la-hawlgalayaasha iyo maalgeliyayaasha"
+    },
+    {
+      "key": "t422",
+      "source": "Supported",
+      "text": "La taageeray"
+    },
+    {
+      "key": "t423",
+      "source": "by",
+      "text": "by"
+    },
+    {
+      "key": "t424",
+      "source": "trusted",
+      "text": "la aaminay"
+    },
+    {
+      "key": "t425",
+      "source": "partners.",
+      "text": "shuraakada"
+    },
+    {
+      "key": "t426",
+      "source": "A",
+      "text": "A"
+    },
+    {
+      "key": "t427",
+      "source": "compact",
+      "text": "is haysta"
+    },
+    {
+      "key": "t428",
+      "source": "view",
+      "text": "muuqaal"
+    },
+    {
+      "key": "t429",
+      "source": "of",
+      "text": "ee"
+    },
+    {
+      "key": "t430",
+      "source": "the",
+      "text": "ee"
+    },
+    {
+      "key": "t431",
+      "source": "funders,",
+      "text": "maalgeliyayaasha,"
+    },
+    {
+      "key": "t432",
+      "source": "sponsors",
+      "text": "kafaala-qaadayaasha"
+    },
+    {
+      "key": "t433",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t434",
+      "source": "registrations",
+      "text": "diiwaangelinta"
+    },
+    {
+      "key": "t435",
+      "source": "behind",
+      "text": "gadaale"
+    },
+    {
+      "key": "t436",
+      "source": "the",
+      "text": "ee"
+    },
+    {
+      "key": "t437",
+      "source": "work.",
+      "text": "shaqada."
+    },
+    {
+      "key": "t438",
+      "source": "Common questions",
+      "text": "Su'aalaha guud"
+    },
+    {
+      "key": "t439",
+      "source": "Everything",
+      "text": "Wax walba"
+    },
+    {
+      "key": "t440",
+      "source": "you",
+      "text": "adiga"
+    },
+    {
+      "key": "t441",
+      "source": "might",
+      "text": "laga yaabaa"
+    },
+    {
+      "key": "t442",
+      "source": "be",
+      "text": "ahaan lahayd"
+    },
+    {
+      "key": "t443",
+      "source": "wondering.",
+      "text": "yaabban."
+    },
+    {
+      "key": "t444",
+      "source": "If",
+      "text": "Haddii"
+    },
+    {
+      "key": "t445",
+      "source": "your",
+      "text": "aad"
+    },
+    {
+      "key": "t446",
+      "source": "question",
+      "text": "su'aal"
+    },
+    {
+      "key": "t447",
+      "source": "isn't",
+      "text": "maaha"
+    },
+    {
+      "key": "t448",
+      "source": "here,",
+      "text": "halkan,"
+    },
+    {
+      "key": "t449",
+      "source": "send",
+      "text": "dir"
+    },
+    {
+      "key": "t450",
+      "source": "us",
+      "text": "anaga"
+    },
+    {
+      "key": "t451",
+      "source": "a",
+      "text": "a"
+    },
+    {
+      "key": "t452",
+      "source": "note.",
+      "text": "xusuus."
+    },
+    {
+      "key": "t453",
+      "source": "We",
+      "text": "Annagu"
+    },
+    {
+      "key": "t454",
+      "source": "read",
+      "text": "akhri"
+    },
+    {
+      "key": "t455",
+      "source": "every",
+      "text": "mid kasta"
+    },
+    {
+      "key": "t456",
+      "source": "message.",
+      "text": "fariinta."
+    },
+    {
+      "key": "t457",
+      "source": "Ask us anything",
+      "text": "wax na weydii"
+    },
+    {
+      "key": "t458",
+      "source": "How much does counselling cost?",
+      "text": "Immisa ayay ku kacaysaa la-talinta? [[t459]]] Fadhiyadu waa bilaash ama qiimo jaban shaqsiyaadka xaqa u leh. Waxaan ku shaqaynaa miisaan simbiriirixan oo ku salaysan duruufaha. Muhiimadayadayadu waa gelida, waxaanan heli doonaa hab adiga kugu habboon."
+    },
+    {
+      "key": "t459",
+      "source": "Sessions are free or low-cost for eligible individuals. We work on a sliding scale based on circumstances. Our priority is access, and we'll find a way that works for you.",
+      "text": "Fadhiyadu waa bilaash ama qiimo jaban shaqsiyaadka xaqa u leh. Waxaan ku shaqaynaa miisaan simbiriirixan oo ku salaysan duruufaha. Muhiimadayadayadu waa gelida, waxaanan heli doonaa hab adiga kugu habboon."
+    },
+    {
+      "key": "t460",
+      "source": "What happens in the first session?",
+      "text": "Maxaa dhacaya kalfadhiga koowaad? [[t461]]] Kalfadhigaaga ugu horreeya waa sheeko dabacsan oo ku saabsan waxa ku keenay, waxaad jeclaan lahayd inaad ka shaqeyso, iyo sida aan kuu taageeri karno. Waxba laguma degdego. Waxaad dejisay xawaaraha. [[t462]]] Fadhiyadu ma yihiin kuwo sir ah?"
+    },
+    {
+      "key": "t461",
+      "source": "Your first session is a relaxed conversation about what's brought you in, what you'd like to work on, and how we can support you. Nothing is rushed. You set the pace.",
+      "text": "Kalfadhigaaga ugu horreeya waa sheeko dabacsan oo ku saabsan waxa ku keenay, waxaad jeclaan lahayd inaad ka shaqeyso, iyo sida aan kuu taageeri karno. Waxba laguma degdego. Waxaad dejisay xawaaraha."
+    },
+    {
+      "key": "t462",
+      "source": "Are sessions confidential?",
+      "text": "Fadhiyadu ma yihiin kuwo qarsoodi ah?"
+    },
+    {
+      "key": "t463",
+      "source": "Yes. Everything you share is held in strict confidence in line with BACP ethical guidelines. The only exceptions are safeguarding situations, which we'd always discuss with you first wherever possible.",
+      "text": "Haa. Wax kasta oo aad wadaagto waxaa lagu hayaa kalsooni adag si waafaqsan xeerarka anshaxa BACP. Waxa kaliya ee ka reeban waa ilaalinta xaaladaha, kuwaas oo aan had iyo jeer kaala hadli doono marka hore meel kasta oo suurtagal ah."
+    },
+    {
+      "key": "t464",
+      "source": "Do you offer online sessions?",
+      "text": "Ma bixisaa kulanno onlayn ah?"
+    },
+    {
+      "key": "t465",
+      "source": "Yes. We offer online sessions and in-person support across the boroughs where we deliver services.",
+      "text": "Haa. Waxaan bixinaa kulanno onlayn ah iyo taageero qof ahaaneed ee dhammaan degmooyinka aan adeegyada ku bixinno. [[t466]]] daaweeyayaashaadu ma yihiin kuwo u qalma?"
+    },
+    {
+      "key": "t466",
+      "source": "Are your therapists qualified?",
+      "text": "daaweeyayaashaadu ma yihiin kuwo u qalma?"
+    },
+    {
+      "key": "t467",
+      "source": "Our therapists are clinically trained psychotherapists working in line with BACP standards. The leadership team has 45+ years of combined clinical experience and over 50,000 clinical hours.",
+      "text": "Daaweeyayaashayadu waa daaweeyayaal cilmi-nafsi oo si kiliinik ah u tababaran oo ka shaqeeya si waafaqsan heerarka BACP. Kooxda hogaamintu waxay leedahay 45+ sano oo khibrad caafimaad oo la isku daray iyo in ka badan 50,000 saacadood oo bukaan socod ah. [[t468]]] Ma tixraaci karaa xubin qoyska ah ama saaxiib?"
+    },
+    {
+      "key": "t468",
+      "source": "Can I refer a family member or friend?",
+      "text": "Ma tixraaci karaa xubin qoys ama saaxiib?"
+    },
+    {
+      "key": "t469",
+      "source": "Absolutely. We'll always need consent from the person themselves before opening a case. The best first step is to encourage them to email or WhatsApp us directly.",
+      "text": "Dhab ahaantii. Had iyo jeer waxaan u baahan doonaa ogolaansho qofka laftiisa ka hor inta aan la furin kiis. Talaabada ugu horeysa ee ugu fiican waa in lagu dhiirigeliyo inay si toos ah noogu soo diraan email ama WhatsApp. [[t470]]] Sideen u taageeri karaa shaqadaada?"
+    },
+    {
+      "key": "t470",
+      "source": "How can I support your work?",
+      "text": "Sideen u taageeri karaa shaqadaada?"
+    },
+    {
+      "key": "t471",
+      "source": "You can donate via Localgiving or PayPal, volunteer your time, follow us on social media, or fundraise on our behalf. Visit the fundraiser section or get in touch and we'll match you to something that suits.",
+      "text": "Waxaad ku tabaruci kartaa Localgiving ama PayPal, tabaruc waqtigaaga, nagu raac warbaahinta bulshada, ama lacag ururin adoo wakiil ka ah. Booqo qaybta lacag-ururinta ama la xidhiidh waxaanu ku waafajin doonaa wax ku habboon."
+    },
+    {
+      "key": "t472",
+      "source": "Fundraiser",
+      "text": "Lacag ururin"
+    },
+    {
+      "key": "t473",
+      "source": "Ways",
+      "text": "Siyaabaha"
+    },
+    {
+      "key": "t474",
+      "source": "to",
+      "text": "ku"
+    },
+    {
+      "key": "t475",
+      "source": "fundraise",
+      "text": "lacag ururin"
+    },
+    {
+      "key": "t476",
+      "source": "for",
+      "text": "loogu talagalay"
+    },
+    {
+      "key": "t477",
+      "source": "Floating",
+      "text": "Sabbayn"
+    },
+    {
+      "key": "t478",
+      "source": "Counselling.",
+      "text": "La-talin"
+    },
+    {
+      "key": "t479",
+      "source": "Fundraising",
+      "text": "Lacag ururin [[t480]]] caawiyaa"
+    },
+    {
+      "key": "t480",
+      "source": "helps",
+      "text": "caawin"
+    },
+    {
+      "key": "t481",
+      "source": "keep",
+      "text": "ilaali [[t482]]] la-talin,"
+    },
+    {
+      "key": "t482",
+      "source": "counselling,",
+      "text": "la-talin,"
+    },
+    {
+      "key": "t483",
+      "source": "food",
+      "text": "cuntada [[t484]]] taageero,"
+    },
+    {
+      "key": "t484",
+      "source": "support,",
+      "text": "taageero,"
+    },
+    {
+      "key": "t485",
+      "source": "holiday",
+      "text": "fasax"
+    },
+    {
+      "key": "t486",
+      "source": "school",
+      "text": "dugsiga"
+    },
+    {
+      "key": "t487",
+      "source": "places",
+      "text": "meelaha"
+    },
+    {
+      "key": "t488",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t489",
+      "source": "community",
+      "text": "bulshada"
+    },
+    {
+      "key": "t490",
+      "source": "hub",
+      "text": "hub"
+    },
+    {
+      "key": "t491",
+      "source": "sessions",
+      "text": "fadhiyada"
+    },
+    {
+      "key": "t492",
+      "source": "accessible",
+      "text": "la heli karo"
+    },
+    {
+      "key": "t493",
+      "source": "for",
+      "text": "loogu talagalay"
+    },
+    {
+      "key": "t494",
+      "source": "people",
+      "text": "dadka"
+    },
+    {
+      "key": "t495",
+      "source": "who",
+      "text": "yaa"
+    },
+    {
+      "key": "t496",
+      "source": "need",
+      "text": "baahan"
+    },
+    {
+      "key": "t497",
+      "source": "practical",
+      "text": "wax ku ool ah"
+    },
+    {
+      "key": "t498",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t499",
+      "source": "therapeutic",
+      "text": "daweyn [[t500]]] daryeel."
+    },
+    {
+      "key": "t500",
+      "source": "care.",
+      "text": "daryeel."
+    },
+    {
+      "key": "t501",
+      "source": "Donate via PayPal",
+      "text": "Ku deeq PayPal"
+    },
+    {
+      "key": "t502",
+      "source": "Donate via Localgiving",
+      "text": "Ku deeq Localgiving"
+    },
+    {
+      "key": "t503",
+      "source": "Start a fundraiser",
+      "text": "Bilow lacag ururin"
+    },
+    {
+      "key": "t504",
+      "source": "Run a personal fundraiser",
+      "text": "Samee lacag ururin shakhsi ah [[t505]]] Isticmaal maalmaha dhalashada, caqabadaha ama munaasabadaha beesha si aad lacag ugu ururiso la-talinta iyo taageerada duubista. [[t506]]] Goobta shaqada ama ururinta dugsiga [[t507]]] Uruuri cuntada, waxyaabaha daruuriga ah, boonooyinka ama deeqaha kooxdaada, dugsiga, kooxda iimaanka ama ganacsiga deegaanka."
+    },
+    {
+      "key": "t505",
+      "source": "Use birthdays, challenges or community events to raise funds for counselling and wraparound support.",
+      "text": "Isticmaal maalmaha dhalashada, caqabadaha ama munaasabadaha beesha si aad lacag ugu ururiso la-talinta iyo taageerada duubista."
+    },
+    {
+      "key": "t506",
+      "source": "Workplace or school collection",
+      "text": "Goobta shaqada ama ururinta dugsiga"
+    },
+    {
+      "key": "t507",
+      "source": "Collect food, essentials, vouchers or donations with your team, school, faith group or local business.",
+      "text": "Uruurinta cuntada, waxyaabaha daruuriga ah, boonooyinka ama deeqaha kooxdaada, dugsiga, kooxda iimaanka ama ganacsiga deegaanka."
+    },
+    {
+      "key": "t508",
+      "source": "Sponsor a project",
+      "text": "Kafiil mashruuc [[t509]]] Taageer fadhiga hub, hawlaha dugsiga fasaxa, fadhiga latalinta ama dhacdo samaqabka deegaanka."
+    },
+    {
+      "key": "t509",
+      "source": "Support a hub session, holiday school activity, counselling session or local wellbeing event.",
+      "text": "Taageer fadhiga hub, hawlaha dugsiga fasaxa, fadhiga latalinta ama dhacdo samaqabka deegaanka."
+    },
+    {
+      "key": "t510",
+      "source": "Share skills and time",
+      "text": "La wadaag xirfadaha iyo waqtiga [[t511]]] Sii xirfado xirfadeed, taageero dhacdo, gaadiid, latalin ama caawimo wax ku ool ah dadka deegaanka."
+    },
+    {
+      "key": "t511",
+      "source": "Offer professional skills, event support, transport, mentoring or practical help for local residents.",
+      "text": "Sii xirfado xirfadeed, taageero dhacdo, gaadiid, latalin ama caawimo wax ku ool ah dadka deegaanka."
+    },
+    {
+      "key": "t512",
+      "source": "Volunteer",
+      "text": "Tabaruc"
+    },
+    {
+      "key": "t513",
+      "source": "Volunteer",
+      "text": "Tabaruc"
+    },
+    {
+      "key": "t514",
+      "source": "with",
+      "text": "leh"
+    },
+    {
+      "key": "t515",
+      "source": "Floating",
+      "text": "Sabbayn"
+    },
+    {
+      "key": "t516",
+      "source": "Counselling.",
+      "text": "La-talin"
+    },
+    {
+      "key": "t517",
+      "source": "Share",
+      "text": "La wadaag"
+    },
+    {
+      "key": "t518",
+      "source": "your",
+      "text": "aad"
+    },
+    {
+      "key": "t519",
+      "source": "time,",
+      "text": "waqti,"
+    },
+    {
+      "key": "t520",
+      "source": "skills",
+      "text": "xirfadaha"
+    },
+    {
+      "key": "t521",
+      "source": "or",
+      "text": "ama"
+    },
+    {
+      "key": "t522",
+      "source": "professional",
+      "text": "xirfadle"
+    },
+    {
+      "key": "t523",
+      "source": "experience",
+      "text": "waayo-aragnimo"
+    },
+    {
+      "key": "t524",
+      "source": "to",
+      "text": "ku"
+    },
+    {
+      "key": "t525",
+      "source": "support",
+      "text": "taageero"
+    },
+    {
+      "key": "t526",
+      "source": "counselling,",
+      "text": "la-talin,"
+    },
+    {
+      "key": "t527",
+      "source": "community",
+      "text": "bulshada"
+    },
+    {
+      "key": "t528",
+      "source": "hub",
+      "text": "hub"
+    },
+    {
+      "key": "t529",
+      "source": "sessions,",
+      "text": "fadhiyo,"
+    },
+    {
+      "key": "t530",
+      "source": "holiday",
+      "text": "fasax"
+    },
+    {
+      "key": "t531",
+      "source": "school",
+      "text": "dugsiga"
+    },
+    {
+      "key": "t532",
+      "source": "activities,",
+      "text": "hawlaha,"
+    },
+    {
+      "key": "t533",
+      "source": "fundraising",
+      "text": "lacag ururin"
+    },
+    {
+      "key": "t534",
+      "source": "and",
+      "text": "iyo"
+    },
+    {
+      "key": "t535",
+      "source": "practical",
+      "text": "wax ku ool ah"
+    },
+    {
+      "key": "t536",
+      "source": "outreach.",
+      "text": "wacyigelin."
+    },
+    {
+      "key": "t537",
+      "source": "Community support",
+      "text": "Taageerada bulshada [[t538]]] Ka caawi dadka deegaanka cunto, dhar, foomamka, calaamadaynta, dhacdooyinka iyo fadhiyada soo dhawaynta."
+    },
+    {
+      "key": "t538",
+      "source": "Help residents with food, clothing, forms, signposting, events and welcoming hub sessions.",
+      "text": "Ka caawi dadka deegaanka cunto, dhar, foomamka, calaamadaynta, dhacdooyinka iyo fadhiyada soo dhawaynta."
+    },
+    {
+      "key": "t539",
+      "source": "Skills and projects",
+      "text": "Xirfadaha iyo mashaariicda"
+    },
+    {
+      "key": "t540",
+      "source": "Offer mentoring, admin, creative workshops, fundraising, transport, digital support or professional expertise.",
+      "text": "Bixi hagitaan, maamule, aqoon-is-weydaarsiyo hal abuur leh, lacag ururin, gaadiid, taageero dhijitaal ah ama khibrad xirfadeed."
+    },
+    {
+      "key": "t541",
+      "source": "Volunteer applications",
+      "text": "Codsiyada iskaa wax u qabso"
+    },
+    {
+      "key": "t542",
+      "source": "Monday form",
+      "text": "Foomka Isniinta"
+    },
+    {
+      "key": "t543",
+      "source": "Apply to volunteer",
+      "text": "Codso tabaruc"
+    },
+    {
+      "key": "t544",
+      "source": "Complete the volunteer application so the team can match your time, skills and availability to the right project.",
+      "text": "Buuxi codsiga iskaa wax u qabso si kooxdu ay ula jaanqaado wakhtigaaga, xirfadahaaga iyo helitaanka mashruuca saxda ah."
+    },
+    {
+      "key": "t545",
+      "source": "Open volunteer form",
+      "text": "Foom mutadawacnimo furan"
+    },
+    {
+      "key": "t546",
+      "source": "Get in touch",
+      "text": "la xidhiidh"
+    },
+    {
+      "key": "t547",
+      "source": "We'd",
+      "text": "Waanu samayn lahayn"
+    },
+    {
+      "key": "t548",
+      "source": "love",
+      "text": "jacayl"
+    },
+    {
+      "key": "t549",
+      "source": "to",
+      "text": "ku"
+    },
+    {
+      "key": "t550",
+      "source": "hear",
+      "text": "maqal"
+    },
+    {
+      "key": "t551",
+      "source": "from",
+      "text": "ka"
+    },
+    {
+      "key": "t552",
+      "source": "you.",
+      "text": "adiga."
+    },
+    {
+      "key": "t553",
+      "source": "Email,",
+      "text": "iimaylka,"
+    },
+    {
+      "key": "t554",
+      "source": "WhatsApp,",
+      "text": "WhatsApp,"
+    },
+    {
+      "key": "t555",
+      "source": "call",
+      "text": "wac"
+    },
+    {
+      "key": "t556",
+      "source": "or",
+      "text": "ama"
+    },
+    {
+      "key": "t557",
+      "source": "fill",
+      "text": "buuxin"
+    },
+    {
+      "key": "t558",
+      "source": "in",
+      "text": "gudaha"
+    },
+    {
+      "key": "t559",
+      "source": "the",
+      "text": "ee"
+    },
+    {
+      "key": "t560",
+      "source": "form.",
+      "text": "qaab"
+    },
+    {
+      "key": "t561",
+      "source": "We",
+      "text": "Annagu"
+    },
+    {
+      "key": "t562",
+      "source": "aim",
+      "text": "ujeedo"
+    },
+    {
+      "key": "t563",
+      "source": "to",
+      "text": "ku"
+    },
+    {
+      "key": "t564",
+      "source": "reply",
+      "text": "jawaab"
+    },
+    {
+      "key": "t565",
+      "source": "within",
+      "text": "gudaha"
+    },
+    {
+      "key": "t566",
+      "source": "two",
+      "text": "laba"
+    },
+    {
+      "key": "t567",
+      "source": "working",
+      "text": "shaqeeya"
+    },
+    {
+      "key": "t568",
+      "source": "days.",
+      "text": "maalmo."
+    },
+    {
+      "key": "t569",
+      "source": "Email",
+      "text": "iimaylka"
+    },
+    {
+      "key": "t570",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t571",
+      "source": "WhatsApp / Call",
+      "text": "WhatsApp / Wac"
+    },
+    {
+      "key": "t572",
+      "source": "Visit the Croydon Hub",
+      "text": "Booqo Croydon Hub"
+    },
+    {
+      "key": "t573",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX"
+    },
+    {
+      "key": "t574",
+      "source": "Tuesdays, 12:30 to 2:30pm.",
+      "text": "Talaado, 12:30 ilaa 2:30 galabnimo."
+    },
+    {
+      "key": "t575",
+      "source": "Project locations",
+      "text": "Goobaha mashruuca"
+    },
+    {
+      "key": "t576",
+      "source": "Separate contact points for Croydon, Redbridge, Durham, Newham and Southwark are listed below.",
+      "text": "Meelo kala duwan oo lagala xidhiidho Croydon, Redbridge, Durham, Newham iyo Southwark ayaa hoos ku taxan."
+    },
+    {
+      "key": "t577",
+      "source": "Croydon office",
+      "text": "Xafiiska Croydon"
+    },
+    {
+      "key": "t578",
+      "source": "26 Avenue Road",
+      "text": "26 Waddada Waddada"
+    },
+    {
+      "key": "t579",
+      "source": "London SE25 4DX",
+      "text": "London SE25 4DX"
+    },
+    {
+      "key": "t580",
+      "source": "Open map",
+      "text": "Khariidad furan"
+    },
+    {
+      "key": "t581",
+      "source": "Croydon hub",
+      "text": "Croydon xuddunta"
+    },
+    {
+      "key": "t582",
+      "source": "Ashburton Park Cafe Hall",
+      "text": "Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t583",
+      "source": "CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "CR0 6RX. Talaado, 12:30 ilaa 2:30 galabnimo."
+    },
+    {
+      "key": "t584",
+      "source": "Open map",
+      "text": "Khariidad furan"
+    },
+    {
+      "key": "t585",
+      "source": "Redbridge office",
+      "text": "Xafiiska Redbridge"
+    },
+    {
+      "key": "t586",
+      "source": "160-162 Cranbrook Road",
+      "text": "160-162 Cranbrook Road"
+    },
+    {
+      "key": "t587",
+      "source": "Ilford IG1 4PE",
+      "text": "Ilford IG1 4PE"
+    },
+    {
+      "key": "t588",
+      "source": "Open map",
+      "text": "Khariidad furan"
+    },
+    {
+      "key": "t589",
+      "source": "Redbridge hub",
+      "text": "Redbridge xuddunta"
+    },
+    {
+      "key": "t590",
+      "source": "Cranbrook House, Suite 7D",
+      "text": "Cranbrook House, Suite 7D"
+    },
+    {
+      "key": "t591",
+      "source": "61 Cranbrook Road, Ilford IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "61 Cranbrook Road, Ilford IG1 4PG. Talaado, 11:30 subaxnimo ilaa 1:30 galabnimo marka laga reebo fasaxyada."
+    },
+    {
+      "key": "t592",
+      "source": "Open map",
+      "text": "Khariidad furan"
+    },
+    {
+      "key": "t593",
+      "source": "Durham hub",
+      "text": "Durham xuddunta"
+    },
+    {
+      "key": "t594",
+      "source": "30 Wesley Street",
+      "text": "30 Wesley Street"
+    },
+    {
+      "key": "t595",
+      "source": "Durham DL14 8UH",
+      "text": "Durham DL14 8UH"
+    },
+    {
+      "key": "t596",
+      "source": "Open map",
+      "text": "Khariidad furan"
+    },
+    {
+      "key": "t597",
+      "source": "Southwark hub",
+      "text": "Southwark xuddunta"
+    },
+    {
+      "key": "t598",
+      "source": "20 Heaton Road",
+      "text": "20 Heaton Road"
+    },
+    {
+      "key": "t599",
+      "source": "Heaton Road Church, Peckham SE15 3NL. Launching June 2026.",
+      "text": "Heaton Road Kaniisadda, Peckham SE15 3NL. Bilaabanaya Juun 2026."
+    },
+    {
+      "key": "t600",
+      "source": "Open map",
+      "text": "Khariidad furan"
+    },
+    {
+      "key": "t601",
+      "source": "Newham",
+      "text": "Newham [[t602]]] Taageerada ladnaanta bishiiba [[t603]]] Taageerada guryaynta iyo samaqabka oo dib u bilaabmaysa Juulay 2026. [[t604]]] Magacaaga"
+    },
+    {
+      "key": "t602",
+      "source": "Monthly wellbeing support",
+      "text": "Taageerada ladnaanta bishiiba"
+    },
+    {
+      "key": "t603",
+      "source": "Housing and wellbeing support relaunching July 2026.",
+      "text": "Taageerada guryeynta iyo fayoqabka oo dib u bilaabmaya Luulyo 2026."
+    },
+    {
+      "key": "t604",
+      "source": "Your name",
+      "text": "Magacaaga"
+    },
+    {
+      "key": "t605",
+      "source": "Email",
+      "text": "iimaylka [[t606]]] Maxaan ku caawin karnaa?"
+    },
+    {
+      "key": "t606",
+      "source": "What can we help with?",
+      "text": "Maxaan ku caawin karnaa?"
+    },
+    {
+      "key": "t607",
+      "source": "Message",
+      "text": "Fariinta [[t608]]] Waxaan aqbalay in la igula soo xiriiro si waafaqsan sharciga"
+    },
+    {
+      "key": "t608",
+      "source": "I agree to be contacted in line with the",
+      "text": "Waxaan aqbalay in la igula soo xiriiro si waafaqsan"
+    },
+    {
+      "key": "t609",
+      "source": "privacy policy",
+      "text": "siyaasadda sirnimada"
+    },
+    {
+      "key": "t610",
+      "source": "Send message",
+      "text": "Fariin dir"
+    },
+    {
+      "key": "t611",
+      "source": "We're here",
+      "text": "Waxaan joognaa halkan"
+    },
+    {
+      "key": "t612",
+      "source": "Whatever",
+      "text": "Wax kastaba ha ahaatee"
+    },
+    {
+      "key": "t613",
+      "source": "you're",
+      "text": "waxaad tahay [[t614]]] qaadista,"
+    },
+    {
+      "key": "t614",
+      "source": "carrying,",
+      "text": "sidda,"
+    },
+    {
+      "key": "t615",
+      "source": "you",
+      "text": "adiga"
+    },
+    {
+      "key": "t616",
+      "source": "don't",
+      "text": "ha samayn"
+    },
+    {
+      "key": "t617",
+      "source": "carry",
+      "text": "qaado"
+    },
+    {
+      "key": "t618",
+      "source": "it",
+      "text": "waa"
+    },
+    {
+      "key": "t619",
+      "source": "alone.",
+      "text": "kali."
+    },
+    {
+      "key": "t620",
+      "source": "Whether",
+      "text": "Haddii"
+    },
+    {
+      "key": "t621",
+      "source": "you",
+      "text": "adiga"
+    },
+    {
+      "key": "t622",
+      "source": "need",
+      "text": "baahan [[t623]]] la-talin,"
+    },
+    {
+      "key": "t623",
+      "source": "counselling,",
+      "text": "la-talin,"
+    },
+    {
+      "key": "t624",
+      "source": "community",
+      "text": "bulshada [[t625]]] taageero, [[t626]]] cunto,"
+    },
+    {
+      "key": "t625",
+      "source": "support,",
+      "text": "taageero,"
+    },
+    {
+      "key": "t626",
+      "source": "food,",
+      "text": "cunto,"
+    },
+    {
+      "key": "t627",
+      "source": "or",
+      "text": "ama"
+    },
+    {
+      "key": "t628",
+      "source": "just",
+      "text": "kaliya"
+    },
+    {
+      "key": "t629",
+      "source": "someone",
+      "text": "qof"
+    },
+    {
+      "key": "t630",
+      "source": "to",
+      "text": "ku"
+    },
+    {
+      "key": "t631",
+      "source": "talk",
+      "text": "hadal"
+    },
+    {
+      "key": "t632",
+      "source": "to.",
+      "text": "ku."
+    },
+    {
+      "key": "t633",
+      "source": "Reach",
+      "text": "Gaaray"
+    },
+    {
+      "key": "t634",
+      "source": "out",
+      "text": "baxay"
+    },
+    {
+      "key": "t635",
+      "source": "today.",
+      "text": "maanta."
+    },
+    {
+      "key": "t636",
+      "source": "Your",
+      "text": "Adiga"
+    },
+    {
+      "key": "t637",
+      "source": "first",
+      "text": "marka hore"
+    },
+    {
+      "key": "t638",
+      "source": "step",
+      "text": "tallaabo"
+    },
+    {
+      "key": "t639",
+      "source": "matters.",
+      "text": "arrimaha."
+    },
+    {
+      "key": "t640",
+      "source": "Email us",
+      "text": "Noogu soo dir emaylka"
+    },
+    {
+      "key": "t641",
+      "source": "WhatsApp us",
+      "text": "WhatsApp anaga"
+    },
+    {
+      "key": "t642",
+      "source": "Donate via PayPal",
+      "text": "Ku deeq PayPal"
+    },
+    {
+      "key": "t643",
+      "source": "Localgiving",
+      "text": "Localgiving"
+    },
+    {
+      "key": "t644",
+      "source": "Fundraiser",
+      "text": "Lacag ururin"
+    },
+    {
+      "key": "t645",
+      "source": "Volunteer",
+      "text": "Tabaruc [[t646]]] Xeerarka & gaar ahaanshiyahaaga"
+    },
+    {
+      "key": "t646",
+      "source": "Policies & your privacy",
+      "text": "Siyaasadaha & sirtaada"
+    },
+    {
+      "key": "t647",
+      "source": "How we protect you and your data.",
+      "text": "Sida aanu kuu ilaalino adiga iyo xogtaada. [[t648]]] Soo koobid Ingiriisi oo cad oo ah sida aan u maarayno macluumaadkaaga, u ilaalino dadka, una isticmaalno cookies. Xeerarka buuxa ama codsi kasta, iimayl u dir"
+    },
+    {
+      "key": "t648",
+      "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
+      "text": "Soo koobid Ingiriisi oo cad oo ah sida aan u maarayno macluumaadkaaga, u ilaalino dadka, iyo isticmaal cookies-ka. Xeerarka buuxa ama codsi kasta, iimayl u dir"
+    },
+    {
+      "key": "t649",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t650",
+      "source": "Privacy policy",
+      "text": "Siyaasadda qarsoodiga"
+    },
+    {
+      "key": "t651",
+      "source": "Who we are.",
+      "text": "Yaanu nahay."
+    },
+    {
+      "key": "t652",
+      "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
+      "text": "Floating Counselling Community waa hay'ad UK ah oo bixisa latalin iyo taageero bulsho tan iyo 2015. Waxaan u shaqaynaa sidii SABABEYNTA COUNSELING COMMUNITY, shirkad ay xaddidan tahay dammaanad ka diiwaan gashan England iyo Wales, lambarka shirkadda 11334515. Anagu waxaanu nahay maamulaha xogta macluumaadka aad nala wadaagto. Codsiyada qarsoodiga ah, iimayl"
+    },
+    {
+      "key": "t653",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t654",
+      "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
+      "text": "ama u qor xafiiskayaga Croydon ee ku yaal 26 Avenue Road, London SE25 4DX."
+    },
+    {
+      "key": "t655",
+      "source": "What we collect.",
+      "text": "Waxa aanu ururino"
+    },
+    {
+      "key": "t656",
+      "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
+      "text": "Markaad nagala soo xidhiidho foomka waydiinta, iimaylka ama WhatsApp, waxaanu helnaa faahfaahinta aad doorato inaad na siiso - sida caadiga ah magacaaga, ciwaanka iimaylka, mawduuca aad dooratay iyo fariintaada. Haddii aad iska diiwaangeliso warsidahayaga waxaanu ururinaynaa ciwaanka emailkaaga. Ma ku waydiisanno macluumaadka caafimaadka qaybta gaarka ah iyada oo loo marayo mareegahan; fadlan la wadaag kaliya waxa aad ku qanacsan tahay."
+    },
+    {
+      "key": "t657",
+      "source": "How we use it, and our lawful basis.",
+      "text": "Sida aan u isticmaalno, iyo saldhiggayaga sharciga ah."
+    },
+    {
+      "key": "t658",
+      "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
+      "text": "Waxaan u isticmaalnaa faahfaahintaada si aan kuugu jawaabno, ku siino taageerada aad codsato, oo aan u wadno adeegyadeena (UK GDPR \"oggolaanshaha\" iyo \"dano sharci ah\"). Halka ay waajib naga saaran tahay in aan qof ilaalino, waxa laga yaabaa in aanu ka baaraandegno macluumaadka si aanu u buuxino waajibaad sharci ah (eeg Badbaadinta)."
+    },
+    {
+      "key": "t659",
+      "source": "Who we share it with.",
+      "text": "cidda aanu la wadaagno. [[t660]]] Ma iibinno xogtaada. Waxaan ku tiirsannahay tiro yar oo bixiyeyaasha adeegga lagu kalsoon yahay kuwaas oo naga caawiya socodsiinta website-ka, iimaylka, foomamka, codsiyada tabaruca, deeqaha iyo maabyada. Bixiye kastaa wuxuu helaa kaliya macluumaadka looga baahan yahay adeegaas, mid walbana wuxuu leeyahay ogeysiis gaar ah oo u gaar ah."
+    },
+    {
+      "key": "t660",
+      "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
+      "text": "Ma iibino xogtaada. Waxaan ku tiirsannahay tiro yar oo bixiyeyaasha adeegga lagu kalsoon yahay kuwaas oo naga caawiya socodsiinta website-ka, iimaylka, foomamka, codsiyada tabaruca, deeqaha iyo maabyada. Bixiye kastaa wuxuu helaa kaliya macluumaadka looga baahan yahay adeegaas, mid walbana wuxuu leeyahay ogeysiis gaar ah oo u gaar ah."
+    },
+    {
+      "key": "t661",
+      "source": "Translation.",
+      "text": "Turjumaada. [[t662]]] Haddii aad turjunto boggan, qoraalka bogga shaashadda waxa si ammaan ah loogu diri karaa adeegga tarjumaada si nooca la turjumay dib loogu soo celiyo. Turjumaada waa ikhtiyaari, fariimaha qaabka xidhiidhka ah kuma turjuman sifadan, qoraalka la turjumayna waxa laga yaabaa in lagu kaydiyo biraawsarkaaga si uu dhakhso ugu shubo marka xigta."
+    },
+    {
+      "key": "t662",
+      "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
+      "text": "Haddii aad turjunto boggan, qoraalka bogga shaashadda waxaa si ammaan ah loogu diri karaa adeegga tarjumaada si nooca la turjumay dib loogu soo celiyo. Turjumaada waa ikhtiyaari, fariimaha qaabka xidhiidhka ah kuma turjuman sifadan, qoraalka la turjumayna waxa laga yaabaa in lagu kaydiyo biraawsarkaaga si uu dhakhso ugu shubo marka xigta."
+    },
+    {
+      "key": "t663",
+      "source": "How long we keep it.",
+      "text": "Ilaa intee ayaan haysanaa. [[t664]]] Waxaan haynaa faahfaahinta weydiinta iyo taageerada-codsiga kaliya ilaa iyo inta loo baahan yahay si looga jawaabo, bixinta taageerada, buuxinta waajibaadka ilaalinta, iyo u hoggaansanaanta sharciga ama waajibaadka xisaabinta. Deeqaha iyo diiwaanada iskaa wax u qabso waxaa loo hayaa iyadoo loo eegayo bixiyaha ku haboon iyo shuruudaha haynta sharciga ah."
+    },
+    {
+      "key": "t664",
+      "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
+      "text": "Waxaan haynaa faahfaahinta weydiinta iyo taageerada-codsiga kaliya ilaa iyo inta loo baahan yahay si looga jawaabo, bixinta taageero, buuxinta waajibaadka ilaalinta, iyo u hoggaansanaanta sharciga ama waajibaadka xisaabaadka. Deeqaha iyo diiwaanada iskaa wax u qabso waxaa loo hayaa iyadoo loo eegayo bixiyaha ku haboon iyo shuruudaha haynta sharciga ah."
+    },
+    {
+      "key": "t665",
+      "source": "Your rights.",
+      "text": "Xuquuqdaada"
+    },
+    {
+      "key": "t666",
+      "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
+      "text": "Hoosta UK GDPR waxaad waydiisan kartaa inaad gasho, saxdo, tirtirto ama xaddido xogtaada, diido habaynta, codsato qaadista, ama kala noqoshada ogolaanshaha wakhti kasta. iimaylka"
+    },
+    {
+      "key": "t667",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t668",
+      "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
+      "text": "ama noogu soo qor 26 Avenue Road, London SE25 4DX. Haddii aadan ku faraxsanayn jawaabtayada waxaad u dacwoon kartaa ICO ee ico.org.uk. [[t669]]] Dib-u-eegistii u dambaysay: 29 Maajo 2026"
+    },
+    {
+      "key": "t669",
+      "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
+      "text": "Dib-u-eegistii u dambaysay: 29ka Meey 2026"
+    },
+    {
+      "key": "t670",
+      "source": "Safeguarding",
+      "text": "Ilaalinta"
+    },
+    {
+      "key": "t671",
+      "source": "Our commitment.",
+      "text": "Ballanqaadkeenna. [[t672]]] Badbaadada iyo wanaagga carruurta, dhalinyarada iyo dadka waaweyn ee khatarta ku jira ee aanu la shaqayno ayaa ugu horreeya. Dhaqankeennu waa mid laga warhelay dhaawacyada oo uu la socdo heerarka anshaxa BACP. [[t673]]] Qarsoodi iyo xadkeeda. [[t674]]] Waxa aad wadaagto waxaa lagu hayaa kalsooni adag. Waxa ka reeban waa xaalad ilaalineed - halkaas oo ay jirto khatar ah in waxyeelo halis ah loo geysto adiga ama qof kale, ama meesha aan ku leenahay waajibaad sharci ah oo aan ku dhaqaaqno. Meel kasta oo ay ammaan tahay in sidaas la sameeyo, waxaan marka hore kaala hadli doonnaa tan."
+    },
+    {
+      "key": "t672",
+      "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
+      "text": "Badbaadada iyo ladnaanta carruurta, dhalinyarada iyo dadka waaweyn ee khatarta ku jira ee aanu la shaqayno ayaa ugu horreeya. Dhaqankeennu waa mid laga warhelay dhaawacyada oo uu la socdo heerarka anshaxa ee BACP."
+    },
+    {
+      "key": "t673",
+      "source": "Confidentiality and its limits.",
+      "text": "Qarsoodi iyo xadkeeda."
+    },
+    {
+      "key": "t674",
+      "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
+      "text": "Waxa aad wadaagto waxaa lagu hayaa kalsooni adag. Waxa ka reeban waa xaalad ilaalineed - halkaas oo ay jirto khatar ah in waxyeelo halis ah loo geysto adiga ama qof kale, ama meesha aan ku leenahay waajibaad sharci ah oo aan ku dhaqaaqno. Meel kasta oo ay ammaan tahay in sidaas la sameeyo, waxaan marka hore kaala hadli doonnaa tan."
+    },
+    {
+      "key": "t675",
+      "source": "Raising a concern.",
+      "text": "Kor u qaadida walaac."
+    },
+    {
+      "key": "t676",
+      "source": "If you're worried about someone's safety, contact us at",
+      "text": "Haddii aad ka welwelsan tahay badbaadada qof, nagala soo xidhiidh"
+    },
+    {
+      "key": "t677",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t678",
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "ama +44 (0)7305 882959. Haddii qof uu ku jiro khatar degdeg ah, had iyo jeer wac 999. Waxa kale oo aad kala xidhiidhi kartaa NSPCC 0808 800 5000, ama kooxda ilaalinta dawladda hoose."
+    },
+    {
+      "key": "t679",
+      "source": "Our people.",
+      "text": "Dadkeena. [[t680]]] Shaqaalaha iyo mutadawiciinta si badbaado leh ayaa loo shaqaaleysiiyay waxayna helaan hubinta DBS halka ay ku habboon tahay doorkooda. [[t681]]] Ilaalinta hogaanka. [[t682]]] Linda Yeboah, Agaasimaha & Sarkaalka Ilaalinta. iimaylka"
+    },
+    {
+      "key": "t680",
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "Shaqaalaha iyo mutadawiciinta si badbaado leh ayaa loo shaqaaleysiiyay waxayna helaan hubinta DBS halka ay ku habboon tahay doorkooda."
+    },
+    {
+      "key": "t681",
+      "source": "Safeguarding lead.",
+      "text": "Ilaalinta hogaanka."
+    },
+    {
+      "key": "t682",
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, Agaasimaha & Sarkaalka Ilaalinta. iimaylka"
+    },
+    {
+      "key": "t683",
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatingcounsellinglinda@gmail.com"
+    },
+    {
+      "key": "t684",
+      "source": "or",
+      "text": "ama"
+    },
+    {
+      "key": "t685",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t686",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": "Haddii qof uu ku jiro khatar degdeg ah, wac 999."
+    },
+    {
+      "key": "t687",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Dib-u-eegistii u dambaysay: 29 Maajo 2026. Soo koobitaankan waa in laga hubiyaa siyaasadda ilaalinta buuxda ee Floating Counselling Community ka hor intaan la daabicin."
+    },
+    {
+      "key": "t688",
+      "source": "Cookies & storage",
+      "text": "Kukiyada & kaydinta"
+    },
+    {
+      "key": "t689",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "Waxaan ku haynaa kuukiiska ugu yaraan mana isticmaalno xayaysiisyada ama raadinta goobta. Mareegtu waxay ku kaydisaa dhowr shay oo yaryar browser kaaga:"
+    },
+    {
+      "key": "t690",
+      "source": "Cookie consent",
+      "text": "Oggolaanshaha kukiyada [[t691]]] - way xasuusataa inaad aragtay ogeysiiskan, markaa ma tusinno booqasho kasta."
+    },
+    {
+      "key": "t691",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "- Xusuusnow inaad aragtay ogeysiiskan, si aanaan u tusin booqasho kasta."
+    },
+    {
+      "key": "t692",
+      "source": "Translation cache",
+      "text": "Kaydka tarjumaada [[t693]]] - Haddii aad turjunto bogga, qoraalka la turjumay waxa lagu kaydiyaa gudaha si uu isla markiiba u soo shubo marka xigta. [[t694]]] Khariidadda Google-ku-xidhan ayaa laga yaabaa inay dejiso cookies-ka Google-ka marka ay soo shubato. Waxaad nadiifin kartaa dhammaan kuwa kore wakhti kasta adiga oo nadiifinaya xogta goobta biraawsarkaaga. [[t695]]] La-talinta, bulshada & naxariista, u adeegaya Croydon, Redbridge, Newham, Durham iyo Southwark ilaa 2015."
+    },
+    {
+      "key": "t693",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "- Haddii aad turjunto bogga, qoraalka la turjumay waxa lagu kaydiyaa gudaha si uu isla markaaba u shubo marka xigta."
+    },
+    {
+      "key": "t694",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "Khariidadda Google-ku-xidhan ayaa laga yaabaa inay dejiso cookies-ka Google-ka marka ay soo shubato. Waxaad nadiifin kartaa dhammaan kuwa kore wakhti kasta adiga oo nadiifinaya xogta goobta biraawsarkaaga."
+    },
+    {
+      "key": "t695",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "La-talinta, bulshada & naxariista, u adeegaya Croydon, Redbridge, Newham, Durham iyo Southwark ilaa 2015."
+    },
+    {
+      "key": "t696",
+      "source": "Get in touch",
+      "text": "la xidhiidh"
+    },
+    {
+      "key": "t697",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t698",
+      "source": "WhatsApp · +44 (0)7305 882959",
+      "text": "WhatsApp · +44 (0)7305 882959"
+    },
+    {
+      "key": "t699",
+      "source": "Croydon Hub · Ashburton Park Cafe Hall",
+      "text": "Croydon Hub · Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t700",
+      "source": "See all project locations",
+      "text": "Eeg dhammaan goobaha mashruuca"
+    },
+    {
+      "key": "t701",
+      "source": "Fundraiser",
+      "text": "Lacag ururin"
+    },
+    {
+      "key": "t702",
+      "source": "Volunteer",
+      "text": "Tabaruc"
+    },
+    {
+      "key": "t703",
+      "source": "Croydon office",
+      "text": "Xafiiska Croydon [[t704]]] Xafiiska Redbridge"
+    },
+    {
+      "key": "t704",
+      "source": "Redbridge office",
+      "text": "Xafiiska Redbridge"
+    },
+    {
+      "key": "t705",
+      "source": "Durham hub",
+      "text": "Durham xuddunta"
+    },
+    {
+      "key": "t706",
+      "source": "Southwark hub",
+      "text": "Southwark xuddunta [[t707]]] Floating Counselling™ · BACP-ku xidhan · Shirkadda lam 11334515 · Iskaashiga Bulshada"
+    },
+    {
+      "key": "t707",
+      "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
+      "text": "La-talin sabbayn™ · BACP-ku xidhan · Shirkadda lam. 11334515 · Iskaashiga Bulshada"
+    },
+    {
+      "key": "t708",
+      "source": "Privacy",
+      "text": "Qarsoodi [[t709]]] Ilaalinta"
+    },
+    {
+      "key": "t709",
+      "source": "Safeguarding",
+      "text": "Ilaalinta"
+    },
+    {
+      "key": "t710",
+      "source": "Fundraiser",
+      "text": "Lacag ururin"
+    },
+    {
+      "key": "t711",
+      "source": "Donate",
+      "text": "Deeq"
+    },
+    {
+      "key": "t712",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t713",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t714",
+      "source": "Choose a quick route",
+      "text": "Dooro waddo degdeg ah"
+    },
+    {
+      "key": "t715",
+      "source": "If you are not sure which service fits, choose the closest option and we will route you.",
+      "text": "Haddii aadan hubin adeegga ku habboon, dooro ikhtiyaarka ugu dhow oo waanu ku mari doonnaa. [[t716]]] Weydiinta la-talinta [[t717]]] Taageerada waalidnimada [[t718]]] Cunto ama xarun bulsho [[t719]]] Dugsiga fasaxa"
+    },
+    {
+      "key": "t716",
+      "source": "Counselling enquiry",
+      "text": "Weydiinta la-talinta"
+    },
+    {
+      "key": "t717",
+      "source": "Parenting support",
+      "text": "Taageerada waalidnimada"
+    },
+    {
+      "key": "t718",
+      "source": "Food or community hub",
+      "text": "Cunto ama xarun bulsho"
+    },
+    {
+      "key": "t719",
+      "source": "Holiday school",
+      "text": "Dugsiga fasaxa"
+    },
+    {
+      "key": "t720",
+      "source": "Fundraiser",
+      "text": "Lacag ururin [[t721]]] Tabaruc ama lammaane"
+    },
+    {
+      "key": "t721",
+      "source": "Volunteer or partner",
+      "text": "Iskaa wax u qabso ama lammaane"
+    },
+    {
+      "key": "t722",
+      "source": "WhatsApp Floating",
+      "text": "WhatsApp Sabayn [[t723]]] Waxaan isticmaalnaa tiro yar oo cookies ah si aan uga dhigno goobtan inay shaqeyso iyo si aan u fahanno sida loo isticmaalo."
+    },
+    {
+      "key": "t723",
+      "source": "We use a small number of cookies to make this site work and to understand how it's used.",
+      "text": "Waxaan isticmaalnaa tiro yar oo cookies ah si aan uga dhigno goobtan inay shaqeyso iyo si aan u fahanno sida loo isticmaalo."
+    },
+    {
+      "key": "t724",
+      "source": "More info",
+      "text": "Macluumaad dheeraad ah"
+    },
+    {
+      "key": "t725",
+      "source": "Decline",
+      "text": "diiday"
+    },
+    {
+      "key": "t726",
+      "source": "Accept",
+      "text": "Aqbal [[a727]]] Hoose [[a728]]] Floating Counselling - Guriga [[a729]]] Floating Counselling [[a730]]] Beddel navigation [[a731]]] Wadahadalka talo bixinta ee Floating Counselling [[a732]]] U rog si aad saameyn ugu yeelatid [[a733]]] Saamaynteena [[a734]]] Celestina Oniye-Thomas ka Floating Counselling"
+    },
+    {
+      "key": "a727",
+      "source": "Primary",
+      "text": "Asal ahaan"
+    },
+    {
+      "key": "a728",
+      "source": "Floating Counselling — Home",
+      "text": "La-talinta Sabaynta - Guriga"
+    },
+    {
+      "key": "a729",
+      "source": "Floating Counselling",
+      "text": "La-talin sabeynaya"
+    },
+    {
+      "key": "a730",
+      "source": "Toggle navigation",
+      "text": "Beddel hagaha"
+    },
+    {
+      "key": "a731",
+      "source": "Counselling conversation at Floating Counselling",
+      "text": "Wadahadalka la-talinta ee La-talinta Sabaynta"
+    },
+    {
+      "key": "a732",
+      "source": "Scroll to impact",
+      "text": "U dhaadhac saamaynta"
+    },
+    {
+      "key": "a733",
+      "source": "Our impact",
+      "text": "Saamaynteena"
+    },
+    {
+      "key": "a734",
+      "source": "Celestina Oniye-Thomas from Floating Counselling",
+      "text": "Celestina Oniye-Thomas oo ka socota La-talinta Sabaynta"
+    },
+    {
+      "key": "a735",
+      "source": "Impact Parenting support artwork from Floating Counselling",
+      "text": "Farshaxanka taageerada waalidnimada ee saamaynta leh ee ka yimid La-talinta Sabaynta"
+    },
+    {
+      "key": "a736",
+      "source": "Floating Counselling community organisation impact infographic",
+      "text": "Ururka bulshada ee la-talinta sabeynaya waxay saameeyaan macluumaadka"
+    },
+    {
+      "key": "a737",
+      "source": "Holiday school values",
+      "text": "Qiimaha dugsiga fasaxa"
+    },
+    {
+      "key": "a738",
+      "source": "Holiday school week 1 newsletter",
+      "text": "Toddobaadka fasaxa dugsiga 1 warside"
+    },
+    {
+      "key": "a739",
+      "source": "Floating Community Hub community gathering",
+      "text": "Isu imaatinka bulshada ee Hub Community Sabbayn"
+    },
+    {
+      "key": "a740",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "a741",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela"
+    },
+    {
+      "key": "a742",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode"
+    },
+    {
+      "key": "a743",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah [[a744]]] Waaxda Waxbarashada [[a745]]] Golaha Croydon [[a746]]] Koonfur Galbeed London CCGs [[a747]]] Sanduuqa Bulshada Bakhtiyaa-nasiibka Qaranka [[a748]]] Golaha BME"
+    },
+    {
+      "key": "a744",
+      "source": "Department for Education",
+      "text": "Waaxda Waxbarashada"
+    },
+    {
+      "key": "a745",
+      "source": "Croydon Council",
+      "text": "Golaha Croydon"
+    },
+    {
+      "key": "a746",
+      "source": "South West London CCGs",
+      "text": "Koonfur-galbeed ee London CCGs"
+    },
+    {
+      "key": "a747",
+      "source": "The National Lottery Community Fund",
+      "text": "Sanduuqa Bulshada Bakhtiyaa-nasiibka Qaranka"
+    },
+    {
+      "key": "a748",
+      "source": "BME Forum",
+      "text": "Madasha BME"
+    },
+    {
+      "key": "a749",
+      "source": "Croydon Voluntary Action",
+      "text": "Croydon Ficil Iskaa Wax u qabso ah [[a750]]] Foomka codsiga tabaruca [[a751]]] Goobaha mashruuca [[a752]]] Xiriirinta bulshada [[a753]]] Facebook"
+    },
+    {
+      "key": "a750",
+      "source": "Volunteer application form",
+      "text": "Foomka codsiga tabaruca"
+    },
+    {
+      "key": "a751",
+      "source": "Project locations",
+      "text": "Goobaha mashruuca"
+    },
+    {
+      "key": "a752",
+      "source": "Social links",
+      "text": "Xiriirinta bulshada"
+    },
+    {
+      "key": "a753",
+      "source": "Facebook",
+      "text": "Facebook-ga"
+    },
+    {
+      "key": "a754",
+      "source": "Instagram",
+      "text": "Instagram [[a755]]] Twitter / X [[a756]]] YouTube [[a757]]] Floating Counselling - Guriga"
+    },
+    {
+      "key": "a755",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a756",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a757",
+      "source": "Floating Counselling — Home",
+      "text": "La-talinta Sabaynta - Guriga"
+    },
+    {
+      "key": "a758",
+      "source": "Floating Counselling",
+      "text": "Floating Counselling [[a759]]] Xiriirinta bulshada [[a760]]] Facebook"
+    },
+    {
+      "key": "a759",
+      "source": "Social links",
+      "text": "Xiriirinta bulshada"
+    },
+    {
+      "key": "a760",
+      "source": "Facebook",
+      "text": "Facebook-ga"
+    },
+    {
+      "key": "a761",
+      "source": "Instagram",
+      "text": "Instagram [[a762]]] Twitter / X [[a763]]] YouTube [[a764]]] Goobaha mashruuca [[a765]]] Lacag u ururinta Floating Counselling [[a766]]] Ku deeq Floating Counselling [[a767]]] Ku laabo xagga sare"
+    },
+    {
+      "key": "a762",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a763",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a764",
+      "source": "Project locations",
+      "text": "Goobaha mashruuca"
+    },
+    {
+      "key": "a765",
+      "source": "Fundraise for Floating Counselling",
+      "text": "Lacag Ururinta La-talinta Sabaynta"
+    },
+    {
+      "key": "a766",
+      "source": "Donate to Floating Counselling",
+      "text": "Ku deeq La-talinta Sabaynta"
+    },
+    {
+      "key": "a767",
+      "source": "Back to top",
+      "text": "Ku laabo xagga sare"
+    },
+    {
+      "key": "a768",
+      "source": "Ask Floating",
+      "text": "Ask Floating [[a769]]] Kaaliyaha dhow"
+    },
+    {
+      "key": "a769",
+      "source": "Close assistant",
+      "text": "Kaaliyaha dhaw"
+    },
+    {
+      "key": "a770",
+      "source": "Cookie notice",
+      "text": "Ogeysiiska kukiga"
+    }
+  ]
+}

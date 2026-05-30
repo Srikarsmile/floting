@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260529-07');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260530-01');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -1314,6 +1314,17 @@ class FloatingHome extends HTMLElement {
     return String(this.getAttribute('data-translation-endpoint') || '').trim();
   }
 
+  translationStaticBase() {
+    const configured = String(this.getAttribute('data-translation-static-base') || '').trim();
+    if (configured) return configured;
+
+    try {
+      return new URL('translations/', this.assetBase).toString();
+    } catch (error) {
+      return 'https://floting.vercel.app/translations/';
+    }
+  }
+
   loadTranslationClient() {
     if (window.FloatingPageTranslator) {
       return Promise.resolve(window.FloatingPageTranslator);
@@ -1373,6 +1384,7 @@ class FloatingHome extends HTMLElement {
           root,
           select: languageSelect,
           endpoint: () => this.translationEndpoint(),
+          staticBase: () => this.translationStaticBase(),
           pageUrl: () => this.translatePageUrl(),
           onAfterChange: closeNav,
         });

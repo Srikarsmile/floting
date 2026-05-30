@@ -1,0 +1,3865 @@
+{
+  "language": "ro",
+  "languageName": "Romanian",
+  "sourceLanguage": "en",
+  "sourceHash": "oouxuf",
+  "sourceUrl": "http://127.0.0.1:63690/",
+  "generatedAt": "2026-05-30T10:22:41.151Z",
+  "translations": [
+    {
+      "key": "t0",
+      "source": "Floating Counselling — Counselling, Community & Compassion · Croydon & London",
+      "text": "Floating Counselling — Consiliere, comunitate și compasiune · Croydon și London [[t1]]] Treci la conținut [[t2]]] Servicii [[t3]]] Găsiți ajutor [[t4]]] Parenting [[t5]]] Școală de vacanță [[t6]]] Hub [[t7]]] Strângere de fonduri [[t8]]] Voluntar [[t9]]] Traduceți site-ul web [[t10]]] Rezervați o sesiune"
+    },
+    {
+      "key": "t1",
+      "source": "Skip to content",
+      "text": "Treci la conținut"
+    },
+    {
+      "key": "t2",
+      "source": "Services",
+      "text": "Servicii"
+    },
+    {
+      "key": "t3",
+      "source": "Find help",
+      "text": "Găsiți ajutor"
+    },
+    {
+      "key": "t4",
+      "source": "Parenting",
+      "text": "Părinte"
+    },
+    {
+      "key": "t5",
+      "source": "Holiday School",
+      "text": "Scoala de vacanta"
+    },
+    {
+      "key": "t6",
+      "source": "Hub",
+      "text": "Hub"
+    },
+    {
+      "key": "t7",
+      "source": "Fundraiser",
+      "text": "Strângere de fonduri"
+    },
+    {
+      "key": "t8",
+      "source": "Volunteer",
+      "text": "Voluntar"
+    },
+    {
+      "key": "t9",
+      "source": "Translate website",
+      "text": "Traduceți site-ul web"
+    },
+    {
+      "key": "t10",
+      "source": "Book a Session",
+      "text": "Rezervați o sesiune"
+    },
+    {
+      "key": "t11",
+      "source": "Croydon · Redbridge · Newham · Durham · Southwark",
+      "text": "Croydon · Redbridge · Newham · Durham · Southwark"
+    },
+    {
+      "key": "t12",
+      "source": "Counselling,",
+      "text": "Consiliere, [[t13]]] Comunitate [[t14]]] Compasiune. [[t15]]] A [[t16]]] bazat pe UK [[t17]]] de bază [[t18]]] caritate [[t19]]] împuternicire [[t20]]] persoane fizice, [[t21]]] familii [[t22]]] și [[t23]]] marginalizat [[t24]]] grupuri [[t25]]] prin [[t26]]] holistică [[t27]]] suport, [[t28]]] terapeutic [[t29]]] grijă, [[t30]]] practic [[t31]]] ajutor [[t32]]] și [[t33]]] condus de comunitate [[t34]]] programe"
+    },
+    {
+      "key": "t13",
+      "source": "Community",
+      "text": "Comunitate"
+    },
+    {
+      "key": "t14",
+      "source": "Compassion.",
+      "text": "Compasiune."
+    },
+    {
+      "key": "t15",
+      "source": "A",
+      "text": "O"
+    },
+    {
+      "key": "t16",
+      "source": "UK-based",
+      "text": "cu sediul în Marea Britanie"
+    },
+    {
+      "key": "t17",
+      "source": "grassroots",
+      "text": "de bază"
+    },
+    {
+      "key": "t18",
+      "source": "charity",
+      "text": "caritate"
+    },
+    {
+      "key": "t19",
+      "source": "empowering",
+      "text": "împuternicire"
+    },
+    {
+      "key": "t20",
+      "source": "individuals,",
+      "text": "indivizi,"
+    },
+    {
+      "key": "t21",
+      "source": "families",
+      "text": "familiile"
+    },
+    {
+      "key": "t22",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t23",
+      "source": "marginalised",
+      "text": "marginalizat"
+    },
+    {
+      "key": "t24",
+      "source": "groups",
+      "text": "grupuri"
+    },
+    {
+      "key": "t25",
+      "source": "through",
+      "text": "prin"
+    },
+    {
+      "key": "t26",
+      "source": "holistic",
+      "text": "holistică"
+    },
+    {
+      "key": "t27",
+      "source": "support,",
+      "text": "sprijin,"
+    },
+    {
+      "key": "t28",
+      "source": "therapeutic",
+      "text": "terapeutic"
+    },
+    {
+      "key": "t29",
+      "source": "care,",
+      "text": "îngrijire,"
+    },
+    {
+      "key": "t30",
+      "source": "practical",
+      "text": "practic"
+    },
+    {
+      "key": "t31",
+      "source": "help",
+      "text": "Ajutor"
+    },
+    {
+      "key": "t32",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t33",
+      "source": "community-driven",
+      "text": "condus de comunitate"
+    },
+    {
+      "key": "t34",
+      "source": "programmes",
+      "text": "programe"
+    },
+    {
+      "key": "t35",
+      "source": "designed",
+      "text": "proiectat"
+    },
+    {
+      "key": "t36",
+      "source": "as",
+      "text": "ca"
+    },
+    {
+      "key": "t37",
+      "source": "wraparound",
+      "text": "învăluitor"
+    },
+    {
+      "key": "t38",
+      "source": "care.",
+      "text": "îngrijire."
+    },
+    {
+      "key": "t39",
+      "source": "Book a Session",
+      "text": "Rezervați o sesiune"
+    },
+    {
+      "key": "t40",
+      "source": "Find the right support",
+      "text": "Găsiți suportul potrivit [[t41]]] CO [[t42]]] OO [[t43]]] EO [[t44]]] LY"
+    },
+    {
+      "key": "t41",
+      "source": "CO",
+      "text": "CO"
+    },
+    {
+      "key": "t42",
+      "source": "OO",
+      "text": "OO"
+    },
+    {
+      "key": "t43",
+      "source": "EO",
+      "text": "EO"
+    },
+    {
+      "key": "t44",
+      "source": "LY",
+      "text": "LY"
+    },
+    {
+      "key": "t45",
+      "source": "Led by four women directors with clinical training, lived experience and deep community roots.",
+      "text": "Condusă de patru femei directore cu pregătire clinică, experiență trăită și rădăcini profunde în comunitate. [[t46]]] Informat de traumă"
+    },
+    {
+      "key": "t46",
+      "source": "Trauma-informed",
+      "text": "Informat de traumă"
+    },
+    {
+      "key": "t47",
+      "source": "Care that meets you where you are",
+      "text": "Grija care te întâlnește acolo unde ești [[t48]]] 5 zone de proiect"
+    },
+    {
+      "key": "t48",
+      "source": "5 project areas",
+      "text": "5 zone de proiect"
+    },
+    {
+      "key": "t49",
+      "source": "Croydon · Redbridge · Newham · Durham · Southwark",
+      "text": "Croydon · Redbridge · Newham · Durham · Southwark [[t50]]] Derulați"
+    },
+    {
+      "key": "t50",
+      "source": "Scroll",
+      "text": "Derulați"
+    },
+    {
+      "key": "t51",
+      "source": "Find the right support",
+      "text": "Găsiți asistența potrivită [[t52]]] Alegeți [[t53]]] the [[t54]]] ajutor [[t55]]] tu [[t56]]] nevoie [[t57]]] astăzi. [[t58]]] Spune [[t59]]] noi [[t60]]] ce [[t61]]] simte [[t62]]] cele mai multe [[t63]]] urgent [[t64]]] și [[t65]]] noi [[t66]]] va [[t67]]] punct [[t68]]] tu [[t69]]] spre"
+    },
+    {
+      "key": "t52",
+      "source": "Choose",
+      "text": "Alege"
+    },
+    {
+      "key": "t53",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t54",
+      "source": "help",
+      "text": "Ajutor"
+    },
+    {
+      "key": "t55",
+      "source": "you",
+      "text": "tu"
+    },
+    {
+      "key": "t56",
+      "source": "need",
+      "text": "nevoie"
+    },
+    {
+      "key": "t57",
+      "source": "today.",
+      "text": "astăzi."
+    },
+    {
+      "key": "t58",
+      "source": "Tell",
+      "text": "Spune"
+    },
+    {
+      "key": "t59",
+      "source": "us",
+      "text": "S.U.A"
+    },
+    {
+      "key": "t60",
+      "source": "what",
+      "text": "ce"
+    },
+    {
+      "key": "t61",
+      "source": "feels",
+      "text": "simte"
+    },
+    {
+      "key": "t62",
+      "source": "most",
+      "text": "cele mai multe"
+    },
+    {
+      "key": "t63",
+      "source": "urgent",
+      "text": "urgent"
+    },
+    {
+      "key": "t64",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t65",
+      "source": "we",
+      "text": "noi"
+    },
+    {
+      "key": "t66",
+      "source": "will",
+      "text": "voinţă"
+    },
+    {
+      "key": "t67",
+      "source": "point",
+      "text": "punct"
+    },
+    {
+      "key": "t68",
+      "source": "you",
+      "text": "tu"
+    },
+    {
+      "key": "t69",
+      "source": "towards",
+      "text": "către"
+    },
+    {
+      "key": "t70",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t71",
+      "source": "right",
+      "text": "corect"
+    },
+    {
+      "key": "t72",
+      "source": "support,",
+      "text": "suport, [[t73]]] dacă [[t74]]] că [[t75]]] începe [[t76]]] cu [[t77]]] terapie, [[t78]]] practic"
+    },
+    {
+      "key": "t73",
+      "source": "whether",
+      "text": "dacă"
+    },
+    {
+      "key": "t74",
+      "source": "that",
+      "text": "că"
+    },
+    {
+      "key": "t75",
+      "source": "starts",
+      "text": "începe"
+    },
+    {
+      "key": "t76",
+      "source": "with",
+      "text": "cu"
+    },
+    {
+      "key": "t77",
+      "source": "therapy,",
+      "text": "terapie,"
+    },
+    {
+      "key": "t78",
+      "source": "practical",
+      "text": "practic"
+    },
+    {
+      "key": "t79",
+      "source": "help,",
+      "text": "ajutor, [[t80]]] familie [[t81]]] funcționează [[t82]]] sau [[t83]]] a [[t84]]] parteneriat [[t85]]] conversație. [[t86]]] Terapie [[t87]]] Am nevoie de consiliere"
+    },
+    {
+      "key": "t80",
+      "source": "family",
+      "text": "familial"
+    },
+    {
+      "key": "t81",
+      "source": "work",
+      "text": "lucru"
+    },
+    {
+      "key": "t82",
+      "source": "or",
+      "text": "sau"
+    },
+    {
+      "key": "t83",
+      "source": "a",
+      "text": "o"
+    },
+    {
+      "key": "t84",
+      "source": "partnership",
+      "text": "parteneriat"
+    },
+    {
+      "key": "t85",
+      "source": "conversation.",
+      "text": "conversaţie."
+    },
+    {
+      "key": "t86",
+      "source": "Therapy",
+      "text": "Terapie"
+    },
+    {
+      "key": "t87",
+      "source": "I need counselling",
+      "text": "Am nevoie de consiliere"
+    },
+    {
+      "key": "t88",
+      "source": "Start with one-to-one, family, couple, group, online or in-person therapeutic support.",
+      "text": "Începeți cu asistență terapeutică individuală, de familie, de cuplu, de grup, online sau în persoană."
+    },
+    {
+      "key": "t89",
+      "source": "Book a session",
+      "text": "Rezervați o sesiune [[t90]]] Familie"
+    },
+    {
+      "key": "t90",
+      "source": "Family",
+      "text": "Familial"
+    },
+    {
+      "key": "t91",
+      "source": "I need parenting support",
+      "text": "Am nevoie de sprijin pentru părinți"
+    },
+    {
+      "key": "t92",
+      "source": "Get practical tools for behaviour, attachment, trauma recovery and family confidence.",
+      "text": "Obțineți instrumente practice pentru comportament, atașament, recuperarea traumei și încrederea familiei."
+    },
+    {
+      "key": "t93",
+      "source": "View parenting help",
+      "text": "Vizualizați ajutorul pentru părinți [[t94]]] Comunitate [[t95]]] Am nevoie de ajutor practic"
+    },
+    {
+      "key": "t94",
+      "source": "Community",
+      "text": "Comunitate"
+    },
+    {
+      "key": "t95",
+      "source": "I need practical help",
+      "text": "Am nevoie de ajutor practic"
+    },
+    {
+      "key": "t96",
+      "source": "Use the hub for food, clothing, forms, housing questions, bills help, digital inclusion and wellbeing support.",
+      "text": "Folosiți hub-ul pentru alimente, îmbrăcăminte, formulare, întrebări privind locuința, ajutor pentru facturi, incluziune digitală și sprijin pentru bunăstare."
+    },
+    {
+      "key": "t97",
+      "source": "Visit the hub",
+      "text": "Vizitați hub-ul [[t98]]] Parteneri"
+    },
+    {
+      "key": "t98",
+      "source": "Partners",
+      "text": "Parteneri"
+    },
+    {
+      "key": "t99",
+      "source": "I want to volunteer or partner",
+      "text": "Vreau să mă fac voluntar sau să fac partener"
+    },
+    {
+      "key": "t100",
+      "source": "Support local residents through food donations, funding, fundraising, skills, events or professional help.",
+      "text": "Sprijiniți rezidenții locali prin donații de alimente, finanțare, strângere de fonduri, abilități, evenimente sau ajutor profesional. [[t101]]] Faceți-vă voluntar cu noi"
+    },
+    {
+      "key": "t101",
+      "source": "Volunteer with us",
+      "text": "Faceți-vă voluntar cu noi"
+    },
+    {
+      "key": "t102",
+      "source": "Not sure where to start?",
+      "text": "Nu sunteți sigur de unde să începeți?"
+    },
+    {
+      "key": "t103",
+      "source": "Tap Ask Floating to find the right service, or send one WhatsApp message and we will route you.",
+      "text": "Atingeți Ask Floating pentru a găsi serviciul potrivit sau trimiteți un mesaj WhatsApp și vă vom direcționa. [[t104]]] Ask Floating"
+    },
+    {
+      "key": "t104",
+      "source": "Ask Floating",
+      "text": "Întreabă Floating"
+    },
+    {
+      "key": "t105",
+      "source": "A",
+      "text": "O"
+    },
+    {
+      "key": "t106",
+      "source": "decade",
+      "text": "deceniu"
+    },
+    {
+      "key": "t107",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t108",
+      "source": "grassroots",
+      "text": "de bază"
+    },
+    {
+      "key": "t109",
+      "source": "care,",
+      "text": "îngrijire,"
+    },
+    {
+      "key": "t110",
+      "source": "by",
+      "text": "de"
+    },
+    {
+      "key": "t111",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t112",
+      "source": "numbers.",
+      "text": "numere."
+    },
+    {
+      "key": "t113",
+      "source": "Counselling sessions delivered",
+      "text": "Sesiuni de consiliere oferite [[t114]]] Orele clinice de îngrijire [[t115]]] Experiență clinică combinată [[t116]]] Copii sprijiniți prin școala de vacanță [[t117]]] Serviciu continuu pentru comunitate"
+    },
+    {
+      "key": "t114",
+      "source": "Clinical hours of care",
+      "text": "Orele clinice de îngrijire"
+    },
+    {
+      "key": "t115",
+      "source": "Combined clinical experience",
+      "text": "Experiență clinică combinată"
+    },
+    {
+      "key": "t116",
+      "source": "Children supported through holiday school",
+      "text": "Copii sprijiniți prin școala de vacanță"
+    },
+    {
+      "key": "t117",
+      "source": "Continuous service to community",
+      "text": "Serviciu continuu pentru comunitate"
+    },
+    {
+      "key": "t118",
+      "source": "Practical community support and therapeutic care sit together, so people can stabilise today and grow tomorrow.",
+      "text": "Sprijinul comunitar practic și îngrijirea terapeutică stau împreună, astfel încât oamenii să se poată stabiliza astăzi și să crească mâine. [[t119]]] Ce oferim [[t120]]] Nucleu [[t121]]] suport, [[t122]]] fără [[t123]]] the [[t124]]] labirint. [[t125]]] Începe [[t126]]] cu [[t127]]] the [[t128]]] amabil [[t129]]] din [[t130]]] ajutor [[t131]]] tu [[t132]]] nevoie [[t133]]] cele mai multe. [[t134]]] Noi [[t135]]] va [[t136]]] traseu [[t137]]] tu [[t138]]] la [[t139]]] the"
+    },
+    {
+      "key": "t119",
+      "source": "What we offer",
+      "text": "Ceea ce oferim"
+    },
+    {
+      "key": "t120",
+      "source": "Core",
+      "text": "Miez"
+    },
+    {
+      "key": "t121",
+      "source": "support,",
+      "text": "sprijin,"
+    },
+    {
+      "key": "t122",
+      "source": "without",
+      "text": "fără"
+    },
+    {
+      "key": "t123",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t124",
+      "source": "maze.",
+      "text": "labirint."
+    },
+    {
+      "key": "t125",
+      "source": "Start",
+      "text": "Început"
+    },
+    {
+      "key": "t126",
+      "source": "with",
+      "text": "cu"
+    },
+    {
+      "key": "t127",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t128",
+      "source": "kind",
+      "text": "fel"
+    },
+    {
+      "key": "t129",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t130",
+      "source": "help",
+      "text": "Ajutor"
+    },
+    {
+      "key": "t131",
+      "source": "you",
+      "text": "tu"
+    },
+    {
+      "key": "t132",
+      "source": "need",
+      "text": "nevoie"
+    },
+    {
+      "key": "t133",
+      "source": "most.",
+      "text": "cele mai multe."
+    },
+    {
+      "key": "t134",
+      "source": "We",
+      "text": "Noi"
+    },
+    {
+      "key": "t135",
+      "source": "will",
+      "text": "voinţă"
+    },
+    {
+      "key": "t136",
+      "source": "route",
+      "text": "traseu"
+    },
+    {
+      "key": "t137",
+      "source": "you",
+      "text": "tu"
+    },
+    {
+      "key": "t138",
+      "source": "to",
+      "text": "la"
+    },
+    {
+      "key": "t139",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t140",
+      "source": "right",
+      "text": "corect"
+    },
+    {
+      "key": "t141",
+      "source": "person",
+      "text": "persoană"
+    },
+    {
+      "key": "t142",
+      "source": "from",
+      "text": "din"
+    },
+    {
+      "key": "t143",
+      "source": "there.",
+      "text": "Acolo."
+    },
+    {
+      "key": "t144",
+      "source": "Counselling & Mentoring",
+      "text": "Consiliere și mentorat"
+    },
+    {
+      "key": "t145",
+      "source": "Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person across our project boroughs and online, with free and low-cost care for elderly, Universal Credit and low-income clients.",
+      "text": "Peste 15.000 de sesiuni de terapie individuală, de grup, de cuplu și de familie oferite de psihoterapeuți calificați. În persoană în cartierele noastre de proiect și online, cu îngrijire gratuită și la costuri reduse pentru bătrâni, Universal Credit și clienții cu venituri mici. [[t146]]] Începeți [[t147]]] Impact Parenting"
+    },
+    {
+      "key": "t146",
+      "source": "Get started",
+      "text": "Începeți"
+    },
+    {
+      "key": "t147",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t148",
+      "source": "Workshops, 1:1 mentoring and group programmes for parents, including therapeutic camps, the Impact Parenting Pillar training and a private support group.",
+      "text": "Ateliere, mentorat 1:1 și programe de grup pentru părinți, inclusiv tabere terapeutice, training Impact Parenting Pillar și un grup privat de sprijin. [[t149]]] Aflați mai multe [[t150]]] Hub comunitar plutitor"
+    },
+    {
+      "key": "t149",
+      "source": "Learn more",
+      "text": "Află mai multe"
+    },
+    {
+      "key": "t150",
+      "source": "Floating Community Hub",
+      "text": "Hub comunitar plutitor"
+    },
+    {
+      "key": "t151",
+      "source": "A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Newham, Durham and Southwark, offering practical support, wellbeing services and advocacy.",
+      "text": "Un hub săptămânal Croydon la Ashburton Park Cafe Hall, plus proiecte comunitare în Redbridge, Newham, Durham și Southwark, care oferă suport practic, servicii de bunăstare și advocacy. [[t152]]] Aflați mai multe [[t153]]] Școală de vacanță și tabere"
+    },
+    {
+      "key": "t152",
+      "source": "Find out more",
+      "text": "Aflați mai multe"
+    },
+    {
+      "key": "t153",
+      "source": "Holiday School & Camps",
+      "text": "Școală de vacanță și tabere"
+    },
+    {
+      "key": "t154",
+      "source": "Art therapy, music, play therapy and psychological techniques for children aged 5 to 11. Over 1,400 children registered across recent programmes.",
+      "text": "Terapie prin artă, muzică, terapie prin joc și tehnici psihologice pentru copiii cu vârste cuprinse între 5 și 11 ani. Peste 1.400 de copii s-au înscris în programele recente. [[t155]]] Înregistrează-te [[t156]]] Food Bank & Essentials"
+    },
+    {
+      "key": "t155",
+      "source": "Register",
+      "text": "Registru"
+    },
+    {
+      "key": "t156",
+      "source": "Food Bank & Essentials",
+      "text": "Banca de alimente și elemente esențiale"
+    },
+    {
+      "key": "t157",
+      "source": "Weekly donated food, clothes and practical essentials for individuals and families who need immediate support.",
+      "text": "Donați săptămânal alimente, haine și articole esențiale practice pentru persoanele și familiile care au nevoie de sprijin imediat. [[t158]]] Vizitați hub-ul"
+    },
+    {
+      "key": "t158",
+      "source": "Visit the hub",
+      "text": "Vizitați hub-ul"
+    },
+    {
+      "key": "t159",
+      "source": "Financial Literacy & Employment Support",
+      "text": "Educație financiară și sprijin pentru angajare"
+    },
+    {
+      "key": "t160",
+      "source": "Budgeting, employment confidence, skills support and enterprise guidance for people rebuilding stability.",
+      "text": "Elaborarea bugetului, încrederea în angajare, sprijinul pentru competențe și îndrumarea întreprinderilor pentru oamenii care își reconstruiesc stabilitatea. [[t161]]] Întrebați despre asistență [[t162]]] De când"
+    },
+    {
+      "key": "t161",
+      "source": "Ask about support",
+      "text": "Întrebați despre sprijin"
+    },
+    {
+      "key": "t162",
+      "source": "Since",
+      "text": "Din moment ce"
+    },
+    {
+      "key": "t163",
+      "source": "Serving Croydon, Redbridge, Newham, Durham & Southwark",
+      "text": "Deservește Croydon, Redbridge, Newham, Durham și Southwark [[t164]]] Cine suntem [[t165]]] Învăluitor [[t166]]] grijă, [[t167]]] înrădăcinată [[t168]]] în Comunitatea [[t169]]]. [[t170]]] Inspirat [[t171]]] de [[t172]]] lui Maslow [[t173]]] ierarhie [[t174]]] din"
+    },
+    {
+      "key": "t164",
+      "source": "Who we are",
+      "text": "Cine suntem"
+    },
+    {
+      "key": "t165",
+      "source": "Wraparound",
+      "text": "Învăluitor"
+    },
+    {
+      "key": "t166",
+      "source": "care,",
+      "text": "îngrijire,"
+    },
+    {
+      "key": "t167",
+      "source": "rooted",
+      "text": "înrădăcinată"
+    },
+    {
+      "key": "t168",
+      "source": "in",
+      "text": "în"
+    },
+    {
+      "key": "t169",
+      "source": "community.",
+      "text": "comunitate."
+    },
+    {
+      "key": "t170",
+      "source": "Inspired",
+      "text": "Inspirat"
+    },
+    {
+      "key": "t171",
+      "source": "by",
+      "text": "de"
+    },
+    {
+      "key": "t172",
+      "source": "Maslow's",
+      "text": "a lui Maslow"
+    },
+    {
+      "key": "t173",
+      "source": "hierarchy",
+      "text": "ierarhie"
+    },
+    {
+      "key": "t174",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t175",
+      "source": "needs,",
+      "text": "nevoi,"
+    },
+    {
+      "key": "t176",
+      "source": "we",
+      "text": "noi"
+    },
+    {
+      "key": "t177",
+      "source": "meet",
+      "text": "întâlni"
+    },
+    {
+      "key": "t178",
+      "source": "people",
+      "text": "oameni"
+    },
+    {
+      "key": "t179",
+      "source": "where",
+      "text": "unde"
+    },
+    {
+      "key": "t180",
+      "source": "they",
+      "text": "ei"
+    },
+    {
+      "key": "t181",
+      "source": "are",
+      "text": "sunt"
+    },
+    {
+      "key": "t182",
+      "source": "emotionally,",
+      "text": "emotional,"
+    },
+    {
+      "key": "t183",
+      "source": "practically",
+      "text": "practic"
+    },
+    {
+      "key": "t184",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t185",
+      "source": "socially",
+      "text": "din punct de vedere social"
+    },
+    {
+      "key": "t186",
+      "source": "to",
+      "text": "la"
+    },
+    {
+      "key": "t187",
+      "source": "create",
+      "text": "crea"
+    },
+    {
+      "key": "t188",
+      "source": "lasting",
+      "text": "durabil"
+    },
+    {
+      "key": "t189",
+      "source": "change",
+      "text": "schimba"
+    },
+    {
+      "key": "t190",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t191",
+      "source": "personal",
+      "text": "personal"
+    },
+    {
+      "key": "t192",
+      "source": "growth.",
+      "text": "creştere."
+    },
+    {
+      "key": "t193",
+      "source": "We are proudly led by a diverse team of African women, whose lived experience and professional expertise shape every part of our work.",
+      "text": "Suntem conduși cu mândrie de o echipă diversă de femei africane, a căror experiență trăită și expertiză profesională modelează fiecare parte a muncii noastre."
+    },
+    {
+      "key": "t194",
+      "source": "Our founder, Celestina Oniye-Thomas, knows this work from the inside. After surviving childhood trauma and a spinal injury at sixteen that doctors thought would stop her walking, she taught herself to walk again, retrained as an integrative psychotherapist, and built Floating so families could find the healing she had to fight for.",
+      "text": "Fondatorul nostru, Celestina Oniye-Thomas, cunoaște această lucrare din interior. După ce a supraviețuit unei traume din copilărie și unei leziuni ale coloanei vertebrale la șaisprezece ani, despre care medicii credeau că o va opri mersul, ea a învățat singură să meargă din nou, s-a recalificat ca psihoterapeut integrator și a construit Floating, astfel încât familiile să poată găsi vindecarea pentru care trebuia să lupte."
+    },
+    {
+      "key": "t195",
+      "source": "\"Resilience and self-confidence saved my life.\"",
+      "text": "„Reziliența și încrederea în sine mi-au salvat viața.” [[t196]]] Celestina Oniye-Thomas — Fondator și CEO [[t197]]] Îngrijire informată de traumă [[t198]]] Relevant cultural [[t199]]] Parteneriate locale [[t200]]] Abordare holistică [[t201]]] Gratuit și la cost redus [[t202]]] Online și în persoană [[t203]]] Prezentarea [[t204]]] Terapie [[t205]]] cu [[t206]]] realist [[t207]]] instrumente [[t208]]] și [[t209]]] strategie"
+    },
+    {
+      "key": "t196",
+      "source": "Celestina Oniye-Thomas — Founder & CEO",
+      "text": "Celestina Oniye-Thomas — Fondator și CEO"
+    },
+    {
+      "key": "t197",
+      "source": "Trauma-Informed Care",
+      "text": "Îngrijire informată de traumă"
+    },
+    {
+      "key": "t198",
+      "source": "Culturally Relevant",
+      "text": "Relevant din punct de vedere cultural"
+    },
+    {
+      "key": "t199",
+      "source": "Local Partnerships",
+      "text": "Parteneriate locale"
+    },
+    {
+      "key": "t200",
+      "source": "Holistic Approach",
+      "text": "Abordare holistică"
+    },
+    {
+      "key": "t201",
+      "source": "Free & Low Cost",
+      "text": "Gratuit și cost redus"
+    },
+    {
+      "key": "t202",
+      "source": "Online & In Person",
+      "text": "Online și în persoană"
+    },
+    {
+      "key": "t203",
+      "source": "Introducing",
+      "text": "Prezentarea"
+    },
+    {
+      "key": "t204",
+      "source": "Therapy",
+      "text": "Terapie"
+    },
+    {
+      "key": "t205",
+      "source": "with",
+      "text": "cu"
+    },
+    {
+      "key": "t206",
+      "source": "realistic",
+      "text": "realist"
+    },
+    {
+      "key": "t207",
+      "source": "tools",
+      "text": "unelte"
+    },
+    {
+      "key": "t208",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t209",
+      "source": "strategy",
+      "text": "strategie"
+    },
+    {
+      "key": "t210",
+      "source": "for",
+      "text": "pentru"
+    },
+    {
+      "key": "t211",
+      "source": "a",
+      "text": "o"
+    },
+    {
+      "key": "t212",
+      "source": "better",
+      "text": "mai bine"
+    },
+    {
+      "key": "t213",
+      "source": "life.",
+      "text": "viaţă."
+    },
+    {
+      "key": "t214",
+      "source": "Floating",
+      "text": "Plutitoare"
+    },
+    {
+      "key": "t215",
+      "source": "combines",
+      "text": "combine"
+    },
+    {
+      "key": "t216",
+      "source": "years",
+      "text": "ani"
+    },
+    {
+      "key": "t217",
+      "source": "as",
+      "text": "ca"
+    },
+    {
+      "key": "t218",
+      "source": "clinical",
+      "text": "clinic"
+    },
+    {
+      "key": "t219",
+      "source": "psychotherapists",
+      "text": "psihoterapeuți"
+    },
+    {
+      "key": "t220",
+      "source": "with",
+      "text": "cu"
+    },
+    {
+      "key": "t221",
+      "source": "clinical",
+      "text": "clinic"
+    },
+    {
+      "key": "t222",
+      "source": "hours",
+      "text": "ore"
+    },
+    {
+      "key": "t223",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t224",
+      "source": "working",
+      "text": "lucru"
+    },
+    {
+      "key": "t225",
+      "source": "to",
+      "text": "la"
+    },
+    {
+      "key": "t226",
+      "source": "help",
+      "text": "Ajutor"
+    },
+    {
+      "key": "t227",
+      "source": "individuals,",
+      "text": "indivizi,"
+    },
+    {
+      "key": "t228",
+      "source": "children",
+      "text": "copii"
+    },
+    {
+      "key": "t229",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t230",
+      "source": "parents",
+      "text": "părinţi"
+    },
+    {
+      "key": "t231",
+      "source": "live",
+      "text": "trăi"
+    },
+    {
+      "key": "t232",
+      "source": "better",
+      "text": "mai bine"
+    },
+    {
+      "key": "t233",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t234",
+      "source": "be",
+      "text": "fi"
+    },
+    {
+      "key": "t235",
+      "source": "better.",
+      "text": "mai bine."
+    },
+    {
+      "key": "t236",
+      "source": "The Impact Parenting approach gives families practical, scientifically grounded strategies to heal trauma, parent more effectively, and reduce generational trauma across the family system.",
+      "text": "Abordarea Impact Parenting oferă familiilor strategii practice, fundamentate științific, pentru a vindeca trauma, a părinți mai eficient și a reduce trauma generațională în sistemul familial. [[t237]]] 45 de ani [[t238]]] experiență clinică [[t239]]] ore clinice [[t240]]] Realist [[t241]]] instrumente și sarcini"
+    },
+    {
+      "key": "t237",
+      "source": "45 yrs",
+      "text": "45 de ani"
+    },
+    {
+      "key": "t238",
+      "source": "clinical experience",
+      "text": "experiență clinică"
+    },
+    {
+      "key": "t239",
+      "source": "clinical hours",
+      "text": "orele clinice"
+    },
+    {
+      "key": "t240",
+      "source": "Realistic",
+      "text": "Realist"
+    },
+    {
+      "key": "t241",
+      "source": "tools and tasks",
+      "text": "instrumente și sarcini"
+    },
+    {
+      "key": "t242",
+      "source": "Finding it hard to understand or manage your child’s behaviour?",
+      "text": "Îți este greu să înțelegi sau să gestionezi comportamentul copilului tău?"
+    },
+    {
+      "key": "t243",
+      "source": "We help parents build connection, resilience and healthier attachment with practical strategies that can be used at home.",
+      "text": "Ajutăm părinții să construiască conexiune, rezistență și un atașament mai sănătos cu strategii practice care pot fi folosite acasă."
+    },
+    {
+      "key": "t244",
+      "source": "This is not for you if...",
+      "text": "Acesta nu este pentru tine dacă..."
+    },
+    {
+      "key": "t245",
+      "source": "You are not ready to heal past traumas, or you do not believe your mental and physical health is worth investing in.",
+      "text": "Nu ești pregătit să vindeci traumele din trecut sau nu crezi că merită să investești în sănătatea ta mentală și fizică."
+    },
+    {
+      "key": "t246",
+      "source": "Ask about Impact Parenting",
+      "text": "Întrebați despre Impact Parenting [[t247]]] Școala de vacanță [[t248]]] Valori, [[t249]]] rezistență [[t250]]] și [[t251]]] creativitate [[t252]]] pentru [[t253]]] copii [[t254]]] Ridicare [[t255]]] copii [[t256]]] primește [[t257]]] mai ușor [[t258]]] cu [[t259]]] antrenat [[t260]]] profesioniști [[t261]]] suport [[t262]]] fizic [[t263]]] sănătate, [[t264]]] rezistență, [[t265]]] emoțional [[t266]]] inteligență [[t267]]] și [[t268]]] bunăstare [[t269]]] prin [[t270]]] artă, [[t271]]] muzică, [[t272]]] joacă [[t273]]] terapie, [[t274]]] nisip [[t275]]] joacă, [[t276]]] pian, [[t277]]] chitară [[t278]]] și [[t279]]] dovedit"
+    },
+    {
+      "key": "t247",
+      "source": "Holiday School",
+      "text": "Scoala de vacanta"
+    },
+    {
+      "key": "t248",
+      "source": "Values,",
+      "text": "Valori,"
+    },
+    {
+      "key": "t249",
+      "source": "resilience",
+      "text": "rezistenta"
+    },
+    {
+      "key": "t250",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t251",
+      "source": "creativity",
+      "text": "creativitatea"
+    },
+    {
+      "key": "t252",
+      "source": "for",
+      "text": "pentru"
+    },
+    {
+      "key": "t253",
+      "source": "children",
+      "text": "copii"
+    },
+    {
+      "key": "t254",
+      "source": "Raising",
+      "text": "Ridicarea"
+    },
+    {
+      "key": "t255",
+      "source": "children",
+      "text": "copii"
+    },
+    {
+      "key": "t256",
+      "source": "gets",
+      "text": "devine"
+    },
+    {
+      "key": "t257",
+      "source": "easier",
+      "text": "Mai uşor"
+    },
+    {
+      "key": "t258",
+      "source": "with",
+      "text": "cu"
+    },
+    {
+      "key": "t259",
+      "source": "trained",
+      "text": "antrenat"
+    },
+    {
+      "key": "t260",
+      "source": "professionals",
+      "text": "profesionisti"
+    },
+    {
+      "key": "t261",
+      "source": "supporting",
+      "text": "de sprijin"
+    },
+    {
+      "key": "t262",
+      "source": "physical",
+      "text": "fizic"
+    },
+    {
+      "key": "t263",
+      "source": "health,",
+      "text": "sănătate,"
+    },
+    {
+      "key": "t264",
+      "source": "resilience,",
+      "text": "rezistenta,"
+    },
+    {
+      "key": "t265",
+      "source": "emotional",
+      "text": "emoţional"
+    },
+    {
+      "key": "t266",
+      "source": "intelligence",
+      "text": "inteligență"
+    },
+    {
+      "key": "t267",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t268",
+      "source": "wellbeing",
+      "text": "bunăstare"
+    },
+    {
+      "key": "t269",
+      "source": "through",
+      "text": "prin"
+    },
+    {
+      "key": "t270",
+      "source": "art,",
+      "text": "artă,"
+    },
+    {
+      "key": "t271",
+      "source": "music,",
+      "text": "muzică,"
+    },
+    {
+      "key": "t272",
+      "source": "play",
+      "text": "juca"
+    },
+    {
+      "key": "t273",
+      "source": "therapy,",
+      "text": "terapie,"
+    },
+    {
+      "key": "t274",
+      "source": "sand",
+      "text": "nisip"
+    },
+    {
+      "key": "t275",
+      "source": "play,",
+      "text": "juca,"
+    },
+    {
+      "key": "t276",
+      "source": "piano,",
+      "text": "pian,"
+    },
+    {
+      "key": "t277",
+      "source": "guitar",
+      "text": "chitară"
+    },
+    {
+      "key": "t278",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t279",
+      "source": "proven",
+      "text": "dovedit"
+    },
+    {
+      "key": "t280",
+      "source": "psychological",
+      "text": "psihologic"
+    },
+    {
+      "key": "t281",
+      "source": "techniques.",
+      "text": "tehnici."
+    },
+    {
+      "key": "t282",
+      "source": "Our aims and objectives",
+      "text": "Scopurile și obiectivele noastre"
+    },
+    {
+      "key": "t283",
+      "source": "We are not just a holiday school. We teach children values and support them with things they need to grow up uniquely great.",
+      "text": "Nu suntem doar o școală de vacanță. Îi învățăm pe copii valori și îi sprijinim cu lucruri de care au nevoie pentru a crește extraordinar de grozav."
+    },
+    {
+      "key": "t284",
+      "source": "I AM Honesty",
+      "text": "EU SUNT Onestitatea"
+    },
+    {
+      "key": "t285",
+      "source": "I AM Fairness",
+      "text": "EU SUNT Corectitudinea"
+    },
+    {
+      "key": "t286",
+      "source": "I AM Kindness",
+      "text": "EU SUNT Bunătatea"
+    },
+    {
+      "key": "t287",
+      "source": "I AM Integrity",
+      "text": "EU SUNT Integritatea"
+    },
+    {
+      "key": "t288",
+      "source": "I AM Outspoken",
+      "text": "EU SUNT Despărțit"
+    },
+    {
+      "key": "t289",
+      "source": "Original programme reach",
+      "text": "Acoperirea programului original"
+    },
+    {
+      "key": "t290",
+      "source": "Over 400 children were registered in 2021, over 1,000 in 2022, 200 more were supported at Easter 2023, with 1,440 available Summer 2023 slots.",
+      "text": "Peste 400 de copii au fost înregistrați în 2021, peste 1.000 în 2022, încă 200 au fost sprijiniți de Paște 2023, cu 1.440 de locuri disponibile în vara 2023."
+    },
+    {
+      "key": "t291",
+      "source": "Register via Holiday Activities Voucher",
+      "text": "Înregistrați-vă prin Voucher pentru activități de vacanță [[t292]]] Instantaneu program [[t293]]] Sprijin creativ școlar terapeutic"
+    },
+    {
+      "key": "t292",
+      "source": "Programme snapshot",
+      "text": "Instantaneu program"
+    },
+    {
+      "key": "t293",
+      "source": "Creative therapeutic school support",
+      "text": "Sprijinul școlar terapeutic creativ"
+    },
+    {
+      "key": "t294",
+      "source": "Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",
+      "text": "Copiii își construiesc încredere, valori și rezistență prin artă, muzică, joacă și activități practice de bunăstare. [[t295]]] Ghișeu unic [[t296]]] Plutitoare [[t297]]] Comunitate [[t298]]] Hub. [[t299]]] A [[t300]]] central [[t301]]] adunare [[t302]]] loc [[t303]]] pentru [[t304]]] Croydon [[t305]]] rezidenți, [[t306]]] cu [[t307]]] mai lat [[t308]]] proiecte [[t309]]] de asemenea [[t310]]] servire"
+    },
+    {
+      "key": "t295",
+      "source": "One-stop shop",
+      "text": "Ghișeu unic"
+    },
+    {
+      "key": "t296",
+      "source": "Floating",
+      "text": "Plutitoare"
+    },
+    {
+      "key": "t297",
+      "source": "Community",
+      "text": "Comunitate"
+    },
+    {
+      "key": "t298",
+      "source": "Hub.",
+      "text": "Hub."
+    },
+    {
+      "key": "t299",
+      "source": "A",
+      "text": "O"
+    },
+    {
+      "key": "t300",
+      "source": "central",
+      "text": "central"
+    },
+    {
+      "key": "t301",
+      "source": "gathering",
+      "text": "adunare"
+    },
+    {
+      "key": "t302",
+      "source": "place",
+      "text": "loc"
+    },
+    {
+      "key": "t303",
+      "source": "for",
+      "text": "pentru"
+    },
+    {
+      "key": "t304",
+      "source": "Croydon",
+      "text": "Croydon"
+    },
+    {
+      "key": "t305",
+      "source": "residents,",
+      "text": "rezidenți,"
+    },
+    {
+      "key": "t306",
+      "source": "with",
+      "text": "cu"
+    },
+    {
+      "key": "t307",
+      "source": "wider",
+      "text": "mai larg"
+    },
+    {
+      "key": "t308",
+      "source": "projects",
+      "text": "proiecte"
+    },
+    {
+      "key": "t309",
+      "source": "also",
+      "text": "asemenea"
+    },
+    {
+      "key": "t310",
+      "source": "serving",
+      "text": "servire"
+    },
+    {
+      "key": "t311",
+      "source": "Redbridge,",
+      "text": "Redbridge,"
+    },
+    {
+      "key": "t312",
+      "source": "Newham,",
+      "text": "Newham, [[t313]]] Durham [[t314]]] și"
+    },
+    {
+      "key": "t313",
+      "source": "Durham",
+      "text": "Durham"
+    },
+    {
+      "key": "t314",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t315",
+      "source": "Southwark.",
+      "text": "Southwark."
+    },
+    {
+      "key": "t316",
+      "source": "Come",
+      "text": "Vino"
+    },
+    {
+      "key": "t317",
+      "source": "together,",
+      "text": "împreună,"
+    },
+    {
+      "key": "t318",
+      "source": "have",
+      "text": "au"
+    },
+    {
+      "key": "t319",
+      "source": "a",
+      "text": "o"
+    },
+    {
+      "key": "t320",
+      "source": "cup",
+      "text": "ceaşcă"
+    },
+    {
+      "key": "t321",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t322",
+      "source": "tea",
+      "text": "ceai"
+    },
+    {
+      "key": "t323",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t324",
+      "source": "a",
+      "text": "o"
+    },
+    {
+      "key": "t325",
+      "source": "chat.",
+      "text": "chat."
+    },
+    {
+      "key": "t326",
+      "source": "The Croydon hub runs every Tuesday at Ashburton Park Cafe Hall. Floating also delivers community projects in Redbridge, Newham, Durham and Southwark, bringing practical advocacy, wellbeing support and local referrals closer to each community.",
+      "text": "Hub-ul Croydon rulează în fiecare marți la Ashburton Park Cafe Hall. Floating oferă, de asemenea, proiecte comunitare în Redbridge, Newham, Durham și Southwark, aducând advocacy practică, sprijin pentru bunăstare și recomandări locale mai aproape de fiecare comunitate. [[t327]]] Facturi și granturi"
+    },
+    {
+      "key": "t327",
+      "source": "Bills & Grants",
+      "text": "Facturi și Granturi"
+    },
+    {
+      "key": "t328",
+      "source": "Utility bills, home grants and vouchers during the first week.",
+      "text": "Facturi de utilități, granturi pentru locuințe și vouchere în prima săptămână."
+    },
+    {
+      "key": "t329",
+      "source": "Housing Support",
+      "text": "Asistență pentru locuințe"
+    },
+    {
+      "key": "t330",
+      "source": "Wellbeing and housing support in Croydon, Newham and partner hubs.",
+      "text": "Sprijin pentru bunăstare și locuință în Croydon, Newham și hub-uri partenere. [[t331]]] Incluziune digitală"
+    },
+    {
+      "key": "t331",
+      "source": "Digital Inclusion",
+      "text": "Incluziune digitală"
+    },
+    {
+      "key": "t332",
+      "source": "Internet support, forms, scam awareness, WhatsApp, AI education and free SIM guidance.",
+      "text": "Asistență pe internet, formulare, conștientizare înșelătorie, WhatsApp, educație AI și îndrumare gratuită pentru SIM. [[t333]]] Terapie prin artă"
+    },
+    {
+      "key": "t333",
+      "source": "Art Therapy",
+      "text": "Terapia prin artă"
+    },
+    {
+      "key": "t334",
+      "source": "Third-week creative healing with Myfamily101 and Floating Counselling Community.",
+      "text": "Vindecarea creativă a treia săptămână cu Myfamily101 și Floating Counselling Community. [[t335]]] Banca de alimente [[t336]]] Mâncare, îmbrăcăminte și articole de bază săptămânale pentru persoane și familii. [[t337]]] Asistență pentru angajare"
+    },
+    {
+      "key": "t335",
+      "source": "Food Bank",
+      "text": "Banca de alimente"
+    },
+    {
+      "key": "t336",
+      "source": "Weekly food, clothing and essentials for individuals and families.",
+      "text": "Mâncare săptămânală, îmbrăcăminte și articole esențiale pentru persoane și familii."
+    },
+    {
+      "key": "t337",
+      "source": "Employment Support",
+      "text": "Sprijin pentru angajare"
+    },
+    {
+      "key": "t338",
+      "source": "Financial literacy, confidence and employment support for longer-term stability.",
+      "text": "Educație financiară, încredere și sprijin pentru ocuparea forței de muncă pentru stabilitate pe termen lung. [[t339]]] birou Croydon [[t340]]] 26 Avenue Road, SE25 4DX [[t341]]] Hartă"
+    },
+    {
+      "key": "t339",
+      "source": "Croydon office",
+      "text": "Biroul Croydon"
+    },
+    {
+      "key": "t340",
+      "source": "26 Avenue Road, SE25 4DX",
+      "text": "26 Avenue Road, SE25 4DX"
+    },
+    {
+      "key": "t341",
+      "source": "Map",
+      "text": "Hartă"
+    },
+    {
+      "key": "t342",
+      "source": "Croydon hub",
+      "text": "Croydon hub [[t343]]] Ashburton Park Cafe Hall, CR0 6RX. Marți, de la 12:30 la 14:30. [[t344]]] Hartă [[t345]]] birou Redbridge [[t346]]] 160-162 Cranbrook Road, IG1 4PE. [[t347]]] Hartă"
+    },
+    {
+      "key": "t343",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX. Marți, de la 12:30 la 14:30."
+    },
+    {
+      "key": "t344",
+      "source": "Map",
+      "text": "Hartă"
+    },
+    {
+      "key": "t345",
+      "source": "Redbridge office",
+      "text": "Biroul Redbridge"
+    },
+    {
+      "key": "t346",
+      "source": "160-162 Cranbrook Road, IG1 4PE.",
+      "text": "160-162 Cranbrook Road, IG1 4PE."
+    },
+    {
+      "key": "t347",
+      "source": "Map",
+      "text": "Hartă"
+    },
+    {
+      "key": "t348",
+      "source": "Redbridge hub",
+      "text": "Redbridge hub"
+    },
+    {
+      "key": "t349",
+      "source": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Marți, de la 11:30 la 13:30, cu excepția sărbătorilor."
+    },
+    {
+      "key": "t350",
+      "source": "Map",
+      "text": "Hartă"
+    },
+    {
+      "key": "t351",
+      "source": "Durham hub",
+      "text": "Durham hub"
+    },
+    {
+      "key": "t352",
+      "source": "30 Wesley Street, Durham, DL14 8UH.",
+      "text": "30 Wesley Street, Durham, DL14 8UH. [[t353]]] Hartă [[t354]]] Newham"
+    },
+    {
+      "key": "t353",
+      "source": "Map",
+      "text": "Hartă"
+    },
+    {
+      "key": "t354",
+      "source": "Newham",
+      "text": "Newham"
+    },
+    {
+      "key": "t355",
+      "source": "Monthly wellbeing and housing support. Relaunching July 2026.",
+      "text": "Sprijin lunar pentru bunăstare și locuință. Relansare în iulie 2026."
+    },
+    {
+      "key": "t356",
+      "source": "Southwark hub",
+      "text": "Southwark hub"
+    },
+    {
+      "key": "t357",
+      "source": "20 Heaton Road, Heaton Road Church, Peckham, SE15 3NL. Launching June 2026.",
+      "text": "20 Heaton Road, Heaton Road Biserica, Peckham, SE15 3NL. Lansare în iunie 2026. [[t358]]] Hartă [[t359]]] Ce spun oamenii [[t360]]] În [[t361]]] lor [[t362]]] proprii [[t363]]] cuvinte. [[t364]]] Auzi [[t365]]] din [[t366]]] the [[t367]]] familii [[t368]]] și [[t369]]] persoane fizice [[t370]]] ale cărui [[t371]]] trăiește [[t372]]] au [[t373]]] fost [[t374]]] transformat."
+    },
+    {
+      "key": "t358",
+      "source": "Map",
+      "text": "Hartă"
+    },
+    {
+      "key": "t359",
+      "source": "What people say",
+      "text": "Ce spun oamenii"
+    },
+    {
+      "key": "t360",
+      "source": "In",
+      "text": "În"
+    },
+    {
+      "key": "t361",
+      "source": "their",
+      "text": "lor"
+    },
+    {
+      "key": "t362",
+      "source": "own",
+      "text": "proprii"
+    },
+    {
+      "key": "t363",
+      "source": "words.",
+      "text": "cuvinte."
+    },
+    {
+      "key": "t364",
+      "source": "Hear",
+      "text": "Auzi"
+    },
+    {
+      "key": "t365",
+      "source": "from",
+      "text": "din"
+    },
+    {
+      "key": "t366",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t367",
+      "source": "families",
+      "text": "familiile"
+    },
+    {
+      "key": "t368",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t369",
+      "source": "individuals",
+      "text": "indivizii"
+    },
+    {
+      "key": "t370",
+      "source": "whose",
+      "text": "cui"
+    },
+    {
+      "key": "t371",
+      "source": "lives",
+      "text": "vieți"
+    },
+    {
+      "key": "t372",
+      "source": "have",
+      "text": "au"
+    },
+    {
+      "key": "t373",
+      "source": "been",
+      "text": "fost"
+    },
+    {
+      "key": "t374",
+      "source": "transformed.",
+      "text": "transformat."
+    },
+    {
+      "key": "t375",
+      "source": "I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded and supported a wide variety of issues that parents face. I have teenage children and really needed this. It was full of knowledge to parent more consciously.",
+      "text": "Am învățat atât de multe de la antrenamentul Impact Parenting Pillar și Celestina. A fost incredibil de complet și a susținut o mare varietate de probleme cu care se confruntă părinții. Am copii adolescenți și chiar aveam nevoie de asta. A fost plin de cunoștințe să părinți mai conștient. [[t376]]] ST [[t377]]] Sarah Turino"
+    },
+    {
+      "key": "t376",
+      "source": "ST",
+      "text": "SF"
+    },
+    {
+      "key": "t377",
+      "source": "Sarah Turino",
+      "text": "Sarah Turino"
+    },
+    {
+      "key": "t378",
+      "source": "CEO, The Whole Woman Wellness Formula · USA",
+      "text": "CEO, The Whole Woman Wellness Formula · SUA"
+    },
+    {
+      "key": "t379",
+      "source": "My son had terrible twos where he would throw himself on the floor and not follow boundaries. I have now been helped to know his personality better and been given realistic tools to help him be more resilient in a loving way.",
+      "text": "Fiul meu avea doi îngrozitori în care se arunca pe podea și nu urma limitele. Acum am fost ajutat să-i cunosc mai bine personalitatea și am primit instrumente realiste care să-l ajute să fie mai rezistent într-un mod iubitor. [[t380]]] DD [[t381]]] Danya Denny [[t382]]] Asistent social · UK"
+    },
+    {
+      "key": "t380",
+      "source": "DD",
+      "text": "DD"
+    },
+    {
+      "key": "t381",
+      "source": "Danya Denny",
+      "text": "Danya Denny"
+    },
+    {
+      "key": "t382",
+      "source": "Social Worker · UK",
+      "text": "Asistent social · Marea Britanie"
+    },
+    {
+      "key": "t383",
+      "source": "As a mother of six, from newborn to eighteen, I learnt so much from Impact Parenting with Celestina. I adapted the strategies to my real life and all my children straight away — and I'm still using them months later. Every parent needs this.",
+      "text": "Ca mamă de șase copii, de la nou-născut până la optsprezece ani, am învățat atât de multe de la Impact Parenting cu Celestina. Am adaptat imediat strategiile la viața mea reală și la toți copiii mei - și încă le folosesc luni mai târziu. Fiecare părinte are nevoie de asta. [[t384]]] NK"
+    },
+    {
+      "key": "t384",
+      "source": "NK",
+      "text": "NK"
+    },
+    {
+      "key": "t385",
+      "source": "Niina Kabesa",
+      "text": "Niina Kabesa"
+    },
+    {
+      "key": "t386",
+      "source": "Author & Founder, Mother of Nations · Congo",
+      "text": "Autor și fondator, Mama Națiunilor · Congo [[t387]]] Oamenii noștri [[t388]]] Faceți cunoștință [[t389]]] the [[t390]]] echipa. [[t391]]] Led [[t392]]] de [[t393]]] a [[t394]]] diverse [[t395]]] echipa [[t396]]] din [[t397]]] african [[t398]]] femei [[t399]]] cu [[t400]]] a trăit [[t401]]] experiență [[t402]]] și [[t403]]] profesionist [[t404]]] expertiză. [[t405]]] Celestina Oniye-Thomas"
+    },
+    {
+      "key": "t387",
+      "source": "Our people",
+      "text": "Oamenii noștri"
+    },
+    {
+      "key": "t388",
+      "source": "Meet",
+      "text": "Întâlnește"
+    },
+    {
+      "key": "t389",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t390",
+      "source": "team.",
+      "text": "echipă."
+    },
+    {
+      "key": "t391",
+      "source": "Led",
+      "text": "LED"
+    },
+    {
+      "key": "t392",
+      "source": "by",
+      "text": "de"
+    },
+    {
+      "key": "t393",
+      "source": "a",
+      "text": "o"
+    },
+    {
+      "key": "t394",
+      "source": "diverse",
+      "text": "diverse"
+    },
+    {
+      "key": "t395",
+      "source": "team",
+      "text": "echipă"
+    },
+    {
+      "key": "t396",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t397",
+      "source": "African",
+      "text": "african"
+    },
+    {
+      "key": "t398",
+      "source": "women",
+      "text": "femeilor"
+    },
+    {
+      "key": "t399",
+      "source": "with",
+      "text": "cu"
+    },
+    {
+      "key": "t400",
+      "source": "lived",
+      "text": "trăit"
+    },
+    {
+      "key": "t401",
+      "source": "experience",
+      "text": "experienţă"
+    },
+    {
+      "key": "t402",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t403",
+      "source": "professional",
+      "text": "profesional"
+    },
+    {
+      "key": "t404",
+      "source": "expertise.",
+      "text": "expertiza."
+    },
+    {
+      "key": "t405",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "t406",
+      "source": "CEO & Head of Charitable Operations",
+      "text": "CEO și șef al operațiunilor caritabile [[t407]]] E-mail [[t408]]] Citiți mai multe [[t409]]] Omowonu-Ola Ogunlela [[t410]]] Director și șef de finanțe [[t411]]] E-mail [[t412]]] Citiți mai multe [[t413]]] Elizabeth Owode [[t414]]] Director și antrenor de relații [[t415]]] E-mail [[t416]]] Citiți mai multe [[t417]]] Linda Yeboah [[t418]]] Director și ofițer de salvgardare [[t419]]] E-mail"
+    },
+    {
+      "key": "t407",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t408",
+      "source": "Read more",
+      "text": "Citeşte mai mult"
+    },
+    {
+      "key": "t409",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela"
+    },
+    {
+      "key": "t410",
+      "source": "Director & Head of Finance",
+      "text": "Director și șef de finanțe"
+    },
+    {
+      "key": "t411",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t412",
+      "source": "Read more",
+      "text": "Citeşte mai mult"
+    },
+    {
+      "key": "t413",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode"
+    },
+    {
+      "key": "t414",
+      "source": "Director & Relationship Coach",
+      "text": "Director și antrenor de relații"
+    },
+    {
+      "key": "t415",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t416",
+      "source": "Read more",
+      "text": "Citeşte mai mult"
+    },
+    {
+      "key": "t417",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah"
+    },
+    {
+      "key": "t418",
+      "source": "Director & Safeguarding Officer",
+      "text": "Director și ofițer de salvgardare"
+    },
+    {
+      "key": "t419",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t420",
+      "source": "Contact",
+      "text": "Contact"
+    },
+    {
+      "key": "t421",
+      "source": "Sponsors, partners and funders",
+      "text": "Sponsori, parteneri și finanțatori"
+    },
+    {
+      "key": "t422",
+      "source": "Supported",
+      "text": "Sprijinit"
+    },
+    {
+      "key": "t423",
+      "source": "by",
+      "text": "de"
+    },
+    {
+      "key": "t424",
+      "source": "trusted",
+      "text": "de încredere"
+    },
+    {
+      "key": "t425",
+      "source": "partners.",
+      "text": "parteneri."
+    },
+    {
+      "key": "t426",
+      "source": "A",
+      "text": "O"
+    },
+    {
+      "key": "t427",
+      "source": "compact",
+      "text": "compact"
+    },
+    {
+      "key": "t428",
+      "source": "view",
+      "text": "vedere"
+    },
+    {
+      "key": "t429",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t430",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t431",
+      "source": "funders,",
+      "text": "finanțatori,"
+    },
+    {
+      "key": "t432",
+      "source": "sponsors",
+      "text": "sponsori"
+    },
+    {
+      "key": "t433",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t434",
+      "source": "registrations",
+      "text": "inregistrari"
+    },
+    {
+      "key": "t435",
+      "source": "behind",
+      "text": "din spatele"
+    },
+    {
+      "key": "t436",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t437",
+      "source": "work.",
+      "text": "lucru."
+    },
+    {
+      "key": "t438",
+      "source": "Common questions",
+      "text": "Întrebări comune"
+    },
+    {
+      "key": "t439",
+      "source": "Everything",
+      "text": "Tot"
+    },
+    {
+      "key": "t440",
+      "source": "you",
+      "text": "tu"
+    },
+    {
+      "key": "t441",
+      "source": "might",
+      "text": "s-ar putea"
+    },
+    {
+      "key": "t442",
+      "source": "be",
+      "text": "fi"
+    },
+    {
+      "key": "t443",
+      "source": "wondering.",
+      "text": "întrebându-se."
+    },
+    {
+      "key": "t444",
+      "source": "If",
+      "text": "Dacă"
+    },
+    {
+      "key": "t445",
+      "source": "your",
+      "text": "dvs"
+    },
+    {
+      "key": "t446",
+      "source": "question",
+      "text": "întrebare"
+    },
+    {
+      "key": "t447",
+      "source": "isn't",
+      "text": "nu este"
+    },
+    {
+      "key": "t448",
+      "source": "here,",
+      "text": "Aici,"
+    },
+    {
+      "key": "t449",
+      "source": "send",
+      "text": "trimite"
+    },
+    {
+      "key": "t450",
+      "source": "us",
+      "text": "S.U.A"
+    },
+    {
+      "key": "t451",
+      "source": "a",
+      "text": "o"
+    },
+    {
+      "key": "t452",
+      "source": "note.",
+      "text": "nota."
+    },
+    {
+      "key": "t453",
+      "source": "We",
+      "text": "Noi"
+    },
+    {
+      "key": "t454",
+      "source": "read",
+      "text": "citire"
+    },
+    {
+      "key": "t455",
+      "source": "every",
+      "text": "fiecare"
+    },
+    {
+      "key": "t456",
+      "source": "message.",
+      "text": "mesaj."
+    },
+    {
+      "key": "t457",
+      "source": "Ask us anything",
+      "text": "Întreabă-ne orice"
+    },
+    {
+      "key": "t458",
+      "source": "How much does counselling cost?",
+      "text": "Cât costă consilierea?"
+    },
+    {
+      "key": "t459",
+      "source": "Sessions are free or low-cost for eligible individuals. We work on a sliding scale based on circumstances. Our priority is access, and we'll find a way that works for you.",
+      "text": "Sesiunile sunt gratuite sau la costuri reduse pentru persoanele eligibile. Lucrăm la o scară variabilă în funcție de circumstanțe. Prioritatea noastră este accesul și vom găsi o modalitate care funcționează pentru dvs."
+    },
+    {
+      "key": "t460",
+      "source": "What happens in the first session?",
+      "text": "Ce se întâmplă în prima sesiune?"
+    },
+    {
+      "key": "t461",
+      "source": "Your first session is a relaxed conversation about what's brought you in, what you'd like to work on, and how we can support you. Nothing is rushed. You set the pace.",
+      "text": "Prima ta sesiune este o conversație relaxată despre ceea ce te-a atras, la ce ai vrea să lucrezi și cum te putem sprijini. Nimic nu se grăbește. Tu stabilești ritmul."
+    },
+    {
+      "key": "t462",
+      "source": "Are sessions confidential?",
+      "text": "Sunt sesiunile confidențiale? [[t463]]] Da. Tot ceea ce împărtășiți este păstrat în strictă confidențialitate, în conformitate cu liniile directoare etice BACP. Singurele excepții sunt situațiile de salvgardare, pe care le-am discuta întotdeauna mai întâi cu dvs. ori de câte ori este posibil."
+    },
+    {
+      "key": "t463",
+      "source": "Yes. Everything you share is held in strict confidence in line with BACP ethical guidelines. The only exceptions are safeguarding situations, which we'd always discuss with you first wherever possible.",
+      "text": "Da. Tot ceea ce împărtășiți este păstrat în strictă confidențialitate, în conformitate cu liniile directoare etice BACP. Singurele excepții sunt situațiile de salvgardare, pe care le-am discuta întotdeauna mai întâi cu dvs. ori de câte ori este posibil."
+    },
+    {
+      "key": "t464",
+      "source": "Do you offer online sessions?",
+      "text": "Oferiți sesiuni online? [[t465]]] Da. Oferim sesiuni online și asistență personală în cartierele în care furnizăm servicii."
+    },
+    {
+      "key": "t465",
+      "source": "Yes. We offer online sessions and in-person support across the boroughs where we deliver services.",
+      "text": "Da. Oferim sesiuni online și asistență personală în cartierele în care furnizăm servicii."
+    },
+    {
+      "key": "t466",
+      "source": "Are your therapists qualified?",
+      "text": "Sunt terapeuții dvs. calificați?"
+    },
+    {
+      "key": "t467",
+      "source": "Our therapists are clinically trained psychotherapists working in line with BACP standards. The leadership team has 45+ years of combined clinical experience and over 50,000 clinical hours.",
+      "text": "Terapeuții noștri sunt psihoterapeuți pregătiți clinic care lucrează în conformitate cu standardele BACP. Echipa de conducere are peste 45 de ani de experiență clinică combinată și peste 50.000 de ore clinice."
+    },
+    {
+      "key": "t468",
+      "source": "Can I refer a family member or friend?",
+      "text": "Pot recomanda un membru al familiei sau un prieten? [[t469]]] Absolut. Avem întotdeauna nevoie de consimțământul persoanei înainte de a deschide un caz. Cel mai bun pas este să-i încurajați să ne trimită direct prin e-mail sau WhatsApp."
+    },
+    {
+      "key": "t469",
+      "source": "Absolutely. We'll always need consent from the person themselves before opening a case. The best first step is to encourage them to email or WhatsApp us directly.",
+      "text": "Absolut. Avem întotdeauna nevoie de consimțământul persoanei înainte de a deschide un caz. Cel mai bun pas este să-i încurajați să ne trimită direct prin e-mail sau WhatsApp."
+    },
+    {
+      "key": "t470",
+      "source": "How can I support your work?",
+      "text": "Cum vă pot sprijini munca?"
+    },
+    {
+      "key": "t471",
+      "source": "You can donate via Localgiving or PayPal, volunteer your time, follow us on social media, or fundraise on our behalf. Visit the fundraiser section or get in touch and we'll match you to something that suits.",
+      "text": "Puteți dona prin Localgiving sau PayPal, puteți oferi timpul dvs. voluntar, urmăriți-ne pe rețelele sociale sau strângeți fonduri în numele nostru. Vizitați secțiunea de strângere de fonduri sau contactați-vă și vă vom potrivi cu ceva potrivit. [[t472]]] Strângere de fonduri [[t473]]] Modalități [[t474]]] la [[t475]]] strângere de fonduri [[t476]]] pentru [[t477]]] Plutitoare [[t478]]] Consiliere. [[t479]]] Strângere de fonduri [[t480]]] ajută [[t481]]] păstrează [[t482]]] consiliere, [[t483]]] mâncare [[t484]]] suport, [[t485]]] sărbătoare [[t486]]] scoala [[t487]]] locuri [[t488]]] și Comunitatea [[t489]]]."
+    },
+    {
+      "key": "t472",
+      "source": "Fundraiser",
+      "text": "Strângere de fonduri"
+    },
+    {
+      "key": "t473",
+      "source": "Ways",
+      "text": "Căi"
+    },
+    {
+      "key": "t474",
+      "source": "to",
+      "text": "la"
+    },
+    {
+      "key": "t475",
+      "source": "fundraise",
+      "text": "strângere de fonduri"
+    },
+    {
+      "key": "t476",
+      "source": "for",
+      "text": "pentru"
+    },
+    {
+      "key": "t477",
+      "source": "Floating",
+      "text": "Plutitoare"
+    },
+    {
+      "key": "t478",
+      "source": "Counselling.",
+      "text": "Consiliere."
+    },
+    {
+      "key": "t479",
+      "source": "Fundraising",
+      "text": "Strângere de fonduri"
+    },
+    {
+      "key": "t480",
+      "source": "helps",
+      "text": "ajută"
+    },
+    {
+      "key": "t481",
+      "source": "keep",
+      "text": "păstrează"
+    },
+    {
+      "key": "t482",
+      "source": "counselling,",
+      "text": "consiliere,"
+    },
+    {
+      "key": "t483",
+      "source": "food",
+      "text": "alimente"
+    },
+    {
+      "key": "t484",
+      "source": "support,",
+      "text": "sprijin,"
+    },
+    {
+      "key": "t485",
+      "source": "holiday",
+      "text": "vacanţă"
+    },
+    {
+      "key": "t486",
+      "source": "school",
+      "text": "şcoală"
+    },
+    {
+      "key": "t487",
+      "source": "places",
+      "text": "locuri"
+    },
+    {
+      "key": "t488",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t489",
+      "source": "community",
+      "text": "comunitate"
+    },
+    {
+      "key": "t490",
+      "source": "hub",
+      "text": "hub"
+    },
+    {
+      "key": "t491",
+      "source": "sessions",
+      "text": "sesiuni"
+    },
+    {
+      "key": "t492",
+      "source": "accessible",
+      "text": "accesibil"
+    },
+    {
+      "key": "t493",
+      "source": "for",
+      "text": "pentru"
+    },
+    {
+      "key": "t494",
+      "source": "people",
+      "text": "oameni"
+    },
+    {
+      "key": "t495",
+      "source": "who",
+      "text": "OMS"
+    },
+    {
+      "key": "t496",
+      "source": "need",
+      "text": "nevoie"
+    },
+    {
+      "key": "t497",
+      "source": "practical",
+      "text": "practic"
+    },
+    {
+      "key": "t498",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t499",
+      "source": "therapeutic",
+      "text": "terapeutic"
+    },
+    {
+      "key": "t500",
+      "source": "care.",
+      "text": "îngrijire."
+    },
+    {
+      "key": "t501",
+      "source": "Donate via PayPal",
+      "text": "Donează prin PayPal"
+    },
+    {
+      "key": "t502",
+      "source": "Donate via Localgiving",
+      "text": "Donează prin Localgiving [[t503]]] Începeți o strângere de fonduri [[t504]]] Rulați o strângere de fonduri personală"
+    },
+    {
+      "key": "t503",
+      "source": "Start a fundraiser",
+      "text": "Începeți o strângere de fonduri"
+    },
+    {
+      "key": "t504",
+      "source": "Run a personal fundraiser",
+      "text": "Rulați o strângere de fonduri personală"
+    },
+    {
+      "key": "t505",
+      "source": "Use birthdays, challenges or community events to raise funds for counselling and wraparound support.",
+      "text": "Folosiți zilele de naștere, provocări sau evenimente comunitare pentru a strânge fonduri pentru consiliere și sprijin complet."
+    },
+    {
+      "key": "t506",
+      "source": "Workplace or school collection",
+      "text": "Colecție la locul de muncă sau la școală"
+    },
+    {
+      "key": "t507",
+      "source": "Collect food, essentials, vouchers or donations with your team, school, faith group or local business.",
+      "text": "Colectați alimente, articole de bază, vouchere sau donații cu echipa, școala, grupul religios sau afacerea locală. [[t508]]] Sponsorizează un proiect"
+    },
+    {
+      "key": "t508",
+      "source": "Sponsor a project",
+      "text": "Sponsorizează un proiect"
+    },
+    {
+      "key": "t509",
+      "source": "Support a hub session, holiday school activity, counselling session or local wellbeing event.",
+      "text": "Sprijiniți o sesiune hub, o activitate de școală de vacanță, o sesiune de consiliere sau un eveniment local de bunăstare."
+    },
+    {
+      "key": "t510",
+      "source": "Share skills and time",
+      "text": "Împărtășiți abilitățile și timpul"
+    },
+    {
+      "key": "t511",
+      "source": "Offer professional skills, event support, transport, mentoring or practical help for local residents.",
+      "text": "Oferiți abilități profesionale, suport pentru evenimente, transport, mentorat sau ajutor practic pentru rezidenții locali. [[t512]]] Voluntar [[t513]]] Voluntar [[t514]]] cu [[t515]]] Plutitoare [[t516]]] Consiliere. [[t517]]] Distribuie [[t518]]] dvs [[t519]]] ora, [[t520]]] competențe [[t521]]] sau [[t522]]] profesionist [[t523]]] experiență [[t524]]] la"
+    },
+    {
+      "key": "t512",
+      "source": "Volunteer",
+      "text": "Voluntar"
+    },
+    {
+      "key": "t513",
+      "source": "Volunteer",
+      "text": "Voluntar"
+    },
+    {
+      "key": "t514",
+      "source": "with",
+      "text": "cu"
+    },
+    {
+      "key": "t515",
+      "source": "Floating",
+      "text": "Plutitoare"
+    },
+    {
+      "key": "t516",
+      "source": "Counselling.",
+      "text": "Consiliere."
+    },
+    {
+      "key": "t517",
+      "source": "Share",
+      "text": "Distribuie"
+    },
+    {
+      "key": "t518",
+      "source": "your",
+      "text": "dvs"
+    },
+    {
+      "key": "t519",
+      "source": "time,",
+      "text": "timp,"
+    },
+    {
+      "key": "t520",
+      "source": "skills",
+      "text": "aptitudini"
+    },
+    {
+      "key": "t521",
+      "source": "or",
+      "text": "sau"
+    },
+    {
+      "key": "t522",
+      "source": "professional",
+      "text": "profesional"
+    },
+    {
+      "key": "t523",
+      "source": "experience",
+      "text": "experienţă"
+    },
+    {
+      "key": "t524",
+      "source": "to",
+      "text": "la"
+    },
+    {
+      "key": "t525",
+      "source": "support",
+      "text": "sprijin"
+    },
+    {
+      "key": "t526",
+      "source": "counselling,",
+      "text": "consiliere,"
+    },
+    {
+      "key": "t527",
+      "source": "community",
+      "text": "comunitate"
+    },
+    {
+      "key": "t528",
+      "source": "hub",
+      "text": "hub"
+    },
+    {
+      "key": "t529",
+      "source": "sessions,",
+      "text": "sesiuni,"
+    },
+    {
+      "key": "t530",
+      "source": "holiday",
+      "text": "vacanţă"
+    },
+    {
+      "key": "t531",
+      "source": "school",
+      "text": "şcoală"
+    },
+    {
+      "key": "t532",
+      "source": "activities,",
+      "text": "activitati,"
+    },
+    {
+      "key": "t533",
+      "source": "fundraising",
+      "text": "strângere de fonduri"
+    },
+    {
+      "key": "t534",
+      "source": "and",
+      "text": "şi"
+    },
+    {
+      "key": "t535",
+      "source": "practical",
+      "text": "practic"
+    },
+    {
+      "key": "t536",
+      "source": "outreach.",
+      "text": "sensibilizare."
+    },
+    {
+      "key": "t537",
+      "source": "Community support",
+      "text": "Sprijin comunitar"
+    },
+    {
+      "key": "t538",
+      "source": "Help residents with food, clothing, forms, signposting, events and welcoming hub sessions.",
+      "text": "Ajutați rezidenții cu mâncare, îmbrăcăminte, formulare, semnalizare, evenimente și sesiuni de întâmpinare. [[t539]]] Abilități și proiecte"
+    },
+    {
+      "key": "t539",
+      "source": "Skills and projects",
+      "text": "Abilități și proiecte"
+    },
+    {
+      "key": "t540",
+      "source": "Offer mentoring, admin, creative workshops, fundraising, transport, digital support or professional expertise.",
+      "text": "Oferă mentorat, administrare, ateliere creative, strângere de fonduri, transport, suport digital sau expertiză profesională. [[t541]]] Aplicații de voluntariat [[t542]]] formular de luni [[t543]]] Aplicați pentru a fi voluntar"
+    },
+    {
+      "key": "t541",
+      "source": "Volunteer applications",
+      "text": "Aplicații de voluntariat"
+    },
+    {
+      "key": "t542",
+      "source": "Monday form",
+      "text": "forma de luni"
+    },
+    {
+      "key": "t543",
+      "source": "Apply to volunteer",
+      "text": "Aplica pentru a fi voluntar"
+    },
+    {
+      "key": "t544",
+      "source": "Complete the volunteer application so the team can match your time, skills and availability to the right project.",
+      "text": "Completați cererea de voluntariat, astfel încât echipa să vă poată potrivi timpul, abilitățile și disponibilitatea pentru proiectul potrivit. [[t545]]] Deschideți formularul de voluntariat [[t546]]] Luați legătura [[t547]]] Am vrea [[t548]]] dragoste [[t549]]] la [[t550]]] auzi [[t551]]] din [[t552]]] tu. [[t553]]] E-mail,"
+    },
+    {
+      "key": "t545",
+      "source": "Open volunteer form",
+      "text": "Formular deschis de voluntar"
+    },
+    {
+      "key": "t546",
+      "source": "Get in touch",
+      "text": "Luați legătura"
+    },
+    {
+      "key": "t547",
+      "source": "We'd",
+      "text": "Am vrea"
+    },
+    {
+      "key": "t548",
+      "source": "love",
+      "text": "dragoste"
+    },
+    {
+      "key": "t549",
+      "source": "to",
+      "text": "la"
+    },
+    {
+      "key": "t550",
+      "source": "hear",
+      "text": "auzi"
+    },
+    {
+      "key": "t551",
+      "source": "from",
+      "text": "din"
+    },
+    {
+      "key": "t552",
+      "source": "you.",
+      "text": "tu."
+    },
+    {
+      "key": "t553",
+      "source": "Email,",
+      "text": "E-mail,"
+    },
+    {
+      "key": "t554",
+      "source": "WhatsApp,",
+      "text": "WhatsApp, [[t555]]] apel [[t556]]] sau [[t557]]] umple [[t558]]] în [[t559]]] the"
+    },
+    {
+      "key": "t555",
+      "source": "call",
+      "text": "apel"
+    },
+    {
+      "key": "t556",
+      "source": "or",
+      "text": "sau"
+    },
+    {
+      "key": "t557",
+      "source": "fill",
+      "text": "umple"
+    },
+    {
+      "key": "t558",
+      "source": "in",
+      "text": "în"
+    },
+    {
+      "key": "t559",
+      "source": "the",
+      "text": "cel"
+    },
+    {
+      "key": "t560",
+      "source": "form.",
+      "text": "formă."
+    },
+    {
+      "key": "t561",
+      "source": "We",
+      "text": "Noi"
+    },
+    {
+      "key": "t562",
+      "source": "aim",
+      "text": "scop"
+    },
+    {
+      "key": "t563",
+      "source": "to",
+      "text": "la"
+    },
+    {
+      "key": "t564",
+      "source": "reply",
+      "text": "răspuns"
+    },
+    {
+      "key": "t565",
+      "source": "within",
+      "text": "în"
+    },
+    {
+      "key": "t566",
+      "source": "two",
+      "text": "două"
+    },
+    {
+      "key": "t567",
+      "source": "working",
+      "text": "lucru"
+    },
+    {
+      "key": "t568",
+      "source": "days.",
+      "text": "zile."
+    },
+    {
+      "key": "t569",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t570",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t571",
+      "source": "WhatsApp / Call",
+      "text": "WhatsApp / Apelați"
+    },
+    {
+      "key": "t572",
+      "source": "Visit the Croydon Hub",
+      "text": "Vizitați Croydon Hub"
+    },
+    {
+      "key": "t573",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX [[t574]]] Marți, 12:30 - 14:30. [[t575]]] Locațiile proiectului"
+    },
+    {
+      "key": "t574",
+      "source": "Tuesdays, 12:30 to 2:30pm.",
+      "text": "Marți, de la 12:30 la 14:30."
+    },
+    {
+      "key": "t575",
+      "source": "Project locations",
+      "text": "Locațiile proiectului"
+    },
+    {
+      "key": "t576",
+      "source": "Separate contact points for Croydon, Redbridge, Durham, Newham and Southwark are listed below.",
+      "text": "Punctele de contact separate pentru Croydon, Redbridge, Durham, Newham și Southwark sunt enumerate mai jos."
+    },
+    {
+      "key": "t577",
+      "source": "Croydon office",
+      "text": "birou Croydon [[t578]]] 26 Avenue Road"
+    },
+    {
+      "key": "t578",
+      "source": "26 Avenue Road",
+      "text": "26 Avenue Road"
+    },
+    {
+      "key": "t579",
+      "source": "London SE25 4DX",
+      "text": "London SE25 4DX [[t580]]] Deschide harta"
+    },
+    {
+      "key": "t580",
+      "source": "Open map",
+      "text": "Deschide harta"
+    },
+    {
+      "key": "t581",
+      "source": "Croydon hub",
+      "text": "Croydon hub [[t582]]] Ashburton Park Cafe Hall [[t583]]] CR0 6RX. Marți, de la 12:30 la 14:30. [[t584]]] Deschide harta [[t585]]] birou Redbridge [[t586]]] 160-162 Cranbrook Road [[t587]]] Ilford IG1 4PE [[t588]]] Deschide harta"
+    },
+    {
+      "key": "t582",
+      "source": "Ashburton Park Cafe Hall",
+      "text": "Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t583",
+      "source": "CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "CR0 6RX. Marți, de la 12:30 la 14:30."
+    },
+    {
+      "key": "t584",
+      "source": "Open map",
+      "text": "Deschide harta"
+    },
+    {
+      "key": "t585",
+      "source": "Redbridge office",
+      "text": "Biroul Redbridge"
+    },
+    {
+      "key": "t586",
+      "source": "160-162 Cranbrook Road",
+      "text": "160-162 Cranbrook Road"
+    },
+    {
+      "key": "t587",
+      "source": "Ilford IG1 4PE",
+      "text": "Ilford IG1 4PE"
+    },
+    {
+      "key": "t588",
+      "source": "Open map",
+      "text": "Deschide harta"
+    },
+    {
+      "key": "t589",
+      "source": "Redbridge hub",
+      "text": "Hub Redbridge"
+    },
+    {
+      "key": "t590",
+      "source": "Cranbrook House, Suite 7D",
+      "text": "Cranbrook House, Suite 7D"
+    },
+    {
+      "key": "t591",
+      "source": "61 Cranbrook Road, Ilford IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "61 Cranbrook Road, Ilford IG1 4PG. Marți, de la 11:30 la 13:30, cu excepția sărbătorilor. [[t592]]] Deschide harta"
+    },
+    {
+      "key": "t592",
+      "source": "Open map",
+      "text": "Deschide harta"
+    },
+    {
+      "key": "t593",
+      "source": "Durham hub",
+      "text": "Durham hub [[t594]]] 30 Wesley Street"
+    },
+    {
+      "key": "t594",
+      "source": "30 Wesley Street",
+      "text": "30 Wesley Street"
+    },
+    {
+      "key": "t595",
+      "source": "Durham DL14 8UH",
+      "text": "Durham DL14 8UH [[t596]]] Deschide harta"
+    },
+    {
+      "key": "t596",
+      "source": "Open map",
+      "text": "Deschide harta"
+    },
+    {
+      "key": "t597",
+      "source": "Southwark hub",
+      "text": "Southwark hub [[t598]]] 20 Heaton Road"
+    },
+    {
+      "key": "t598",
+      "source": "20 Heaton Road",
+      "text": "20 Heaton Road"
+    },
+    {
+      "key": "t599",
+      "source": "Heaton Road Church, Peckham SE15 3NL. Launching June 2026.",
+      "text": "Biserica Heaton Road, Peckham SE15 3NL. Lansare în iunie 2026. [[t600]]] Deschide harta [[t601]]] Newham"
+    },
+    {
+      "key": "t600",
+      "source": "Open map",
+      "text": "Deschide harta"
+    },
+    {
+      "key": "t601",
+      "source": "Newham",
+      "text": "Newham"
+    },
+    {
+      "key": "t602",
+      "source": "Monthly wellbeing support",
+      "text": "Asistență lunară de bunăstare"
+    },
+    {
+      "key": "t603",
+      "source": "Housing and wellbeing support relaunching July 2026.",
+      "text": "Relansarea sprijinului pentru locuințe și bunăstare în iulie 2026. [[t604]]] Numele tău [[t605]]] E-mail"
+    },
+    {
+      "key": "t604",
+      "source": "Your name",
+      "text": "Numele dumneavoastră"
+    },
+    {
+      "key": "t605",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t606",
+      "source": "What can we help with?",
+      "text": "Cu ce putem ajuta? [[t607]]] Mesaj"
+    },
+    {
+      "key": "t607",
+      "source": "Message",
+      "text": "Mesaj"
+    },
+    {
+      "key": "t608",
+      "source": "I agree to be contacted in line with the",
+      "text": "Sunt de acord să fiu contactat în conformitate cu [[t609]]] politica de confidențialitate [[t610]]] Trimite mesaj [[t611]]] Suntem aici [[t612]]] Oricare ar fi [[t613]]] ești [[t614]]] transport, [[t615]]] tu [[t616]]] nu [[t617]]] transportă [[t618]]] it [[t619]]] singur. [[t620]]] Dacă [[t621]]] tu [[t622]]] nevoie [[t623]]] consiliere, Comunitatea [[t624]]]. [[t625]]] suport, [[t626]]] mâncare, [[t627]]] sau [[t628]]] doar [[t629]]] cineva"
+    },
+    {
+      "key": "t609",
+      "source": "privacy policy",
+      "text": "Politica de confidențialitate"
+    },
+    {
+      "key": "t610",
+      "source": "Send message",
+      "text": "Trimite mesaj"
+    },
+    {
+      "key": "t611",
+      "source": "We're here",
+      "text": "Suntem aici"
+    },
+    {
+      "key": "t612",
+      "source": "Whatever",
+      "text": "Tot ceea ce"
+    },
+    {
+      "key": "t613",
+      "source": "you're",
+      "text": "tu esti"
+    },
+    {
+      "key": "t614",
+      "source": "carrying,",
+      "text": "purtând,"
+    },
+    {
+      "key": "t615",
+      "source": "you",
+      "text": "tu"
+    },
+    {
+      "key": "t616",
+      "source": "don't",
+      "text": "nu"
+    },
+    {
+      "key": "t617",
+      "source": "carry",
+      "text": "transporta"
+    },
+    {
+      "key": "t618",
+      "source": "it",
+      "text": "ea"
+    },
+    {
+      "key": "t619",
+      "source": "alone.",
+      "text": "singur."
+    },
+    {
+      "key": "t620",
+      "source": "Whether",
+      "text": "Dacă"
+    },
+    {
+      "key": "t621",
+      "source": "you",
+      "text": "tu"
+    },
+    {
+      "key": "t622",
+      "source": "need",
+      "text": "nevoie"
+    },
+    {
+      "key": "t623",
+      "source": "counselling,",
+      "text": "consiliere,"
+    },
+    {
+      "key": "t624",
+      "source": "community",
+      "text": "comunitate"
+    },
+    {
+      "key": "t625",
+      "source": "support,",
+      "text": "sprijin,"
+    },
+    {
+      "key": "t626",
+      "source": "food,",
+      "text": "mancare,"
+    },
+    {
+      "key": "t627",
+      "source": "or",
+      "text": "sau"
+    },
+    {
+      "key": "t628",
+      "source": "just",
+      "text": "doar"
+    },
+    {
+      "key": "t629",
+      "source": "someone",
+      "text": "cineva"
+    },
+    {
+      "key": "t630",
+      "source": "to",
+      "text": "la"
+    },
+    {
+      "key": "t631",
+      "source": "talk",
+      "text": "vorbi"
+    },
+    {
+      "key": "t632",
+      "source": "to.",
+      "text": "la."
+    },
+    {
+      "key": "t633",
+      "source": "Reach",
+      "text": "Ajunge"
+    },
+    {
+      "key": "t634",
+      "source": "out",
+      "text": "afară"
+    },
+    {
+      "key": "t635",
+      "source": "today.",
+      "text": "astăzi."
+    },
+    {
+      "key": "t636",
+      "source": "Your",
+      "text": "Dvs"
+    },
+    {
+      "key": "t637",
+      "source": "first",
+      "text": "primul"
+    },
+    {
+      "key": "t638",
+      "source": "step",
+      "text": "pas"
+    },
+    {
+      "key": "t639",
+      "source": "matters.",
+      "text": "contează."
+    },
+    {
+      "key": "t640",
+      "source": "Email us",
+      "text": "Trimite-ne un e-mail"
+    },
+    {
+      "key": "t641",
+      "source": "WhatsApp us",
+      "text": "WhatsApp noi"
+    },
+    {
+      "key": "t642",
+      "source": "Donate via PayPal",
+      "text": "Donează prin PayPal [[t643]]] Localgiving [[t644]]] Strângere de fonduri [[t645]]] Voluntar"
+    },
+    {
+      "key": "t643",
+      "source": "Localgiving",
+      "text": "Dăruirea locală"
+    },
+    {
+      "key": "t644",
+      "source": "Fundraiser",
+      "text": "Strângere de fonduri"
+    },
+    {
+      "key": "t645",
+      "source": "Volunteer",
+      "text": "Voluntar"
+    },
+    {
+      "key": "t646",
+      "source": "Policies & your privacy",
+      "text": "Politici și confidențialitatea ta"
+    },
+    {
+      "key": "t647",
+      "source": "How we protect you and your data.",
+      "text": "Cum vă protejăm și datele dvs."
+    },
+    {
+      "key": "t648",
+      "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
+      "text": "Un rezumat simplu în limba engleză a modului în care gestionăm informațiile dvs., menținem oamenii în siguranță și utilizăm module cookie. Pentru politicile complete sau orice solicitare, trimiteți un e-mail"
+    },
+    {
+      "key": "t649",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk [[t650]]] Politica de confidențialitate [[t651]]] Cine suntem."
+    },
+    {
+      "key": "t650",
+      "source": "Privacy policy",
+      "text": "Politica de confidențialitate"
+    },
+    {
+      "key": "t651",
+      "source": "Who we are.",
+      "text": "Cine suntem."
+    },
+    {
+      "key": "t652",
+      "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
+      "text": "Floating Counselling Community este o organizație de bază UK care oferă consiliere și sprijin comunității din 2015. Operăm ca FLOATING COUNSELING COMMUNITY, o companie cu garanție limitată înregistrată în Anglia și Țara Galilor, cu numărul companiei 11334515. Suntem controlorii de date pentru informațiile pe care le împărtășiți cu dumneavoastră. Pentru solicitări de confidențialitate, trimiteți un e-mail [[t653]]] info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t653",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t654",
+      "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
+      "text": "sau scrieți la biroul nostru Croydon de la 26 Avenue Road, London SE25 4DX. [[t655]]] Ce colectăm."
+    },
+    {
+      "key": "t655",
+      "source": "What we collect.",
+      "text": "Ce colectăm."
+    },
+    {
+      "key": "t656",
+      "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
+      "text": "Când ne contactați prin formularul de întrebare, prin e-mail sau WhatsApp, primim detaliile pe care alegeți să ni le furnizați — de obicei, numele dvs., adresa de e-mail, subiectul selectat și mesajul dvs. Dacă vă înscrieți la newsletter-ul nostru, vă colectăm adresa de e-mail. Nu solicităm informații de sănătate de categorie specială prin intermediul acestui site web; vă rugăm să împărtășiți doar ceea ce vă simțiți confortabil."
+    },
+    {
+      "key": "t657",
+      "source": "How we use it, and our lawful basis.",
+      "text": "Cum îl folosim și baza noastră legală."
+    },
+    {
+      "key": "t658",
+      "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
+      "text": "Utilizăm detaliile dvs. pentru a vă răspunde, pentru a vă oferi asistența pe care o solicitați și pentru a rula serviciile noastre (UK GDPR „consimțământ” și „interese legitime”). Acolo unde avem datoria de a proteja pe cineva, este posibil să procesăm informații pentru a îndeplini o obligație legală (consultați Protecția)."
+    },
+    {
+      "key": "t659",
+      "source": "Who we share it with.",
+      "text": "Cui îl distribuim."
+    },
+    {
+      "key": "t660",
+      "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
+      "text": "Nu vă vindem datele. Ne bazăm pe un număr mic de furnizori de servicii de încredere care ne ajută să rulăm site-ul web, e-mailul, formularele, aplicațiile de voluntariat, donațiile și hărțile. Fiecare furnizor primește doar informațiile necesare pentru acel serviciu și fiecare are propria sa notificare de confidențialitate. [[t661]]] Traducere."
+    },
+    {
+      "key": "t661",
+      "source": "Translation.",
+      "text": "Traducere."
+    },
+    {
+      "key": "t662",
+      "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
+      "text": "Dacă traduceți această pagină, textul paginii de pe ecran poate fi trimis în siguranță unui serviciu de traducere, astfel încât versiunea tradusă să poată fi returnată. Traducerea este opțională, mesajele din formularul de contact nu sunt traduse prin această funcție, iar textul tradus poate fi stocat în cache în browser, astfel încât să se încarce mai repede data viitoare."
+    },
+    {
+      "key": "t663",
+      "source": "How long we keep it.",
+      "text": "Cât timp îl păstrăm."
+    },
+    {
+      "key": "t664",
+      "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
+      "text": "Păstrăm detaliile privind întrebările și cererile de asistență numai atât timp cât este necesar pentru a răspunde, pentru a oferi asistență, pentru a îndeplini sarcinile de protecție și pentru a respecta obligațiile legale sau contabile. Registrele donațiilor și ale voluntarilor sunt păstrate în conformitate cu furnizorul relevant și cu cerințele legale de păstrare."
+    },
+    {
+      "key": "t665",
+      "source": "Your rights.",
+      "text": "Drepturile tale."
+    },
+    {
+      "key": "t666",
+      "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
+      "text": "În conformitate cu UK GDPR, puteți solicita accesul, corectarea, ștergerea sau restricționarea datelor dvs., opțiunea prelucrării, solicitarea portabilității sau retragerea consimțământului în orice moment. E-mail [[t667]]] info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t667",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t668",
+      "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
+      "text": "sau scrieți-ne la 26 Avenue Road, London SE25 4DX. Dacă nu sunteți mulțumit de răspunsul nostru, vă puteți reclama la ICO la ico.org.uk."
+    },
+    {
+      "key": "t669",
+      "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
+      "text": "Ultima revizuire: 29 mai 2026. Acest rezumat în limba engleză este oferit pentru transparență și trebuie verificat cu politicile complete ale Floating Counselling Community înainte de publicare. [[t670]]] Protecție [[t671]]] Angajamentul nostru."
+    },
+    {
+      "key": "t670",
+      "source": "Safeguarding",
+      "text": "Salvgardare"
+    },
+    {
+      "key": "t671",
+      "source": "Our commitment.",
+      "text": "Angajamentul nostru."
+    },
+    {
+      "key": "t672",
+      "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
+      "text": "Siguranța și bunăstarea copiilor, tinerilor și adulților cu riscuri cu care lucrăm sunt pe primul loc. Practica noastră este informată de traumă și aliniată cu standardele etice BACP."
+    },
+    {
+      "key": "t673",
+      "source": "Confidentiality and its limits.",
+      "text": "Confidențialitatea și limitele acesteia."
+    },
+    {
+      "key": "t674",
+      "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
+      "text": "Ceea ce distribuiți este păstrat în strictă confidențialitate. Excepția este o situație de salvgardare – în care există un risc de vătămare gravă pentru dvs. sau pentru altcineva sau în care avem obligația legală de a acționa. Oriunde este sigur să faceți acest lucru, vom discuta mai întâi despre asta cu dvs."
+    },
+    {
+      "key": "t675",
+      "source": "Raising a concern.",
+      "text": "Se ridică o îngrijorare."
+    },
+    {
+      "key": "t676",
+      "source": "If you're worried about someone's safety, contact us at",
+      "text": "Dacă ești îngrijorat de siguranța cuiva, contactează-ne la"
+    },
+    {
+      "key": "t677",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t678",
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "sau +44 (0)7305 882959. Dacă cineva se află în pericol imediat, sunați întotdeauna la 999. De asemenea, puteți contacta NSPCC la 0808 800 5000 sau echipa de protecție a autorității locale. [[t679]]] Oamenii noștri."
+    },
+    {
+      "key": "t679",
+      "source": "Our people.",
+      "text": "Oamenii noștri."
+    },
+    {
+      "key": "t680",
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "Personalul și voluntarii sunt recrutați în siguranță și primesc verificări DBS acolo unde este cazul pentru rolul lor. [[t681]]] Protecția lead-ului."
+    },
+    {
+      "key": "t681",
+      "source": "Safeguarding lead.",
+      "text": "Protejarea plumbului."
+    },
+    {
+      "key": "t682",
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, director și ofițer de protecție. E-mail"
+    },
+    {
+      "key": "t683",
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatingcounsellinglinda@gmail.com [[t684]]] sau [[t685]]] info@floatingcounselling.co.uk [[t686]]] . Dacă cineva se află în pericol imediat, sunați la 999."
+    },
+    {
+      "key": "t684",
+      "source": "or",
+      "text": "sau"
+    },
+    {
+      "key": "t685",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t686",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". Dacă cineva se află în pericol imediat, sunați la 999."
+    },
+    {
+      "key": "t687",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Ultima revizuire: 29 mai 2026. Acest rezumat ar trebui verificat cu politica de protecție completă a Floating Counselling Community înainte de publicare. [[t688]]] Cookie-uri și stocare"
+    },
+    {
+      "key": "t688",
+      "source": "Cookies & storage",
+      "text": "Cookie-uri și stocare"
+    },
+    {
+      "key": "t689",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "Menținem cookie-urile la minimum și nu folosim reclame sau urmărire pe mai multe site-uri. Site-ul stochează câteva articole mici în browser: [[t690]]] Consimțământ pentru cookie-uri"
+    },
+    {
+      "key": "t690",
+      "source": "Cookie consent",
+      "text": "Consimțământ pentru cookie-uri"
+    },
+    {
+      "key": "t691",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— își amintește că ați văzut această notificare, așa că nu o arătăm la fiecare vizită. [[t692]]] Cache de traducere"
+    },
+    {
+      "key": "t692",
+      "source": "Translation cache",
+      "text": "Cache de traducere"
+    },
+    {
+      "key": "t693",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "— dacă traduceți pagina, textul tradus este salvat local, astfel încât să se încarce instantaneu data viitoare."
+    },
+    {
+      "key": "t694",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "Harta Google încorporată poate seta propriile cookie-uri Google atunci când se încarcă. Puteți șterge toate cele de mai sus în orice moment ștergând datele site-ului browserului dvs."
+    },
+    {
+      "key": "t695",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "Consiliere, comunitate și compasiune, care deservesc Croydon, Redbridge, Newham, Durham și Southwark din 2015."
+    },
+    {
+      "key": "t696",
+      "source": "Get in touch",
+      "text": "Luați legătura"
+    },
+    {
+      "key": "t697",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t698",
+      "source": "WhatsApp · +44 (0)7305 882959",
+      "text": "WhatsApp · +44 (0)7305 882959"
+    },
+    {
+      "key": "t699",
+      "source": "Croydon Hub · Ashburton Park Cafe Hall",
+      "text": "Croydon Hub · Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t700",
+      "source": "See all project locations",
+      "text": "Vedeți toate locațiile proiectelor [[t701]]] Strângere de fonduri [[t702]]] Voluntar"
+    },
+    {
+      "key": "t701",
+      "source": "Fundraiser",
+      "text": "Strângere de fonduri"
+    },
+    {
+      "key": "t702",
+      "source": "Volunteer",
+      "text": "Voluntar"
+    },
+    {
+      "key": "t703",
+      "source": "Croydon office",
+      "text": "birou Croydon"
+    },
+    {
+      "key": "t704",
+      "source": "Redbridge office",
+      "text": "birou Redbridge"
+    },
+    {
+      "key": "t705",
+      "source": "Durham hub",
+      "text": "Durham hub"
+    },
+    {
+      "key": "t706",
+      "source": "Southwark hub",
+      "text": "Southwark hub"
+    },
+    {
+      "key": "t707",
+      "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
+      "text": "Floating Counselling™ · BACP-aliniat · Nr. 11334515 · Partener comunitar [[t708]]] Confidențialitate [[t709]]] Protecție [[t710]]] Strângere de fonduri [[t711]]] Donează"
+    },
+    {
+      "key": "t708",
+      "source": "Privacy",
+      "text": "Confidențialitate"
+    },
+    {
+      "key": "t709",
+      "source": "Safeguarding",
+      "text": "Salvgardare"
+    },
+    {
+      "key": "t710",
+      "source": "Fundraiser",
+      "text": "Strângere de fonduri"
+    },
+    {
+      "key": "t711",
+      "source": "Donate",
+      "text": "Dona"
+    },
+    {
+      "key": "t712",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t713",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t714",
+      "source": "Choose a quick route",
+      "text": "Alegeți o rută rapidă"
+    },
+    {
+      "key": "t715",
+      "source": "If you are not sure which service fits, choose the closest option and we will route you.",
+      "text": "Dacă nu sunteți sigur care serviciu se potrivește, alegeți cea mai apropiată opțiune și vă vom direcționa. [[t716]]] Cerere de consiliere"
+    },
+    {
+      "key": "t716",
+      "source": "Counselling enquiry",
+      "text": "Cerere de consiliere"
+    },
+    {
+      "key": "t717",
+      "source": "Parenting support",
+      "text": "Asistență pentru părinți [[t718]]] Alimentare sau centru comunitar [[t719]]] Școală de vacanță [[t720]]] Strângere de fonduri [[t721]]] Voluntar sau partener"
+    },
+    {
+      "key": "t718",
+      "source": "Food or community hub",
+      "text": "Alimentare sau centru comunitar"
+    },
+    {
+      "key": "t719",
+      "source": "Holiday school",
+      "text": "Scoala de vacanta"
+    },
+    {
+      "key": "t720",
+      "source": "Fundraiser",
+      "text": "Strângere de fonduri"
+    },
+    {
+      "key": "t721",
+      "source": "Volunteer or partner",
+      "text": "Voluntar sau partener"
+    },
+    {
+      "key": "t722",
+      "source": "WhatsApp Floating",
+      "text": "WhatsApp Plutitor"
+    },
+    {
+      "key": "t723",
+      "source": "We use a small number of cookies to make this site work and to understand how it's used.",
+      "text": "Folosim un număr mic de cookie-uri pentru a face acest site să funcționeze și pentru a înțelege cum este utilizat. [[t724]]] Mai multe informații [[t725]]] Refuzați [[t726]]] Accept [[a727]]] Primar [[a728]]] Floating Counselling — Acasă [[a729]]] Floating Counselling [[a730]]] Comută navigarea"
+    },
+    {
+      "key": "t724",
+      "source": "More info",
+      "text": "Mai multe informații"
+    },
+    {
+      "key": "t725",
+      "source": "Decline",
+      "text": "Declin"
+    },
+    {
+      "key": "t726",
+      "source": "Accept",
+      "text": "Accepta"
+    },
+    {
+      "key": "a727",
+      "source": "Primary",
+      "text": "Primar"
+    },
+    {
+      "key": "a728",
+      "source": "Floating Counselling — Home",
+      "text": "Consiliere flotantă — Acasă"
+    },
+    {
+      "key": "a729",
+      "source": "Floating Counselling",
+      "text": "Consiliere flotantă"
+    },
+    {
+      "key": "a730",
+      "source": "Toggle navigation",
+      "text": "Comutați navigarea"
+    },
+    {
+      "key": "a731",
+      "source": "Counselling conversation at Floating Counselling",
+      "text": "Conversație de consiliere la Floating Counselling [[a732]]] Derulați la impact [[a733]]] Impactul nostru"
+    },
+    {
+      "key": "a732",
+      "source": "Scroll to impact",
+      "text": "Derulați la impact"
+    },
+    {
+      "key": "a733",
+      "source": "Our impact",
+      "text": "Impactul nostru"
+    },
+    {
+      "key": "a734",
+      "source": "Celestina Oniye-Thomas from Floating Counselling",
+      "text": "Celestina Oniye-Thomas de la Floating Counselling"
+    },
+    {
+      "key": "a735",
+      "source": "Impact Parenting support artwork from Floating Counselling",
+      "text": "Impact Parenting acceptă lucrări de artă de la Floating Counselling"
+    },
+    {
+      "key": "a736",
+      "source": "Floating Counselling community organisation impact infographic",
+      "text": "Infografic de impact al organizației comunitare Floating Counselling [[a737]]] Valorile școlii de vacanță [[a738]]] Buletin informativ pentru Săptămâna 1 a școlii de vacanță"
+    },
+    {
+      "key": "a737",
+      "source": "Holiday school values",
+      "text": "Valorile școlii de vacanță"
+    },
+    {
+      "key": "a738",
+      "source": "Holiday school week 1 newsletter",
+      "text": "Buletin informativ săptămâna 1 a școlii de vacanță"
+    },
+    {
+      "key": "a739",
+      "source": "Floating Community Hub community gathering",
+      "text": "Adunarea comunității flotant Community Hub [[a740]]] Celestina Oniye-Thomas [[a741]]] Omowonu-Ola Ogunlela [[a742]]] Elizabeth Owode [[a743]]] Linda Yeboah [[a744]]] Departamentul pentru Educație [[a745]]] Consiliul Croydon [[a746]]] CCG-uri London de Sud-Vest"
+    },
+    {
+      "key": "a740",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "a741",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela"
+    },
+    {
+      "key": "a742",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode"
+    },
+    {
+      "key": "a743",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah"
+    },
+    {
+      "key": "a744",
+      "source": "Department for Education",
+      "text": "Departamentul pentru Educație"
+    },
+    {
+      "key": "a745",
+      "source": "Croydon Council",
+      "text": "Consiliul Croydon"
+    },
+    {
+      "key": "a746",
+      "source": "South West London CCGs",
+      "text": "CCG-uri din sud-vestul Londrei"
+    },
+    {
+      "key": "a747",
+      "source": "The National Lottery Community Fund",
+      "text": "Fondul comunitar al Loteriei Naționale [[a748]]] Forumul BME"
+    },
+    {
+      "key": "a748",
+      "source": "BME Forum",
+      "text": "Forumul BME"
+    },
+    {
+      "key": "a749",
+      "source": "Croydon Voluntary Action",
+      "text": "Croydon Acțiune voluntară"
+    },
+    {
+      "key": "a750",
+      "source": "Volunteer application form",
+      "text": "Formular de cerere de voluntariat [[a751]]] Locațiile proiectului [[a752]]] Linkuri sociale [[a753]]] Facebook [[a754]]] Instagram [[a755]]] Twitter / X [[a756]]] YouTube [[a757]]] Floating Counselling — Acasă [[a758]]] Floating Counselling [[a759]]] Linkuri sociale [[a760]]] Facebook [[a761]]] Instagram [[a762]]] Twitter / X [[a763]]] YouTube [[a764]]] Locațiile proiectului"
+    },
+    {
+      "key": "a751",
+      "source": "Project locations",
+      "text": "Locațiile proiectului"
+    },
+    {
+      "key": "a752",
+      "source": "Social links",
+      "text": "Legături sociale"
+    },
+    {
+      "key": "a753",
+      "source": "Facebook",
+      "text": "Facebook"
+    },
+    {
+      "key": "a754",
+      "source": "Instagram",
+      "text": "Instagram"
+    },
+    {
+      "key": "a755",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a756",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a757",
+      "source": "Floating Counselling — Home",
+      "text": "Consiliere flotantă — Acasă"
+    },
+    {
+      "key": "a758",
+      "source": "Floating Counselling",
+      "text": "Consiliere flotantă"
+    },
+    {
+      "key": "a759",
+      "source": "Social links",
+      "text": "Legături sociale"
+    },
+    {
+      "key": "a760",
+      "source": "Facebook",
+      "text": "Facebook"
+    },
+    {
+      "key": "a761",
+      "source": "Instagram",
+      "text": "Instagram"
+    },
+    {
+      "key": "a762",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a763",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a764",
+      "source": "Project locations",
+      "text": "Locațiile proiectului"
+    },
+    {
+      "key": "a765",
+      "source": "Fundraise for Floating Counselling",
+      "text": "Strângere de fonduri pentru Floating Counselling"
+    },
+    {
+      "key": "a766",
+      "source": "Donate to Floating Counselling",
+      "text": "Donează către Floating Counselling [[a767]]] Înapoi sus [[a768]]] Ask Floating [[a769]]] Închide asistentul"
+    },
+    {
+      "key": "a767",
+      "source": "Back to top",
+      "text": "Înapoi sus"
+    },
+    {
+      "key": "a768",
+      "source": "Ask Floating",
+      "text": "Întreabă Floating"
+    },
+    {
+      "key": "a769",
+      "source": "Close assistant",
+      "text": "Asistent apropiat"
+    },
+    {
+      "key": "a770",
+      "source": "Cookie notice",
+      "text": "Notificare privind cookie-urile"
+    }
+  ]
+}

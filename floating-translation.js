@@ -25,6 +25,7 @@
   const BATCH_MAX_CHARS = 12000;
   const MAX_PARALLEL_BATCHES = 3;
   const CACHE_VERSION = 'floating-translation-v1';
+  const RTL_LANGUAGES = new Set(['ar', 'ur']);
   const TEXT_ATTRS = ['aria-label', 'alt', 'placeholder', 'title'];
   const SKIP_SELECTOR = [
     'script',
@@ -132,10 +133,39 @@
     return meta && meta.content ? meta.content.trim() : '';
   }
 
+  function staticBaseFromPage(select) {
+    const selectBase = select && select.getAttribute('data-translation-static-base');
+    if (selectBase) return selectBase.trim();
+
+    const config = window.FloatingTranslationConfig || {};
+    if (typeof config.staticBase === 'string' && config.staticBase.trim()) {
+      return config.staticBase.trim();
+    }
+
+    if (typeof window.FloatingTranslationStaticBase === 'string' && window.FloatingTranslationStaticBase.trim()) {
+      return window.FloatingTranslationStaticBase.trim();
+    }
+
+    const meta = document.querySelector('meta[name="floating-translation-static-base"]');
+    return meta && meta.content ? meta.content.trim() : '';
+  }
+
   function pageUrlWithoutHash() {
     const url = new URL(window.location.href);
     url.hash = '';
     return url.toString();
+  }
+
+  function normalizeBaseUrl(value) {
+    const raw = String(value || '').trim();
+    if (!raw) return '';
+
+    try {
+      const url = new URL(raw, pageUrlWithoutHash()).toString();
+      return url.endsWith('/') ? url : `${url}/`;
+    } catch (error) {
+      return '';
+    }
   }
 
   function ensureStatus(select) {
@@ -160,12 +190,16 @@
   }
 
   function setDocumentLanguage(root, language) {
+    const direction = RTL_LANGUAGES.has(language) ? 'rtl' : 'ltr';
+
     if (root && root.host && root.host.setAttribute) {
       root.host.setAttribute('lang', language);
+      root.host.setAttribute('dir', direction);
       return;
     }
 
     document.documentElement.lang = language;
+    document.documentElement.dir = direction;
   }
 
   async function requestTranslations(endpoint, payload) {
@@ -200,6 +234,38 @@
       }
     });
     return map;
+  }
+
+  async function requestStaticTranslations(staticBase, language, sourceHash, entries) {
+    const base = normalizeBaseUrl(staticBase);
+    if (!base) return null;
+
+    const response = await fetch(`${base}${encodeURIComponent(language)}.json?v=${encodeURIComponent(sourceHash)}`, {
+      cache: 'force-cache',
+    });
+
+    if (response.status === 404) return null;
+    if (!response.ok) throw new Error(`Static translation request failed (${response.status})`);
+
+    const data = await response.json();
+    const translations = data && Array.isArray(data.translations) ? data.translations : null;
+    if (!translations || data.language !== language) return null;
+
+    if (data.sourceHash === sourceHash) return translations;
+
+    const bySource = new Map();
+    translations.forEach((item) => {
+      if (item && typeof item.source === 'string' && typeof item.text === 'string') {
+        bySource.set(cleanText(item.source), item.text);
+      }
+    });
+
+    const remapped = entries.map((entry) => {
+      const translated = bySource.get(cleanText(entry.text));
+      return translated ? { key: entry.key, text: translated } : null;
+    });
+
+    return remapped.every(Boolean) ? remapped : null;
   }
 
   function estimatedPayloadChars(entry) {
@@ -249,6 +315,12 @@
       if (typeof settings.endpoint === 'function') return String(settings.endpoint() || '').trim();
       if (typeof settings.endpoint === 'string') return settings.endpoint.trim();
       return endpointFromPage(select);
+    }
+
+    function getStaticBase() {
+      if (typeof settings.staticBase === 'function') return String(settings.staticBase() || '').trim();
+      if (typeof settings.staticBase === 'string') return settings.staticBase.trim();
+      return staticBaseFromPage(select);
     }
 
     function getPageUrl() {
@@ -344,19 +416,11 @@
 
     async function translate(language) {
       const runId = (translationRunId += 1);
-      const endpoint = getEndpoint();
       const entries = collect();
       const targetLabel = languageName(language);
 
       if (!entries.length) {
         setStatus(status, '', '');
-        return;
-      }
-
-      if (!endpoint) {
-        select.value = 'en';
-        setStatus(status, 'Translation is temporarily unavailable', 'fallback');
-        window.setTimeout(() => setStatus(status, '', ''), 2600);
         return;
       }
 
@@ -368,8 +432,23 @@
         const sourceHash = hashString(entries.map((entry) => entry.text).join('\u001f'));
         const cacheKey = `${CACHE_VERSION}:${language}:${sourceHash}`;
         let translated = readCached(cacheKey);
+        let shouldCacheTranslated = false;
 
         if (!translated) {
+          try {
+            translated = await requestStaticTranslations(getStaticBase(), language, sourceHash, entries);
+            shouldCacheTranslated = Boolean(translated);
+          } catch (error) {
+            translated = null;
+          }
+        }
+
+        if (!translated) {
+          const endpoint = getEndpoint();
+          if (!endpoint) {
+            throw new Error('Translation endpoint is not configured');
+          }
+
           translated = [];
           const batches = createBatches(entries);
           let nextBatchIndex = 0;
@@ -430,8 +509,10 @@
             throw error;
           }
 
-          writeCached(cacheKey, translated);
+          shouldCacheTranslated = true;
         }
+
+        if (shouldCacheTranslated) writeCached(cacheKey, translated);
 
         if (runId !== translationRunId) return;
 

@@ -1,6 +1,30 @@
 # Branded Translation Setup
 
-The language selector now translates the page in-place through the Vercel function at `/api/translate`.
+The language selector translates the page in-place. It first checks static JSON files in `/translations/` so prebuilt languages can load immediately, then falls back to the Vercel function at `/api/translate` only when a file is missing or stale.
+
+## Static Translation Files
+
+Generate the prebuilt language JSON files after changing page copy:
+
+```sh
+NODE_PATH=/Users/srikarreddy/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules \
+node scripts/build-static-translations.js --force
+```
+
+If the live translation function is unavailable while generating files, use the generation fallback:
+
+```sh
+NODE_PATH=/Users/srikarreddy/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules \
+node scripts/build-static-translations.js --force --provider=google
+```
+
+The script writes:
+
+- `translations/source.json`
+- `translations/manifest.json`
+- `translations/ar.json`, `translations/es.json`, etc.
+
+The static files include a source hash. If the live page text changes and the hash no longer matches, the site safely falls back to the live translator rather than showing stale copy.
 
 ## Vercel Environment Variables
 
@@ -38,4 +62,4 @@ If the Wix custom element is used outside the Vercel-hosted site, keep this endp
 const floatingTranslationEndpoint = "https://floting.vercel.app/api/translate";
 ```
 
-The API key must only live in Vercel environment variables.
+The static translation base is published through `build-manifest.json` as `translationStaticBase`, so Wix reads the JSON files from Vercel without needing another page-code edit. The API key must only live in Vercel environment variables.

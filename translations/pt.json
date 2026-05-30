@@ -1,0 +1,3865 @@
+{
+  "language": "pt",
+  "languageName": "Portuguese",
+  "sourceLanguage": "en",
+  "sourceHash": "oouxuf",
+  "sourceUrl": "http://127.0.0.1:63690/",
+  "generatedAt": "2026-05-30T10:21:05.459Z",
+  "translations": [
+    {
+      "key": "t0",
+      "source": "Floating Counselling — Counselling, Community & Compassion · Croydon & London",
+      "text": "Floating Counselling — Aconselhamento, Comunidade e Compaixão · Croydon e London"
+    },
+    {
+      "key": "t1",
+      "source": "Skip to content",
+      "text": "Pular para o conteúdo"
+    },
+    {
+      "key": "t2",
+      "source": "Services",
+      "text": "Serviços"
+    },
+    {
+      "key": "t3",
+      "source": "Find help",
+      "text": "Encontre ajuda"
+    },
+    {
+      "key": "t4",
+      "source": "Parenting",
+      "text": "Paternidade"
+    },
+    {
+      "key": "t5",
+      "source": "Holiday School",
+      "text": "Escola de Férias"
+    },
+    {
+      "key": "t6",
+      "source": "Hub",
+      "text": "Central"
+    },
+    {
+      "key": "t7",
+      "source": "Fundraiser",
+      "text": "Arrecadação de fundos"
+    },
+    {
+      "key": "t8",
+      "source": "Volunteer",
+      "text": "Voluntário"
+    },
+    {
+      "key": "t9",
+      "source": "Translate website",
+      "text": "Traduzir site"
+    },
+    {
+      "key": "t10",
+      "source": "Book a Session",
+      "text": "Agende uma sessão"
+    },
+    {
+      "key": "t11",
+      "source": "Croydon · Redbridge · Newham · Durham · Southwark",
+      "text": "Croydon · Redbridge · Newham · Durham · Southwark"
+    },
+    {
+      "key": "t12",
+      "source": "Counselling,",
+      "text": "Aconselhamento,"
+    },
+    {
+      "key": "t13",
+      "source": "Community",
+      "text": "Comunidade"
+    },
+    {
+      "key": "t14",
+      "source": "Compassion.",
+      "text": "Compaixão."
+    },
+    {
+      "key": "t15",
+      "source": "A",
+      "text": "Um"
+    },
+    {
+      "key": "t16",
+      "source": "UK-based",
+      "text": "Baseado em UK"
+    },
+    {
+      "key": "t17",
+      "source": "grassroots",
+      "text": "base"
+    },
+    {
+      "key": "t18",
+      "source": "charity",
+      "text": "caridade"
+    },
+    {
+      "key": "t19",
+      "source": "empowering",
+      "text": "empoderamento"
+    },
+    {
+      "key": "t20",
+      "source": "individuals,",
+      "text": "indivíduos,"
+    },
+    {
+      "key": "t21",
+      "source": "families",
+      "text": "famílias"
+    },
+    {
+      "key": "t22",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t23",
+      "source": "marginalised",
+      "text": "marginalizado"
+    },
+    {
+      "key": "t24",
+      "source": "groups",
+      "text": "grupos"
+    },
+    {
+      "key": "t25",
+      "source": "through",
+      "text": "através"
+    },
+    {
+      "key": "t26",
+      "source": "holistic",
+      "text": "holístico"
+    },
+    {
+      "key": "t27",
+      "source": "support,",
+      "text": "suporte,"
+    },
+    {
+      "key": "t28",
+      "source": "therapeutic",
+      "text": "terapêutico"
+    },
+    {
+      "key": "t29",
+      "source": "care,",
+      "text": "cuidado,"
+    },
+    {
+      "key": "t30",
+      "source": "practical",
+      "text": "prático"
+    },
+    {
+      "key": "t31",
+      "source": "help",
+      "text": "ajuda"
+    },
+    {
+      "key": "t32",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t33",
+      "source": "community-driven",
+      "text": "impulsionado pela comunidade"
+    },
+    {
+      "key": "t34",
+      "source": "programmes",
+      "text": "programas"
+    },
+    {
+      "key": "t35",
+      "source": "designed",
+      "text": "projetado"
+    },
+    {
+      "key": "t36",
+      "source": "as",
+      "text": "como"
+    },
+    {
+      "key": "t37",
+      "source": "wraparound",
+      "text": "envolvente"
+    },
+    {
+      "key": "t38",
+      "source": "care.",
+      "text": "cuidado."
+    },
+    {
+      "key": "t39",
+      "source": "Book a Session",
+      "text": "Agende uma sessão"
+    },
+    {
+      "key": "t40",
+      "source": "Find the right support",
+      "text": "Encontre o suporte certo"
+    },
+    {
+      "key": "t41",
+      "source": "CO",
+      "text": "CO"
+    },
+    {
+      "key": "t42",
+      "source": "OO",
+      "text": "OO"
+    },
+    {
+      "key": "t43",
+      "source": "EO",
+      "text": "EO"
+    },
+    {
+      "key": "t44",
+      "source": "LY",
+      "text": "LY"
+    },
+    {
+      "key": "t45",
+      "source": "Led by four women directors with clinical training, lived experience and deep community roots.",
+      "text": "Liderado por quatro mulheres diretoras com formação clínica, experiência vivida e profundas raízes comunitárias."
+    },
+    {
+      "key": "t46",
+      "source": "Trauma-informed",
+      "text": "Informado sobre trauma"
+    },
+    {
+      "key": "t47",
+      "source": "Care that meets you where you are",
+      "text": "Cuidado que vai ao encontro de você onde você estiver"
+    },
+    {
+      "key": "t48",
+      "source": "5 project areas",
+      "text": "5 áreas do projeto"
+    },
+    {
+      "key": "t49",
+      "source": "Croydon · Redbridge · Newham · Durham · Southwark",
+      "text": "Croydon · Redbridge · Newham · Durham · Southwark"
+    },
+    {
+      "key": "t50",
+      "source": "Scroll",
+      "text": "Rolar"
+    },
+    {
+      "key": "t51",
+      "source": "Find the right support",
+      "text": "Encontre o suporte certo"
+    },
+    {
+      "key": "t52",
+      "source": "Choose",
+      "text": "Escolha"
+    },
+    {
+      "key": "t53",
+      "source": "the",
+      "text": "o"
+    },
+    {
+      "key": "t54",
+      "source": "help",
+      "text": "ajuda"
+    },
+    {
+      "key": "t55",
+      "source": "you",
+      "text": "você"
+    },
+    {
+      "key": "t56",
+      "source": "need",
+      "text": "necessidade"
+    },
+    {
+      "key": "t57",
+      "source": "today.",
+      "text": "hoje."
+    },
+    {
+      "key": "t58",
+      "source": "Tell",
+      "text": "Diga"
+    },
+    {
+      "key": "t59",
+      "source": "us",
+      "text": "nós"
+    },
+    {
+      "key": "t60",
+      "source": "what",
+      "text": "o que"
+    },
+    {
+      "key": "t61",
+      "source": "feels",
+      "text": "sente"
+    },
+    {
+      "key": "t62",
+      "source": "most",
+      "text": "mais"
+    },
+    {
+      "key": "t63",
+      "source": "urgent",
+      "text": "urgente"
+    },
+    {
+      "key": "t64",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t65",
+      "source": "we",
+      "text": "nós"
+    },
+    {
+      "key": "t66",
+      "source": "will",
+      "text": "irá"
+    },
+    {
+      "key": "t67",
+      "source": "point",
+      "text": "ponto"
+    },
+    {
+      "key": "t68",
+      "source": "you",
+      "text": "você"
+    },
+    {
+      "key": "t69",
+      "source": "towards",
+      "text": "em direção"
+    },
+    {
+      "key": "t70",
+      "source": "the",
+      "text": "o"
+    },
+    {
+      "key": "t71",
+      "source": "right",
+      "text": "certo"
+    },
+    {
+      "key": "t72",
+      "source": "support,",
+      "text": "suporte,"
+    },
+    {
+      "key": "t73",
+      "source": "whether",
+      "text": "se"
+    },
+    {
+      "key": "t74",
+      "source": "that",
+      "text": "que"
+    },
+    {
+      "key": "t75",
+      "source": "starts",
+      "text": "começa"
+    },
+    {
+      "key": "t76",
+      "source": "with",
+      "text": "com"
+    },
+    {
+      "key": "t77",
+      "source": "therapy,",
+      "text": "terapia,"
+    },
+    {
+      "key": "t78",
+      "source": "practical",
+      "text": "prático"
+    },
+    {
+      "key": "t79",
+      "source": "help,",
+      "text": "ajuda,"
+    },
+    {
+      "key": "t80",
+      "source": "family",
+      "text": "família"
+    },
+    {
+      "key": "t81",
+      "source": "work",
+      "text": "trabalho"
+    },
+    {
+      "key": "t82",
+      "source": "or",
+      "text": "ou"
+    },
+    {
+      "key": "t83",
+      "source": "a",
+      "text": "um"
+    },
+    {
+      "key": "t84",
+      "source": "partnership",
+      "text": "parceria"
+    },
+    {
+      "key": "t85",
+      "source": "conversation.",
+      "text": "conversa."
+    },
+    {
+      "key": "t86",
+      "source": "Therapy",
+      "text": "Terapia"
+    },
+    {
+      "key": "t87",
+      "source": "I need counselling",
+      "text": "Preciso de aconselhamento"
+    },
+    {
+      "key": "t88",
+      "source": "Start with one-to-one, family, couple, group, online or in-person therapeutic support.",
+      "text": "Comece com apoio terapêutico individual, familiar, de casal, em grupo, on-line ou presencial."
+    },
+    {
+      "key": "t89",
+      "source": "Book a session",
+      "text": "Agende uma sessão"
+    },
+    {
+      "key": "t90",
+      "source": "Family",
+      "text": "Família"
+    },
+    {
+      "key": "t91",
+      "source": "I need parenting support",
+      "text": "Preciso de apoio parental"
+    },
+    {
+      "key": "t92",
+      "source": "Get practical tools for behaviour, attachment, trauma recovery and family confidence.",
+      "text": "Obtenha ferramentas práticas para comportamento, apego, recuperação de traumas e confiança familiar."
+    },
+    {
+      "key": "t93",
+      "source": "View parenting help",
+      "text": "Ver ajuda para pais"
+    },
+    {
+      "key": "t94",
+      "source": "Community",
+      "text": "Comunidade"
+    },
+    {
+      "key": "t95",
+      "source": "I need practical help",
+      "text": "Preciso de ajuda prática"
+    },
+    {
+      "key": "t96",
+      "source": "Use the hub for food, clothing, forms, housing questions, bills help, digital inclusion and wellbeing support.",
+      "text": "Use o centro para obter alimentação, roupas, formulários, dúvidas sobre moradia, ajuda com contas, inclusão digital e apoio ao bem-estar."
+    },
+    {
+      "key": "t97",
+      "source": "Visit the hub",
+      "text": "Visite o hub"
+    },
+    {
+      "key": "t98",
+      "source": "Partners",
+      "text": "Parceiros"
+    },
+    {
+      "key": "t99",
+      "source": "I want to volunteer or partner",
+      "text": "Quero ser voluntário ou parceiro"
+    },
+    {
+      "key": "t100",
+      "source": "Support local residents through food donations, funding, fundraising, skills, events or professional help.",
+      "text": "Apoie os residentes locais através de doações de alimentos, financiamento, arrecadação de fundos, habilidades, eventos ou ajuda profissional."
+    },
+    {
+      "key": "t101",
+      "source": "Volunteer with us",
+      "text": "Seja voluntário conosco"
+    },
+    {
+      "key": "t102",
+      "source": "Not sure where to start?",
+      "text": "Não sabe por onde começar?"
+    },
+    {
+      "key": "t103",
+      "source": "Tap Ask Floating to find the right service, or send one WhatsApp message and we will route you.",
+      "text": "Toque em Ask Floating para encontrar o serviço certo ou envie uma mensagem WhatsApp e nós encaminharemos você."
+    },
+    {
+      "key": "t104",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t105",
+      "source": "A",
+      "text": "Um"
+    },
+    {
+      "key": "t106",
+      "source": "decade",
+      "text": "década"
+    },
+    {
+      "key": "t107",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t108",
+      "source": "grassroots",
+      "text": "base"
+    },
+    {
+      "key": "t109",
+      "source": "care,",
+      "text": "cuidado,"
+    },
+    {
+      "key": "t110",
+      "source": "by",
+      "text": "por"
+    },
+    {
+      "key": "t111",
+      "source": "the",
+      "text": "o"
+    },
+    {
+      "key": "t112",
+      "source": "numbers.",
+      "text": "números."
+    },
+    {
+      "key": "t113",
+      "source": "Counselling sessions delivered",
+      "text": "Sessões de aconselhamento ministradas"
+    },
+    {
+      "key": "t114",
+      "source": "Clinical hours of care",
+      "text": "Horas clínicas de atendimento"
+    },
+    {
+      "key": "t115",
+      "source": "Combined clinical experience",
+      "text": "Experiência clínica combinada"
+    },
+    {
+      "key": "t116",
+      "source": "Children supported through holiday school",
+      "text": "Crianças apoiadas através da escola de férias"
+    },
+    {
+      "key": "t117",
+      "source": "Continuous service to community",
+      "text": "Serviço contínuo à comunidade"
+    },
+    {
+      "key": "t118",
+      "source": "Practical community support and therapeutic care sit together, so people can stabilise today and grow tomorrow.",
+      "text": "O apoio comunitário prático e os cuidados terapêuticos andam juntos, para que as pessoas possam se estabilizar hoje e crescer amanhã."
+    },
+    {
+      "key": "t119",
+      "source": "What we offer",
+      "text": "O que oferecemos"
+    },
+    {
+      "key": "t120",
+      "source": "Core",
+      "text": "Núcleo"
+    },
+    {
+      "key": "t121",
+      "source": "support,",
+      "text": "suporte,"
+    },
+    {
+      "key": "t122",
+      "source": "without",
+      "text": "sem"
+    },
+    {
+      "key": "t123",
+      "source": "the",
+      "text": "o"
+    },
+    {
+      "key": "t124",
+      "source": "maze.",
+      "text": "labirinto."
+    },
+    {
+      "key": "t125",
+      "source": "Start",
+      "text": "Iniciar"
+    },
+    {
+      "key": "t126",
+      "source": "with",
+      "text": "com"
+    },
+    {
+      "key": "t127",
+      "source": "the",
+      "text": "o"
+    },
+    {
+      "key": "t128",
+      "source": "kind",
+      "text": "tipo"
+    },
+    {
+      "key": "t129",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t130",
+      "source": "help",
+      "text": "ajuda"
+    },
+    {
+      "key": "t131",
+      "source": "you",
+      "text": "você"
+    },
+    {
+      "key": "t132",
+      "source": "need",
+      "text": "necessidade"
+    },
+    {
+      "key": "t133",
+      "source": "most.",
+      "text": "mais."
+    },
+    {
+      "key": "t134",
+      "source": "We",
+      "text": "Nós"
+    },
+    {
+      "key": "t135",
+      "source": "will",
+      "text": "irá"
+    },
+    {
+      "key": "t136",
+      "source": "route",
+      "text": "rota"
+    },
+    {
+      "key": "t137",
+      "source": "you",
+      "text": "você"
+    },
+    {
+      "key": "t138",
+      "source": "to",
+      "text": "para"
+    },
+    {
+      "key": "t139",
+      "source": "the",
+      "text": "o"
+    },
+    {
+      "key": "t140",
+      "source": "right",
+      "text": "certo"
+    },
+    {
+      "key": "t141",
+      "source": "person",
+      "text": "pessoa"
+    },
+    {
+      "key": "t142",
+      "source": "from",
+      "text": "de"
+    },
+    {
+      "key": "t143",
+      "source": "there.",
+      "text": "aí."
+    },
+    {
+      "key": "t144",
+      "source": "Counselling & Mentoring",
+      "text": "Aconselhamento e Mentoria"
+    },
+    {
+      "key": "t145",
+      "source": "Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person across our project boroughs and online, with free and low-cost care for elderly, Universal Credit and low-income clients.",
+      "text": "Mais de 15.000 sessões de terapia individual, em grupo, de casal e familiar ministradas por psicoterapeutas qualificados. Presencialmente em todos os distritos do nosso projeto e online, com atendimento gratuito e de baixo custo para idosos, Crédito Universal e clientes de baixa renda."
+    },
+    {
+      "key": "t146",
+      "source": "Get started",
+      "text": "Comece"
+    },
+    {
+      "key": "t147",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t148",
+      "source": "Workshops, 1:1 mentoring and group programmes for parents, including therapeutic camps, the Impact Parenting Pillar training and a private support group.",
+      "text": "Workshops, mentoria individual e programas de grupo para pais, incluindo acampamentos terapêuticos, treinamento Impact Parenting Pillar e um grupo de apoio privado."
+    },
+    {
+      "key": "t149",
+      "source": "Learn more",
+      "text": "Saiba mais"
+    },
+    {
+      "key": "t150",
+      "source": "Floating Community Hub",
+      "text": "Centro comunitário flutuante"
+    },
+    {
+      "key": "t151",
+      "source": "A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Newham, Durham and Southwark, offering practical support, wellbeing services and advocacy.",
+      "text": "Um hub Croydon semanal em Ashburton Park Cafe Hall, além de projetos comunitários em Redbridge, Newham, Durham e Southwark, oferecendo suporte prático, serviços de bem-estar e defesa de direitos."
+    },
+    {
+      "key": "t152",
+      "source": "Find out more",
+      "text": "Saiba mais"
+    },
+    {
+      "key": "t153",
+      "source": "Holiday School & Camps",
+      "text": "Escola de Férias e Acampamentos"
+    },
+    {
+      "key": "t154",
+      "source": "Art therapy, music, play therapy and psychological techniques for children aged 5 to 11. Over 1,400 children registered across recent programmes.",
+      "text": "Arteterapia, música, ludoterapia e técnicas psicológicas para crianças de 5 a 11 anos. Mais de 1.400 crianças inscritas em programas recentes."
+    },
+    {
+      "key": "t155",
+      "source": "Register",
+      "text": "Cadastre-se"
+    },
+    {
+      "key": "t156",
+      "source": "Food Bank & Essentials",
+      "text": "Banco de Alimentos e Fundamentos"
+    },
+    {
+      "key": "t157",
+      "source": "Weekly donated food, clothes and practical essentials for individuals and families who need immediate support.",
+      "text": "Doação semanal de alimentos, roupas e itens essenciais para indivíduos e famílias que precisam de apoio imediato."
+    },
+    {
+      "key": "t158",
+      "source": "Visit the hub",
+      "text": "Visite o hub"
+    },
+    {
+      "key": "t159",
+      "source": "Financial Literacy & Employment Support",
+      "text": "Alfabetização financeira e apoio ao emprego"
+    },
+    {
+      "key": "t160",
+      "source": "Budgeting, employment confidence, skills support and enterprise guidance for people rebuilding stability.",
+      "text": "Orçamentação, confiança no emprego, apoio às competências e orientação empresarial para pessoas que estão a reconstruir a estabilidade."
+    },
+    {
+      "key": "t161",
+      "source": "Ask about support",
+      "text": "Pergunte sobre suporte"
+    },
+    {
+      "key": "t162",
+      "source": "Since",
+      "text": "Desde"
+    },
+    {
+      "key": "t163",
+      "source": "Serving Croydon, Redbridge, Newham, Durham & Southwark",
+      "text": "Servindo Croydon, Redbridge, Newham, Durham e Southwark"
+    },
+    {
+      "key": "t164",
+      "source": "Who we are",
+      "text": "Quem somos"
+    },
+    {
+      "key": "t165",
+      "source": "Wraparound",
+      "text": "Contorno"
+    },
+    {
+      "key": "t166",
+      "source": "care,",
+      "text": "cuidado,"
+    },
+    {
+      "key": "t167",
+      "source": "rooted",
+      "text": "enraizado"
+    },
+    {
+      "key": "t168",
+      "source": "in",
+      "text": "em"
+    },
+    {
+      "key": "t169",
+      "source": "community.",
+      "text": "comunidade."
+    },
+    {
+      "key": "t170",
+      "source": "Inspired",
+      "text": "Inspirado"
+    },
+    {
+      "key": "t171",
+      "source": "by",
+      "text": "por"
+    },
+    {
+      "key": "t172",
+      "source": "Maslow's",
+      "text": "Maslow"
+    },
+    {
+      "key": "t173",
+      "source": "hierarchy",
+      "text": "hierarquia"
+    },
+    {
+      "key": "t174",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t175",
+      "source": "needs,",
+      "text": "necessidades,"
+    },
+    {
+      "key": "t176",
+      "source": "we",
+      "text": "nós"
+    },
+    {
+      "key": "t177",
+      "source": "meet",
+      "text": "conhecer"
+    },
+    {
+      "key": "t178",
+      "source": "people",
+      "text": "pessoas"
+    },
+    {
+      "key": "t179",
+      "source": "where",
+      "text": "onde"
+    },
+    {
+      "key": "t180",
+      "source": "they",
+      "text": "eles"
+    },
+    {
+      "key": "t181",
+      "source": "are",
+      "text": "são"
+    },
+    {
+      "key": "t182",
+      "source": "emotionally,",
+      "text": "emocionalmente,"
+    },
+    {
+      "key": "t183",
+      "source": "practically",
+      "text": "praticamente"
+    },
+    {
+      "key": "t184",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t185",
+      "source": "socially",
+      "text": "socialmente"
+    },
+    {
+      "key": "t186",
+      "source": "to",
+      "text": "para"
+    },
+    {
+      "key": "t187",
+      "source": "create",
+      "text": "criar"
+    },
+    {
+      "key": "t188",
+      "source": "lasting",
+      "text": "duradouro"
+    },
+    {
+      "key": "t189",
+      "source": "change",
+      "text": "mudança"
+    },
+    {
+      "key": "t190",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t191",
+      "source": "personal",
+      "text": "pessoal"
+    },
+    {
+      "key": "t192",
+      "source": "growth.",
+      "text": "crescimento."
+    },
+    {
+      "key": "t193",
+      "source": "We are proudly led by a diverse team of African women, whose lived experience and professional expertise shape every part of our work.",
+      "text": "Somos orgulhosamente liderados por uma equipa diversificada de mulheres africanas, cuja experiência vivida e conhecimento profissional moldam cada parte do nosso trabalho."
+    },
+    {
+      "key": "t194",
+      "source": "Our founder, Celestina Oniye-Thomas, knows this work from the inside. After surviving childhood trauma and a spinal injury at sixteen that doctors thought would stop her walking, she taught herself to walk again, retrained as an integrative psychotherapist, and built Floating so families could find the healing she had to fight for.",
+      "text": "Nosso fundador, Celestina Oniye-Thomas, conhece esse trabalho por dentro. Depois de sobreviver a um trauma de infância e a uma lesão na coluna aos dezesseis anos que os médicos pensaram que a impediria de andar, ela aprendeu sozinha a andar novamente, treinou novamente como psicoterapeuta integrativa e construiu o Floating para que as famílias pudessem encontrar a cura pela qual ela tinha que lutar."
+    },
+    {
+      "key": "t195",
+      "source": "\"Resilience and self-confidence saved my life.\"",
+      "text": "\"Resiliência e autoconfiança salvaram minha vida.\""
+    },
+    {
+      "key": "t196",
+      "source": "Celestina Oniye-Thomas — Founder & CEO",
+      "text": "Celestina Oniye-Thomas - Fundador e CEO"
+    },
+    {
+      "key": "t197",
+      "source": "Trauma-Informed Care",
+      "text": "Cuidados Informados sobre Trauma"
+    },
+    {
+      "key": "t198",
+      "source": "Culturally Relevant",
+      "text": "Culturalmente relevante"
+    },
+    {
+      "key": "t199",
+      "source": "Local Partnerships",
+      "text": "Parcerias locais"
+    },
+    {
+      "key": "t200",
+      "source": "Holistic Approach",
+      "text": "Abordagem Holística"
+    },
+    {
+      "key": "t201",
+      "source": "Free & Low Cost",
+      "text": "Gratuito e de baixo custo"
+    },
+    {
+      "key": "t202",
+      "source": "Online & In Person",
+      "text": "On-line e pessoalmente"
+    },
+    {
+      "key": "t203",
+      "source": "Introducing",
+      "text": "Apresentando"
+    },
+    {
+      "key": "t204",
+      "source": "Therapy",
+      "text": "Terapia"
+    },
+    {
+      "key": "t205",
+      "source": "with",
+      "text": "com"
+    },
+    {
+      "key": "t206",
+      "source": "realistic",
+      "text": "realista"
+    },
+    {
+      "key": "t207",
+      "source": "tools",
+      "text": "ferramentas"
+    },
+    {
+      "key": "t208",
+      "source": "and",
+      "text": "e Estratégia"
+    },
+    {
+      "key": "t209",
+      "source": "strategy",
+      "text": "strategy"
+    },
+    {
+      "key": "t210",
+      "source": "for",
+      "text": "para"
+    },
+    {
+      "key": "t211",
+      "source": "a",
+      "text": "um"
+    },
+    {
+      "key": "t212",
+      "source": "better",
+      "text": "melhor"
+    },
+    {
+      "key": "t213",
+      "source": "life.",
+      "text": "vida."
+    },
+    {
+      "key": "t214",
+      "source": "Floating",
+      "text": "Flutuante"
+    },
+    {
+      "key": "t215",
+      "source": "combines",
+      "text": "combina"
+    },
+    {
+      "key": "t216",
+      "source": "years",
+      "text": "anos"
+    },
+    {
+      "key": "t217",
+      "source": "as",
+      "text": "como"
+    },
+    {
+      "key": "t218",
+      "source": "clinical",
+      "text": "clínico"
+    },
+    {
+      "key": "t219",
+      "source": "psychotherapists",
+      "text": "psicoterapeutas"
+    },
+    {
+      "key": "t220",
+      "source": "with",
+      "text": "com"
+    },
+    {
+      "key": "t221",
+      "source": "clinical",
+      "text": "clínico"
+    },
+    {
+      "key": "t222",
+      "source": "hours",
+      "text": "horas"
+    },
+    {
+      "key": "t223",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t224",
+      "source": "working",
+      "text": "trabalhando"
+    },
+    {
+      "key": "t225",
+      "source": "to",
+      "text": "para"
+    },
+    {
+      "key": "t226",
+      "source": "help",
+      "text": "ajuda"
+    },
+    {
+      "key": "t227",
+      "source": "individuals,",
+      "text": "indivíduos,"
+    },
+    {
+      "key": "t228",
+      "source": "children",
+      "text": "filhos"
+    },
+    {
+      "key": "t229",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t230",
+      "source": "parents",
+      "text": "pais"
+    },
+    {
+      "key": "t231",
+      "source": "live",
+      "text": "ao vivo"
+    },
+    {
+      "key": "t232",
+      "source": "better",
+      "text": "melhor"
+    },
+    {
+      "key": "t233",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t234",
+      "source": "be",
+      "text": "ser"
+    },
+    {
+      "key": "t235",
+      "source": "better.",
+      "text": "melhor."
+    },
+    {
+      "key": "t236",
+      "source": "The Impact Parenting approach gives families practical, scientifically grounded strategies to heal trauma, parent more effectively, and reduce generational trauma across the family system.",
+      "text": "A abordagem Impact Parenting oferece às famílias estratégias práticas e cientificamente fundamentadas para curar traumas, criar filhos de forma mais eficaz e reduzir traumas geracionais em todo o sistema familiar."
+    },
+    {
+      "key": "t237",
+      "source": "45 yrs",
+      "text": "45 anos"
+    },
+    {
+      "key": "t238",
+      "source": "clinical experience",
+      "text": "experiência clínica"
+    },
+    {
+      "key": "t239",
+      "source": "clinical hours",
+      "text": "horas clínicas"
+    },
+    {
+      "key": "t240",
+      "source": "Realistic",
+      "text": "Realista"
+    },
+    {
+      "key": "t241",
+      "source": "tools and tasks",
+      "text": "ferramentas e tarefas"
+    },
+    {
+      "key": "t242",
+      "source": "Finding it hard to understand or manage your child’s behaviour?",
+      "text": "Tem dificuldade em compreender ou gerir o comportamento do seu filho?"
+    },
+    {
+      "key": "t243",
+      "source": "We help parents build connection, resilience and healthier attachment with practical strategies that can be used at home.",
+      "text": "Ajudamos os pais a construir conexão, resiliência e apego mais saudável com estratégias práticas que podem ser usadas em casa."
+    },
+    {
+      "key": "t244",
+      "source": "This is not for you if...",
+      "text": "Isso não é para você se..."
+    },
+    {
+      "key": "t245",
+      "source": "You are not ready to heal past traumas, or you do not believe your mental and physical health is worth investing in.",
+      "text": "Você não está pronto para curar traumas do passado ou não acredita que valha a pena investir em sua saúde mental e física."
+    },
+    {
+      "key": "t246",
+      "source": "Ask about Impact Parenting",
+      "text": "Pergunte sobre Impact Parenting"
+    },
+    {
+      "key": "t247",
+      "source": "Holiday School",
+      "text": "Escola de Férias"
+    },
+    {
+      "key": "t248",
+      "source": "Values,",
+      "text": "Valores,"
+    },
+    {
+      "key": "t249",
+      "source": "resilience",
+      "text": "resiliência"
+    },
+    {
+      "key": "t250",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t251",
+      "source": "creativity",
+      "text": "criatividade"
+    },
+    {
+      "key": "t252",
+      "source": "for",
+      "text": "para"
+    },
+    {
+      "key": "t253",
+      "source": "children",
+      "text": "filhos"
+    },
+    {
+      "key": "t254",
+      "source": "Raising",
+      "text": "Aumentando"
+    },
+    {
+      "key": "t255",
+      "source": "children",
+      "text": "filhos"
+    },
+    {
+      "key": "t256",
+      "source": "gets",
+      "text": "obtém"
+    },
+    {
+      "key": "t257",
+      "source": "easier",
+      "text": "mais fácil"
+    },
+    {
+      "key": "t258",
+      "source": "with",
+      "text": "com"
+    },
+    {
+      "key": "t259",
+      "source": "trained",
+      "text": "treinado"
+    },
+    {
+      "key": "t260",
+      "source": "professionals",
+      "text": "profissionais"
+    },
+    {
+      "key": "t261",
+      "source": "supporting",
+      "text": "apoiando"
+    },
+    {
+      "key": "t262",
+      "source": "physical",
+      "text": "físico"
+    },
+    {
+      "key": "t263",
+      "source": "health,",
+      "text": "saúde,"
+    },
+    {
+      "key": "t264",
+      "source": "resilience,",
+      "text": "resiliência,"
+    },
+    {
+      "key": "t265",
+      "source": "emotional",
+      "text": "emocional"
+    },
+    {
+      "key": "t266",
+      "source": "intelligence",
+      "text": "inteligência"
+    },
+    {
+      "key": "t267",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t268",
+      "source": "wellbeing",
+      "text": "bem-estar"
+    },
+    {
+      "key": "t269",
+      "source": "through",
+      "text": "através"
+    },
+    {
+      "key": "t270",
+      "source": "art,",
+      "text": "arte,"
+    },
+    {
+      "key": "t271",
+      "source": "music,",
+      "text": "música,"
+    },
+    {
+      "key": "t272",
+      "source": "play",
+      "text": "jogar"
+    },
+    {
+      "key": "t273",
+      "source": "therapy,",
+      "text": "terapia,"
+    },
+    {
+      "key": "t274",
+      "source": "sand",
+      "text": "areia"
+    },
+    {
+      "key": "t275",
+      "source": "play,",
+      "text": "brincar,"
+    },
+    {
+      "key": "t276",
+      "source": "piano,",
+      "text": "piano,"
+    },
+    {
+      "key": "t277",
+      "source": "guitar",
+      "text": "guitarra"
+    },
+    {
+      "key": "t278",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t279",
+      "source": "proven",
+      "text": "comprovado"
+    },
+    {
+      "key": "t280",
+      "source": "psychological",
+      "text": "psicológico"
+    },
+    {
+      "key": "t281",
+      "source": "techniques.",
+      "text": "técnicas."
+    },
+    {
+      "key": "t282",
+      "source": "Our aims and objectives",
+      "text": "Nossas metas e objetivos"
+    },
+    {
+      "key": "t283",
+      "source": "We are not just a holiday school. We teach children values and support them with things they need to grow up uniquely great.",
+      "text": "Não somos apenas uma escola de férias. Ensinamos valores às crianças e as apoiamos com coisas que elas precisam para crescer de maneira única."
+    },
+    {
+      "key": "t284",
+      "source": "I AM Honesty",
+      "text": "EU SOU Honestidade"
+    },
+    {
+      "key": "t285",
+      "source": "I AM Fairness",
+      "text": "EU SOU Justiça"
+    },
+    {
+      "key": "t286",
+      "source": "I AM Kindness",
+      "text": "EU SOU Bondade"
+    },
+    {
+      "key": "t287",
+      "source": "I AM Integrity",
+      "text": "EU SOU Integridade"
+    },
+    {
+      "key": "t288",
+      "source": "I AM Outspoken",
+      "text": "SOU franco"
+    },
+    {
+      "key": "t289",
+      "source": "Original programme reach",
+      "text": "Alcance do programa original"
+    },
+    {
+      "key": "t290",
+      "source": "Over 400 children were registered in 2021, over 1,000 in 2022, 200 more were supported at Easter 2023, with 1,440 available Summer 2023 slots.",
+      "text": "Mais de 400 crianças foram registadas em 2021, mais de 1.000 em 2022, mais 200 foram apoiadas na Páscoa de 2023, com 1.440 vagas disponíveis no Verão de 2023."
+    },
+    {
+      "key": "t291",
+      "source": "Register via Holiday Activities Voucher",
+      "text": "Inscreva-se através do voucher de atividades de férias"
+    },
+    {
+      "key": "t292",
+      "source": "Programme snapshot",
+      "text": "Instantâneo do programa"
+    },
+    {
+      "key": "t293",
+      "source": "Creative therapeutic school support",
+      "text": "Apoio escolar terapêutico criativo"
+    },
+    {
+      "key": "t294",
+      "source": "Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",
+      "text": "As crianças constroem confiança, valores e resiliência através da arte, música, brincadeiras e atividades práticas de bem-estar."
+    },
+    {
+      "key": "t295",
+      "source": "One-stop shop",
+      "text": "Balcão único"
+    },
+    {
+      "key": "t296",
+      "source": "Floating",
+      "text": "Flutuante"
+    },
+    {
+      "key": "t297",
+      "source": "Community",
+      "text": "Comunidade"
+    },
+    {
+      "key": "t298",
+      "source": "Hub.",
+      "text": "Central."
+    },
+    {
+      "key": "t299",
+      "source": "A",
+      "text": "Um"
+    },
+    {
+      "key": "t300",
+      "source": "central",
+      "text": "central"
+    },
+    {
+      "key": "t301",
+      "source": "gathering",
+      "text": "reunião"
+    },
+    {
+      "key": "t302",
+      "source": "place",
+      "text": "lugar"
+    },
+    {
+      "key": "t303",
+      "source": "for",
+      "text": "para"
+    },
+    {
+      "key": "t304",
+      "source": "Croydon",
+      "text": "Croydon"
+    },
+    {
+      "key": "t305",
+      "source": "residents,",
+      "text": "residentes,"
+    },
+    {
+      "key": "t306",
+      "source": "with",
+      "text": "com"
+    },
+    {
+      "key": "t307",
+      "source": "wider",
+      "text": "mais amplo"
+    },
+    {
+      "key": "t308",
+      "source": "projects",
+      "text": "projetos"
+    },
+    {
+      "key": "t309",
+      "source": "also",
+      "text": "também"
+    },
+    {
+      "key": "t310",
+      "source": "serving",
+      "text": "servindo"
+    },
+    {
+      "key": "t311",
+      "source": "Redbridge,",
+      "text": "Redbridge,"
+    },
+    {
+      "key": "t312",
+      "source": "Newham,",
+      "text": "Newham,"
+    },
+    {
+      "key": "t313",
+      "source": "Durham",
+      "text": "Durham"
+    },
+    {
+      "key": "t314",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t315",
+      "source": "Southwark.",
+      "text": "Southwark."
+    },
+    {
+      "key": "t316",
+      "source": "Come",
+      "text": "Venha"
+    },
+    {
+      "key": "t317",
+      "source": "together,",
+      "text": "juntos,"
+    },
+    {
+      "key": "t318",
+      "source": "have",
+      "text": "tem"
+    },
+    {
+      "key": "t319",
+      "source": "a",
+      "text": "um"
+    },
+    {
+      "key": "t320",
+      "source": "cup",
+      "text": "xícara"
+    },
+    {
+      "key": "t321",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t322",
+      "source": "tea",
+      "text": "chá"
+    },
+    {
+      "key": "t323",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t324",
+      "source": "a",
+      "text": "um"
+    },
+    {
+      "key": "t325",
+      "source": "chat.",
+      "text": "bate-papo."
+    },
+    {
+      "key": "t326",
+      "source": "The Croydon hub runs every Tuesday at Ashburton Park Cafe Hall. Floating also delivers community projects in Redbridge, Newham, Durham and Southwark, bringing practical advocacy, wellbeing support and local referrals closer to each community.",
+      "text": "O hub Croydon funciona todas as terças-feiras em Ashburton Park Cafe Hall. Floating também oferece projetos comunitários em Redbridge, Newham, Durham e Southwark, trazendo defesa prática, apoio ao bem-estar e referências locais para mais perto de cada comunidade."
+    },
+    {
+      "key": "t327",
+      "source": "Bills & Grants",
+      "text": "Contas e subsídios"
+    },
+    {
+      "key": "t328",
+      "source": "Utility bills, home grants and vouchers during the first week.",
+      "text": "Contas de serviços públicos, bolsas de moradia e vouchers durante a primeira semana."
+    },
+    {
+      "key": "t329",
+      "source": "Housing Support",
+      "text": "Apoio à habitação"
+    },
+    {
+      "key": "t330",
+      "source": "Wellbeing and housing support in Croydon, Newham and partner hubs.",
+      "text": "Apoio ao bem-estar e habitação em Croydon, Newham e centros parceiros."
+    },
+    {
+      "key": "t331",
+      "source": "Digital Inclusion",
+      "text": "Inclusão Digital"
+    },
+    {
+      "key": "t332",
+      "source": "Internet support, forms, scam awareness, WhatsApp, AI education and free SIM guidance.",
+      "text": "Suporte pela Internet, formulários, conscientização sobre fraudes, WhatsApp, educação em IA e orientação gratuita sobre SIM."
+    },
+    {
+      "key": "t333",
+      "source": "Art Therapy",
+      "text": "Arteterapia"
+    },
+    {
+      "key": "t334",
+      "source": "Third-week creative healing with Myfamily101 and Floating Counselling Community.",
+      "text": "Cura criativa de terceira semana com Myfamily101 e Floating Counselling Community."
+    },
+    {
+      "key": "t335",
+      "source": "Food Bank",
+      "text": "Banco Alimentar"
+    },
+    {
+      "key": "t336",
+      "source": "Weekly food, clothing and essentials for individuals and families.",
+      "text": "Alimentação semanal, roupas e itens essenciais para indivíduos e famílias."
+    },
+    {
+      "key": "t337",
+      "source": "Employment Support",
+      "text": "Apoio ao Emprego"
+    },
+    {
+      "key": "t338",
+      "source": "Financial literacy, confidence and employment support for longer-term stability.",
+      "text": "Literacia financeira, confiança e apoio ao emprego para estabilidade a longo prazo."
+    },
+    {
+      "key": "t339",
+      "source": "Croydon office",
+      "text": "Escritório Croydon"
+    },
+    {
+      "key": "t340",
+      "source": "26 Avenue Road, SE25 4DX",
+      "text": "Estrada da Avenida 26, SE25 4DX"
+    },
+    {
+      "key": "t341",
+      "source": "Map",
+      "text": "Mapa"
+    },
+    {
+      "key": "t342",
+      "source": "Croydon hub",
+      "text": "Hub Croydon"
+    },
+    {
+      "key": "t343",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX. Terças-feiras, das 12h30 às 14h30."
+    },
+    {
+      "key": "t344",
+      "source": "Map",
+      "text": "Mapa"
+    },
+    {
+      "key": "t345",
+      "source": "Redbridge office",
+      "text": "Escritório Redbridge"
+    },
+    {
+      "key": "t346",
+      "source": "160-162 Cranbrook Road, IG1 4PE.",
+      "text": "160-162 Cranbrook Road, IG1 4PE."
+    },
+    {
+      "key": "t347",
+      "source": "Map",
+      "text": "Mapa"
+    },
+    {
+      "key": "t348",
+      "source": "Redbridge hub",
+      "text": "Hub Redbridge"
+    },
+    {
+      "key": "t349",
+      "source": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Terças-feiras, das 11h30 às 13h30, exceto feriados."
+    },
+    {
+      "key": "t350",
+      "source": "Map",
+      "text": "Mapa"
+    },
+    {
+      "key": "t351",
+      "source": "Durham hub",
+      "text": "Hub Durham"
+    },
+    {
+      "key": "t352",
+      "source": "30 Wesley Street, Durham, DL14 8UH.",
+      "text": "30 Wesley Street, Durham, DL14 8UH."
+    },
+    {
+      "key": "t353",
+      "source": "Map",
+      "text": "Mapa"
+    },
+    {
+      "key": "t354",
+      "source": "Newham",
+      "text": "Newham"
+    },
+    {
+      "key": "t355",
+      "source": "Monthly wellbeing and housing support. Relaunching July 2026.",
+      "text": "Apoio mensal ao bem-estar e habitação. Relançamento em julho de 2026."
+    },
+    {
+      "key": "t356",
+      "source": "Southwark hub",
+      "text": "Hub Southwark"
+    },
+    {
+      "key": "t357",
+      "source": "20 Heaton Road, Heaton Road Church, Peckham, SE15 3NL. Launching June 2026.",
+      "text": "20 Heaton Road, Igreja Heaton Road, Peckham, SE15 3NL. Lançamento em junho de 2026."
+    },
+    {
+      "key": "t358",
+      "source": "Map",
+      "text": "Mapa"
+    },
+    {
+      "key": "t359",
+      "source": "What people say",
+      "text": "O que as pessoas dizem"
+    },
+    {
+      "key": "t360",
+      "source": "In",
+      "text": "Em"
+    },
+    {
+      "key": "t361",
+      "source": "their",
+      "text": "seus"
+    },
+    {
+      "key": "t362",
+      "source": "own",
+      "text": "próprio"
+    },
+    {
+      "key": "t363",
+      "source": "words.",
+      "text": "palavras."
+    },
+    {
+      "key": "t364",
+      "source": "Hear",
+      "text": "Ouça"
+    },
+    {
+      "key": "t365",
+      "source": "from",
+      "text": "de"
+    },
+    {
+      "key": "t366",
+      "source": "the",
+      "text": "o"
+    },
+    {
+      "key": "t367",
+      "source": "families",
+      "text": "famílias"
+    },
+    {
+      "key": "t368",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t369",
+      "source": "individuals",
+      "text": "indivíduos"
+    },
+    {
+      "key": "t370",
+      "source": "whose",
+      "text": "cujo"
+    },
+    {
+      "key": "t371",
+      "source": "lives",
+      "text": "vidas"
+    },
+    {
+      "key": "t372",
+      "source": "have",
+      "text": "tem"
+    },
+    {
+      "key": "t373",
+      "source": "been",
+      "text": "foi"
+    },
+    {
+      "key": "t374",
+      "source": "transformed.",
+      "text": "transformado."
+    },
+    {
+      "key": "t375",
+      "source": "I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded and supported a wide variety of issues that parents face. I have teenage children and really needed this. It was full of knowledge to parent more consciously.",
+      "text": "Aprendi muito com o treinamento Impact Parenting Pillar e com Celestina. Foi incrivelmente completo e apoiou uma ampla variedade de problemas que os pais enfrentam. Tenho filhos adolescentes e realmente precisava disso. Estava cheio de conhecimento para ser pai de forma mais consciente."
+    },
+    {
+      "key": "t376",
+      "source": "ST",
+      "text": "ST"
+    },
+    {
+      "key": "t377",
+      "source": "Sarah Turino",
+      "text": "Sarah Turino"
+    },
+    {
+      "key": "t378",
+      "source": "CEO, The Whole Woman Wellness Formula · USA",
+      "text": "CEO, The Whole Woman Wellness Formula · EUA"
+    },
+    {
+      "key": "t379",
+      "source": "My son had terrible twos where he would throw himself on the floor and not follow boundaries. I have now been helped to know his personality better and been given realistic tools to help him be more resilient in a loving way.",
+      "text": "Meu filho tinha dois anos terríveis, onde ele se jogava no chão e não seguia os limites. Agora fui ajudado a conhecer melhor sua personalidade e recebi ferramentas realistas para ajudá-lo a ser mais resiliente de uma forma amorosa."
+    },
+    {
+      "key": "t380",
+      "source": "DD",
+      "text": "DD"
+    },
+    {
+      "key": "t381",
+      "source": "Danya Denny",
+      "text": "Danya Denny"
+    },
+    {
+      "key": "t382",
+      "source": "Social Worker · UK",
+      "text": "Assistente Social · UK"
+    },
+    {
+      "key": "t383",
+      "source": "As a mother of six, from newborn to eighteen, I learnt so much from Impact Parenting with Celestina. I adapted the strategies to my real life and all my children straight away — and I'm still using them months later. Every parent needs this.",
+      "text": "Como mãe de seis filhos, desde recém-nascido até dezoito anos, aprendi muito com Impact Parenting com Celestina. Adaptei as estratégias à minha vida real e a todos os meus filhos imediatamente - e ainda as uso meses depois. Todo pai precisa disso."
+    },
+    {
+      "key": "t384",
+      "source": "NK",
+      "text": "NK"
+    },
+    {
+      "key": "t385",
+      "source": "Niina Kabesa",
+      "text": "Niina Kabesa"
+    },
+    {
+      "key": "t386",
+      "source": "Author & Founder, Mother of Nations · Congo",
+      "text": "Autora e Fundadora, Mãe das Nações · Congo"
+    },
+    {
+      "key": "t387",
+      "source": "Our people",
+      "text": "Nosso povo"
+    },
+    {
+      "key": "t388",
+      "source": "Meet",
+      "text": "Conheça"
+    },
+    {
+      "key": "t389",
+      "source": "the",
+      "text": "o Equipe"
+    },
+    {
+      "key": "t390",
+      "source": "team.",
+      "text": "."
+    },
+    {
+      "key": "t391",
+      "source": "Led",
+      "text": "Conduzido"
+    },
+    {
+      "key": "t392",
+      "source": "by",
+      "text": "por"
+    },
+    {
+      "key": "t393",
+      "source": "a",
+      "text": "um"
+    },
+    {
+      "key": "t394",
+      "source": "diverse",
+      "text": "diverso Equipe"
+    },
+    {
+      "key": "t395",
+      "source": "team",
+      "text": "team"
+    },
+    {
+      "key": "t396",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t397",
+      "source": "African",
+      "text": "Africano"
+    },
+    {
+      "key": "t398",
+      "source": "women",
+      "text": "mulheres"
+    },
+    {
+      "key": "t399",
+      "source": "with",
+      "text": "com"
+    },
+    {
+      "key": "t400",
+      "source": "lived",
+      "text": "viveu"
+    },
+    {
+      "key": "t401",
+      "source": "experience",
+      "text": "experiência"
+    },
+    {
+      "key": "t402",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t403",
+      "source": "professional",
+      "text": "profissional"
+    },
+    {
+      "key": "t404",
+      "source": "expertise.",
+      "text": "experiência."
+    },
+    {
+      "key": "t405",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "t406",
+      "source": "CEO & Head of Charitable Operations",
+      "text": "CEO e chefe de operações de caridade"
+    },
+    {
+      "key": "t407",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t408",
+      "source": "Read more",
+      "text": "Leia mais"
+    },
+    {
+      "key": "t409",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela"
+    },
+    {
+      "key": "t410",
+      "source": "Director & Head of Finance",
+      "text": "Diretor e Chefe de Finanças"
+    },
+    {
+      "key": "t411",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t412",
+      "source": "Read more",
+      "text": "Leia mais"
+    },
+    {
+      "key": "t413",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode"
+    },
+    {
+      "key": "t414",
+      "source": "Director & Relationship Coach",
+      "text": "Diretor e Coach de Relacionamento"
+    },
+    {
+      "key": "t415",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t416",
+      "source": "Read more",
+      "text": "Leia mais"
+    },
+    {
+      "key": "t417",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah"
+    },
+    {
+      "key": "t418",
+      "source": "Director & Safeguarding Officer",
+      "text": "Diretor e Oficial de Salvaguarda"
+    },
+    {
+      "key": "t419",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t420",
+      "source": "Contact",
+      "text": "Contato"
+    },
+    {
+      "key": "t421",
+      "source": "Sponsors, partners and funders",
+      "text": "Patrocinadores, parceiros e financiadores"
+    },
+    {
+      "key": "t422",
+      "source": "Supported",
+      "text": "Compatível"
+    },
+    {
+      "key": "t423",
+      "source": "by",
+      "text": "por"
+    },
+    {
+      "key": "t424",
+      "source": "trusted",
+      "text": "confiável"
+    },
+    {
+      "key": "t425",
+      "source": "partners.",
+      "text": "parceiros."
+    },
+    {
+      "key": "t426",
+      "source": "A",
+      "text": "Um"
+    },
+    {
+      "key": "t427",
+      "source": "compact",
+      "text": "compacto"
+    },
+    {
+      "key": "t428",
+      "source": "view",
+      "text": "visualizar"
+    },
+    {
+      "key": "t429",
+      "source": "of",
+      "text": "de"
+    },
+    {
+      "key": "t430",
+      "source": "the",
+      "text": "o"
+    },
+    {
+      "key": "t431",
+      "source": "funders,",
+      "text": "financiadores,"
+    },
+    {
+      "key": "t432",
+      "source": "sponsors",
+      "text": "patrocinadores"
+    },
+    {
+      "key": "t433",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t434",
+      "source": "registrations",
+      "text": "inscrições"
+    },
+    {
+      "key": "t435",
+      "source": "behind",
+      "text": "atrás"
+    },
+    {
+      "key": "t436",
+      "source": "the",
+      "text": "o"
+    },
+    {
+      "key": "t437",
+      "source": "work.",
+      "text": "trabalho."
+    },
+    {
+      "key": "t438",
+      "source": "Common questions",
+      "text": "Perguntas comuns"
+    },
+    {
+      "key": "t439",
+      "source": "Everything",
+      "text": "Tudo"
+    },
+    {
+      "key": "t440",
+      "source": "you",
+      "text": "você"
+    },
+    {
+      "key": "t441",
+      "source": "might",
+      "text": "pode"
+    },
+    {
+      "key": "t442",
+      "source": "be",
+      "text": "ser"
+    },
+    {
+      "key": "t443",
+      "source": "wondering.",
+      "text": "pensando."
+    },
+    {
+      "key": "t444",
+      "source": "If",
+      "text": "Se"
+    },
+    {
+      "key": "t445",
+      "source": "your",
+      "text": "seu"
+    },
+    {
+      "key": "t446",
+      "source": "question",
+      "text": "pergunta"
+    },
+    {
+      "key": "t447",
+      "source": "isn't",
+      "text": "não é"
+    },
+    {
+      "key": "t448",
+      "source": "here,",
+      "text": "aqui,"
+    },
+    {
+      "key": "t449",
+      "source": "send",
+      "text": "enviar"
+    },
+    {
+      "key": "t450",
+      "source": "us",
+      "text": "nós"
+    },
+    {
+      "key": "t451",
+      "source": "a",
+      "text": "um"
+    },
+    {
+      "key": "t452",
+      "source": "note.",
+      "text": "nota."
+    },
+    {
+      "key": "t453",
+      "source": "We",
+      "text": "Nós"
+    },
+    {
+      "key": "t454",
+      "source": "read",
+      "text": "leia"
+    },
+    {
+      "key": "t455",
+      "source": "every",
+      "text": "cada"
+    },
+    {
+      "key": "t456",
+      "source": "message.",
+      "text": "mensagem."
+    },
+    {
+      "key": "t457",
+      "source": "Ask us anything",
+      "text": "Pergunte-nos qualquer coisa"
+    },
+    {
+      "key": "t458",
+      "source": "How much does counselling cost?",
+      "text": "Quanto custa o aconselhamento?"
+    },
+    {
+      "key": "t459",
+      "source": "Sessions are free or low-cost for eligible individuals. We work on a sliding scale based on circumstances. Our priority is access, and we'll find a way that works for you.",
+      "text": "As sessões são gratuitas ou de baixo custo para indivíduos elegíveis. Trabalhamos em uma escala móvel com base nas circunstâncias. Nossa prioridade é o acesso e encontraremos uma maneira que funcione para você."
+    },
+    {
+      "key": "t460",
+      "source": "What happens in the first session?",
+      "text": "O que acontece na primeira sessão?"
+    },
+    {
+      "key": "t461",
+      "source": "Your first session is a relaxed conversation about what's brought you in, what you'd like to work on, and how we can support you. Nothing is rushed. You set the pace.",
+      "text": "Sua primeira sessão é uma conversa descontraída sobre o que o trouxe, no que você gostaria de trabalhar e como podemos apoiá-lo. Nada é apressado. Você define o ritmo."
+    },
+    {
+      "key": "t462",
+      "source": "Are sessions confidential?",
+      "text": "As sessões são confidenciais?"
+    },
+    {
+      "key": "t463",
+      "source": "Yes. Everything you share is held in strict confidence in line with BACP ethical guidelines. The only exceptions are safeguarding situations, which we'd always discuss with you first wherever possible.",
+      "text": "Sim. Tudo o que você compartilha é mantido em estrita confidencialidade, de acordo com as diretrizes éticas do BACP. As únicas exceções são situações de salvaguarda, que sempre discutiremos com você primeiro, sempre que possível."
+    },
+    {
+      "key": "t464",
+      "source": "Do you offer online sessions?",
+      "text": "Vocês oferecem sessões online?"
+    },
+    {
+      "key": "t465",
+      "source": "Yes. We offer online sessions and in-person support across the boroughs where we deliver services.",
+      "text": "Sim. Oferecemos sessões online e suporte presencial nos bairros onde prestamos serviços."
+    },
+    {
+      "key": "t466",
+      "source": "Are your therapists qualified?",
+      "text": "Seus terapeutas são qualificados?"
+    },
+    {
+      "key": "t467",
+      "source": "Our therapists are clinically trained psychotherapists working in line with BACP standards. The leadership team has 45+ years of combined clinical experience and over 50,000 clinical hours.",
+      "text": "Nossos terapeutas são psicoterapeutas clinicamente treinados que trabalham de acordo com os padrões BACP. A equipe de liderança tem mais de 45 anos de experiência clínica combinada e mais de 50.000 horas clínicas."
+    },
+    {
+      "key": "t468",
+      "source": "Can I refer a family member or friend?",
+      "text": "Posso indicar um familiar ou amigo?"
+    },
+    {
+      "key": "t469",
+      "source": "Absolutely. We'll always need consent from the person themselves before opening a case. The best first step is to encourage them to email or WhatsApp us directly.",
+      "text": "Com certeza. Sempre precisaremos do consentimento da própria pessoa antes de abrir um caso. O melhor primeiro passo é incentivá-los a nos enviar um e-mail ou WhatsApp diretamente."
+    },
+    {
+      "key": "t470",
+      "source": "How can I support your work?",
+      "text": "Como posso apoiar seu trabalho?"
+    },
+    {
+      "key": "t471",
+      "source": "You can donate via Localgiving or PayPal, volunteer your time, follow us on social media, or fundraise on our behalf. Visit the fundraiser section or get in touch and we'll match you to something that suits.",
+      "text": "Você pode doar via Localgiving ou PayPal, ser voluntário, seguir-nos nas redes sociais ou arrecadar fundos em nosso nome. Visite a seção de arrecadação de fundos ou entre em contato e combinaremos algo que combine com você."
+    },
+    {
+      "key": "t472",
+      "source": "Fundraiser",
+      "text": "Arrecadação de fundos"
+    },
+    {
+      "key": "t473",
+      "source": "Ways",
+      "text": "Maneiras"
+    },
+    {
+      "key": "t474",
+      "source": "to",
+      "text": "para"
+    },
+    {
+      "key": "t475",
+      "source": "fundraise",
+      "text": "arrecadação de fundos"
+    },
+    {
+      "key": "t476",
+      "source": "for",
+      "text": "para"
+    },
+    {
+      "key": "t477",
+      "source": "Floating",
+      "text": "Flutuante"
+    },
+    {
+      "key": "t478",
+      "source": "Counselling.",
+      "text": "Aconselhamento."
+    },
+    {
+      "key": "t479",
+      "source": "Fundraising",
+      "text": "Angariação de fundos"
+    },
+    {
+      "key": "t480",
+      "source": "helps",
+      "text": "ajuda"
+    },
+    {
+      "key": "t481",
+      "source": "keep",
+      "text": "manter"
+    },
+    {
+      "key": "t482",
+      "source": "counselling,",
+      "text": "aconselhamento,"
+    },
+    {
+      "key": "t483",
+      "source": "food",
+      "text": "comida"
+    },
+    {
+      "key": "t484",
+      "source": "support,",
+      "text": "suporte,"
+    },
+    {
+      "key": "t485",
+      "source": "holiday",
+      "text": "feriado"
+    },
+    {
+      "key": "t486",
+      "source": "school",
+      "text": "escola"
+    },
+    {
+      "key": "t487",
+      "source": "places",
+      "text": "lugares"
+    },
+    {
+      "key": "t488",
+      "source": "and",
+      "text": "e comunidade"
+    },
+    {
+      "key": "t489",
+      "source": "community",
+      "text": "community"
+    },
+    {
+      "key": "t490",
+      "source": "hub",
+      "text": "hub"
+    },
+    {
+      "key": "t491",
+      "source": "sessions",
+      "text": "sessões"
+    },
+    {
+      "key": "t492",
+      "source": "accessible",
+      "text": "acessível"
+    },
+    {
+      "key": "t493",
+      "source": "for",
+      "text": "para"
+    },
+    {
+      "key": "t494",
+      "source": "people",
+      "text": "pessoas"
+    },
+    {
+      "key": "t495",
+      "source": "who",
+      "text": "quem"
+    },
+    {
+      "key": "t496",
+      "source": "need",
+      "text": "necessidade"
+    },
+    {
+      "key": "t497",
+      "source": "practical",
+      "text": "prático"
+    },
+    {
+      "key": "t498",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t499",
+      "source": "therapeutic",
+      "text": "terapêutico"
+    },
+    {
+      "key": "t500",
+      "source": "care.",
+      "text": "cuidado."
+    },
+    {
+      "key": "t501",
+      "source": "Donate via PayPal",
+      "text": "Doe via PayPal"
+    },
+    {
+      "key": "t502",
+      "source": "Donate via Localgiving",
+      "text": "Doe via Localgiving"
+    },
+    {
+      "key": "t503",
+      "source": "Start a fundraiser",
+      "text": "Iniciar uma arrecadação de fundos"
+    },
+    {
+      "key": "t504",
+      "source": "Run a personal fundraiser",
+      "text": "Faça uma arrecadação de fundos pessoal"
+    },
+    {
+      "key": "t505",
+      "source": "Use birthdays, challenges or community events to raise funds for counselling and wraparound support.",
+      "text": "Use aniversários, desafios ou eventos comunitários para arrecadar fundos para aconselhamento e apoio abrangente."
+    },
+    {
+      "key": "t506",
+      "source": "Workplace or school collection",
+      "text": "Coleta no local de trabalho ou escola"
+    },
+    {
+      "key": "t507",
+      "source": "Collect food, essentials, vouchers or donations with your team, school, faith group or local business.",
+      "text": "Arrecade alimentos, itens essenciais, vouchers ou doações com sua equipe, escola, grupo religioso ou empresa local."
+    },
+    {
+      "key": "t508",
+      "source": "Sponsor a project",
+      "text": "Patrocinar um projeto"
+    },
+    {
+      "key": "t509",
+      "source": "Support a hub session, holiday school activity, counselling session or local wellbeing event.",
+      "text": "Apoie uma sessão central, atividade escolar de férias, sessão de aconselhamento ou evento local de bem-estar."
+    },
+    {
+      "key": "t510",
+      "source": "Share skills and time",
+      "text": "Compartilhe habilidades e tempo"
+    },
+    {
+      "key": "t511",
+      "source": "Offer professional skills, event support, transport, mentoring or practical help for local residents.",
+      "text": "Oferecer habilidades profissionais, apoio em eventos, transporte, orientação ou ajuda prática para residentes locais."
+    },
+    {
+      "key": "t512",
+      "source": "Volunteer",
+      "text": "Voluntário"
+    },
+    {
+      "key": "t513",
+      "source": "Volunteer",
+      "text": "Voluntário"
+    },
+    {
+      "key": "t514",
+      "source": "with",
+      "text": "com"
+    },
+    {
+      "key": "t515",
+      "source": "Floating",
+      "text": "Flutuante"
+    },
+    {
+      "key": "t516",
+      "source": "Counselling.",
+      "text": "Aconselhamento."
+    },
+    {
+      "key": "t517",
+      "source": "Share",
+      "text": "Compartilhar"
+    },
+    {
+      "key": "t518",
+      "source": "your",
+      "text": "seu"
+    },
+    {
+      "key": "t519",
+      "source": "time,",
+      "text": "hora,"
+    },
+    {
+      "key": "t520",
+      "source": "skills",
+      "text": "habilidades"
+    },
+    {
+      "key": "t521",
+      "source": "or",
+      "text": "ou"
+    },
+    {
+      "key": "t522",
+      "source": "professional",
+      "text": "profissional"
+    },
+    {
+      "key": "t523",
+      "source": "experience",
+      "text": "experiência"
+    },
+    {
+      "key": "t524",
+      "source": "to",
+      "text": "para"
+    },
+    {
+      "key": "t525",
+      "source": "support",
+      "text": "suporte"
+    },
+    {
+      "key": "t526",
+      "source": "counselling,",
+      "text": "aconselhamento,"
+    },
+    {
+      "key": "t527",
+      "source": "community",
+      "text": "comunidade"
+    },
+    {
+      "key": "t528",
+      "source": "hub",
+      "text": "hub"
+    },
+    {
+      "key": "t529",
+      "source": "sessions,",
+      "text": "sessões,"
+    },
+    {
+      "key": "t530",
+      "source": "holiday",
+      "text": "feriado"
+    },
+    {
+      "key": "t531",
+      "source": "school",
+      "text": "escola"
+    },
+    {
+      "key": "t532",
+      "source": "activities,",
+      "text": "atividades,"
+    },
+    {
+      "key": "t533",
+      "source": "fundraising",
+      "text": "arrecadação de fundos"
+    },
+    {
+      "key": "t534",
+      "source": "and",
+      "text": "e"
+    },
+    {
+      "key": "t535",
+      "source": "practical",
+      "text": "prático"
+    },
+    {
+      "key": "t536",
+      "source": "outreach.",
+      "text": "divulgação."
+    },
+    {
+      "key": "t537",
+      "source": "Community support",
+      "text": "Apoio comunitário"
+    },
+    {
+      "key": "t538",
+      "source": "Help residents with food, clothing, forms, signposting, events and welcoming hub sessions.",
+      "text": "Ajude os residentes com alimentação, roupas, formulários, sinalização, eventos e sessões de boas-vindas."
+    },
+    {
+      "key": "t539",
+      "source": "Skills and projects",
+      "text": "Habilidades e projetos"
+    },
+    {
+      "key": "t540",
+      "source": "Offer mentoring, admin, creative workshops, fundraising, transport, digital support or professional expertise.",
+      "text": "Ofereça mentoria, administração, workshops criativos, arrecadação de fundos, transporte, suporte digital ou experiência profissional."
+    },
+    {
+      "key": "t541",
+      "source": "Volunteer applications",
+      "text": "Inscrições para voluntários"
+    },
+    {
+      "key": "t542",
+      "source": "Monday form",
+      "text": "Formulário de segunda-feira"
+    },
+    {
+      "key": "t543",
+      "source": "Apply to volunteer",
+      "text": "Inscreva-se como voluntário"
+    },
+    {
+      "key": "t544",
+      "source": "Complete the volunteer application so the team can match your time, skills and availability to the right project.",
+      "text": "Preencha o formulário de voluntariado para que a equipe possa combinar seu tempo, habilidades e disponibilidade com o projeto certo."
+    },
+    {
+      "key": "t545",
+      "source": "Open volunteer form",
+      "text": "Abrir formulário de voluntariado"
+    },
+    {
+      "key": "t546",
+      "source": "Get in touch",
+      "text": "Entre em contato"
+    },
+    {
+      "key": "t547",
+      "source": "We'd",
+      "text": "Teríamos"
+    },
+    {
+      "key": "t548",
+      "source": "love",
+      "text": "amor"
+    },
+    {
+      "key": "t549",
+      "source": "to",
+      "text": "para"
+    },
+    {
+      "key": "t550",
+      "source": "hear",
+      "text": "ouvir"
+    },
+    {
+      "key": "t551",
+      "source": "from",
+      "text": "de"
+    },
+    {
+      "key": "t552",
+      "source": "you.",
+      "text": "você."
+    },
+    {
+      "key": "t553",
+      "source": "Email,",
+      "text": "E-mail,"
+    },
+    {
+      "key": "t554",
+      "source": "WhatsApp,",
+      "text": "WhatsApp,"
+    },
+    {
+      "key": "t555",
+      "source": "call",
+      "text": "chamada"
+    },
+    {
+      "key": "t556",
+      "source": "or",
+      "text": "ou"
+    },
+    {
+      "key": "t557",
+      "source": "fill",
+      "text": "preencher"
+    },
+    {
+      "key": "t558",
+      "source": "in",
+      "text": "em"
+    },
+    {
+      "key": "t559",
+      "source": "the",
+      "text": "o"
+    },
+    {
+      "key": "t560",
+      "source": "form.",
+      "text": "formulário."
+    },
+    {
+      "key": "t561",
+      "source": "We",
+      "text": "Nós"
+    },
+    {
+      "key": "t562",
+      "source": "aim",
+      "text": "objetivo"
+    },
+    {
+      "key": "t563",
+      "source": "to",
+      "text": "para"
+    },
+    {
+      "key": "t564",
+      "source": "reply",
+      "text": "resposta"
+    },
+    {
+      "key": "t565",
+      "source": "within",
+      "text": "dentro"
+    },
+    {
+      "key": "t566",
+      "source": "two",
+      "text": "dois"
+    },
+    {
+      "key": "t567",
+      "source": "working",
+      "text": "funcionando"
+    },
+    {
+      "key": "t568",
+      "source": "days.",
+      "text": "dias."
+    },
+    {
+      "key": "t569",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t570",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t571",
+      "source": "WhatsApp / Call",
+      "text": "WhatsApp / Chamada"
+    },
+    {
+      "key": "t572",
+      "source": "Visit the Croydon Hub",
+      "text": "Visite o hub Croydon"
+    },
+    {
+      "key": "t573",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX"
+    },
+    {
+      "key": "t574",
+      "source": "Tuesdays, 12:30 to 2:30pm.",
+      "text": "Terças-feiras, das 12h30 às 14h30."
+    },
+    {
+      "key": "t575",
+      "source": "Project locations",
+      "text": "Locais do projeto"
+    },
+    {
+      "key": "t576",
+      "source": "Separate contact points for Croydon, Redbridge, Durham, Newham and Southwark are listed below.",
+      "text": "Pontos de contato separados para Croydon, Redbridge, Durham, Newham e Southwark estão listados abaixo."
+    },
+    {
+      "key": "t577",
+      "source": "Croydon office",
+      "text": "Escritório Croydon"
+    },
+    {
+      "key": "t578",
+      "source": "26 Avenue Road",
+      "text": "Avenida Avenida 26"
+    },
+    {
+      "key": "t579",
+      "source": "London SE25 4DX",
+      "text": "London SE25 4DX"
+    },
+    {
+      "key": "t580",
+      "source": "Open map",
+      "text": "Abrir mapa"
+    },
+    {
+      "key": "t581",
+      "source": "Croydon hub",
+      "text": "Hub Croydon"
+    },
+    {
+      "key": "t582",
+      "source": "Ashburton Park Cafe Hall",
+      "text": "Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t583",
+      "source": "CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "CR0 6RX. Terças-feiras, das 12h30 às 14h30."
+    },
+    {
+      "key": "t584",
+      "source": "Open map",
+      "text": "Abrir mapa"
+    },
+    {
+      "key": "t585",
+      "source": "Redbridge office",
+      "text": "Escritório Redbridge"
+    },
+    {
+      "key": "t586",
+      "source": "160-162 Cranbrook Road",
+      "text": "160-162 Cranbrook Road"
+    },
+    {
+      "key": "t587",
+      "source": "Ilford IG1 4PE",
+      "text": "Ilford IG1 4PE"
+    },
+    {
+      "key": "t588",
+      "source": "Open map",
+      "text": "Abrir mapa"
+    },
+    {
+      "key": "t589",
+      "source": "Redbridge hub",
+      "text": "Hub Redbridge"
+    },
+    {
+      "key": "t590",
+      "source": "Cranbrook House, Suite 7D",
+      "text": "Cranbrook House, Suíte 7D"
+    },
+    {
+      "key": "t591",
+      "source": "61 Cranbrook Road, Ilford IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "61 Cranbrook Road, Ilford IG1 4PG. Terças-feiras, das 11h30 às 13h30, exceto feriados."
+    },
+    {
+      "key": "t592",
+      "source": "Open map",
+      "text": "Abrir mapa"
+    },
+    {
+      "key": "t593",
+      "source": "Durham hub",
+      "text": "Hub Durham"
+    },
+    {
+      "key": "t594",
+      "source": "30 Wesley Street",
+      "text": "30 Wesley Street"
+    },
+    {
+      "key": "t595",
+      "source": "Durham DL14 8UH",
+      "text": "Durham DL14 8UH"
+    },
+    {
+      "key": "t596",
+      "source": "Open map",
+      "text": "Abrir mapa"
+    },
+    {
+      "key": "t597",
+      "source": "Southwark hub",
+      "text": "Hub Southwark"
+    },
+    {
+      "key": "t598",
+      "source": "20 Heaton Road",
+      "text": "20 Heaton Road"
+    },
+    {
+      "key": "t599",
+      "source": "Heaton Road Church, Peckham SE15 3NL. Launching June 2026.",
+      "text": "Igreja Heaton Road, Peckham SE15 3NL. Lançamento em junho de 2026."
+    },
+    {
+      "key": "t600",
+      "source": "Open map",
+      "text": "Abrir mapa"
+    },
+    {
+      "key": "t601",
+      "source": "Newham",
+      "text": "Newham"
+    },
+    {
+      "key": "t602",
+      "source": "Monthly wellbeing support",
+      "text": "Apoio mensal ao bem-estar"
+    },
+    {
+      "key": "t603",
+      "source": "Housing and wellbeing support relaunching July 2026.",
+      "text": "Apoio à habitação e bem-estar relançado em julho de 2026."
+    },
+    {
+      "key": "t604",
+      "source": "Your name",
+      "text": "Seu nome"
+    },
+    {
+      "key": "t605",
+      "source": "Email",
+      "text": "E-mail"
+    },
+    {
+      "key": "t606",
+      "source": "What can we help with?",
+      "text": "Em que podemos ajudar?"
+    },
+    {
+      "key": "t607",
+      "source": "Message",
+      "text": "Mensagem"
+    },
+    {
+      "key": "t608",
+      "source": "I agree to be contacted in line with the",
+      "text": "Concordo em ser contatado de acordo com o"
+    },
+    {
+      "key": "t609",
+      "source": "privacy policy",
+      "text": "política de privacidade"
+    },
+    {
+      "key": "t610",
+      "source": "Send message",
+      "text": "Enviar mensagem"
+    },
+    {
+      "key": "t611",
+      "source": "We're here",
+      "text": "Estamos aqui"
+    },
+    {
+      "key": "t612",
+      "source": "Whatever",
+      "text": "Tanto faz"
+    },
+    {
+      "key": "t613",
+      "source": "you're",
+      "text": "você é"
+    },
+    {
+      "key": "t614",
+      "source": "carrying,",
+      "text": "carregando,"
+    },
+    {
+      "key": "t615",
+      "source": "you",
+      "text": "você"
+    },
+    {
+      "key": "t616",
+      "source": "don't",
+      "text": "não"
+    },
+    {
+      "key": "t617",
+      "source": "carry",
+      "text": "carregar"
+    },
+    {
+      "key": "t618",
+      "source": "it",
+      "text": "isso"
+    },
+    {
+      "key": "t619",
+      "source": "alone.",
+      "text": "sozinho."
+    },
+    {
+      "key": "t620",
+      "source": "Whether",
+      "text": "Se"
+    },
+    {
+      "key": "t621",
+      "source": "you",
+      "text": "você"
+    },
+    {
+      "key": "t622",
+      "source": "need",
+      "text": "necessidade"
+    },
+    {
+      "key": "t623",
+      "source": "counselling,",
+      "text": "aconselhamento,"
+    },
+    {
+      "key": "t624",
+      "source": "community",
+      "text": "comunidade"
+    },
+    {
+      "key": "t625",
+      "source": "support,",
+      "text": "suporte,"
+    },
+    {
+      "key": "t626",
+      "source": "food,",
+      "text": "comida,"
+    },
+    {
+      "key": "t627",
+      "source": "or",
+      "text": "ou"
+    },
+    {
+      "key": "t628",
+      "source": "just",
+      "text": "apenas"
+    },
+    {
+      "key": "t629",
+      "source": "someone",
+      "text": "alguém"
+    },
+    {
+      "key": "t630",
+      "source": "to",
+      "text": "para"
+    },
+    {
+      "key": "t631",
+      "source": "talk",
+      "text": "falar"
+    },
+    {
+      "key": "t632",
+      "source": "to.",
+      "text": "para."
+    },
+    {
+      "key": "t633",
+      "source": "Reach",
+      "text": "Alcance"
+    },
+    {
+      "key": "t634",
+      "source": "out",
+      "text": "fora"
+    },
+    {
+      "key": "t635",
+      "source": "today.",
+      "text": "hoje."
+    },
+    {
+      "key": "t636",
+      "source": "Your",
+      "text": "Seu"
+    },
+    {
+      "key": "t637",
+      "source": "first",
+      "text": "primeiro"
+    },
+    {
+      "key": "t638",
+      "source": "step",
+      "text": "etapa"
+    },
+    {
+      "key": "t639",
+      "source": "matters.",
+      "text": "importa."
+    },
+    {
+      "key": "t640",
+      "source": "Email us",
+      "text": "Envie-nos um e-mail"
+    },
+    {
+      "key": "t641",
+      "source": "WhatsApp us",
+      "text": "WhatsApp nós"
+    },
+    {
+      "key": "t642",
+      "source": "Donate via PayPal",
+      "text": "Doe via PayPal"
+    },
+    {
+      "key": "t643",
+      "source": "Localgiving",
+      "text": "Localgiving"
+    },
+    {
+      "key": "t644",
+      "source": "Fundraiser",
+      "text": "Arrecadação de fundos"
+    },
+    {
+      "key": "t645",
+      "source": "Volunteer",
+      "text": "Voluntário"
+    },
+    {
+      "key": "t646",
+      "source": "Policies & your privacy",
+      "text": "Políticas e sua privacidade"
+    },
+    {
+      "key": "t647",
+      "source": "How we protect you and your data.",
+      "text": "Como protegemos você e seus dados."
+    },
+    {
+      "key": "t648",
+      "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
+      "text": "Um resumo em inglês simples de como lidamos com suas informações, mantemos as pessoas seguras e usamos cookies. Para obter as políticas completas ou qualquer solicitação, envie um e-mail"
+    },
+    {
+      "key": "t649",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t650",
+      "source": "Privacy policy",
+      "text": "Política de privacidade"
+    },
+    {
+      "key": "t651",
+      "source": "Who we are.",
+      "text": "Quem somos."
+    },
+    {
+      "key": "t652",
+      "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
+      "text": "Floating Counselling Community é uma organização de base UK que fornece aconselhamento e apoio comunitário desde 2015. Operamos como FLOATING COUNSELING COMMUNITY, uma empresa limitada por garantia registrada na Inglaterra e no País de Gales, empresa número 11334515. Somos o controlador de dados das informações que você compartilha conosco. Para solicitações de privacidade, envie um e-mail"
+    },
+    {
+      "key": "t653",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t654",
+      "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
+      "text": "ou escreva para nosso escritório Croydon em 26 Avenue Road, London SE25 4DX."
+    },
+    {
+      "key": "t655",
+      "source": "What we collect.",
+      "text": "O que coletamos."
+    },
+    {
+      "key": "t656",
+      "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
+      "text": "Quando você nos contata através do formulário de consulta, por e-mail ou WhatsApp, recebemos os detalhes que você escolhe nos fornecer - normalmente seu nome, endereço de e-mail, o tópico selecionado e sua mensagem. Se você se inscrever em nossa newsletter, coletaremos seu endereço de e-mail. Não solicitamos informações de saúde de categorias especiais através deste site; por favor, compartilhe apenas o que você se sente confortável."
+    },
+    {
+      "key": "t657",
+      "source": "How we use it, and our lawful basis.",
+      "text": "Como o usamos e nossa base legal."
+    },
+    {
+      "key": "t658",
+      "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
+      "text": "Usamos seus dados para responder a você, fornecer o suporte solicitado e executar nossos serviços (UK GDPR \"consentimento\" e \"interesses legítimos\"). Quando tivermos o dever de proteger alguém, poderemos processar informações para cumprir uma obrigação legal (consulte Proteção)."
+    },
+    {
+      "key": "t659",
+      "source": "Who we share it with.",
+      "text": "Com quem compartilhamos."
+    },
+    {
+      "key": "t660",
+      "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
+      "text": "Não vendemos seus dados. Contamos com um pequeno número de prestadores de serviços confiáveis ​​que nos ajudam a administrar o site, o e-mail, os formulários, as inscrições para voluntários, as doações e os mapas. Cada fornecedor recebe apenas as informações necessárias para esse serviço e cada um tem o seu próprio aviso de privacidade."
+    },
+    {
+      "key": "t661",
+      "source": "Translation.",
+      "text": "Tradução."
+    },
+    {
+      "key": "t662",
+      "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
+      "text": "Se você traduzir esta página, o texto da página na tela poderá ser enviado com segurança para um serviço de tradução para que a versão traduzida possa ser devolvida. A tradução é opcional, as mensagens do formulário de contato não são traduzidas por esse recurso e o texto traduzido pode ser armazenado em cache no seu navegador para que carregue mais rápido na próxima vez."
+    },
+    {
+      "key": "t663",
+      "source": "How long we keep it.",
+      "text": "Por quanto tempo vamos mantê-lo."
+    },
+    {
+      "key": "t664",
+      "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
+      "text": "Mantemos detalhes de consultas e solicitações de suporte apenas pelo tempo necessário para responder, fornecer suporte, cumprir deveres de proteção e cumprir obrigações legais ou contábeis. Os registros de doações e voluntários são mantidos de acordo com o fornecedor relevante e os requisitos legais de retenção."
+    },
+    {
+      "key": "t665",
+      "source": "Your rights.",
+      "text": "Seus direitos."
+    },
+    {
+      "key": "t666",
+      "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
+      "text": "De acordo com UK GDPR você pode solicitar acesso, correção, exclusão ou restrição de seus dados, contestar o processamento, solicitar portabilidade ou retirar consentimento a qualquer momento. E-mail"
+    },
+    {
+      "key": "t667",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t668",
+      "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
+      "text": "ou escreva para 26 Avenue Road, London SE25 4DX. Se não estiver satisfeito com nossa resposta, você pode reclamar com o ICO em ico.org.uk."
+    },
+    {
+      "key": "t669",
+      "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
+      "text": "Última revisão: 29 de maio de 2026. Este resumo em inglês simples é fornecido para fins de transparência e deve ser verificado em relação às políticas completas do Floating Counselling Community antes da publicação."
+    },
+    {
+      "key": "t670",
+      "source": "Safeguarding",
+      "text": "Salvaguarda"
+    },
+    {
+      "key": "t671",
+      "source": "Our commitment.",
+      "text": "Nosso compromisso."
+    },
+    {
+      "key": "t672",
+      "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
+      "text": "A segurança e o bem-estar das crianças, jovens e adultos em risco com quem trabalhamos estão em primeiro lugar. Nossa prática é informada sobre traumas e alinhada aos padrões éticos BACP."
+    },
+    {
+      "key": "t673",
+      "source": "Confidentiality and its limits.",
+      "text": "Confidencialidade e seus limites."
+    },
+    {
+      "key": "t674",
+      "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
+      "text": "O que você compartilha é mantido em estrita confidencialidade. A exceção é uma situação de salvaguarda – onde existe um risco de danos graves para si ou para outra pessoa, ou quando temos o dever legal de agir. Sempre que for seguro fazê-lo, discutiremos isso com você primeiro."
+    },
+    {
+      "key": "t675",
+      "source": "Raising a concern.",
+      "text": "Levantando uma preocupação."
+    },
+    {
+      "key": "t676",
+      "source": "If you're worried about someone's safety, contact us at",
+      "text": "Se você está preocupado com a segurança de alguém, entre em contato conosco pelo e-mail"
+    },
+    {
+      "key": "t677",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t678",
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "ou +44 (0)7305 882959. Se alguém estiver em perigo imediato, ligue sempre para 999. Você também pode entrar em contato com o NSPCC pelo telefone 0808 800 5000 ou com a equipe de salvaguarda da sua autoridade local."
+    },
+    {
+      "key": "t679",
+      "source": "Our people.",
+      "text": "Nosso povo."
+    },
+    {
+      "key": "t680",
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "Funcionários e voluntários são recrutados com segurança e recebem verificações DBS quando apropriado para sua função."
+    },
+    {
+      "key": "t681",
+      "source": "Safeguarding lead.",
+      "text": "Salvaguardando o chumbo."
+    },
+    {
+      "key": "t682",
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, Diretor e Oficial de Salvaguarda. E-mail"
+    },
+    {
+      "key": "t683",
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "aconselhamento flutuantelinda@gmail.com"
+    },
+    {
+      "key": "t684",
+      "source": "or",
+      "text": "ou"
+    },
+    {
+      "key": "t685",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t686",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". Se alguém estiver em perigo imediato, ligue para 999."
+    },
+    {
+      "key": "t687",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Última revisão: 29 de maio de 2026. Este resumo deve ser verificado em relação à política de salvaguarda completa do Floating Counselling Community antes da publicação."
+    },
+    {
+      "key": "t688",
+      "source": "Cookies & storage",
+      "text": "Cookies e armazenamento"
+    },
+    {
+      "key": "t689",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "Mantemos o mínimo de cookies e não usamos publicidade ou rastreamento entre sites. O site armazena alguns pequenos itens em seu navegador:"
+    },
+    {
+      "key": "t690",
+      "source": "Cookie consent",
+      "text": "Consentimento de cookies"
+    },
+    {
+      "key": "t691",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— lembra que você viu este aviso, por isso não o mostramos em todas as visitas."
+    },
+    {
+      "key": "t692",
+      "source": "Translation cache",
+      "text": "Cache de tradução"
+    },
+    {
+      "key": "t693",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "— se você traduzir a página, o texto traduzido será salvo localmente para que carregue instantaneamente na próxima vez."
+    },
+    {
+      "key": "t694",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "O mapa do Google incorporado pode definir os próprios cookies do Google quando for carregado. Você pode limpar todos os itens acima a qualquer momento, limpando os dados do site do seu navegador."
+    },
+    {
+      "key": "t695",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "Aconselhamento, comunidade e compaixão, atendendo Croydon, Redbridge, Newham, Durham e Southwark desde 2015."
+    },
+    {
+      "key": "t696",
+      "source": "Get in touch",
+      "text": "Entre em contato"
+    },
+    {
+      "key": "t697",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t698",
+      "source": "WhatsApp · +44 (0)7305 882959",
+      "text": "WhatsApp · +44 (0)7305 882959"
+    },
+    {
+      "key": "t699",
+      "source": "Croydon Hub · Ashburton Park Cafe Hall",
+      "text": "Hub Croydon · Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t700",
+      "source": "See all project locations",
+      "text": "Veja todos os locais dos projetos"
+    },
+    {
+      "key": "t701",
+      "source": "Fundraiser",
+      "text": "Arrecadação de fundos"
+    },
+    {
+      "key": "t702",
+      "source": "Volunteer",
+      "text": "Voluntário"
+    },
+    {
+      "key": "t703",
+      "source": "Croydon office",
+      "text": "Escritório Croydon"
+    },
+    {
+      "key": "t704",
+      "source": "Redbridge office",
+      "text": "Escritório Redbridge"
+    },
+    {
+      "key": "t705",
+      "source": "Durham hub",
+      "text": "Hub Durham"
+    },
+    {
+      "key": "t706",
+      "source": "Southwark hub",
+      "text": "Hub Southwark"
+    },
+    {
+      "key": "t707",
+      "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
+      "text": "Floating Counselling™ · Alinhado com BACP · Empresa no. 11334515 · Parceiro da comunidade"
+    },
+    {
+      "key": "t708",
+      "source": "Privacy",
+      "text": "Privacidade"
+    },
+    {
+      "key": "t709",
+      "source": "Safeguarding",
+      "text": "Salvaguarda"
+    },
+    {
+      "key": "t710",
+      "source": "Fundraiser",
+      "text": "Arrecadação de fundos"
+    },
+    {
+      "key": "t711",
+      "source": "Donate",
+      "text": "Doe"
+    },
+    {
+      "key": "t712",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t713",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t714",
+      "source": "Choose a quick route",
+      "text": "Escolha uma rota rápida"
+    },
+    {
+      "key": "t715",
+      "source": "If you are not sure which service fits, choose the closest option and we will route you.",
+      "text": "Se você não tem certeza de qual serviço se enquadra, escolha a opção mais próxima e nós encaminharemos você."
+    },
+    {
+      "key": "t716",
+      "source": "Counselling enquiry",
+      "text": "Consulta de aconselhamento"
+    },
+    {
+      "key": "t717",
+      "source": "Parenting support",
+      "text": "Apoio aos pais"
+    },
+    {
+      "key": "t718",
+      "source": "Food or community hub",
+      "text": "Centro alimentar ou comunitário"
+    },
+    {
+      "key": "t719",
+      "source": "Holiday school",
+      "text": "Escola de férias"
+    },
+    {
+      "key": "t720",
+      "source": "Fundraiser",
+      "text": "Arrecadação de fundos"
+    },
+    {
+      "key": "t721",
+      "source": "Volunteer or partner",
+      "text": "Voluntário ou parceiro"
+    },
+    {
+      "key": "t722",
+      "source": "WhatsApp Floating",
+      "text": "WhatsApp flutuante"
+    },
+    {
+      "key": "t723",
+      "source": "We use a small number of cookies to make this site work and to understand how it's used.",
+      "text": "Usamos um pequeno número de cookies para fazer este site funcionar e entender como ele é usado."
+    },
+    {
+      "key": "t724",
+      "source": "More info",
+      "text": "Mais informações"
+    },
+    {
+      "key": "t725",
+      "source": "Decline",
+      "text": "Declínio"
+    },
+    {
+      "key": "t726",
+      "source": "Accept",
+      "text": "Aceitar"
+    },
+    {
+      "key": "a727",
+      "source": "Primary",
+      "text": "Primário"
+    },
+    {
+      "key": "a728",
+      "source": "Floating Counselling — Home",
+      "text": "Floating Counselling - Página inicial"
+    },
+    {
+      "key": "a729",
+      "source": "Floating Counselling",
+      "text": "Floating Counselling"
+    },
+    {
+      "key": "a730",
+      "source": "Toggle navigation",
+      "text": "Alternar navegação"
+    },
+    {
+      "key": "a731",
+      "source": "Counselling conversation at Floating Counselling",
+      "text": "Conversa de aconselhamento em Floating Counselling"
+    },
+    {
+      "key": "a732",
+      "source": "Scroll to impact",
+      "text": "Role para impactar"
+    },
+    {
+      "key": "a733",
+      "source": "Our impact",
+      "text": "Nosso impacto"
+    },
+    {
+      "key": "a734",
+      "source": "Celestina Oniye-Thomas from Floating Counselling",
+      "text": "Celestina Oniye-Thomas de Floating Counselling"
+    },
+    {
+      "key": "a735",
+      "source": "Impact Parenting support artwork from Floating Counselling",
+      "text": "Arte de suporte do Impact Parenting do Floating Counselling"
+    },
+    {
+      "key": "a736",
+      "source": "Floating Counselling community organisation impact infographic",
+      "text": "Infográfico de impacto da organização comunitária Floating Counselling"
+    },
+    {
+      "key": "a737",
+      "source": "Holiday school values",
+      "text": "Valores da escola de férias"
+    },
+    {
+      "key": "a738",
+      "source": "Holiday school week 1 newsletter",
+      "text": "Boletim informativo da semana 1 da escola de férias"
+    },
+    {
+      "key": "a739",
+      "source": "Floating Community Hub community gathering",
+      "text": "Reunião comunitária do Centro Comunitário Flutuante"
+    },
+    {
+      "key": "a740",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "a741",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela"
+    },
+    {
+      "key": "a742",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode"
+    },
+    {
+      "key": "a743",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah"
+    },
+    {
+      "key": "a744",
+      "source": "Department for Education",
+      "text": "Departamento de Educação"
+    },
+    {
+      "key": "a745",
+      "source": "Croydon Council",
+      "text": "Conselho Croydon"
+    },
+    {
+      "key": "a746",
+      "source": "South West London CCGs",
+      "text": "CCGs London do Sudoeste"
+    },
+    {
+      "key": "a747",
+      "source": "The National Lottery Community Fund",
+      "text": "O Fundo Comunitário da Loteria Nacional"
+    },
+    {
+      "key": "a748",
+      "source": "BME Forum",
+      "text": "Fórum BME"
+    },
+    {
+      "key": "a749",
+      "source": "Croydon Voluntary Action",
+      "text": "Croydon Ação Voluntária"
+    },
+    {
+      "key": "a750",
+      "source": "Volunteer application form",
+      "text": "Formulário de inscrição para voluntariado"
+    },
+    {
+      "key": "a751",
+      "source": "Project locations",
+      "text": "Locais do projeto"
+    },
+    {
+      "key": "a752",
+      "source": "Social links",
+      "text": "Links sociais"
+    },
+    {
+      "key": "a753",
+      "source": "Facebook",
+      "text": "Facebook"
+    },
+    {
+      "key": "a754",
+      "source": "Instagram",
+      "text": "Instagram"
+    },
+    {
+      "key": "a755",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a756",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a757",
+      "source": "Floating Counselling — Home",
+      "text": "Floating Counselling - Página inicial"
+    },
+    {
+      "key": "a758",
+      "source": "Floating Counselling",
+      "text": "Floating Counselling"
+    },
+    {
+      "key": "a759",
+      "source": "Social links",
+      "text": "Links sociais"
+    },
+    {
+      "key": "a760",
+      "source": "Facebook",
+      "text": "Facebook"
+    },
+    {
+      "key": "a761",
+      "source": "Instagram",
+      "text": "Instagram"
+    },
+    {
+      "key": "a762",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a763",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a764",
+      "source": "Project locations",
+      "text": "Locais do projeto"
+    },
+    {
+      "key": "a765",
+      "source": "Fundraise for Floating Counselling",
+      "text": "Arrecadação de fundos para Floating Counselling"
+    },
+    {
+      "key": "a766",
+      "source": "Donate to Floating Counselling",
+      "text": "Doe para Floating Counselling"
+    },
+    {
+      "key": "a767",
+      "source": "Back to top",
+      "text": "Voltar ao início"
+    },
+    {
+      "key": "a768",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "a769",
+      "source": "Close assistant",
+      "text": "Fechar assistente"
+    },
+    {
+      "key": "a770",
+      "source": "Cookie notice",
+      "text": "Aviso sobre cookies"
+    }
+  ]
+}

@@ -1,0 +1,3865 @@
+{
+  "language": "tr",
+  "languageName": "Turkish",
+  "sourceLanguage": "en",
+  "sourceHash": "oouxuf",
+  "sourceUrl": "http://127.0.0.1:63690/",
+  "generatedAt": "2026-05-30T10:24:27.552Z",
+  "translations": [
+    {
+      "key": "t0",
+      "source": "Floating Counselling — Counselling, Community & Compassion · Croydon & London",
+      "text": "Floating Counselling — Danışmanlık, Topluluk ve Merhamet · Croydon ve London"
+    },
+    {
+      "key": "t1",
+      "source": "Skip to content",
+      "text": "İçeriğe atla"
+    },
+    {
+      "key": "t2",
+      "source": "Services",
+      "text": "Hizmetler"
+    },
+    {
+      "key": "t3",
+      "source": "Find help",
+      "text": "Yardım bulun"
+    },
+    {
+      "key": "t4",
+      "source": "Parenting",
+      "text": "Ebeveynlik"
+    },
+    {
+      "key": "t5",
+      "source": "Holiday School",
+      "text": "Tatil Okulu"
+    },
+    {
+      "key": "t6",
+      "source": "Hub",
+      "text": "Merkez"
+    },
+    {
+      "key": "t7",
+      "source": "Fundraiser",
+      "text": "Bağış Kampanyası"
+    },
+    {
+      "key": "t8",
+      "source": "Volunteer",
+      "text": "Gönüllü"
+    },
+    {
+      "key": "t9",
+      "source": "Translate website",
+      "text": "Çeviri web sitesi"
+    },
+    {
+      "key": "t10",
+      "source": "Book a Session",
+      "text": "Bir Oturum Ayırt"
+    },
+    {
+      "key": "t11",
+      "source": "Croydon · Redbridge · Newham · Durham · Southwark",
+      "text": "Croydon · Redbridge · Newham · Durham · Southwark"
+    },
+    {
+      "key": "t12",
+      "source": "Counselling,",
+      "text": "Danışmanlık,"
+    },
+    {
+      "key": "t13",
+      "source": "Community",
+      "text": "Topluluk"
+    },
+    {
+      "key": "t14",
+      "source": "Compassion.",
+      "text": "Şefkat."
+    },
+    {
+      "key": "t15",
+      "source": "A",
+      "text": "A"
+    },
+    {
+      "key": "t16",
+      "source": "UK-based",
+      "text": "UK tabanlı"
+    },
+    {
+      "key": "t17",
+      "source": "grassroots",
+      "text": "tabandan gelenler"
+    },
+    {
+      "key": "t18",
+      "source": "charity",
+      "text": "hayır kurumu"
+    },
+    {
+      "key": "t19",
+      "source": "empowering",
+      "text": "güçlendirici"
+    },
+    {
+      "key": "t20",
+      "source": "individuals,",
+      "text": "bireyler,"
+    },
+    {
+      "key": "t21",
+      "source": "families",
+      "text": "aileler"
+    },
+    {
+      "key": "t22",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t23",
+      "source": "marginalised",
+      "text": "marjinalleştirilmiş"
+    },
+    {
+      "key": "t24",
+      "source": "groups",
+      "text": "gruplar"
+    },
+    {
+      "key": "t25",
+      "source": "through",
+      "text": "aracılığıyla"
+    },
+    {
+      "key": "t26",
+      "source": "holistic",
+      "text": "bütünsel"
+    },
+    {
+      "key": "t27",
+      "source": "support,",
+      "text": "desteği,"
+    },
+    {
+      "key": "t28",
+      "source": "therapeutic",
+      "text": "terapötik"
+    },
+    {
+      "key": "t29",
+      "source": "care,",
+      "text": "bakım,"
+    },
+    {
+      "key": "t30",
+      "source": "practical",
+      "text": "pratik"
+    },
+    {
+      "key": "t31",
+      "source": "help",
+      "text": "yardım"
+    },
+    {
+      "key": "t32",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t33",
+      "source": "community-driven",
+      "text": "topluluk odaklı"
+    },
+    {
+      "key": "t34",
+      "source": "programmes",
+      "text": "programlar"
+    },
+    {
+      "key": "t35",
+      "source": "designed",
+      "text": "tasarlandı"
+    },
+    {
+      "key": "t36",
+      "source": "as",
+      "text": "olarak"
+    },
+    {
+      "key": "t37",
+      "source": "wraparound",
+      "text": "sarmalayıcı"
+    },
+    {
+      "key": "t38",
+      "source": "care.",
+      "text": "bakım."
+    },
+    {
+      "key": "t39",
+      "source": "Book a Session",
+      "text": "Bir Oturum Ayırt"
+    },
+    {
+      "key": "t40",
+      "source": "Find the right support",
+      "text": "Doğru desteği bulun"
+    },
+    {
+      "key": "t41",
+      "source": "CO",
+      "text": "CO"
+    },
+    {
+      "key": "t42",
+      "source": "OO",
+      "text": "OO"
+    },
+    {
+      "key": "t43",
+      "source": "EO",
+      "text": "EO"
+    },
+    {
+      "key": "t44",
+      "source": "LY",
+      "text": "LY"
+    },
+    {
+      "key": "t45",
+      "source": "Led by four women directors with clinical training, lived experience and deep community roots.",
+      "text": "Klinik eğitime, yaşanmış deneyime ve derin topluluk köklerine sahip dört kadın yönetici tarafından yönetiliyor."
+    },
+    {
+      "key": "t46",
+      "source": "Trauma-informed",
+      "text": "Travma bilgili"
+    },
+    {
+      "key": "t47",
+      "source": "Care that meets you where you are",
+      "text": "Bulunduğunuz yerde sizi karşılayan ilgi"
+    },
+    {
+      "key": "t48",
+      "source": "5 project areas",
+      "text": "5 proje alanı"
+    },
+    {
+      "key": "t49",
+      "source": "Croydon · Redbridge · Newham · Durham · Southwark",
+      "text": "Croydon · Redbridge · Newham · Durham · Southwark"
+    },
+    {
+      "key": "t50",
+      "source": "Scroll",
+      "text": "Kaydır"
+    },
+    {
+      "key": "t51",
+      "source": "Find the right support",
+      "text": "Doğru desteği bulun"
+    },
+    {
+      "key": "t52",
+      "source": "Choose",
+      "text": "Seç"
+    },
+    {
+      "key": "t53",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t54",
+      "source": "help",
+      "text": "yardım"
+    },
+    {
+      "key": "t55",
+      "source": "you",
+      "text": "sen"
+    },
+    {
+      "key": "t56",
+      "source": "need",
+      "text": "ihtiyacı"
+    },
+    {
+      "key": "t57",
+      "source": "today.",
+      "text": "bugün."
+    },
+    {
+      "key": "t58",
+      "source": "Tell",
+      "text": "Söyle"
+    },
+    {
+      "key": "t59",
+      "source": "us",
+      "text": "biz"
+    },
+    {
+      "key": "t60",
+      "source": "what",
+      "text": "ne"
+    },
+    {
+      "key": "t61",
+      "source": "feels",
+      "text": "hissediyor"
+    },
+    {
+      "key": "t62",
+      "source": "most",
+      "text": "en çok"
+    },
+    {
+      "key": "t63",
+      "source": "urgent",
+      "text": "acil"
+    },
+    {
+      "key": "t64",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t65",
+      "source": "we",
+      "text": "biz"
+    },
+    {
+      "key": "t66",
+      "source": "will",
+      "text": "olacak"
+    },
+    {
+      "key": "t67",
+      "source": "point",
+      "text": "noktası"
+    },
+    {
+      "key": "t68",
+      "source": "you",
+      "text": "sen"
+    },
+    {
+      "key": "t69",
+      "source": "towards",
+      "text": "doğru"
+    },
+    {
+      "key": "t70",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t71",
+      "source": "right",
+      "text": "sağ"
+    },
+    {
+      "key": "t72",
+      "source": "support,",
+      "text": "desteği,"
+    },
+    {
+      "key": "t73",
+      "source": "whether",
+      "text": "olup olmadığı"
+    },
+    {
+      "key": "t74",
+      "source": "that",
+      "text": "bu"
+    },
+    {
+      "key": "t75",
+      "source": "starts",
+      "text": "başlar"
+    },
+    {
+      "key": "t76",
+      "source": "with",
+      "text": "ile"
+    },
+    {
+      "key": "t77",
+      "source": "therapy,",
+      "text": "terapisi,"
+    },
+    {
+      "key": "t78",
+      "source": "practical",
+      "text": "pratik"
+    },
+    {
+      "key": "t79",
+      "source": "help,",
+      "text": "yardım,"
+    },
+    {
+      "key": "t80",
+      "source": "family",
+      "text": "aile"
+    },
+    {
+      "key": "t81",
+      "source": "work",
+      "text": "iş"
+    },
+    {
+      "key": "t82",
+      "source": "or",
+      "text": "veya"
+    },
+    {
+      "key": "t83",
+      "source": "a",
+      "text": "a"
+    },
+    {
+      "key": "t84",
+      "source": "partnership",
+      "text": "ortaklık"
+    },
+    {
+      "key": "t85",
+      "source": "conversation.",
+      "text": "görüşme."
+    },
+    {
+      "key": "t86",
+      "source": "Therapy",
+      "text": "Terapi"
+    },
+    {
+      "key": "t87",
+      "source": "I need counselling",
+      "text": "Danışmanlığa ihtiyacım var"
+    },
+    {
+      "key": "t88",
+      "source": "Start with one-to-one, family, couple, group, online or in-person therapeutic support.",
+      "text": "Bire bir, aile, çift, grup, çevrimiçi veya yüz yüze terapötik destekle başlayın."
+    },
+    {
+      "key": "t89",
+      "source": "Book a session",
+      "text": "Bir oturum ayırtın"
+    },
+    {
+      "key": "t90",
+      "source": "Family",
+      "text": "Aile"
+    },
+    {
+      "key": "t91",
+      "source": "I need parenting support",
+      "text": "Ebeveynlik desteğine ihtiyacım var"
+    },
+    {
+      "key": "t92",
+      "source": "Get practical tools for behaviour, attachment, trauma recovery and family confidence.",
+      "text": "Davranış, bağlanma, travmadan iyileşme ve aileye güven için pratik araçlar edinin."
+    },
+    {
+      "key": "t93",
+      "source": "View parenting help",
+      "text": "Ebeveynlik yardımını görüntüle"
+    },
+    {
+      "key": "t94",
+      "source": "Community",
+      "text": "Topluluk"
+    },
+    {
+      "key": "t95",
+      "source": "I need practical help",
+      "text": "Pratik yardıma ihtiyacım var"
+    },
+    {
+      "key": "t96",
+      "source": "Use the hub for food, clothing, forms, housing questions, bills help, digital inclusion and wellbeing support.",
+      "text": "Yiyecek, giyim, formlar, barınma soruları, fatura yardımı, dijital katılım ve refah desteği için merkezi kullanın."
+    },
+    {
+      "key": "t97",
+      "source": "Visit the hub",
+      "text": "Merkezi ziyaret edin"
+    },
+    {
+      "key": "t98",
+      "source": "Partners",
+      "text": "Ortaklar"
+    },
+    {
+      "key": "t99",
+      "source": "I want to volunteer or partner",
+      "text": "Gönüllü olmak veya ortak olmak istiyorum"
+    },
+    {
+      "key": "t100",
+      "source": "Support local residents through food donations, funding, fundraising, skills, events or professional help.",
+      "text": "Yiyecek bağışları, finansman, bağış toplama, beceriler, etkinlikler veya profesyonel yardım yoluyla yerel sakinleri destekleyin."
+    },
+    {
+      "key": "t101",
+      "source": "Volunteer with us",
+      "text": "Bizimle gönüllü olun"
+    },
+    {
+      "key": "t102",
+      "source": "Not sure where to start?",
+      "text": "Nereden başlayacağınızdan emin değil misiniz?"
+    },
+    {
+      "key": "t103",
+      "source": "Tap Ask Floating to find the right service, or send one WhatsApp message and we will route you.",
+      "text": "Doğru hizmeti bulmak için Ask Floating'ye dokunun veya bir WhatsApp mesajı gönderin, sizi yönlendirelim."
+    },
+    {
+      "key": "t104",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t105",
+      "source": "A",
+      "text": "A"
+    },
+    {
+      "key": "t106",
+      "source": "decade",
+      "text": "on yıl"
+    },
+    {
+      "key": "t107",
+      "source": "of",
+      "text": "/"
+    },
+    {
+      "key": "t108",
+      "source": "grassroots",
+      "text": "tabandan gelenler"
+    },
+    {
+      "key": "t109",
+      "source": "care,",
+      "text": "bakım,"
+    },
+    {
+      "key": "t110",
+      "source": "by",
+      "text": "tarafından"
+    },
+    {
+      "key": "t111",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t112",
+      "source": "numbers.",
+      "text": "sayılar."
+    },
+    {
+      "key": "t113",
+      "source": "Counselling sessions delivered",
+      "text": "Danışmanlık oturumları gerçekleştirildi"
+    },
+    {
+      "key": "t114",
+      "source": "Clinical hours of care",
+      "text": "Klinik bakım saatleri"
+    },
+    {
+      "key": "t115",
+      "source": "Combined clinical experience",
+      "text": "Birleşik klinik deneyim"
+    },
+    {
+      "key": "t116",
+      "source": "Children supported through holiday school",
+      "text": "Tatil okulu aracılığıyla desteklenen çocuklar"
+    },
+    {
+      "key": "t117",
+      "source": "Continuous service to community",
+      "text": "Topluma sürekli hizmet"
+    },
+    {
+      "key": "t118",
+      "source": "Practical community support and therapeutic care sit together, so people can stabilise today and grow tomorrow.",
+      "text": "Pratik topluluk desteği ve terapötik bakım bir arada yer alıyor, böylece insanlar bugün istikrara kavuşabilir ve yarın büyüyebilirler."
+    },
+    {
+      "key": "t119",
+      "source": "What we offer",
+      "text": "Ne sunuyoruz"
+    },
+    {
+      "key": "t120",
+      "source": "Core",
+      "text": "Çekirdek"
+    },
+    {
+      "key": "t121",
+      "source": "support,",
+      "text": "desteği,"
+    },
+    {
+      "key": "t122",
+      "source": "without",
+      "text": "olmadan"
+    },
+    {
+      "key": "t123",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t124",
+      "source": "maze.",
+      "text": "labirent."
+    },
+    {
+      "key": "t125",
+      "source": "Start",
+      "text": "Başlat"
+    },
+    {
+      "key": "t126",
+      "source": "with",
+      "text": "ile"
+    },
+    {
+      "key": "t127",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t128",
+      "source": "kind",
+      "text": "tür"
+    },
+    {
+      "key": "t129",
+      "source": "of",
+      "text": "/"
+    },
+    {
+      "key": "t130",
+      "source": "help",
+      "text": "yardım"
+    },
+    {
+      "key": "t131",
+      "source": "you",
+      "text": "sen"
+    },
+    {
+      "key": "t132",
+      "source": "need",
+      "text": "ihtiyacı"
+    },
+    {
+      "key": "t133",
+      "source": "most.",
+      "text": "en çok."
+    },
+    {
+      "key": "t134",
+      "source": "We",
+      "text": "Biz"
+    },
+    {
+      "key": "t135",
+      "source": "will",
+      "text": "olacak"
+    },
+    {
+      "key": "t136",
+      "source": "route",
+      "text": "rota"
+    },
+    {
+      "key": "t137",
+      "source": "you",
+      "text": "sen"
+    },
+    {
+      "key": "t138",
+      "source": "to",
+      "text": "-"
+    },
+    {
+      "key": "t139",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t140",
+      "source": "right",
+      "text": "sağ"
+    },
+    {
+      "key": "t141",
+      "source": "person",
+      "text": "kişi"
+    },
+    {
+      "key": "t142",
+      "source": "from",
+      "text": "from"
+    },
+    {
+      "key": "t143",
+      "source": "there.",
+      "text": "orada."
+    },
+    {
+      "key": "t144",
+      "source": "Counselling & Mentoring",
+      "text": "Danışmanlık ve Mentorluk"
+    },
+    {
+      "key": "t145",
+      "source": "Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person across our project boroughs and online, with free and low-cost care for elderly, Universal Credit and low-income clients.",
+      "text": "Nitelikli psikoterapistler tarafından verilen 15.000'den fazla birebir, grup, çift ve aile terapisi seansı. Yaşlılar, Universal Credit ve düşük gelirli müşteriler için ücretsiz ve düşük maliyetli bakım hizmetiyle proje ilçelerimizde şahsen ve çevrimiçi olarak."
+    },
+    {
+      "key": "t146",
+      "source": "Get started",
+      "text": "Başlayın"
+    },
+    {
+      "key": "t147",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t148",
+      "source": "Workshops, 1:1 mentoring and group programmes for parents, including therapeutic camps, the Impact Parenting Pillar training and a private support group.",
+      "text": "Atölye çalışmaları, ebeveynlere yönelik 1:1 mentorluk ve grup programları, terapötik kamplar, Impact Parenting Pillar eğitimi ve özel bir destek grubu dahil."
+    },
+    {
+      "key": "t149",
+      "source": "Learn more",
+      "text": "Daha fazlasını öğren"
+    },
+    {
+      "key": "t150",
+      "source": "Floating Community Hub",
+      "text": "Yüzen Topluluk Merkezi"
+    },
+    {
+      "key": "t151",
+      "source": "A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Newham, Durham and Southwark, offering practical support, wellbeing services and advocacy.",
+      "text": "Ashburton Park Cafe Hall'de haftalık bir Croydon merkezinin yanı sıra Redbridge, Newham, Durham ve Southwark'de pratik destek, sağlıklı yaşam hizmetleri ve savunuculuk sunan topluluk projeleri."
+    },
+    {
+      "key": "t152",
+      "source": "Find out more",
+      "text": "Daha fazlasını öğrenin"
+    },
+    {
+      "key": "t153",
+      "source": "Holiday School & Camps",
+      "text": "Tatil Okulu ve Kampları"
+    },
+    {
+      "key": "t154",
+      "source": "Art therapy, music, play therapy and psychological techniques for children aged 5 to 11. Over 1,400 children registered across recent programmes.",
+      "text": "5 ila 11 yaş arası çocuklar için sanat terapisi, müzik, oyun terapisi ve psikolojik teknikler. Son programlara 1.400'den fazla çocuk kaydoldu."
+    },
+    {
+      "key": "t155",
+      "source": "Register",
+      "text": "Kayıt ol"
+    },
+    {
+      "key": "t156",
+      "source": "Food Bank & Essentials",
+      "text": "Gıda Bankası ve Temel İhtiyaçlar"
+    },
+    {
+      "key": "t157",
+      "source": "Weekly donated food, clothes and practical essentials for individuals and families who need immediate support.",
+      "text": "Acil desteğe ihtiyacı olan bireyler ve aileler için haftalık olarak bağışlanan yiyecek, kıyafet ve pratik temel malzemeler."
+    },
+    {
+      "key": "t158",
+      "source": "Visit the hub",
+      "text": "Merkezi ziyaret edin"
+    },
+    {
+      "key": "t159",
+      "source": "Financial Literacy & Employment Support",
+      "text": "Finansal Okuryazarlık ve İstihdam Desteği"
+    },
+    {
+      "key": "t160",
+      "source": "Budgeting, employment confidence, skills support and enterprise guidance for people rebuilding stability.",
+      "text": "Bütçeleme, istihdam güveni, beceri desteği ve istikrarı yeniden inşa eden insanlar için kurumsal rehberlik."
+    },
+    {
+      "key": "t161",
+      "source": "Ask about support",
+      "text": "Destek hakkında bilgi isteyin"
+    },
+    {
+      "key": "t162",
+      "source": "Since",
+      "text": "O zamandan beri"
+    },
+    {
+      "key": "t163",
+      "source": "Serving Croydon, Redbridge, Newham, Durham & Southwark",
+      "text": "Croydon, Redbridge, Newham, Durham ve Southwark'ye hizmet veriyor"
+    },
+    {
+      "key": "t164",
+      "source": "Who we are",
+      "text": "Biz kimiz"
+    },
+    {
+      "key": "t165",
+      "source": "Wraparound",
+      "text": "Kapsamlı"
+    },
+    {
+      "key": "t166",
+      "source": "care,",
+      "text": "bakım,"
+    },
+    {
+      "key": "t167",
+      "source": "rooted",
+      "text": "köklü"
+    },
+    {
+      "key": "t168",
+      "source": "in",
+      "text": "içinde"
+    },
+    {
+      "key": "t169",
+      "source": "community.",
+      "text": "topluluk."
+    },
+    {
+      "key": "t170",
+      "source": "Inspired",
+      "text": "İlham Verdi"
+    },
+    {
+      "key": "t171",
+      "source": "by",
+      "text": "tarafından"
+    },
+    {
+      "key": "t172",
+      "source": "Maslow's",
+      "text": "Maslow'un"
+    },
+    {
+      "key": "t173",
+      "source": "hierarchy",
+      "text": "hiyerarşi"
+    },
+    {
+      "key": "t174",
+      "source": "of",
+      "text": "/"
+    },
+    {
+      "key": "t175",
+      "source": "needs,",
+      "text": "ihtiyaçları,"
+    },
+    {
+      "key": "t176",
+      "source": "we",
+      "text": "biz"
+    },
+    {
+      "key": "t177",
+      "source": "meet",
+      "text": "buluşuyoruz"
+    },
+    {
+      "key": "t178",
+      "source": "people",
+      "text": "kişi"
+    },
+    {
+      "key": "t179",
+      "source": "where",
+      "text": "burada"
+    },
+    {
+      "key": "t180",
+      "source": "they",
+      "text": "onlar"
+    },
+    {
+      "key": "t181",
+      "source": "are",
+      "text": "are"
+    },
+    {
+      "key": "t182",
+      "source": "emotionally,",
+      "text": "duygusal olarak,"
+    },
+    {
+      "key": "t183",
+      "source": "practically",
+      "text": "pratik olarak"
+    },
+    {
+      "key": "t184",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t185",
+      "source": "socially",
+      "text": "sosyal olarak"
+    },
+    {
+      "key": "t186",
+      "source": "to",
+      "text": "-"
+    },
+    {
+      "key": "t187",
+      "source": "create",
+      "text": "oluştur"
+    },
+    {
+      "key": "t188",
+      "source": "lasting",
+      "text": "kalıcı"
+    },
+    {
+      "key": "t189",
+      "source": "change",
+      "text": "değişiklik"
+    },
+    {
+      "key": "t190",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t191",
+      "source": "personal",
+      "text": "kişisel"
+    },
+    {
+      "key": "t192",
+      "source": "growth.",
+      "text": "büyüme."
+    },
+    {
+      "key": "t193",
+      "source": "We are proudly led by a diverse team of African women, whose lived experience and professional expertise shape every part of our work.",
+      "text": "Yaşamış deneyimleri ve profesyonel uzmanlıkları işimizin her bölümünü şekillendiren, çeşitliliğe sahip Afrikalı kadınlardan oluşan bir ekip tarafından gururla yönetiliyoruz."
+    },
+    {
+      "key": "t194",
+      "source": "Our founder, Celestina Oniye-Thomas, knows this work from the inside. After surviving childhood trauma and a spinal injury at sixteen that doctors thought would stop her walking, she taught herself to walk again, retrained as an integrative psychotherapist, and built Floating so families could find the healing she had to fight for.",
+      "text": "Kurucumuz Celestina Oniye-Thomas bu işi içeriden biliyor. Çocukluk travmasını ve on altı yaşında doktorların yürümesini engelleyeceğini düşündüğü omurilik yaralanmasını atlattıktan sonra, kendi kendine yürümeyi yeniden öğrendi, bütünleştirici bir psikoterapist olarak yeniden eğitim aldı ve ailelerin onun uğruna mücadele ettiği şifayı bulabilmesi için Floating'i kurdu."
+    },
+    {
+      "key": "t195",
+      "source": "\"Resilience and self-confidence saved my life.\"",
+      "text": "\"Dayanıklılık ve özgüven hayatımı kurtardı.\""
+    },
+    {
+      "key": "t196",
+      "source": "Celestina Oniye-Thomas — Founder & CEO",
+      "text": "Celestina Oniye-Thomas — Kurucu ve CEO"
+    },
+    {
+      "key": "t197",
+      "source": "Trauma-Informed Care",
+      "text": "Travma Bilgili Bakım"
+    },
+    {
+      "key": "t198",
+      "source": "Culturally Relevant",
+      "text": "Kültürel Açıdan İlgili"
+    },
+    {
+      "key": "t199",
+      "source": "Local Partnerships",
+      "text": "Yerel Ortaklıklar"
+    },
+    {
+      "key": "t200",
+      "source": "Holistic Approach",
+      "text": "Bütünsel Yaklaşım"
+    },
+    {
+      "key": "t201",
+      "source": "Free & Low Cost",
+      "text": "Ücretsiz ve Düşük Maliyet"
+    },
+    {
+      "key": "t202",
+      "source": "Online & In Person",
+      "text": "Çevrimiçi ve Şahsen"
+    },
+    {
+      "key": "t203",
+      "source": "Introducing",
+      "text": "Tanıtıyoruz"
+    },
+    {
+      "key": "t204",
+      "source": "Therapy",
+      "text": "Terapi"
+    },
+    {
+      "key": "t205",
+      "source": "with",
+      "text": "ile"
+    },
+    {
+      "key": "t206",
+      "source": "realistic",
+      "text": "gerçekçi"
+    },
+    {
+      "key": "t207",
+      "source": "tools",
+      "text": "araçlar"
+    },
+    {
+      "key": "t208",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t209",
+      "source": "strategy",
+      "text": "stratejisi"
+    },
+    {
+      "key": "t210",
+      "source": "for",
+      "text": "için"
+    },
+    {
+      "key": "t211",
+      "source": "a",
+      "text": "a"
+    },
+    {
+      "key": "t212",
+      "source": "better",
+      "text": "daha iyi"
+    },
+    {
+      "key": "t213",
+      "source": "life.",
+      "text": "hayat."
+    },
+    {
+      "key": "t214",
+      "source": "Floating",
+      "text": "Yüzen"
+    },
+    {
+      "key": "t215",
+      "source": "combines",
+      "text": "birleştirir"
+    },
+    {
+      "key": "t216",
+      "source": "years",
+      "text": "yıl"
+    },
+    {
+      "key": "t217",
+      "source": "as",
+      "text": "olarak"
+    },
+    {
+      "key": "t218",
+      "source": "clinical",
+      "text": "klinik"
+    },
+    {
+      "key": "t219",
+      "source": "psychotherapists",
+      "text": "psikoterapistler"
+    },
+    {
+      "key": "t220",
+      "source": "with",
+      "text": "ile"
+    },
+    {
+      "key": "t221",
+      "source": "clinical",
+      "text": "klinik"
+    },
+    {
+      "key": "t222",
+      "source": "hours",
+      "text": "saat"
+    },
+    {
+      "key": "t223",
+      "source": "of",
+      "text": "/"
+    },
+    {
+      "key": "t224",
+      "source": "working",
+      "text": "çalışıyor"
+    },
+    {
+      "key": "t225",
+      "source": "to",
+      "text": "-"
+    },
+    {
+      "key": "t226",
+      "source": "help",
+      "text": "yardım"
+    },
+    {
+      "key": "t227",
+      "source": "individuals,",
+      "text": "bireyler,"
+    },
+    {
+      "key": "t228",
+      "source": "children",
+      "text": "çocuklar"
+    },
+    {
+      "key": "t229",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t230",
+      "source": "parents",
+      "text": "ebeveynler"
+    },
+    {
+      "key": "t231",
+      "source": "live",
+      "text": "canlı"
+    },
+    {
+      "key": "t232",
+      "source": "better",
+      "text": "daha iyi"
+    },
+    {
+      "key": "t233",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t234",
+      "source": "be",
+      "text": "olmak"
+    },
+    {
+      "key": "t235",
+      "source": "better.",
+      "text": "daha iyi."
+    },
+    {
+      "key": "t236",
+      "source": "The Impact Parenting approach gives families practical, scientifically grounded strategies to heal trauma, parent more effectively, and reduce generational trauma across the family system.",
+      "text": "Impact Parenting yaklaşımı ailelere travmayı iyileştirmek, ebeveynliği daha etkili bir şekilde iyileştirmek ve aile sistemi genelinde nesiller arası travmayı azaltmak için pratik, bilimsel temelli stratejiler sunar."
+    },
+    {
+      "key": "t237",
+      "source": "45 yrs",
+      "text": "45 yıl"
+    },
+    {
+      "key": "t238",
+      "source": "clinical experience",
+      "text": "klinik deneyim"
+    },
+    {
+      "key": "t239",
+      "source": "clinical hours",
+      "text": "klinik saatleri"
+    },
+    {
+      "key": "t240",
+      "source": "Realistic",
+      "text": "Gerçekçi"
+    },
+    {
+      "key": "t241",
+      "source": "tools and tasks",
+      "text": "araçlar ve görevler"
+    },
+    {
+      "key": "t242",
+      "source": "Finding it hard to understand or manage your child’s behaviour?",
+      "text": "Çocuğunuzun davranışını anlamakta veya yönetmekte zorlanıyor musunuz?"
+    },
+    {
+      "key": "t243",
+      "source": "We help parents build connection, resilience and healthier attachment with practical strategies that can be used at home.",
+      "text": "Evde kullanılabilecek pratik stratejilerle ebeveynlerin bağlantı, dayanıklılık ve daha sağlıklı bağlanma kurmalarına yardımcı oluyoruz."
+    },
+    {
+      "key": "t244",
+      "source": "This is not for you if...",
+      "text": "Bu sana göre değil eğer..."
+    },
+    {
+      "key": "t245",
+      "source": "You are not ready to heal past traumas, or you do not believe your mental and physical health is worth investing in.",
+      "text": "Geçmiş travmalarınızı iyileştirmeye hazır değilsiniz veya zihinsel ve fiziksel sağlığınızın yatırım yapmaya değer olduğuna inanmıyorsunuz."
+    },
+    {
+      "key": "t246",
+      "source": "Ask about Impact Parenting",
+      "text": "Impact Parenting hakkında soru sorun"
+    },
+    {
+      "key": "t247",
+      "source": "Holiday School",
+      "text": "Tatil Okulu"
+    },
+    {
+      "key": "t248",
+      "source": "Values,",
+      "text": "Değerler,"
+    },
+    {
+      "key": "t249",
+      "source": "resilience",
+      "text": "dayanıklılık"
+    },
+    {
+      "key": "t250",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t251",
+      "source": "creativity",
+      "text": "yaratıcılık"
+    },
+    {
+      "key": "t252",
+      "source": "for",
+      "text": "için"
+    },
+    {
+      "key": "t253",
+      "source": "children",
+      "text": "çocuklar"
+    },
+    {
+      "key": "t254",
+      "source": "Raising",
+      "text": "Yükseliyor"
+    },
+    {
+      "key": "t255",
+      "source": "children",
+      "text": "çocuklar"
+    },
+    {
+      "key": "t256",
+      "source": "gets",
+      "text": "alır"
+    },
+    {
+      "key": "t257",
+      "source": "easier",
+      "text": "daha kolay"
+    },
+    {
+      "key": "t258",
+      "source": "with",
+      "text": "ile"
+    },
+    {
+      "key": "t259",
+      "source": "trained",
+      "text": "eğitildi"
+    },
+    {
+      "key": "t260",
+      "source": "professionals",
+      "text": "profesyoneller"
+    },
+    {
+      "key": "t261",
+      "source": "supporting",
+      "text": "destekliyor"
+    },
+    {
+      "key": "t262",
+      "source": "physical",
+      "text": "fiziksel"
+    },
+    {
+      "key": "t263",
+      "source": "health,",
+      "text": "sağlık,"
+    },
+    {
+      "key": "t264",
+      "source": "resilience,",
+      "text": "dayanıklılık,"
+    },
+    {
+      "key": "t265",
+      "source": "emotional",
+      "text": "duygusal"
+    },
+    {
+      "key": "t266",
+      "source": "intelligence",
+      "text": "zeka"
+    },
+    {
+      "key": "t267",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t268",
+      "source": "wellbeing",
+      "text": "esenlik"
+    },
+    {
+      "key": "t269",
+      "source": "through",
+      "text": "aracılığıyla"
+    },
+    {
+      "key": "t270",
+      "source": "art,",
+      "text": "sanat,"
+    },
+    {
+      "key": "t271",
+      "source": "music,",
+      "text": "müzik,"
+    },
+    {
+      "key": "t272",
+      "source": "play",
+      "text": "oyna"
+    },
+    {
+      "key": "t273",
+      "source": "therapy,",
+      "text": "terapisi,"
+    },
+    {
+      "key": "t274",
+      "source": "sand",
+      "text": "kum"
+    },
+    {
+      "key": "t275",
+      "source": "play,",
+      "text": "oyna,"
+    },
+    {
+      "key": "t276",
+      "source": "piano,",
+      "text": "piyano,"
+    },
+    {
+      "key": "t277",
+      "source": "guitar",
+      "text": "gitar"
+    },
+    {
+      "key": "t278",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t279",
+      "source": "proven",
+      "text": "kanıtlanmış"
+    },
+    {
+      "key": "t280",
+      "source": "psychological",
+      "text": "psikolojik"
+    },
+    {
+      "key": "t281",
+      "source": "techniques.",
+      "text": "teknikleri."
+    },
+    {
+      "key": "t282",
+      "source": "Our aims and objectives",
+      "text": "Amaçlarımız ve hedeflerimiz"
+    },
+    {
+      "key": "t283",
+      "source": "We are not just a holiday school. We teach children values and support them with things they need to grow up uniquely great.",
+      "text": "Biz sadece bir tatil okulu değiliz. Çocuklara değerleri öğretiyoruz ve benzersiz bir şekilde mükemmel büyümeleri için ihtiyaç duydukları şeylerle onları destekliyoruz."
+    },
+    {
+      "key": "t284",
+      "source": "I AM Honesty",
+      "text": "Ben Dürüstüm"
+    },
+    {
+      "key": "t285",
+      "source": "I AM Fairness",
+      "text": "Ben Adaletliyim"
+    },
+    {
+      "key": "t286",
+      "source": "I AM Kindness",
+      "text": "Ben Nezaketim"
+    },
+    {
+      "key": "t287",
+      "source": "I AM Integrity",
+      "text": "Ben Dürüstüm"
+    },
+    {
+      "key": "t288",
+      "source": "I AM Outspoken",
+      "text": "Açık sözlüyüm"
+    },
+    {
+      "key": "t289",
+      "source": "Original programme reach",
+      "text": "Orijinal program erişimi"
+    },
+    {
+      "key": "t290",
+      "source": "Over 400 children were registered in 2021, over 1,000 in 2022, 200 more were supported at Easter 2023, with 1,440 available Summer 2023 slots.",
+      "text": "2021'de 400'den fazla çocuk kaydoldu, 2022'de 1.000'den fazla çocuk, Paskalya 2023'te 200 çocuk daha desteklendi ve 1.440 Yaz 2023 kontenjanı mevcuttu."
+    },
+    {
+      "key": "t291",
+      "source": "Register via Holiday Activities Voucher",
+      "text": "Tatil Aktiviteleri Kuponu ile Kayıt Olun"
+    },
+    {
+      "key": "t292",
+      "source": "Programme snapshot",
+      "text": "Programın anlık görüntüsü"
+    },
+    {
+      "key": "t293",
+      "source": "Creative therapeutic school support",
+      "text": "Yaratıcı terapötik okul desteği"
+    },
+    {
+      "key": "t294",
+      "source": "Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",
+      "text": "Çocuklar sanat, müzik, oyun ve pratik refah faaliyetleri yoluyla güven, değerler ve dayanıklılık geliştirirler."
+    },
+    {
+      "key": "t295",
+      "source": "One-stop shop",
+      "text": "Tek noktadan alışveriş"
+    },
+    {
+      "key": "t296",
+      "source": "Floating",
+      "text": "Yüzen"
+    },
+    {
+      "key": "t297",
+      "source": "Community",
+      "text": "Topluluk"
+    },
+    {
+      "key": "t298",
+      "source": "Hub.",
+      "text": "Merkez."
+    },
+    {
+      "key": "t299",
+      "source": "A",
+      "text": "A"
+    },
+    {
+      "key": "t300",
+      "source": "central",
+      "text": "merkezi"
+    },
+    {
+      "key": "t301",
+      "source": "gathering",
+      "text": "toplantısı"
+    },
+    {
+      "key": "t302",
+      "source": "place",
+      "text": "yer"
+    },
+    {
+      "key": "t303",
+      "source": "for",
+      "text": "için"
+    },
+    {
+      "key": "t304",
+      "source": "Croydon",
+      "text": "Croydon"
+    },
+    {
+      "key": "t305",
+      "source": "residents,",
+      "text": "sakinler,"
+    },
+    {
+      "key": "t306",
+      "source": "with",
+      "text": "ile"
+    },
+    {
+      "key": "t307",
+      "source": "wider",
+      "text": "daha geniş"
+    },
+    {
+      "key": "t308",
+      "source": "projects",
+      "text": "projeler"
+    },
+    {
+      "key": "t309",
+      "source": "also",
+      "text": "ayrıca"
+    },
+    {
+      "key": "t310",
+      "source": "serving",
+      "text": "porsiyon"
+    },
+    {
+      "key": "t311",
+      "source": "Redbridge,",
+      "text": "Redbridge,"
+    },
+    {
+      "key": "t312",
+      "source": "Newham,",
+      "text": "Newham,"
+    },
+    {
+      "key": "t313",
+      "source": "Durham",
+      "text": "Durham"
+    },
+    {
+      "key": "t314",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t315",
+      "source": "Southwark.",
+      "text": "Southwark."
+    },
+    {
+      "key": "t316",
+      "source": "Come",
+      "text": "Gel"
+    },
+    {
+      "key": "t317",
+      "source": "together,",
+      "text": "birlikte,"
+    },
+    {
+      "key": "t318",
+      "source": "have",
+      "text": "var"
+    },
+    {
+      "key": "t319",
+      "source": "a",
+      "text": "a"
+    },
+    {
+      "key": "t320",
+      "source": "cup",
+      "text": "fincan"
+    },
+    {
+      "key": "t321",
+      "source": "of",
+      "text": "/"
+    },
+    {
+      "key": "t322",
+      "source": "tea",
+      "text": "çay"
+    },
+    {
+      "key": "t323",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t324",
+      "source": "a",
+      "text": "a"
+    },
+    {
+      "key": "t325",
+      "source": "chat.",
+      "text": "sohbet."
+    },
+    {
+      "key": "t326",
+      "source": "The Croydon hub runs every Tuesday at Ashburton Park Cafe Hall. Floating also delivers community projects in Redbridge, Newham, Durham and Southwark, bringing practical advocacy, wellbeing support and local referrals closer to each community.",
+      "text": "Croydon hub'ı her Salı günü Ashburton Park Cafe Hall'de çalışır. Floating ayrıca Redbridge, Newham, Durham ve Southwark'de topluluk projeleri sunarak pratik savunuculuk, refah desteği ve yerel yönlendirmeleri her topluluğa yaklaştırıyor."
+    },
+    {
+      "key": "t327",
+      "source": "Bills & Grants",
+      "text": "Faturalar ve Hibeler"
+    },
+    {
+      "key": "t328",
+      "source": "Utility bills, home grants and vouchers during the first week.",
+      "text": "İlk hafta faturalar, ev yardımları ve kuponlar."
+    },
+    {
+      "key": "t329",
+      "source": "Housing Support",
+      "text": "Konut Desteği"
+    },
+    {
+      "key": "t330",
+      "source": "Wellbeing and housing support in Croydon, Newham and partner hubs.",
+      "text": "Croydon, Newham ve iş ortağı merkezlerinde refah ve barınma desteği."
+    },
+    {
+      "key": "t331",
+      "source": "Digital Inclusion",
+      "text": "Dijital Katılım"
+    },
+    {
+      "key": "t332",
+      "source": "Internet support, forms, scam awareness, WhatsApp, AI education and free SIM guidance.",
+      "text": "İnternet desteği, formlar, dolandırıcılık farkındalığı, WhatsApp, yapay zeka eğitimi ve ücretsiz SIM rehberliği."
+    },
+    {
+      "key": "t333",
+      "source": "Art Therapy",
+      "text": "Sanat Terapisi"
+    },
+    {
+      "key": "t334",
+      "source": "Third-week creative healing with Myfamily101 and Floating Counselling Community.",
+      "text": "Myfamily101 ve Floating Counselling Community ile üçüncü hafta yaratıcı şifa."
+    },
+    {
+      "key": "t335",
+      "source": "Food Bank",
+      "text": "Gıda Bankası"
+    },
+    {
+      "key": "t336",
+      "source": "Weekly food, clothing and essentials for individuals and families.",
+      "text": "Bireyler ve aileler için haftalık yiyecek, giyecek ve temel ihtiyaçlar."
+    },
+    {
+      "key": "t337",
+      "source": "Employment Support",
+      "text": "İstihdam Desteği"
+    },
+    {
+      "key": "t338",
+      "source": "Financial literacy, confidence and employment support for longer-term stability.",
+      "text": "Uzun vadeli istikrar için finansal okuryazarlık, güven ve istihdam desteği."
+    },
+    {
+      "key": "t339",
+      "source": "Croydon office",
+      "text": "Croydon ofisi"
+    },
+    {
+      "key": "t340",
+      "source": "26 Avenue Road, SE25 4DX",
+      "text": "26 Cadde Yolu, SE25 4DX"
+    },
+    {
+      "key": "t341",
+      "source": "Map",
+      "text": "Haritası"
+    },
+    {
+      "key": "t342",
+      "source": "Croydon hub",
+      "text": "Croydon hub"
+    },
+    {
+      "key": "t343",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX. Salı, 12:30 - 14:30 arası."
+    },
+    {
+      "key": "t344",
+      "source": "Map",
+      "text": "Haritası"
+    },
+    {
+      "key": "t345",
+      "source": "Redbridge office",
+      "text": "Redbridge ofisi"
+    },
+    {
+      "key": "t346",
+      "source": "160-162 Cranbrook Road, IG1 4PE.",
+      "text": "160-162 Cranbrook Road, IG1 4PE."
+    },
+    {
+      "key": "t347",
+      "source": "Map",
+      "text": "Haritası"
+    },
+    {
+      "key": "t348",
+      "source": "Redbridge hub",
+      "text": "Redbridge hub"
+    },
+    {
+      "key": "t349",
+      "source": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "Cranbrook House, Paket 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tatil günleri hariç Salı günleri 11:30 - 13:30 arası."
+    },
+    {
+      "key": "t350",
+      "source": "Map",
+      "text": "Haritası"
+    },
+    {
+      "key": "t351",
+      "source": "Durham hub",
+      "text": "Durham hub"
+    },
+    {
+      "key": "t352",
+      "source": "30 Wesley Street, Durham, DL14 8UH.",
+      "text": "30 Wesley Street, Durham, DL14 8UH."
+    },
+    {
+      "key": "t353",
+      "source": "Map",
+      "text": "Haritası"
+    },
+    {
+      "key": "t354",
+      "source": "Newham",
+      "text": "Newham"
+    },
+    {
+      "key": "t355",
+      "source": "Monthly wellbeing and housing support. Relaunching July 2026.",
+      "text": "Aylık refah ve barınma desteği. Temmuz 2026'da yeniden başlatılıyor."
+    },
+    {
+      "key": "t356",
+      "source": "Southwark hub",
+      "text": "Southwark hub"
+    },
+    {
+      "key": "t357",
+      "source": "20 Heaton Road, Heaton Road Church, Peckham, SE15 3NL. Launching June 2026.",
+      "text": "20 Heaton Road, Heaton Road Kilisesi, Peckham, SE15 3NL. Haziran 2026'da piyasaya sürülüyor."
+    },
+    {
+      "key": "t358",
+      "source": "Map",
+      "text": "Haritası"
+    },
+    {
+      "key": "t359",
+      "source": "What people say",
+      "text": "İnsanlar ne diyor"
+    },
+    {
+      "key": "t360",
+      "source": "In",
+      "text": "İçinde"
+    },
+    {
+      "key": "t361",
+      "source": "their",
+      "text": "onların"
+    },
+    {
+      "key": "t362",
+      "source": "own",
+      "text": "kendi"
+    },
+    {
+      "key": "t363",
+      "source": "words.",
+      "text": "kelimeler."
+    },
+    {
+      "key": "t364",
+      "source": "Hear",
+      "text": "Duy"
+    },
+    {
+      "key": "t365",
+      "source": "from",
+      "text": "from"
+    },
+    {
+      "key": "t366",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t367",
+      "source": "families",
+      "text": "aileler"
+    },
+    {
+      "key": "t368",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t369",
+      "source": "individuals",
+      "text": "bireyler"
+    },
+    {
+      "key": "t370",
+      "source": "whose",
+      "text": "olan"
+    },
+    {
+      "key": "t371",
+      "source": "lives",
+      "text": "yaşıyor"
+    },
+    {
+      "key": "t372",
+      "source": "have",
+      "text": "var"
+    },
+    {
+      "key": "t373",
+      "source": "been",
+      "text": "oldu"
+    },
+    {
+      "key": "t374",
+      "source": "transformed.",
+      "text": "dönüştürüldü."
+    },
+    {
+      "key": "t375",
+      "source": "I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded and supported a wide variety of issues that parents face. I have teenage children and really needed this. It was full of knowledge to parent more consciously.",
+      "text": "Impact Parenting Pillar eğitiminden ve Celestina'dan çok şey öğrendim. İnanılmaz derecede kapsamlıydı ve ebeveynlerin karşılaştığı çok çeşitli sorunları destekliyordu. Ergen çocuklarım var ve buna gerçekten ihtiyacım vardı. Daha bilinçli ebeveynlik yapmak bilgiyle doluydu."
+    },
+    {
+      "key": "t376",
+      "source": "ST",
+      "text": "ST"
+    },
+    {
+      "key": "t377",
+      "source": "Sarah Turino",
+      "text": "Sarah Turino"
+    },
+    {
+      "key": "t378",
+      "source": "CEO, The Whole Woman Wellness Formula · USA",
+      "text": "CEO, The Whole Woman Wellness Formula · ABD"
+    },
+    {
+      "key": "t379",
+      "source": "My son had terrible twos where he would throw himself on the floor and not follow boundaries. I have now been helped to know his personality better and been given realistic tools to help him be more resilient in a loving way.",
+      "text": "Oğlumun kendini yere attığı ve sınırları takip etmediği korkunç ikilikler yaşadı. Artık onun kişiliğini daha iyi tanımama yardım edildi ve onun sevgi dolu bir şekilde daha dayanıklı olmasına yardımcı olacak gerçekçi araçlar verildi."
+    },
+    {
+      "key": "t380",
+      "source": "DD",
+      "text": "DD"
+    },
+    {
+      "key": "t381",
+      "source": "Danya Denny",
+      "text": "Danya Denny"
+    },
+    {
+      "key": "t382",
+      "source": "Social Worker · UK",
+      "text": "Sosyal Hizmet Görevlisi · UK"
+    },
+    {
+      "key": "t383",
+      "source": "As a mother of six, from newborn to eighteen, I learnt so much from Impact Parenting with Celestina. I adapted the strategies to my real life and all my children straight away — and I'm still using them months later. Every parent needs this.",
+      "text": "Yeni doğandan on sekiz yaşına kadar altı çocuk annesi olarak Celestina ile Impact Parenting'den çok şey öğrendim. Stratejileri hemen gerçek hayatıma ve tüm çocuklarıma uyarladım ve aylar sonra hala kullanıyorum. Her ebeveynin buna ihtiyacı vardır."
+    },
+    {
+      "key": "t384",
+      "source": "NK",
+      "text": "NK"
+    },
+    {
+      "key": "t385",
+      "source": "Niina Kabesa",
+      "text": "Niina Kabesa"
+    },
+    {
+      "key": "t386",
+      "source": "Author & Founder, Mother of Nations · Congo",
+      "text": "Yazar ve Kurucu, Milletlerin Annesi · Kongo"
+    },
+    {
+      "key": "t387",
+      "source": "Our people",
+      "text": "Çalışanlarımız"
+    },
+    {
+      "key": "t388",
+      "source": "Meet",
+      "text": "Tanışın"
+    },
+    {
+      "key": "t389",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t390",
+      "source": "team.",
+      "text": "takımı."
+    },
+    {
+      "key": "t391",
+      "source": "Led",
+      "text": "Led"
+    },
+    {
+      "key": "t392",
+      "source": "by",
+      "text": "tarafından"
+    },
+    {
+      "key": "t393",
+      "source": "a",
+      "text": "a"
+    },
+    {
+      "key": "t394",
+      "source": "diverse",
+      "text": "çeşitli"
+    },
+    {
+      "key": "t395",
+      "source": "team",
+      "text": "takım"
+    },
+    {
+      "key": "t396",
+      "source": "of",
+      "text": "/"
+    },
+    {
+      "key": "t397",
+      "source": "African",
+      "text": "Afrikalı"
+    },
+    {
+      "key": "t398",
+      "source": "women",
+      "text": "kadınlar"
+    },
+    {
+      "key": "t399",
+      "source": "with",
+      "text": "ile"
+    },
+    {
+      "key": "t400",
+      "source": "lived",
+      "text": "yaşadı"
+    },
+    {
+      "key": "t401",
+      "source": "experience",
+      "text": "deneyim"
+    },
+    {
+      "key": "t402",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t403",
+      "source": "professional",
+      "text": "profesyonel"
+    },
+    {
+      "key": "t404",
+      "source": "expertise.",
+      "text": "uzmanlık."
+    },
+    {
+      "key": "t405",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "t406",
+      "source": "CEO & Head of Charitable Operations",
+      "text": "CEO ve Yardım Faaliyetleri Başkanı"
+    },
+    {
+      "key": "t407",
+      "source": "Email",
+      "text": "E-posta"
+    },
+    {
+      "key": "t408",
+      "source": "Read more",
+      "text": "Daha fazlasını oku"
+    },
+    {
+      "key": "t409",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela"
+    },
+    {
+      "key": "t410",
+      "source": "Director & Head of Finance",
+      "text": "Direktör ve Finans Müdürü"
+    },
+    {
+      "key": "t411",
+      "source": "Email",
+      "text": "E-posta"
+    },
+    {
+      "key": "t412",
+      "source": "Read more",
+      "text": "Daha fazlasını oku"
+    },
+    {
+      "key": "t413",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode"
+    },
+    {
+      "key": "t414",
+      "source": "Director & Relationship Coach",
+      "text": "Direktör ve İlişki Koçu"
+    },
+    {
+      "key": "t415",
+      "source": "Email",
+      "text": "E-posta"
+    },
+    {
+      "key": "t416",
+      "source": "Read more",
+      "text": "Daha fazlasını oku"
+    },
+    {
+      "key": "t417",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah"
+    },
+    {
+      "key": "t418",
+      "source": "Director & Safeguarding Officer",
+      "text": "Direktör ve Güvenlik Görevlisi"
+    },
+    {
+      "key": "t419",
+      "source": "Email",
+      "text": "E-posta"
+    },
+    {
+      "key": "t420",
+      "source": "Contact",
+      "text": "İletişim"
+    },
+    {
+      "key": "t421",
+      "source": "Sponsors, partners and funders",
+      "text": "Sponsorlar, ortaklar ve fon sağlayıcılar"
+    },
+    {
+      "key": "t422",
+      "source": "Supported",
+      "text": "Destekleniyor"
+    },
+    {
+      "key": "t423",
+      "source": "by",
+      "text": "tarafından"
+    },
+    {
+      "key": "t424",
+      "source": "trusted",
+      "text": "güvenilir"
+    },
+    {
+      "key": "t425",
+      "source": "partners.",
+      "text": "ortaklar."
+    },
+    {
+      "key": "t426",
+      "source": "A",
+      "text": "A"
+    },
+    {
+      "key": "t427",
+      "source": "compact",
+      "text": "kompakt"
+    },
+    {
+      "key": "t428",
+      "source": "view",
+      "text": "görünüm"
+    },
+    {
+      "key": "t429",
+      "source": "of",
+      "text": "/"
+    },
+    {
+      "key": "t430",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t431",
+      "source": "funders,",
+      "text": "fon sağlayıcılar,"
+    },
+    {
+      "key": "t432",
+      "source": "sponsors",
+      "text": "sponsorlar"
+    },
+    {
+      "key": "t433",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t434",
+      "source": "registrations",
+      "text": "kayıtlar"
+    },
+    {
+      "key": "t435",
+      "source": "behind",
+      "text": "geride"
+    },
+    {
+      "key": "t436",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t437",
+      "source": "work.",
+      "text": "iş."
+    },
+    {
+      "key": "t438",
+      "source": "Common questions",
+      "text": "Sık sorulan sorular"
+    },
+    {
+      "key": "t439",
+      "source": "Everything",
+      "text": "Her şey"
+    },
+    {
+      "key": "t440",
+      "source": "you",
+      "text": "sen"
+    },
+    {
+      "key": "t441",
+      "source": "might",
+      "text": "olabilir"
+    },
+    {
+      "key": "t442",
+      "source": "be",
+      "text": "olmak"
+    },
+    {
+      "key": "t443",
+      "source": "wondering.",
+      "text": "merak ediyorum."
+    },
+    {
+      "key": "t444",
+      "source": "If",
+      "text": "Eğer"
+    },
+    {
+      "key": "t445",
+      "source": "your",
+      "text": "senin"
+    },
+    {
+      "key": "t446",
+      "source": "question",
+      "text": "soru"
+    },
+    {
+      "key": "t447",
+      "source": "isn't",
+      "text": "değil"
+    },
+    {
+      "key": "t448",
+      "source": "here,",
+      "text": "burada,"
+    },
+    {
+      "key": "t449",
+      "source": "send",
+      "text": "gönder"
+    },
+    {
+      "key": "t450",
+      "source": "us",
+      "text": "biz"
+    },
+    {
+      "key": "t451",
+      "source": "a",
+      "text": "a"
+    },
+    {
+      "key": "t452",
+      "source": "note.",
+      "text": "notu."
+    },
+    {
+      "key": "t453",
+      "source": "We",
+      "text": "Biz"
+    },
+    {
+      "key": "t454",
+      "source": "read",
+      "text": "oku"
+    },
+    {
+      "key": "t455",
+      "source": "every",
+      "text": "her"
+    },
+    {
+      "key": "t456",
+      "source": "message.",
+      "text": "mesajı."
+    },
+    {
+      "key": "t457",
+      "source": "Ask us anything",
+      "text": "Bize herhangi bir şey sorun"
+    },
+    {
+      "key": "t458",
+      "source": "How much does counselling cost?",
+      "text": "Danışmanlığın ücreti ne kadar?"
+    },
+    {
+      "key": "t459",
+      "source": "Sessions are free or low-cost for eligible individuals. We work on a sliding scale based on circumstances. Our priority is access, and we'll find a way that works for you.",
+      "text": "Oturumlar uygun kişiler için ücretsiz veya düşük maliyetlidir. Koşullara bağlı olarak değişen bir ölçekte çalışıyoruz. Önceliğimiz erişimdir ve sizin için işe yarayan bir yol bulacağız."
+    },
+    {
+      "key": "t460",
+      "source": "What happens in the first session?",
+      "text": "İlk oturumda ne olacak?"
+    },
+    {
+      "key": "t461",
+      "source": "Your first session is a relaxed conversation about what's brought you in, what you'd like to work on, and how we can support you. Nothing is rushed. You set the pace.",
+      "text": "İlk oturumunuz sizi neyin getirdiği, ne üzerinde çalışmak istediğiniz ve sizi nasıl destekleyebileceğimiz hakkında rahat bir konuşmadır. Hiçbir şey aceleye getirilmiyor. Hızı siz belirlersiniz."
+    },
+    {
+      "key": "t462",
+      "source": "Are sessions confidential?",
+      "text": "Oturumlar gizli mi?"
+    },
+    {
+      "key": "t463",
+      "source": "Yes. Everything you share is held in strict confidence in line with BACP ethical guidelines. The only exceptions are safeguarding situations, which we'd always discuss with you first wherever possible.",
+      "text": "Evet. Paylaştığınız her şey BACP etik kurallarına uygun olarak kesinlikle gizli tutulur. Bunun tek istisnası, mümkün olan her yerde öncelikle sizinle tartışacağımız koruma durumlarıdır."
+    },
+    {
+      "key": "t464",
+      "source": "Do you offer online sessions?",
+      "text": "Çevrimiçi oturumlar sunuyor musunuz?"
+    },
+    {
+      "key": "t465",
+      "source": "Yes. We offer online sessions and in-person support across the boroughs where we deliver services.",
+      "text": "Evet. Hizmet verdiğimiz ilçelerde çevrimiçi oturumlar ve yüz yüze destek sunuyoruz."
+    },
+    {
+      "key": "t466",
+      "source": "Are your therapists qualified?",
+      "text": "Terapistleriniz nitelikli mi?"
+    },
+    {
+      "key": "t467",
+      "source": "Our therapists are clinically trained psychotherapists working in line with BACP standards. The leadership team has 45+ years of combined clinical experience and over 50,000 clinical hours.",
+      "text": "Terapistlerimiz BACP standartlarına uygun olarak çalışan klinik eğitimli psikoterapistlerdir. Lider ekibin 45 yıldan fazla birleşik klinik deneyimi ve 50.000'den fazla klinik saati vardır."
+    },
+    {
+      "key": "t468",
+      "source": "Can I refer a family member or friend?",
+      "text": "Bir aile üyesini veya arkadaşımı önerebilir miyim?"
+    },
+    {
+      "key": "t469",
+      "source": "Absolutely. We'll always need consent from the person themselves before opening a case. The best first step is to encourage them to email or WhatsApp us directly.",
+      "text": "Kesinlikle. Bir dava açmadan önce her zaman kişinin kendisinin onayına ihtiyacımız olacak. En iyi ilk adım, onları doğrudan bize e-posta göndermeye veya WhatsApp göndermeye teşvik etmektir."
+    },
+    {
+      "key": "t470",
+      "source": "How can I support your work?",
+      "text": "Çalışmanızı nasıl destekleyebilirim?"
+    },
+    {
+      "key": "t471",
+      "source": "You can donate via Localgiving or PayPal, volunteer your time, follow us on social media, or fundraise on our behalf. Visit the fundraiser section or get in touch and we'll match you to something that suits.",
+      "text": "Localgiving veya PayPal aracılığıyla bağışta bulunabilir, gönüllü olarak zamanınızı ayırabilir, bizi sosyal medyada takip edebilir veya bizim adımıza bağış toplayabilirsiniz. Bağış toplama bölümünü ziyaret edin veya iletişime geçin, size uygun bir şeyle eşleştirelim."
+    },
+    {
+      "key": "t472",
+      "source": "Fundraiser",
+      "text": "Bağış Kampanyası"
+    },
+    {
+      "key": "t473",
+      "source": "Ways",
+      "text": "Yollar"
+    },
+    {
+      "key": "t474",
+      "source": "to",
+      "text": "-"
+    },
+    {
+      "key": "t475",
+      "source": "fundraise",
+      "text": "bağış toplama"
+    },
+    {
+      "key": "t476",
+      "source": "for",
+      "text": "için"
+    },
+    {
+      "key": "t477",
+      "source": "Floating",
+      "text": "Yüzen"
+    },
+    {
+      "key": "t478",
+      "source": "Counselling.",
+      "text": "Danışmanlık."
+    },
+    {
+      "key": "t479",
+      "source": "Fundraising",
+      "text": "Bağış Toplama"
+    },
+    {
+      "key": "t480",
+      "source": "helps",
+      "text": "yardımcı oluyor"
+    },
+    {
+      "key": "t481",
+      "source": "keep",
+      "text": "devam et"
+    },
+    {
+      "key": "t482",
+      "source": "counselling,",
+      "text": "danışmanlık,"
+    },
+    {
+      "key": "t483",
+      "source": "food",
+      "text": "yiyecek"
+    },
+    {
+      "key": "t484",
+      "source": "support,",
+      "text": "desteği,"
+    },
+    {
+      "key": "t485",
+      "source": "holiday",
+      "text": "tatil"
+    },
+    {
+      "key": "t486",
+      "source": "school",
+      "text": "okul"
+    },
+    {
+      "key": "t487",
+      "source": "places",
+      "text": "yerler"
+    },
+    {
+      "key": "t488",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t489",
+      "source": "community",
+      "text": "topluluk"
+    },
+    {
+      "key": "t490",
+      "source": "hub",
+      "text": "merkez"
+    },
+    {
+      "key": "t491",
+      "source": "sessions",
+      "text": "oturumlar"
+    },
+    {
+      "key": "t492",
+      "source": "accessible",
+      "text": "erişilebilir"
+    },
+    {
+      "key": "t493",
+      "source": "for",
+      "text": "için"
+    },
+    {
+      "key": "t494",
+      "source": "people",
+      "text": "kişi"
+    },
+    {
+      "key": "t495",
+      "source": "who",
+      "text": "kim"
+    },
+    {
+      "key": "t496",
+      "source": "need",
+      "text": "ihtiyacı"
+    },
+    {
+      "key": "t497",
+      "source": "practical",
+      "text": "pratik"
+    },
+    {
+      "key": "t498",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t499",
+      "source": "therapeutic",
+      "text": "terapötik"
+    },
+    {
+      "key": "t500",
+      "source": "care.",
+      "text": "bakım."
+    },
+    {
+      "key": "t501",
+      "source": "Donate via PayPal",
+      "text": "PayPal aracılığıyla bağış yapın"
+    },
+    {
+      "key": "t502",
+      "source": "Donate via Localgiving",
+      "text": "Localgiving aracılığıyla bağış yapın"
+    },
+    {
+      "key": "t503",
+      "source": "Start a fundraiser",
+      "text": "Bir bağış toplama etkinliği başlat"
+    },
+    {
+      "key": "t504",
+      "source": "Run a personal fundraiser",
+      "text": "Kişisel bir bağış toplama etkinliği düzenleyin"
+    },
+    {
+      "key": "t505",
+      "source": "Use birthdays, challenges or community events to raise funds for counselling and wraparound support.",
+      "text": "Danışmanlık ve kapsamlı destek için fon toplamak amacıyla doğum günlerini, yarışmaları veya topluluk etkinliklerini kullanın."
+    },
+    {
+      "key": "t506",
+      "source": "Workplace or school collection",
+      "text": "İşyeri veya okul koleksiyonu"
+    },
+    {
+      "key": "t507",
+      "source": "Collect food, essentials, vouchers or donations with your team, school, faith group or local business.",
+      "text": "Ekibiniz, okulunuz, inanç grubunuz veya yerel işletmenizle yiyecek, temel ihtiyaç malzemeleri, kuponlar veya bağışlar toplayın."
+    },
+    {
+      "key": "t508",
+      "source": "Sponsor a project",
+      "text": "Bir projeye sponsor olun"
+    },
+    {
+      "key": "t509",
+      "source": "Support a hub session, holiday school activity, counselling session or local wellbeing event.",
+      "text": "Bir merkez oturumunu, tatil okulu etkinliğini, danışmanlık oturumunu veya yerel refah etkinliğini destekleyin."
+    },
+    {
+      "key": "t510",
+      "source": "Share skills and time",
+      "text": "Becerileri ve zamanı paylaşın"
+    },
+    {
+      "key": "t511",
+      "source": "Offer professional skills, event support, transport, mentoring or practical help for local residents.",
+      "text": "Yerel sakinlere mesleki beceriler, etkinlik desteği, ulaşım, mentorluk veya pratik yardım sunun."
+    },
+    {
+      "key": "t512",
+      "source": "Volunteer",
+      "text": "Gönüllü"
+    },
+    {
+      "key": "t513",
+      "source": "Volunteer",
+      "text": "Gönüllü"
+    },
+    {
+      "key": "t514",
+      "source": "with",
+      "text": "ile"
+    },
+    {
+      "key": "t515",
+      "source": "Floating",
+      "text": "Yüzen"
+    },
+    {
+      "key": "t516",
+      "source": "Counselling.",
+      "text": "Danışmanlık."
+    },
+    {
+      "key": "t517",
+      "source": "Share",
+      "text": "Paylaş"
+    },
+    {
+      "key": "t518",
+      "source": "your",
+      "text": "senin"
+    },
+    {
+      "key": "t519",
+      "source": "time,",
+      "text": "zaman,"
+    },
+    {
+      "key": "t520",
+      "source": "skills",
+      "text": "beceriler"
+    },
+    {
+      "key": "t521",
+      "source": "or",
+      "text": "veya"
+    },
+    {
+      "key": "t522",
+      "source": "professional",
+      "text": "profesyonel"
+    },
+    {
+      "key": "t523",
+      "source": "experience",
+      "text": "deneyim"
+    },
+    {
+      "key": "t524",
+      "source": "to",
+      "text": "-"
+    },
+    {
+      "key": "t525",
+      "source": "support",
+      "text": "desteği"
+    },
+    {
+      "key": "t526",
+      "source": "counselling,",
+      "text": "danışmanlık,"
+    },
+    {
+      "key": "t527",
+      "source": "community",
+      "text": "topluluk"
+    },
+    {
+      "key": "t528",
+      "source": "hub",
+      "text": "merkez"
+    },
+    {
+      "key": "t529",
+      "source": "sessions,",
+      "text": "oturumlar,"
+    },
+    {
+      "key": "t530",
+      "source": "holiday",
+      "text": "tatil"
+    },
+    {
+      "key": "t531",
+      "source": "school",
+      "text": "okul"
+    },
+    {
+      "key": "t532",
+      "source": "activities,",
+      "text": "aktiviteler,"
+    },
+    {
+      "key": "t533",
+      "source": "fundraising",
+      "text": "bağış toplama"
+    },
+    {
+      "key": "t534",
+      "source": "and",
+      "text": "ve"
+    },
+    {
+      "key": "t535",
+      "source": "practical",
+      "text": "pratik"
+    },
+    {
+      "key": "t536",
+      "source": "outreach.",
+      "text": "sosyal yardım."
+    },
+    {
+      "key": "t537",
+      "source": "Community support",
+      "text": "Topluluk desteği"
+    },
+    {
+      "key": "t538",
+      "source": "Help residents with food, clothing, forms, signposting, events and welcoming hub sessions.",
+      "text": "Sakinlere yiyecek, giyecek, formlar, tabelalar, etkinlikler ve karşılama merkezi oturumları konusunda yardımcı olun."
+    },
+    {
+      "key": "t539",
+      "source": "Skills and projects",
+      "text": "Beceriler ve projeler"
+    },
+    {
+      "key": "t540",
+      "source": "Offer mentoring, admin, creative workshops, fundraising, transport, digital support or professional expertise.",
+      "text": "Mentorluk, yönetici, yaratıcı atölye çalışmaları, bağış toplama, ulaşım, dijital destek veya profesyonel uzmanlık sunun."
+    },
+    {
+      "key": "t541",
+      "source": "Volunteer applications",
+      "text": "Gönüllü başvuruları"
+    },
+    {
+      "key": "t542",
+      "source": "Monday form",
+      "text": "Pazartesi formu"
+    },
+    {
+      "key": "t543",
+      "source": "Apply to volunteer",
+      "text": "Gönüllüye başvur"
+    },
+    {
+      "key": "t544",
+      "source": "Complete the volunteer application so the team can match your time, skills and availability to the right project.",
+      "text": "Ekibin zamanınızı, becerilerinizi ve uygunluk durumunuzu doğru projeyle eşleştirebilmesi için gönüllü başvurusunu tamamlayın."
+    },
+    {
+      "key": "t545",
+      "source": "Open volunteer form",
+      "text": "Gönüllü formunu aç"
+    },
+    {
+      "key": "t546",
+      "source": "Get in touch",
+      "text": "İletişime geçin"
+    },
+    {
+      "key": "t547",
+      "source": "We'd",
+      "text": "Biz yapardık"
+    },
+    {
+      "key": "t548",
+      "source": "love",
+      "text": "aşk"
+    },
+    {
+      "key": "t549",
+      "source": "to",
+      "text": "-"
+    },
+    {
+      "key": "t550",
+      "source": "hear",
+      "text": "duy"
+    },
+    {
+      "key": "t551",
+      "source": "from",
+      "text": "from"
+    },
+    {
+      "key": "t552",
+      "source": "you.",
+      "text": "sen."
+    },
+    {
+      "key": "t553",
+      "source": "Email,",
+      "text": "E-posta,"
+    },
+    {
+      "key": "t554",
+      "source": "WhatsApp,",
+      "text": "WhatsApp,"
+    },
+    {
+      "key": "t555",
+      "source": "call",
+      "text": "çağrı"
+    },
+    {
+      "key": "t556",
+      "source": "or",
+      "text": "veya"
+    },
+    {
+      "key": "t557",
+      "source": "fill",
+      "text": "doldur"
+    },
+    {
+      "key": "t558",
+      "source": "in",
+      "text": "içinde"
+    },
+    {
+      "key": "t559",
+      "source": "the",
+      "text": "the"
+    },
+    {
+      "key": "t560",
+      "source": "form.",
+      "text": "formu."
+    },
+    {
+      "key": "t561",
+      "source": "We",
+      "text": "Biz"
+    },
+    {
+      "key": "t562",
+      "source": "aim",
+      "text": "nişan al"
+    },
+    {
+      "key": "t563",
+      "source": "to",
+      "text": "-"
+    },
+    {
+      "key": "t564",
+      "source": "reply",
+      "text": "yanıt"
+    },
+    {
+      "key": "t565",
+      "source": "within",
+      "text": "içinde"
+    },
+    {
+      "key": "t566",
+      "source": "two",
+      "text": "iki"
+    },
+    {
+      "key": "t567",
+      "source": "working",
+      "text": "çalışıyor"
+    },
+    {
+      "key": "t568",
+      "source": "days.",
+      "text": "gün."
+    },
+    {
+      "key": "t569",
+      "source": "Email",
+      "text": "E-posta"
+    },
+    {
+      "key": "t570",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t571",
+      "source": "WhatsApp / Call",
+      "text": "WhatsApp / Çağrı"
+    },
+    {
+      "key": "t572",
+      "source": "Visit the Croydon Hub",
+      "text": "Croydon Merkezini ziyaret edin"
+    },
+    {
+      "key": "t573",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX"
+    },
+    {
+      "key": "t574",
+      "source": "Tuesdays, 12:30 to 2:30pm.",
+      "text": "Salı, 12:30 - 14:30 arası."
+    },
+    {
+      "key": "t575",
+      "source": "Project locations",
+      "text": "Proje konumları"
+    },
+    {
+      "key": "t576",
+      "source": "Separate contact points for Croydon, Redbridge, Durham, Newham and Southwark are listed below.",
+      "text": "Croydon, Redbridge, Durham, Newham ve Southwark için ayrı temas noktaları aşağıda listelenmiştir."
+    },
+    {
+      "key": "t577",
+      "source": "Croydon office",
+      "text": "Croydon ofisi"
+    },
+    {
+      "key": "t578",
+      "source": "26 Avenue Road",
+      "text": "26 Cadde Yolu"
+    },
+    {
+      "key": "t579",
+      "source": "London SE25 4DX",
+      "text": "London SE25 4DX"
+    },
+    {
+      "key": "t580",
+      "source": "Open map",
+      "text": "Haritayı aç"
+    },
+    {
+      "key": "t581",
+      "source": "Croydon hub",
+      "text": "Croydon hub"
+    },
+    {
+      "key": "t582",
+      "source": "Ashburton Park Cafe Hall",
+      "text": "Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t583",
+      "source": "CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "CR0 6RX. Salı, 12:30 - 14:30 arası."
+    },
+    {
+      "key": "t584",
+      "source": "Open map",
+      "text": "Haritayı aç"
+    },
+    {
+      "key": "t585",
+      "source": "Redbridge office",
+      "text": "Redbridge ofisi"
+    },
+    {
+      "key": "t586",
+      "source": "160-162 Cranbrook Road",
+      "text": "160-162 Cranbrook Road"
+    },
+    {
+      "key": "t587",
+      "source": "Ilford IG1 4PE",
+      "text": "Ilford IG1 4PE"
+    },
+    {
+      "key": "t588",
+      "source": "Open map",
+      "text": "Haritayı aç"
+    },
+    {
+      "key": "t589",
+      "source": "Redbridge hub",
+      "text": "Redbridge hub"
+    },
+    {
+      "key": "t590",
+      "source": "Cranbrook House, Suite 7D",
+      "text": "Cranbrook House, Paket 7D"
+    },
+    {
+      "key": "t591",
+      "source": "61 Cranbrook Road, Ilford IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "61 Cranbrook Road, Ilford IG1 4PG. Tatil günleri hariç Salı günleri 11:30 - 13:30 arası."
+    },
+    {
+      "key": "t592",
+      "source": "Open map",
+      "text": "Haritayı aç"
+    },
+    {
+      "key": "t593",
+      "source": "Durham hub",
+      "text": "Durham hub"
+    },
+    {
+      "key": "t594",
+      "source": "30 Wesley Street",
+      "text": "30 Wesley Street"
+    },
+    {
+      "key": "t595",
+      "source": "Durham DL14 8UH",
+      "text": "Durham DL14 8UH"
+    },
+    {
+      "key": "t596",
+      "source": "Open map",
+      "text": "Haritayı aç"
+    },
+    {
+      "key": "t597",
+      "source": "Southwark hub",
+      "text": "Southwark hub"
+    },
+    {
+      "key": "t598",
+      "source": "20 Heaton Road",
+      "text": "20 Heaton Road"
+    },
+    {
+      "key": "t599",
+      "source": "Heaton Road Church, Peckham SE15 3NL. Launching June 2026.",
+      "text": "Heaton Road Kilisesi, Peckham SE15 3NL. Haziran 2026'da piyasaya sürülüyor."
+    },
+    {
+      "key": "t600",
+      "source": "Open map",
+      "text": "Haritayı aç"
+    },
+    {
+      "key": "t601",
+      "source": "Newham",
+      "text": "Newham"
+    },
+    {
+      "key": "t602",
+      "source": "Monthly wellbeing support",
+      "text": "Aylık refah desteği"
+    },
+    {
+      "key": "t603",
+      "source": "Housing and wellbeing support relaunching July 2026.",
+      "text": "Barınma ve refah desteği Temmuz 2026'da yeniden başlıyor."
+    },
+    {
+      "key": "t604",
+      "source": "Your name",
+      "text": "Adınız"
+    },
+    {
+      "key": "t605",
+      "source": "Email",
+      "text": "E-posta"
+    },
+    {
+      "key": "t606",
+      "source": "What can we help with?",
+      "text": "Ne konuda yardımcı olabiliriz?"
+    },
+    {
+      "key": "t607",
+      "source": "Message",
+      "text": "Mesaj"
+    },
+    {
+      "key": "t608",
+      "source": "I agree to be contacted in line with the",
+      "text": "Şartlara uygun olarak benimle iletişime geçilmesini kabul ediyorum"
+    },
+    {
+      "key": "t609",
+      "source": "privacy policy",
+      "text": "gizlilik politikası"
+    },
+    {
+      "key": "t610",
+      "source": "Send message",
+      "text": "Mesaj gönder"
+    },
+    {
+      "key": "t611",
+      "source": "We're here",
+      "text": "Buradayız"
+    },
+    {
+      "key": "t612",
+      "source": "Whatever",
+      "text": "Her neyse"
+    },
+    {
+      "key": "t613",
+      "source": "you're",
+      "text": "sen"
+    },
+    {
+      "key": "t614",
+      "source": "carrying,",
+      "text": "taşıma,"
+    },
+    {
+      "key": "t615",
+      "source": "you",
+      "text": "sen"
+    },
+    {
+      "key": "t616",
+      "source": "don't",
+      "text": "yapma"
+    },
+    {
+      "key": "t617",
+      "source": "carry",
+      "text": "taşıma"
+    },
+    {
+      "key": "t618",
+      "source": "it",
+      "text": "o"
+    },
+    {
+      "key": "t619",
+      "source": "alone.",
+      "text": "yalnız."
+    },
+    {
+      "key": "t620",
+      "source": "Whether",
+      "text": "İster"
+    },
+    {
+      "key": "t621",
+      "source": "you",
+      "text": "sen"
+    },
+    {
+      "key": "t622",
+      "source": "need",
+      "text": "ihtiyacı"
+    },
+    {
+      "key": "t623",
+      "source": "counselling,",
+      "text": "danışmanlık,"
+    },
+    {
+      "key": "t624",
+      "source": "community",
+      "text": "topluluk"
+    },
+    {
+      "key": "t625",
+      "source": "support,",
+      "text": "desteği,"
+    },
+    {
+      "key": "t626",
+      "source": "food,",
+      "text": "yiyecek,"
+    },
+    {
+      "key": "t627",
+      "source": "or",
+      "text": "veya"
+    },
+    {
+      "key": "t628",
+      "source": "just",
+      "text": "sadece"
+    },
+    {
+      "key": "t629",
+      "source": "someone",
+      "text": "birisi"
+    },
+    {
+      "key": "t630",
+      "source": "to",
+      "text": "-"
+    },
+    {
+      "key": "t631",
+      "source": "talk",
+      "text": "konuşma"
+    },
+    {
+      "key": "t632",
+      "source": "to.",
+      "text": "ila."
+    },
+    {
+      "key": "t633",
+      "source": "Reach",
+      "text": "Erişim"
+    },
+    {
+      "key": "t634",
+      "source": "out",
+      "text": "dışarı"
+    },
+    {
+      "key": "t635",
+      "source": "today.",
+      "text": "bugün."
+    },
+    {
+      "key": "t636",
+      "source": "Your",
+      "text": "Sizin ilk"
+    },
+    {
+      "key": "t637",
+      "source": "first",
+      "text": "first"
+    },
+    {
+      "key": "t638",
+      "source": "step",
+      "text": "adım"
+    },
+    {
+      "key": "t639",
+      "source": "matters.",
+      "text": "önemlidir."
+    },
+    {
+      "key": "t640",
+      "source": "Email us",
+      "text": "Bize e-posta gönderin"
+    },
+    {
+      "key": "t641",
+      "source": "WhatsApp us",
+      "text": "WhatsApp bize"
+    },
+    {
+      "key": "t642",
+      "source": "Donate via PayPal",
+      "text": "PayPal aracılığıyla bağış yapın"
+    },
+    {
+      "key": "t643",
+      "source": "Localgiving",
+      "text": "Localgiving"
+    },
+    {
+      "key": "t644",
+      "source": "Fundraiser",
+      "text": "Bağış Kampanyası"
+    },
+    {
+      "key": "t645",
+      "source": "Volunteer",
+      "text": "Gönüllü"
+    },
+    {
+      "key": "t646",
+      "source": "Policies & your privacy",
+      "text": "Politikalar ve gizliliğiniz"
+    },
+    {
+      "key": "t647",
+      "source": "How we protect you and your data.",
+      "text": "Sizi ve verilerinizi nasıl koruyoruz."
+    },
+    {
+      "key": "t648",
+      "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
+      "text": "Bilgilerinizi nasıl işlediğimizin, insanları güvende tuttuğumuzun ve çerezleri nasıl kullandığımızın sade İngilizce özeti. Politikaların tamamı veya herhangi bir talep için e-posta"
+    },
+    {
+      "key": "t649",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t650",
+      "source": "Privacy policy",
+      "text": "Gizlilik politikası"
+    },
+    {
+      "key": "t651",
+      "source": "Who we are.",
+      "text": "Biz kimiz."
+    },
+    {
+      "key": "t652",
+      "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
+      "text": "Floating Counselling Community, 2015'ten bu yana danışmanlık ve topluluk desteği sağlayan bir UK taban kuruluşudur. İngiltere ve Galler'de 11334515 şirket numarasıyla kayıtlı sınırlı garantili bir şirket olan FLOATING CONSELING TOPLULUĞU olarak faaliyet gösteriyoruz. Bizimle paylaştığınız bilgilerin veri denetleyicisiyiz. Gizlilik talepleri için e-posta"
+    },
+    {
+      "key": "t653",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t654",
+      "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
+      "text": "veya 26 Avenue Road, London SE25 4DX adresindeki Croydon ofisimize yazın."
+    },
+    {
+      "key": "t655",
+      "source": "What we collect.",
+      "text": "Topladıklarımız."
+    },
+    {
+      "key": "t656",
+      "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
+      "text": "Soru formu, e-posta veya WhatsApp aracılığıyla bizimle iletişime geçtiğinizde, bize vermeyi seçtiğiniz ayrıntıları (genellikle adınız, e-posta adresiniz, seçtiğiniz konu ve mesajınız) alırız. Bültenimize kaydolursanız e-posta adresinizi toplarız. Bu web sitesi aracılığıyla özel kategoride sağlık bilgisi talep etmiyoruz; lütfen yalnızca rahat ettiğiniz şeyleri paylaşın."
+    },
+    {
+      "key": "t657",
+      "source": "How we use it, and our lawful basis.",
+      "text": "Bunu nasıl kullanıyoruz ve yasal dayanağımız."
+    },
+    {
+      "key": "t658",
+      "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
+      "text": "Bilgilerinizi size yanıt vermek, istediğiniz desteği sağlamak ve hizmetlerimizi yürütmek için kullanırız (UK GDPR \"rıza\" ve \"meşru menfaatler\"). Birini koruma görevimiz olduğu durumlarda, yasal bir yükümlülüğü yerine getirmek için bilgileri işleyebiliriz (bkz. Koruma)."
+    },
+    {
+      "key": "t659",
+      "source": "Who we share it with.",
+      "text": "Kiminle paylaştığımız."
+    },
+    {
+      "key": "t660",
+      "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
+      "text": "Verilerinizi satmıyoruz. Web sitesini, e-postayı, formları, gönüllü başvurularını, bağışları ve haritaları yürütmemize yardımcı olan az sayıda güvenilir hizmet sağlayıcıya güveniyoruz. Her sağlayıcı yalnızca o hizmet için gereken bilgileri alır ve her birinin kendi gizlilik bildirimi vardır."
+    },
+    {
+      "key": "t661",
+      "source": "Translation.",
+      "text": "Çeviri."
+    },
+    {
+      "key": "t662",
+      "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
+      "text": "Bu sayfayı çevirirseniz, ekrandaki sayfa metni güvenli bir şekilde bir çeviri hizmetine gönderilebilir, böylece çevrilmiş sürüm geri gönderilebilir. Çeviri isteğe bağlıdır, iletişim formu mesajları bu özellik tarafından çevrilmez ve çevrilmiş metin, bir dahaki sefere daha hızlı yüklenmesi için tarayıcınızda önbelleğe alınabilir."
+    },
+    {
+      "key": "t663",
+      "source": "How long we keep it.",
+      "text": "Ne kadar süre saklayacağız."
+    },
+    {
+      "key": "t664",
+      "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
+      "text": "Sorgu ve destek talebi ayrıntılarını yalnızca yanıt vermek, destek sağlamak, koruma görevlerini yerine getirmek ve yasal veya muhasebe yükümlülüklerine uymak için gerekli olduğu sürece saklıyoruz. Bağış ve gönüllü kayıtları ilgili sağlayıcı ve yasal saklama gerekliliklerine göre tutulur."
+    },
+    {
+      "key": "t665",
+      "source": "Your rights.",
+      "text": "Haklarınız."
+    },
+    {
+      "key": "t666",
+      "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
+      "text": "UK GDPR kapsamında, istediğiniz zaman verilerinize erişmeyi, bunları düzeltmeyi, silmeyi veya kısıtlamayı talep edebilir, işlemeye itiraz edebilir, taşınabilirlik talep edebilir veya onayınızı geri çekebilirsiniz. E-posta"
+    },
+    {
+      "key": "t667",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t668",
+      "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
+      "text": "veya 26 Avenue Road, London SE25 4DX adresinden bize yazın. Yanıtımızdan memnun değilseniz ico.org.uk adresinden ICO'ye şikayette bulunabilirsiniz."
+    },
+    {
+      "key": "t669",
+      "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
+      "text": "Son inceleme tarihi: 29 Mayıs 2026. Bu sade İngilizce özet, şeffaflık amacıyla sağlanmıştır ve yayınlanmadan önce Floating Counselling Community'nin tüm politikalarına göre kontrol edilmelidir."
+    },
+    {
+      "key": "t670",
+      "source": "Safeguarding",
+      "text": "Koruma"
+    },
+    {
+      "key": "t671",
+      "source": "Our commitment.",
+      "text": "Taahhüdümüz."
+    },
+    {
+      "key": "t672",
+      "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
+      "text": "Birlikte çalıştığımız risk altındaki çocukların, gençlerin ve yetişkinlerin güvenliği ve refahı her şeyden önce gelir. Uygulamamız travma konusunda bilgilidir ve BACP etik standartlarına uygundur."
+    },
+    {
+      "key": "t673",
+      "source": "Confidentiality and its limits.",
+      "text": "Gizlilik ve sınırları."
+    },
+    {
+      "key": "t674",
+      "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
+      "text": "Paylaştıklarınız kesinlikle gizli tutulur. Bunun istisnası, size veya bir başkasına ciddi zarar verme riskinin olduğu veya yasal olarak harekete geçme yükümlülüğümüzün olduğu koruma durumudur. Bunu yapmanın güvenli olduğu her yerde, bunu öncelikle sizinle konuşacağız."
+    },
+    {
+      "key": "t675",
+      "source": "Raising a concern.",
+      "text": "Bir endişeyi dile getiriyorum."
+    },
+    {
+      "key": "t676",
+      "source": "If you're worried about someone's safety, contact us at",
+      "text": "Birinin güvenliği konusunda endişeleniyorsanız bizimle şu adresten iletişime geçin:"
+    },
+    {
+      "key": "t677",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t678",
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "veya +44 (0)7305 882959. Birisi acil tehlike altındaysa her zaman 999'u arayın. Ayrıca 0808 800 5000 numaralı telefondan NSPCC ile veya yerel otoritenizin koruma ekibiyle iletişime geçebilirsiniz."
+    },
+    {
+      "key": "t679",
+      "source": "Our people.",
+      "text": "Halkımız."
+    },
+    {
+      "key": "t680",
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "Personel ve gönüllüler güvenli bir şekilde işe alınır ve rollerine uygun durumlarda DBS kontrolleri alırlar."
+    },
+    {
+      "key": "t681",
+      "source": "Safeguarding lead.",
+      "text": "Koruma kurşunu."
+    },
+    {
+      "key": "t682",
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, Direktör ve Güvenlik Görevlisi. E-posta"
+    },
+    {
+      "key": "t683",
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatcounsellinglinda@gmail.com"
+    },
+    {
+      "key": "t684",
+      "source": "or",
+      "text": "veya"
+    },
+    {
+      "key": "t685",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t686",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". Birisi acil tehlike altındaysa 999'u arayın."
+    },
+    {
+      "key": "t687",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Son inceleme: 29 Mayıs 2026. Bu özet, yayınlanmadan önce Floating Counselling Community'nin tam koruma politikasıyla karşılaştırılarak kontrol edilmelidir."
+    },
+    {
+      "key": "t688",
+      "source": "Cookies & storage",
+      "text": "Çerezler ve depolama"
+    },
+    {
+      "key": "t689",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "Çerezleri minimumda tutuyoruz ve reklam veya siteler arası izleme kullanmıyoruz. Site, tarayıcınızda birkaç küçük öğe saklar:"
+    },
+    {
+      "key": "t690",
+      "source": "Cookie consent",
+      "text": "Çerez onayı"
+    },
+    {
+      "key": "t691",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— bu bildirimi gördüğünüzü hatırlıyor, bu nedenle onu her ziyaretinizde göstermiyoruz."
+    },
+    {
+      "key": "t692",
+      "source": "Translation cache",
+      "text": "Çeviri önbelleği"
+    },
+    {
+      "key": "t693",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "— sayfayı çevirirseniz, çevrilen metin yerel olarak kaydedilir, böylece bir dahaki sefere anında yüklenir."
+    },
+    {
+      "key": "t694",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "Yerleşik Google Haritası yüklendiğinde Google'ın kendi çerezlerini ayarlayabilir. Tarayıcınızın site verilerini temizleyerek yukarıdakilerin tümünü istediğiniz zaman temizleyebilirsiniz."
+    },
+    {
+      "key": "t695",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "Danışmanlık, topluluk ve şefkat, 2015'ten beri Croydon, Redbridge, Newham, Durham ve Southwark'ye hizmet ediyor."
+    },
+    {
+      "key": "t696",
+      "source": "Get in touch",
+      "text": "İletişime geçin"
+    },
+    {
+      "key": "t697",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t698",
+      "source": "WhatsApp · +44 (0)7305 882959",
+      "text": "WhatsApp · +44 (0)7305 882959"
+    },
+    {
+      "key": "t699",
+      "source": "Croydon Hub · Ashburton Park Cafe Hall",
+      "text": "Croydon Hub · Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t700",
+      "source": "See all project locations",
+      "text": "Tüm proje konumlarını görün"
+    },
+    {
+      "key": "t701",
+      "source": "Fundraiser",
+      "text": "Bağış Kampanyası"
+    },
+    {
+      "key": "t702",
+      "source": "Volunteer",
+      "text": "Gönüllü"
+    },
+    {
+      "key": "t703",
+      "source": "Croydon office",
+      "text": "Croydon ofisi"
+    },
+    {
+      "key": "t704",
+      "source": "Redbridge office",
+      "text": "Redbridge ofisi"
+    },
+    {
+      "key": "t705",
+      "source": "Durham hub",
+      "text": "Durham hub"
+    },
+    {
+      "key": "t706",
+      "source": "Southwark hub",
+      "text": "Southwark hub"
+    },
+    {
+      "key": "t707",
+      "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
+      "text": "Floating Counselling™ · BACP uyumlu · Şirket no. 11334515 · Topluluk Ortağı"
+    },
+    {
+      "key": "t708",
+      "source": "Privacy",
+      "text": "Gizlilik"
+    },
+    {
+      "key": "t709",
+      "source": "Safeguarding",
+      "text": "Koruma"
+    },
+    {
+      "key": "t710",
+      "source": "Fundraiser",
+      "text": "Bağış Kampanyası"
+    },
+    {
+      "key": "t711",
+      "source": "Donate",
+      "text": "Bağış yap"
+    },
+    {
+      "key": "t712",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t713",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t714",
+      "source": "Choose a quick route",
+      "text": "Hızlı bir rota seçin"
+    },
+    {
+      "key": "t715",
+      "source": "If you are not sure which service fits, choose the closest option and we will route you.",
+      "text": "Hangi hizmetin uygun olduğundan emin değilseniz, en yakın seçeneği seçin, sizi yönlendirelim."
+    },
+    {
+      "key": "t716",
+      "source": "Counselling enquiry",
+      "text": "Danışmanlık soruşturması"
+    },
+    {
+      "key": "t717",
+      "source": "Parenting support",
+      "text": "Ebeveynlik desteği"
+    },
+    {
+      "key": "t718",
+      "source": "Food or community hub",
+      "text": "Yiyecek veya topluluk merkezi"
+    },
+    {
+      "key": "t719",
+      "source": "Holiday school",
+      "text": "Tatil okulu"
+    },
+    {
+      "key": "t720",
+      "source": "Fundraiser",
+      "text": "Bağış Kampanyası"
+    },
+    {
+      "key": "t721",
+      "source": "Volunteer or partner",
+      "text": "Gönüllü veya ortak"
+    },
+    {
+      "key": "t722",
+      "source": "WhatsApp Floating",
+      "text": "WhatsApp Yüzen"
+    },
+    {
+      "key": "t723",
+      "source": "We use a small number of cookies to make this site work and to understand how it's used.",
+      "text": "Bu sitenin çalışmasını sağlamak ve nasıl kullanıldığını anlamak için az sayıda çerez kullanıyoruz."
+    },
+    {
+      "key": "t724",
+      "source": "More info",
+      "text": "Daha fazla bilgi"
+    },
+    {
+      "key": "t725",
+      "source": "Decline",
+      "text": "Reddet"
+    },
+    {
+      "key": "t726",
+      "source": "Accept",
+      "text": "Kabul et"
+    },
+    {
+      "key": "a727",
+      "source": "Primary",
+      "text": "Birincil"
+    },
+    {
+      "key": "a728",
+      "source": "Floating Counselling — Home",
+      "text": "Floating Counselling — Ana Sayfa"
+    },
+    {
+      "key": "a729",
+      "source": "Floating Counselling",
+      "text": "Floating Counselling"
+    },
+    {
+      "key": "a730",
+      "source": "Toggle navigation",
+      "text": "Gezinmeyi değiştir"
+    },
+    {
+      "key": "a731",
+      "source": "Counselling conversation at Floating Counselling",
+      "text": "Floating Counselling'de danışmanlık görüşmesi"
+    },
+    {
+      "key": "a732",
+      "source": "Scroll to impact",
+      "text": "Etkiye doğru ilerleyin"
+    },
+    {
+      "key": "a733",
+      "source": "Our impact",
+      "text": "Etkimiz"
+    },
+    {
+      "key": "a734",
+      "source": "Celestina Oniye-Thomas from Floating Counselling",
+      "text": "Floating Counselling'den Celestina Oniye-Thomas"
+    },
+    {
+      "key": "a735",
+      "source": "Impact Parenting support artwork from Floating Counselling",
+      "text": "Impact Parenting, Floating Counselling'den çizimleri destekler"
+    },
+    {
+      "key": "a736",
+      "source": "Floating Counselling community organisation impact infographic",
+      "text": "Floating Counselling topluluk organizasyonu etki infografik"
+    },
+    {
+      "key": "a737",
+      "source": "Holiday school values",
+      "text": "Tatil okulu değerleri"
+    },
+    {
+      "key": "a738",
+      "source": "Holiday school week 1 newsletter",
+      "text": "Tatil okulu 1. hafta bülteni"
+    },
+    {
+      "key": "a739",
+      "source": "Floating Community Hub community gathering",
+      "text": "Yüzen Topluluk Merkezi topluluk toplantısı"
+    },
+    {
+      "key": "a740",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "a741",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela"
+    },
+    {
+      "key": "a742",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode"
+    },
+    {
+      "key": "a743",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah"
+    },
+    {
+      "key": "a744",
+      "source": "Department for Education",
+      "text": "Eğitim Bakanlığı"
+    },
+    {
+      "key": "a745",
+      "source": "Croydon Council",
+      "text": "Croydon Konseyi"
+    },
+    {
+      "key": "a746",
+      "source": "South West London CCGs",
+      "text": "Güney Batı London CCG'ler"
+    },
+    {
+      "key": "a747",
+      "source": "The National Lottery Community Fund",
+      "text": "Milli Piyango Topluluk Fonu"
+    },
+    {
+      "key": "a748",
+      "source": "BME Forum",
+      "text": "BME Forumu"
+    },
+    {
+      "key": "a749",
+      "source": "Croydon Voluntary Action",
+      "text": "Croydon Gönüllü Eylem"
+    },
+    {
+      "key": "a750",
+      "source": "Volunteer application form",
+      "text": "Gönüllü başvuru formu"
+    },
+    {
+      "key": "a751",
+      "source": "Project locations",
+      "text": "Proje konumları"
+    },
+    {
+      "key": "a752",
+      "source": "Social links",
+      "text": "Sosyal bağlantılar"
+    },
+    {
+      "key": "a753",
+      "source": "Facebook",
+      "text": "Facebook"
+    },
+    {
+      "key": "a754",
+      "source": "Instagram",
+      "text": "Instagram"
+    },
+    {
+      "key": "a755",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a756",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a757",
+      "source": "Floating Counselling — Home",
+      "text": "Floating Counselling — Ana Sayfa"
+    },
+    {
+      "key": "a758",
+      "source": "Floating Counselling",
+      "text": "Floating Counselling"
+    },
+    {
+      "key": "a759",
+      "source": "Social links",
+      "text": "Sosyal bağlantılar"
+    },
+    {
+      "key": "a760",
+      "source": "Facebook",
+      "text": "Facebook"
+    },
+    {
+      "key": "a761",
+      "source": "Instagram",
+      "text": "Instagram"
+    },
+    {
+      "key": "a762",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a763",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a764",
+      "source": "Project locations",
+      "text": "Proje konumları"
+    },
+    {
+      "key": "a765",
+      "source": "Fundraise for Floating Counselling",
+      "text": "Floating Counselling için Bağış Kampanyası"
+    },
+    {
+      "key": "a766",
+      "source": "Donate to Floating Counselling",
+      "text": "Floating Counselling'ye bağış yapın"
+    },
+    {
+      "key": "a767",
+      "source": "Back to top",
+      "text": "Başa dön"
+    },
+    {
+      "key": "a768",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "a769",
+      "source": "Close assistant",
+      "text": "Yakın asistan"
+    },
+    {
+      "key": "a770",
+      "source": "Cookie notice",
+      "text": "Çerez bildirimi"
+    }
+  ]
+}

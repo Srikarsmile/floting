@@ -1,0 +1,3865 @@
+{
+  "language": "ta",
+  "languageName": "Tamil",
+  "sourceLanguage": "en",
+  "sourceHash": "oouxuf",
+  "sourceUrl": "http://127.0.0.1:63690/",
+  "generatedAt": "2026-05-30T10:23:49.390Z",
+  "translations": [
+    {
+      "key": "t0",
+      "source": "Floating Counselling — Counselling, Community & Compassion · Croydon & London",
+      "text": "Floating Counselling — ஆலோசனை, சமூகம் & இரக்கம் · Croydon & London"
+    },
+    {
+      "key": "t1",
+      "source": "Skip to content",
+      "text": "உள்ளடக்கத்திற்கு செல்க"
+    },
+    {
+      "key": "t2",
+      "source": "Services",
+      "text": "சேவைகள்"
+    },
+    {
+      "key": "t3",
+      "source": "Find help",
+      "text": "உதவியைக் கண்டறியவும்"
+    },
+    {
+      "key": "t4",
+      "source": "Parenting",
+      "text": "குழந்தை வளர்ப்பு"
+    },
+    {
+      "key": "t5",
+      "source": "Holiday School",
+      "text": "விடுமுறை பள்ளி"
+    },
+    {
+      "key": "t6",
+      "source": "Hub",
+      "text": "ஹப்"
+    },
+    {
+      "key": "t7",
+      "source": "Fundraiser",
+      "text": "நிதி திரட்டுபவர்"
+    },
+    {
+      "key": "t8",
+      "source": "Volunteer",
+      "text": "தன்னார்வலர்"
+    },
+    {
+      "key": "t9",
+      "source": "Translate website",
+      "text": "இணையதளத்தை மொழிபெயர்க்கவும்"
+    },
+    {
+      "key": "t10",
+      "source": "Book a Session",
+      "text": "ஒரு அமர்வை பதிவு செய்யவும்"
+    },
+    {
+      "key": "t11",
+      "source": "Croydon · Redbridge · Newham · Durham · Southwark",
+      "text": "Croydon · Redbridge · Newham · Durham · Southwark"
+    },
+    {
+      "key": "t12",
+      "source": "Counselling,",
+      "text": "ஆலோசனை,"
+    },
+    {
+      "key": "t13",
+      "source": "Community",
+      "text": "சமூகம்"
+    },
+    {
+      "key": "t14",
+      "source": "Compassion.",
+      "text": "இரக்கம்."
+    },
+    {
+      "key": "t15",
+      "source": "A",
+      "text": "ஏ"
+    },
+    {
+      "key": "t16",
+      "source": "UK-based",
+      "text": "UK அடிப்படையிலானது"
+    },
+    {
+      "key": "t17",
+      "source": "grassroots",
+      "text": "அடித்தட்டு"
+    },
+    {
+      "key": "t18",
+      "source": "charity",
+      "text": "தொண்டு"
+    },
+    {
+      "key": "t19",
+      "source": "empowering",
+      "text": "அதிகாரமளிக்கிறது"
+    },
+    {
+      "key": "t20",
+      "source": "individuals,",
+      "text": "தனிநபர்கள்,"
+    },
+    {
+      "key": "t21",
+      "source": "families",
+      "text": "குடும்பங்கள்"
+    },
+    {
+      "key": "t22",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t23",
+      "source": "marginalised",
+      "text": "ஓரங்கட்டப்பட்டது"
+    },
+    {
+      "key": "t24",
+      "source": "groups",
+      "text": "குழுக்கள்"
+    },
+    {
+      "key": "t25",
+      "source": "through",
+      "text": "மூலம்"
+    },
+    {
+      "key": "t26",
+      "source": "holistic",
+      "text": "முழுமையானது"
+    },
+    {
+      "key": "t27",
+      "source": "support,",
+      "text": "ஆதரவு,"
+    },
+    {
+      "key": "t28",
+      "source": "therapeutic",
+      "text": "சிகிச்சை"
+    },
+    {
+      "key": "t29",
+      "source": "care,",
+      "text": "கவனிப்பு,"
+    },
+    {
+      "key": "t30",
+      "source": "practical",
+      "text": "நடைமுறை"
+    },
+    {
+      "key": "t31",
+      "source": "help",
+      "text": "உதவி"
+    },
+    {
+      "key": "t32",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t33",
+      "source": "community-driven",
+      "text": "சமூகம் சார்ந்தது"
+    },
+    {
+      "key": "t34",
+      "source": "programmes",
+      "text": "நிரல்கள்"
+    },
+    {
+      "key": "t35",
+      "source": "designed",
+      "text": "வடிவமைக்கப்பட்டது"
+    },
+    {
+      "key": "t36",
+      "source": "as",
+      "text": "என"
+    },
+    {
+      "key": "t37",
+      "source": "wraparound",
+      "text": "மடக்கு"
+    },
+    {
+      "key": "t38",
+      "source": "care.",
+      "text": "கவனிப்பு."
+    },
+    {
+      "key": "t39",
+      "source": "Book a Session",
+      "text": "ஒரு அமர்வை பதிவு செய்யவும்"
+    },
+    {
+      "key": "t40",
+      "source": "Find the right support",
+      "text": "சரியான ஆதரவைக் கண்டறியவும்"
+    },
+    {
+      "key": "t41",
+      "source": "CO",
+      "text": "CO"
+    },
+    {
+      "key": "t42",
+      "source": "OO",
+      "text": "OO"
+    },
+    {
+      "key": "t43",
+      "source": "EO",
+      "text": "EO"
+    },
+    {
+      "key": "t44",
+      "source": "LY",
+      "text": "LY"
+    },
+    {
+      "key": "t45",
+      "source": "Led by four women directors with clinical training, lived experience and deep community roots.",
+      "text": "மருத்துவப் பயிற்சி, வாழ்ந்த அனுபவம் மற்றும் ஆழமான சமூக வேர்களைக் கொண்ட நான்கு பெண் இயக்குநர்களால் வழிநடத்தப்பட்டது."
+    },
+    {
+      "key": "t46",
+      "source": "Trauma-informed",
+      "text": "அதிர்ச்சி-தகவல்"
+    },
+    {
+      "key": "t47",
+      "source": "Care that meets you where you are",
+      "text": "நீங்கள் இருக்கும் இடத்தில் உங்களை சந்திக்கும் கவனிப்பு"
+    },
+    {
+      "key": "t48",
+      "source": "5 project areas",
+      "text": "5 திட்டப் பகுதிகள்"
+    },
+    {
+      "key": "t49",
+      "source": "Croydon · Redbridge · Newham · Durham · Southwark",
+      "text": "Croydon · Redbridge · Newham · Durham · Southwark"
+    },
+    {
+      "key": "t50",
+      "source": "Scroll",
+      "text": "உருட்டவும்"
+    },
+    {
+      "key": "t51",
+      "source": "Find the right support",
+      "text": "சரியான ஆதரவைக் கண்டறியவும்"
+    },
+    {
+      "key": "t52",
+      "source": "Choose",
+      "text": "தேர்வு செய்யவும்"
+    },
+    {
+      "key": "t53",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t54",
+      "source": "help",
+      "text": "உதவி"
+    },
+    {
+      "key": "t55",
+      "source": "you",
+      "text": "நீங்கள்"
+    },
+    {
+      "key": "t56",
+      "source": "need",
+      "text": "தேவை"
+    },
+    {
+      "key": "t57",
+      "source": "today.",
+      "text": "இன்று."
+    },
+    {
+      "key": "t58",
+      "source": "Tell",
+      "text": "சொல்லுங்கள்"
+    },
+    {
+      "key": "t59",
+      "source": "us",
+      "text": "நாங்கள்"
+    },
+    {
+      "key": "t60",
+      "source": "what",
+      "text": "என்ன"
+    },
+    {
+      "key": "t61",
+      "source": "feels",
+      "text": "உணர்கிறது"
+    },
+    {
+      "key": "t62",
+      "source": "most",
+      "text": "பெரும்பாலானவை"
+    },
+    {
+      "key": "t63",
+      "source": "urgent",
+      "text": "அவசரம்"
+    },
+    {
+      "key": "t64",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t65",
+      "source": "we",
+      "text": "நாங்கள்"
+    },
+    {
+      "key": "t66",
+      "source": "will",
+      "text": "சாப்பிடுவேன்"
+    },
+    {
+      "key": "t67",
+      "source": "point",
+      "text": "புள்ளி"
+    },
+    {
+      "key": "t68",
+      "source": "you",
+      "text": "நீங்கள்"
+    },
+    {
+      "key": "t69",
+      "source": "towards",
+      "text": "நோக்கி"
+    },
+    {
+      "key": "t70",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t71",
+      "source": "right",
+      "text": "வலது"
+    },
+    {
+      "key": "t72",
+      "source": "support,",
+      "text": "ஆதரவு,"
+    },
+    {
+      "key": "t73",
+      "source": "whether",
+      "text": "என்பதை"
+    },
+    {
+      "key": "t74",
+      "source": "that",
+      "text": "அது"
+    },
+    {
+      "key": "t75",
+      "source": "starts",
+      "text": "தொடங்குகிறது"
+    },
+    {
+      "key": "t76",
+      "source": "with",
+      "text": "உடன்"
+    },
+    {
+      "key": "t77",
+      "source": "therapy,",
+      "text": "சிகிச்சை,"
+    },
+    {
+      "key": "t78",
+      "source": "practical",
+      "text": "நடைமுறை"
+    },
+    {
+      "key": "t79",
+      "source": "help,",
+      "text": "உதவி,"
+    },
+    {
+      "key": "t80",
+      "source": "family",
+      "text": "குடும்பம்"
+    },
+    {
+      "key": "t81",
+      "source": "work",
+      "text": "வேலை"
+    },
+    {
+      "key": "t82",
+      "source": "or",
+      "text": "அல்லது"
+    },
+    {
+      "key": "t83",
+      "source": "a",
+      "text": "ஏ"
+    },
+    {
+      "key": "t84",
+      "source": "partnership",
+      "text": "கூட்டாண்மை"
+    },
+    {
+      "key": "t85",
+      "source": "conversation.",
+      "text": "உரையாடல்."
+    },
+    {
+      "key": "t86",
+      "source": "Therapy",
+      "text": "சிகிச்சை"
+    },
+    {
+      "key": "t87",
+      "source": "I need counselling",
+      "text": "எனக்கு ஆலோசனை தேவை"
+    },
+    {
+      "key": "t88",
+      "source": "Start with one-to-one, family, couple, group, online or in-person therapeutic support.",
+      "text": "ஒருவருக்கு ஒருவர், குடும்பம், ஜோடி, குழு, ஆன்லைன் அல்லது நேரில் சிகிச்சை ஆதரவுடன் தொடங்கவும்."
+    },
+    {
+      "key": "t89",
+      "source": "Book a session",
+      "text": "ஒரு அமர்வை பதிவு செய்யவும்"
+    },
+    {
+      "key": "t90",
+      "source": "Family",
+      "text": "குடும்பம்"
+    },
+    {
+      "key": "t91",
+      "source": "I need parenting support",
+      "text": "எனக்கு பெற்றோர் ஆதரவு தேவை"
+    },
+    {
+      "key": "t92",
+      "source": "Get practical tools for behaviour, attachment, trauma recovery and family confidence.",
+      "text": "நடத்தை, இணைப்பு, அதிர்ச்சி மீட்பு மற்றும் குடும்ப நம்பிக்கைக்கான நடைமுறைக் கருவிகளைப் பெறுங்கள்."
+    },
+    {
+      "key": "t93",
+      "source": "View parenting help",
+      "text": "பெற்றோருக்குரிய உதவியைப் பார்க்கவும்"
+    },
+    {
+      "key": "t94",
+      "source": "Community",
+      "text": "சமூகம்"
+    },
+    {
+      "key": "t95",
+      "source": "I need practical help",
+      "text": "எனக்கு நடைமுறை உதவி தேவை"
+    },
+    {
+      "key": "t96",
+      "source": "Use the hub for food, clothing, forms, housing questions, bills help, digital inclusion and wellbeing support.",
+      "text": "உணவு, உடை, படிவங்கள், வீட்டுக் கேள்விகள், பில்கள் உதவி, டிஜிட்டல் சேர்த்தல் மற்றும் நல்வாழ்வு ஆதரவு ஆகியவற்றிற்கு மையத்தைப் பயன்படுத்தவும்."
+    },
+    {
+      "key": "t97",
+      "source": "Visit the hub",
+      "text": "மையத்தைப் பார்வையிடவும்"
+    },
+    {
+      "key": "t98",
+      "source": "Partners",
+      "text": "கூட்டாளர்கள்"
+    },
+    {
+      "key": "t99",
+      "source": "I want to volunteer or partner",
+      "text": "நான் தன்னார்வத் தொண்டு செய்ய அல்லது பங்குதாரராக இருக்க விரும்புகிறேன்"
+    },
+    {
+      "key": "t100",
+      "source": "Support local residents through food donations, funding, fundraising, skills, events or professional help.",
+      "text": "உணவு நன்கொடைகள், நிதியளித்தல், நிதி திரட்டுதல், திறன்கள், நிகழ்வுகள் அல்லது தொழில்முறை உதவி மூலம் உள்ளூர்வாசிகளுக்கு ஆதரவளிக்கவும்."
+    },
+    {
+      "key": "t101",
+      "source": "Volunteer with us",
+      "text": "எங்களுடன் தன்னார்வத் தொண்டு செய்யுங்கள்"
+    },
+    {
+      "key": "t102",
+      "source": "Not sure where to start?",
+      "text": "எங்கு தொடங்குவது என்று தெரியவில்லையா?"
+    },
+    {
+      "key": "t103",
+      "source": "Tap Ask Floating to find the right service, or send one WhatsApp message and we will route you.",
+      "text": "சரியான சேவையைக் கண்டறிய Ask Floating ஐத் தட்டவும் அல்லது ஒரு WhatsApp செய்தியை அனுப்பவும், நாங்கள் உங்களை வழிநடத்துவோம்."
+    },
+    {
+      "key": "t104",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t105",
+      "source": "A",
+      "text": "ஏ"
+    },
+    {
+      "key": "t106",
+      "source": "decade",
+      "text": "தசாப்தம்"
+    },
+    {
+      "key": "t107",
+      "source": "of",
+      "text": "of"
+    },
+    {
+      "key": "t108",
+      "source": "grassroots",
+      "text": "அடித்தட்டு"
+    },
+    {
+      "key": "t109",
+      "source": "care,",
+      "text": "பராமரிப்பு,"
+    },
+    {
+      "key": "t110",
+      "source": "by",
+      "text": "மூலம்"
+    },
+    {
+      "key": "t111",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t112",
+      "source": "numbers.",
+      "text": "எண்கள்."
+    },
+    {
+      "key": "t113",
+      "source": "Counselling sessions delivered",
+      "text": "ஆலோசனை அமர்வுகள் வழங்கப்பட்டன"
+    },
+    {
+      "key": "t114",
+      "source": "Clinical hours of care",
+      "text": "மருத்துவ கவனிப்பு நேரம்"
+    },
+    {
+      "key": "t115",
+      "source": "Combined clinical experience",
+      "text": "ஒருங்கிணைந்த மருத்துவ அனுபவம்"
+    },
+    {
+      "key": "t116",
+      "source": "Children supported through holiday school",
+      "text": "குழந்தைகள் விடுமுறை பள்ளி மூலம் ஆதரிக்கப்படுகிறார்கள்"
+    },
+    {
+      "key": "t117",
+      "source": "Continuous service to community",
+      "text": "சமூகத்திற்கான தொடர்ச்சியான சேவை"
+    },
+    {
+      "key": "t118",
+      "source": "Practical community support and therapeutic care sit together, so people can stabilise today and grow tomorrow.",
+      "text": "நடைமுறை சமூக ஆதரவு மற்றும் சிகிச்சை பராமரிப்பு ஆகியவை ஒன்றாக அமர்ந்து, மக்கள் இன்று நிலைபெறலாம் மற்றும் நாளை வளரலாம்."
+    },
+    {
+      "key": "t119",
+      "source": "What we offer",
+      "text": "நாங்கள் வழங்குவது"
+    },
+    {
+      "key": "t120",
+      "source": "Core",
+      "text": "கோர்"
+    },
+    {
+      "key": "t121",
+      "source": "support,",
+      "text": "ஆதரவு,"
+    },
+    {
+      "key": "t122",
+      "source": "without",
+      "text": "இல்லாமல்"
+    },
+    {
+      "key": "t123",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t124",
+      "source": "maze.",
+      "text": "பிரமை."
+    },
+    {
+      "key": "t125",
+      "source": "Start",
+      "text": "தொடங்கு"
+    },
+    {
+      "key": "t126",
+      "source": "with",
+      "text": "உடன்"
+    },
+    {
+      "key": "t127",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t128",
+      "source": "kind",
+      "text": "வகை"
+    },
+    {
+      "key": "t129",
+      "source": "of",
+      "text": "of"
+    },
+    {
+      "key": "t130",
+      "source": "help",
+      "text": "உதவி"
+    },
+    {
+      "key": "t131",
+      "source": "you",
+      "text": "நீங்கள்"
+    },
+    {
+      "key": "t132",
+      "source": "need",
+      "text": "தேவை"
+    },
+    {
+      "key": "t133",
+      "source": "most.",
+      "text": "பெரும்பாலானவை."
+    },
+    {
+      "key": "t134",
+      "source": "We",
+      "text": "நாங்கள்"
+    },
+    {
+      "key": "t135",
+      "source": "will",
+      "text": "சாப்பிடுவேன்"
+    },
+    {
+      "key": "t136",
+      "source": "route",
+      "text": "பாதை"
+    },
+    {
+      "key": "t137",
+      "source": "you",
+      "text": "நீங்கள்"
+    },
+    {
+      "key": "t138",
+      "source": "to",
+      "text": "வரை"
+    },
+    {
+      "key": "t139",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t140",
+      "source": "right",
+      "text": "வலது"
+    },
+    {
+      "key": "t141",
+      "source": "person",
+      "text": "நபர்"
+    },
+    {
+      "key": "t142",
+      "source": "from",
+      "text": "இருந்து"
+    },
+    {
+      "key": "t143",
+      "source": "there.",
+      "text": "அங்கே."
+    },
+    {
+      "key": "t144",
+      "source": "Counselling & Mentoring",
+      "text": "ஆலோசனை மற்றும் வழிகாட்டுதல்"
+    },
+    {
+      "key": "t145",
+      "source": "Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person across our project boroughs and online, with free and low-cost care for elderly, Universal Credit and low-income clients.",
+      "text": "15,000 க்கும் மேற்பட்ட ஒன்றுக்கு ஒன்று, குழு, ஜோடி மற்றும் குடும்ப சிகிச்சை அமர்வுகள் தகுதிவாய்ந்த உளவியலாளர்களால் வழங்கப்படுகின்றன. முதியவர்கள், யுனிவர்சல் கிரெடிட் மற்றும் குறைந்த வருமானம் கொண்ட வாடிக்கையாளர்களுக்கு இலவச மற்றும் குறைந்த கட்டண பராமரிப்புடன், எங்கள் திட்டப் பகுதிகள் மற்றும் ஆன்லைனிலும் நேரில்."
+    },
+    {
+      "key": "t146",
+      "source": "Get started",
+      "text": "தொடங்கவும்"
+    },
+    {
+      "key": "t147",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t148",
+      "source": "Workshops, 1:1 mentoring and group programmes for parents, including therapeutic camps, the Impact Parenting Pillar training and a private support group.",
+      "text": "பயிற்சி முகாம்கள், Impact Parenting Pillar பயிற்சி மற்றும் ஒரு தனியார் ஆதரவுக் குழு உள்ளிட்ட பெற்றோருக்கான பயிற்சிப்பட்டறைகள், 1:1 வழிகாட்டுதல் மற்றும் குழு திட்டங்கள்."
+    },
+    {
+      "key": "t149",
+      "source": "Learn more",
+      "text": "மேலும் அறிக"
+    },
+    {
+      "key": "t150",
+      "source": "Floating Community Hub",
+      "text": "மிதக்கும் சமூக மையம்"
+    },
+    {
+      "key": "t151",
+      "source": "A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Newham, Durham and Southwark, offering practical support, wellbeing services and advocacy.",
+      "text": "Ashburton Park Cafe Hall இல் வாராந்திர Croydon மையம், மேலும் Redbridge, Newham, Durham மற்றும் Southwark இல் சமூகத் திட்டங்கள், நடைமுறை ஆதரவு, நல்வாழ்வு சேவைகள் மற்றும் ஆலோசனைகளை வழங்குகிறது."
+    },
+    {
+      "key": "t152",
+      "source": "Find out more",
+      "text": "மேலும் அறிக"
+    },
+    {
+      "key": "t153",
+      "source": "Holiday School & Camps",
+      "text": "விடுமுறை பள்ளி & முகாம்கள்"
+    },
+    {
+      "key": "t154",
+      "source": "Art therapy, music, play therapy and psychological techniques for children aged 5 to 11. Over 1,400 children registered across recent programmes.",
+      "text": "5 முதல் 11 வயது வரையிலான குழந்தைகளுக்கான கலை சிகிச்சை, இசை, விளையாட்டு சிகிச்சை மற்றும் உளவியல் நுட்பங்கள். சமீபத்திய நிகழ்ச்சிகளில் 1,400க்கும் மேற்பட்ட குழந்தைகள் பதிவு செய்துள்ளனர்."
+    },
+    {
+      "key": "t155",
+      "source": "Register",
+      "text": "பதிவு"
+    },
+    {
+      "key": "t156",
+      "source": "Food Bank & Essentials",
+      "text": "உணவு வங்கி & எசென்ஷியல்ஸ்"
+    },
+    {
+      "key": "t157",
+      "source": "Weekly donated food, clothes and practical essentials for individuals and families who need immediate support.",
+      "text": "உடனடி ஆதரவு தேவைப்படும் தனிநபர்கள் மற்றும் குடும்பங்களுக்கு வாராந்திர உணவு, உடைகள் மற்றும் நடைமுறை அத்தியாவசியப் பொருட்கள்."
+    },
+    {
+      "key": "t158",
+      "source": "Visit the hub",
+      "text": "மையத்தைப் பார்வையிடவும்"
+    },
+    {
+      "key": "t159",
+      "source": "Financial Literacy & Employment Support",
+      "text": "நிதி கல்வியறிவு & வேலைவாய்ப்பு ஆதரவு"
+    },
+    {
+      "key": "t160",
+      "source": "Budgeting, employment confidence, skills support and enterprise guidance for people rebuilding stability.",
+      "text": "பட்ஜெட், வேலைவாய்ப்பு நம்பிக்கை, திறன் ஆதரவு மற்றும் ஸ்திரத்தன்மையை மீண்டும் கட்டியெழுப்ப மக்களுக்கு நிறுவன வழிகாட்டுதல்."
+    },
+    {
+      "key": "t161",
+      "source": "Ask about support",
+      "text": "ஆதரவு பற்றி கேளுங்கள்"
+    },
+    {
+      "key": "t162",
+      "source": "Since",
+      "text": "இருந்து"
+    },
+    {
+      "key": "t163",
+      "source": "Serving Croydon, Redbridge, Newham, Durham & Southwark",
+      "text": "Croydon, Redbridge, Newham, Durham & Southwark சேவை"
+    },
+    {
+      "key": "t164",
+      "source": "Who we are",
+      "text": "நாம் யார்"
+    },
+    {
+      "key": "t165",
+      "source": "Wraparound",
+      "text": "ரேப்பரவுண்ட்"
+    },
+    {
+      "key": "t166",
+      "source": "care,",
+      "text": "பராமரிப்பு,"
+    },
+    {
+      "key": "t167",
+      "source": "rooted",
+      "text": "வேரூன்றியது"
+    },
+    {
+      "key": "t168",
+      "source": "in",
+      "text": "இல்"
+    },
+    {
+      "key": "t169",
+      "source": "community.",
+      "text": "சமூகம்."
+    },
+    {
+      "key": "t170",
+      "source": "Inspired",
+      "text": "ஈர்க்கப்பட்டது"
+    },
+    {
+      "key": "t171",
+      "source": "by",
+      "text": "மூலம்"
+    },
+    {
+      "key": "t172",
+      "source": "Maslow's",
+      "text": "மாஸ்லோவின்"
+    },
+    {
+      "key": "t173",
+      "source": "hierarchy",
+      "text": "படிநிலை"
+    },
+    {
+      "key": "t174",
+      "source": "of",
+      "text": "of"
+    },
+    {
+      "key": "t175",
+      "source": "needs,",
+      "text": "தேவைகள்,"
+    },
+    {
+      "key": "t176",
+      "source": "we",
+      "text": "நாங்கள்"
+    },
+    {
+      "key": "t177",
+      "source": "meet",
+      "text": "சந்திப்பு"
+    },
+    {
+      "key": "t178",
+      "source": "people",
+      "text": "மக்கள்"
+    },
+    {
+      "key": "t179",
+      "source": "where",
+      "text": "எங்கே"
+    },
+    {
+      "key": "t180",
+      "source": "they",
+      "text": "அவர்கள்"
+    },
+    {
+      "key": "t181",
+      "source": "are",
+      "text": "உள்ளன"
+    },
+    {
+      "key": "t182",
+      "source": "emotionally,",
+      "text": "உணர்வுபூர்வமாக,"
+    },
+    {
+      "key": "t183",
+      "source": "practically",
+      "text": "நடைமுறையில்"
+    },
+    {
+      "key": "t184",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t185",
+      "source": "socially",
+      "text": "சமூக ரீதியாக"
+    },
+    {
+      "key": "t186",
+      "source": "to",
+      "text": "வரை"
+    },
+    {
+      "key": "t187",
+      "source": "create",
+      "text": "உருவாக்கவும்"
+    },
+    {
+      "key": "t188",
+      "source": "lasting",
+      "text": "நீடித்தது"
+    },
+    {
+      "key": "t189",
+      "source": "change",
+      "text": "மாற்றம்"
+    },
+    {
+      "key": "t190",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t191",
+      "source": "personal",
+      "text": "தனிப்பட்ட"
+    },
+    {
+      "key": "t192",
+      "source": "growth.",
+      "text": "வளர்ச்சி."
+    },
+    {
+      "key": "t193",
+      "source": "We are proudly led by a diverse team of African women, whose lived experience and professional expertise shape every part of our work.",
+      "text": "நாங்கள் பெருமையுடன் பல்வேறு ஆப்பிரிக்க பெண்களின் குழுவால் வழிநடத்தப்படுகிறோம், அவர்களின் வாழ்க்கை அனுபவமும் தொழில்முறை நிபுணத்துவமும் எங்கள் வேலையின் ஒவ்வொரு பகுதியையும் வடிவமைக்கின்றன."
+    },
+    {
+      "key": "t194",
+      "source": "Our founder, Celestina Oniye-Thomas, knows this work from the inside. After surviving childhood trauma and a spinal injury at sixteen that doctors thought would stop her walking, she taught herself to walk again, retrained as an integrative psychotherapist, and built Floating so families could find the healing she had to fight for.",
+      "text": "எங்கள் நிறுவனர், Celestina Oniye-Thomas, இந்த வேலையை உள்ளே இருந்து அறிவார். குழந்தைப் பருவத்தில் ஏற்பட்ட காயம் மற்றும் பதினாறு வயதில் முதுகுத்தண்டில் ஏற்பட்ட காயம் ஆகியவற்றில் இருந்து தப்பிய பிறகு, மருத்துவர்கள் அவரது நடையை நிறுத்துவார்கள் என்று நினைத்தார், அவர் மீண்டும் நடக்கக் கற்றுக்கொண்டார், ஒரு ஒருங்கிணைந்த உளவியல் நிபுணராக மீண்டும் பயிற்சி பெற்றார், மேலும் குடும்பங்கள் அவள் போராட வேண்டிய சிகிச்சையைக் கண்டுபிடிக்க ஃப்ளோட்டிங்கை உருவாக்கினார்."
+    },
+    {
+      "key": "t195",
+      "source": "\"Resilience and self-confidence saved my life.\"",
+      "text": "\"எதிர்ப்பு மற்றும் தன்னம்பிக்கை என் உயிரைக் காப்பாற்றியது.\""
+    },
+    {
+      "key": "t196",
+      "source": "Celestina Oniye-Thomas — Founder & CEO",
+      "text": "Celestina Oniye-Thomas — நிறுவனர் & CEO"
+    },
+    {
+      "key": "t197",
+      "source": "Trauma-Informed Care",
+      "text": "அதிர்ச்சி-தகவல் பராமரிப்பு"
+    },
+    {
+      "key": "t198",
+      "source": "Culturally Relevant",
+      "text": "கலாச்சார ரீதியாக தொடர்புடையது"
+    },
+    {
+      "key": "t199",
+      "source": "Local Partnerships",
+      "text": "உள்ளூர் கூட்டாண்மைகள்"
+    },
+    {
+      "key": "t200",
+      "source": "Holistic Approach",
+      "text": "முழுமையான அணுகுமுறை"
+    },
+    {
+      "key": "t201",
+      "source": "Free & Low Cost",
+      "text": "இலவசம் மற்றும் குறைந்த விலை"
+    },
+    {
+      "key": "t202",
+      "source": "Online & In Person",
+      "text": "ஆன்லைனில் & நேரில்"
+    },
+    {
+      "key": "t203",
+      "source": "Introducing",
+      "text": "அறிமுகப்படுத்துகிறது"
+    },
+    {
+      "key": "t204",
+      "source": "Therapy",
+      "text": "சிகிச்சை"
+    },
+    {
+      "key": "t205",
+      "source": "with",
+      "text": "உடன்"
+    },
+    {
+      "key": "t206",
+      "source": "realistic",
+      "text": "யதார்த்தமானது"
+    },
+    {
+      "key": "t207",
+      "source": "tools",
+      "text": "கருவிகள்"
+    },
+    {
+      "key": "t208",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t209",
+      "source": "strategy",
+      "text": "உத்தி"
+    },
+    {
+      "key": "t210",
+      "source": "for",
+      "text": "க்கு"
+    },
+    {
+      "key": "t211",
+      "source": "a",
+      "text": "ஏ"
+    },
+    {
+      "key": "t212",
+      "source": "better",
+      "text": "சிறந்தது"
+    },
+    {
+      "key": "t213",
+      "source": "life.",
+      "text": "வாழ்க்கை."
+    },
+    {
+      "key": "t214",
+      "source": "Floating",
+      "text": "மிதக்கும்"
+    },
+    {
+      "key": "t215",
+      "source": "combines",
+      "text": "ஒருங்கிணைக்கிறது"
+    },
+    {
+      "key": "t216",
+      "source": "years",
+      "text": "ஆண்டுகள்"
+    },
+    {
+      "key": "t217",
+      "source": "as",
+      "text": "என"
+    },
+    {
+      "key": "t218",
+      "source": "clinical",
+      "text": "மருத்துவம்"
+    },
+    {
+      "key": "t219",
+      "source": "psychotherapists",
+      "text": "உளவியலாளர்கள்"
+    },
+    {
+      "key": "t220",
+      "source": "with",
+      "text": "உடன்"
+    },
+    {
+      "key": "t221",
+      "source": "clinical",
+      "text": "மருத்துவம்"
+    },
+    {
+      "key": "t222",
+      "source": "hours",
+      "text": "மணிநேரம்"
+    },
+    {
+      "key": "t223",
+      "source": "of",
+      "text": "of"
+    },
+    {
+      "key": "t224",
+      "source": "working",
+      "text": "வேலை செய்கிறது"
+    },
+    {
+      "key": "t225",
+      "source": "to",
+      "text": "வரை"
+    },
+    {
+      "key": "t226",
+      "source": "help",
+      "text": "உதவி"
+    },
+    {
+      "key": "t227",
+      "source": "individuals,",
+      "text": "தனிநபர்கள்,"
+    },
+    {
+      "key": "t228",
+      "source": "children",
+      "text": "குழந்தைகள்"
+    },
+    {
+      "key": "t229",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t230",
+      "source": "parents",
+      "text": "பெற்றோர்"
+    },
+    {
+      "key": "t231",
+      "source": "live",
+      "text": "நேரலை"
+    },
+    {
+      "key": "t232",
+      "source": "better",
+      "text": "சிறந்தது"
+    },
+    {
+      "key": "t233",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t234",
+      "source": "be",
+      "text": "இருக்கும்"
+    },
+    {
+      "key": "t235",
+      "source": "better.",
+      "text": "சிறந்தது."
+    },
+    {
+      "key": "t236",
+      "source": "The Impact Parenting approach gives families practical, scientifically grounded strategies to heal trauma, parent more effectively, and reduce generational trauma across the family system.",
+      "text": "Impact Parenting அணுகுமுறையானது குடும்பங்களுக்கு அதிர்ச்சியைக் குணப்படுத்தவும், பெற்றோரை மிகவும் திறம்பட குணப்படுத்தவும், குடும்ப அமைப்பு முழுவதும் தலைமுறை அதிர்ச்சியைக் குறைக்கவும் நடைமுறை, அறிவியல் அடிப்படையிலான உத்திகளை வழங்குகிறது."
+    },
+    {
+      "key": "t237",
+      "source": "45 yrs",
+      "text": "45 ஆண்டுகள்"
+    },
+    {
+      "key": "t238",
+      "source": "clinical experience",
+      "text": "மருத்துவ அனுபவம்"
+    },
+    {
+      "key": "t239",
+      "source": "clinical hours",
+      "text": "மருத்துவ நேரம்"
+    },
+    {
+      "key": "t240",
+      "source": "Realistic",
+      "text": "யதார்த்தமானது"
+    },
+    {
+      "key": "t241",
+      "source": "tools and tasks",
+      "text": "கருவிகள் மற்றும் பணிகள்"
+    },
+    {
+      "key": "t242",
+      "source": "Finding it hard to understand or manage your child’s behaviour?",
+      "text": "உங்கள் குழந்தையின் நடத்தையைப் புரிந்துகொள்வது அல்லது நிர்வகிப்பது கடினமாக உள்ளதா?"
+    },
+    {
+      "key": "t243",
+      "source": "We help parents build connection, resilience and healthier attachment with practical strategies that can be used at home.",
+      "text": "வீட்டில் பயன்படுத்தக்கூடிய நடைமுறை உத்திகள் மூலம் பெற்றோர்கள் இணைப்பு, நெகிழ்ச்சி மற்றும் ஆரோக்கியமான இணைப்பை உருவாக்க உதவுகிறோம்."
+    },
+    {
+      "key": "t244",
+      "source": "This is not for you if...",
+      "text": "இது உங்களுக்கானது அல்ல..."
+    },
+    {
+      "key": "t245",
+      "source": "You are not ready to heal past traumas, or you do not believe your mental and physical health is worth investing in.",
+      "text": "கடந்தகால அதிர்ச்சிகளை குணப்படுத்த நீங்கள் தயாராக இல்லை அல்லது உங்கள் மன மற்றும் உடல் ஆரோக்கியத்தில் முதலீடு செய்வது மதிப்புக்குரியது என்று நீங்கள் நம்பவில்லை."
+    },
+    {
+      "key": "t246",
+      "source": "Ask about Impact Parenting",
+      "text": "Impact Parenting பற்றி கேளுங்கள்"
+    },
+    {
+      "key": "t247",
+      "source": "Holiday School",
+      "text": "விடுமுறை பள்ளி"
+    },
+    {
+      "key": "t248",
+      "source": "Values,",
+      "text": "மதிப்புகள்,"
+    },
+    {
+      "key": "t249",
+      "source": "resilience",
+      "text": "நெகிழ்ச்சி"
+    },
+    {
+      "key": "t250",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t251",
+      "source": "creativity",
+      "text": "படைப்பாற்றல்"
+    },
+    {
+      "key": "t252",
+      "source": "for",
+      "text": "for"
+    },
+    {
+      "key": "t253",
+      "source": "children",
+      "text": "குழந்தைகள்"
+    },
+    {
+      "key": "t254",
+      "source": "Raising",
+      "text": "உயர்த்துதல்"
+    },
+    {
+      "key": "t255",
+      "source": "children",
+      "text": "குழந்தைகள்"
+    },
+    {
+      "key": "t256",
+      "source": "gets",
+      "text": "பெறுகிறது"
+    },
+    {
+      "key": "t257",
+      "source": "easier",
+      "text": "எளிதானது"
+    },
+    {
+      "key": "t258",
+      "source": "with",
+      "text": "உடன்"
+    },
+    {
+      "key": "t259",
+      "source": "trained",
+      "text": "பயிற்சி பெற்றார்"
+    },
+    {
+      "key": "t260",
+      "source": "professionals",
+      "text": "வல்லுநர்கள்"
+    },
+    {
+      "key": "t261",
+      "source": "supporting",
+      "text": "ஆதரிக்கிறது"
+    },
+    {
+      "key": "t262",
+      "source": "physical",
+      "text": "உடல்"
+    },
+    {
+      "key": "t263",
+      "source": "health,",
+      "text": "உடல்நலம்,"
+    },
+    {
+      "key": "t264",
+      "source": "resilience,",
+      "text": "நெகிழ்ச்சி,"
+    },
+    {
+      "key": "t265",
+      "source": "emotional",
+      "text": "உணர்ச்சிவசப்பட்டது"
+    },
+    {
+      "key": "t266",
+      "source": "intelligence",
+      "text": "நுண்ணறிவு"
+    },
+    {
+      "key": "t267",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t268",
+      "source": "wellbeing",
+      "text": "நல்வாழ்வு"
+    },
+    {
+      "key": "t269",
+      "source": "through",
+      "text": "மூலம்"
+    },
+    {
+      "key": "t270",
+      "source": "art,",
+      "text": "கலை,"
+    },
+    {
+      "key": "t271",
+      "source": "music,",
+      "text": "இசை,"
+    },
+    {
+      "key": "t272",
+      "source": "play",
+      "text": "விளையாடு"
+    },
+    {
+      "key": "t273",
+      "source": "therapy,",
+      "text": "சிகிச்சை,"
+    },
+    {
+      "key": "t274",
+      "source": "sand",
+      "text": "மணல்"
+    },
+    {
+      "key": "t275",
+      "source": "play,",
+      "text": "விளையாடு,"
+    },
+    {
+      "key": "t276",
+      "source": "piano,",
+      "text": "பியானோ,"
+    },
+    {
+      "key": "t277",
+      "source": "guitar",
+      "text": "கிட்டார்"
+    },
+    {
+      "key": "t278",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t279",
+      "source": "proven",
+      "text": "நிரூபிக்கப்பட்டுள்ளது"
+    },
+    {
+      "key": "t280",
+      "source": "psychological",
+      "text": "உளவியல்"
+    },
+    {
+      "key": "t281",
+      "source": "techniques.",
+      "text": "நுட்பங்கள்."
+    },
+    {
+      "key": "t282",
+      "source": "Our aims and objectives",
+      "text": "எங்கள் நோக்கங்கள் மற்றும் நோக்கங்கள்"
+    },
+    {
+      "key": "t283",
+      "source": "We are not just a holiday school. We teach children values and support them with things they need to grow up uniquely great.",
+      "text": "நாங்கள் விடுமுறை பள்ளி மட்டுமல்ல. நாங்கள் குழந்தைகளுக்கு மதிப்புகளை கற்பிக்கிறோம் மற்றும் அவர்கள் தனித்துவமாக பெரியவர்களாக வளர தேவையான விஷயங்களை ஆதரிக்கிறோம்."
+    },
+    {
+      "key": "t284",
+      "source": "I AM Honesty",
+      "text": "நான் நேர்மையானவன்"
+    },
+    {
+      "key": "t285",
+      "source": "I AM Fairness",
+      "text": "நான் நேர்மையானவன்"
+    },
+    {
+      "key": "t286",
+      "source": "I AM Kindness",
+      "text": "நான் கருணை உள்ளவன்"
+    },
+    {
+      "key": "t287",
+      "source": "I AM Integrity",
+      "text": "நான் ஒருமைப்பாடு"
+    },
+    {
+      "key": "t288",
+      "source": "I AM Outspoken",
+      "text": "நான் வெளிப்படையாக பேசுகிறேன்"
+    },
+    {
+      "key": "t289",
+      "source": "Original programme reach",
+      "text": "அசல் நிரல் அடையும்"
+    },
+    {
+      "key": "t290",
+      "source": "Over 400 children were registered in 2021, over 1,000 in 2022, 200 more were supported at Easter 2023, with 1,440 available Summer 2023 slots.",
+      "text": "2021 இல் 400 க்கும் மேற்பட்ட குழந்தைகள் பதிவு செய்யப்பட்டனர், 2022 இல் 1,000 க்கும் அதிகமானோர், மேலும் 200 பேர் ஈஸ்டர் 2023 இல் ஆதரிக்கப்பட்டனர், 1,440 கோடை 2023 இடங்கள் உள்ளன."
+    },
+    {
+      "key": "t291",
+      "source": "Register via Holiday Activities Voucher",
+      "text": "விடுமுறை நடவடிக்கைகள் வவுச்சர் மூலம் பதிவு செய்யவும்"
+    },
+    {
+      "key": "t292",
+      "source": "Programme snapshot",
+      "text": "நிரல் ஸ்னாப்ஷாட்"
+    },
+    {
+      "key": "t293",
+      "source": "Creative therapeutic school support",
+      "text": "கிரியேட்டிவ் சிகிச்சை பள்ளி ஆதரவு"
+    },
+    {
+      "key": "t294",
+      "source": "Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",
+      "text": "குழந்தைகள் கலை, இசை, விளையாட்டு மற்றும் நடைமுறை நல்வாழ்வு நடவடிக்கைகள் மூலம் நம்பிக்கை, மதிப்புகள் மற்றும் பின்னடைவை உருவாக்குகிறார்கள்."
+    },
+    {
+      "key": "t295",
+      "source": "One-stop shop",
+      "text": "ஒரு நிறுத்தக் கடை"
+    },
+    {
+      "key": "t296",
+      "source": "Floating",
+      "text": "மிதக்கும்"
+    },
+    {
+      "key": "t297",
+      "source": "Community",
+      "text": "சமூகம்"
+    },
+    {
+      "key": "t298",
+      "source": "Hub.",
+      "text": "ஹப்."
+    },
+    {
+      "key": "t299",
+      "source": "A",
+      "text": "ஏ"
+    },
+    {
+      "key": "t300",
+      "source": "central",
+      "text": "மத்திய"
+    },
+    {
+      "key": "t301",
+      "source": "gathering",
+      "text": "கூட்டம்"
+    },
+    {
+      "key": "t302",
+      "source": "place",
+      "text": "இடம்"
+    },
+    {
+      "key": "t303",
+      "source": "for",
+      "text": "for"
+    },
+    {
+      "key": "t304",
+      "source": "Croydon",
+      "text": "Croydon"
+    },
+    {
+      "key": "t305",
+      "source": "residents,",
+      "text": "குடியிருப்பாளர்கள்,"
+    },
+    {
+      "key": "t306",
+      "source": "with",
+      "text": "உடன்"
+    },
+    {
+      "key": "t307",
+      "source": "wider",
+      "text": "அகலமானது"
+    },
+    {
+      "key": "t308",
+      "source": "projects",
+      "text": "திட்டங்கள்"
+    },
+    {
+      "key": "t309",
+      "source": "also",
+      "text": "மேலும்"
+    },
+    {
+      "key": "t310",
+      "source": "serving",
+      "text": "பரிமாறுகிறது"
+    },
+    {
+      "key": "t311",
+      "source": "Redbridge,",
+      "text": "Redbridge,"
+    },
+    {
+      "key": "t312",
+      "source": "Newham,",
+      "text": "Newham,"
+    },
+    {
+      "key": "t313",
+      "source": "Durham",
+      "text": "Durham"
+    },
+    {
+      "key": "t314",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t315",
+      "source": "Southwark.",
+      "text": "Southwark."
+    },
+    {
+      "key": "t316",
+      "source": "Come",
+      "text": "வாருங்கள்"
+    },
+    {
+      "key": "t317",
+      "source": "together,",
+      "text": "ஒன்றாக,"
+    },
+    {
+      "key": "t318",
+      "source": "have",
+      "text": "உள்ளது"
+    },
+    {
+      "key": "t319",
+      "source": "a",
+      "text": "ஏ"
+    },
+    {
+      "key": "t320",
+      "source": "cup",
+      "text": "கோப்பை"
+    },
+    {
+      "key": "t321",
+      "source": "of",
+      "text": "of"
+    },
+    {
+      "key": "t322",
+      "source": "tea",
+      "text": "தேநீர்"
+    },
+    {
+      "key": "t323",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t324",
+      "source": "a",
+      "text": "ஏ"
+    },
+    {
+      "key": "t325",
+      "source": "chat.",
+      "text": "அரட்டை."
+    },
+    {
+      "key": "t326",
+      "source": "The Croydon hub runs every Tuesday at Ashburton Park Cafe Hall. Floating also delivers community projects in Redbridge, Newham, Durham and Southwark, bringing practical advocacy, wellbeing support and local referrals closer to each community.",
+      "text": "Croydon ஹப் ஒவ்வொரு செவ்வாய்கிழமையும் Ashburton Park Cafe Hall இல் இயங்கும். Floating Redbridge, Newham, Durham மற்றும் Southwark ஆகியவற்றில் சமூகத் திட்டங்களையும் வழங்குகிறது, இது நடைமுறை ஆலோசனை, நல்வாழ்வு ஆதரவு மற்றும் உள்ளூர் பரிந்துரைகளை ஒவ்வொரு சமூகத்திற்கும் நெருக்கமாகக் கொண்டுவருகிறது."
+    },
+    {
+      "key": "t327",
+      "source": "Bills & Grants",
+      "text": "பில்கள் மற்றும் மானியங்கள்"
+    },
+    {
+      "key": "t328",
+      "source": "Utility bills, home grants and vouchers during the first week.",
+      "text": "முதல் வாரத்தில் பயன்பாட்டு பில்கள், வீட்டு மானியங்கள் மற்றும் வவுச்சர்கள்."
+    },
+    {
+      "key": "t329",
+      "source": "Housing Support",
+      "text": "வீட்டு வசதி"
+    },
+    {
+      "key": "t330",
+      "source": "Wellbeing and housing support in Croydon, Newham and partner hubs.",
+      "text": "Croydon, Newham மற்றும் கூட்டாளர் மையங்களில் நல்வாழ்வு மற்றும் வீட்டுவசதி ஆதரவு."
+    },
+    {
+      "key": "t331",
+      "source": "Digital Inclusion",
+      "text": "டிஜிட்டல் சேர்த்தல்"
+    },
+    {
+      "key": "t332",
+      "source": "Internet support, forms, scam awareness, WhatsApp, AI education and free SIM guidance.",
+      "text": "இணைய ஆதரவு, படிவங்கள், மோசடி விழிப்புணர்வு, WhatsApp, AI கல்வி மற்றும் இலவச சிம் வழிகாட்டுதல்."
+    },
+    {
+      "key": "t333",
+      "source": "Art Therapy",
+      "text": "கலை சிகிச்சை"
+    },
+    {
+      "key": "t334",
+      "source": "Third-week creative healing with Myfamily101 and Floating Counselling Community.",
+      "text": "Myfamily101 மற்றும் Floating Counselling Community உடன் மூன்றாம் வார கிரியேட்டிவ் ஹீலிங்."
+    },
+    {
+      "key": "t335",
+      "source": "Food Bank",
+      "text": "உணவு வங்கி"
+    },
+    {
+      "key": "t336",
+      "source": "Weekly food, clothing and essentials for individuals and families.",
+      "text": "தனிநபர்கள் மற்றும் குடும்பங்களுக்கு வாராந்திர உணவு, உடை மற்றும் அத்தியாவசியப் பொருட்கள்."
+    },
+    {
+      "key": "t337",
+      "source": "Employment Support",
+      "text": "வேலைவாய்ப்பு ஆதரவு"
+    },
+    {
+      "key": "t338",
+      "source": "Financial literacy, confidence and employment support for longer-term stability.",
+      "text": "நீண்ட கால ஸ்திரத்தன்மைக்கான நிதி கல்வியறிவு, நம்பிக்கை மற்றும் வேலைவாய்ப்பு ஆதரவு."
+    },
+    {
+      "key": "t339",
+      "source": "Croydon office",
+      "text": "Croydon அலுவலகம்"
+    },
+    {
+      "key": "t340",
+      "source": "26 Avenue Road, SE25 4DX",
+      "text": "26 அவென்யூ சாலை, SE25 4DX"
+    },
+    {
+      "key": "t341",
+      "source": "Map",
+      "text": "வரைபடம்"
+    },
+    {
+      "key": "t342",
+      "source": "Croydon hub",
+      "text": "Croydon ஹப்"
+    },
+    {
+      "key": "t343",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX. செவ்வாய், 12:30 முதல் 2:30 வரை."
+    },
+    {
+      "key": "t344",
+      "source": "Map",
+      "text": "வரைபடம்"
+    },
+    {
+      "key": "t345",
+      "source": "Redbridge office",
+      "text": "Redbridge அலுவலகம்"
+    },
+    {
+      "key": "t346",
+      "source": "160-162 Cranbrook Road, IG1 4PE.",
+      "text": "160-162 Cranbrook Road, IG1 4PE."
+    },
+    {
+      "key": "t347",
+      "source": "Map",
+      "text": "வரைபடம்"
+    },
+    {
+      "key": "t348",
+      "source": "Redbridge hub",
+      "text": "Redbridge ஹப்"
+    },
+    {
+      "key": "t349",
+      "source": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "Cranbrook House, சூட் 7D, 61 Cranbrook Road, Ilford, IG1 4PG. செவ்வாய் கிழமைகளில், விடுமுறை நாட்கள் தவிர, காலை 11:30 முதல் மதியம் 1:30 வரை."
+    },
+    {
+      "key": "t350",
+      "source": "Map",
+      "text": "வரைபடம்"
+    },
+    {
+      "key": "t351",
+      "source": "Durham hub",
+      "text": "Durham ஹப்"
+    },
+    {
+      "key": "t352",
+      "source": "30 Wesley Street, Durham, DL14 8UH.",
+      "text": "30 Wesley Street, Durham, DL14 8UH."
+    },
+    {
+      "key": "t353",
+      "source": "Map",
+      "text": "வரைபடம்"
+    },
+    {
+      "key": "t354",
+      "source": "Newham",
+      "text": "Newham"
+    },
+    {
+      "key": "t355",
+      "source": "Monthly wellbeing and housing support. Relaunching July 2026.",
+      "text": "மாதாந்திர நல்வாழ்வு மற்றும் வீட்டு வசதி. ஜூலை 2026 இல் மீண்டும் தொடங்கப்படும்."
+    },
+    {
+      "key": "t356",
+      "source": "Southwark hub",
+      "text": "Southwark ஹப்"
+    },
+    {
+      "key": "t357",
+      "source": "20 Heaton Road, Heaton Road Church, Peckham, SE15 3NL. Launching June 2026.",
+      "text": "20 Heaton Road, Heaton Road சர்ச், Peckham, SE15 3NL. ஜூன் 2026 இல் தொடங்கப்படும்."
+    },
+    {
+      "key": "t358",
+      "source": "Map",
+      "text": "வரைபடம்"
+    },
+    {
+      "key": "t359",
+      "source": "What people say",
+      "text": "மக்கள் என்ன சொல்கிறார்கள்"
+    },
+    {
+      "key": "t360",
+      "source": "In",
+      "text": "இல்"
+    },
+    {
+      "key": "t361",
+      "source": "their",
+      "text": "அவர்களின்"
+    },
+    {
+      "key": "t362",
+      "source": "own",
+      "text": "சொந்தமானது"
+    },
+    {
+      "key": "t363",
+      "source": "words.",
+      "text": "வார்த்தைகள்."
+    },
+    {
+      "key": "t364",
+      "source": "Hear",
+      "text": "கேள்"
+    },
+    {
+      "key": "t365",
+      "source": "from",
+      "text": "இருந்து"
+    },
+    {
+      "key": "t366",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t367",
+      "source": "families",
+      "text": "குடும்பங்கள்"
+    },
+    {
+      "key": "t368",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t369",
+      "source": "individuals",
+      "text": "தனிநபர்கள்"
+    },
+    {
+      "key": "t370",
+      "source": "whose",
+      "text": "யாருடையது"
+    },
+    {
+      "key": "t371",
+      "source": "lives",
+      "text": "வாழ்கிறார்"
+    },
+    {
+      "key": "t372",
+      "source": "have",
+      "text": "உள்ளது"
+    },
+    {
+      "key": "t373",
+      "source": "been",
+      "text": "ஆனது"
+    },
+    {
+      "key": "t374",
+      "source": "transformed.",
+      "text": "மாற்றப்பட்டது."
+    },
+    {
+      "key": "t375",
+      "source": "I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded and supported a wide variety of issues that parents face. I have teenage children and really needed this. It was full of knowledge to parent more consciously.",
+      "text": "Impact Parenting Pillar பயிற்சி மற்றும் செலஸ்டினாவிடமிருந்து நான் நிறைய கற்றுக்கொண்டேன். இது நம்பமுடியாத அளவிற்கு நன்கு வட்டமானது மற்றும் பெற்றோர்கள் எதிர்கொள்ளும் பல்வேறு வகையான சிக்கல்களை ஆதரித்தது. எனக்கு டீனேஜ் குழந்தைகள் உள்ளனர், இது உண்மையில் தேவை. பெற்றோருக்கு அதிக உணர்வுடன் அறிவு நிரம்பியிருந்தது."
+    },
+    {
+      "key": "t376",
+      "source": "ST",
+      "text": "எஸ்.டி"
+    },
+    {
+      "key": "t377",
+      "source": "Sarah Turino",
+      "text": "சாரா டுரினோ"
+    },
+    {
+      "key": "t378",
+      "source": "CEO, The Whole Woman Wellness Formula · USA",
+      "text": "CEO, தி ஹோல் வுமன் வெல்னஸ் ஃபார்முலா · அமெரிக்கா"
+    },
+    {
+      "key": "t379",
+      "source": "My son had terrible twos where he would throw himself on the floor and not follow boundaries. I have now been helped to know his personality better and been given realistic tools to help him be more resilient in a loving way.",
+      "text": "என் மகனுக்கு பயங்கரமான இரண்டுகள் இருந்தன, அங்கு அவன் தன்னை தரையில் வீசி எல்லைகளை பின்பற்றவில்லை. இப்போது அவருடைய ஆளுமையை நன்றாக அறிந்துகொள்ள எனக்கு உதவியது மற்றும் அன்பான வழியில் அவர் மேலும் நெகிழ்ச்சியுடன் இருக்க உதவும் யதார்த்தமான கருவிகள் எனக்கு வழங்கப்பட்டுள்ளன."
+    },
+    {
+      "key": "t380",
+      "source": "DD",
+      "text": "டிடி"
+    },
+    {
+      "key": "t381",
+      "source": "Danya Denny",
+      "text": "டான்யா டென்னி"
+    },
+    {
+      "key": "t382",
+      "source": "Social Worker · UK",
+      "text": "சமூக சேவகர் · UK"
+    },
+    {
+      "key": "t383",
+      "source": "As a mother of six, from newborn to eighteen, I learnt so much from Impact Parenting with Celestina. I adapted the strategies to my real life and all my children straight away — and I'm still using them months later. Every parent needs this.",
+      "text": "பிறந்த குழந்தை முதல் பதினெட்டு வரை ஆறு குழந்தைகளுக்குத் தாயாக, நான் செலஸ்டினாவுடன் Impact Parenting இலிருந்து நிறைய கற்றுக்கொண்டேன். எனது நிஜ வாழ்க்கைக்கும் எனது எல்லா குழந்தைகளுக்கும் உடனடியாக உத்திகளை மாற்றியமைத்தேன் - இன்னும் சில மாதங்களுக்குப் பிறகு நான் அவற்றைப் பயன்படுத்துகிறேன். ஒவ்வொரு பெற்றோருக்கும் இது தேவை."
+    },
+    {
+      "key": "t384",
+      "source": "NK",
+      "text": "என்.கே"
+    },
+    {
+      "key": "t385",
+      "source": "Niina Kabesa",
+      "text": "நிய்னா கபேசா"
+    },
+    {
+      "key": "t386",
+      "source": "Author & Founder, Mother of Nations · Congo",
+      "text": "ஆசிரியர் & நிறுவனர், தேசங்களின் தாய் · காங்கோ"
+    },
+    {
+      "key": "t387",
+      "source": "Our people",
+      "text": "எங்கள் மக்கள்"
+    },
+    {
+      "key": "t388",
+      "source": "Meet",
+      "text": "சந்திப்பு"
+    },
+    {
+      "key": "t389",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t390",
+      "source": "team.",
+      "text": "அணி."
+    },
+    {
+      "key": "t391",
+      "source": "Led",
+      "text": "தலைமையில்"
+    },
+    {
+      "key": "t392",
+      "source": "by",
+      "text": "மூலம்"
+    },
+    {
+      "key": "t393",
+      "source": "a",
+      "text": "ஏ"
+    },
+    {
+      "key": "t394",
+      "source": "diverse",
+      "text": "வேறுபட்டது"
+    },
+    {
+      "key": "t395",
+      "source": "team",
+      "text": "அணி"
+    },
+    {
+      "key": "t396",
+      "source": "of",
+      "text": "of"
+    },
+    {
+      "key": "t397",
+      "source": "African",
+      "text": "ஆப்பிரிக்கர்"
+    },
+    {
+      "key": "t398",
+      "source": "women",
+      "text": "பெண்கள்"
+    },
+    {
+      "key": "t399",
+      "source": "with",
+      "text": "உடன்"
+    },
+    {
+      "key": "t400",
+      "source": "lived",
+      "text": "வாழ்ந்தார்"
+    },
+    {
+      "key": "t401",
+      "source": "experience",
+      "text": "அனுபவம்"
+    },
+    {
+      "key": "t402",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t403",
+      "source": "professional",
+      "text": "தொழில்முறை"
+    },
+    {
+      "key": "t404",
+      "source": "expertise.",
+      "text": "நிபுணத்துவம்."
+    },
+    {
+      "key": "t405",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "t406",
+      "source": "CEO & Head of Charitable Operations",
+      "text": "CEO & அறக்கட்டளை நடவடிக்கைகளின் தலைவர்"
+    },
+    {
+      "key": "t407",
+      "source": "Email",
+      "text": "மின்னஞ்சல்"
+    },
+    {
+      "key": "t408",
+      "source": "Read more",
+      "text": "மேலும் படிக்கவும்"
+    },
+    {
+      "key": "t409",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela"
+    },
+    {
+      "key": "t410",
+      "source": "Director & Head of Finance",
+      "text": "இயக்குனர் & நிதித் தலைவர்"
+    },
+    {
+      "key": "t411",
+      "source": "Email",
+      "text": "மின்னஞ்சல்"
+    },
+    {
+      "key": "t412",
+      "source": "Read more",
+      "text": "மேலும் படிக்கவும்"
+    },
+    {
+      "key": "t413",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode"
+    },
+    {
+      "key": "t414",
+      "source": "Director & Relationship Coach",
+      "text": "இயக்குனர் மற்றும் உறவு பயிற்சியாளர்"
+    },
+    {
+      "key": "t415",
+      "source": "Email",
+      "text": "மின்னஞ்சல்"
+    },
+    {
+      "key": "t416",
+      "source": "Read more",
+      "text": "மேலும் படிக்கவும்"
+    },
+    {
+      "key": "t417",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah"
+    },
+    {
+      "key": "t418",
+      "source": "Director & Safeguarding Officer",
+      "text": "இயக்குனர் & பாதுகாப்பு அதிகாரி"
+    },
+    {
+      "key": "t419",
+      "source": "Email",
+      "text": "மின்னஞ்சல்"
+    },
+    {
+      "key": "t420",
+      "source": "Contact",
+      "text": "தொடர்பு"
+    },
+    {
+      "key": "t421",
+      "source": "Sponsors, partners and funders",
+      "text": "ஸ்பான்சர்கள், கூட்டாளர்கள் மற்றும் நிதியளிப்பவர்கள்"
+    },
+    {
+      "key": "t422",
+      "source": "Supported",
+      "text": "ஆதரிக்கப்பட்டது"
+    },
+    {
+      "key": "t423",
+      "source": "by",
+      "text": "மூலம்"
+    },
+    {
+      "key": "t424",
+      "source": "trusted",
+      "text": "நம்பப்படுகிறது"
+    },
+    {
+      "key": "t425",
+      "source": "partners.",
+      "text": "கூட்டாளர்கள்."
+    },
+    {
+      "key": "t426",
+      "source": "A",
+      "text": "ஏ"
+    },
+    {
+      "key": "t427",
+      "source": "compact",
+      "text": "கச்சிதமானது"
+    },
+    {
+      "key": "t428",
+      "source": "view",
+      "text": "பார்வை"
+    },
+    {
+      "key": "t429",
+      "source": "of",
+      "text": "of"
+    },
+    {
+      "key": "t430",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t431",
+      "source": "funders,",
+      "text": "நிதியளிப்பவர்கள்,"
+    },
+    {
+      "key": "t432",
+      "source": "sponsors",
+      "text": "ஸ்பான்சர்கள்"
+    },
+    {
+      "key": "t433",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t434",
+      "source": "registrations",
+      "text": "பதிவுகள்"
+    },
+    {
+      "key": "t435",
+      "source": "behind",
+      "text": "பின்னால்"
+    },
+    {
+      "key": "t436",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t437",
+      "source": "work.",
+      "text": "வேலை."
+    },
+    {
+      "key": "t438",
+      "source": "Common questions",
+      "text": "பொதுவான கேள்விகள்"
+    },
+    {
+      "key": "t439",
+      "source": "Everything",
+      "text": "எல்லாம்"
+    },
+    {
+      "key": "t440",
+      "source": "you",
+      "text": "நீங்கள்"
+    },
+    {
+      "key": "t441",
+      "source": "might",
+      "text": "கூடும்"
+    },
+    {
+      "key": "t442",
+      "source": "be",
+      "text": "இருக்கும்"
+    },
+    {
+      "key": "t443",
+      "source": "wondering.",
+      "text": "ஆச்சரியப்படுகிறார்."
+    },
+    {
+      "key": "t444",
+      "source": "If",
+      "text": "என்றால்"
+    },
+    {
+      "key": "t445",
+      "source": "your",
+      "text": "உங்கள்"
+    },
+    {
+      "key": "t446",
+      "source": "question",
+      "text": "கேள்வி"
+    },
+    {
+      "key": "t447",
+      "source": "isn't",
+      "text": "இல்லை"
+    },
+    {
+      "key": "t448",
+      "source": "here,",
+      "text": "இங்கே,"
+    },
+    {
+      "key": "t449",
+      "source": "send",
+      "text": "அனுப்பு"
+    },
+    {
+      "key": "t450",
+      "source": "us",
+      "text": "நாங்கள்"
+    },
+    {
+      "key": "t451",
+      "source": "a",
+      "text": "ஏ"
+    },
+    {
+      "key": "t452",
+      "source": "note.",
+      "text": "குறிப்பு."
+    },
+    {
+      "key": "t453",
+      "source": "We",
+      "text": "நாங்கள்"
+    },
+    {
+      "key": "t454",
+      "source": "read",
+      "text": "படித்தது"
+    },
+    {
+      "key": "t455",
+      "source": "every",
+      "text": "ஒவ்வொரு"
+    },
+    {
+      "key": "t456",
+      "source": "message.",
+      "text": "செய்தி."
+    },
+    {
+      "key": "t457",
+      "source": "Ask us anything",
+      "text": "எங்களிடம் எதையும் கேளுங்கள்"
+    },
+    {
+      "key": "t458",
+      "source": "How much does counselling cost?",
+      "text": "ஆலோசனைக்கு எவ்வளவு செலவாகும்?"
+    },
+    {
+      "key": "t459",
+      "source": "Sessions are free or low-cost for eligible individuals. We work on a sliding scale based on circumstances. Our priority is access, and we'll find a way that works for you.",
+      "text": "அமர்வுகள் இலவசம் அல்லது தகுதியான நபர்களுக்கு குறைந்த விலை. நாங்கள் சூழ்நிலைகளின் அடிப்படையில் ஒரு நெகிழ் அளவில் வேலை செய்கிறோம். அணுகல்தான் எங்களின் முன்னுரிமை, உங்களுக்காகச் செயல்படும் வழியை நாங்கள் கண்டுபிடிப்போம்."
+    },
+    {
+      "key": "t460",
+      "source": "What happens in the first session?",
+      "text": "முதல் அமர்வில் என்ன நடக்கிறது?"
+    },
+    {
+      "key": "t461",
+      "source": "Your first session is a relaxed conversation about what's brought you in, what you'd like to work on, and how we can support you. Nothing is rushed. You set the pace.",
+      "text": "உங்களின் முதல் அமர்வானது உங்களை என்ன கொண்டு வந்துள்ளது, நீங்கள் எதைச் செய்ய விரும்புகிறீர்கள், நாங்கள் உங்களுக்கு எப்படி ஆதரவளிப்போம் என்பது பற்றிய நிதானமான உரையாடலாகும். எதுவும் அவசரப்படவில்லை. நீங்கள் வேகத்தை அமைத்தீர்கள்."
+    },
+    {
+      "key": "t462",
+      "source": "Are sessions confidential?",
+      "text": "அமர்வுகள் ரகசியமானதா?"
+    },
+    {
+      "key": "t463",
+      "source": "Yes. Everything you share is held in strict confidence in line with BACP ethical guidelines. The only exceptions are safeguarding situations, which we'd always discuss with you first wherever possible.",
+      "text": "ஆம். நீங்கள் பகிரும் அனைத்தும் BACP நெறிமுறை வழிகாட்டுதல்களுக்கு இணங்க கடுமையான நம்பிக்கையுடன் வைக்கப்படுகின்றன. விதிவிலக்குகள் சூழ்நிலைகளைப் பாதுகாப்பது மட்டுமே, நாங்கள் எப்போதும் உங்களோடு முடிந்தவரை முதலில் விவாதிப்போம்."
+    },
+    {
+      "key": "t464",
+      "source": "Do you offer online sessions?",
+      "text": "நீங்கள் ஆன்லைன் அமர்வுகளை வழங்குகிறீர்களா?"
+    },
+    {
+      "key": "t465",
+      "source": "Yes. We offer online sessions and in-person support across the boroughs where we deliver services.",
+      "text": "ஆம். நாங்கள் சேவைகளை வழங்கும் பெருநகரங்கள் முழுவதும் ஆன்லைன் அமர்வுகள் மற்றும் தனிப்பட்ட ஆதரவை வழங்குகிறோம்."
+    },
+    {
+      "key": "t466",
+      "source": "Are your therapists qualified?",
+      "text": "உங்கள் சிகிச்சையாளர்கள் தகுதியானவர்களா?"
+    },
+    {
+      "key": "t467",
+      "source": "Our therapists are clinically trained psychotherapists working in line with BACP standards. The leadership team has 45+ years of combined clinical experience and over 50,000 clinical hours.",
+      "text": "எங்கள் சிகிச்சையாளர்கள் BACP தரநிலைகளுக்கு இணங்கச் செயல்படும் மருத்துவப் பயிற்சி பெற்ற உளவியலாளர்கள். தலைமைக் குழுவில் 45+ வருட ஒருங்கிணைந்த மருத்துவ அனுபவம் மற்றும் 50,000 க்கும் மேற்பட்ட மருத்துவ நேரங்கள் உள்ளன."
+    },
+    {
+      "key": "t468",
+      "source": "Can I refer a family member or friend?",
+      "text": "குடும்ப உறுப்பினர் அல்லது நண்பரை நான் பரிந்துரைக்கலாமா?"
+    },
+    {
+      "key": "t469",
+      "source": "Absolutely. We'll always need consent from the person themselves before opening a case. The best first step is to encourage them to email or WhatsApp us directly.",
+      "text": "முற்றிலும். ஒரு வழக்கைத் திறப்பதற்கு முன், அந்த நபரிடமிருந்து எங்களுக்கு எப்போதும் ஒப்புதல் தேவை. அவர்களை நேரடியாக எங்களுக்கு மின்னஞ்சல் அல்லது WhatsApp அனுப்ப ஊக்குவிப்பதே சிறந்த முதல் படியாகும்."
+    },
+    {
+      "key": "t470",
+      "source": "How can I support your work?",
+      "text": "உங்கள் வேலையை நான் எப்படி ஆதரிக்க முடியும்?"
+    },
+    {
+      "key": "t471",
+      "source": "You can donate via Localgiving or PayPal, volunteer your time, follow us on social media, or fundraise on our behalf. Visit the fundraiser section or get in touch and we'll match you to something that suits.",
+      "text": "நீங்கள் Localgiving அல்லது PayPal வழியாக நன்கொடை அளிக்கலாம், உங்கள் நேரத்தை தன்னார்வத் தொண்டு செய்யலாம், சமூக ஊடகங்களில் எங்களைப் பின்தொடரலாம் அல்லது எங்கள் சார்பாக நிதி திரட்டலாம். நிதி திரட்டும் பிரிவிற்குச் செல்லவும் அல்லது தொடர்பு கொள்ளவும், உங்களுக்குப் பொருத்தமான ஒன்றை நாங்கள் பொருத்துவோம்."
+    },
+    {
+      "key": "t472",
+      "source": "Fundraiser",
+      "text": "நிதி திரட்டுபவர்"
+    },
+    {
+      "key": "t473",
+      "source": "Ways",
+      "text": "வழிகள்"
+    },
+    {
+      "key": "t474",
+      "source": "to",
+      "text": "வரை"
+    },
+    {
+      "key": "t475",
+      "source": "fundraise",
+      "text": "நிதி திரட்டுதல்"
+    },
+    {
+      "key": "t476",
+      "source": "for",
+      "text": "for"
+    },
+    {
+      "key": "t477",
+      "source": "Floating",
+      "text": "மிதக்கும்"
+    },
+    {
+      "key": "t478",
+      "source": "Counselling.",
+      "text": "ஆலோசனை."
+    },
+    {
+      "key": "t479",
+      "source": "Fundraising",
+      "text": "நிதி திரட்டுதல்"
+    },
+    {
+      "key": "t480",
+      "source": "helps",
+      "text": "உதவுகிறது"
+    },
+    {
+      "key": "t481",
+      "source": "keep",
+      "text": "வைத்திருங்கள்"
+    },
+    {
+      "key": "t482",
+      "source": "counselling,",
+      "text": "ஆலோசனை,"
+    },
+    {
+      "key": "t483",
+      "source": "food",
+      "text": "உணவு"
+    },
+    {
+      "key": "t484",
+      "source": "support,",
+      "text": "ஆதரவு,"
+    },
+    {
+      "key": "t485",
+      "source": "holiday",
+      "text": "விடுமுறை"
+    },
+    {
+      "key": "t486",
+      "source": "school",
+      "text": "பள்ளி"
+    },
+    {
+      "key": "t487",
+      "source": "places",
+      "text": "இடங்கள்"
+    },
+    {
+      "key": "t488",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t489",
+      "source": "community",
+      "text": "சமூகம்"
+    },
+    {
+      "key": "t490",
+      "source": "hub",
+      "text": "மையம்"
+    },
+    {
+      "key": "t491",
+      "source": "sessions",
+      "text": "அமர்வுகள்"
+    },
+    {
+      "key": "t492",
+      "source": "accessible",
+      "text": "அணுகக்கூடியது"
+    },
+    {
+      "key": "t493",
+      "source": "for",
+      "text": "for"
+    },
+    {
+      "key": "t494",
+      "source": "people",
+      "text": "மக்கள்"
+    },
+    {
+      "key": "t495",
+      "source": "who",
+      "text": "யார்"
+    },
+    {
+      "key": "t496",
+      "source": "need",
+      "text": "தேவை"
+    },
+    {
+      "key": "t497",
+      "source": "practical",
+      "text": "நடைமுறை"
+    },
+    {
+      "key": "t498",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t499",
+      "source": "therapeutic",
+      "text": "சிகிச்சை"
+    },
+    {
+      "key": "t500",
+      "source": "care.",
+      "text": "கவனிப்பு."
+    },
+    {
+      "key": "t501",
+      "source": "Donate via PayPal",
+      "text": "PayPal வழியாக நன்கொடை அளிக்கவும்"
+    },
+    {
+      "key": "t502",
+      "source": "Donate via Localgiving",
+      "text": "Localgiving வழியாக நன்கொடை அளிக்கவும்"
+    },
+    {
+      "key": "t503",
+      "source": "Start a fundraiser",
+      "text": "நிதி திரட்டலைத் தொடங்கவும்"
+    },
+    {
+      "key": "t504",
+      "source": "Run a personal fundraiser",
+      "text": "தனிப்பட்ட நிதி திரட்டலை இயக்கவும்"
+    },
+    {
+      "key": "t505",
+      "source": "Use birthdays, challenges or community events to raise funds for counselling and wraparound support.",
+      "text": "பிறந்தநாள், சவால்கள் அல்லது சமூக நிகழ்வுகளைப் பயன்படுத்தி ஆலோசனை மற்றும் ரேபரவுண்ட் ஆதரவிற்காக நிதி திரட்டவும்."
+    },
+    {
+      "key": "t506",
+      "source": "Workplace or school collection",
+      "text": "பணியிடம் அல்லது பள்ளி சேகரிப்பு"
+    },
+    {
+      "key": "t507",
+      "source": "Collect food, essentials, vouchers or donations with your team, school, faith group or local business.",
+      "text": "உங்கள் குழு, பள்ளி, நம்பிக்கை குழு அல்லது உள்ளூர் வணிகத்துடன் உணவு, அத்தியாவசிய பொருட்கள், வவுச்சர்கள் அல்லது நன்கொடைகளை சேகரிக்கவும்."
+    },
+    {
+      "key": "t508",
+      "source": "Sponsor a project",
+      "text": "ஒரு திட்டத்திற்கு நிதியுதவி செய்"
+    },
+    {
+      "key": "t509",
+      "source": "Support a hub session, holiday school activity, counselling session or local wellbeing event.",
+      "text": "ஹப் அமர்வு, விடுமுறை பள்ளி செயல்பாடு, ஆலோசனை அமர்வு அல்லது உள்ளூர் நல்வாழ்வு நிகழ்வு ஆகியவற்றை ஆதரிக்கவும்."
+    },
+    {
+      "key": "t510",
+      "source": "Share skills and time",
+      "text": "திறன்களையும் நேரத்தையும் பகிர்ந்து கொள்ளுங்கள்"
+    },
+    {
+      "key": "t511",
+      "source": "Offer professional skills, event support, transport, mentoring or practical help for local residents.",
+      "text": "உள்ளூர் குடியிருப்பாளர்களுக்கு தொழில்முறை திறன்கள், நிகழ்வு ஆதரவு, போக்குவரத்து, வழிகாட்டுதல் அல்லது நடைமுறை உதவியை வழங்குதல்."
+    },
+    {
+      "key": "t512",
+      "source": "Volunteer",
+      "text": "தன்னார்வலர்"
+    },
+    {
+      "key": "t513",
+      "source": "Volunteer",
+      "text": "தன்னார்வலர்"
+    },
+    {
+      "key": "t514",
+      "source": "with",
+      "text": "உடன்"
+    },
+    {
+      "key": "t515",
+      "source": "Floating",
+      "text": "மிதக்கும்"
+    },
+    {
+      "key": "t516",
+      "source": "Counselling.",
+      "text": "ஆலோசனை."
+    },
+    {
+      "key": "t517",
+      "source": "Share",
+      "text": "பகிர்"
+    },
+    {
+      "key": "t518",
+      "source": "your",
+      "text": "உங்கள்"
+    },
+    {
+      "key": "t519",
+      "source": "time,",
+      "text": "நேரம்,"
+    },
+    {
+      "key": "t520",
+      "source": "skills",
+      "text": "திறன்கள்"
+    },
+    {
+      "key": "t521",
+      "source": "or",
+      "text": "அல்லது"
+    },
+    {
+      "key": "t522",
+      "source": "professional",
+      "text": "தொழில்முறை"
+    },
+    {
+      "key": "t523",
+      "source": "experience",
+      "text": "அனுபவம்"
+    },
+    {
+      "key": "t524",
+      "source": "to",
+      "text": "வரை"
+    },
+    {
+      "key": "t525",
+      "source": "support",
+      "text": "ஆதரவு"
+    },
+    {
+      "key": "t526",
+      "source": "counselling,",
+      "text": "ஆலோசனை,"
+    },
+    {
+      "key": "t527",
+      "source": "community",
+      "text": "சமூகம்"
+    },
+    {
+      "key": "t528",
+      "source": "hub",
+      "text": "மையம்"
+    },
+    {
+      "key": "t529",
+      "source": "sessions,",
+      "text": "அமர்வுகள்,"
+    },
+    {
+      "key": "t530",
+      "source": "holiday",
+      "text": "விடுமுறை"
+    },
+    {
+      "key": "t531",
+      "source": "school",
+      "text": "பள்ளி"
+    },
+    {
+      "key": "t532",
+      "source": "activities,",
+      "text": "நடவடிக்கைகள்,"
+    },
+    {
+      "key": "t533",
+      "source": "fundraising",
+      "text": "நிதி திரட்டுதல்"
+    },
+    {
+      "key": "t534",
+      "source": "and",
+      "text": "மற்றும்"
+    },
+    {
+      "key": "t535",
+      "source": "practical",
+      "text": "நடைமுறை"
+    },
+    {
+      "key": "t536",
+      "source": "outreach.",
+      "text": "அவுட்ரீச்."
+    },
+    {
+      "key": "t537",
+      "source": "Community support",
+      "text": "சமூக ஆதரவு"
+    },
+    {
+      "key": "t538",
+      "source": "Help residents with food, clothing, forms, signposting, events and welcoming hub sessions.",
+      "text": "உணவு, உடை, படிவங்கள், அடையாளங்கள், நிகழ்வுகள் மற்றும் வரவேற்பு மைய அமர்வுகள் ஆகியவற்றில் குடியிருப்பாளர்களுக்கு உதவுங்கள்."
+    },
+    {
+      "key": "t539",
+      "source": "Skills and projects",
+      "text": "திறன்கள் மற்றும் திட்டங்கள்"
+    },
+    {
+      "key": "t540",
+      "source": "Offer mentoring, admin, creative workshops, fundraising, transport, digital support or professional expertise.",
+      "text": "வழிகாட்டுதல், நிர்வாகம், ஆக்கப்பூர்வமான பட்டறைகள், நிதி திரட்டுதல், போக்குவரத்து, டிஜிட்டல் ஆதரவு அல்லது தொழில்முறை நிபுணத்துவம்."
+    },
+    {
+      "key": "t541",
+      "source": "Volunteer applications",
+      "text": "தன்னார்வ விண்ணப்பங்கள்"
+    },
+    {
+      "key": "t542",
+      "source": "Monday form",
+      "text": "திங்கள் வடிவம்"
+    },
+    {
+      "key": "t543",
+      "source": "Apply to volunteer",
+      "text": "தன்னார்வலருக்கு விண்ணப்பிக்கவும்"
+    },
+    {
+      "key": "t544",
+      "source": "Complete the volunteer application so the team can match your time, skills and availability to the right project.",
+      "text": "தன்னார்வ விண்ணப்பத்தை முடிக்கவும், இதன் மூலம் குழு உங்கள் நேரம், திறன்கள் மற்றும் கிடைக்கும் தன்மையை சரியான திட்டத்துடன் பொருத்த முடியும்."
+    },
+    {
+      "key": "t545",
+      "source": "Open volunteer form",
+      "text": "தன்னார்வப் படிவத்தைத் திறக்கவும்"
+    },
+    {
+      "key": "t546",
+      "source": "Get in touch",
+      "text": "தொடர்பு கொள்ளவும்"
+    },
+    {
+      "key": "t547",
+      "source": "We'd",
+      "text": "நாங்கள் விரும்புகிறோம்"
+    },
+    {
+      "key": "t548",
+      "source": "love",
+      "text": "காதல்"
+    },
+    {
+      "key": "t549",
+      "source": "to",
+      "text": "வரை"
+    },
+    {
+      "key": "t550",
+      "source": "hear",
+      "text": "கேட்கிறது"
+    },
+    {
+      "key": "t551",
+      "source": "from",
+      "text": "இருந்து"
+    },
+    {
+      "key": "t552",
+      "source": "you.",
+      "text": "நீங்கள்."
+    },
+    {
+      "key": "t553",
+      "source": "Email,",
+      "text": "மின்னஞ்சல்,"
+    },
+    {
+      "key": "t554",
+      "source": "WhatsApp,",
+      "text": "WhatsApp,"
+    },
+    {
+      "key": "t555",
+      "source": "call",
+      "text": "அழைப்பு"
+    },
+    {
+      "key": "t556",
+      "source": "or",
+      "text": "அல்லது"
+    },
+    {
+      "key": "t557",
+      "source": "fill",
+      "text": "நிரப்பவும்"
+    },
+    {
+      "key": "t558",
+      "source": "in",
+      "text": "இல்"
+    },
+    {
+      "key": "t559",
+      "source": "the",
+      "text": "தி"
+    },
+    {
+      "key": "t560",
+      "source": "form.",
+      "text": "வடிவம்."
+    },
+    {
+      "key": "t561",
+      "source": "We",
+      "text": "நாங்கள்"
+    },
+    {
+      "key": "t562",
+      "source": "aim",
+      "text": "நோக்கம்"
+    },
+    {
+      "key": "t563",
+      "source": "to",
+      "text": "வரை"
+    },
+    {
+      "key": "t564",
+      "source": "reply",
+      "text": "பதில்"
+    },
+    {
+      "key": "t565",
+      "source": "within",
+      "text": "உள்ளே"
+    },
+    {
+      "key": "t566",
+      "source": "two",
+      "text": "இரண்டு"
+    },
+    {
+      "key": "t567",
+      "source": "working",
+      "text": "வேலை செய்கிறது"
+    },
+    {
+      "key": "t568",
+      "source": "days.",
+      "text": "நாட்கள்."
+    },
+    {
+      "key": "t569",
+      "source": "Email",
+      "text": "மின்னஞ்சல்"
+    },
+    {
+      "key": "t570",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t571",
+      "source": "WhatsApp / Call",
+      "text": "WhatsApp / அழைப்பு"
+    },
+    {
+      "key": "t572",
+      "source": "Visit the Croydon Hub",
+      "text": "Croydon மையத்தைப் பார்வையிடவும்"
+    },
+    {
+      "key": "t573",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX"
+    },
+    {
+      "key": "t574",
+      "source": "Tuesdays, 12:30 to 2:30pm.",
+      "text": "செவ்வாய் கிழமைகளில், 12:30 முதல் 2:30 வரை."
+    },
+    {
+      "key": "t575",
+      "source": "Project locations",
+      "text": "திட்ட இடங்கள்"
+    },
+    {
+      "key": "t576",
+      "source": "Separate contact points for Croydon, Redbridge, Durham, Newham and Southwark are listed below.",
+      "text": "Croydon, Redbridge, Durham, Newham மற்றும் Southwark ஆகியவற்றுக்கான தனித் தொடர்புப் புள்ளிகள் கீழே பட்டியலிடப்பட்டுள்ளன."
+    },
+    {
+      "key": "t577",
+      "source": "Croydon office",
+      "text": "Croydon அலுவலகம்"
+    },
+    {
+      "key": "t578",
+      "source": "26 Avenue Road",
+      "text": "26 அவென்யூ சாலை"
+    },
+    {
+      "key": "t579",
+      "source": "London SE25 4DX",
+      "text": "London SE25 4DX"
+    },
+    {
+      "key": "t580",
+      "source": "Open map",
+      "text": "வரைபடத்தைத் திறக்கவும்"
+    },
+    {
+      "key": "t581",
+      "source": "Croydon hub",
+      "text": "Croydon ஹப்"
+    },
+    {
+      "key": "t582",
+      "source": "Ashburton Park Cafe Hall",
+      "text": "Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t583",
+      "source": "CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "CR0 6RX. செவ்வாய், 12:30 முதல் 2:30 வரை."
+    },
+    {
+      "key": "t584",
+      "source": "Open map",
+      "text": "வரைபடத்தைத் திறக்கவும்"
+    },
+    {
+      "key": "t585",
+      "source": "Redbridge office",
+      "text": "Redbridge அலுவலகம்"
+    },
+    {
+      "key": "t586",
+      "source": "160-162 Cranbrook Road",
+      "text": "160-162 Cranbrook Road"
+    },
+    {
+      "key": "t587",
+      "source": "Ilford IG1 4PE",
+      "text": "Ilford IG1 4PE"
+    },
+    {
+      "key": "t588",
+      "source": "Open map",
+      "text": "வரைபடத்தைத் திறக்கவும்"
+    },
+    {
+      "key": "t589",
+      "source": "Redbridge hub",
+      "text": "Redbridge ஹப்"
+    },
+    {
+      "key": "t590",
+      "source": "Cranbrook House, Suite 7D",
+      "text": "Cranbrook House, சூட் 7D"
+    },
+    {
+      "key": "t591",
+      "source": "61 Cranbrook Road, Ilford IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "61 Cranbrook Road, Ilford IG1 4PG. செவ்வாய் கிழமைகளில், விடுமுறை நாட்கள் தவிர, காலை 11:30 முதல் மதியம் 1:30 வரை."
+    },
+    {
+      "key": "t592",
+      "source": "Open map",
+      "text": "வரைபடத்தைத் திறக்கவும்"
+    },
+    {
+      "key": "t593",
+      "source": "Durham hub",
+      "text": "Durham ஹப்"
+    },
+    {
+      "key": "t594",
+      "source": "30 Wesley Street",
+      "text": "30 Wesley Street"
+    },
+    {
+      "key": "t595",
+      "source": "Durham DL14 8UH",
+      "text": "Durham DL14 8UH"
+    },
+    {
+      "key": "t596",
+      "source": "Open map",
+      "text": "வரைபடத்தைத் திறக்கவும்"
+    },
+    {
+      "key": "t597",
+      "source": "Southwark hub",
+      "text": "Southwark ஹப்"
+    },
+    {
+      "key": "t598",
+      "source": "20 Heaton Road",
+      "text": "20 Heaton Road"
+    },
+    {
+      "key": "t599",
+      "source": "Heaton Road Church, Peckham SE15 3NL. Launching June 2026.",
+      "text": "Heaton Road சர்ச், Peckham SE15 3NL. ஜூன் 2026 இல் தொடங்கப்படும்."
+    },
+    {
+      "key": "t600",
+      "source": "Open map",
+      "text": "வரைபடத்தைத் திறக்கவும்"
+    },
+    {
+      "key": "t601",
+      "source": "Newham",
+      "text": "Newham"
+    },
+    {
+      "key": "t602",
+      "source": "Monthly wellbeing support",
+      "text": "மாதாந்திர நல்வாழ்வு ஆதரவு"
+    },
+    {
+      "key": "t603",
+      "source": "Housing and wellbeing support relaunching July 2026.",
+      "text": "வீட்டுவசதி மற்றும் நல்வாழ்வு ஆதரவு ஜூலை 2026 இல் மறுதொடக்கம்."
+    },
+    {
+      "key": "t604",
+      "source": "Your name",
+      "text": "உங்கள் பெயர்"
+    },
+    {
+      "key": "t605",
+      "source": "Email",
+      "text": "மின்னஞ்சல்"
+    },
+    {
+      "key": "t606",
+      "source": "What can we help with?",
+      "text": "நாம் என்ன உதவி செய்யலாம்?"
+    },
+    {
+      "key": "t607",
+      "source": "Message",
+      "text": "செய்தி"
+    },
+    {
+      "key": "t608",
+      "source": "I agree to be contacted in line with the",
+      "text": "உடன் தொடர்பு கொள்ள ஒப்புக்கொள்கிறேன்"
+    },
+    {
+      "key": "t609",
+      "source": "privacy policy",
+      "text": "தனியுரிமைக் கொள்கை"
+    },
+    {
+      "key": "t610",
+      "source": "Send message",
+      "text": "செய்தியை அனுப்பு"
+    },
+    {
+      "key": "t611",
+      "source": "We're here",
+      "text": "நாங்கள் இங்கே இருக்கிறோம்"
+    },
+    {
+      "key": "t612",
+      "source": "Whatever",
+      "text": "எதுவாக இருந்தாலும்"
+    },
+    {
+      "key": "t613",
+      "source": "you're",
+      "text": "நீங்கள்"
+    },
+    {
+      "key": "t614",
+      "source": "carrying,",
+      "text": "சுமந்து,"
+    },
+    {
+      "key": "t615",
+      "source": "you",
+      "text": "நீங்கள்"
+    },
+    {
+      "key": "t616",
+      "source": "don't",
+      "text": "வேண்டாம்"
+    },
+    {
+      "key": "t617",
+      "source": "carry",
+      "text": "எடுத்துச் செல்லவும்"
+    },
+    {
+      "key": "t618",
+      "source": "it",
+      "text": "அது"
+    },
+    {
+      "key": "t619",
+      "source": "alone.",
+      "text": "தனியாக."
+    },
+    {
+      "key": "t620",
+      "source": "Whether",
+      "text": "இல்லையா"
+    },
+    {
+      "key": "t621",
+      "source": "you",
+      "text": "நீங்கள்"
+    },
+    {
+      "key": "t622",
+      "source": "need",
+      "text": "தேவை"
+    },
+    {
+      "key": "t623",
+      "source": "counselling,",
+      "text": "ஆலோசனை,"
+    },
+    {
+      "key": "t624",
+      "source": "community",
+      "text": "சமூகம்"
+    },
+    {
+      "key": "t625",
+      "source": "support,",
+      "text": "ஆதரவு,"
+    },
+    {
+      "key": "t626",
+      "source": "food,",
+      "text": "உணவு,"
+    },
+    {
+      "key": "t627",
+      "source": "or",
+      "text": "அல்லது"
+    },
+    {
+      "key": "t628",
+      "source": "just",
+      "text": "வெறும்"
+    },
+    {
+      "key": "t629",
+      "source": "someone",
+      "text": "ஒருவர்"
+    },
+    {
+      "key": "t630",
+      "source": "to",
+      "text": "வரை"
+    },
+    {
+      "key": "t631",
+      "source": "talk",
+      "text": "பேச்சு"
+    },
+    {
+      "key": "t632",
+      "source": "to.",
+      "text": "வரை."
+    },
+    {
+      "key": "t633",
+      "source": "Reach",
+      "text": "அடையவும்"
+    },
+    {
+      "key": "t634",
+      "source": "out",
+      "text": "அவுட்"
+    },
+    {
+      "key": "t635",
+      "source": "today.",
+      "text": "இன்று."
+    },
+    {
+      "key": "t636",
+      "source": "Your",
+      "text": "உங்கள்"
+    },
+    {
+      "key": "t637",
+      "source": "first",
+      "text": "முதலில்"
+    },
+    {
+      "key": "t638",
+      "source": "step",
+      "text": "படி"
+    },
+    {
+      "key": "t639",
+      "source": "matters.",
+      "text": "முக்கியமானது."
+    },
+    {
+      "key": "t640",
+      "source": "Email us",
+      "text": "எங்களுக்கு மின்னஞ்சல் அனுப்பவும்"
+    },
+    {
+      "key": "t641",
+      "source": "WhatsApp us",
+      "text": "WhatsApp எங்களுக்கு"
+    },
+    {
+      "key": "t642",
+      "source": "Donate via PayPal",
+      "text": "PayPal வழியாக நன்கொடை அளிக்கவும்"
+    },
+    {
+      "key": "t643",
+      "source": "Localgiving",
+      "text": "Localgiving"
+    },
+    {
+      "key": "t644",
+      "source": "Fundraiser",
+      "text": "நிதி திரட்டுபவர்"
+    },
+    {
+      "key": "t645",
+      "source": "Volunteer",
+      "text": "தன்னார்வலர்"
+    },
+    {
+      "key": "t646",
+      "source": "Policies & your privacy",
+      "text": "கொள்கைகள் மற்றும் உங்கள் தனியுரிமை"
+    },
+    {
+      "key": "t647",
+      "source": "How we protect you and your data.",
+      "text": "உங்களையும் உங்கள் தரவையும் நாங்கள் எவ்வாறு பாதுகாப்போம்."
+    },
+    {
+      "key": "t648",
+      "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
+      "text": "உங்கள் தகவலை நாங்கள் எவ்வாறு கையாளுகிறோம், மக்களைப் பாதுகாப்பாக வைத்திருக்கிறோம் மற்றும் குக்கீகளைப் பயன்படுத்துகிறோம் என்பதற்கான எளிய-ஆங்கில சுருக்கம். முழு கொள்கைகள் அல்லது ஏதேனும் கோரிக்கைக்கு, மின்னஞ்சல்"
+    },
+    {
+      "key": "t649",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t650",
+      "source": "Privacy policy",
+      "text": "தனியுரிமைக் கொள்கை"
+    },
+    {
+      "key": "t651",
+      "source": "Who we are.",
+      "text": "நாம் யார்."
+    },
+    {
+      "key": "t652",
+      "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
+      "text": "Floating Counselling Community என்பது UK அடிமட்ட அமைப்பாகும். இது 2015 ஆம் ஆண்டு முதல் ஆலோசனை மற்றும் சமூக ஆதரவை வழங்குகிறது. நாங்கள் FLOATING COUNSELLING COMMUNITY ஆக செயல்படுகிறோம், இது இங்கிலாந்து மற்றும் வேல்ஸில் பதிவுசெய்யப்பட்ட உத்தரவாதத்தால் வரையறுக்கப்பட்ட நிறுவனமாகும். தனியுரிமை கோரிக்கைகளுக்கு, மின்னஞ்சல்"
+    },
+    {
+      "key": "t653",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t654",
+      "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
+      "text": "அல்லது 26 அவென்யூ சாலையில் உள்ள எங்கள் Croydon அலுவலகத்திற்கு எழுதவும், London SE25 4DX."
+    },
+    {
+      "key": "t655",
+      "source": "What we collect.",
+      "text": "நாங்கள் சேகரிப்பது."
+    },
+    {
+      "key": "t656",
+      "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
+      "text": "மின்னஞ்சல் அல்லது WhatsApp மூலம் விசாரணைப் படிவத்தின் மூலம் எங்களைத் தொடர்பு கொள்ளும்போது, ​​நீங்கள் எங்களுக்குத் தெரிவிப்பதற்கான விவரங்களைப் பெறுவோம் - பொதுவாக உங்கள் பெயர், மின்னஞ்சல் முகவரி, நீங்கள் தேர்ந்தெடுக்கும் தலைப்பு மற்றும் உங்கள் செய்தி. நீங்கள் எங்கள் செய்திமடலில் பதிவு செய்தால், உங்கள் மின்னஞ்சல் முகவரியை நாங்கள் சேகரிப்போம். இந்த இணையதளத்தின் மூலம் சிறப்பு வகை சுகாதாரத் தகவல்களை நாங்கள் கேட்கவில்லை; உங்களுக்கு வசதியாக இருப்பதை மட்டும் பகிர்ந்து கொள்ளுங்கள்."
+    },
+    {
+      "key": "t657",
+      "source": "How we use it, and our lawful basis.",
+      "text": "நாங்கள் அதை எப்படிப் பயன்படுத்துகிறோம், எங்கள் சட்டபூர்வமான அடிப்படை."
+    },
+    {
+      "key": "t658",
+      "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
+      "text": "உங்களுக்குப் பதிலளிக்கவும், நீங்கள் கேட்கும் ஆதரவை வழங்கவும், எங்கள் சேவைகளை இயக்கவும் உங்கள் விவரங்களைப் பயன்படுத்துகிறோம் (UK GDPR \"ஒப்புதல்\" மற்றும் \"சட்டபூர்வமான ஆர்வங்கள்\"). ஒருவரைப் பாதுகாக்கும் கடமை நமக்கு இருக்கும்பட்சத்தில், சட்டப்பூர்வ கடமையைச் சந்திக்கும் வகையில் தகவலைச் செயல்படுத்தலாம் (பாதுகாப்பு என்பதைப் பார்க்கவும்)."
+    },
+    {
+      "key": "t659",
+      "source": "Who we share it with.",
+      "text": "யாருடன் பகிர்ந்து கொள்கிறோம்."
+    },
+    {
+      "key": "t660",
+      "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
+      "text": "உங்கள் தரவை நாங்கள் விற்கவில்லை. இணையதளம், மின்னஞ்சல், படிவங்கள், தன்னார்வ விண்ணப்பங்கள், நன்கொடைகள் மற்றும் வரைபடங்களை இயக்க எங்களுக்கு உதவும் குறைந்த எண்ணிக்கையிலான நம்பகமான சேவை வழங்குநர்களை நாங்கள் நம்பியுள்ளோம். ஒவ்வொரு வழங்குநரும் அந்தச் சேவைக்குத் தேவையான தகவலை மட்டுமே பெறுவார்கள், மேலும் ஒவ்வொருவருக்கும் அதன் சொந்த தனியுரிமை அறிவிப்பு உள்ளது."
+    },
+    {
+      "key": "t661",
+      "source": "Translation.",
+      "text": "மொழிபெயர்ப்பு."
+    },
+    {
+      "key": "t662",
+      "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
+      "text": "இந்தப் பக்கத்தை நீங்கள் மொழிபெயர்த்தால், திரையில் உள்ள பக்க உரையானது ஒரு மொழிபெயர்ப்புச் சேவைக்கு பாதுகாப்பாக அனுப்பப்படலாம், எனவே மொழிபெயர்க்கப்பட்ட பதிப்பைத் திரும்பப் பெறலாம். மொழிபெயர்ப்பு விருப்பமானது, தொடர்பு படிவ செய்திகள் இந்த அம்சத்தால் மொழிபெயர்க்கப்படாது, மேலும் மொழிபெயர்க்கப்பட்ட உரை உங்கள் உலாவியில் தற்காலிகமாக சேமிக்கப்படும், எனவே அடுத்த முறை வேகமாக ஏற்றப்படும்."
+    },
+    {
+      "key": "t663",
+      "source": "How long we keep it.",
+      "text": "எவ்வளவு நேரம் வைத்திருக்கிறோம்."
+    },
+    {
+      "key": "t664",
+      "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
+      "text": "பதிலளிப்பதற்கும், ஆதரவை வழங்குவதற்கும், பாதுகாப்புக் கடமைகளை நிறைவேற்றுவதற்கும், சட்டப்பூர்வ அல்லது கணக்கியல் கடமைகளுக்கு இணங்குவதற்கும் தேவைப்படும் வரை மட்டுமே விசாரணை மற்றும் ஆதரவு-கோரிக்கை விவரங்களை நாங்கள் வைத்திருக்கிறோம். நன்கொடை மற்றும் தன்னார்வப் பதிவுகள் தொடர்புடைய வழங்குநர் மற்றும் சட்டப்பூர்வ தக்கவைப்புத் தேவைகளுக்கு ஏற்ப வைக்கப்படுகின்றன."
+    },
+    {
+      "key": "t665",
+      "source": "Your rights.",
+      "text": "உங்கள் உரிமைகள்."
+    },
+    {
+      "key": "t666",
+      "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
+      "text": "UK GDPR இன் கீழ் உங்கள் தரவை அணுக, திருத்த, நீக்க அல்லது கட்டுப்படுத்த, செயலாக்கத்திற்கு ஆட்சேபனை செய்ய, பெயர்வுத்திறனைக் கோர அல்லது எந்த நேரத்திலும் ஒப்புதலை திரும்பப் பெறவும். மின்னஞ்சல்"
+    },
+    {
+      "key": "t667",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t668",
+      "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
+      "text": "அல்லது 26 அவென்யூ ரோடு, London SE25 4DX இல் எங்களுக்கு எழுதவும். எங்கள் பதிலில் நீங்கள் மகிழ்ச்சியடையவில்லை என்றால், ico.org.uk இல் ICO இல் புகார் செய்யலாம்."
+    },
+    {
+      "key": "t669",
+      "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
+      "text": "கடைசியாக மதிப்பாய்வு செய்யப்பட்டது: 29 மே 2026. இந்த எளிய-ஆங்கிலச் சுருக்கம் வெளிப்படைத்தன்மைக்காக வழங்கப்பட்டுள்ளது மற்றும் வெளியிடுவதற்கு முன் Floating Counselling Community இன் முழுக் கொள்கைகளையும் சரிபார்க்க வேண்டும்."
+    },
+    {
+      "key": "t670",
+      "source": "Safeguarding",
+      "text": "பாதுகாப்பு"
+    },
+    {
+      "key": "t671",
+      "source": "Our commitment.",
+      "text": "எங்கள் அர்ப்பணிப்பு."
+    },
+    {
+      "key": "t672",
+      "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
+      "text": "நாங்கள் பணிபுரியும் ஆபத்தில் உள்ள குழந்தைகள், இளைஞர்கள் மற்றும் பெரியவர்களின் பாதுகாப்பு மற்றும் நல்வாழ்வு முதன்மையானது. எங்கள் நடைமுறையானது அதிர்ச்சிகரமான தகவல் மற்றும் BACP நெறிமுறை தரநிலைகளுடன் சீரமைக்கப்பட்டுள்ளது."
+    },
+    {
+      "key": "t673",
+      "source": "Confidentiality and its limits.",
+      "text": "இரகசியத்தன்மை மற்றும் அதன் வரம்புகள்."
+    },
+    {
+      "key": "t674",
+      "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
+      "text": "நீங்கள் பகிர்வது கடுமையான நம்பிக்கையுடன் உள்ளது. விதிவிலக்கு என்பது ஒரு பாதுகாப்புச் சூழ்நிலை - உங்களுக்கோ அல்லது வேறு ஒருவருக்கோ கடுமையான தீங்கு விளைவிக்கும் அபாயம் உள்ள இடத்தில் அல்லது சட்டப்பூர்வமாகச் செயல்பட வேண்டிய கடமை எங்களிடம் உள்ளது. அவ்வாறு செய்வது பாதுகாப்பானது எனில், இதை முதலில் உங்களுடன் பேசுவோம்."
+    },
+    {
+      "key": "t675",
+      "source": "Raising a concern.",
+      "text": "ஒரு கவலையை எழுப்புகிறது."
+    },
+    {
+      "key": "t676",
+      "source": "If you're worried about someone's safety, contact us at",
+      "text": "ஒருவரின் பாதுகாப்பைப் பற்றி நீங்கள் கவலைப்பட்டால், எங்களைத் தொடர்புகொள்ளவும்"
+    },
+    {
+      "key": "t677",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t678",
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "அல்லது +44 (0)7305 882959. யாராவது உடனடி ஆபத்தில் இருந்தால், எப்போதும் 999 என்ற எண்ணிற்கு அழைக்கவும். நீங்கள் NSPCCஐ 0808 800 5000 என்ற எண்ணில் அல்லது உங்கள் உள்ளூர் அதிகாரியின் பாதுகாப்புக் குழுவைத் தொடர்பு கொள்ளலாம்."
+    },
+    {
+      "key": "t679",
+      "source": "Our people.",
+      "text": "எங்கள் மக்கள்."
+    },
+    {
+      "key": "t680",
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "பணியாளர்கள் மற்றும் தன்னார்வலர்கள் பாதுகாப்பாக ஆட்சேர்ப்பு செய்யப்படுவார்கள் மற்றும் அவர்களின் பங்கிற்கு பொருத்தமான DBS காசோலைகளைப் பெறுவார்கள்."
+    },
+    {
+      "key": "t681",
+      "source": "Safeguarding lead.",
+      "text": "பாதுகாக்கும் முன்னணி."
+    },
+    {
+      "key": "t682",
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, இயக்குனர் & பாதுகாப்பு அதிகாரி. மின்னஞ்சல்"
+    },
+    {
+      "key": "t683",
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatingcounsellinglinda@gmail.com"
+    },
+    {
+      "key": "t684",
+      "source": "or",
+      "text": "அல்லது"
+    },
+    {
+      "key": "t685",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t686",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". யாராவது உடனடியாக ஆபத்தில் இருந்தால், 999 ஐ அழைக்கவும்."
+    },
+    {
+      "key": "t687",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "கடைசியாக மதிப்பாய்வு செய்யப்பட்டது: 29 மே 2026. இந்தச் சுருக்கமானது வெளியிடுவதற்கு முன் Floating Counselling Community இன் முழுப் பாதுகாப்புக் கொள்கைக்கு எதிராகச் சரிபார்க்கப்பட வேண்டும்."
+    },
+    {
+      "key": "t688",
+      "source": "Cookies & storage",
+      "text": "குக்கீகள் & சேமிப்பு"
+    },
+    {
+      "key": "t689",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "நாங்கள் குக்கீகளை குறைந்தபட்சமாக வைத்திருக்கிறோம், விளம்பரம் அல்லது குறுக்கு-தள கண்காணிப்பைப் பயன்படுத்த மாட்டோம். தளம் உங்கள் உலாவியில் இரண்டு சிறிய பொருட்களை சேமிக்கிறது:"
+    },
+    {
+      "key": "t690",
+      "source": "Cookie consent",
+      "text": "குக்கீ ஒப்புதல்"
+    },
+    {
+      "key": "t691",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— இந்த அறிவிப்பை நீங்கள் பார்த்தது நினைவிருக்கிறது, எனவே ஒவ்வொரு வருகையின் போதும் அதை நாங்கள் காட்ட மாட்டோம்."
+    },
+    {
+      "key": "t692",
+      "source": "Translation cache",
+      "text": "மொழிபெயர்ப்பு தற்காலிக சேமிப்பு"
+    },
+    {
+      "key": "t693",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "— நீங்கள் பக்கத்தை மொழிபெயர்த்தால், மொழிபெயர்க்கப்பட்ட உரை உள்நாட்டில் சேமிக்கப்படும், எனவே அது அடுத்த முறை உடனடியாக ஏற்றப்படும்."
+    },
+    {
+      "key": "t694",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "உட்பொதிக்கப்பட்ட கூகுள் மேப் ஏற்றப்படும் போது கூகிளின் சொந்த குக்கீகளை அமைக்கலாம். உங்கள் உலாவியின் தளத் தரவை அழிப்பதன் மூலம் எந்த நேரத்திலும் மேலே உள்ள அனைத்தையும் அழிக்கலாம்."
+    },
+    {
+      "key": "t695",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "ஆலோசனை, சமூகம் & இரக்கம், 2015 முதல் Croydon, Redbridge, Newham, Durham மற்றும் Southwark ஆகியவற்றிற்கு சேவை செய்கிறது."
+    },
+    {
+      "key": "t696",
+      "source": "Get in touch",
+      "text": "தொடர்பு கொள்ளவும்"
+    },
+    {
+      "key": "t697",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t698",
+      "source": "WhatsApp · +44 (0)7305 882959",
+      "text": "WhatsApp · +44 (0)7305 882959"
+    },
+    {
+      "key": "t699",
+      "source": "Croydon Hub · Ashburton Park Cafe Hall",
+      "text": "Croydon ஹப் · Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t700",
+      "source": "See all project locations",
+      "text": "அனைத்து திட்ட இடங்களையும் பார்க்கவும்"
+    },
+    {
+      "key": "t701",
+      "source": "Fundraiser",
+      "text": "நிதி திரட்டுபவர்"
+    },
+    {
+      "key": "t702",
+      "source": "Volunteer",
+      "text": "தன்னார்வலர்"
+    },
+    {
+      "key": "t703",
+      "source": "Croydon office",
+      "text": "Croydon அலுவலகம்"
+    },
+    {
+      "key": "t704",
+      "source": "Redbridge office",
+      "text": "Redbridge அலுவலகம்"
+    },
+    {
+      "key": "t705",
+      "source": "Durham hub",
+      "text": "Durham ஹப்"
+    },
+    {
+      "key": "t706",
+      "source": "Southwark hub",
+      "text": "Southwark ஹப்"
+    },
+    {
+      "key": "t707",
+      "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
+      "text": "Floating Counselling™ · BACP-சீரமைக்கப்பட்டது · நிறுவனம் எண். 11334515 · சமூக பங்குதாரர்"
+    },
+    {
+      "key": "t708",
+      "source": "Privacy",
+      "text": "தனியுரிமை"
+    },
+    {
+      "key": "t709",
+      "source": "Safeguarding",
+      "text": "பாதுகாப்பு"
+    },
+    {
+      "key": "t710",
+      "source": "Fundraiser",
+      "text": "நிதி திரட்டுபவர்"
+    },
+    {
+      "key": "t711",
+      "source": "Donate",
+      "text": "நன்கொடை"
+    },
+    {
+      "key": "t712",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t713",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "t714",
+      "source": "Choose a quick route",
+      "text": "விரைவான வழியைத் தேர்வு செய்யவும்"
+    },
+    {
+      "key": "t715",
+      "source": "If you are not sure which service fits, choose the closest option and we will route you.",
+      "text": "எந்தச் சேவை பொருத்தமானது என்று உங்களுக்குத் தெரியாவிட்டால், மிக நெருக்கமான விருப்பத்தைத் தேர்வுசெய்யவும், நாங்கள் உங்களை வழிநடத்துவோம்."
+    },
+    {
+      "key": "t716",
+      "source": "Counselling enquiry",
+      "text": "ஆலோசனை விசாரணை"
+    },
+    {
+      "key": "t717",
+      "source": "Parenting support",
+      "text": "பெற்றோர் ஆதரவு"
+    },
+    {
+      "key": "t718",
+      "source": "Food or community hub",
+      "text": "உணவு அல்லது சமூக மையம்"
+    },
+    {
+      "key": "t719",
+      "source": "Holiday school",
+      "text": "விடுமுறை பள்ளி"
+    },
+    {
+      "key": "t720",
+      "source": "Fundraiser",
+      "text": "நிதி திரட்டுபவர்"
+    },
+    {
+      "key": "t721",
+      "source": "Volunteer or partner",
+      "text": "தன்னார்வலர் அல்லது பங்குதாரர்"
+    },
+    {
+      "key": "t722",
+      "source": "WhatsApp Floating",
+      "text": "WhatsApp மிதக்கும்"
+    },
+    {
+      "key": "t723",
+      "source": "We use a small number of cookies to make this site work and to understand how it's used.",
+      "text": "இந்தத் தளம் செயல்படுவதற்கும் அது எவ்வாறு பயன்படுத்தப்படுகிறது என்பதைப் புரிந்துகொள்வதற்கும் குறைந்த எண்ணிக்கையிலான குக்கீகளைப் பயன்படுத்துகிறோம்."
+    },
+    {
+      "key": "t724",
+      "source": "More info",
+      "text": "மேலும் தகவல்"
+    },
+    {
+      "key": "t725",
+      "source": "Decline",
+      "text": "சரிவு"
+    },
+    {
+      "key": "t726",
+      "source": "Accept",
+      "text": "ஏற்கவும்"
+    },
+    {
+      "key": "a727",
+      "source": "Primary",
+      "text": "முதன்மை"
+    },
+    {
+      "key": "a728",
+      "source": "Floating Counselling — Home",
+      "text": "Floating Counselling — முகப்பு"
+    },
+    {
+      "key": "a729",
+      "source": "Floating Counselling",
+      "text": "Floating Counselling"
+    },
+    {
+      "key": "a730",
+      "source": "Toggle navigation",
+      "text": "வழிசெலுத்தலை மாற்று"
+    },
+    {
+      "key": "a731",
+      "source": "Counselling conversation at Floating Counselling",
+      "text": "Floating Counselling இல் ஆலோசனை உரையாடல்"
+    },
+    {
+      "key": "a732",
+      "source": "Scroll to impact",
+      "text": "தாக்கத்திற்கு உருட்டவும்"
+    },
+    {
+      "key": "a733",
+      "source": "Our impact",
+      "text": "எங்கள் தாக்கம்"
+    },
+    {
+      "key": "a734",
+      "source": "Celestina Oniye-Thomas from Floating Counselling",
+      "text": "Celestina Oniye-Thomas இலிருந்து Floating Counselling"
+    },
+    {
+      "key": "a735",
+      "source": "Impact Parenting support artwork from Floating Counselling",
+      "text": "Floating Counselling இலிருந்து Impact Parenting ஆதரவு கலைப்படைப்பு"
+    },
+    {
+      "key": "a736",
+      "source": "Floating Counselling community organisation impact infographic",
+      "text": "Floating Counselling சமூக அமைப்பு தாக்கம் விளக்கப்படம்"
+    },
+    {
+      "key": "a737",
+      "source": "Holiday school values",
+      "text": "விடுமுறை பள்ளி மதிப்புகள்"
+    },
+    {
+      "key": "a738",
+      "source": "Holiday school week 1 newsletter",
+      "text": "விடுமுறை பள்ளி வாரம் 1 செய்திமடல்"
+    },
+    {
+      "key": "a739",
+      "source": "Floating Community Hub community gathering",
+      "text": "மிதக்கும் சமூக மைய சமூகக் கூட்டம்"
+    },
+    {
+      "key": "a740",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "a741",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela"
+    },
+    {
+      "key": "a742",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode"
+    },
+    {
+      "key": "a743",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah"
+    },
+    {
+      "key": "a744",
+      "source": "Department for Education",
+      "text": "கல்விக்கான துறை"
+    },
+    {
+      "key": "a745",
+      "source": "Croydon Council",
+      "text": "Croydon கவுன்சில்"
+    },
+    {
+      "key": "a746",
+      "source": "South West London CCGs",
+      "text": "தென் மேற்கு London CCGகள்"
+    },
+    {
+      "key": "a747",
+      "source": "The National Lottery Community Fund",
+      "text": "தேசிய லாட்டரி சமூக நிதி"
+    },
+    {
+      "key": "a748",
+      "source": "BME Forum",
+      "text": "BME மன்றம்"
+    },
+    {
+      "key": "a749",
+      "source": "Croydon Voluntary Action",
+      "text": "Croydon தன்னார்வ நடவடிக்கை"
+    },
+    {
+      "key": "a750",
+      "source": "Volunteer application form",
+      "text": "தன்னார்வ விண்ணப்பப் படிவம்"
+    },
+    {
+      "key": "a751",
+      "source": "Project locations",
+      "text": "திட்ட இடங்கள்"
+    },
+    {
+      "key": "a752",
+      "source": "Social links",
+      "text": "சமூக இணைப்புகள்"
+    },
+    {
+      "key": "a753",
+      "source": "Facebook",
+      "text": "Facebook"
+    },
+    {
+      "key": "a754",
+      "source": "Instagram",
+      "text": "Instagram"
+    },
+    {
+      "key": "a755",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a756",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a757",
+      "source": "Floating Counselling — Home",
+      "text": "Floating Counselling — முகப்பு"
+    },
+    {
+      "key": "a758",
+      "source": "Floating Counselling",
+      "text": "Floating Counselling"
+    },
+    {
+      "key": "a759",
+      "source": "Social links",
+      "text": "சமூக இணைப்புகள்"
+    },
+    {
+      "key": "a760",
+      "source": "Facebook",
+      "text": "Facebook"
+    },
+    {
+      "key": "a761",
+      "source": "Instagram",
+      "text": "Instagram"
+    },
+    {
+      "key": "a762",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a763",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a764",
+      "source": "Project locations",
+      "text": "திட்ட இடங்கள்"
+    },
+    {
+      "key": "a765",
+      "source": "Fundraise for Floating Counselling",
+      "text": "Floating Counselling க்கான நிதி திரட்டல்"
+    },
+    {
+      "key": "a766",
+      "source": "Donate to Floating Counselling",
+      "text": "Floating Counsellingக்கு நன்கொடை அளியுங்கள்"
+    },
+    {
+      "key": "a767",
+      "source": "Back to top",
+      "text": "மேலே திரும்பவும்"
+    },
+    {
+      "key": "a768",
+      "source": "Ask Floating",
+      "text": "Ask Floating"
+    },
+    {
+      "key": "a769",
+      "source": "Close assistant",
+      "text": "நெருங்கிய உதவியாளர்"
+    },
+    {
+      "key": "a770",
+      "source": "Cookie notice",
+      "text": "குக்கீ அறிவிப்பு"
+    }
+  ]
+}
