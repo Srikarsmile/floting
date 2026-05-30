@@ -3,10 +3,31 @@
 
   var DEFAULT_MANIFEST_URL = 'https://floting.vercel.app/build-manifest.json';
   var DEFAULT_ASSET_BASE = 'https://floting.vercel.app/';
-  var DEFAULT_VERSION = '20260531-02';
+  var DEFAULT_VERSION = '20260531-03';
   var LOADER_ID = 'floating-home-vercel-loader';
   var RUNTIME_ID = 'floating-home-runtime';
   var APPLY_DELAYS = [0, 40, 120, 300, 700, 1500, 3000, 6000];
+  var VIEWPORT_CONTENT = 'width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover';
+
+  function ensureViewportMeta() {
+    if (!document.head) return;
+
+    var viewport = document.head.querySelector('meta[name="viewport"]');
+    if (!viewport) {
+      viewport = document.createElement('meta');
+      viewport.setAttribute('name', 'viewport');
+      document.head.appendChild(viewport);
+    }
+
+    viewport.setAttribute('content', VIEWPORT_CONTENT);
+    viewport.setAttribute('data-floating-viewport', 'true');
+  }
+
+  function scheduleViewportUpdates() {
+    APPLY_DELAYS.forEach(function (delay) {
+      window.setTimeout(ensureViewportMeta, delay);
+    });
+  }
 
   function normalizeUrl(value, fallback) {
     try {
@@ -110,6 +131,9 @@
   }
 
   function boot() {
+    ensureViewportMeta();
+    scheduleViewportUpdates();
+
     fetchManifest().then(function (manifest) {
       publishManifest(manifest);
       scheduleElementUpdates(manifest);

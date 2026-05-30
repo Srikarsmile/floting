@@ -3574,8 +3574,9 @@ body.nav-open .back-to-top {
    ═══════════════════════════════════════════ */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
-    animation-duration: 0.01ms !important;
+    animation: none !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
   .hero-orb, .cta-orb, .hub-bg-image, .hub-bg-orb { display: none; }
   [data-fade], [data-stagger] > *, [data-card] { opacity: 1 !important; transform: none !important; }

@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260531-02');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260531-03');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -134,6 +134,7 @@ class FloatingHome extends HTMLElement {
 
     this.stopWixLayoutWatchdog();
     this.stopSupportFabWatcher();
+    this.clearGlobalNavState();
     if (this.interactionsAbortController) {
       this.interactionsAbortController.abort();
       this.interactionsAbortController = null;
@@ -529,6 +530,8 @@ class FloatingHome extends HTMLElement {
   }
 
   installGlobalGuards() {
+    this.ensureViewportMeta();
+
     if (!document.head || document.getElementById('floating-home-global-guards')) return;
 
     const style = document.createElement('style');
@@ -559,6 +562,20 @@ class FloatingHome extends HTMLElement {
       }
     `;
     document.head.appendChild(style);
+  }
+
+  ensureViewportMeta() {
+    if (!document.head) return;
+
+    let viewport = document.head.querySelector('meta[name="viewport"]');
+    if (!viewport) {
+      viewport = document.createElement('meta');
+      viewport.setAttribute('name', 'viewport');
+      document.head.appendChild(viewport);
+    }
+
+    viewport.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover');
+    viewport.setAttribute('data-floating-viewport', 'true');
   }
 
   preloadCriticalAssets() {
@@ -1793,6 +1810,8 @@ class FloatingHome extends HTMLElement {
   bindInteractions() {
     const root = this.shadowRoot;
 
+    this.clearGlobalNavState();
+
     if (this.interactionsAbortController) {
       this.interactionsAbortController.abort();
     }
@@ -1824,9 +1843,15 @@ class FloatingHome extends HTMLElement {
         navToggle.setAttribute('aria-expanded', String(isOpen));
         const floatingRoot = root.querySelector('.floating-root');
         if (floatingRoot) floatingRoot.classList.toggle('nav-open', isOpen);
-        document.documentElement.classList.toggle('floating-nav-open', isOpen);
-        document.body && document.body.classList.toggle('floating-nav-open', isOpen);
-        document.body && document.body.style.setProperty('overflow', isOpen ? 'hidden' : '');
+        if (isOpen) {
+          document.documentElement.classList.add('floating-nav-open');
+          if (document.body) {
+            document.body.classList.add('floating-nav-open');
+            document.body.style.setProperty('overflow', 'hidden');
+          }
+        } else {
+          this.clearGlobalNavState();
+        }
 
         const assistantWidget = root.querySelector('[data-assistant-widget]');
         if (assistantWidget) {
@@ -1839,7 +1864,7 @@ class FloatingHome extends HTMLElement {
 
       navToggle.addEventListener('click', () => {
         setNavOpen(!navToggle.classList.contains('open'));
-      });
+      }, { signal });
 
       navLinks.querySelectorAll('a').forEach((link) => {
         link.addEventListener('click', () => {
@@ -1937,11 +1962,30 @@ class FloatingHome extends HTMLElement {
       0;
     const top = Math.max(0, target.getBoundingClientRect().top + currentY - offset);
 
-    window.scrollTo({ top, behavior: 'smooth' });
-    document.documentElement.scrollTo({ top, behavior: 'smooth' });
+    const behavior = this.prefersReducedMotion() ? 'auto' : 'smooth';
+
+    window.scrollTo({ top, behavior });
+    document.documentElement.scrollTo({ top, behavior });
     if (document.body) {
-      document.body.scrollTo({ top, behavior: 'smooth' });
+      document.body.scrollTo({ top, behavior });
     }
+  }
+
+  clearGlobalNavState() {
+    document.documentElement.classList.remove('floating-nav-open');
+    if (document.body) {
+      document.body.classList.remove('floating-nav-open');
+      if (document.body.style.getPropertyValue('overflow') === 'hidden') {
+        document.body.style.removeProperty('overflow');
+      }
+    }
+  }
+
+  prefersReducedMotion() {
+    return Boolean(
+      window.matchMedia &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    );
   }
 
   bindSupportFabVisibility(root) {
@@ -1971,10 +2015,11 @@ class FloatingHome extends HTMLElement {
         document.body ? document.body.scrollHeight - window.innerHeight : 0,
       );
     const scrollPageToTop = () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
+      const behavior = this.prefersReducedMotion() ? 'auto' : 'smooth';
+      window.scrollTo({ top: 0, behavior });
+      document.documentElement.scrollTo({ top: 0, behavior });
       if (document.body) {
-        document.body.scrollTo({ top: 0, behavior: 'smooth' });
+        document.body.scrollTo({ top: 0, behavior });
       }
     };
 
