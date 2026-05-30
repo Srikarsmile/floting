@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260530-02');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260530-03');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -349,7 +349,14 @@ class FloatingHome extends HTMLElement {
             position: sticky !important;
             top: 0;
             background: rgba(244,239,227,0.97);
+            margin-bottom: -90px;
             will-change: auto;
+          }
+
+          @media (max-width: 720px) {
+            .floating-root .navbar {
+              margin-bottom: -53px;
+            }
           }
 
           ${editorPreview ? `
