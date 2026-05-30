@@ -174,6 +174,7 @@
 
     const supportFabs = document.querySelectorAll('.support-fab, .donate-fab, .fundraiser-fab');
     const backToTop = document.getElementById('backToTop');
+    const assistantWidget = document.querySelector('[data-assistant-widget]');
     const contactEl = document.getElementById('contact');
     const footerEl = document.querySelector('.footer');
     const smallScreen = window.matchMedia('(max-width: 720px)');
@@ -198,6 +199,9 @@
         !document.body.classList.contains('nav-open') &&
         (!smallScreen.matches || !scrollingDown);
       supportFabs.forEach((fab) => fab.classList.toggle('is-visible', supportVisible));
+      if (assistantWidget) {
+        assistantWidget.classList.toggle('is-muted', smallScreen.matches && y < 720);
+      }
       if (backToTop) backToTop.classList.toggle('is-visible', y > 1200 && !scrollingDown);
       fabTicking = false;
     };
@@ -220,7 +224,6 @@
     }
 
     const assistantPanel = document.querySelector('[data-assistant-panel]');
-    const assistantWidget = document.querySelector('[data-assistant-widget]');
     const assistantOpenButtons = document.querySelectorAll('[data-assistant-open]');
     const assistantCloseButtons = document.querySelectorAll('[data-assistant-close]');
     let assistantLastFocus = null;

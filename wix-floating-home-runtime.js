@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260530-03');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260530-04');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {

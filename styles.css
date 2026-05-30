@@ -2344,6 +2344,12 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   justify-items: end;
   gap: 12px;
   pointer-events: none;
+  transition: opacity var(--t-fast) var(--ease-out), transform var(--t-fast) var(--ease-out);
+}
+.assistant-widget.is-muted {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(12px);
 }
 .assistant-fab,
 .assistant-panel {
