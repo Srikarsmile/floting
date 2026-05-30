@@ -2389,6 +2389,9 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .assistant-panel {
   width: min(360px, calc(100vw - 32px));
+  max-height: calc(100dvh - 44px - env(safe-area-inset-bottom, 0px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding: var(--s-5);
   border-radius: var(--radius);
   background: rgba(251,247,238,0.98);
@@ -2768,16 +2771,16 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .donate-fab {
   bottom: 152px;
-  background: var(--clr-accent);
-  box-shadow: 0 12px 30px -12px rgba(196,106,74,0.48);
+  background: var(--clr-primary);
+  box-shadow: 0 12px 30px -12px rgba(10,86,81,0.44);
 }
 .fundraiser-fab {
   bottom: 88px;
-  background: var(--clr-primary-soft);
+  background: var(--clr-primary-deep);
 }
 .support-fab.is-visible { transform: translateY(0); opacity: 1; }
 .support-fab:hover { background: var(--clr-primary-soft); box-shadow: 0 12px 32px -10px rgba(10,86,81,0.5); }
-.donate-fab:hover { background: #B95E3E; }
+.donate-fab:hover { background: var(--clr-primary-soft); }
 .fundraiser-fab:hover { background: var(--clr-primary); }
 .support-fab svg { width: 18px; height: 18px; }
 
@@ -2811,6 +2814,13 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 body.nav-open .support-fab,
 body.nav-open .assistant-widget,
 body.nav-open .back-to-top {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.floating-root.nav-open .support-fab,
+.floating-root.nav-open .assistant-widget,
+.floating-root.nav-open .back-to-top {
   opacity: 0 !important;
   pointer-events: none !important;
 }
@@ -3024,6 +3034,13 @@ body.nav-open .back-to-top {
     text-align: center;
     font-size: 1rem;
     background: var(--clr-white);
+  }
+  .translation-status {
+    width: min(100%, 320px);
+    max-width: 320px;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.25;
   }
   .nav-cta { width: min(100%, 320px); justify-content: center; padding: 14px 24px !important; }
   .nav-toggle {
@@ -3320,6 +3337,7 @@ body.nav-open .back-to-top {
   }
   .assistant-panel {
     width: calc(100vw - 28px);
+    max-height: calc(100dvh - 24px - env(safe-area-inset-bottom, 0px));
   }
 
   /* Contact */
@@ -3487,6 +3505,11 @@ body.nav-open .back-to-top {
 
   /* Disable parallax on mobile for performance */
   [data-parallax] { transform: none !important; }
+  .hub-bg-image,
+  .hub-bg-orb,
+  .cta-orb {
+    display: none !important;
+  }
 }
 
 /* Smaller phones — squeeze further */

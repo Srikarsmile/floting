@@ -60,6 +60,21 @@
     return String(value || '').replace(/\s+/g, ' ').trim();
   }
 
+  function deferWork() {
+    return new Promise((resolve) => {
+      if (typeof window.requestIdleCallback === 'function') {
+        window.requestIdleCallback(resolve, { timeout: 350 });
+        return;
+      }
+
+      window.requestAnimationFrame(() => window.setTimeout(resolve, 0));
+    });
+  }
+
+  function writeNextFrame(callback) {
+    window.requestAnimationFrame(callback);
+  }
+
   function splitWhitespace(value) {
     const match = String(value || '').match(/^(\s*)([\s\S]*?)(\s*)$/);
     return {
@@ -316,6 +331,8 @@
     const attrOriginals = new WeakMap();
     const status = ensureStatus(select);
     let translationRunId = 0;
+    let cachedEntries = null;
+    let cacheDirty = true;
 
     function getEndpoint() {
       if (typeof settings.endpoint === 'function') return String(settings.endpoint() || '').trim();
@@ -339,7 +356,27 @@
       }
     }
 
-    function collect() {
+    function markCacheDirty() {
+      cacheDirty = true;
+    }
+
+    const observedRoot = root === document ? document.body : root;
+    if (observedRoot && typeof MutationObserver === 'function') {
+      const observer = new MutationObserver((mutations) => {
+        const structuralChange = mutations.some((mutation) =>
+          mutation.type === 'childList' &&
+          Array.from(mutation.addedNodes || []).concat(Array.from(mutation.removedNodes || [])).some((node) => {
+            if (!node || node.nodeType !== Node.ELEMENT_NODE) return false;
+            return !shouldSkipElement(node);
+          }),
+        );
+        if (structuralChange) markCacheDirty();
+      });
+
+      observer.observe(observedRoot, { childList: true, subtree: true });
+    }
+
+    function collectFresh() {
       const entries = [];
       const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
         acceptNode(node) {
@@ -412,6 +449,13 @@
       return entries;
     }
 
+    function collect() {
+      if (!cacheDirty && cachedEntries) return cachedEntries;
+      cachedEntries = collectFresh();
+      cacheDirty = false;
+      return cachedEntries;
+    }
+
     function reset() {
       collect().forEach((entry) => entry.reset());
       setDocumentLanguage(root, 'en');
@@ -422,6 +466,8 @@
 
     async function translate(language) {
       const runId = (translationRunId += 1);
+      await deferWork();
+      if (runId !== translationRunId) return;
       const entries = collect();
       const targetLabel = languageName(language);
 
@@ -479,12 +525,10 @@
 
             if (!isActive || runId !== translationRunId) return normalizedItems;
 
-            const translatedMap = normalizeTranslations(normalizedItems);
-            batch.forEach((entry) => entry.apply(translatedMap.get(entry.key)));
             completedBatches += 1;
 
             if (batches.length > 1 && completedBatches < batches.length) {
-              setStatus(status, `Translating to ${targetLabel} (${completedBatches}/${batches.length})`, 'loading');
+              setStatus(status, `${targetLabel}: ${completedBatches}/${batches.length}`, 'loading');
             }
 
             return normalizedItems;
@@ -523,10 +567,13 @@
         if (runId !== translationRunId) return;
 
         const translatedMap = normalizeTranslations(translated);
-        entries.forEach((entry) => entry.apply(translatedMap.get(entry.key)));
-        setDocumentLanguage(root, language);
-        select.value = language;
-        setStatus(status, `${targetLabel} on`, 'ready');
+        writeNextFrame(() => {
+          if (runId !== translationRunId) return;
+          entries.forEach((entry) => entry.apply(translatedMap.get(entry.key)));
+          setDocumentLanguage(root, language);
+          select.value = language;
+          setStatus(status, `${targetLabel} on`, 'ready');
+        });
       } catch (error) {
         entries.forEach((entry) => entry.reset());
         setDocumentLanguage(root, 'en');
@@ -546,13 +593,13 @@
       if (!language) return;
 
       if (language === 'en') {
-        reset();
         closeNavigation();
+        window.requestAnimationFrame(reset);
         return;
       }
 
-      translate(language);
       closeNavigation();
+      translate(language);
     });
 
     return {

@@ -3,7 +3,7 @@
 
   var DEFAULT_MANIFEST_URL = 'https://floting.vercel.app/build-manifest.json';
   var DEFAULT_ASSET_BASE = 'https://floting.vercel.app/';
-  var DEFAULT_VERSION = '20260530-05';
+  var DEFAULT_VERSION = '20260531-01';
   var LOADER_ID = 'floating-home-vercel-loader';
   var RUNTIME_ID = 'floating-home-runtime';
   var APPLY_DELAYS = [0, 40, 120, 300, 700, 1500, 3000, 6000];
@@ -87,6 +87,10 @@
 
     if (existing && existing.getAttribute('data-floating-version') === manifest.version) {
       return;
+    }
+
+    if (existing && existing.parentNode) {
+      existing.parentNode.removeChild(existing);
     }
 
     var script = document.createElement('script');

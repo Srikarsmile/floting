@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260530-05');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260531-01');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -55,6 +55,11 @@ class FloatingHome extends HTMLElement {
     this.cmsData = null;
     this.hasRendered = false;
     this.supportFabScrollHandler = null;
+    this.supportFabRaf = 0;
+    this.interactionsAbortController = null;
+    this.wixIsolationScheduled = false;
+    this.wixIsolationTimeouts = [];
+    this.wixLayoutRaf = 0;
     this.boundRepairWixLayout = () => {
       if (!this.isConnected || this.isWixEditorPreview()) return;
       this.hideExternalNoise();
@@ -129,11 +134,45 @@ class FloatingHome extends HTMLElement {
 
     this.stopWixLayoutWatchdog();
     this.stopSupportFabWatcher();
+    if (this.interactionsAbortController) {
+      this.interactionsAbortController.abort();
+      this.interactionsAbortController = null;
+    }
+    this.wixIsolationTimeouts.forEach((timeout) => window.clearTimeout(timeout));
+    this.wixIsolationTimeouts = [];
+    this.wixIsolationScheduled = false;
+    if (this.wixLayoutRaf) {
+      window.cancelAnimationFrame(this.wixLayoutRaf);
+      this.wixLayoutRaf = 0;
+    }
   }
 
   asset(path) {
     const cleanPath = String(path).replace(/^\/+/, '');
     return `${this.assetBase}${cleanPath}?v=${this.version}`;
+  }
+
+  manifestUrlFor(key, fallbackPath) {
+    const value = floatingHomeRuntimeManifest && floatingHomeRuntimeManifest[key];
+    if (value) {
+      try {
+        const url = new URL(String(value), this.assetBase);
+        url.searchParams.set('v', this.version);
+        return url.toString();
+      } catch (error) {
+        // Fall back to the local asset helper below.
+      }
+    }
+
+    return this.asset(fallbackPath);
+  }
+
+  htmlUrl() {
+    return this.manifestUrlFor('html', 'index.html');
+  }
+
+  stylesUrl() {
+    return this.manifestUrlFor('styles', 'styles.css');
   }
 
   readAssetBase() {
@@ -207,7 +246,7 @@ class FloatingHome extends HTMLElement {
     }
 
     try {
-      const response = await fetch(this.asset('index.html'), { mode: 'cors' });
+      const response = await fetch(this.htmlUrl(), { mode: 'cors' });
       if (!response.ok) throw new Error(`Could not load index.html (${response.status})`);
 
       const html = await response.text();
@@ -216,7 +255,10 @@ class FloatingHome extends HTMLElement {
       const editorPreview = this.isWixEditorPreview();
 
       root.innerHTML = `
-        <link rel="stylesheet" href="${this.asset('styles.css')}" data-floating-stylesheet>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Inter+Tight:wght@300;400;500;600;700&display=swap" data-floating-fonts>
+        <link rel="stylesheet" href="${this.stylesUrl()}" data-floating-stylesheet>
         <style>
           :host {
             display: block;
@@ -225,6 +267,8 @@ class FloatingHome extends HTMLElement {
             background: #f4efe3;
             color: #1f3937;
             font-family: "Inter Tight", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
           }
 
           .floating-loader {
@@ -321,6 +365,9 @@ class FloatingHome extends HTMLElement {
             -moz-osx-font-smoothing: grayscale;
             position: relative;
             isolation: isolate;
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+            scroll-padding-top: 92px;
           }
 
           .floating-root *,
@@ -346,16 +393,23 @@ class FloatingHome extends HTMLElement {
           }
 
           .floating-root .navbar {
-            position: sticky !important;
+            position: fixed !important;
             top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
             background: rgba(244,239,227,0.97);
-            margin-bottom: -90px;
+            margin-bottom: 0;
             will-change: auto;
           }
 
           @media (max-width: 720px) {
+            .floating-root {
+              scroll-padding-top: 62px;
+            }
+
             .floating-root .navbar {
-              margin-bottom: -53px;
+              margin-bottom: 0;
             }
           }
 
@@ -511,8 +565,8 @@ class FloatingHome extends HTMLElement {
     if (!document.head) return;
 
     [
-      ['preload', 'fetch', this.asset('index.html')],
-      ['preload', 'style', this.asset('styles.css')],
+      ['preload', 'fetch', this.htmlUrl()],
+      ['preload', 'style', this.stylesUrl()],
       ['preload', 'image', this.asset('images/logo.webp')],
       ['preload', 'image', this.asset('images/counselling-real-20260515.webp')],
       ['prefetch', 'image', this.asset('images/team-celestina.webp')],
@@ -816,10 +870,7 @@ class FloatingHome extends HTMLElement {
   fitWixViewport() {
     if (!this.isConnected || this.isWixEditorPreview()) return;
 
-    const viewportWidth = Math.max(
-      document.documentElement.clientWidth || 0,
-      window.innerWidth || 0,
-    );
+    const viewportWidth = document.documentElement.clientWidth || window.innerWidth || 0;
 
     if (!viewportWidth) return;
 
@@ -830,20 +881,25 @@ class FloatingHome extends HTMLElement {
     const naturalTop = rect.top - currentMarginTop + (window.scrollY || 0);
     const topOffset = naturalTop > 0 ? -naturalTop : 0;
 
-    this.style.setProperty('width', `${viewportWidth}px`, 'important');
-    this.style.setProperty('max-width', `${viewportWidth}px`, 'important');
-    this.style.setProperty('margin-left', `${-naturalLeft}px`, 'important');
-    this.style.setProperty('margin-top', `${topOffset}px`, 'important');
+    this.setImportantStyle(this, 'width', `${viewportWidth}px`);
+    this.setImportantStyle(this, 'max-width', `${viewportWidth}px`);
+    this.setImportantStyle(this, 'margin-left', `${Math.round(-naturalLeft)}px`);
+    this.setImportantStyle(this, 'margin-top', `${Math.round(topOffset)}px`);
 
     const root = this.shadowRoot && this.shadowRoot.querySelector('.floating-root');
     if (root) {
-      root.style.setProperty('width', '100%', 'important');
-      root.style.setProperty('max-width', '100%', 'important');
-      root.style.setProperty('overflow-x', 'clip', 'important');
+      this.setImportantStyle(root, 'width', '100%');
+      this.setImportantStyle(root, 'max-width', '100%');
+      this.setImportantStyle(root, 'overflow-x', 'clip');
     }
 
     document.documentElement.style.setProperty('overflow-x', 'hidden', 'important');
     document.body.style.setProperty('overflow-x', 'hidden', 'important');
+  }
+
+  setImportantStyle(node, property, value) {
+    if (!node || node.style.getPropertyValue(property) === value) return;
+    node.style.setProperty(property, value, 'important');
   }
 
   repairWixTopGap() {
@@ -874,10 +930,17 @@ class FloatingHome extends HTMLElement {
       return;
     }
 
-    this.isolateFromWixLayout();
+    this.queueWixLayoutRepair();
+
+    if (this.wixIsolationScheduled) {
+      return;
+    }
+
+    this.wixIsolationScheduled = true;
 
     [60, 250, 900, 1800, 3200].forEach((delay) => {
-      window.setTimeout(() => this.isolateFromWixLayout(), delay);
+      const timeout = window.setTimeout(() => this.queueWixLayoutRepair(), delay);
+      this.wixIsolationTimeouts.push(timeout);
     });
 
     if (!this.isolationObserver && document.body) {
@@ -885,12 +948,23 @@ class FloatingHome extends HTMLElement {
         if (this.isolationTimer) window.clearTimeout(this.isolationTimer);
         this.isolationTimer = window.setTimeout(() => {
           this.isolationTimer = 0;
-          this.isolateFromWixLayout();
+          this.queueWixLayoutRepair();
         }, 80);
       });
 
       this.isolationObserver.observe(document.body, { childList: true });
     }
+  }
+
+  queueWixLayoutRepair() {
+    if (this.wixLayoutRaf) return;
+
+    this.wixLayoutRaf = window.requestAnimationFrame(() => {
+      this.wixLayoutRaf = 0;
+      if (!this.isConnected || this.isWixEditorPreview()) return;
+      this.hideExternalNoise();
+      this.isolateFromWixLayout();
+    });
   }
 
   startWixLayoutWatchdog() {
@@ -1021,10 +1095,14 @@ class FloatingHome extends HTMLElement {
     node.style.setProperty('overflow', 'visible', 'important');
     node.style.setProperty('padding-left', '0', 'important');
     node.style.setProperty('padding-right', '0', 'important');
+    node.style.setProperty('padding-top', '0', 'important');
+    node.style.setProperty('padding-bottom', '0', 'important');
 
     if (node !== this) {
       node.style.setProperty('margin-left', '0', 'important');
       node.style.setProperty('margin-right', '0', 'important');
+      node.style.setProperty('margin-top', '0', 'important');
+      node.style.setProperty('margin-bottom', '0', 'important');
     }
   }
 
@@ -1715,6 +1793,12 @@ class FloatingHome extends HTMLElement {
   bindInteractions() {
     const root = this.shadowRoot;
 
+    if (this.interactionsAbortController) {
+      this.interactionsAbortController.abort();
+    }
+    this.interactionsAbortController = new AbortController();
+    const { signal } = this.interactionsAbortController;
+
     this.bindSupportFabVisibility(root);
 
     root.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -1726,18 +1810,23 @@ class FloatingHome extends HTMLElement {
         if (!target) return;
 
         event.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        this.scrollToShadowTarget(target);
         this.updateSupportFabVisibility();
-      });
+      }, { signal });
     });
 
     const navToggle = root.getElementById('navToggle');
     const navLinks = root.getElementById('navLinks');
     if (navToggle && navLinks) {
-      navToggle.addEventListener('click', () => {
-        const isOpen = navToggle.classList.toggle('open');
+      const setNavOpen = (isOpen) => {
+        navToggle.classList.toggle('open', isOpen);
         navLinks.classList.toggle('open', isOpen);
         navToggle.setAttribute('aria-expanded', String(isOpen));
+        const floatingRoot = root.querySelector('.floating-root');
+        if (floatingRoot) floatingRoot.classList.toggle('nav-open', isOpen);
+        document.documentElement.classList.toggle('floating-nav-open', isOpen);
+        document.body && document.body.classList.toggle('floating-nav-open', isOpen);
+        document.body && document.body.style.setProperty('overflow', isOpen ? 'hidden' : '');
 
         const assistantWidget = root.querySelector('[data-assistant-widget]');
         if (assistantWidget) {
@@ -1746,18 +1835,24 @@ class FloatingHome extends HTMLElement {
             this.updateSupportFabVisibility();
           }
         }
+      };
+
+      navToggle.addEventListener('click', () => {
+        setNavOpen(!navToggle.classList.contains('open'));
       });
 
       navLinks.querySelectorAll('a').forEach((link) => {
         link.addEventListener('click', () => {
-          navToggle.classList.remove('open');
-          navLinks.classList.remove('open');
-          navToggle.setAttribute('aria-expanded', 'false');
+          setNavOpen(false);
           if (typeof this.updateSupportFabVisibility === 'function') {
             this.updateSupportFabVisibility();
           }
-        });
+        }, { signal });
       });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') setNavOpen(false);
+      }, { signal });
     }
 
     const languageSelect = root.getElementById('languageSelect');
@@ -1782,16 +1877,16 @@ class FloatingHome extends HTMLElement {
     assistantOpenButtons.forEach((button) => {
       button.addEventListener('click', () => {
         setAssistantOpen(Boolean(assistantPanel && assistantPanel.hidden));
-      });
+      }, { signal });
     });
 
     assistantCloseButtons.forEach((button) => {
-      button.addEventListener('click', () => setAssistantOpen(false));
+      button.addEventListener('click', () => setAssistantOpen(false), { signal });
     });
 
     if (assistantPanel) {
       assistantPanel.querySelectorAll('a').forEach((link) => {
-        link.addEventListener('click', () => setAssistantOpen(false));
+        link.addEventListener('click', () => setAssistantOpen(false), { signal });
       });
     }
 
@@ -1802,7 +1897,7 @@ class FloatingHome extends HTMLElement {
         faqItems.forEach((other) => {
           if (other !== item) other.open = false;
         });
-      });
+      }, { signal });
     });
 
     const contactForm = root.getElementById('contactForm');
@@ -1824,8 +1919,18 @@ class FloatingHome extends HTMLElement {
         }
 
         if (isValid) contactForm.reset();
-      });
+      }, { signal });
     }
+  }
+
+  scrollToShadowTarget(target) {
+    if (!target) return;
+
+    const root = this.shadowRoot;
+    const navbar = root && root.querySelector('.navbar');
+    const offset = navbar ? navbar.getBoundingClientRect().height + 14 : 0;
+    const top = target.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
   }
 
   bindSupportFabVisibility(root) {
@@ -1878,10 +1983,17 @@ class FloatingHome extends HTMLElement {
       const contactIsVisible = contactRect && contactRect.top < window.innerHeight - 40 && contactRect.bottom > 80;
       const footerIsVisible = footerRect && footerRect.top < window.innerHeight - 40;
       const inFabRange = y > 600 && y < max - 200 && !contactIsVisible && !footerIsVisible;
-      supportFabs.forEach((fab) => fab.classList.toggle('is-visible', inFabRange));
+      if (!smallScreen.matches) {
+        supportFabs.forEach((fab) => fab.classList.toggle('is-visible', inFabRange));
+      } else {
+        supportFabs.forEach((fab) => fab.classList.remove('is-visible'));
+      }
       if (assistantWidget) {
         const menuOpen = root.getElementById('navLinks') && root.getElementById('navLinks').classList.contains('open');
-        assistantWidget.classList.toggle('is-muted', Boolean(menuOpen) || (smallScreen.matches && y < 720));
+        assistantWidget.classList.toggle(
+          'is-muted',
+          Boolean(menuOpen) || contactIsVisible || footerIsVisible || (smallScreen.matches && y < 720),
+        );
       }
 
       if (backToTop) {
@@ -1889,14 +2001,16 @@ class FloatingHome extends HTMLElement {
       }
     };
 
-    this.supportFabScrollHandler = () => this.updateSupportFabVisibility();
+    this.supportFabScrollHandler = () => {
+      if (this.supportFabRaf) return;
+      this.supportFabRaf = window.requestAnimationFrame(() => {
+        this.supportFabRaf = 0;
+        this.updateSupportFabVisibility();
+      });
+    };
 
     window.addEventListener('scroll', this.supportFabScrollHandler, { passive: true });
     window.addEventListener('resize', this.supportFabScrollHandler, { passive: true });
-    document.addEventListener('scroll', this.supportFabScrollHandler, { passive: true });
-    if (document.body) {
-      document.body.addEventListener('scroll', this.supportFabScrollHandler, { passive: true });
-    }
     this.updateSupportFabVisibility();
 
     if (backToTop && backToTop.dataset.floatingBound !== 'true') {
@@ -1912,9 +2026,9 @@ class FloatingHome extends HTMLElement {
 
     window.removeEventListener('scroll', this.supportFabScrollHandler);
     window.removeEventListener('resize', this.supportFabScrollHandler);
-    document.removeEventListener('scroll', this.supportFabScrollHandler);
-    if (document.body) {
-      document.body.removeEventListener('scroll', this.supportFabScrollHandler);
+    if (this.supportFabRaf) {
+      window.cancelAnimationFrame(this.supportFabRaf);
+      this.supportFabRaf = 0;
     }
     this.supportFabScrollHandler = null;
   }

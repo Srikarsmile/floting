@@ -119,20 +119,8 @@
       updateProgress();
     }
 
-    const revealItems = document.querySelectorAll('[data-fade], [data-card], [data-stagger] > *');
-    if (revealItems.length && 'IntersectionObserver' in window && !reduceMotion) {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
-        });
-      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
-
-      revealItems.forEach((item) => observer.observe(item));
-    } else {
-      revealItems.forEach((item) => item.classList.add('is-visible'));
-    }
+    document.querySelectorAll('[data-fade], [data-card], [data-stagger] > *')
+      .forEach((item) => item.classList.add('is-visible'));
 
     const counters = document.querySelectorAll('.counter');
     const snapCounters = () => {
@@ -200,7 +188,10 @@
         (!smallScreen.matches || !scrollingDown);
       supportFabs.forEach((fab) => fab.classList.toggle('is-visible', supportVisible));
       if (assistantWidget) {
-        assistantWidget.classList.toggle('is-muted', smallScreen.matches && y < 720);
+        assistantWidget.classList.toggle(
+          'is-muted',
+          contactIsVisible || footerIsVisible || (smallScreen.matches && y < 720),
+        );
       }
       if (backToTop) backToTop.classList.toggle('is-visible', y > 1200 && !scrollingDown);
       fabTicking = false;
