@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260531-01');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260531-02');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -1929,8 +1929,19 @@ class FloatingHome extends HTMLElement {
     const root = this.shadowRoot;
     const navbar = root && root.querySelector('.navbar');
     const offset = navbar ? navbar.getBoundingClientRect().height + 14 : 0;
-    const top = target.getBoundingClientRect().top + window.scrollY - offset;
-    window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+    const currentY =
+      window.scrollY ||
+      window.pageYOffset ||
+      document.documentElement.scrollTop ||
+      (document.body && document.body.scrollTop) ||
+      0;
+    const top = Math.max(0, target.getBoundingClientRect().top + currentY - offset);
+
+    window.scrollTo({ top, behavior: 'smooth' });
+    document.documentElement.scrollTo({ top, behavior: 'smooth' });
+    if (document.body) {
+      document.body.scrollTo({ top, behavior: 'smooth' });
+    }
   }
 
   bindSupportFabVisibility(root) {
@@ -2011,6 +2022,10 @@ class FloatingHome extends HTMLElement {
 
     window.addEventListener('scroll', this.supportFabScrollHandler, { passive: true });
     window.addEventListener('resize', this.supportFabScrollHandler, { passive: true });
+    document.addEventListener('scroll', this.supportFabScrollHandler, { passive: true });
+    if (document.body) {
+      document.body.addEventListener('scroll', this.supportFabScrollHandler, { passive: true });
+    }
     this.updateSupportFabVisibility();
 
     if (backToTop && backToTop.dataset.floatingBound !== 'true') {
@@ -2026,6 +2041,10 @@ class FloatingHome extends HTMLElement {
 
     window.removeEventListener('scroll', this.supportFabScrollHandler);
     window.removeEventListener('resize', this.supportFabScrollHandler);
+    document.removeEventListener('scroll', this.supportFabScrollHandler);
+    if (document.body) {
+      document.body.removeEventListener('scroll', this.supportFabScrollHandler);
+    }
     if (this.supportFabRaf) {
       window.cancelAnimationFrame(this.supportFabRaf);
       this.supportFabRaf = 0;
