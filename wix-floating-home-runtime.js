@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260530-01');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260530-02');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -48,7 +48,9 @@ class FloatingHome extends HTMLElement {
     this.version = floatingHomeCurrentBuild;
     this.isolationTimer = 0;
     this.isolationObserver = null;
-    this.layoutWatchdog = 0;
+    this.layoutWatchdog = false;
+    this.layoutWatchdogInterval = 0;
+    this.layoutWatchdogRuns = 0;
     this.translationClientPromise = null;
     this.cmsData = null;
     this.hasRendered = false;
@@ -314,7 +316,7 @@ class FloatingHome extends HTMLElement {
             color: var(--clr-text, #1f3937);
             background: var(--clr-bg, #f4efe3);
             line-height: 1.65;
-            overflow-x: hidden;
+            overflow-x: clip;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
             position: relative;
@@ -338,15 +340,16 @@ class FloatingHome extends HTMLElement {
             display: none !important;
           }
 
-          .floating-root .navbar,
           .floating-root .cookie-banner,
           .floating-root .skip-link {
             position: absolute;
           }
 
           .floating-root .navbar {
+            position: sticky !important;
             top: 0;
             background: rgba(244,239,227,0.97);
+            will-change: auto;
           }
 
           ${editorPreview ? `
@@ -829,7 +832,7 @@ class FloatingHome extends HTMLElement {
     if (root) {
       root.style.setProperty('width', '100%', 'important');
       root.style.setProperty('max-width', '100%', 'important');
-      root.style.setProperty('overflow-x', 'hidden', 'important');
+      root.style.setProperty('overflow-x', 'clip', 'important');
     }
 
     document.documentElement.style.setProperty('overflow-x', 'hidden', 'important');
@@ -879,7 +882,7 @@ class FloatingHome extends HTMLElement {
         }, 80);
       });
 
-      this.isolationObserver.observe(document.body, { childList: true, subtree: true });
+      this.isolationObserver.observe(document.body, { childList: true });
     }
   }
 
@@ -898,7 +901,17 @@ class FloatingHome extends HTMLElement {
       window.setTimeout(repair, delay);
     });
 
-    this.layoutWatchdog = window.setInterval(repair, 1500);
+    this.layoutWatchdog = true;
+    this.layoutWatchdogRuns = 0;
+    this.layoutWatchdogInterval = window.setInterval(() => {
+      this.layoutWatchdogRuns += 1;
+      repair();
+
+      if (this.layoutWatchdogRuns >= 8 && this.layoutWatchdogInterval) {
+        window.clearInterval(this.layoutWatchdogInterval);
+        this.layoutWatchdogInterval = 0;
+      }
+    }, 1500);
   }
 
   stopWixLayoutWatchdog() {
@@ -906,8 +919,13 @@ class FloatingHome extends HTMLElement {
 
     const repair = this.boundRepairWixLayout;
 
-    window.clearInterval(this.layoutWatchdog);
-    this.layoutWatchdog = 0;
+    if (this.layoutWatchdogInterval) {
+      window.clearInterval(this.layoutWatchdogInterval);
+      this.layoutWatchdogInterval = 0;
+    }
+
+    this.layoutWatchdog = false;
+    this.layoutWatchdogRuns = 0;
     window.removeEventListener('resize', repair);
     window.removeEventListener('orientationchange', repair);
     window.removeEventListener('pageshow', repair);
@@ -982,7 +1000,7 @@ class FloatingHome extends HTMLElement {
     if (root) {
       root.style.setProperty('width', '100%', 'important');
       root.style.setProperty('max-width', '100%', 'important');
-      root.style.setProperty('overflow-x', 'hidden', 'important');
+      root.style.setProperty('overflow-x', 'clip', 'important');
     }
   }
 

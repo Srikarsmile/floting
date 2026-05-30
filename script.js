@@ -1,451 +1,235 @@
-/* ═══════════════════════════════════════════
-   Floating Counselling — fluid interactions
-   Lenis smooth scroll + GSAP ScrollTrigger
-   ═══════════════════════════════════════════ */
-
+/* Floating Counselling — lightweight interactions */
 (function () {
   'use strict';
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const isTouch = window.matchMedia('(pointer: coarse)').matches;
+  const prefersSmooth = !reduceMotion;
 
-  // Wait for Lenis + GSAP to be ready (loaded with defer)
   function ready(fn) {
     if (document.readyState !== 'loading') fn();
-    else document.addEventListener('DOMContentLoaded', fn);
+    else document.addEventListener('DOMContentLoaded', fn, { once: true });
+  }
+
+  function scrollToTarget(target) {
+    const navbar = document.getElementById('navbar');
+    const offset = navbar ? navbar.getBoundingClientRect().height + 14 : 0;
+    const top = target.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: prefersSmooth ? 'smooth' : 'auto' });
+  }
+
+  function formatCounter(value, suffix) {
+    return Math.round(value).toLocaleString() + suffix;
   }
 
   ready(() => {
-    const hasGSAP = typeof window.gsap !== 'undefined';
-    const hasLenis = typeof window.Lenis !== 'undefined';
-    const hasST = hasGSAP && typeof window.ScrollTrigger !== 'undefined';
-
-    if (hasST) gsap.registerPlugin(ScrollTrigger);
-
-    /* ── 1. Smooth scroll (snappy lerp mode) ────────── */
-    let lenis = null;
-    if (hasLenis && !reduceMotion) {
-      lenis = new Lenis({
-        lerp: 0.1,
-        smoothWheel: true,
-        wheelMultiplier: 1.0,
-        touchMultiplier: 1.8,
-        syncTouch: false,
-      });
-      window.lenis = lenis;
-
-      function raf(time) {
-        lenis.raf(time);
-        requestAnimationFrame(raf);
-      }
-      requestAnimationFrame(raf);
-
-      if (hasST) {
-        lenis.on('scroll', ScrollTrigger.update);
-        gsap.ticker.lagSmoothing(0);
-      }
-    }
-
-    /* ── 2. Anchor links ────────────────────────────── */
-    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener('click', (e) => {
-        const href = anchor.getAttribute('href');
-        if (href.length < 2) return;
-        const target = document.querySelector(href);
-        if (!target) return;
-        e.preventDefault();
-        if (lenis) lenis.scrollTo(target, { offset: -90, duration: 1.2 });
-        else target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-    });
-
-    /* ── 3. Navbar — scrolled + show/hide ──────────── */
     const navbar = document.getElementById('navbar');
-    let lastScroll = 0;
-    let navTicking = false;
-    function updateNav() {
-      const y = window.scrollY;
-      navbar.classList.toggle('scrolled', y > 40);
-      if (y > 200 && y > lastScroll + 6) navbar.classList.add('is-hidden');
-      else if (y < lastScroll - 6 || y < 200) navbar.classList.remove('is-hidden');
-      lastScroll = y;
-      navTicking = false;
-    }
-    window.addEventListener('scroll', () => {
-      if (!navTicking) { navTicking = true; requestAnimationFrame(updateNav); }
-    }, { passive: true });
-
-    /* ── 4. Mobile nav ──────────────────────────────── */
     const navToggle = document.getElementById('navToggle');
     const navLinks = document.getElementById('navLinks');
-    navToggle.addEventListener('click', () => {
-      const open = navToggle.classList.toggle('open');
-      navLinks.classList.toggle('open');
-      navToggle.setAttribute('aria-expanded', String(open));
-      document.body.style.overflow = open ? 'hidden' : '';
-    });
-    navLinks.querySelectorAll('a').forEach((link) =>
-      link.addEventListener('click', () => {
-        navToggle.classList.remove('open');
-        navLinks.classList.remove('open');
-        navToggle.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
-      })
-    );
-
-    const languageSelect = document.getElementById('languageSelect');
-    if (languageSelect) {
-      const closeLanguageNav = () => {
-        navToggle.classList.remove('open');
-        navLinks.classList.remove('open');
-        navToggle.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
-      };
-
-      let translatorBound = false;
-      const bindTranslator = (translator) => {
-        if (translatorBound || !translator || !translator.create) return;
-        translatorBound = true;
-        translator.create({
-          root: document,
-          select: languageSelect,
-          onAfterChange: closeLanguageNav,
-        });
-      };
-
-      if (window.FloatingPageTranslator) {
-        bindTranslator(window.FloatingPageTranslator);
-      } else {
-        window.addEventListener('floatingtranslationready', (event) => bindTranslator(event.detail), { once: true });
-      }
-    }
-
-    /* ── 5. Scroll progress bar ─────────────────────── */
     const progress = document.querySelector('.scroll-progress span');
+    const languageSelect = document.getElementById('languageSelect');
+
+    if (navbar) {
+      let navTicking = false;
+      const updateNav = () => {
+        navbar.classList.toggle('scrolled', window.scrollY > 24);
+        navTicking = false;
+      };
+      window.addEventListener('scroll', () => {
+        if (!navTicking) {
+          navTicking = true;
+          requestAnimationFrame(updateNav);
+        }
+      }, { passive: true });
+      updateNav();
+    }
+
+    if (navToggle && navLinks) {
+      const closeNav = () => {
+        navToggle.classList.remove('open');
+        navLinks.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('nav-open');
+        document.body.style.overflow = '';
+      };
+
+      navToggle.addEventListener('click', () => {
+        const open = navToggle.classList.toggle('open');
+        navLinks.classList.toggle('open', open);
+        navToggle.setAttribute('aria-expanded', String(open));
+        document.body.classList.toggle('nav-open', open);
+        document.body.style.overflow = open ? 'hidden' : '';
+      });
+
+      navLinks.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', closeNav);
+      });
+
+      if (languageSelect) {
+        let translatorBound = false;
+        const bindTranslator = (translator) => {
+          if (translatorBound || !translator || !translator.create) return;
+          translatorBound = true;
+          translator.create({
+            root: document,
+            select: languageSelect,
+            onAfterChange: closeNav,
+          });
+        };
+
+        if (window.FloatingPageTranslator) {
+          bindTranslator(window.FloatingPageTranslator);
+        } else {
+          window.addEventListener('floatingtranslationready', (event) => bindTranslator(event.detail), { once: true });
+        }
+      }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener('click', (event) => {
+        const href = anchor.getAttribute('href');
+        if (!href || href.length < 2) return;
+        const target = document.querySelector(href);
+        if (!target) return;
+        event.preventDefault();
+        scrollToTarget(target);
+        if (history.pushState) history.pushState(null, '', href);
+      });
+    });
+
+    if (location.hash) {
+      const target = document.querySelector(location.hash);
+      if (target) window.setTimeout(() => scrollToTarget(target), 120);
+    }
+
     if (progress) {
-      let progTicking = false;
-      function updateProgress() {
-        const h = document.documentElement;
-        const max = h.scrollHeight - h.clientHeight;
-        const pct = max > 0 ? (h.scrollTop || window.scrollY) / max : 0;
-        progress.style.width = (pct * 100).toFixed(2) + '%';
-        progTicking = false;
-      }
-      window.addEventListener(
-        'scroll',
-        () => { if (!progTicking) { progTicking = true; requestAnimationFrame(updateProgress); } },
-        { passive: true }
-      );
-    }
-
-    if (!hasGSAP) return; // Reveal/parallax features all require GSAP
-    if (reduceMotion) {
-      // Reveal everything immediately
-      document.querySelectorAll('[data-fade], [data-card]').forEach((el) => {
-        el.style.opacity = 1;
-        el.style.transform = 'none';
-      });
-      document.querySelectorAll('[data-stagger] > *').forEach((el) => {
-        el.style.opacity = 1;
-        el.style.transform = 'none';
-      });
-      // Snap counters to their final values (no animation)
-      document.querySelectorAll('.counter').forEach((c) => {
-        const target = parseInt(c.dataset.target || '0', 10);
-        const suffix = c.dataset.suffix || '';
-        c.textContent = target.toLocaleString() + suffix;
-      });
-      return;
-    }
-
-    /* ── 6. Tiny word splitter — preserves <em> and other inline tags ──
-       NOTE: no overflow:hidden — that was clipping descenders (g, p, y, j) */
-    function splitText(el) {
-      const targets = [];
-      function wrapTextNode(textNode) {
-        const text = textNode.textContent;
-        if (!text.trim()) return;
-        const parts = text.split(/(\s+)/);
-        const frag = document.createDocumentFragment();
-        parts.forEach((part) => {
-          if (part === '') return;
-          if (/^\s+$/.test(part)) {
-            frag.appendChild(document.createTextNode(part));
-            return;
-          }
-          const wrap = document.createElement('span');
-          wrap.className = 'split-word';
-          wrap.style.cssText = 'display:inline-block;will-change:transform;line-height:inherit';
-          wrap.textContent = part;
-          frag.appendChild(wrap);
-          targets.push(wrap);
-        });
-        textNode.parentNode.replaceChild(frag, textNode);
-      }
-      function walk(node) {
-        Array.from(node.childNodes).forEach((child) => {
-          if (child.nodeType === Node.TEXT_NODE) wrapTextNode(child);
-          else if (child.nodeType === Node.ELEMENT_NODE) walk(child);
-        });
-      }
-      walk(el);
-      return targets;
-    }
-
-    /* ── 7. Reveal animations ───────────────────────── */
-    // data-split: split into words and stagger up
-    document.querySelectorAll('[data-split]').forEach((el) => {
-      const targets = splitText(el);
-      if (!targets.length) return;
-      gsap.fromTo(
-        targets,
-        { y: 22, opacity: 0 },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 0.7,
-          stagger: 0.025,
-          ease: 'power3.out',
-          scrollTrigger: { trigger: el, start: 'top 88%', once: true },
-          clearProps: 'transform',
+      let progressTicking = false;
+      const updateProgress = () => {
+        const doc = document.documentElement;
+        const max = doc.scrollHeight - doc.clientHeight;
+        const pct = max > 0 ? window.scrollY / max : 0;
+        progress.style.width = `${Math.min(100, Math.max(0, pct * 100)).toFixed(2)}%`;
+        progressTicking = false;
+      };
+      window.addEventListener('scroll', () => {
+        if (!progressTicking) {
+          progressTicking = true;
+          requestAnimationFrame(updateProgress);
         }
-      );
-    });
-
-    // data-fade: simple fade up
-    document.querySelectorAll('[data-fade]').forEach((el) => {
-      gsap.fromTo(
-        el,
-        { opacity: 0, y: 18 },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 0.6,
-          ease: 'power3.out',
-          scrollTrigger: { trigger: el, start: 'top 92%', once: true },
-        }
-      );
-    });
-
-    // data-stagger: stagger children up
-    document.querySelectorAll('[data-stagger]').forEach((parent) => {
-      gsap.fromTo(
-        parent.children,
-        { opacity: 0, y: 20 },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 0.6,
-          stagger: 0.06,
-          ease: 'power3.out',
-          scrollTrigger: { trigger: parent, start: 'top 88%', once: true },
-        }
-      );
-    });
-
-    // data-card: individual card entrance
-    document.querySelectorAll('[data-card]').forEach((el) => {
-      if (el.parentElement && el.parentElement.hasAttribute('data-stagger')) return;
-      gsap.fromTo(
-        el,
-        { opacity: 0, y: 22 },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 0.6,
-          ease: 'power3.out',
-          scrollTrigger: { trigger: el, start: 'top 92%', once: true },
-        }
-      );
-    });
-
-    /* ── 8. Parallax — data-parallax + data-speed ───── */
-    document.querySelectorAll('[data-parallax]').forEach((el) => {
-      const speed = parseFloat(el.dataset.speed || '0.3');
-      const trigger = el.closest('section') || el.parentElement;
-      gsap.to(el, {
-        yPercent: -18 * speed,
-        ease: 'none',
-        scrollTrigger: {
-          trigger,
-          start: 'top bottom',
-          end: 'bottom top',
-          scrub: 0.6,
-        },
-      });
-    });
-
-    /* ── 9. Hero 3D tilt ────────────────────────────── */
-    if (!isTouch) {
-      const tilts = document.querySelectorAll('[data-tilt]');
-      tilts.forEach((tilt) => {
-        const xTo = gsap.quickTo(tilt, 'rotateY', { duration: 0.8, ease: 'power3.out' });
-        const yTo = gsap.quickTo(tilt, 'rotateX', { duration: 0.8, ease: 'power3.out' });
-        const parent = tilt.parentElement;
-        parent.addEventListener('mousemove', (e) => {
-          const r = parent.getBoundingClientRect();
-          const px = (e.clientX - r.left) / r.width - 0.5;
-          const py = (e.clientY - r.top) / r.height - 0.5;
-          xTo(px * 8);
-          yTo(-py * 8);
-        });
-        parent.addEventListener('mouseleave', () => {
-          xTo(0);
-          yTo(0);
-        });
-      });
+      }, { passive: true });
+      updateProgress();
     }
 
-    /* ── 10. Hero orbs follow pointer (subtle) ──────── */
-    if (!isTouch) {
-      const hero = document.querySelector('.hero');
-      if (hero) {
-        const orbs = hero.querySelectorAll('.hero-orb');
-        const movers = Array.from(orbs).map((orb, i) => ({
-          el: orb,
-          x: gsap.quickTo(orb, 'x', { duration: 1.2, ease: 'power3.out' }),
-          y: gsap.quickTo(orb, 'y', { duration: 1.2, ease: 'power3.out' }),
-          factor: (i + 1) * 12,
-        }));
-        hero.addEventListener('mousemove', (e) => {
-          const r = hero.getBoundingClientRect();
-          const px = (e.clientX - r.left) / r.width - 0.5;
-          const py = (e.clientY - r.top) / r.height - 0.5;
-          movers.forEach((m) => {
-            m.x(px * m.factor);
-            m.y(py * m.factor);
-          });
+    const revealItems = document.querySelectorAll('[data-fade], [data-card], [data-stagger] > *');
+    if (revealItems.length && 'IntersectionObserver' in window && !reduceMotion) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
         });
-      }
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+
+      revealItems.forEach((item) => observer.observe(item));
+    } else {
+      revealItems.forEach((item) => item.classList.add('is-visible'));
     }
 
-    /* ── 11. Sticky impact strip — pinned counters ──── */
-    const impactSection = document.getElementById('impact');
     const counters = document.querySelectorAll('.counter');
-    const isNarrow = window.matchMedia('(max-width: 720px)').matches;
-    if (impactSection && counters.length) {
-      if (!isNarrow) {
-        // Desktop: Pin the full-width track so the centered container stays centered
-        ScrollTrigger.create({
-          trigger: impactSection,
-          start: 'top top',
-          end: '+=80%',
-          pin: '.impact-track',
-          pinSpacing: true,
-        });
+    const snapCounters = () => {
+      counters.forEach((counter) => {
+        counter.textContent = formatCounter(Number(counter.dataset.target || 0), counter.dataset.suffix || '');
+      });
+    };
 
-        // Counter tween driven by scroll
-        counters.forEach((c) => {
-          const target = parseInt(c.dataset.target || '0', 10);
-          const suffix = c.dataset.suffix || '';
-          const obj = { val: 0 };
-          gsap.to(obj, {
-            val: target,
-            ease: 'power2.out',
-            scrollTrigger: {
-              trigger: impactSection,
-              start: 'top center',
-              end: 'bottom center',
-              scrub: 0.6,
-            },
-            onUpdate: () => {
-              c.textContent = Math.round(obj.val).toLocaleString() + suffix;
-            },
-          });
+    if (counters.length && !reduceMotion && 'IntersectionObserver' in window) {
+      const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting || entry.target.dataset.counted === 'true') return;
+          entry.target.dataset.counted = 'true';
+
+          const target = Number(entry.target.dataset.target || 0);
+          const suffix = entry.target.dataset.suffix || '';
+          const duration = 900;
+          const start = performance.now();
+
+          const tick = (now) => {
+            const progressValue = Math.min(1, (now - start) / duration);
+            const eased = 1 - Math.pow(1 - progressValue, 3);
+            entry.target.textContent = formatCounter(target * eased, suffix);
+            if (progressValue < 1) requestAnimationFrame(tick);
+          };
+
+          requestAnimationFrame(tick);
+          counterObserver.unobserve(entry.target);
         });
-      } else {
-        // Mobile: Simple tween when section enters viewport
-        counters.forEach((c) => {
-          const target = parseInt(c.dataset.target || '0', 10);
-          const suffix = c.dataset.suffix || '';
-          const obj = { val: 0 };
-          gsap.to(obj, {
-            val: target,
-            duration: 1.8,
-            ease: 'power2.out',
-            scrollTrigger: {
-              trigger: impactSection,
-              start: 'top 80%',
-              once: true,
-            },
-            onUpdate: () => {
-              c.textContent = Math.round(obj.val).toLocaleString() + suffix;
-            },
-          });
-        });
-      }
+      }, { threshold: 0.2 });
+
+      counters.forEach((counter) => counterObserver.observe(counter));
+    } else {
+      snapCounters();
     }
 
-    /* ── 12. Refresh on resize ──────────────────────── */
-    let rt;
-    window.addEventListener('resize', () => {
-      clearTimeout(rt);
-      rt = setTimeout(() => ScrollTrigger.refresh(), 200);
-    });
-
-    /* ── 13. Refresh after fonts/images load ────────── */
-    window.addEventListener('load', () => {
-      ScrollTrigger.refresh();
-    });
-  });
-
-  /* ═══════════ Lightweight UX glue (works without GSAP) ═══════════ */
-  ready(() => {
-    /* Footer year */
     const yearEl = document.getElementById('footerYear');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    /* Sticky support FABs + back-to-top */
     const supportFabs = document.querySelectorAll('.support-fab, .donate-fab, .fundraiser-fab');
     const backToTop = document.getElementById('backToTop');
     const contactEl = document.getElementById('contact');
     const footerEl = document.querySelector('.footer');
-    let lastFabY = 0;
+    const smallScreen = window.matchMedia('(max-width: 720px)');
+    let lastFabY = window.scrollY;
     let scrollingDown = false;
-    function onScrollFabs() {
+    let fabTicking = false;
+
+    const updateFabs = () => {
       const y = window.scrollY;
-      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const max = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
       if (y > lastFabY + 12) scrollingDown = true;
       else if (y < lastFabY - 12) scrollingDown = false;
       lastFabY = y;
-      // Support FABs: always show when in range (don't hide on scroll-down)
+
       const contactRect = contactEl && contactEl.getBoundingClientRect();
       const footerRect = footerEl && footerEl.getBoundingClientRect();
       const contactIsVisible = contactRect && contactRect.top < window.innerHeight - 40 && contactRect.bottom > 80;
       const footerIsVisible = footerRect && footerRect.top < window.innerHeight - 40;
       const inFabRange = y > 600 && y < max - 200 && !contactIsVisible && !footerIsVisible;
-      supportFabs.forEach((fab) => fab.classList.toggle('is-visible', inFabRange));
-      // Back-to-top: hide while scrolling down
-      const showTop = y > 1200 && !scrollingDown;
-      if (backToTop) backToTop.classList.toggle('is-visible', showTop);
+      const supportVisible = inFabRange &&
+        !document.body.classList.contains('cookie-open') &&
+        !document.body.classList.contains('nav-open') &&
+        (!smallScreen.matches || !scrollingDown);
+      supportFabs.forEach((fab) => fab.classList.toggle('is-visible', supportVisible));
+      if (backToTop) backToTop.classList.toggle('is-visible', y > 1200 && !scrollingDown);
+      fabTicking = false;
+    };
+
+    if (supportFabs.length || backToTop) {
+      window.addEventListener('scroll', () => {
+        if (!fabTicking) {
+          fabTicking = true;
+          requestAnimationFrame(updateFabs);
+        }
+      }, { passive: true });
+      window.addEventListener('resize', updateFabs, { passive: true });
+      updateFabs();
     }
-    window.addEventListener('scroll', onScrollFabs, { passive: true });
-    onScrollFabs();
 
     if (backToTop) {
       backToTop.addEventListener('click', () => {
-        if (window.lenis && typeof window.lenis.scrollTo === 'function') {
-          window.lenis.scrollTo(0, { duration: 1.2 });
-        } else {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
+        window.scrollTo({ top: 0, behavior: prefersSmooth ? 'smooth' : 'auto' });
       });
     }
 
-    /* Ask Floating assistant widget */
     const assistantPanel = document.querySelector('[data-assistant-panel]');
     const assistantWidget = document.querySelector('[data-assistant-widget]');
     const assistantOpenButtons = document.querySelectorAll('[data-assistant-open]');
     const assistantCloseButtons = document.querySelectorAll('[data-assistant-close]');
-
     let assistantLastFocus = null;
-    function setAssistantOpen(open) {
+
+    const setAssistantOpen = (open) => {
       if (!assistantPanel) return;
       assistantPanel.hidden = !open;
       if (assistantWidget) assistantWidget.classList.toggle('is-open', open);
-      assistantOpenButtons.forEach((button) => {
-        button.setAttribute('aria-expanded', String(open));
-      });
+      assistantOpenButtons.forEach((button) => button.setAttribute('aria-expanded', String(open)));
       if (open) {
         assistantLastFocus = document.activeElement;
         const first = assistantPanel.querySelector('a, button, [tabindex]');
@@ -454,43 +238,30 @@
         assistantLastFocus.focus();
         assistantLastFocus = null;
       }
-    }
+    };
 
     assistantOpenButtons.forEach((button) => {
-      button.addEventListener('click', () => {
-        const isOpen = assistantPanel && !assistantPanel.hidden;
-        setAssistantOpen(!isOpen);
-      });
+      button.addEventListener('click', () => setAssistantOpen(Boolean(assistantPanel && assistantPanel.hidden)));
     });
-
-    assistantCloseButtons.forEach((button) => {
-      button.addEventListener('click', () => setAssistantOpen(false));
-    });
-
-    if (assistantPanel) {
-      assistantPanel.querySelectorAll('a').forEach((link) => {
-        link.addEventListener('click', () => setAssistantOpen(false));
-      });
-    }
-
+    assistantCloseButtons.forEach((button) => button.addEventListener('click', () => setAssistantOpen(false)));
+    if (assistantPanel) assistantPanel.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => setAssistantOpen(false)));
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape') setAssistantOpen(false);
     });
 
-    /* Open a policy <details> (privacy / safeguarding / cookies) when linked to */
-    function revealDetailsTarget(hash) {
+    const revealDetailsTarget = (hash) => {
       const id = (hash || '').replace('#', '');
       if (!id) return;
       const el = document.getElementById(id);
       if (el && el.tagName === 'DETAILS') el.open = true;
-    }
-    document.querySelectorAll('a[href^="#"]').forEach((a) => {
-      a.addEventListener('click', () => revealDetailsTarget(a.getAttribute('href')));
+    };
+
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener('click', () => revealDetailsTarget(anchor.getAttribute('href')));
     });
     window.addEventListener('hashchange', () => revealDetailsTarget(location.hash));
     revealDetailsTarget(location.hash);
 
-    /* Cookie banner */
     const banner = document.getElementById('cookieBanner');
     if (banner) {
       const consent = localStorage.getItem('fc-cookie-consent');
@@ -501,66 +272,64 @@
           document.body.classList.add('cookie-open');
         });
       }
-      banner.querySelectorAll('[data-cookie]').forEach((btn) => {
-        btn.addEventListener('click', () => {
-          localStorage.setItem('fc-cookie-consent', btn.dataset.cookie);
+      banner.querySelectorAll('[data-cookie]').forEach((button) => {
+        button.addEventListener('click', () => {
+          localStorage.setItem('fc-cookie-consent', button.dataset.cookie);
           banner.classList.remove('is-visible');
           document.body.classList.remove('cookie-open');
-          setTimeout(() => { banner.hidden = true; }, 500);
+          updateFabs();
+          window.setTimeout(() => { banner.hidden = true; }, 300);
         });
       });
     }
 
-    /* Newsletter form — graceful fallback (no backend) */
     const newsletterForm = document.getElementById('newsletterForm');
     if (newsletterForm) {
-      newsletterForm.addEventListener('submit', (e) => {
-        e.preventDefault();
+      newsletterForm.addEventListener('submit', (event) => {
+        event.preventDefault();
         const email = newsletterForm.querySelector('input[type="email"]');
         const status = newsletterForm.querySelector('[data-status]');
+        if (!email || !status) return;
         if (!email.value || !email.checkValidity()) {
           status.textContent = 'Please enter a valid email address.';
           status.dataset.state = 'error';
           email.focus();
           return;
         }
-        status.textContent = 'Thanks, check your inbox to confirm. We\'ll never spam.';
+        status.textContent = "Thanks, check your inbox to confirm. We'll never spam.";
         status.dataset.state = 'ok';
         email.value = '';
       });
     }
 
-    /* Contact form — graceful fallback */
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
-      contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
+      contactForm.addEventListener('submit', (event) => {
+        event.preventDefault();
         const status = contactForm.querySelector('[data-status]');
         const required = contactForm.querySelectorAll('[required]');
-        let valid = true;
-        required.forEach((field) => {
-          if (field.type === 'checkbox' ? !field.checked : !field.value.trim()) valid = false;
-        });
+        const valid = Array.from(required).every((field) => (
+          field.type === 'checkbox' ? field.checked : Boolean(field.value && field.value.trim())
+        ));
+        if (!status) return;
         if (!valid) {
           status.textContent = 'Please complete all required fields.';
           status.dataset.state = 'error';
           return;
         }
-        status.textContent = 'Thanks, your message has been sent. We\'ll be in touch within two working days.';
+        status.textContent = "Thanks, your message has been sent. We'll be in touch within two working days.";
         status.dataset.state = 'ok';
         contactForm.reset();
       });
     }
 
-    /* FAQ — close other items when one opens (accordion behaviour) */
     const faqItems = document.querySelectorAll('.faq-item');
     faqItems.forEach((item) => {
       item.addEventListener('toggle', () => {
-        if (item.open) {
-          faqItems.forEach((other) => {
-            if (other !== item) other.open = false;
-          });
-        }
+        if (!item.open) return;
+        faqItems.forEach((other) => {
+          if (other !== item) other.open = false;
+        });
       });
     });
   });

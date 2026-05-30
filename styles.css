@@ -66,7 +66,7 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 html {
-  scroll-behavior: auto; /* Lenis handles this */
+  scroll-behavior: auto; /* Native JS applies fixed-nav anchor offsets. */
   -webkit-text-size-adjust: 100%;
   background: var(--clr-primary-deep);
 }
@@ -1844,16 +1844,15 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 
 /* ═══════════════════════════════════════════
-   ANIMATION HELPERS (initial states for GSAP)
+   LIGHTWEIGHT REVEAL HELPERS
    ═══════════════════════════════════════════ */
-[data-fade] { opacity: 0; transform: translateY(24px); }
-[data-stagger] > * { opacity: 0; transform: translateY(24px); }
-[data-card] { opacity: 0; transform: translateY(28px); }
-
-/* When JS is disabled, show everything */
-.no-js [data-fade],
-.no-js [data-stagger] > *,
-.no-js [data-card] { opacity: 1; transform: none; }
+[data-fade],
+[data-stagger] > *,
+[data-card],
+.is-visible {
+  opacity: 1 !important;
+  transform: none !important;
+}
 
 /* ═══════════════════════════════════════════
    ACCESSIBILITY HELPERS
@@ -2803,6 +2802,13 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .back-to-top svg { width: 18px; height: 18px; }
 .back-to-top:hover { background: var(--clr-primary); color: var(--clr-white); }
 
+body.nav-open .support-fab,
+body.nav-open .assistant-widget,
+body.nav-open .back-to-top {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
 /* ═══════════════════════════════════════════
    COOKIE BANNER
    ═══════════════════════════════════════════ */
@@ -2981,9 +2987,9 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    gap: 8px;
+    gap: 4px;
     z-index: 999;
-    padding: 22px 24px calc(32px + env(safe-area-inset-bottom, 0px));
+    padding: 16px 20px calc(24px + env(safe-area-inset-bottom, 0px));
     overflow-y: auto;
     border-top: 1px solid var(--clr-line);
     box-shadow: 0 24px 44px -30px rgba(10,42,40,0.35);
@@ -2992,12 +2998,12 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   .nav-links li { width: 100%; text-align: center; }
   .nav-links a {
     width: min(100%, 320px);
-    min-height: 44px;
+    min-height: 40px;
     margin: 0 auto;
     justify-content: center;
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-family: var(--font-display);
-    padding: 9px 16px;
+    padding: 7px 16px;
     display: inline-flex;
     align-items: center;
   }
@@ -3008,12 +3014,12 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   .language-select {
     width: min(100%, 320px);
     max-width: 320px;
-    min-height: 48px;
+    min-height: 44px;
     text-align: center;
     font-size: 1rem;
     background: var(--clr-white);
   }
-  .nav-cta { width: min(100%, 320px); justify-content: center; padding: 16px 26px !important; }
+  .nav-cta { width: min(100%, 320px); justify-content: center; padding: 14px 24px !important; }
   .nav-toggle {
     width: 44px;
     height: 44px;
@@ -3032,6 +3038,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 
   /* Hero — tighter, less padded */
   .hero { padding-top: 76px; min-height: auto; padding-bottom: 24px; }
+  .hero-bg { display: none; }
   .hero-grid { gap: 28px; }
   .hero-content { gap: 16px; }
   .hero-badge { font-size: 0.72rem; padding: 7px 13px; }
@@ -3283,22 +3290,27 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   .assistant-window { padding: 18px; }
   .assistant-message { max-width: 94%; font-size: 0.9rem; }
   .assistant-widget {
-    right: 14px;
-    bottom: 14px;
+    left: auto;
+    right: 12px;
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    justify-items: end;
   }
   .assistant-fab {
-    width: 54px;
-    min-height: 54px;
-    padding: 10px;
+    width: auto;
+    min-height: 48px;
+    padding: 8px 14px 8px 8px;
     justify-content: center;
-    gap: 0;
-    font-size: 0;
+    gap: 8px;
+    font-size: 0.86rem;
+    box-shadow: 0 14px 28px -16px rgba(6,56,54,0.72);
   }
   .assistant-fab-mark {
-    font-size: 1rem;
+    width: 32px;
+    height: 32px;
+    font-size: 0.95rem;
   }
   .assistant-fab span:not(.assistant-fab-mark) {
-    display: none;
+    display: inline;
   }
   .assistant-panel {
     width: calc(100vw - 28px);
@@ -3369,30 +3381,38 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
     font-size: 0.78rem;
   }
 
-  /* Sticky support FABs — compact bottom rail on phones, away from Ask Floating */
+  /* Sticky support CTAs stay off phones so reading content is not covered. */
   .support-fab {
-    left: 14px;
+    display: none !important;
     right: auto;
-    width: 52px;
-    height: 52px;
-    min-height: 52px;
-    padding: 0;
-    border-radius: 50%;
+    width: auto;
+    min-width: 0;
+    height: 42px;
+    min-height: 42px;
+    padding: 0 10px;
+    border-radius: 999px;
     justify-content: center;
+    gap: 6px;
+    font-size: 0.78rem;
     box-shadow: 0 10px 24px -8px rgba(10,86,81,0.42);
   }
-  .fundraiser-fab { bottom: calc(14px + env(safe-area-inset-bottom, 0px)); }
-  .donate-fab {
-    left: 74px;
-    bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  .fundraiser-fab {
+    left: calc(50% + 5px);
+    right: 12px;
+    bottom: calc(68px + env(safe-area-inset-bottom, 0px));
   }
-  .support-fab span { display: none; }
-  .support-fab svg { width: 22px; height: 22px; }
+  .donate-fab {
+    left: 12px;
+    right: calc(50% + 5px);
+    bottom: calc(68px + env(safe-area-inset-bottom, 0px));
+  }
+  .support-fab span { display: inline; }
+  .support-fab svg { width: 16px; height: 16px; }
 
   /* Back-to-top sits above Ask Floating */
   .back-to-top {
-    right: 14px;
-    bottom: calc(78px + env(safe-area-inset-bottom, 0px));
+    right: 12px;
+    bottom: calc(74px + env(safe-area-inset-bottom, 0px));
     width: 42px; height: 42px;
   }
 
@@ -3418,15 +3438,19 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
     font-size: 0.82rem;
   }
 
-  /* Lift the support FABs / back-to-top above the cookie banner while open */
+  /* Keep first-visit cookie consent uncluttered on phones. */
+  body.cookie-open .support-fab {
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
   body.cookie-open .fundraiser-fab {
-    bottom: calc(130px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(68px + env(safe-area-inset-bottom, 0px));
   }
   body.cookie-open .donate-fab {
-    bottom: calc(130px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(68px + env(safe-area-inset-bottom, 0px));
   }
   body.cookie-open .back-to-top {
-    bottom: calc(250px + env(safe-area-inset-bottom, 0px));
+    bottom: calc(74px + env(safe-area-inset-bottom, 0px));
   }
   body.cookie-open .assistant-widget {
     display: none;
@@ -3507,6 +3531,10 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
     .team-readmore { padding: 12px 0; min-height: 44px; }
   }
   .nav-links a { padding: 14px 0; }
+  @media (max-width: 720px) {
+    .nav-links a { padding: 7px 16px; }
+    .nav-links .nav-cta { padding: 14px 24px !important; }
+  }
   .footer ul a { padding: 12px 0; display: inline-block; min-height: 44px; }
   .footer-legal a { padding: 10px 0; display: inline-block; min-height: 40px; }
   .contact-channels a { padding: 8px 0; display: inline-block; min-height: 40px; }

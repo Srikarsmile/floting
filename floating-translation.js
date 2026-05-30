@@ -260,12 +260,18 @@
       }
     });
 
-    const remapped = entries.map((entry) => {
+    const remapped = [];
+    let matchedCount = 0;
+
+    entries.forEach((entry) => {
       const translated = bySource.get(cleanText(entry.text));
-      return translated ? { key: entry.key, text: translated } : null;
+      if (!translated) return;
+      matchedCount += 1;
+      remapped.push({ key: entry.key, text: translated });
     });
 
-    return remapped.every(Boolean) ? remapped : null;
+    const minimumUsefulCoverage = entries.length > 30 ? entries.length * 0.72 : entries.length;
+    return matchedCount >= minimumUsefulCoverage ? remapped : null;
   }
 
   function estimatedPayloadChars(entry) {
