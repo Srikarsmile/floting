@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260530-04');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260530-05');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -1738,6 +1738,14 @@ class FloatingHome extends HTMLElement {
         const isOpen = navToggle.classList.toggle('open');
         navLinks.classList.toggle('open', isOpen);
         navToggle.setAttribute('aria-expanded', String(isOpen));
+
+        const assistantWidget = root.querySelector('[data-assistant-widget]');
+        if (assistantWidget) {
+          assistantWidget.classList.toggle('is-muted', isOpen);
+          if (!isOpen && typeof this.updateSupportFabVisibility === 'function') {
+            this.updateSupportFabVisibility();
+          }
+        }
       });
 
       navLinks.querySelectorAll('a').forEach((link) => {
@@ -1745,6 +1753,9 @@ class FloatingHome extends HTMLElement {
           navToggle.classList.remove('open');
           navLinks.classList.remove('open');
           navToggle.setAttribute('aria-expanded', 'false');
+          if (typeof this.updateSupportFabVisibility === 'function') {
+            this.updateSupportFabVisibility();
+          }
         });
       });
     }
@@ -1822,8 +1833,10 @@ class FloatingHome extends HTMLElement {
 
     const supportFabs = root.querySelectorAll('.support-fab, .donate-fab, .fundraiser-fab');
     const backToTop = root.getElementById('backToTop');
+    const assistantWidget = root.querySelector('[data-assistant-widget]');
     const contactEl = root.getElementById('contact');
     const footerEl = root.querySelector('.footer');
+    const smallScreen = window.matchMedia('(max-width: 720px)');
 
     if (!supportFabs.length && !backToTop) {
       return;
@@ -1866,6 +1879,10 @@ class FloatingHome extends HTMLElement {
       const footerIsVisible = footerRect && footerRect.top < window.innerHeight - 40;
       const inFabRange = y > 600 && y < max - 200 && !contactIsVisible && !footerIsVisible;
       supportFabs.forEach((fab) => fab.classList.toggle('is-visible', inFabRange));
+      if (assistantWidget) {
+        const menuOpen = root.getElementById('navLinks') && root.getElementById('navLinks').classList.contains('open');
+        assistantWidget.classList.toggle('is-muted', Boolean(menuOpen) || (smallScreen.matches && y < 720));
+      }
 
       if (backToTop) {
         backToTop.classList.toggle('is-visible', y > 1200 && !scrollingDown);
