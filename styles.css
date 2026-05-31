@@ -3436,6 +3436,9 @@ body.nav-open .back-to-top {
     right: 12px;
     bottom: calc(68px + env(safe-area-inset-bottom, 0px));
     padding: 0 14px;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
   }
   .support-fab span { display: inline; }
   .support-fab svg { width: 16px; height: 16px; }
