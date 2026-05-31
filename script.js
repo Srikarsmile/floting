@@ -107,7 +107,7 @@
         const doc = document.documentElement;
         const max = doc.scrollHeight - doc.clientHeight;
         const pct = max > 0 ? window.scrollY / max : 0;
-        progress.style.width = `${Math.min(100, Math.max(0, pct * 100)).toFixed(2)}%`;
+        progress.style.transform = `scaleX(${Math.min(1, Math.max(0, pct)).toFixed(4)})`;
         progressTicking = false;
       };
       window.addEventListener('scroll', () => {
@@ -184,9 +184,11 @@
       const inFabRange = y > 600 && y < max - 200 && !contactIsVisible && !footerIsVisible;
       const supportVisible = inFabRange &&
         !document.body.classList.contains('cookie-open') &&
-        !document.body.classList.contains('nav-open') &&
-        (!smallScreen.matches || !scrollingDown);
-      supportFabs.forEach((fab) => fab.classList.toggle('is-visible', supportVisible));
+        !document.body.classList.contains('nav-open');
+      supportFabs.forEach((fab) => {
+        const mobileAllowed = !smallScreen.matches || fab.classList.contains('donate-fab');
+        fab.classList.toggle('is-visible', supportVisible && mobileAllowed);
+      });
       if (assistantWidget) {
         assistantWidget.classList.toggle(
           'is-muted',

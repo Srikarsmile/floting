@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260531-04');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260531-05');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -2042,7 +2042,9 @@ class FloatingHome extends HTMLElement {
       if (!smallScreen.matches) {
         supportFabs.forEach((fab) => fab.classList.toggle('is-visible', inFabRange));
       } else {
-        supportFabs.forEach((fab) => fab.classList.remove('is-visible'));
+        supportFabs.forEach((fab) => {
+          fab.classList.toggle('is-visible', fab.classList.contains('donate-fab') && inFabRange);
+        });
       }
       if (assistantWidget) {
         const menuOpen = root.getElementById('navLinks') && root.getElementById('navLinks').classList.contains('open');
