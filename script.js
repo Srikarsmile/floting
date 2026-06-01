@@ -4,17 +4,61 @@
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const prefersSmooth = !reduceMotion;
+  let anchorScrollId = 0;
 
   function ready(fn) {
     if (document.readyState !== 'loading') fn();
     else document.addEventListener('DOMContentLoaded', fn, { once: true });
   }
 
+  function materializeAnchorPath(target) {
+    if (!target || !document.querySelectorAll || typeof Node === 'undefined') return;
+
+    document.querySelectorAll('.section').forEach((section) => {
+      const position = section.compareDocumentPosition(target);
+      const isBeforeTarget = Boolean(position & Node.DOCUMENT_POSITION_FOLLOWING);
+
+      if (section === target || section.contains(target) || isBeforeTarget) {
+        section.style.contentVisibility = 'visible';
+      }
+    });
+  }
+
+  function targetFromHash(hash) {
+    if (!hash || hash.length < 2) return null;
+
+    try {
+      return document.querySelector(hash);
+    } catch (error) {
+      return null;
+    }
+  }
+
   function scrollToTarget(target) {
+    const scrollId = ++anchorScrollId;
+
+    materializeAnchorPath(target);
+
     const navbar = document.getElementById('navbar');
     const offset = navbar ? navbar.getBoundingClientRect().height + 14 : 0;
-    const top = target.getBoundingClientRect().top + window.scrollY - offset;
-    window.scrollTo({ top, behavior: prefersSmooth ? 'smooth' : 'auto' });
+    const currentY = () => window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
+    const targetTop = () => Math.max(0, target.getBoundingClientRect().top + currentY() - offset);
+    const behavior = prefersSmooth ? 'smooth' : 'auto';
+
+    window.scrollTo({ top: targetTop(), behavior });
+
+    if (!prefersSmooth) return;
+
+    [500, 1100].forEach((delay) => {
+      window.setTimeout(() => {
+        if (scrollId !== anchorScrollId) return;
+
+        const nextTop = targetTop();
+        if (Math.abs(nextTop - currentY()) > 6) {
+          window.scrollTo({ top: nextTop, behavior: 'auto' });
+        }
+      }, delay);
+    });
   }
 
   function formatCounter(value, suffix) {
@@ -88,7 +132,7 @@
       anchor.addEventListener('click', (event) => {
         const href = anchor.getAttribute('href');
         if (!href || href.length < 2) return;
-        const target = document.querySelector(href);
+        const target = targetFromHash(href);
         if (!target) return;
         event.preventDefault();
         scrollToTarget(target);
@@ -96,10 +140,16 @@
       });
     });
 
+    const scrollToCurrentHash = () => {
+      const target = targetFromHash(location.hash);
+      if (target) scrollToTarget(target);
+    };
+
     if (location.hash) {
-      const target = document.querySelector(location.hash);
-      if (target) window.setTimeout(() => scrollToTarget(target), 120);
+      window.setTimeout(scrollToCurrentHash, 120);
     }
+
+    window.addEventListener('hashchange', scrollToCurrentHash);
 
     if (progress) {
       let progressTicking = false;

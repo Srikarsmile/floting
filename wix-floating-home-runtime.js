@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-03');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-04');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -1869,7 +1869,7 @@ class FloatingHome extends HTMLElement {
         const href = anchor.getAttribute('href');
         if (!href || href.length < 2) return;
 
-        const target = root.querySelector(href);
+        const target = this.targetFromShadowHash(root, href);
         if (!target) return;
 
         event.preventDefault();
@@ -1877,6 +1877,19 @@ class FloatingHome extends HTMLElement {
         this.updateSupportFabVisibility();
       }, { signal });
     });
+
+    const scrollToCurrentHash = () => {
+      const target = this.targetFromShadowHash(root, window.location.hash);
+      if (!target) return;
+
+      this.scrollToShadowTarget(target);
+      this.updateSupportFabVisibility();
+    };
+
+    window.addEventListener('hashchange', scrollToCurrentHash, { signal });
+    if (window.location.hash) {
+      window.setTimeout(scrollToCurrentHash, 120);
+    }
 
     const navToggle = root.getElementById('navToggle');
     const navLinks = root.getElementById('navLinks');
@@ -1995,23 +2008,70 @@ class FloatingHome extends HTMLElement {
   scrollToShadowTarget(target) {
     if (!target) return;
 
+    this.anchorScrollId = (this.anchorScrollId || 0) + 1;
+    const scrollId = this.anchorScrollId;
+
+    this.materializeShadowAnchorPath(target);
+
     const root = this.shadowRoot;
     const navbar = root && root.querySelector('.navbar');
     const offset = navbar ? navbar.getBoundingClientRect().height + 14 : 0;
-    const currentY =
+    const currentY = () =>
       window.scrollY ||
       window.pageYOffset ||
       document.documentElement.scrollTop ||
       (document.body && document.body.scrollTop) ||
       0;
-    const top = Math.max(0, target.getBoundingClientRect().top + currentY - offset);
-
+    const targetTop = () => Math.max(0, target.getBoundingClientRect().top + currentY() - offset);
     const behavior = this.prefersReducedMotion() ? 'auto' : 'smooth';
+    const scrollPageTo = (top, scrollBehavior) => {
+      window.scrollTo({ top, behavior: scrollBehavior });
+      document.documentElement.scrollTo({ top, behavior: scrollBehavior });
+      if (document.body) {
+        document.body.scrollTo({ top, behavior: scrollBehavior });
+      }
+    };
 
-    window.scrollTo({ top, behavior });
-    document.documentElement.scrollTo({ top, behavior });
-    if (document.body) {
-      document.body.scrollTo({ top, behavior });
+    scrollPageTo(targetTop(), behavior);
+
+    if (behavior !== 'smooth') return;
+
+    [500, 1100].forEach((delay) => {
+      window.setTimeout(() => {
+        if (scrollId !== this.anchorScrollId) return;
+
+        const nextTop = targetTop();
+        if (Math.abs(nextTop - currentY()) > 6) {
+          scrollPageTo(nextTop, 'auto');
+          if (typeof this.updateSupportFabVisibility === 'function') {
+            this.updateSupportFabVisibility();
+          }
+        }
+      }, delay);
+    });
+  }
+
+  materializeShadowAnchorPath(target) {
+    const root = this.shadowRoot;
+    if (!target || !root || !root.querySelectorAll || typeof Node === 'undefined') return;
+
+    root.querySelectorAll('.section').forEach((section) => {
+      const position = section.compareDocumentPosition(target);
+      const isBeforeTarget = Boolean(position & Node.DOCUMENT_POSITION_FOLLOWING);
+
+      if (section === target || section.contains(target) || isBeforeTarget) {
+        section.style.contentVisibility = 'visible';
+      }
+    });
+  }
+
+  targetFromShadowHash(root, hash) {
+    if (!root || !hash || hash.length < 2) return null;
+
+    try {
+      return root.querySelector(hash);
+    } catch (error) {
+      return null;
     }
   }
 
