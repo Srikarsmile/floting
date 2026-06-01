@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260531-06');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260601-01');
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -586,7 +586,7 @@ class FloatingHome extends HTMLElement {
       ['preload', 'style', this.stylesUrl()],
       ['preload', 'image', this.asset('images/logo.webp')],
       ['preload', 'image', this.asset('images/counselling-real-20260515.webp')],
-      ['prefetch', 'image', this.asset('images/team-celestina.webp')],
+      ['prefetch', 'image', this.asset('images/team-celestina-20260601.webp')],
       ['prefetch', 'image', this.asset('images/hub-real-20260515.webp')],
     ].forEach(([rel, as, href]) => {
       if (document.head.querySelector(`link[rel="${rel}"][href="${href}"]`)) return;
@@ -1389,7 +1389,7 @@ class FloatingHome extends HTMLElement {
     const profiles = [
       {
         match: 'celestina',
-        image: this.asset('images/team-celestina.webp'),
+        image: this.asset('images/team-celestina-20260601.webp'),
         email: 'info@floatingcounselling.co.uk',
         url: 'https://uk.linkedin.com/in/celestina-oniye-thomas',
         ctaLabel: 'Read more',
