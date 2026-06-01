@@ -2098,6 +2098,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .btn-sm {
   padding: 12px 20px;
   font-size: 0.9rem;
+  min-height: 44px;
 }
 
 /* ═══════════════════════════════════════════
@@ -2873,6 +2874,7 @@ body.nav-open .back-to-top {
 .cookie-banner a { color: var(--clr-brand); }
 .cookie-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   justify-content: flex-end;
 }
@@ -3479,9 +3481,10 @@ body.nav-open .back-to-top {
   .cookie-actions { justify-content: flex-end; gap: 8px; flex: 0 0 auto; margin-left: auto; }
   .cookie-actions .btn {
     flex: 0 0 auto;
-    padding: 8px 16px;
-    min-height: 36px;
+    padding: 10px 16px;
+    min-height: 44px;
     font-size: 0.82rem;
+    justify-content: center;
   }
 
   /* Keep first-visit cookie consent uncluttered on phones. */
