@@ -197,8 +197,6 @@ async function collectSourceEntries(sourceUrl) {
         'iframe',
         'video',
         'audio',
-        'select',
-        'option',
         'input',
         'textarea',
         '[data-no-translate]',

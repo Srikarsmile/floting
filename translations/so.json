@@ -2,9 +2,9 @@
   "language": "so",
   "languageName": "Somali",
   "sourceLanguage": "en",
-  "sourceHash": "sym184",
-  "sourceUrl": "http://127.0.0.1:55223/",
-  "generatedAt": "2026-06-01T22:06:19.143Z",
+  "sourceHash": "4ftabt",
+  "sourceUrl": "http://127.0.0.1:57366/",
+  "generatedAt": "2026-06-01T22:55:57.786Z",
   "translations": [
     {
       "key": "t0",
@@ -1413,263 +1413,263 @@
     },
     {
       "key": "t281",
+      "source": "Counselling enquiry",
+      "text": "Weydiinta la-talinta"
+    },
+    {
+      "key": "t282",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t283",
+      "source": "Community Hub / food support",
+      "text": "Taageerada Cunnada Hub Community"
+    },
+    {
+      "key": "t284",
+      "source": "Holiday school",
+      "text": "Dugsiga fasaxa"
+    },
+    {
+      "key": "t285",
+      "source": "Fundraising",
+      "text": "Dhaqaale ururin"
+    },
+    {
+      "key": "t286",
+      "source": "Volunteering",
+      "text": "Iskaa wax u qabso"
+    },
+    {
+      "key": "t287",
+      "source": "Press / partnership",
+      "text": "Saxaafad/wadaag"
+    },
+    {
+      "key": "t288",
+      "source": "Something else",
+      "text": "Wax kale"
+    },
+    {
+      "key": "t289",
       "source": "Message",
       "text": "Fariinta"
     },
     {
-      "key": "t282",
+      "key": "t290",
       "source": "I agree to be contacted in line with the",
       "text": "Waxaan aqbalay in la igula soo xiriiro si waafaqsan"
     },
     {
-      "key": "t283",
+      "key": "t291",
       "source": "privacy policy",
       "text": "siyaasadda sirnimada"
     },
     {
-      "key": "t284",
+      "key": "t292",
       "source": "Send message",
       "text": "Fariin dir"
     },
     {
-      "key": "t285",
+      "key": "t293",
       "source": "We're here",
       "text": "Waxaan joognaa halkan"
     },
     {
-      "key": "t286",
+      "key": "t294",
       "source": "Whatever you're carrying, you don't carry it alone.",
       "text": "Wax kasta oo aad sido, keligaa ma sidatid."
     },
     {
-      "key": "t287",
+      "key": "t295",
       "source": "Whether you need counselling, community support, food, or just someone to talk to. Reach out today. Your first step matters.",
       "text": "Haddii aad u baahan tahay la-talin, taageero bulsho, cunto, ama qof kaliya oo aad la hadasho. Gaadhi maanta. Talaabadaada koowaad ayaa muhiim ah."
     },
     {
-      "key": "t288",
+      "key": "t296",
       "source": "Email us",
       "text": "Noogu soo dir emaylka"
     },
     {
-      "key": "t289",
+      "key": "t297",
       "source": "WhatsApp us",
       "text": "WhatsApp anaga"
     },
     {
-      "key": "t290",
+      "key": "t298",
       "source": "Donate via PayPal",
       "text": "Ku deeq PayPal"
     },
     {
-      "key": "t291",
+      "key": "t299",
       "source": "Localgiving",
       "text": "Localgiving"
     },
     {
-      "key": "t292",
+      "key": "t300",
       "source": "Fundraiser",
       "text": "Lacag ururin"
     },
     {
-      "key": "t293",
+      "key": "t301",
       "source": "Volunteer",
       "text": "Tabaruc"
     },
     {
-      "key": "t294",
+      "key": "t302",
       "source": "Policies & your privacy",
       "text": "Siyaasadaha & sirtaada"
     },
     {
-      "key": "t295",
+      "key": "t303",
       "source": "How we protect you and your data.",
       "text": "Sida aan u ilaalino adiga iyo xogtaada."
     },
     {
-      "key": "t296",
+      "key": "t304",
       "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
       "text": "Soo koobid Ingiriisi oo cad oo ah sida aan u maarayno macluumaadkaaga, u ilaalino dadka, iyo isticmaal cookies-ka. Xeerarka buuxa ama codsi kasta, iimayl u dir"
     },
     {
-      "key": "t297",
+      "key": "t305",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t298",
+      "key": "t306",
       "source": "Privacy policy",
       "text": "Siyaasadda qarsoodiga"
     },
     {
-      "key": "t299",
+      "key": "t307",
       "source": "Who we are.",
       "text": "Yaanu nahay."
     },
     {
-      "key": "t300",
+      "key": "t308",
       "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
       "text": "Floating Counselling Community waa hay'ad UK ah oo bixisa latalin iyo taageero bulsho tan iyo 2015. Waxaan u shaqaynaa sidii SABABEYNTA COUNSELING COMMUNITY, shirkad ay xaddidan tahay dammaanad ka diiwaan gashan England iyo Wales, lambarka shirkadda 11334515. Anagu waxaanu nahay maamulaha xogta macluumaadka aad nala wadaagto. Codsiyada qarsoodiga ah, iimayl"
     },
     {
-      "key": "t301",
+      "key": "t309",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t302",
+      "key": "t310",
       "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
       "text": "ama u qor xafiiskayaga Croydon ee ku yaal 26 Avenue Road, London SE25 4DX."
     },
     {
-      "key": "t303",
+      "key": "t311",
       "source": "What we collect.",
       "text": "Waxa aanu ururino"
     },
     {
-      "key": "t304",
+      "key": "t312",
       "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
       "text": "Markaad nagala soo xidhiidho foomka waydiinta, iimaylka ama WhatsApp, waxaanu helnaa faahfaahinta aad doorato inaad na siiso - sida caadiga ah magacaaga, ciwaanka iimaylka, mawduuca aad dooratay iyo fariintaada. Haddii aad iska diiwaangeliso warsidahayaga waxaanu ururinaynaa ciwaanka emailkaaga. Ma ku waydiisanno macluumaadka caafimaadka qaybta gaarka ah iyada oo loo marayo mareegahan; fadlan la wadaag kaliya waxa aad ku qanacsan tahay."
     },
     {
-      "key": "t305",
+      "key": "t313",
       "source": "How we use it, and our lawful basis.",
       "text": "Sida aan u isticmaalno, iyo saldhiggayaga sharciga ah."
     },
     {
-      "key": "t306",
+      "key": "t314",
       "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
       "text": "Waxaan u isticmaalnaa faahfaahintaada si aan kuugu jawaabno, ku siino taageerada aad codsato, oo aan u wadno adeegyadeena (UK GDPR \"oggolaanshaha\" iyo \"dano sharci ah\"). Halka ay waajib naga saaran tahay in aan qof ilaalino, waxa laga yaabaa in aanu ka baaraandegno macluumaadka si aanu u buuxino waajibaad sharci ah (eeg Badbaadinta)."
     },
     {
-      "key": "t307",
+      "key": "t315",
       "source": "Who we share it with.",
       "text": "Cida aan la wadaagno."
     },
     {
-      "key": "t308",
+      "key": "t316",
       "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
       "text": "Ma iibino xogtaada. Waxaan ku tiirsannahay tiro yar oo bixiyeyaasha adeegga lagu kalsoon yahay kuwaas oo naga caawiya socodsiinta website-ka, iimaylka, foomamka, codsiyada tabaruca, deeqaha iyo maabyada. Bixiye kastaa wuxuu helaa kaliya macluumaadka looga baahan yahay adeegaas, mid walbana wuxuu leeyahay ogeysiis gaar ah oo u gaar ah."
     },
     {
-      "key": "t309",
+      "key": "t317",
       "source": "Translation.",
       "text": "Turjumaada"
     },
     {
-      "key": "t310",
+      "key": "t318",
       "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
       "text": "Haddii aad turjunto boggan, qoraalka bogga shaashadda waxaa si ammaan ah loogu diri karaa adeegga tarjumaada si nooca la turjumay dib loogu soo celiyo. Turjumaada waa ikhtiyaari, fariimaha qaabka xidhiidhka ah kuma turjuman sifadan, qoraalka la turjumayna waxa laga yaabaa in lagu kaydiyo biraawsarkaaga si uu dhakhso ugu shubo marka xigta."
     },
     {
-      "key": "t311",
+      "key": "t319",
       "source": "How long we keep it.",
       "text": "Intee in le'eg ayaan haysanaa."
     },
     {
-      "key": "t312",
+      "key": "t320",
       "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
       "text": "Waxaan haynaa faahfaahinta weydiinta iyo taageerada-codsiga kaliya ilaa iyo inta loo baahan yahay si looga jawaabo, bixinta taageero, buuxinta waajibaadka ilaalinta, iyo u hoggaansanaanta sharciga ama waajibaadka xisaabaadka. Deeqaha iyo diiwaanada iskaa wax u qabso waxaa loo hayaa iyadoo loo eegayo bixiyaha ku haboon iyo shuruudaha haynta sharciga ah."
     },
     {
-      "key": "t313",
+      "key": "t321",
       "source": "Your rights.",
       "text": "Xuquuqdaada"
     },
     {
-      "key": "t314",
+      "key": "t322",
       "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
       "text": "Hoosta UK GDPR waxaad waydiisan kartaa inaad gasho, saxdo, tirtirto ama xaddido xogtaada, diido habaynta, codsato qaadista, ama kala noqoshada ogolaanshaha wakhti kasta. iimaylka"
     },
     {
-      "key": "t315",
+      "key": "t323",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t316",
+      "key": "t324",
       "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
       "text": "ama noogu soo qor 26 Avenue Road, London SE25 4DX. Haddii aadan ku faraxsanayn jawaabtayada waxaad u dacwoon kartaa ICO ee ico.org.uk."
     },
     {
-      "key": "t317",
+      "key": "t325",
       "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
       "text": "Dib-u-eegistii u dambaysay: 29ka Meey 2026"
     },
     {
-      "key": "t318",
+      "key": "t326",
       "source": "Safeguarding",
       "text": "Ilaalinta"
     },
     {
-      "key": "t319",
+      "key": "t327",
       "source": "Our commitment.",
       "text": "Ballanqaadkayaga."
     },
     {
-      "key": "t320",
+      "key": "t328",
       "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
       "text": "Badbaadada iyo ladnaanta carruurta, dhalinyarada iyo dadka waaweyn ee khatarta ku jira ee aanu la shaqayno ayaa ugu horreeya. Dhaqankeennu waa mid laga warhelay dhaawacyada oo uu la socdo heerarka anshaxa ee BACP."
     },
     {
-      "key": "t321",
+      "key": "t329",
       "source": "Confidentiality and its limits.",
       "text": "Qarsoodi iyo xadkeeda."
     },
     {
-      "key": "t322",
+      "key": "t330",
       "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
       "text": "Waxa aad wadaagto waxaa lagu hayaa kalsooni adag. Waxa ka reeban waa xaalad ilaalineed - halkaas oo ay jirto khatar ah in waxyeelo halis ah loo geysto adiga ama qof kale, ama meesha aan ku leenahay waajibaad sharci ah oo aan ku dhaqaaqno. Meel kasta oo ay ammaan tahay in sidaas la sameeyo, waxaan marka hore kaala hadli doonnaa tan."
     },
     {
-      "key": "t323",
+      "key": "t331",
       "source": "Raising a concern.",
       "text": "Kor u qaadida walaac."
     },
     {
-      "key": "t324",
+      "key": "t332",
       "source": "If you're worried about someone's safety, contact us at",
       "text": "Haddii aad ka welwelsan tahay badbaadada qof, nagala soo xidhiidh"
-    },
-    {
-      "key": "t325",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t326",
-      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
-      "text": "ama +44 (0)7305 882959. Haddii qof uu ku jiro khatar degdeg ah, had iyo jeer wac 999. Waxa kale oo aad kala xidhiidhi kartaa NSPCC 0808 800 5000, ama kooxda ilaalinta dawladda hoose."
-    },
-    {
-      "key": "t327",
-      "source": "Our people.",
-      "text": "Dadkeena."
-    },
-    {
-      "key": "t328",
-      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
-      "text": "Shaqaalaha iyo mutadawiciinta si badbaado leh ayaa loo shaqaaleysiiyay waxayna helaan hubinta DBS halka ay ku habboon tahay doorkooda."
-    },
-    {
-      "key": "t329",
-      "source": "Safeguarding lead.",
-      "text": "Ilaalinta hogaanka."
-    },
-    {
-      "key": "t330",
-      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
-      "text": "Linda Yeboah, Agaasimaha & Sarkaalka Ilaalinta. iimaylka"
-    },
-    {
-      "key": "t331",
-      "source": "floatingcounsellinglinda@gmail.com",
-      "text": "floatingcounsellinglinda@gmail.com"
-    },
-    {
-      "key": "t332",
-      "source": "or",
-      "text": "ama"
     },
     {
       "key": "t333",
@@ -1678,426 +1678,466 @@
     },
     {
       "key": "t334",
-      "source": ". If someone is in immediate danger, call 999.",
-      "text": "Haddii qof uu ku jiro khatar degdeg ah, wac 999."
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "ama +44 (0)7305 882959. Haddii qof uu ku jiro khatar degdeg ah, had iyo jeer wac 999. Waxa kale oo aad kala xidhiidhi kartaa NSPCC 0808 800 5000, ama kooxda ilaalinta dawladda hoose."
     },
     {
       "key": "t335",
-      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
-      "text": "Dib-u-eegistii u dambaysay: 29 Maajo 2026. Soo koobitaankan waa in laga hubiyaa siyaasadda ilaalinta buuxda ee Floating Counselling Community ka hor intaan la daabicin."
+      "source": "Our people.",
+      "text": "Dadkeena."
     },
     {
       "key": "t336",
-      "source": "Cookies & storage",
-      "text": "Kukiyada & kaydinta"
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "Shaqaalaha iyo mutadawiciinta si badbaado leh ayaa loo shaqaaleysiiyay waxayna helaan hubinta DBS halka ay ku habboon tahay doorkooda."
     },
     {
       "key": "t337",
-      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
-      "text": "Waxaan ku haynaa kuukiiska ugu yaraan mana isticmaalno xayaysiisyada ama raadinta goobta. Mareegtu waxay ku kaydisaa dhowr shay oo yaryar browser kaaga:"
+      "source": "Safeguarding lead.",
+      "text": "Ilaalinta hogaanka."
     },
     {
       "key": "t338",
-      "source": "Cookie consent",
-      "text": "Oggolaanshaha kukiyada"
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, Agaasimaha & Sarkaalka Ilaalinta. iimaylka"
     },
     {
       "key": "t339",
-      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
-      "text": "- Xusuusnow inaad aragtay ogeysiiskan, si aanaan u tusin booqasho kasta."
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatingcounsellinglinda@gmail.com"
     },
     {
       "key": "t340",
-      "source": "Translation cache",
-      "text": "kaydka turjumaada"
+      "source": "or",
+      "text": "ama"
     },
     {
       "key": "t341",
-      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
-      "text": "- Haddii aad turjunto bogga, qoraalka la turjumay waxa lagu kaydiyaa gudaha si uu isla markaaba u shubo marka xigta."
-    },
-    {
-      "key": "t342",
-      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
-      "text": "Khariidadda Google-ku-xidhan ayaa laga yaabaa inay dejiso cookies-ka Google-ka marka ay soo shubato. Waxaad nadiifin kartaa dhammaan kuwa kore wakhti kasta adiga oo nadiifinaya xogta goobta biraawsarkaaga."
-    },
-    {
-      "key": "t343",
-      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
-      "text": "La-talinta, bulshada & naxariista, u adeegaya Croydon, Redbridge, Newham, Durham iyo Southwark ilaa 2015."
-    },
-    {
-      "key": "t344",
-      "source": "Get in touch",
-      "text": "la xidhiidh"
-    },
-    {
-      "key": "t345",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
+      "key": "t342",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": "Haddii qof uu ku jiro khatar degdeg ah, wac 999."
+    },
+    {
+      "key": "t343",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Dib-u-eegistii u dambaysay: 29 Maajo 2026. Soo koobitaankan waa in laga hubiyaa siyaasadda ilaalinta buuxda ee Floating Counselling Community ka hor intaan la daabicin."
+    },
+    {
+      "key": "t344",
+      "source": "Cookies & storage",
+      "text": "Kukiyada & kaydinta"
+    },
+    {
+      "key": "t345",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "Waxaan ku haynaa kuukiiska ugu yaraan mana isticmaalno xayaysiisyada ama raadinta goobta. Mareegtu waxay ku kaydisaa dhowr shay oo yaryar browser kaaga:"
+    },
+    {
       "key": "t346",
+      "source": "Cookie consent",
+      "text": "Oggolaanshaha kukiyada"
+    },
+    {
+      "key": "t347",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "- Xusuusnow inaad aragtay ogeysiiskan, si aanaan u tusin booqasho kasta."
+    },
+    {
+      "key": "t348",
+      "source": "Translation cache",
+      "text": "kaydka turjumaada"
+    },
+    {
+      "key": "t349",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "- Haddii aad turjunto bogga, qoraalka la turjumay waxa lagu kaydiyaa gudaha si uu isla markaaba u shubo marka xigta."
+    },
+    {
+      "key": "t350",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "Khariidadda Google-ku-xidhan ayaa laga yaabaa inay dejiso cookies-ka Google-ka marka ay soo shubato. Waxaad nadiifin kartaa dhammaan kuwa kore wakhti kasta adiga oo nadiifinaya xogta goobta biraawsarkaaga."
+    },
+    {
+      "key": "t351",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "La-talinta, bulshada & naxariista, u adeegaya Croydon, Redbridge, Newham, Durham iyo Southwark ilaa 2015."
+    },
+    {
+      "key": "t352",
+      "source": "Get in touch",
+      "text": "la xidhiidh"
+    },
+    {
+      "key": "t353",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t354",
       "source": "WhatsApp · +44 (0)7305 882959",
       "text": "WhatsApp · +44 (0)7305 882959"
     },
     {
-      "key": "t347",
+      "key": "t355",
       "source": "Croydon Hub · Ashburton Park Cafe Hall",
       "text": "Croydon Hub · Ashburton Park Cafe Hall"
     },
     {
-      "key": "t348",
+      "key": "t356",
       "source": "See all project locations",
       "text": "Eeg dhammaan goobaha mashruuca"
     },
     {
-      "key": "t349",
+      "key": "t357",
       "source": "Fundraiser",
       "text": "Lacag ururin"
     },
     {
-      "key": "t350",
+      "key": "t358",
       "source": "Volunteer",
       "text": "Tabaruc"
     },
     {
-      "key": "t351",
+      "key": "t359",
       "source": "Croydon office",
       "text": "Xafiiska Croydon"
     },
     {
-      "key": "t352",
+      "key": "t360",
       "source": "Redbridge office",
       "text": "Xafiiska Redbridge"
     },
     {
-      "key": "t353",
+      "key": "t361",
       "source": "Durham hub",
       "text": "Durham xuddunta"
     },
     {
-      "key": "t354",
+      "key": "t362",
       "source": "Southwark hub",
       "text": "Xuddunta Southwark"
     },
     {
-      "key": "t355",
+      "key": "t363",
       "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
       "text": "La-talin sabbayn™ · BACP-ku xidhan · Shirkadda lam. 11334515 · Iskaashiga Bulshada"
     },
     {
-      "key": "t356",
+      "key": "t364",
       "source": "Privacy",
       "text": "Qarsoodi"
     },
     {
-      "key": "t357",
+      "key": "t365",
       "source": "Safeguarding",
       "text": "Ilaalinta"
     },
     {
-      "key": "t358",
+      "key": "t366",
       "source": "Fundraiser",
       "text": "Lacag ururin"
     },
     {
-      "key": "t359",
+      "key": "t367",
       "source": "Donate",
       "text": "Deeq"
     },
     {
-      "key": "t360",
+      "key": "t368",
       "source": "Ask Floating",
       "text": "Ask Floating [[a769]]] Kaaliyaha dhow"
     },
     {
-      "key": "t361",
+      "key": "t369",
       "source": "Ask Floating",
       "text": "Ask Floating [[a769]]] Kaaliyaha dhow"
     },
     {
-      "key": "t362",
+      "key": "t370",
       "source": "Choose a quick route",
       "text": "Dooro waddo degdeg ah"
     },
     {
-      "key": "t363",
+      "key": "t371",
       "source": "If you are not sure which service fits, choose the closest option and we will route you.",
       "text": "Haddii aadan hubin adeegga ku habboon, dooro ikhtiyaarka kuugu dhow oo waan ku marin doonnaa."
     },
     {
-      "key": "t364",
+      "key": "t372",
       "source": "Counselling enquiry",
       "text": "Weydiinta la-talinta"
     },
     {
-      "key": "t365",
+      "key": "t373",
       "source": "Parenting support",
       "text": "Taageerada waalidnimada"
     },
     {
-      "key": "t366",
+      "key": "t374",
       "source": "Food or community hub",
       "text": "Cunto ama xarun bulsho"
     },
     {
-      "key": "t367",
+      "key": "t375",
       "source": "Holiday school",
       "text": "Dugsiga fasaxa"
     },
     {
-      "key": "t368",
+      "key": "t376",
       "source": "Fundraiser",
       "text": "Lacag ururin"
     },
     {
-      "key": "t369",
+      "key": "t377",
       "source": "Volunteer or partner",
       "text": "Iskaa wax u qabso ama lammaane"
     },
     {
-      "key": "t370",
+      "key": "t378",
       "source": "WhatsApp Floating",
       "text": "WhatsApp Sabbaynaysa"
     },
     {
-      "key": "t371",
+      "key": "t379",
       "source": "We use a small number of cookies to make this site work and to understand how it's used.",
       "text": "Waxaan isticmaalnaa tiro yar oo cookies ah si aan uga dhigno goobtan inay shaqeyso iyo si aan u fahanno sida loo isticmaalo."
     },
     {
-      "key": "t372",
+      "key": "t380",
       "source": "More info",
       "text": "Macluumaad dheeraad ah"
     },
     {
-      "key": "t373",
+      "key": "t381",
       "source": "Decline",
       "text": "diiday"
     },
     {
-      "key": "t374",
+      "key": "t382",
       "source": "Accept",
       "text": "Aqbal [[a727]]] Hoose [[a728]]] Floating Counselling - Guriga [[a729]]] Floating Counselling [[a730]]] Beddel navigation [[a731]]] Wadahadalka talo bixinta ee Floating Counselling [[a732]]] U rog si aad saameyn ugu yeelatid [[a733]]] Saamaynteena [[a734]]] Celestina Oniye-Thomas ka Floating Counselling"
     },
     {
-      "key": "a375",
+      "key": "a383",
       "source": "Primary",
       "text": "Asal ahaan"
     },
     {
-      "key": "a376",
+      "key": "a384",
       "source": "Floating Counselling — Home",
       "text": "La-talinta Sabaynta - Guriga"
     },
     {
-      "key": "a377",
+      "key": "a385",
       "source": "Floating Counselling",
       "text": "Floating Counselling [[a759]]] Xiriirinta bulshada [[a760]]] Facebook"
     },
     {
-      "key": "a378",
+      "key": "a386",
       "source": "Toggle navigation",
       "text": "Beddel hagaha"
     },
     {
-      "key": "a379",
+      "key": "a387",
       "source": "Counselling conversation at Floating Counselling",
       "text": "Wadahadalka la-talinta ee La-talinta Sabaynta"
     },
     {
-      "key": "a380",
+      "key": "a388",
       "source": "Scroll to impact",
       "text": "U dhaadhac saamaynta"
     },
     {
-      "key": "a381",
+      "key": "a389",
       "source": "Our impact",
       "text": "Saamaynteena"
     },
     {
-      "key": "a382",
+      "key": "a390",
       "source": "Celestina Oniye-Thomas from Floating Counselling",
       "text": "Celestina Oniye-Thomas oo ka socota La-talinta Sabaynta"
     },
     {
-      "key": "a383",
+      "key": "a391",
       "source": "Impact Parenting support artwork from Floating Counselling",
       "text": "Farshaxanka taageerada waalidnimada ee saamaynta leh ee ka yimid La-talinta Sabaynta"
     },
     {
-      "key": "a384",
+      "key": "a392",
       "source": "Floating Counselling community organisation impact infographic",
       "text": "Ururka bulshada ee la-talinta sabeynaya waxay saameeyaan macluumaadka"
     },
     {
-      "key": "a385",
+      "key": "a393",
       "source": "Holiday school values",
       "text": "Qiimaha dugsiga fasaxa"
     },
     {
-      "key": "a386",
+      "key": "a394",
       "source": "Holiday school week 1 newsletter",
       "text": "Toddobaadka fasaxa dugsiga 1 warside"
     },
     {
-      "key": "a387",
+      "key": "a395",
       "source": "Floating Community Hub community gathering",
       "text": "Isu imaatinka bulshada ee Hub Community Sabbayn"
     },
     {
-      "key": "a388",
+      "key": "a396",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "a389",
+      "key": "a397",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "a390",
+      "key": "a398",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "a391",
+      "key": "a399",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah [[a744]]] Waaxda Waxbarashada [[a745]]] Golaha Croydon [[a746]]] Koonfur Galbeed London CCGs [[a747]]] Sanduuqa Bulshada Bakhtiyaa-nasiibka Qaranka [[a748]]] Golaha BME"
     },
     {
-      "key": "a392",
+      "key": "a400",
       "source": "Department for Education",
       "text": "Waaxda Waxbarashada"
     },
     {
-      "key": "a393",
+      "key": "a401",
       "source": "Croydon Council",
       "text": "Golaha Croydon"
     },
     {
-      "key": "a394",
+      "key": "a402",
       "source": "South West London CCGs",
       "text": "Koonfur-galbeed ee London CCGs"
     },
     {
-      "key": "a395",
+      "key": "a403",
       "source": "The National Lottery Community Fund",
       "text": "Sanduuqa Bulshada Bakhtiyaa-nasiibka Qaranka"
     },
     {
-      "key": "a396",
+      "key": "a404",
       "source": "BME Forum",
       "text": "Madasha BME"
     },
     {
-      "key": "a397",
+      "key": "a405",
       "source": "Croydon Voluntary Action",
       "text": "Croydon Ficil Iskaa Wax u qabso ah [[a750]]] Foomka codsiga tabaruca [[a751]]] Goobaha mashruuca [[a752]]] Xiriirinta bulshada [[a753]]] Facebook"
     },
     {
-      "key": "a398",
+      "key": "a406",
       "source": "Volunteer application form",
       "text": "Foomka codsiga tabaruca"
     },
     {
-      "key": "a399",
+      "key": "a407",
       "source": "Project locations",
       "text": "Goobaha mashruuca"
     },
     {
-      "key": "a400",
+      "key": "a408",
       "source": "Social links",
       "text": "Xiriirinta bulshada"
     },
     {
-      "key": "a401",
+      "key": "a409",
       "source": "Facebook",
       "text": "Facebook-ga"
     },
     {
-      "key": "a402",
+      "key": "a410",
       "source": "Instagram",
       "text": "Instagram [[a762]]] Twitter / X [[a763]]] YouTube [[a764]]] Goobaha mashruuca [[a765]]] Lacag u ururinta Floating Counselling [[a766]]] Ku deeq Floating Counselling [[a767]]] Ku laabo xagga sare"
     },
     {
-      "key": "a403",
+      "key": "a411",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a404",
+      "key": "a412",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a405",
+      "key": "a413",
       "source": "Floating Counselling — Home",
       "text": "La-talinta Sabaynta - Guriga"
     },
     {
-      "key": "a406",
+      "key": "a414",
       "source": "Floating Counselling",
       "text": "Floating Counselling [[a759]]] Xiriirinta bulshada [[a760]]] Facebook"
     },
     {
-      "key": "a407",
+      "key": "a415",
       "source": "Social links",
       "text": "Xiriirinta bulshada"
     },
     {
-      "key": "a408",
+      "key": "a416",
       "source": "Facebook",
       "text": "Facebook-ga"
     },
     {
-      "key": "a409",
+      "key": "a417",
       "source": "Instagram",
       "text": "Instagram [[a762]]] Twitter / X [[a763]]] YouTube [[a764]]] Goobaha mashruuca [[a765]]] Lacag u ururinta Floating Counselling [[a766]]] Ku deeq Floating Counselling [[a767]]] Ku laabo xagga sare"
     },
     {
-      "key": "a410",
+      "key": "a418",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a411",
+      "key": "a419",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a412",
+      "key": "a420",
       "source": "Project locations",
       "text": "Goobaha mashruuca"
     },
     {
-      "key": "a413",
+      "key": "a421",
       "source": "Fundraise for Floating Counselling",
       "text": "Lacag Ururinta La-talinta Sabaynta"
     },
     {
-      "key": "a414",
+      "key": "a422",
       "source": "Donate to Floating Counselling",
       "text": "Ku deeq La-talinta Sabaynta"
     },
     {
-      "key": "a415",
+      "key": "a423",
       "source": "Back to top",
       "text": "Ku laabo xagga sare"
     },
     {
-      "key": "a416",
+      "key": "a424",
       "source": "Ask Floating",
       "text": "Ask Floating [[a769]]] Kaaliyaha dhow"
     },
     {
-      "key": "a417",
+      "key": "a425",
       "source": "Close assistant",
       "text": "Kaaliyaha dhaw"
     },
     {
-      "key": "a418",
+      "key": "a426",
       "source": "Cookie notice",
       "text": "Ogeysiiska kukiga"
     }

@@ -2,9 +2,9 @@
   "language": "yo",
   "languageName": "Yoruba",
   "sourceLanguage": "en",
-  "sourceHash": "sym184",
-  "sourceUrl": "http://127.0.0.1:55223/",
-  "generatedAt": "2026-06-01T22:06:19.143Z",
+  "sourceHash": "4ftabt",
+  "sourceUrl": "http://127.0.0.1:57366/",
+  "generatedAt": "2026-06-01T22:55:57.786Z",
   "translations": [
     {
       "key": "t0",
@@ -1413,263 +1413,263 @@
     },
     {
       "key": "t281",
+      "source": "Counselling enquiry",
+      "text": "Ìbéèrè Igbaninimoran"
+    },
+    {
+      "key": "t282",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t283",
+      "source": "Community Hub / food support",
+      "text": "Agbegbe Ipele / atilẹyin ounje"
+    },
+    {
+      "key": "t284",
+      "source": "Holiday school",
+      "text": "Ile-iwe isinmi"
+    },
+    {
+      "key": "t285",
+      "source": "Fundraising",
+      "text": "Igbeowosile"
+    },
+    {
+      "key": "t286",
+      "source": "Volunteering",
+      "text": "Iyọọda"
+    },
+    {
+      "key": "t287",
+      "source": "Press / partnership",
+      "text": "Tẹ / ajọṣepọ"
+    },
+    {
+      "key": "t288",
+      "source": "Something else",
+      "text": "Nkankan miran"
+    },
+    {
+      "key": "t289",
       "source": "Message",
       "text": "Ifiranṣẹ"
     },
     {
-      "key": "t282",
+      "key": "t290",
       "source": "I agree to be contacted in line with the",
       "text": "Mo ti gba a olubasọrọ ni ila pẹlu awọn"
     },
     {
-      "key": "t283",
+      "key": "t291",
       "source": "privacy policy",
       "text": "ìpamọ eto imulo"
     },
     {
-      "key": "t284",
+      "key": "t292",
       "source": "Send message",
       "text": "Firanṣẹ ifiranṣẹ"
     },
     {
-      "key": "t285",
+      "key": "t293",
       "source": "We're here",
       "text": "A wa nibi"
     },
     {
-      "key": "t286",
+      "key": "t294",
       "source": "Whatever you're carrying, you don't carry it alone.",
       "text": "Ohunkohun ti o ba gbe, iwọ ko gbe nikan."
     },
     {
-      "key": "t287",
+      "key": "t295",
       "source": "Whether you need counselling, community support, food, or just someone to talk to. Reach out today. Your first step matters.",
       "text": "Boya o nilo imọran, atilẹyin agbegbe, ounjẹ, tabi ẹnikan kan lati ba sọrọ. De ọdọ loni. Igbese akọkọ rẹ ṣe pataki."
     },
     {
-      "key": "t288",
+      "key": "t296",
       "source": "Email us",
       "text": "Imeeli wa"
     },
     {
-      "key": "t289",
+      "key": "t297",
       "source": "WhatsApp us",
       "text": "WhatsApp wa"
     },
     {
-      "key": "t290",
+      "key": "t298",
       "source": "Donate via PayPal",
       "text": "Ṣetọrẹ nipasẹ PayPal"
     },
     {
-      "key": "t291",
+      "key": "t299",
       "source": "Localgiving",
       "text": "Localgiving"
     },
     {
-      "key": "t292",
+      "key": "t300",
       "source": "Fundraiser",
       "text": "Olukoowo"
     },
     {
-      "key": "t293",
+      "key": "t301",
       "source": "Volunteer",
       "text": "Iyọọda"
     },
     {
-      "key": "t294",
+      "key": "t302",
       "source": "Policies & your privacy",
       "text": "Awọn eto imulo & asiri rẹ"
     },
     {
-      "key": "t295",
+      "key": "t303",
       "source": "How we protect you and your data.",
       "text": "Bii a ṣe daabobo ọ ati data rẹ."
     },
     {
-      "key": "t296",
+      "key": "t304",
       "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
       "text": "Akopọ Gẹẹsi-Gẹẹsi ti bi a ṣe n ṣakoso alaye rẹ, tọju eniyan lailewu, ati lilo awọn kuki. Fun awọn eto imulo ni kikun tabi eyikeyi ibeere, imeeli"
     },
     {
-      "key": "t297",
+      "key": "t305",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t298",
+      "key": "t306",
       "source": "Privacy policy",
       "text": "Ilana asiri"
     },
     {
-      "key": "t299",
+      "key": "t307",
       "source": "Who we are.",
       "text": "Tani awa."
     },
     {
-      "key": "t300",
+      "key": "t308",
       "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
       "text": "Floating Counselling Community jẹ agbari grassroots UK ti n pese imọran ati atilẹyin agbegbe lati ọdun 2015. A n ṣiṣẹ bi AWUJO FLOOATING COUNSELING, ile-iṣẹ ti o ni opin nipasẹ iṣeduro ti a forukọsilẹ ni England ati Wales, nọmba ile-iṣẹ 11334515. A jẹ oludari data fun alaye ti o pin pẹlu wa. Fun awọn ibeere ikọkọ, imeeli"
     },
     {
-      "key": "t301",
+      "key": "t309",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t302",
+      "key": "t310",
       "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
       "text": "tabi kọ si ọfiisi Croydon wa ni 26 Avenue Road, London SE25 4DX."
     },
     {
-      "key": "t303",
+      "key": "t311",
       "source": "What we collect.",
       "text": "Ohun ti a gba."
     },
     {
-      "key": "t304",
+      "key": "t312",
       "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
       "text": "Nigbati o ba kan si wa nipasẹ fọọmu ibeere, nipasẹ imeeli tabi WhatsApp, a gba awọn alaye ti o yan lati fun wa - ni igbagbogbo orukọ rẹ, adirẹsi imeeli, koko ti o yan ati ifiranṣẹ rẹ. Ti o ba forukọsilẹ si iwe iroyin wa a gba adirẹsi imeeli rẹ. A ko beere fun alaye ilera-ẹka pataki nipasẹ oju opo wẹẹbu yii; jọwọ pin nikan ohun ti o ni itunu pẹlu."
     },
     {
-      "key": "t305",
+      "key": "t313",
       "source": "How we use it, and our lawful basis.",
       "text": "Bii a ṣe nlo rẹ, ati ipilẹ t’olofin wa."
     },
     {
-      "key": "t306",
+      "key": "t314",
       "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
       "text": "A lo awọn alaye rẹ lati dahun si ọ, pese atilẹyin ti o beere fun, ati ṣiṣe awọn iṣẹ wa (UK GDPR \"igbanilaaye\" ati \"awọn anfani ti o tọ\"). Nibiti a ti ni ojuse lati daabobo ẹnikan, a le ṣe ilana alaye lati pade ọranyan labẹ ofin (wo Aabo)."
     },
     {
-      "key": "t307",
+      "key": "t315",
       "source": "Who we share it with.",
       "text": "Tani a pin pẹlu rẹ."
     },
     {
-      "key": "t308",
+      "key": "t316",
       "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
       "text": "A ko ta data rẹ. A gbẹkẹle nọmba kekere ti awọn olupese iṣẹ ti o gbẹkẹle ti o ṣe iranlọwọ fun wa lati ṣiṣe oju opo wẹẹbu, imeeli, awọn fọọmu, awọn ohun elo atinuwa, awọn ẹbun ati awọn maapu. Olupese kọọkan gba alaye ti o nilo fun iṣẹ yẹn nikan, ati pe ọkọọkan ni akiyesi asiri tirẹ."
     },
     {
-      "key": "t309",
+      "key": "t317",
       "source": "Translation.",
       "text": "Itumọ."
     },
     {
-      "key": "t310",
+      "key": "t318",
       "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
       "text": "Ti o ba tumọ oju-iwe yii, ọrọ oju-iwe loju iboju le jẹ firanṣẹ ni aabo si iṣẹ itumọ kan ki ẹya ti o tumọ le jẹ pada. Itumọ jẹ iyan, awọn ifiranṣẹ fọọmu olubasọrọ kii ṣe itumọ nipasẹ ẹya ara ẹrọ yii, ati pe ọrọ ti a tumọ le jẹ cache ninu ẹrọ aṣawakiri rẹ ki o le yara yiyara nigba miiran."
     },
     {
-      "key": "t311",
+      "key": "t319",
       "source": "How long we keep it.",
       "text": "Bawo ni pipẹ ti a tọju rẹ."
     },
     {
-      "key": "t312",
+      "key": "t320",
       "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
       "text": "A tọju ibeere ati awọn alaye ibeere atilẹyin nikan niwọn igba ti o nilo lati dahun, pese atilẹyin, pade awọn iṣẹ aabo, ati ni ibamu pẹlu awọn adehun ofin tabi iṣiro. Awọn ẹbun ati awọn igbasilẹ iyọọda ni a tọju ni ibamu si olupese ti o yẹ ati awọn ibeere idaduro ofin."
     },
     {
-      "key": "t313",
+      "key": "t321",
       "source": "Your rights.",
       "text": "Awọn ẹtọ rẹ."
     },
     {
-      "key": "t314",
+      "key": "t322",
       "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
       "text": "Labẹ UK GDPR o le beere lati wọle si, ṣe atunṣe, paarẹ tabi ni ihamọ data rẹ, nkan si ṣiṣe, beere gbigbe, tabi yọkuro aṣẹ nigbakugba. Imeeli"
     },
     {
-      "key": "t315",
+      "key": "t323",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t316",
+      "key": "t324",
       "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
       "text": "tabi kọ si wa ni 26 Avenue Road, London SE25 4DX. Ti o ko ba ni idunnu pẹlu esi wa o le kerora si ICO ni ico.org.uk."
     },
     {
-      "key": "t317",
+      "key": "t325",
       "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
       "text": "Atunyẹwo ikẹhin: 29 May 2026. Akopọ ti Gẹẹsi-Gẹẹsi ti o ni itara ti pese fun akoyawo ati pe o yẹ ki o ṣayẹwo ni ilodi si awọn ilana kikun ti Floating Counselling Community ṣaaju ikede."
     },
     {
-      "key": "t318",
+      "key": "t326",
       "source": "Safeguarding",
       "text": "Idaabobo"
     },
     {
-      "key": "t319",
+      "key": "t327",
       "source": "Our commitment.",
       "text": "Ifaramo wa."
     },
     {
-      "key": "t320",
+      "key": "t328",
       "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
       "text": "Ailewu ati alafia ti awọn ọmọde, awọn ọdọ ati awọn agbalagba ti o wa ninu ewu ti a ṣiṣẹ pẹlu wa ni akọkọ. Iṣe wa jẹ alaye ibalokanje ati ni ibamu pẹlu awọn iṣedede iṣe BACP."
     },
     {
-      "key": "t321",
+      "key": "t329",
       "source": "Confidentiality and its limits.",
       "text": "Asiri ati awọn ifilelẹ lọ."
     },
     {
-      "key": "t322",
+      "key": "t330",
       "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
       "text": "Ohun ti o pin wa ni idaduro ni idaniloju to muna. Iyatọ jẹ ipo aabo - nibiti eewu ti ipalara nla wa si ọ tabi ẹlomiiran, tabi nibiti a ni ojuṣe labẹ ofin lati ṣe. Nibikibi ti o ba jẹ ailewu lati ṣe bẹ, a yoo sọrọ eyi nipasẹ rẹ akọkọ."
     },
     {
-      "key": "t323",
+      "key": "t331",
       "source": "Raising a concern.",
       "text": "Igbega ibakcdun kan."
     },
     {
-      "key": "t324",
+      "key": "t332",
       "source": "If you're worried about someone's safety, contact us at",
       "text": "Ti o ba ni aniyan nipa aabo ẹnikan, kan si wa ni"
-    },
-    {
-      "key": "t325",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t326",
-      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
-      "text": "tabi +44 (0)7305 882959. Ti ẹnikan ba wa ninu ewu lẹsẹkẹsẹ, nigbagbogbo pe 999. O tun le kan si NSPCC lori 0808 800 5000, tabi ẹgbẹ aabo ti aṣẹ agbegbe rẹ."
-    },
-    {
-      "key": "t327",
-      "source": "Our people.",
-      "text": "Eniyan wa."
-    },
-    {
-      "key": "t328",
-      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
-      "text": "Awọn oṣiṣẹ ati awọn oluyọọda ti gba iṣẹ lailewu ati gba awọn sọwedowo DBS nibiti o yẹ si ipa wọn."
-    },
-    {
-      "key": "t329",
-      "source": "Safeguarding lead.",
-      "text": "Asiwaju aabo."
-    },
-    {
-      "key": "t330",
-      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
-      "text": "Linda Yeboah, Oludari & Oṣiṣẹ Idaabobo. Imeeli"
-    },
-    {
-      "key": "t331",
-      "source": "floatingcounsellinglinda@gmail.com",
-      "text": "floatingcounsellinglinda@gmail.com"
-    },
-    {
-      "key": "t332",
-      "source": "or",
-      "text": "tabi"
     },
     {
       "key": "t333",
@@ -1678,426 +1678,466 @@
     },
     {
       "key": "t334",
-      "source": ". If someone is in immediate danger, call 999.",
-      "text": ". Ti ẹnikan ba wa ninu ewu lẹsẹkẹsẹ, pe 999."
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "tabi +44 (0)7305 882959. Ti ẹnikan ba wa ninu ewu lẹsẹkẹsẹ, nigbagbogbo pe 999. O tun le kan si NSPCC lori 0808 800 5000, tabi ẹgbẹ aabo ti aṣẹ agbegbe rẹ."
     },
     {
       "key": "t335",
-      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
-      "text": "Atunwo ikẹhin: 29 May 2026. Akopọ yii yẹ ki o ṣayẹwo lodi si ilana aabo ni kikun Floating Counselling Community ṣaaju ki o to tẹjade."
+      "source": "Our people.",
+      "text": "Eniyan wa."
     },
     {
       "key": "t336",
-      "source": "Cookies & storage",
-      "text": "Awọn kuki & ibi ipamọ"
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "Awọn oṣiṣẹ ati awọn oluyọọda ti gba iṣẹ lailewu ati gba awọn sọwedowo DBS nibiti o yẹ si ipa wọn."
     },
     {
       "key": "t337",
-      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
-      "text": "A tọju awọn kuki si o kere julọ ati pe a ko lo ipolowo tabi titọpa aaye. Aaye naa tọju awọn nkan kekere meji meji sinu ẹrọ aṣawakiri rẹ:"
+      "source": "Safeguarding lead.",
+      "text": "Asiwaju aabo."
     },
     {
       "key": "t338",
-      "source": "Cookie consent",
-      "text": "Igbanilaaye kuki"
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, Oludari & Oṣiṣẹ Idaabobo. Imeeli"
     },
     {
       "key": "t339",
-      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
-      "text": "— ranti pe o ti rii akiyesi yii, nitorinaa a ko ṣe afihan ni gbogbo ibewo."
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatingcounsellinglinda@gmail.com"
     },
     {
       "key": "t340",
-      "source": "Translation cache",
-      "text": "Kaṣe itumọ"
+      "source": "or",
+      "text": "tabi"
     },
     {
       "key": "t341",
-      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
-      "text": "- ti o ba tumọ oju-iwe naa, ọrọ ti a tumọ ti wa ni fipamọ ni agbegbe nitoribẹẹ o le di ẹru lẹsẹkẹsẹ ni akoko miiran."
-    },
-    {
-      "key": "t342",
-      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
-      "text": "Maapu Google ti a fi sinu le ṣeto awọn kuki ti Google nigbati o ba nrù. O le pa gbogbo awọn ti o wa loke kuro nigbakugba nipa yiyọ data aaye aṣawakiri rẹ kuro."
-    },
-    {
-      "key": "t343",
-      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
-      "text": "Igbaninimoran, agbegbe & aanu, sìn Croydon, Redbridge, Newham, Durham ati Southwark lati ọdun 2015."
-    },
-    {
-      "key": "t344",
-      "source": "Get in touch",
-      "text": "Kan si"
-    },
-    {
-      "key": "t345",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
+      "key": "t342",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". Ti ẹnikan ba wa ninu ewu lẹsẹkẹsẹ, pe 999."
+    },
+    {
+      "key": "t343",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Atunwo ikẹhin: 29 May 2026. Akopọ yii yẹ ki o ṣayẹwo lodi si ilana aabo ni kikun Floating Counselling Community ṣaaju ki o to tẹjade."
+    },
+    {
+      "key": "t344",
+      "source": "Cookies & storage",
+      "text": "Awọn kuki & ibi ipamọ"
+    },
+    {
+      "key": "t345",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "A tọju awọn kuki si o kere julọ ati pe a ko lo ipolowo tabi titọpa aaye. Aaye naa tọju awọn nkan kekere meji meji sinu ẹrọ aṣawakiri rẹ:"
+    },
+    {
       "key": "t346",
+      "source": "Cookie consent",
+      "text": "Igbanilaaye kuki"
+    },
+    {
+      "key": "t347",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— ranti pe o ti rii akiyesi yii, nitorinaa a ko ṣe afihan ni gbogbo ibewo."
+    },
+    {
+      "key": "t348",
+      "source": "Translation cache",
+      "text": "Kaṣe itumọ"
+    },
+    {
+      "key": "t349",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "- ti o ba tumọ oju-iwe naa, ọrọ ti a tumọ ti wa ni fipamọ ni agbegbe nitoribẹẹ o le di ẹru lẹsẹkẹsẹ ni akoko miiran."
+    },
+    {
+      "key": "t350",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "Maapu Google ti a fi sinu le ṣeto awọn kuki ti Google nigbati o ba nrù. O le pa gbogbo awọn ti o wa loke kuro nigbakugba nipa yiyọ data aaye aṣawakiri rẹ kuro."
+    },
+    {
+      "key": "t351",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "Igbaninimoran, agbegbe & aanu, sìn Croydon, Redbridge, Newham, Durham ati Southwark lati ọdun 2015."
+    },
+    {
+      "key": "t352",
+      "source": "Get in touch",
+      "text": "Kan si"
+    },
+    {
+      "key": "t353",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t354",
       "source": "WhatsApp · +44 (0)7305 882959",
       "text": "WhatsApp · +44 (0) 7305 882959"
     },
     {
-      "key": "t347",
+      "key": "t355",
       "source": "Croydon Hub · Ashburton Park Cafe Hall",
       "text": "Ibudo Croydon · Ashburton Park Cafe Hall"
     },
     {
-      "key": "t348",
+      "key": "t356",
       "source": "See all project locations",
       "text": "Wo gbogbo awọn ipo ise agbese"
     },
     {
-      "key": "t349",
+      "key": "t357",
       "source": "Fundraiser",
       "text": "Olukoowo"
     },
     {
-      "key": "t350",
+      "key": "t358",
       "source": "Volunteer",
       "text": "Iyọọda"
     },
     {
-      "key": "t351",
+      "key": "t359",
       "source": "Croydon office",
       "text": "Croydon ọfiisi"
     },
     {
-      "key": "t352",
+      "key": "t360",
       "source": "Redbridge office",
       "text": "Redbridge ọfiisi"
     },
     {
-      "key": "t353",
+      "key": "t361",
       "source": "Durham hub",
       "text": "ibudo Durham"
     },
     {
-      "key": "t354",
+      "key": "t362",
       "source": "Southwark hub",
       "text": "ibudo Southwark"
     },
     {
-      "key": "t355",
+      "key": "t363",
       "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
       "text": "Igbaninimoran lilefoofo™ · ibamu BACP · Ile-iṣẹ No. 11334515 · Community Partner"
     },
     {
-      "key": "t356",
+      "key": "t364",
       "source": "Privacy",
       "text": "Asiri"
     },
     {
-      "key": "t357",
+      "key": "t365",
       "source": "Safeguarding",
       "text": "Idaabobo"
     },
     {
-      "key": "t358",
+      "key": "t366",
       "source": "Fundraiser",
       "text": "Olukoowo"
     },
     {
-      "key": "t359",
+      "key": "t367",
       "source": "Donate",
       "text": "Ṣetọrẹ"
     },
     {
-      "key": "t360",
+      "key": "t368",
       "source": "Ask Floating",
       "text": "Beere Lilefoofo"
     },
     {
-      "key": "t361",
+      "key": "t369",
       "source": "Ask Floating",
       "text": "Beere Lilefoofo"
     },
     {
-      "key": "t362",
+      "key": "t370",
       "source": "Choose a quick route",
       "text": "Yan ipa ọna ti o yara"
     },
     {
-      "key": "t363",
+      "key": "t371",
       "source": "If you are not sure which service fits, choose the closest option and we will route you.",
       "text": "Ti o ko ba ni idaniloju pe iṣẹ wo ni ibamu, yan aṣayan ti o sunmọ julọ ati pe a yoo dari ọ."
     },
     {
-      "key": "t364",
+      "key": "t372",
       "source": "Counselling enquiry",
       "text": "Ìbéèrè Igbaninimoran"
     },
     {
-      "key": "t365",
+      "key": "t373",
       "source": "Parenting support",
       "text": "Atilẹyin obi"
     },
     {
-      "key": "t366",
+      "key": "t374",
       "source": "Food or community hub",
       "text": "Ounjẹ tabi ibudo agbegbe"
     },
     {
-      "key": "t367",
+      "key": "t375",
       "source": "Holiday school",
       "text": "Ile-iwe isinmi"
     },
     {
-      "key": "t368",
+      "key": "t376",
       "source": "Fundraiser",
       "text": "Olukoowo"
     },
     {
-      "key": "t369",
+      "key": "t377",
       "source": "Volunteer or partner",
       "text": "Iyọọda tabi alabaṣepọ"
     },
     {
-      "key": "t370",
+      "key": "t378",
       "source": "WhatsApp Floating",
       "text": "WhatsApp Lilefoofo"
     },
     {
-      "key": "t371",
+      "key": "t379",
       "source": "We use a small number of cookies to make this site work and to understand how it's used.",
       "text": "A lo nọmba kekere ti awọn kuki lati jẹ ki aaye yii ṣiṣẹ ati lati loye bi o ṣe nlo."
     },
     {
-      "key": "t372",
+      "key": "t380",
       "source": "More info",
       "text": "Alaye diẹ sii"
     },
     {
-      "key": "t373",
+      "key": "t381",
       "source": "Decline",
       "text": "Kọ silẹ"
     },
     {
-      "key": "t374",
+      "key": "t382",
       "source": "Accept",
       "text": "Gba"
     },
     {
-      "key": "a375",
+      "key": "a383",
       "source": "Primary",
       "text": "Alakoko"
     },
     {
-      "key": "a376",
+      "key": "a384",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling - Ile [[a758]]] Floating Counselling [[a759]]] Awọn ọna asopọ awujọ [[a760]]] Facebook [[a761]]] Instagram [[a762]]] Twitter / X [[a763]]] YouTube [[a764]]] Awọn ipo ise agbese"
     },
     {
-      "key": "a377",
+      "key": "a385",
       "source": "Floating Counselling",
       "text": "Lilefoofo Igbaninimoran"
     },
     {
-      "key": "a378",
+      "key": "a386",
       "source": "Toggle navigation",
       "text": "Yipada lilọ kiri"
     },
     {
-      "key": "a379",
+      "key": "a387",
       "source": "Counselling conversation at Floating Counselling",
       "text": "Ibaraẹnisọrọ Igbaninimoran ni Igbaninimoran Lilefoofo"
     },
     {
-      "key": "a380",
+      "key": "a388",
       "source": "Scroll to impact",
       "text": "Yi lọ si ipa"
     },
     {
-      "key": "a381",
+      "key": "a389",
       "source": "Our impact",
       "text": "Ipa wa"
     },
     {
-      "key": "a382",
+      "key": "a390",
       "source": "Celestina Oniye-Thomas from Floating Counselling",
       "text": "Celestina Oniye-Thomas lati Floating Counselling"
     },
     {
-      "key": "a383",
+      "key": "a391",
       "source": "Impact Parenting support artwork from Floating Counselling",
       "text": "Iṣẹ ọnà atilẹyin ti obi ti o ni ipa lati Igbaninimoran Lilefoofo"
     },
     {
-      "key": "a384",
+      "key": "a392",
       "source": "Floating Counselling community organisation impact infographic",
       "text": "Lilefoofo Igbaninimoran awujo agbari ikolu infographic"
     },
     {
-      "key": "a385",
+      "key": "a393",
       "source": "Holiday school values",
       "text": "Awọn iye ile-iwe isinmi"
     },
     {
-      "key": "a386",
+      "key": "a394",
       "source": "Holiday school week 1 newsletter",
       "text": "Isinmi ile-iwe ọsẹ 1 iwe iroyin"
     },
     {
-      "key": "a387",
+      "key": "a395",
       "source": "Floating Community Hub community gathering",
       "text": "Apejọ Agbegbe Agbegbe Lilefoofo [[a740]]] Celestina Oniye-Thomas [[a741]]] Omowonu-Ola Ogunlela [[a742]]] Elizabeth Owode [[a743]]] Linda Yeboah [[a744]]] Ẹka fun Ẹkọ"
     },
     {
-      "key": "a388",
+      "key": "a396",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "a389",
+      "key": "a397",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "a390",
+      "key": "a398",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "a391",
+      "key": "a399",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah"
     },
     {
-      "key": "a392",
+      "key": "a400",
       "source": "Department for Education",
       "text": "Ẹka fun Education"
     },
     {
-      "key": "a393",
+      "key": "a401",
       "source": "Croydon Council",
       "text": "Igbimọ Croydon"
     },
     {
-      "key": "a394",
+      "key": "a402",
       "source": "South West London CCGs",
       "text": "South West London CCGs"
     },
     {
-      "key": "a395",
+      "key": "a403",
       "source": "The National Lottery Community Fund",
       "text": "National lotiri Community Fund [[a748]]] BME Forum [[a749]]] Croydon Atinuwa Ise [[a750]]] Fọọmu ohun elo oluyọọda [[a751]]] Awọn ipo ise agbese [[a752]]] Awọn ọna asopọ awujọ [[a753]]] Facebook [[a754]]] Instagram [[a755]]] Twitter / X [[a756]]] YouTube"
     },
     {
-      "key": "a396",
+      "key": "a404",
       "source": "BME Forum",
       "text": "BME Forum"
     },
     {
-      "key": "a397",
+      "key": "a405",
       "source": "Croydon Voluntary Action",
       "text": "Croydon Voluntary Action"
     },
     {
-      "key": "a398",
+      "key": "a406",
       "source": "Volunteer application form",
       "text": "Fọọmu ohun elo iyọọda"
     },
     {
-      "key": "a399",
+      "key": "a407",
       "source": "Project locations",
       "text": "Awọn ipo ise agbese"
     },
     {
-      "key": "a400",
+      "key": "a408",
       "source": "Social links",
       "text": "Awujo ìjápọ"
     },
     {
-      "key": "a401",
+      "key": "a409",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a402",
+      "key": "a410",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a403",
+      "key": "a411",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a404",
+      "key": "a412",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a405",
+      "key": "a413",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling - Ile [[a758]]] Floating Counselling [[a759]]] Awọn ọna asopọ awujọ [[a760]]] Facebook [[a761]]] Instagram [[a762]]] Twitter / X [[a763]]] YouTube [[a764]]] Awọn ipo ise agbese"
     },
     {
-      "key": "a406",
+      "key": "a414",
       "source": "Floating Counselling",
       "text": "Lilefoofo Igbaninimoran"
     },
     {
-      "key": "a407",
+      "key": "a415",
       "source": "Social links",
       "text": "Awujo ìjápọ"
     },
     {
-      "key": "a408",
+      "key": "a416",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a409",
+      "key": "a417",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a410",
+      "key": "a418",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a411",
+      "key": "a419",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a412",
+      "key": "a420",
       "source": "Project locations",
       "text": "Awọn ipo ise agbese"
     },
     {
-      "key": "a413",
+      "key": "a421",
       "source": "Fundraise for Floating Counselling",
       "text": "Ikowojo fun Floating Counselling [[a766]]] Ṣetọrẹ si Floating Counselling [[a767]]] Pada si oke [[a768]]] Ask Floating [[a769]]] Oluranlọwọ sunmọ"
     },
     {
-      "key": "a414",
+      "key": "a422",
       "source": "Donate to Floating Counselling",
       "text": "Ṣetọrẹ si Igbaninimoran Lilefoofo"
     },
     {
-      "key": "a415",
+      "key": "a423",
       "source": "Back to top",
       "text": "Pada si oke"
     },
     {
-      "key": "a416",
+      "key": "a424",
       "source": "Ask Floating",
       "text": "Beere Lilefoofo"
     },
     {
-      "key": "a417",
+      "key": "a425",
       "source": "Close assistant",
       "text": "Oluranlọwọ sunmọ"
     },
     {
-      "key": "a418",
+      "key": "a426",
       "source": "Cookie notice",
       "text": "Akiyesi kukisi"
     }

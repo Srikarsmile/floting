@@ -2,9 +2,9 @@
   "language": "bn",
   "languageName": "Bengali",
   "sourceLanguage": "en",
-  "sourceHash": "sym184",
-  "sourceUrl": "http://127.0.0.1:55223/",
-  "generatedAt": "2026-06-01T22:06:19.143Z",
+  "sourceHash": "4ftabt",
+  "sourceUrl": "http://127.0.0.1:57366/",
+  "generatedAt": "2026-06-01T22:55:57.786Z",
   "translations": [
     {
       "key": "t0",
@@ -1413,263 +1413,263 @@
     },
     {
       "key": "t281",
+      "source": "Counselling enquiry",
+      "text": "কাউন্সেলিং তদন্ত"
+    },
+    {
+      "key": "t282",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t283",
+      "source": "Community Hub / food support",
+      "text": "কমিউনিটি হাব/খাদ্য সহায়তা"
+    },
+    {
+      "key": "t284",
+      "source": "Holiday school",
+      "text": "হলিডে স্কুল"
+    },
+    {
+      "key": "t285",
+      "source": "Fundraising",
+      "text": "তহবিল সংগ্রহ"
+    },
+    {
+      "key": "t286",
+      "source": "Volunteering",
+      "text": "স্বেচ্ছাসেবক"
+    },
+    {
+      "key": "t287",
+      "source": "Press / partnership",
+      "text": "প্রেস / অংশীদারিত্ব"
+    },
+    {
+      "key": "t288",
+      "source": "Something else",
+      "text": "অন্য কিছু"
+    },
+    {
+      "key": "t289",
       "source": "Message",
       "text": "বার্তা"
     },
     {
-      "key": "t282",
+      "key": "t290",
       "source": "I agree to be contacted in line with the",
       "text": "আমি এর সাথে সামঞ্জস্য রেখে যোগাযোগ করতে সম্মত"
     },
     {
-      "key": "t283",
+      "key": "t291",
       "source": "privacy policy",
       "text": "গোপনীয়তা নীতি"
     },
     {
-      "key": "t284",
+      "key": "t292",
       "source": "Send message",
       "text": "বার্তা পাঠান"
     },
     {
-      "key": "t285",
+      "key": "t293",
       "source": "We're here",
       "text": "আমরা এখানে আছি"
     },
     {
-      "key": "t286",
+      "key": "t294",
       "source": "Whatever you're carrying, you don't carry it alone.",
       "text": "আপনি যা বহন করছেন, আপনি একা বহন করবেন না।"
     },
     {
-      "key": "t287",
+      "key": "t295",
       "source": "Whether you need counselling, community support, food, or just someone to talk to. Reach out today. Your first step matters.",
       "text": "আপনার কাউন্সেলিং, সম্প্রদায়ের সহায়তা, খাবার, বা কথা বলার জন্য কেবল কারও প্রয়োজন কিনা। আজই যোগাযোগ করুন। আপনার প্রথম পদক্ষেপ গুরুত্বপূর্ণ."
     },
     {
-      "key": "t288",
+      "key": "t296",
       "source": "Email us",
       "text": "আমাদের ইমেল করুন"
     },
     {
-      "key": "t289",
+      "key": "t297",
       "source": "WhatsApp us",
       "text": "WhatsApp আমাদের"
     },
     {
-      "key": "t290",
+      "key": "t298",
       "source": "Donate via PayPal",
       "text": "PayPal এর মাধ্যমে দান করুন"
     },
     {
-      "key": "t291",
+      "key": "t299",
       "source": "Localgiving",
       "text": "Localgiving"
     },
     {
-      "key": "t292",
+      "key": "t300",
       "source": "Fundraiser",
       "text": "তহবিল সংগ্রহকারী"
     },
     {
-      "key": "t293",
+      "key": "t301",
       "source": "Volunteer",
       "text": "স্বেচ্ছাসেবক"
     },
     {
-      "key": "t294",
+      "key": "t302",
       "source": "Policies & your privacy",
       "text": "নীতি এবং আপনার গোপনীয়তা"
     },
     {
-      "key": "t295",
+      "key": "t303",
       "source": "How we protect you and your data.",
       "text": "আমরা কীভাবে আপনাকে এবং আপনার ডেটা রক্ষা করি।"
     },
     {
-      "key": "t296",
+      "key": "t304",
       "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
       "text": "আমরা কীভাবে আপনার তথ্য পরিচালনা করি, মানুষকে নিরাপদ রাখি এবং কুকিজ ব্যবহার করি তার একটি সরল-ইংরেজি সারাংশ। সম্পূর্ণ নীতি বা যেকোন অনুরোধের জন্য, ইমেল করুন"
     },
     {
-      "key": "t297",
+      "key": "t305",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t298",
+      "key": "t306",
       "source": "Privacy policy",
       "text": "গোপনীয়তা নীতি"
     },
     {
-      "key": "t299",
+      "key": "t307",
       "source": "Who we are.",
       "text": "আমরা কে."
     },
     {
-      "key": "t300",
+      "key": "t308",
       "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
       "text": "Floating Counselling Community হল একটি UK তৃণমূল সংস্থা যা 2015 সাল থেকে কাউন্সেলিং এবং সম্প্রদায় সহায়তা প্রদান করে। আমরা ফ্লোটিং কাউন্সেলিং সম্প্রদায় হিসাবে কাজ করি, ইংল্যান্ড এবং ওয়েলসে নিবন্ধিত গ্যারান্টি দ্বারা সীমিত একটি কোম্পানি, কোম্পানি নম্বর 11334515। তথ্য নিয়ন্ত্রণের জন্য আমরা আমাদের সাথে তথ্য ভাগ করে নিচ্ছি। গোপনীয়তা অনুরোধের জন্য, ইমেল"
     },
     {
-      "key": "t301",
+      "key": "t309",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t302",
+      "key": "t310",
       "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
       "text": "অথবা 26 এভিনিউ রোড, London SE25 4DX-এ আমাদের Croydon অফিসে লিখুন।"
     },
     {
-      "key": "t303",
+      "key": "t311",
       "source": "What we collect.",
       "text": "আমরা যা সংগ্রহ করি।"
     },
     {
-      "key": "t304",
+      "key": "t312",
       "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
       "text": "আপনি যখন ইমেল বা WhatsApp দ্বারা অনুসন্ধান ফর্মের মাধ্যমে আমাদের সাথে যোগাযোগ করেন, তখন আপনি আমাদের দিতে চান এমন বিশদ বিবরণ আমরা পাই — সাধারণত আপনার নাম, ইমেল ঠিকানা, আপনি যে বিষয় নির্বাচন করেন এবং আপনার বার্তা। আপনি আমাদের নিউজলেটারে সাইন আপ করলে আমরা আপনার ইমেল ঠিকানা সংগ্রহ করি। আমরা এই ওয়েবসাইটের মাধ্যমে বিশেষ-শ্রেণির স্বাস্থ্য সংক্রান্ত তথ্য চাই না; অনুগ্রহ করে শুধুমাত্র আপনার সাথে আরামদায়ক শেয়ার করুন।"
     },
     {
-      "key": "t305",
+      "key": "t313",
       "source": "How we use it, and our lawful basis.",
       "text": "আমরা কীভাবে এটি ব্যবহার করি এবং আমাদের বৈধ ভিত্তি।"
     },
     {
-      "key": "t306",
+      "key": "t314",
       "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
       "text": "আমরা আপনাকে উত্তর দিতে, আপনি যে সহায়তা চান তা প্রদান করতে এবং আমাদের পরিষেবাগুলি চালাতে আপনার বিবরণ ব্যবহার করি (UK GDPR \"সম্মতি\" এবং \"বৈধ স্বার্থ\")। যেখানে আমাদের কাউকে রক্ষা করার দায়িত্ব রয়েছে, আমরা একটি আইনি বাধ্যবাধকতা পূরণের জন্য তথ্য প্রক্রিয়া করতে পারি (সুরক্ষা দেখুন)।"
     },
     {
-      "key": "t307",
+      "key": "t315",
       "source": "Who we share it with.",
       "text": "আমরা কার সাথে শেয়ার করি।"
     },
     {
-      "key": "t308",
+      "key": "t316",
       "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
       "text": "আমরা আপনার ডেটা বিক্রি করি না। আমরা অল্প সংখ্যক বিশ্বস্ত পরিষেবা প্রদানকারীর উপর নির্ভর করি যারা আমাদের ওয়েবসাইট, ইমেল, ফর্ম, স্বেচ্ছাসেবক অ্যাপ্লিকেশন, অনুদান এবং মানচিত্র চালাতে সাহায্য করে। প্রতিটি প্রদানকারী শুধুমাত্র সেই পরিষেবার জন্য প্রয়োজনীয় তথ্য গ্রহণ করে এবং প্রত্যেকের নিজস্ব গোপনীয়তা বিজ্ঞপ্তি রয়েছে।"
     },
     {
-      "key": "t309",
+      "key": "t317",
       "source": "Translation.",
       "text": "অনুবাদ।"
     },
     {
-      "key": "t310",
+      "key": "t318",
       "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
       "text": "আপনি যদি এই পৃষ্ঠাটি অনুবাদ করেন, অন-স্ক্রীন পৃষ্ঠার পাঠ্যটি নিরাপদে অনুবাদ পরিষেবাতে পাঠানো যেতে পারে যাতে অনুবাদিত সংস্করণটি ফেরত দেওয়া যায়। অনুবাদ ঐচ্ছিক, যোগাযোগ-ফর্ম বার্তাগুলি এই বৈশিষ্ট্য দ্বারা অনুবাদ করা হয় না, এবং অনুবাদিত পাঠ্য আপনার ব্রাউজারে ক্যাশ করা হতে পারে যাতে এটি পরের বার দ্রুত লোড হয়।"
     },
     {
-      "key": "t311",
+      "key": "t319",
       "source": "How long we keep it.",
       "text": "আমরা এটা কতক্ষণ রাখি।"
     },
     {
-      "key": "t312",
+      "key": "t320",
       "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
       "text": "আমরা অনুসন্ধান এবং সমর্থন-অনুরোধের বিশদ কেবলমাত্র ততক্ষণ রাখি যতক্ষণ প্রতিক্রিয়া জানাতে, সহায়তা প্রদান করতে, সুরক্ষার দায়িত্বগুলি পূরণ করতে এবং আইনি বা অ্যাকাউন্টিং বাধ্যবাধকতাগুলি মেনে চলতে প্রয়োজন হয়৷ দান এবং স্বেচ্ছাসেবক রেকর্ড প্রাসঙ্গিক প্রদানকারী এবং আইনি ধরে রাখার প্রয়োজনীয়তা অনুযায়ী রাখা হয়।"
     },
     {
-      "key": "t313",
+      "key": "t321",
       "source": "Your rights.",
       "text": "আপনার অধিকার."
     },
     {
-      "key": "t314",
+      "key": "t322",
       "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
       "text": "UK GDPR এর অধীনে আপনি আপনার ডেটা অ্যাক্সেস, সংশোধন, মুছে ফেলতে বা সীমাবদ্ধ করতে, প্রক্রিয়াকরণে আপত্তি করতে, বহনযোগ্যতার অনুরোধ করতে বা সম্মতি প্রত্যাহার করতে বলতে পারেন। ইমেইল"
     },
     {
-      "key": "t315",
+      "key": "t323",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t316",
+      "key": "t324",
       "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
       "text": "অথবা 26 এভিনিউ রোড, London SE25 4DX-এ আমাদের কাছে লিখুন। আপনি যদি আমাদের প্রতিক্রিয়াতে অসন্তুষ্ট হন তাহলে আপনি ico.org.uk-এ ICO-এ অভিযোগ করতে পারেন৷"
     },
     {
-      "key": "t317",
+      "key": "t325",
       "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
       "text": "সর্বশেষ পর্যালোচনা করা হয়েছে: 29 মে 2026। এই সরল-ইংরেজি সারাংশটি স্বচ্ছতার জন্য সরবরাহ করা হয়েছে এবং প্রকাশের আগে Floating Counselling Community-এর সম্পূর্ণ নীতিগুলির বিরুদ্ধে পরীক্ষা করা উচিত।"
     },
     {
-      "key": "t318",
+      "key": "t326",
       "source": "Safeguarding",
       "text": "সুরক্ষা"
     },
     {
-      "key": "t319",
+      "key": "t327",
       "source": "Our commitment.",
       "text": "আমাদের অঙ্গীকার।"
     },
     {
-      "key": "t320",
+      "key": "t328",
       "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
       "text": "শিশু, যুবক এবং প্রাপ্তবয়স্কদের নিরাপত্তা এবং সুস্থতা যে ঝুঁকিতে আমরা কাজ করি তা সবার আগে আসে। আমাদের অনুশীলন ট্রমা-অবহিত এবং BACP নৈতিক মানদণ্ডের সাথে সংযুক্ত।"
     },
     {
-      "key": "t321",
+      "key": "t329",
       "source": "Confidentiality and its limits.",
       "text": "গোপনীয়তা এবং এর সীমা।"
     },
     {
-      "key": "t322",
+      "key": "t330",
       "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
       "text": "আপনি যা শেয়ার করেন তা কঠোর আত্মবিশ্বাসে রাখা হয়। ব্যতিক্রম হল একটি সুরক্ষামূলক পরিস্থিতি — যেখানে আপনার বা অন্য কারও গুরুতর ক্ষতির ঝুঁকি রয়েছে বা যেখানে আমাদের আইনগত দায়িত্ব রয়েছে। যেখানেই এটি করা নিরাপদ, আমরা প্রথমে আপনার সাথে এই বিষয়ে কথা বলব৷"
     },
     {
-      "key": "t323",
+      "key": "t331",
       "source": "Raising a concern.",
       "text": "একটি উদ্বেগ উত্থাপন."
     },
     {
-      "key": "t324",
+      "key": "t332",
       "source": "If you're worried about someone's safety, contact us at",
       "text": "আপনি যদি কারো নিরাপত্তা নিয়ে চিন্তিত হন, তাহলে আমাদের সাথে যোগাযোগ করুন এখানে"
-    },
-    {
-      "key": "t325",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t326",
-      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
-      "text": "অথবা +44 (0)7305 882959। যদি কেউ তাৎক্ষণিক বিপদে পড়েন, সর্বদা 999 নম্বরে কল করুন। এছাড়াও আপনি 0808 800 5000 নম্বরে NSPCC বা আপনার স্থানীয় কর্তৃপক্ষের সুরক্ষা দলের সাথে যোগাযোগ করতে পারেন।"
-    },
-    {
-      "key": "t327",
-      "source": "Our people.",
-      "text": "আমাদের মানুষ."
-    },
-    {
-      "key": "t328",
-      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
-      "text": "স্টাফ এবং স্বেচ্ছাসেবকদের নিরাপদে নিয়োগ করা হয় এবং তাদের ভূমিকার জন্য উপযুক্ত যেখানে DBS চেক গ্রহণ করে।"
-    },
-    {
-      "key": "t329",
-      "source": "Safeguarding lead.",
-      "text": "সুরক্ষা সীসা."
-    },
-    {
-      "key": "t330",
-      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
-      "text": "Linda Yeboah, পরিচালক ও সুরক্ষা কর্মকর্তা। ইমেইল"
-    },
-    {
-      "key": "t331",
-      "source": "floatingcounsellinglinda@gmail.com",
-      "text": "floatingcounsellinglinda@gmail.com"
-    },
-    {
-      "key": "t332",
-      "source": "or",
-      "text": "বা"
     },
     {
       "key": "t333",
@@ -1678,426 +1678,466 @@
     },
     {
       "key": "t334",
-      "source": ". If someone is in immediate danger, call 999.",
-      "text": "]। কেউ তাৎক্ষণিক বিপদে পড়লে 999 নম্বরে কল করুন।"
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "অথবা +44 (0)7305 882959। যদি কেউ তাৎক্ষণিক বিপদে পড়েন, সর্বদা 999 নম্বরে কল করুন। এছাড়াও আপনি 0808 800 5000 নম্বরে NSPCC বা আপনার স্থানীয় কর্তৃপক্ষের সুরক্ষা দলের সাথে যোগাযোগ করতে পারেন।"
     },
     {
       "key": "t335",
-      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
-      "text": "সর্বশেষ পর্যালোচনা করা হয়েছে: 29 মে 2026। প্রকাশের আগে এই সারাংশটি Floating Counselling Community-এর সম্পূর্ণ সুরক্ষা নীতির বিরুদ্ধে পরীক্ষা করা উচিত।"
+      "source": "Our people.",
+      "text": "আমাদের মানুষ."
     },
     {
       "key": "t336",
-      "source": "Cookies & storage",
-      "text": "কুকিজ এবং স্টোরেজ"
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "স্টাফ এবং স্বেচ্ছাসেবকদের নিরাপদে নিয়োগ করা হয় এবং তাদের ভূমিকার জন্য উপযুক্ত যেখানে DBS চেক গ্রহণ করে।"
     },
     {
       "key": "t337",
-      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
-      "text": "আমরা ন্যূনতম কুকিজ রাখি এবং বিজ্ঞাপন বা ক্রস-সাইট ট্র্যাকিং ব্যবহার করি না। সাইটটি আপনার ব্রাউজারে কয়েকটি ছোট আইটেম সঞ্চয় করে:"
+      "source": "Safeguarding lead.",
+      "text": "সুরক্ষা সীসা."
     },
     {
       "key": "t338",
-      "source": "Cookie consent",
-      "text": "কুকি সম্মতি"
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, পরিচালক ও সুরক্ষা কর্মকর্তা। ইমেইল"
     },
     {
       "key": "t339",
-      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
-      "text": "— মনে আছে যে আপনি এই বিজ্ঞপ্তিটি দেখেছেন, তাই আমরা প্রতিবার এটি দেখাই না।"
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatingcounsellinglinda@gmail.com"
     },
     {
       "key": "t340",
-      "source": "Translation cache",
-      "text": "অনুবাদ ক্যাশে"
+      "source": "or",
+      "text": "বা"
     },
     {
       "key": "t341",
-      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
-      "text": "— আপনি যদি পৃষ্ঠাটি অনুবাদ করেন, অনুবাদিত পাঠটি স্থানীয়ভাবে সংরক্ষিত হয় তাই পরের বার তাৎক্ষণিকভাবে লোড হয়।"
-    },
-    {
-      "key": "t342",
-      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
-      "text": "এমবেড করা গুগল ম্যাপ লোড হওয়ার সময় Google এর নিজস্ব কুকি সেট করতে পারে। আপনি আপনার ব্রাউজারের সাইট ডেটা সাফ করে যে কোনো সময় উপরের সবগুলো সাফ করতে পারেন।"
-    },
-    {
-      "key": "t343",
-      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
-      "text": "কাউন্সেলিং, সম্প্রদায় এবং সমবেদনা, 2015 সাল থেকে Croydon, Redbridge, Newham, Durham এবং Southwark পরিষেবা দিচ্ছে৷"
-    },
-    {
-      "key": "t344",
-      "source": "Get in touch",
-      "text": "যোগাযোগ করুন"
-    },
-    {
-      "key": "t345",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
+      "key": "t342",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": "]। কেউ তাৎক্ষণিক বিপদে পড়লে 999 নম্বরে কল করুন।"
+    },
+    {
+      "key": "t343",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "সর্বশেষ পর্যালোচনা করা হয়েছে: 29 মে 2026। প্রকাশের আগে এই সারাংশটি Floating Counselling Community-এর সম্পূর্ণ সুরক্ষা নীতির বিরুদ্ধে পরীক্ষা করা উচিত।"
+    },
+    {
+      "key": "t344",
+      "source": "Cookies & storage",
+      "text": "কুকিজ এবং স্টোরেজ"
+    },
+    {
+      "key": "t345",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "আমরা ন্যূনতম কুকিজ রাখি এবং বিজ্ঞাপন বা ক্রস-সাইট ট্র্যাকিং ব্যবহার করি না। সাইটটি আপনার ব্রাউজারে কয়েকটি ছোট আইটেম সঞ্চয় করে:"
+    },
+    {
       "key": "t346",
+      "source": "Cookie consent",
+      "text": "কুকি সম্মতি"
+    },
+    {
+      "key": "t347",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— মনে আছে যে আপনি এই বিজ্ঞপ্তিটি দেখেছেন, তাই আমরা প্রতিবার এটি দেখাই না।"
+    },
+    {
+      "key": "t348",
+      "source": "Translation cache",
+      "text": "অনুবাদ ক্যাশে"
+    },
+    {
+      "key": "t349",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "— আপনি যদি পৃষ্ঠাটি অনুবাদ করেন, অনুবাদিত পাঠটি স্থানীয়ভাবে সংরক্ষিত হয় তাই পরের বার তাৎক্ষণিকভাবে লোড হয়।"
+    },
+    {
+      "key": "t350",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "এমবেড করা গুগল ম্যাপ লোড হওয়ার সময় Google এর নিজস্ব কুকি সেট করতে পারে। আপনি আপনার ব্রাউজারের সাইট ডেটা সাফ করে যে কোনো সময় উপরের সবগুলো সাফ করতে পারেন।"
+    },
+    {
+      "key": "t351",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "কাউন্সেলিং, সম্প্রদায় এবং সমবেদনা, 2015 সাল থেকে Croydon, Redbridge, Newham, Durham এবং Southwark পরিষেবা দিচ্ছে৷"
+    },
+    {
+      "key": "t352",
+      "source": "Get in touch",
+      "text": "যোগাযোগ করুন"
+    },
+    {
+      "key": "t353",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t354",
       "source": "WhatsApp · +44 (0)7305 882959",
       "text": "WhatsApp · +44 (0)7305 882959"
     },
     {
-      "key": "t347",
+      "key": "t355",
       "source": "Croydon Hub · Ashburton Park Cafe Hall",
       "text": "Croydon হাব · Ashburton Park Cafe Hall"
     },
     {
-      "key": "t348",
+      "key": "t356",
       "source": "See all project locations",
       "text": "সমস্ত প্রকল্প অবস্থান দেখুন"
     },
     {
-      "key": "t349",
+      "key": "t357",
       "source": "Fundraiser",
       "text": "তহবিল সংগ্রহকারী"
     },
     {
-      "key": "t350",
+      "key": "t358",
       "source": "Volunteer",
       "text": "স্বেচ্ছাসেবক"
     },
     {
-      "key": "t351",
+      "key": "t359",
       "source": "Croydon office",
       "text": "Croydon অফিস"
     },
     {
-      "key": "t352",
+      "key": "t360",
       "source": "Redbridge office",
       "text": "Redbridge অফিস"
     },
     {
-      "key": "t353",
+      "key": "t361",
       "source": "Durham hub",
       "text": "Durham হাব"
     },
     {
-      "key": "t354",
+      "key": "t362",
       "source": "Southwark hub",
       "text": "Southwark হাব"
     },
     {
-      "key": "t355",
+      "key": "t363",
       "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
       "text": "Floating Counselling™ · BACP-সংযুক্ত · কোম্পানি নং। 11334515 · কমিউনিটি পার্টনার"
     },
     {
-      "key": "t356",
+      "key": "t364",
       "source": "Privacy",
       "text": "গোপনীয়তা"
     },
     {
-      "key": "t357",
+      "key": "t365",
       "source": "Safeguarding",
       "text": "সুরক্ষা"
     },
     {
-      "key": "t358",
+      "key": "t366",
       "source": "Fundraiser",
       "text": "তহবিল সংগ্রহকারী"
     },
     {
-      "key": "t359",
+      "key": "t367",
       "source": "Donate",
       "text": "দান করুন"
     },
     {
-      "key": "t360",
+      "key": "t368",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t361",
+      "key": "t369",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t362",
+      "key": "t370",
       "source": "Choose a quick route",
       "text": "একটি দ্রুত পথ বেছে নিন"
     },
     {
-      "key": "t363",
+      "key": "t371",
       "source": "If you are not sure which service fits, choose the closest option and we will route you.",
       "text": "আপনি যদি নিশ্চিত না হন যে কোন পরিষেবাটি উপযুক্ত, তাহলে নিকটতম বিকল্পটি বেছে নিন এবং আমরা আপনাকে রুট করব৷"
     },
     {
-      "key": "t364",
+      "key": "t372",
       "source": "Counselling enquiry",
       "text": "কাউন্সেলিং তদন্ত"
     },
     {
-      "key": "t365",
+      "key": "t373",
       "source": "Parenting support",
       "text": "প্যারেন্টিং সমর্থন"
     },
     {
-      "key": "t366",
+      "key": "t374",
       "source": "Food or community hub",
       "text": "খাদ্য বা কমিউনিটি হাব"
     },
     {
-      "key": "t367",
+      "key": "t375",
       "source": "Holiday school",
       "text": "হলিডে স্কুল"
     },
     {
-      "key": "t368",
+      "key": "t376",
       "source": "Fundraiser",
       "text": "তহবিল সংগ্রহকারী"
     },
     {
-      "key": "t369",
+      "key": "t377",
       "source": "Volunteer or partner",
       "text": "স্বেচ্ছাসেবক বা অংশীদার"
     },
     {
-      "key": "t370",
+      "key": "t378",
       "source": "WhatsApp Floating",
       "text": "WhatsApp ফ্লোটিং"
     },
     {
-      "key": "t371",
+      "key": "t379",
       "source": "We use a small number of cookies to make this site work and to understand how it's used.",
       "text": "এই সাইটটিকে কাজ করতে এবং এটি কীভাবে ব্যবহার করা হয় তা বোঝার জন্য আমরা অল্প সংখ্যক কুকিজ ব্যবহার করি।"
     },
     {
-      "key": "t372",
+      "key": "t380",
       "source": "More info",
       "text": "আরও তথ্য"
     },
     {
-      "key": "t373",
+      "key": "t381",
       "source": "Decline",
       "text": "প্রত্যাখ্যান"
     },
     {
-      "key": "t374",
+      "key": "t382",
       "source": "Accept",
       "text": "গ্রহণ করুন"
     },
     {
-      "key": "a375",
+      "key": "a383",
       "source": "Primary",
       "text": "প্রাথমিক"
     },
     {
-      "key": "a376",
+      "key": "a384",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — হোম"
     },
     {
-      "key": "a377",
+      "key": "a385",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a378",
+      "key": "a386",
       "source": "Toggle navigation",
       "text": "নেভিগেশন টগল করুন"
     },
     {
-      "key": "a379",
+      "key": "a387",
       "source": "Counselling conversation at Floating Counselling",
       "text": "Floating Counselling এ কাউন্সেলিং কথোপকথন"
     },
     {
-      "key": "a380",
+      "key": "a388",
       "source": "Scroll to impact",
       "text": "প্রভাবের জন্য স্ক্রোল করুন"
     },
     {
-      "key": "a381",
+      "key": "a389",
       "source": "Our impact",
       "text": "আমাদের প্রভাব"
     },
     {
-      "key": "a382",
+      "key": "a390",
       "source": "Celestina Oniye-Thomas from Floating Counselling",
       "text": "Floating Counselling থেকে Celestina Oniye-Thomas"
     },
     {
-      "key": "a383",
+      "key": "a391",
       "source": "Impact Parenting support artwork from Floating Counselling",
       "text": "Floating Counselling থেকে Impact Parenting আর্টওয়ার্ক সমর্থন করে"
     },
     {
-      "key": "a384",
+      "key": "a392",
       "source": "Floating Counselling community organisation impact infographic",
       "text": "Floating Counselling সম্প্রদায় সংগঠন প্রভাব ইনফোগ্রাফিক"
     },
     {
-      "key": "a385",
+      "key": "a393",
       "source": "Holiday school values",
       "text": "ছুটির স্কুল মান"
     },
     {
-      "key": "a386",
+      "key": "a394",
       "source": "Holiday school week 1 newsletter",
       "text": "ছুটির স্কুল সপ্তাহ 1 নিউজলেটার"
     },
     {
-      "key": "a387",
+      "key": "a395",
       "source": "Floating Community Hub community gathering",
       "text": "ফ্লোটিং কমিউনিটি হাব সম্প্রদায়ের সমাবেশ"
     },
     {
-      "key": "a388",
+      "key": "a396",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "a389",
+      "key": "a397",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "a390",
+      "key": "a398",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "a391",
+      "key": "a399",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah"
     },
     {
-      "key": "a392",
+      "key": "a400",
       "source": "Department for Education",
       "text": "শিক্ষা বিভাগ"
     },
     {
-      "key": "a393",
+      "key": "a401",
       "source": "Croydon Council",
       "text": "Croydon কাউন্সিল"
     },
     {
-      "key": "a394",
+      "key": "a402",
       "source": "South West London CCGs",
       "text": "দক্ষিণ পশ্চিম London CCGs"
     },
     {
-      "key": "a395",
+      "key": "a403",
       "source": "The National Lottery Community Fund",
       "text": "জাতীয় লটারি কমিউনিটি ফান্ড"
     },
     {
-      "key": "a396",
+      "key": "a404",
       "source": "BME Forum",
       "text": "BME ফোরাম"
     },
     {
-      "key": "a397",
+      "key": "a405",
       "source": "Croydon Voluntary Action",
       "text": "Croydon স্বেচ্ছাসেবী কর্ম"
     },
     {
-      "key": "a398",
+      "key": "a406",
       "source": "Volunteer application form",
       "text": "স্বেচ্ছাসেবক আবেদনপত্র"
     },
     {
-      "key": "a399",
+      "key": "a407",
       "source": "Project locations",
       "text": "প্রকল্পের অবস্থান"
     },
     {
-      "key": "a400",
+      "key": "a408",
       "source": "Social links",
       "text": "সামাজিক লিঙ্ক"
     },
     {
-      "key": "a401",
+      "key": "a409",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a402",
+      "key": "a410",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a403",
+      "key": "a411",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a404",
+      "key": "a412",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a405",
+      "key": "a413",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — হোম"
     },
     {
-      "key": "a406",
+      "key": "a414",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a407",
+      "key": "a415",
       "source": "Social links",
       "text": "সামাজিক লিঙ্ক"
     },
     {
-      "key": "a408",
+      "key": "a416",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a409",
+      "key": "a417",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a410",
+      "key": "a418",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a411",
+      "key": "a419",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a412",
+      "key": "a420",
       "source": "Project locations",
       "text": "প্রকল্পের অবস্থান"
     },
     {
-      "key": "a413",
+      "key": "a421",
       "source": "Fundraise for Floating Counselling",
       "text": "Floating Counselling এর জন্য তহবিল সংগ্রহ"
     },
     {
-      "key": "a414",
+      "key": "a422",
       "source": "Donate to Floating Counselling",
       "text": "Floating Counselling এ দান করুন"
     },
     {
-      "key": "a415",
+      "key": "a423",
       "source": "Back to top",
       "text": "উপরে ফিরে যান"
     },
     {
-      "key": "a416",
+      "key": "a424",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "a417",
+      "key": "a425",
       "source": "Close assistant",
       "text": "ঘনিষ্ঠ সহকারী"
     },
     {
-      "key": "a418",
+      "key": "a426",
       "source": "Cookie notice",
       "text": "কুকি নোটিশ"
     }

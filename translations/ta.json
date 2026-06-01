@@ -2,9 +2,9 @@
   "language": "ta",
   "languageName": "Tamil",
   "sourceLanguage": "en",
-  "sourceHash": "sym184",
-  "sourceUrl": "http://127.0.0.1:55223/",
-  "generatedAt": "2026-06-01T22:06:19.143Z",
+  "sourceHash": "4ftabt",
+  "sourceUrl": "http://127.0.0.1:57366/",
+  "generatedAt": "2026-06-01T22:55:57.786Z",
   "translations": [
     {
       "key": "t0",
@@ -1413,263 +1413,263 @@
     },
     {
       "key": "t281",
+      "source": "Counselling enquiry",
+      "text": "ஆலோசனை விசாரணை"
+    },
+    {
+      "key": "t282",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t283",
+      "source": "Community Hub / food support",
+      "text": "சமூக மையம் / உணவு ஆதரவு"
+    },
+    {
+      "key": "t284",
+      "source": "Holiday school",
+      "text": "விடுமுறை பள்ளி"
+    },
+    {
+      "key": "t285",
+      "source": "Fundraising",
+      "text": "நிதி திரட்டுதல்"
+    },
+    {
+      "key": "t286",
+      "source": "Volunteering",
+      "text": "தன்னார்வத் தொண்டு"
+    },
+    {
+      "key": "t287",
+      "source": "Press / partnership",
+      "text": "பத்திரிகை / கூட்டாண்மை"
+    },
+    {
+      "key": "t288",
+      "source": "Something else",
+      "text": "வேறு ஏதாவது"
+    },
+    {
+      "key": "t289",
       "source": "Message",
       "text": "செய்தி"
     },
     {
-      "key": "t282",
+      "key": "t290",
       "source": "I agree to be contacted in line with the",
       "text": "உடன் தொடர்பு கொள்ள ஒப்புக்கொள்கிறேன்"
     },
     {
-      "key": "t283",
+      "key": "t291",
       "source": "privacy policy",
       "text": "தனியுரிமைக் கொள்கை"
     },
     {
-      "key": "t284",
+      "key": "t292",
       "source": "Send message",
       "text": "செய்தியை அனுப்பு"
     },
     {
-      "key": "t285",
+      "key": "t293",
       "source": "We're here",
       "text": "நாங்கள் இங்கே இருக்கிறோம்"
     },
     {
-      "key": "t286",
+      "key": "t294",
       "source": "Whatever you're carrying, you don't carry it alone.",
       "text": "நீங்கள் எதை எடுத்துச் சென்றாலும், அதை நீங்கள் தனியாக எடுத்துச் செல்வதில்லை."
     },
     {
-      "key": "t287",
+      "key": "t295",
       "source": "Whether you need counselling, community support, food, or just someone to talk to. Reach out today. Your first step matters.",
       "text": "உங்களுக்கு ஆலோசனை தேவையா, சமூக ஆதரவு தேவையா, உணவு தேவையா அல்லது யாராவது பேச வேண்டுமா. இன்றே அணுகுங்கள். உங்கள் முதல் படி முக்கியமானது."
     },
     {
-      "key": "t288",
+      "key": "t296",
       "source": "Email us",
       "text": "எங்களுக்கு மின்னஞ்சல் அனுப்பவும்"
     },
     {
-      "key": "t289",
+      "key": "t297",
       "source": "WhatsApp us",
       "text": "WhatsApp எங்களுக்கு"
     },
     {
-      "key": "t290",
+      "key": "t298",
       "source": "Donate via PayPal",
       "text": "PayPal வழியாக நன்கொடை அளிக்கவும்"
     },
     {
-      "key": "t291",
+      "key": "t299",
       "source": "Localgiving",
       "text": "Localgiving"
     },
     {
-      "key": "t292",
+      "key": "t300",
       "source": "Fundraiser",
       "text": "நிதி திரட்டுபவர்"
     },
     {
-      "key": "t293",
+      "key": "t301",
       "source": "Volunteer",
       "text": "தன்னார்வலர்"
     },
     {
-      "key": "t294",
+      "key": "t302",
       "source": "Policies & your privacy",
       "text": "கொள்கைகள் மற்றும் உங்கள் தனியுரிமை"
     },
     {
-      "key": "t295",
+      "key": "t303",
       "source": "How we protect you and your data.",
       "text": "உங்களையும் உங்கள் தரவையும் நாங்கள் எவ்வாறு பாதுகாப்போம்."
     },
     {
-      "key": "t296",
+      "key": "t304",
       "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
       "text": "உங்கள் தகவலை நாங்கள் எவ்வாறு கையாளுகிறோம், மக்களைப் பாதுகாப்பாக வைத்திருக்கிறோம் மற்றும் குக்கீகளைப் பயன்படுத்துகிறோம் என்பதற்கான எளிய-ஆங்கில சுருக்கம். முழு கொள்கைகள் அல்லது ஏதேனும் கோரிக்கைக்கு, மின்னஞ்சல்"
     },
     {
-      "key": "t297",
+      "key": "t305",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t298",
+      "key": "t306",
       "source": "Privacy policy",
       "text": "தனியுரிமைக் கொள்கை"
     },
     {
-      "key": "t299",
+      "key": "t307",
       "source": "Who we are.",
       "text": "நாம் யார்."
     },
     {
-      "key": "t300",
+      "key": "t308",
       "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
       "text": "Floating Counselling Community என்பது UK அடிமட்ட அமைப்பாகும். இது 2015 ஆம் ஆண்டு முதல் ஆலோசனை மற்றும் சமூக ஆதரவை வழங்குகிறது. நாங்கள் FLOATING COUNSELLING COMMUNITY ஆக செயல்படுகிறோம், இது இங்கிலாந்து மற்றும் வேல்ஸில் பதிவுசெய்யப்பட்ட உத்தரவாதத்தால் வரையறுக்கப்பட்ட நிறுவனமாகும். தனியுரிமை கோரிக்கைகளுக்கு, மின்னஞ்சல்"
     },
     {
-      "key": "t301",
+      "key": "t309",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t302",
+      "key": "t310",
       "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
       "text": "அல்லது 26 அவென்யூ சாலையில் உள்ள எங்கள் Croydon அலுவலகத்திற்கு எழுதவும், London SE25 4DX."
     },
     {
-      "key": "t303",
+      "key": "t311",
       "source": "What we collect.",
       "text": "நாங்கள் சேகரிப்பது."
     },
     {
-      "key": "t304",
+      "key": "t312",
       "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
       "text": "மின்னஞ்சல் அல்லது WhatsApp மூலம் விசாரணைப் படிவத்தின் மூலம் எங்களைத் தொடர்பு கொள்ளும்போது, ​​நீங்கள் எங்களுக்குத் தெரிவிப்பதற்கான விவரங்களைப் பெறுவோம் - பொதுவாக உங்கள் பெயர், மின்னஞ்சல் முகவரி, நீங்கள் தேர்ந்தெடுக்கும் தலைப்பு மற்றும் உங்கள் செய்தி. நீங்கள் எங்கள் செய்திமடலில் பதிவு செய்தால், உங்கள் மின்னஞ்சல் முகவரியை நாங்கள் சேகரிப்போம். இந்த இணையதளத்தின் மூலம் சிறப்பு வகை சுகாதாரத் தகவல்களை நாங்கள் கேட்கவில்லை; உங்களுக்கு வசதியாக இருப்பதை மட்டும் பகிர்ந்து கொள்ளுங்கள்."
     },
     {
-      "key": "t305",
+      "key": "t313",
       "source": "How we use it, and our lawful basis.",
       "text": "நாங்கள் அதை எப்படிப் பயன்படுத்துகிறோம், எங்கள் சட்டபூர்வமான அடிப்படை."
     },
     {
-      "key": "t306",
+      "key": "t314",
       "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
       "text": "உங்களுக்குப் பதிலளிக்கவும், நீங்கள் கேட்கும் ஆதரவை வழங்கவும், எங்கள் சேவைகளை இயக்கவும் உங்கள் விவரங்களைப் பயன்படுத்துகிறோம் (UK GDPR \"ஒப்புதல்\" மற்றும் \"சட்டபூர்வமான ஆர்வங்கள்\"). ஒருவரைப் பாதுகாக்கும் கடமை நமக்கு இருக்கும்பட்சத்தில், சட்டப்பூர்வ கடமையைச் சந்திக்கும் வகையில் தகவலைச் செயல்படுத்தலாம் (பாதுகாப்பு என்பதைப் பார்க்கவும்)."
     },
     {
-      "key": "t307",
+      "key": "t315",
       "source": "Who we share it with.",
       "text": "யாருடன் பகிர்ந்து கொள்கிறோம்."
     },
     {
-      "key": "t308",
+      "key": "t316",
       "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
       "text": "உங்கள் தரவை நாங்கள் விற்கவில்லை. இணையதளம், மின்னஞ்சல், படிவங்கள், தன்னார்வ விண்ணப்பங்கள், நன்கொடைகள் மற்றும் வரைபடங்களை இயக்க எங்களுக்கு உதவும் குறைந்த எண்ணிக்கையிலான நம்பகமான சேவை வழங்குநர்களை நாங்கள் நம்பியுள்ளோம். ஒவ்வொரு வழங்குநரும் அந்தச் சேவைக்குத் தேவையான தகவலை மட்டுமே பெறுவார்கள், மேலும் ஒவ்வொருவருக்கும் அதன் சொந்த தனியுரிமை அறிவிப்பு உள்ளது."
     },
     {
-      "key": "t309",
+      "key": "t317",
       "source": "Translation.",
       "text": "மொழிபெயர்ப்பு."
     },
     {
-      "key": "t310",
+      "key": "t318",
       "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
       "text": "இந்தப் பக்கத்தை நீங்கள் மொழிபெயர்த்தால், திரையில் உள்ள பக்க உரையானது ஒரு மொழிபெயர்ப்புச் சேவைக்கு பாதுகாப்பாக அனுப்பப்படலாம், எனவே மொழிபெயர்க்கப்பட்ட பதிப்பைத் திரும்பப் பெறலாம். மொழிபெயர்ப்பு விருப்பமானது, தொடர்பு படிவ செய்திகள் இந்த அம்சத்தால் மொழிபெயர்க்கப்படாது, மேலும் மொழிபெயர்க்கப்பட்ட உரை உங்கள் உலாவியில் தற்காலிகமாக சேமிக்கப்படும், எனவே அடுத்த முறை வேகமாக ஏற்றப்படும்."
     },
     {
-      "key": "t311",
+      "key": "t319",
       "source": "How long we keep it.",
       "text": "எவ்வளவு நேரம் வைத்திருக்கிறோம்."
     },
     {
-      "key": "t312",
+      "key": "t320",
       "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
       "text": "பதிலளிப்பதற்கும், ஆதரவை வழங்குவதற்கும், பாதுகாப்புக் கடமைகளை நிறைவேற்றுவதற்கும், சட்டப்பூர்வ அல்லது கணக்கியல் கடமைகளுக்கு இணங்குவதற்கும் தேவைப்படும் வரை மட்டுமே விசாரணை மற்றும் ஆதரவு-கோரிக்கை விவரங்களை நாங்கள் வைத்திருக்கிறோம். நன்கொடை மற்றும் தன்னார்வப் பதிவுகள் தொடர்புடைய வழங்குநர் மற்றும் சட்டப்பூர்வ தக்கவைப்புத் தேவைகளுக்கு ஏற்ப வைக்கப்படுகின்றன."
     },
     {
-      "key": "t313",
+      "key": "t321",
       "source": "Your rights.",
       "text": "உங்கள் உரிமைகள்."
     },
     {
-      "key": "t314",
+      "key": "t322",
       "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
       "text": "UK GDPR இன் கீழ் உங்கள் தரவை அணுக, திருத்த, நீக்க அல்லது கட்டுப்படுத்த, செயலாக்கத்திற்கு ஆட்சேபனை செய்ய, பெயர்வுத்திறனைக் கோர அல்லது எந்த நேரத்திலும் ஒப்புதலை திரும்பப் பெறவும். மின்னஞ்சல்"
     },
     {
-      "key": "t315",
+      "key": "t323",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t316",
+      "key": "t324",
       "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
       "text": "அல்லது 26 அவென்யூ ரோடு, London SE25 4DX இல் எங்களுக்கு எழுதவும். எங்கள் பதிலில் நீங்கள் மகிழ்ச்சியடையவில்லை என்றால், ico.org.uk இல் ICO இல் புகார் செய்யலாம்."
     },
     {
-      "key": "t317",
+      "key": "t325",
       "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
       "text": "கடைசியாக மதிப்பாய்வு செய்யப்பட்டது: 29 மே 2026. இந்த எளிய-ஆங்கிலச் சுருக்கம் வெளிப்படைத்தன்மைக்காக வழங்கப்பட்டுள்ளது மற்றும் வெளியிடுவதற்கு முன் Floating Counselling Community இன் முழுக் கொள்கைகளையும் சரிபார்க்க வேண்டும்."
     },
     {
-      "key": "t318",
+      "key": "t326",
       "source": "Safeguarding",
       "text": "பாதுகாப்பு"
     },
     {
-      "key": "t319",
+      "key": "t327",
       "source": "Our commitment.",
       "text": "எங்கள் அர்ப்பணிப்பு."
     },
     {
-      "key": "t320",
+      "key": "t328",
       "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
       "text": "நாங்கள் பணிபுரியும் ஆபத்தில் உள்ள குழந்தைகள், இளைஞர்கள் மற்றும் பெரியவர்களின் பாதுகாப்பு மற்றும் நல்வாழ்வு முதன்மையானது. எங்கள் நடைமுறையானது அதிர்ச்சிகரமான தகவல் மற்றும் BACP நெறிமுறை தரநிலைகளுடன் சீரமைக்கப்பட்டுள்ளது."
     },
     {
-      "key": "t321",
+      "key": "t329",
       "source": "Confidentiality and its limits.",
       "text": "இரகசியத்தன்மை மற்றும் அதன் வரம்புகள்."
     },
     {
-      "key": "t322",
+      "key": "t330",
       "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
       "text": "நீங்கள் பகிர்வது கடுமையான நம்பிக்கையுடன் உள்ளது. விதிவிலக்கு என்பது ஒரு பாதுகாப்புச் சூழ்நிலை - உங்களுக்கோ அல்லது வேறு ஒருவருக்கோ கடுமையான தீங்கு விளைவிக்கும் அபாயம் உள்ள இடத்தில் அல்லது சட்டப்பூர்வமாகச் செயல்பட வேண்டிய கடமை எங்களிடம் உள்ளது. அவ்வாறு செய்வது பாதுகாப்பானது எனில், இதை முதலில் உங்களுடன் பேசுவோம்."
     },
     {
-      "key": "t323",
+      "key": "t331",
       "source": "Raising a concern.",
       "text": "ஒரு கவலையை எழுப்புகிறது."
     },
     {
-      "key": "t324",
+      "key": "t332",
       "source": "If you're worried about someone's safety, contact us at",
       "text": "ஒருவரின் பாதுகாப்பைப் பற்றி நீங்கள் கவலைப்பட்டால், எங்களைத் தொடர்புகொள்ளவும்"
-    },
-    {
-      "key": "t325",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t326",
-      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
-      "text": "அல்லது +44 (0)7305 882959. யாராவது உடனடி ஆபத்தில் இருந்தால், எப்போதும் 999 என்ற எண்ணிற்கு அழைக்கவும். நீங்கள் NSPCCஐ 0808 800 5000 என்ற எண்ணில் அல்லது உங்கள் உள்ளூர் அதிகாரியின் பாதுகாப்புக் குழுவைத் தொடர்பு கொள்ளலாம்."
-    },
-    {
-      "key": "t327",
-      "source": "Our people.",
-      "text": "எங்கள் மக்கள்."
-    },
-    {
-      "key": "t328",
-      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
-      "text": "பணியாளர்கள் மற்றும் தன்னார்வலர்கள் பாதுகாப்பாக ஆட்சேர்ப்பு செய்யப்படுவார்கள் மற்றும் அவர்களின் பங்கிற்கு பொருத்தமான DBS காசோலைகளைப் பெறுவார்கள்."
-    },
-    {
-      "key": "t329",
-      "source": "Safeguarding lead.",
-      "text": "பாதுகாக்கும் முன்னணி."
-    },
-    {
-      "key": "t330",
-      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
-      "text": "Linda Yeboah, இயக்குனர் & பாதுகாப்பு அதிகாரி. மின்னஞ்சல்"
-    },
-    {
-      "key": "t331",
-      "source": "floatingcounsellinglinda@gmail.com",
-      "text": "floatingcounsellinglinda@gmail.com"
-    },
-    {
-      "key": "t332",
-      "source": "or",
-      "text": "அல்லது"
     },
     {
       "key": "t333",
@@ -1678,426 +1678,466 @@
     },
     {
       "key": "t334",
-      "source": ". If someone is in immediate danger, call 999.",
-      "text": ". யாராவது உடனடியாக ஆபத்தில் இருந்தால், 999 ஐ அழைக்கவும்."
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "அல்லது +44 (0)7305 882959. யாராவது உடனடி ஆபத்தில் இருந்தால், எப்போதும் 999 என்ற எண்ணிற்கு அழைக்கவும். நீங்கள் NSPCCஐ 0808 800 5000 என்ற எண்ணில் அல்லது உங்கள் உள்ளூர் அதிகாரியின் பாதுகாப்புக் குழுவைத் தொடர்பு கொள்ளலாம்."
     },
     {
       "key": "t335",
-      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
-      "text": "கடைசியாக மதிப்பாய்வு செய்யப்பட்டது: 29 மே 2026. இந்தச் சுருக்கமானது வெளியிடுவதற்கு முன் Floating Counselling Community இன் முழுப் பாதுகாப்புக் கொள்கைக்கு எதிராகச் சரிபார்க்கப்பட வேண்டும்."
+      "source": "Our people.",
+      "text": "எங்கள் மக்கள்."
     },
     {
       "key": "t336",
-      "source": "Cookies & storage",
-      "text": "குக்கீகள் & சேமிப்பு"
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "பணியாளர்கள் மற்றும் தன்னார்வலர்கள் பாதுகாப்பாக ஆட்சேர்ப்பு செய்யப்படுவார்கள் மற்றும் அவர்களின் பங்கிற்கு பொருத்தமான DBS காசோலைகளைப் பெறுவார்கள்."
     },
     {
       "key": "t337",
-      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
-      "text": "நாங்கள் குக்கீகளை குறைந்தபட்சமாக வைத்திருக்கிறோம், விளம்பரம் அல்லது குறுக்கு-தள கண்காணிப்பைப் பயன்படுத்த மாட்டோம். தளம் உங்கள் உலாவியில் இரண்டு சிறிய பொருட்களை சேமிக்கிறது:"
+      "source": "Safeguarding lead.",
+      "text": "பாதுகாக்கும் முன்னணி."
     },
     {
       "key": "t338",
-      "source": "Cookie consent",
-      "text": "குக்கீ ஒப்புதல்"
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, இயக்குனர் & பாதுகாப்பு அதிகாரி. மின்னஞ்சல்"
     },
     {
       "key": "t339",
-      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
-      "text": "— இந்த அறிவிப்பை நீங்கள் பார்த்தது நினைவிருக்கிறது, எனவே ஒவ்வொரு வருகையின் போதும் அதை நாங்கள் காட்ட மாட்டோம்."
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatingcounsellinglinda@gmail.com"
     },
     {
       "key": "t340",
-      "source": "Translation cache",
-      "text": "மொழிபெயர்ப்பு தற்காலிக சேமிப்பு"
+      "source": "or",
+      "text": "அல்லது"
     },
     {
       "key": "t341",
-      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
-      "text": "— நீங்கள் பக்கத்தை மொழிபெயர்த்தால், மொழிபெயர்க்கப்பட்ட உரை உள்நாட்டில் சேமிக்கப்படும், எனவே அது அடுத்த முறை உடனடியாக ஏற்றப்படும்."
-    },
-    {
-      "key": "t342",
-      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
-      "text": "உட்பொதிக்கப்பட்ட கூகுள் மேப் ஏற்றப்படும் போது கூகிளின் சொந்த குக்கீகளை அமைக்கலாம். உங்கள் உலாவியின் தளத் தரவை அழிப்பதன் மூலம் எந்த நேரத்திலும் மேலே உள்ள அனைத்தையும் அழிக்கலாம்."
-    },
-    {
-      "key": "t343",
-      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
-      "text": "ஆலோசனை, சமூகம் & இரக்கம், 2015 முதல் Croydon, Redbridge, Newham, Durham மற்றும் Southwark ஆகியவற்றிற்கு சேவை செய்கிறது."
-    },
-    {
-      "key": "t344",
-      "source": "Get in touch",
-      "text": "தொடர்பு கொள்ளவும்"
-    },
-    {
-      "key": "t345",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
+      "key": "t342",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". யாராவது உடனடியாக ஆபத்தில் இருந்தால், 999 ஐ அழைக்கவும்."
+    },
+    {
+      "key": "t343",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "கடைசியாக மதிப்பாய்வு செய்யப்பட்டது: 29 மே 2026. இந்தச் சுருக்கமானது வெளியிடுவதற்கு முன் Floating Counselling Community இன் முழுப் பாதுகாப்புக் கொள்கைக்கு எதிராகச் சரிபார்க்கப்பட வேண்டும்."
+    },
+    {
+      "key": "t344",
+      "source": "Cookies & storage",
+      "text": "குக்கீகள் & சேமிப்பு"
+    },
+    {
+      "key": "t345",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "நாங்கள் குக்கீகளை குறைந்தபட்சமாக வைத்திருக்கிறோம், விளம்பரம் அல்லது குறுக்கு-தள கண்காணிப்பைப் பயன்படுத்த மாட்டோம். தளம் உங்கள் உலாவியில் இரண்டு சிறிய பொருட்களை சேமிக்கிறது:"
+    },
+    {
       "key": "t346",
+      "source": "Cookie consent",
+      "text": "குக்கீ ஒப்புதல்"
+    },
+    {
+      "key": "t347",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— இந்த அறிவிப்பை நீங்கள் பார்த்தது நினைவிருக்கிறது, எனவே ஒவ்வொரு வருகையின் போதும் அதை நாங்கள் காட்ட மாட்டோம்."
+    },
+    {
+      "key": "t348",
+      "source": "Translation cache",
+      "text": "மொழிபெயர்ப்பு தற்காலிக சேமிப்பு"
+    },
+    {
+      "key": "t349",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "— நீங்கள் பக்கத்தை மொழிபெயர்த்தால், மொழிபெயர்க்கப்பட்ட உரை உள்நாட்டில் சேமிக்கப்படும், எனவே அது அடுத்த முறை உடனடியாக ஏற்றப்படும்."
+    },
+    {
+      "key": "t350",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "உட்பொதிக்கப்பட்ட கூகுள் மேப் ஏற்றப்படும் போது கூகிளின் சொந்த குக்கீகளை அமைக்கலாம். உங்கள் உலாவியின் தளத் தரவை அழிப்பதன் மூலம் எந்த நேரத்திலும் மேலே உள்ள அனைத்தையும் அழிக்கலாம்."
+    },
+    {
+      "key": "t351",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "ஆலோசனை, சமூகம் & இரக்கம், 2015 முதல் Croydon, Redbridge, Newham, Durham மற்றும் Southwark ஆகியவற்றிற்கு சேவை செய்கிறது."
+    },
+    {
+      "key": "t352",
+      "source": "Get in touch",
+      "text": "தொடர்பு கொள்ளவும்"
+    },
+    {
+      "key": "t353",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t354",
       "source": "WhatsApp · +44 (0)7305 882959",
       "text": "WhatsApp · +44 (0)7305 882959"
     },
     {
-      "key": "t347",
+      "key": "t355",
       "source": "Croydon Hub · Ashburton Park Cafe Hall",
       "text": "Croydon ஹப் · Ashburton Park Cafe Hall"
     },
     {
-      "key": "t348",
+      "key": "t356",
       "source": "See all project locations",
       "text": "அனைத்து திட்ட இடங்களையும் பார்க்கவும்"
     },
     {
-      "key": "t349",
+      "key": "t357",
       "source": "Fundraiser",
       "text": "நிதி திரட்டுபவர்"
     },
     {
-      "key": "t350",
+      "key": "t358",
       "source": "Volunteer",
       "text": "தன்னார்வலர்"
     },
     {
-      "key": "t351",
+      "key": "t359",
       "source": "Croydon office",
       "text": "Croydon அலுவலகம்"
     },
     {
-      "key": "t352",
+      "key": "t360",
       "source": "Redbridge office",
       "text": "Redbridge அலுவலகம்"
     },
     {
-      "key": "t353",
+      "key": "t361",
       "source": "Durham hub",
       "text": "Durham ஹப்"
     },
     {
-      "key": "t354",
+      "key": "t362",
       "source": "Southwark hub",
       "text": "Southwark ஹப்"
     },
     {
-      "key": "t355",
+      "key": "t363",
       "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
       "text": "Floating Counselling™ · BACP-சீரமைக்கப்பட்டது · நிறுவனம் எண். 11334515 · சமூக பங்குதாரர்"
     },
     {
-      "key": "t356",
+      "key": "t364",
       "source": "Privacy",
       "text": "தனியுரிமை"
     },
     {
-      "key": "t357",
+      "key": "t365",
       "source": "Safeguarding",
       "text": "பாதுகாப்பு"
     },
     {
-      "key": "t358",
+      "key": "t366",
       "source": "Fundraiser",
       "text": "நிதி திரட்டுபவர்"
     },
     {
-      "key": "t359",
+      "key": "t367",
       "source": "Donate",
       "text": "நன்கொடை"
     },
     {
-      "key": "t360",
+      "key": "t368",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t361",
+      "key": "t369",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t362",
+      "key": "t370",
       "source": "Choose a quick route",
       "text": "விரைவான வழியைத் தேர்வு செய்யவும்"
     },
     {
-      "key": "t363",
+      "key": "t371",
       "source": "If you are not sure which service fits, choose the closest option and we will route you.",
       "text": "எந்தச் சேவை பொருத்தமானது என்று உங்களுக்குத் தெரியாவிட்டால், மிக நெருக்கமான விருப்பத்தைத் தேர்வுசெய்யவும், நாங்கள் உங்களை வழிநடத்துவோம்."
     },
     {
-      "key": "t364",
+      "key": "t372",
       "source": "Counselling enquiry",
       "text": "ஆலோசனை விசாரணை"
     },
     {
-      "key": "t365",
+      "key": "t373",
       "source": "Parenting support",
       "text": "பெற்றோர் ஆதரவு"
     },
     {
-      "key": "t366",
+      "key": "t374",
       "source": "Food or community hub",
       "text": "உணவு அல்லது சமூக மையம்"
     },
     {
-      "key": "t367",
+      "key": "t375",
       "source": "Holiday school",
       "text": "விடுமுறை பள்ளி"
     },
     {
-      "key": "t368",
+      "key": "t376",
       "source": "Fundraiser",
       "text": "நிதி திரட்டுபவர்"
     },
     {
-      "key": "t369",
+      "key": "t377",
       "source": "Volunteer or partner",
       "text": "தன்னார்வலர் அல்லது பங்குதாரர்"
     },
     {
-      "key": "t370",
+      "key": "t378",
       "source": "WhatsApp Floating",
       "text": "WhatsApp மிதக்கும்"
     },
     {
-      "key": "t371",
+      "key": "t379",
       "source": "We use a small number of cookies to make this site work and to understand how it's used.",
       "text": "இந்தத் தளம் செயல்படுவதற்கும் அது எவ்வாறு பயன்படுத்தப்படுகிறது என்பதைப் புரிந்துகொள்வதற்கும் குறைந்த எண்ணிக்கையிலான குக்கீகளைப் பயன்படுத்துகிறோம்."
     },
     {
-      "key": "t372",
+      "key": "t380",
       "source": "More info",
       "text": "மேலும் தகவல்"
     },
     {
-      "key": "t373",
+      "key": "t381",
       "source": "Decline",
       "text": "சரிவு"
     },
     {
-      "key": "t374",
+      "key": "t382",
       "source": "Accept",
       "text": "ஏற்கவும்"
     },
     {
-      "key": "a375",
+      "key": "a383",
       "source": "Primary",
       "text": "முதன்மை"
     },
     {
-      "key": "a376",
+      "key": "a384",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — முகப்பு"
     },
     {
-      "key": "a377",
+      "key": "a385",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a378",
+      "key": "a386",
       "source": "Toggle navigation",
       "text": "வழிசெலுத்தலை மாற்று"
     },
     {
-      "key": "a379",
+      "key": "a387",
       "source": "Counselling conversation at Floating Counselling",
       "text": "Floating Counselling இல் ஆலோசனை உரையாடல்"
     },
     {
-      "key": "a380",
+      "key": "a388",
       "source": "Scroll to impact",
       "text": "தாக்கத்திற்கு உருட்டவும்"
     },
     {
-      "key": "a381",
+      "key": "a389",
       "source": "Our impact",
       "text": "எங்கள் தாக்கம்"
     },
     {
-      "key": "a382",
+      "key": "a390",
       "source": "Celestina Oniye-Thomas from Floating Counselling",
       "text": "Celestina Oniye-Thomas இலிருந்து Floating Counselling"
     },
     {
-      "key": "a383",
+      "key": "a391",
       "source": "Impact Parenting support artwork from Floating Counselling",
       "text": "Floating Counselling இலிருந்து Impact Parenting ஆதரவு கலைப்படைப்பு"
     },
     {
-      "key": "a384",
+      "key": "a392",
       "source": "Floating Counselling community organisation impact infographic",
       "text": "Floating Counselling சமூக அமைப்பு தாக்கம் விளக்கப்படம்"
     },
     {
-      "key": "a385",
+      "key": "a393",
       "source": "Holiday school values",
       "text": "விடுமுறை பள்ளி மதிப்புகள்"
     },
     {
-      "key": "a386",
+      "key": "a394",
       "source": "Holiday school week 1 newsletter",
       "text": "விடுமுறை பள்ளி வாரம் 1 செய்திமடல்"
     },
     {
-      "key": "a387",
+      "key": "a395",
       "source": "Floating Community Hub community gathering",
       "text": "மிதக்கும் சமூக மைய சமூகக் கூட்டம்"
     },
     {
-      "key": "a388",
+      "key": "a396",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "a389",
+      "key": "a397",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "a390",
+      "key": "a398",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "a391",
+      "key": "a399",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah"
     },
     {
-      "key": "a392",
+      "key": "a400",
       "source": "Department for Education",
       "text": "கல்விக்கான துறை"
     },
     {
-      "key": "a393",
+      "key": "a401",
       "source": "Croydon Council",
       "text": "Croydon கவுன்சில்"
     },
     {
-      "key": "a394",
+      "key": "a402",
       "source": "South West London CCGs",
       "text": "தென் மேற்கு London CCGகள்"
     },
     {
-      "key": "a395",
+      "key": "a403",
       "source": "The National Lottery Community Fund",
       "text": "தேசிய லாட்டரி சமூக நிதி"
     },
     {
-      "key": "a396",
+      "key": "a404",
       "source": "BME Forum",
       "text": "BME மன்றம்"
     },
     {
-      "key": "a397",
+      "key": "a405",
       "source": "Croydon Voluntary Action",
       "text": "Croydon தன்னார்வ நடவடிக்கை"
     },
     {
-      "key": "a398",
+      "key": "a406",
       "source": "Volunteer application form",
       "text": "தன்னார்வ விண்ணப்பப் படிவம்"
     },
     {
-      "key": "a399",
+      "key": "a407",
       "source": "Project locations",
       "text": "திட்ட இடங்கள்"
     },
     {
-      "key": "a400",
+      "key": "a408",
       "source": "Social links",
       "text": "சமூக இணைப்புகள்"
     },
     {
-      "key": "a401",
+      "key": "a409",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a402",
+      "key": "a410",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a403",
+      "key": "a411",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a404",
+      "key": "a412",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a405",
+      "key": "a413",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — முகப்பு"
     },
     {
-      "key": "a406",
+      "key": "a414",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a407",
+      "key": "a415",
       "source": "Social links",
       "text": "சமூக இணைப்புகள்"
     },
     {
-      "key": "a408",
+      "key": "a416",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a409",
+      "key": "a417",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a410",
+      "key": "a418",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a411",
+      "key": "a419",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a412",
+      "key": "a420",
       "source": "Project locations",
       "text": "திட்ட இடங்கள்"
     },
     {
-      "key": "a413",
+      "key": "a421",
       "source": "Fundraise for Floating Counselling",
       "text": "Floating Counselling க்கான நிதி திரட்டல்"
     },
     {
-      "key": "a414",
+      "key": "a422",
       "source": "Donate to Floating Counselling",
       "text": "Floating Counsellingக்கு நன்கொடை அளியுங்கள்"
     },
     {
-      "key": "a415",
+      "key": "a423",
       "source": "Back to top",
       "text": "மேலே திரும்பவும்"
     },
     {
-      "key": "a416",
+      "key": "a424",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "a417",
+      "key": "a425",
       "source": "Close assistant",
       "text": "நெருங்கிய உதவியாளர்"
     },
     {
-      "key": "a418",
+      "key": "a426",
       "source": "Cookie notice",
       "text": "குக்கீ அறிவிப்பு"
     }

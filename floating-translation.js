@@ -25,7 +25,7 @@
   const BATCH_MAX_CHARS = 12000;
   const MAX_PARALLEL_BATCHES = 3;
   const CACHE_VERSION = 'floating-translation-v2';
-  const STATIC_TRANSLATION_VERSION = '20260602-01';
+  const STATIC_TRANSLATION_VERSION = '20260602-02';
   const TRANSLATION_ARTIFACT_PATTERN = /\[\[\s*t\d+\s*\]\]+|\[\[\[[^\]]+\]\]\]|[A-Z]*XTERM\s*\d+\s*XCF/i;
   const RTL_LANGUAGES = new Set(['ar', 'ur']);
   const TEXT_ATTRS = ['aria-label', 'alt', 'placeholder', 'title'];
@@ -38,8 +38,6 @@
     'iframe',
     'video',
     'audio',
-    'select',
-    'option',
     'input',
     'textarea',
     '[data-no-translate]',

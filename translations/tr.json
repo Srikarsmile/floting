@@ -2,9 +2,9 @@
   "language": "tr",
   "languageName": "Turkish",
   "sourceLanguage": "en",
-  "sourceHash": "sym184",
-  "sourceUrl": "http://127.0.0.1:55223/",
-  "generatedAt": "2026-06-01T22:06:19.143Z",
+  "sourceHash": "4ftabt",
+  "sourceUrl": "http://127.0.0.1:57366/",
+  "generatedAt": "2026-06-01T22:55:57.786Z",
   "translations": [
     {
       "key": "t0",
@@ -1413,263 +1413,263 @@
     },
     {
       "key": "t281",
+      "source": "Counselling enquiry",
+      "text": "Danışmanlık soruşturması"
+    },
+    {
+      "key": "t282",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t283",
+      "source": "Community Hub / food support",
+      "text": "Topluluk Merkezi / gıda desteği"
+    },
+    {
+      "key": "t284",
+      "source": "Holiday school",
+      "text": "Tatil okulu"
+    },
+    {
+      "key": "t285",
+      "source": "Fundraising",
+      "text": "Bağış toplama"
+    },
+    {
+      "key": "t286",
+      "source": "Volunteering",
+      "text": "Gönüllülük"
+    },
+    {
+      "key": "t287",
+      "source": "Press / partnership",
+      "text": "Basın / ortaklık"
+    },
+    {
+      "key": "t288",
+      "source": "Something else",
+      "text": "Başka bir şey"
+    },
+    {
+      "key": "t289",
       "source": "Message",
       "text": "Mesaj"
     },
     {
-      "key": "t282",
+      "key": "t290",
       "source": "I agree to be contacted in line with the",
       "text": "Şartlara uygun olarak benimle iletişime geçilmesini kabul ediyorum"
     },
     {
-      "key": "t283",
+      "key": "t291",
       "source": "privacy policy",
       "text": "gizlilik politikası"
     },
     {
-      "key": "t284",
+      "key": "t292",
       "source": "Send message",
       "text": "Mesaj gönder"
     },
     {
-      "key": "t285",
+      "key": "t293",
       "source": "We're here",
       "text": "Buradayız"
     },
     {
-      "key": "t286",
+      "key": "t294",
       "source": "Whatever you're carrying, you don't carry it alone.",
       "text": "Her ne taşıyorsan onu tek başına taşıyamazsın."
     },
     {
-      "key": "t287",
+      "key": "t295",
       "source": "Whether you need counselling, community support, food, or just someone to talk to. Reach out today. Your first step matters.",
       "text": "İster danışmanlığa, topluluk desteğine, yemeğe, ister sadece konuşacak birine ihtiyacınız olsun. Bugün ulaşın. İlk adımınız önemlidir."
     },
     {
-      "key": "t288",
+      "key": "t296",
       "source": "Email us",
       "text": "Bize e-posta gönderin"
     },
     {
-      "key": "t289",
+      "key": "t297",
       "source": "WhatsApp us",
       "text": "WhatsApp bize"
     },
     {
-      "key": "t290",
+      "key": "t298",
       "source": "Donate via PayPal",
       "text": "PayPal aracılığıyla bağış yapın"
     },
     {
-      "key": "t291",
+      "key": "t299",
       "source": "Localgiving",
       "text": "Localgiving"
     },
     {
-      "key": "t292",
+      "key": "t300",
       "source": "Fundraiser",
       "text": "Bağış Kampanyası"
     },
     {
-      "key": "t293",
+      "key": "t301",
       "source": "Volunteer",
       "text": "Gönüllü"
     },
     {
-      "key": "t294",
+      "key": "t302",
       "source": "Policies & your privacy",
       "text": "Politikalar ve gizliliğiniz"
     },
     {
-      "key": "t295",
+      "key": "t303",
       "source": "How we protect you and your data.",
       "text": "Sizi ve verilerinizi nasıl koruyoruz."
     },
     {
-      "key": "t296",
+      "key": "t304",
       "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
       "text": "Bilgilerinizi nasıl işlediğimizin, insanları güvende tuttuğumuzun ve çerezleri nasıl kullandığımızın sade İngilizce özeti. Politikaların tamamı veya herhangi bir talep için e-posta"
     },
     {
-      "key": "t297",
+      "key": "t305",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t298",
+      "key": "t306",
       "source": "Privacy policy",
       "text": "Gizlilik politikası"
     },
     {
-      "key": "t299",
+      "key": "t307",
       "source": "Who we are.",
       "text": "Biz kimiz."
     },
     {
-      "key": "t300",
+      "key": "t308",
       "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
       "text": "Floating Counselling Community, 2015'ten bu yana danışmanlık ve topluluk desteği sağlayan bir UK taban kuruluşudur. İngiltere ve Galler'de 11334515 şirket numarasıyla kayıtlı sınırlı garantili bir şirket olan FLOATING CONSELING TOPLULUĞU olarak faaliyet gösteriyoruz. Bizimle paylaştığınız bilgilerin veri denetleyicisiyiz. Gizlilik talepleri için e-posta"
     },
     {
-      "key": "t301",
+      "key": "t309",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t302",
+      "key": "t310",
       "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
       "text": "veya 26 Avenue Road, London SE25 4DX adresindeki Croydon ofisimize yazın."
     },
     {
-      "key": "t303",
+      "key": "t311",
       "source": "What we collect.",
       "text": "Topladıklarımız."
     },
     {
-      "key": "t304",
+      "key": "t312",
       "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
       "text": "Soru formu, e-posta veya WhatsApp aracılığıyla bizimle iletişime geçtiğinizde, bize vermeyi seçtiğiniz ayrıntıları (genellikle adınız, e-posta adresiniz, seçtiğiniz konu ve mesajınız) alırız. Bültenimize kaydolursanız e-posta adresinizi toplarız. Bu web sitesi aracılığıyla özel kategoride sağlık bilgisi talep etmiyoruz; lütfen yalnızca rahat ettiğiniz şeyleri paylaşın."
     },
     {
-      "key": "t305",
+      "key": "t313",
       "source": "How we use it, and our lawful basis.",
       "text": "Bunu nasıl kullanıyoruz ve yasal dayanağımız."
     },
     {
-      "key": "t306",
+      "key": "t314",
       "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
       "text": "Bilgilerinizi size yanıt vermek, istediğiniz desteği sağlamak ve hizmetlerimizi yürütmek için kullanırız (UK GDPR \"rıza\" ve \"meşru menfaatler\"). Birini koruma görevimiz olduğu durumlarda, yasal bir yükümlülüğü yerine getirmek için bilgileri işleyebiliriz (bkz. Koruma)."
     },
     {
-      "key": "t307",
+      "key": "t315",
       "source": "Who we share it with.",
       "text": "Kiminle paylaştığımız."
     },
     {
-      "key": "t308",
+      "key": "t316",
       "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
       "text": "Verilerinizi satmıyoruz. Web sitesini, e-postayı, formları, gönüllü başvurularını, bağışları ve haritaları yürütmemize yardımcı olan az sayıda güvenilir hizmet sağlayıcıya güveniyoruz. Her sağlayıcı yalnızca o hizmet için gereken bilgileri alır ve her birinin kendi gizlilik bildirimi vardır."
     },
     {
-      "key": "t309",
+      "key": "t317",
       "source": "Translation.",
       "text": "Çeviri."
     },
     {
-      "key": "t310",
+      "key": "t318",
       "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
       "text": "Bu sayfayı çevirirseniz, ekrandaki sayfa metni güvenli bir şekilde bir çeviri hizmetine gönderilebilir, böylece çevrilmiş sürüm geri gönderilebilir. Çeviri isteğe bağlıdır, iletişim formu mesajları bu özellik tarafından çevrilmez ve çevrilmiş metin, bir dahaki sefere daha hızlı yüklenmesi için tarayıcınızda önbelleğe alınabilir."
     },
     {
-      "key": "t311",
+      "key": "t319",
       "source": "How long we keep it.",
       "text": "Ne kadar süre saklayacağız."
     },
     {
-      "key": "t312",
+      "key": "t320",
       "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
       "text": "Sorgu ve destek talebi ayrıntılarını yalnızca yanıt vermek, destek sağlamak, koruma görevlerini yerine getirmek ve yasal veya muhasebe yükümlülüklerine uymak için gerekli olduğu sürece saklıyoruz. Bağış ve gönüllü kayıtları ilgili sağlayıcı ve yasal saklama gerekliliklerine göre tutulur."
     },
     {
-      "key": "t313",
+      "key": "t321",
       "source": "Your rights.",
       "text": "Haklarınız."
     },
     {
-      "key": "t314",
+      "key": "t322",
       "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
       "text": "UK GDPR kapsamında, istediğiniz zaman verilerinize erişmeyi, bunları düzeltmeyi, silmeyi veya kısıtlamayı talep edebilir, işlemeye itiraz edebilir, taşınabilirlik talep edebilir veya onayınızı geri çekebilirsiniz. E-posta"
     },
     {
-      "key": "t315",
+      "key": "t323",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t316",
+      "key": "t324",
       "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
       "text": "veya 26 Avenue Road, London SE25 4DX adresinden bize yazın. Yanıtımızdan memnun değilseniz ico.org.uk adresinden ICO'ye şikayette bulunabilirsiniz."
     },
     {
-      "key": "t317",
+      "key": "t325",
       "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
       "text": "Son inceleme tarihi: 29 Mayıs 2026. Bu sade İngilizce özet, şeffaflık amacıyla sağlanmıştır ve yayınlanmadan önce Floating Counselling Community'nin tüm politikalarına göre kontrol edilmelidir."
     },
     {
-      "key": "t318",
+      "key": "t326",
       "source": "Safeguarding",
       "text": "Koruma"
     },
     {
-      "key": "t319",
+      "key": "t327",
       "source": "Our commitment.",
       "text": "Taahhüdümüz."
     },
     {
-      "key": "t320",
+      "key": "t328",
       "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
       "text": "Birlikte çalıştığımız risk altındaki çocukların, gençlerin ve yetişkinlerin güvenliği ve refahı her şeyden önce gelir. Uygulamamız travma konusunda bilgilidir ve BACP etik standartlarına uygundur."
     },
     {
-      "key": "t321",
+      "key": "t329",
       "source": "Confidentiality and its limits.",
       "text": "Gizlilik ve sınırları."
     },
     {
-      "key": "t322",
+      "key": "t330",
       "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
       "text": "Paylaştıklarınız kesinlikle gizli tutulur. Bunun istisnası, size veya bir başkasına ciddi zarar verme riskinin olduğu veya yasal olarak harekete geçme yükümlülüğümüzün olduğu koruma durumudur. Bunu yapmanın güvenli olduğu her yerde, bunu öncelikle sizinle konuşacağız."
     },
     {
-      "key": "t323",
+      "key": "t331",
       "source": "Raising a concern.",
       "text": "Bir endişeyi dile getiriyorum."
     },
     {
-      "key": "t324",
+      "key": "t332",
       "source": "If you're worried about someone's safety, contact us at",
       "text": "Birinin güvenliği konusunda endişeleniyorsanız bizimle şu adresten iletişime geçin:"
-    },
-    {
-      "key": "t325",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t326",
-      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
-      "text": "veya +44 (0)7305 882959. Birisi acil tehlike altındaysa her zaman 999'u arayın. Ayrıca 0808 800 5000 numaralı telefondan NSPCC ile veya yerel otoritenizin koruma ekibiyle iletişime geçebilirsiniz."
-    },
-    {
-      "key": "t327",
-      "source": "Our people.",
-      "text": "Halkımız."
-    },
-    {
-      "key": "t328",
-      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
-      "text": "Personel ve gönüllüler güvenli bir şekilde işe alınır ve rollerine uygun durumlarda DBS kontrolleri alırlar."
-    },
-    {
-      "key": "t329",
-      "source": "Safeguarding lead.",
-      "text": "Koruma kurşunu."
-    },
-    {
-      "key": "t330",
-      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
-      "text": "Linda Yeboah, Direktör ve Güvenlik Görevlisi. E-posta"
-    },
-    {
-      "key": "t331",
-      "source": "floatingcounsellinglinda@gmail.com",
-      "text": "floatcounsellinglinda@gmail.com"
-    },
-    {
-      "key": "t332",
-      "source": "or",
-      "text": "veya"
     },
     {
       "key": "t333",
@@ -1678,426 +1678,466 @@
     },
     {
       "key": "t334",
-      "source": ". If someone is in immediate danger, call 999.",
-      "text": ". Birisi acil tehlike altındaysa 999'u arayın."
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "veya +44 (0)7305 882959. Birisi acil tehlike altındaysa her zaman 999'u arayın. Ayrıca 0808 800 5000 numaralı telefondan NSPCC ile veya yerel otoritenizin koruma ekibiyle iletişime geçebilirsiniz."
     },
     {
       "key": "t335",
-      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
-      "text": "Son inceleme: 29 Mayıs 2026. Bu özet, yayınlanmadan önce Floating Counselling Community'nin tam koruma politikasıyla karşılaştırılarak kontrol edilmelidir."
+      "source": "Our people.",
+      "text": "Halkımız."
     },
     {
       "key": "t336",
-      "source": "Cookies & storage",
-      "text": "Çerezler ve depolama"
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "Personel ve gönüllüler güvenli bir şekilde işe alınır ve rollerine uygun durumlarda DBS kontrolleri alırlar."
     },
     {
       "key": "t337",
-      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
-      "text": "Çerezleri minimumda tutuyoruz ve reklam veya siteler arası izleme kullanmıyoruz. Site, tarayıcınızda birkaç küçük öğe saklar:"
+      "source": "Safeguarding lead.",
+      "text": "Koruma kurşunu."
     },
     {
       "key": "t338",
-      "source": "Cookie consent",
-      "text": "Çerez onayı"
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, Direktör ve Güvenlik Görevlisi. E-posta"
     },
     {
       "key": "t339",
-      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
-      "text": "— bu bildirimi gördüğünüzü hatırlıyor, bu nedenle onu her ziyaretinizde göstermiyoruz."
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatcounsellinglinda@gmail.com"
     },
     {
       "key": "t340",
-      "source": "Translation cache",
-      "text": "Çeviri önbelleği"
+      "source": "or",
+      "text": "veya"
     },
     {
       "key": "t341",
-      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
-      "text": "— sayfayı çevirirseniz, çevrilen metin yerel olarak kaydedilir, böylece bir dahaki sefere anında yüklenir."
-    },
-    {
-      "key": "t342",
-      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
-      "text": "Yerleşik Google Haritası yüklendiğinde Google'ın kendi çerezlerini ayarlayabilir. Tarayıcınızın site verilerini temizleyerek yukarıdakilerin tümünü istediğiniz zaman temizleyebilirsiniz."
-    },
-    {
-      "key": "t343",
-      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
-      "text": "Danışmanlık, topluluk ve şefkat, 2015'ten beri Croydon, Redbridge, Newham, Durham ve Southwark'ye hizmet ediyor."
-    },
-    {
-      "key": "t344",
-      "source": "Get in touch",
-      "text": "İletişime geçin"
-    },
-    {
-      "key": "t345",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
+      "key": "t342",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". Birisi acil tehlike altındaysa 999'u arayın."
+    },
+    {
+      "key": "t343",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Son inceleme: 29 Mayıs 2026. Bu özet, yayınlanmadan önce Floating Counselling Community'nin tam koruma politikasıyla karşılaştırılarak kontrol edilmelidir."
+    },
+    {
+      "key": "t344",
+      "source": "Cookies & storage",
+      "text": "Çerezler ve depolama"
+    },
+    {
+      "key": "t345",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "Çerezleri minimumda tutuyoruz ve reklam veya siteler arası izleme kullanmıyoruz. Site, tarayıcınızda birkaç küçük öğe saklar:"
+    },
+    {
       "key": "t346",
+      "source": "Cookie consent",
+      "text": "Çerez onayı"
+    },
+    {
+      "key": "t347",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— bu bildirimi gördüğünüzü hatırlıyor, bu nedenle onu her ziyaretinizde göstermiyoruz."
+    },
+    {
+      "key": "t348",
+      "source": "Translation cache",
+      "text": "Çeviri önbelleği"
+    },
+    {
+      "key": "t349",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "— sayfayı çevirirseniz, çevrilen metin yerel olarak kaydedilir, böylece bir dahaki sefere anında yüklenir."
+    },
+    {
+      "key": "t350",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "Yerleşik Google Haritası yüklendiğinde Google'ın kendi çerezlerini ayarlayabilir. Tarayıcınızın site verilerini temizleyerek yukarıdakilerin tümünü istediğiniz zaman temizleyebilirsiniz."
+    },
+    {
+      "key": "t351",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "Danışmanlık, topluluk ve şefkat, 2015'ten beri Croydon, Redbridge, Newham, Durham ve Southwark'ye hizmet ediyor."
+    },
+    {
+      "key": "t352",
+      "source": "Get in touch",
+      "text": "İletişime geçin"
+    },
+    {
+      "key": "t353",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t354",
       "source": "WhatsApp · +44 (0)7305 882959",
       "text": "WhatsApp · +44 (0)7305 882959"
     },
     {
-      "key": "t347",
+      "key": "t355",
       "source": "Croydon Hub · Ashburton Park Cafe Hall",
       "text": "Croydon Hub · Ashburton Park Cafe Hall"
     },
     {
-      "key": "t348",
+      "key": "t356",
       "source": "See all project locations",
       "text": "Tüm proje konumlarını görün"
     },
     {
-      "key": "t349",
+      "key": "t357",
       "source": "Fundraiser",
       "text": "Bağış Kampanyası"
     },
     {
-      "key": "t350",
+      "key": "t358",
       "source": "Volunteer",
       "text": "Gönüllü"
     },
     {
-      "key": "t351",
+      "key": "t359",
       "source": "Croydon office",
       "text": "Croydon ofisi"
     },
     {
-      "key": "t352",
+      "key": "t360",
       "source": "Redbridge office",
       "text": "Redbridge ofisi"
     },
     {
-      "key": "t353",
+      "key": "t361",
       "source": "Durham hub",
       "text": "Durham hub"
     },
     {
-      "key": "t354",
+      "key": "t362",
       "source": "Southwark hub",
       "text": "Southwark hub"
     },
     {
-      "key": "t355",
+      "key": "t363",
       "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
       "text": "Floating Counselling™ · BACP uyumlu · Şirket no. 11334515 · Topluluk Ortağı"
     },
     {
-      "key": "t356",
+      "key": "t364",
       "source": "Privacy",
       "text": "Gizlilik"
     },
     {
-      "key": "t357",
+      "key": "t365",
       "source": "Safeguarding",
       "text": "Koruma"
     },
     {
-      "key": "t358",
+      "key": "t366",
       "source": "Fundraiser",
       "text": "Bağış Kampanyası"
     },
     {
-      "key": "t359",
+      "key": "t367",
       "source": "Donate",
       "text": "Bağış yap"
     },
     {
-      "key": "t360",
+      "key": "t368",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t361",
+      "key": "t369",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t362",
+      "key": "t370",
       "source": "Choose a quick route",
       "text": "Hızlı bir rota seçin"
     },
     {
-      "key": "t363",
+      "key": "t371",
       "source": "If you are not sure which service fits, choose the closest option and we will route you.",
       "text": "Hangi hizmetin uygun olduğundan emin değilseniz, en yakın seçeneği seçin, sizi yönlendirelim."
     },
     {
-      "key": "t364",
+      "key": "t372",
       "source": "Counselling enquiry",
       "text": "Danışmanlık soruşturması"
     },
     {
-      "key": "t365",
+      "key": "t373",
       "source": "Parenting support",
       "text": "Ebeveynlik desteği"
     },
     {
-      "key": "t366",
+      "key": "t374",
       "source": "Food or community hub",
       "text": "Yiyecek veya topluluk merkezi"
     },
     {
-      "key": "t367",
+      "key": "t375",
       "source": "Holiday school",
       "text": "Tatil okulu"
     },
     {
-      "key": "t368",
+      "key": "t376",
       "source": "Fundraiser",
       "text": "Bağış Kampanyası"
     },
     {
-      "key": "t369",
+      "key": "t377",
       "source": "Volunteer or partner",
       "text": "Gönüllü veya ortak"
     },
     {
-      "key": "t370",
+      "key": "t378",
       "source": "WhatsApp Floating",
       "text": "WhatsApp Yüzen"
     },
     {
-      "key": "t371",
+      "key": "t379",
       "source": "We use a small number of cookies to make this site work and to understand how it's used.",
       "text": "Bu sitenin çalışmasını sağlamak ve nasıl kullanıldığını anlamak için az sayıda çerez kullanıyoruz."
     },
     {
-      "key": "t372",
+      "key": "t380",
       "source": "More info",
       "text": "Daha fazla bilgi"
     },
     {
-      "key": "t373",
+      "key": "t381",
       "source": "Decline",
       "text": "Reddet"
     },
     {
-      "key": "t374",
+      "key": "t382",
       "source": "Accept",
       "text": "Kabul et"
     },
     {
-      "key": "a375",
+      "key": "a383",
       "source": "Primary",
       "text": "Birincil"
     },
     {
-      "key": "a376",
+      "key": "a384",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — Ana Sayfa"
     },
     {
-      "key": "a377",
+      "key": "a385",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a378",
+      "key": "a386",
       "source": "Toggle navigation",
       "text": "Gezinmeyi değiştir"
     },
     {
-      "key": "a379",
+      "key": "a387",
       "source": "Counselling conversation at Floating Counselling",
       "text": "Floating Counselling'de danışmanlık görüşmesi"
     },
     {
-      "key": "a380",
+      "key": "a388",
       "source": "Scroll to impact",
       "text": "Etkiye doğru ilerleyin"
     },
     {
-      "key": "a381",
+      "key": "a389",
       "source": "Our impact",
       "text": "Etkimiz"
     },
     {
-      "key": "a382",
+      "key": "a390",
       "source": "Celestina Oniye-Thomas from Floating Counselling",
       "text": "Floating Counselling'den Celestina Oniye-Thomas"
     },
     {
-      "key": "a383",
+      "key": "a391",
       "source": "Impact Parenting support artwork from Floating Counselling",
       "text": "Impact Parenting, Floating Counselling'den çizimleri destekler"
     },
     {
-      "key": "a384",
+      "key": "a392",
       "source": "Floating Counselling community organisation impact infographic",
       "text": "Floating Counselling topluluk organizasyonu etki infografik"
     },
     {
-      "key": "a385",
+      "key": "a393",
       "source": "Holiday school values",
       "text": "Tatil okulu değerleri"
     },
     {
-      "key": "a386",
+      "key": "a394",
       "source": "Holiday school week 1 newsletter",
       "text": "Tatil okulu 1. hafta bülteni"
     },
     {
-      "key": "a387",
+      "key": "a395",
       "source": "Floating Community Hub community gathering",
       "text": "Yüzen Topluluk Merkezi topluluk toplantısı"
     },
     {
-      "key": "a388",
+      "key": "a396",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "a389",
+      "key": "a397",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "a390",
+      "key": "a398",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "a391",
+      "key": "a399",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah"
     },
     {
-      "key": "a392",
+      "key": "a400",
       "source": "Department for Education",
       "text": "Eğitim Bakanlığı"
     },
     {
-      "key": "a393",
+      "key": "a401",
       "source": "Croydon Council",
       "text": "Croydon Konseyi"
     },
     {
-      "key": "a394",
+      "key": "a402",
       "source": "South West London CCGs",
       "text": "Güney Batı London CCG'ler"
     },
     {
-      "key": "a395",
+      "key": "a403",
       "source": "The National Lottery Community Fund",
       "text": "Milli Piyango Topluluk Fonu"
     },
     {
-      "key": "a396",
+      "key": "a404",
       "source": "BME Forum",
       "text": "BME Forumu"
     },
     {
-      "key": "a397",
+      "key": "a405",
       "source": "Croydon Voluntary Action",
       "text": "Croydon Gönüllü Eylem"
     },
     {
-      "key": "a398",
+      "key": "a406",
       "source": "Volunteer application form",
       "text": "Gönüllü başvuru formu"
     },
     {
-      "key": "a399",
+      "key": "a407",
       "source": "Project locations",
       "text": "Proje konumları"
     },
     {
-      "key": "a400",
+      "key": "a408",
       "source": "Social links",
       "text": "Sosyal bağlantılar"
     },
     {
-      "key": "a401",
+      "key": "a409",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a402",
+      "key": "a410",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a403",
+      "key": "a411",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a404",
+      "key": "a412",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a405",
+      "key": "a413",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — Ana Sayfa"
     },
     {
-      "key": "a406",
+      "key": "a414",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a407",
+      "key": "a415",
       "source": "Social links",
       "text": "Sosyal bağlantılar"
     },
     {
-      "key": "a408",
+      "key": "a416",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a409",
+      "key": "a417",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a410",
+      "key": "a418",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a411",
+      "key": "a419",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a412",
+      "key": "a420",
       "source": "Project locations",
       "text": "Proje konumları"
     },
     {
-      "key": "a413",
+      "key": "a421",
       "source": "Fundraise for Floating Counselling",
       "text": "Floating Counselling için Bağış Kampanyası"
     },
     {
-      "key": "a414",
+      "key": "a422",
       "source": "Donate to Floating Counselling",
       "text": "Floating Counselling'ye bağış yapın"
     },
     {
-      "key": "a415",
+      "key": "a423",
       "source": "Back to top",
       "text": "Başa dön"
     },
     {
-      "key": "a416",
+      "key": "a424",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "a417",
+      "key": "a425",
       "source": "Close assistant",
       "text": "Yakın asistan"
     },
     {
-      "key": "a418",
+      "key": "a426",
       "source": "Cookie notice",
       "text": "Çerez bildirimi"
     }

@@ -2,9 +2,9 @@
   "language": "ro",
   "languageName": "Romanian",
   "sourceLanguage": "en",
-  "sourceHash": "sym184",
-  "sourceUrl": "http://127.0.0.1:55223/",
-  "generatedAt": "2026-06-01T22:06:19.143Z",
+  "sourceHash": "4ftabt",
+  "sourceUrl": "http://127.0.0.1:57366/",
+  "generatedAt": "2026-06-01T22:55:57.786Z",
   "translations": [
     {
       "key": "t0",
@@ -1413,263 +1413,263 @@
     },
     {
       "key": "t281",
+      "source": "Counselling enquiry",
+      "text": "Cerere de consiliere"
+    },
+    {
+      "key": "t282",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t283",
+      "source": "Community Hub / food support",
+      "text": "Centru comunitar / sprijin alimentar"
+    },
+    {
+      "key": "t284",
+      "source": "Holiday school",
+      "text": "Scoala de vacanta"
+    },
+    {
+      "key": "t285",
+      "source": "Fundraising",
+      "text": "Strângere de fonduri"
+    },
+    {
+      "key": "t286",
+      "source": "Volunteering",
+      "text": "Voluntariat"
+    },
+    {
+      "key": "t287",
+      "source": "Press / partnership",
+      "text": "Presă / parteneriat"
+    },
+    {
+      "key": "t288",
+      "source": "Something else",
+      "text": "Altceva"
+    },
+    {
+      "key": "t289",
       "source": "Message",
       "text": "Mesaj"
     },
     {
-      "key": "t282",
+      "key": "t290",
       "source": "I agree to be contacted in line with the",
       "text": "Sunt de acord să fiu contactat în conformitate cu"
     },
     {
-      "key": "t283",
+      "key": "t291",
       "source": "privacy policy",
       "text": "Politica de confidențialitate"
     },
     {
-      "key": "t284",
+      "key": "t292",
       "source": "Send message",
       "text": "Trimite mesaj"
     },
     {
-      "key": "t285",
+      "key": "t293",
       "source": "We're here",
       "text": "Suntem aici"
     },
     {
-      "key": "t286",
+      "key": "t294",
       "source": "Whatever you're carrying, you don't carry it alone.",
       "text": "Orice porți, nu îl porți singur."
     },
     {
-      "key": "t287",
+      "key": "t295",
       "source": "Whether you need counselling, community support, food, or just someone to talk to. Reach out today. Your first step matters.",
       "text": "Indiferent dacă aveți nevoie de consiliere, sprijin comunitar, mâncare sau doar cineva cu care să vorbiți. Luați legătura azi. Primul tău pas contează."
     },
     {
-      "key": "t288",
+      "key": "t296",
       "source": "Email us",
       "text": "Trimite-ne un e-mail"
     },
     {
-      "key": "t289",
+      "key": "t297",
       "source": "WhatsApp us",
       "text": "WhatsApp noi"
     },
     {
-      "key": "t290",
+      "key": "t298",
       "source": "Donate via PayPal",
       "text": "Donează prin PayPal"
     },
     {
-      "key": "t291",
+      "key": "t299",
       "source": "Localgiving",
       "text": "Dăruirea locală"
     },
     {
-      "key": "t292",
+      "key": "t300",
       "source": "Fundraiser",
       "text": "Strângere de fonduri"
     },
     {
-      "key": "t293",
+      "key": "t301",
       "source": "Volunteer",
       "text": "Voluntar"
     },
     {
-      "key": "t294",
+      "key": "t302",
       "source": "Policies & your privacy",
       "text": "Politici și confidențialitatea ta"
     },
     {
-      "key": "t295",
+      "key": "t303",
       "source": "How we protect you and your data.",
       "text": "Cum vă protejăm și datele dvs."
     },
     {
-      "key": "t296",
+      "key": "t304",
       "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
       "text": "Un rezumat simplu în limba engleză a modului în care gestionăm informațiile dvs., menținem oamenii în siguranță și utilizăm module cookie. Pentru politicile complete sau orice solicitare, trimiteți un e-mail"
     },
     {
-      "key": "t297",
+      "key": "t305",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t298",
+      "key": "t306",
       "source": "Privacy policy",
       "text": "Politica de confidențialitate"
     },
     {
-      "key": "t299",
+      "key": "t307",
       "source": "Who we are.",
       "text": "Cine suntem."
     },
     {
-      "key": "t300",
+      "key": "t308",
       "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
       "text": "Floating Counselling Community este o organizație de bază UK care oferă consiliere și sprijin comunitar din 2015. Operăm ca FLOATING COUNSELING COMMUNITY, o companie cu răspundere limitată înregistrată în Anglia și Țara Galilor, numărul companiei 11334515. Suntem controlorul de date pentru informațiile pe care ni le împărtășiți. Pentru solicitări de confidențialitate, trimiteți un e-mail"
     },
     {
-      "key": "t301",
+      "key": "t309",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t302",
+      "key": "t310",
       "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
       "text": "sau scrieți la biroul nostru Croydon de la 26 Avenue Road, London SE25 4DX."
     },
     {
-      "key": "t303",
+      "key": "t311",
       "source": "What we collect.",
       "text": "Ce colectăm."
     },
     {
-      "key": "t304",
+      "key": "t312",
       "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
       "text": "Când ne contactați prin formularul de întrebare, prin e-mail sau WhatsApp, primim detaliile pe care alegeți să ni le furnizați — de obicei, numele dvs., adresa de e-mail, subiectul selectat și mesajul dvs. Dacă vă înscrieți la newsletter-ul nostru, vă colectăm adresa de e-mail. Nu solicităm informații de sănătate de categorie specială prin intermediul acestui site web; vă rugăm să împărtășiți doar ceea ce vă simțiți confortabil."
     },
     {
-      "key": "t305",
+      "key": "t313",
       "source": "How we use it, and our lawful basis.",
       "text": "Cum îl folosim și baza noastră legală."
     },
     {
-      "key": "t306",
+      "key": "t314",
       "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
       "text": "Utilizăm detaliile dvs. pentru a vă răspunde, pentru a vă oferi asistența pe care o solicitați și pentru a rula serviciile noastre (UK GDPR „consimțământ” și „interese legitime”). Acolo unde avem datoria de a proteja pe cineva, este posibil să procesăm informații pentru a îndeplini o obligație legală (consultați Protecția)."
     },
     {
-      "key": "t307",
+      "key": "t315",
       "source": "Who we share it with.",
       "text": "Cui îl distribuim."
     },
     {
-      "key": "t308",
+      "key": "t316",
       "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
       "text": "Nu vindem datele dvs. Ne bazăm pe un număr mic de furnizori de servicii de încredere care ne ajută să rulăm site-ul web, e-mailul, formularele, aplicațiile de voluntariat, donațiile și hărțile. Fiecare furnizor primește doar informațiile necesare pentru acel serviciu și fiecare are propria sa notificare de confidențialitate."
     },
     {
-      "key": "t309",
+      "key": "t317",
       "source": "Translation.",
       "text": "Traducere."
     },
     {
-      "key": "t310",
+      "key": "t318",
       "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
       "text": "Dacă traduceți această pagină, textul paginii de pe ecran poate fi trimis în siguranță unui serviciu de traducere, astfel încât versiunea tradusă să poată fi returnată. Traducerea este opțională, mesajele din formularul de contact nu sunt traduse prin această funcție, iar textul tradus poate fi stocat în cache în browser, astfel încât să se încarce mai repede data viitoare."
     },
     {
-      "key": "t311",
+      "key": "t319",
       "source": "How long we keep it.",
       "text": "Cât timp îl păstrăm."
     },
     {
-      "key": "t312",
+      "key": "t320",
       "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
       "text": "Păstrăm detaliile privind întrebările și cererile de asistență numai atât timp cât este necesar pentru a răspunde, pentru a oferi asistență, pentru a îndeplini sarcinile de protecție și pentru a respecta obligațiile legale sau contabile. Registrele donațiilor și ale voluntarilor sunt păstrate în conformitate cu furnizorul relevant și cu cerințele legale de păstrare."
     },
     {
-      "key": "t313",
+      "key": "t321",
       "source": "Your rights.",
       "text": "Drepturile tale."
     },
     {
-      "key": "t314",
+      "key": "t322",
       "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
       "text": "În cadrul UK GDPR puteți solicita accesul, corectarea, ștergerea sau restricționarea datelor dvs., opțiunea prelucrării, solicitarea portabilității sau retragerea consimțământului în orice moment. E-mail"
     },
     {
-      "key": "t315",
+      "key": "t323",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t316",
+      "key": "t324",
       "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
       "text": "sau scrieți-ne la 26 Avenue Road, London SE25 4DX. Dacă nu sunteți mulțumit de răspunsul nostru, vă puteți reclama la ICO la ico.org.uk."
     },
     {
-      "key": "t317",
+      "key": "t325",
       "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
       "text": "Ultima revizuire: 29 mai 2026. Acest rezumat în limba engleză este furnizat pentru transparență și trebuie verificat cu politicile complete ale Floating Counselling Community înainte de publicare."
     },
     {
-      "key": "t318",
+      "key": "t326",
       "source": "Safeguarding",
       "text": "Salvgardare"
     },
     {
-      "key": "t319",
+      "key": "t327",
       "source": "Our commitment.",
       "text": "Angajamentul nostru."
     },
     {
-      "key": "t320",
+      "key": "t328",
       "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
       "text": "Siguranța și bunăstarea copiilor, tinerilor și adulților cu riscuri cu care lucrăm sunt pe primul loc. Practica noastră este informată de traumă și aliniată cu standardele etice BACP."
     },
     {
-      "key": "t321",
+      "key": "t329",
       "source": "Confidentiality and its limits.",
       "text": "Confidențialitatea și limitele acesteia."
     },
     {
-      "key": "t322",
+      "key": "t330",
       "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
       "text": "Ceea ce distribuiți este păstrat în strictă confidențialitate. Excepția este o situație de salvgardare – în care există un risc de vătămare gravă pentru dvs. sau pentru altcineva sau în care avem obligația legală de a acționa. Oriunde este sigur să faceți acest lucru, vom discuta mai întâi despre asta cu dvs."
     },
     {
-      "key": "t323",
+      "key": "t331",
       "source": "Raising a concern.",
       "text": "Se ridică o îngrijorare."
     },
     {
-      "key": "t324",
+      "key": "t332",
       "source": "If you're worried about someone's safety, contact us at",
       "text": "Dacă ești îngrijorat de siguranța cuiva, contactează-ne la"
-    },
-    {
-      "key": "t325",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t326",
-      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
-      "text": "sau +44 (0)7305 882959. Dacă cineva se află în pericol imediat, sunați întotdeauna la 999. De asemenea, puteți contacta NSPCC la 0808 800 5000 sau echipa de protecție a autorității locale."
-    },
-    {
-      "key": "t327",
-      "source": "Our people.",
-      "text": "Oamenii noștri."
-    },
-    {
-      "key": "t328",
-      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
-      "text": "Personalul și voluntarii sunt recrutați în siguranță și primesc verificări DBS acolo unde este cazul pentru rolul lor."
-    },
-    {
-      "key": "t329",
-      "source": "Safeguarding lead.",
-      "text": "Protejarea plumbului."
-    },
-    {
-      "key": "t330",
-      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
-      "text": "Linda Yeboah, director și ofițer de protecție. E-mail"
-    },
-    {
-      "key": "t331",
-      "source": "floatingcounsellinglinda@gmail.com",
-      "text": "floatingcounsellinglinda@gmail.com"
-    },
-    {
-      "key": "t332",
-      "source": "or",
-      "text": "sau"
     },
     {
       "key": "t333",
@@ -1678,426 +1678,466 @@
     },
     {
       "key": "t334",
-      "source": ". If someone is in immediate danger, call 999.",
-      "text": ". Dacă cineva se află în pericol imediat, sunați la 999."
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "sau +44 (0)7305 882959. Dacă cineva se află în pericol imediat, sunați întotdeauna la 999. De asemenea, puteți contacta NSPCC la 0808 800 5000 sau echipa de protecție a autorității locale."
     },
     {
       "key": "t335",
-      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
-      "text": "Ultima revizuire: 29 mai 2026. Acest rezumat trebuie verificat cu politica completă de salvgardare a Floating Counselling Community înainte de publicare."
+      "source": "Our people.",
+      "text": "Oamenii noștri."
     },
     {
       "key": "t336",
-      "source": "Cookies & storage",
-      "text": "Cookie-uri și stocare"
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "Personalul și voluntarii sunt recrutați în siguranță și primesc verificări DBS acolo unde este cazul pentru rolul lor."
     },
     {
       "key": "t337",
-      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
-      "text": "Păstrăm cookie-urile la minimum și nu folosim reclame sau urmărire pe site-uri. Site-ul stochează câteva articole mici în browser:"
+      "source": "Safeguarding lead.",
+      "text": "Protejarea plumbului."
     },
     {
       "key": "t338",
-      "source": "Cookie consent",
-      "text": "Consimțământ pentru cookie-uri"
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, director și ofițer de protecție. E-mail"
     },
     {
       "key": "t339",
-      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
-      "text": "— își amintește că ați văzut acest anunț, așa că nu îl arătăm la fiecare vizită."
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatingcounsellinglinda@gmail.com"
     },
     {
       "key": "t340",
-      "source": "Translation cache",
-      "text": "Cache de traducere"
+      "source": "or",
+      "text": "sau"
     },
     {
       "key": "t341",
-      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
-      "text": "— dacă traduceți pagina, textul tradus este salvat local, astfel încât să se încarce instantaneu data viitoare."
-    },
-    {
-      "key": "t342",
-      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
-      "text": "Harta Google încorporată poate seta propriile cookie-uri Google atunci când se încarcă. Puteți șterge toate cele de mai sus în orice moment ștergând datele site-ului browserului dvs."
-    },
-    {
-      "key": "t343",
-      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
-      "text": "Consiliere, comunitate și compasiune, care deservesc Croydon, Redbridge, Newham, Durham și Southwark din 2015."
-    },
-    {
-      "key": "t344",
-      "source": "Get in touch",
-      "text": "Luați legătura"
-    },
-    {
-      "key": "t345",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
+      "key": "t342",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". Dacă cineva se află în pericol imediat, sunați la 999."
+    },
+    {
+      "key": "t343",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Ultima revizuire: 29 mai 2026. Acest rezumat trebuie verificat cu politica completă de salvgardare a Floating Counselling Community înainte de publicare."
+    },
+    {
+      "key": "t344",
+      "source": "Cookies & storage",
+      "text": "Cookie-uri și stocare"
+    },
+    {
+      "key": "t345",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "Păstrăm cookie-urile la minimum și nu folosim reclame sau urmărire pe site-uri. Site-ul stochează câteva articole mici în browser:"
+    },
+    {
       "key": "t346",
+      "source": "Cookie consent",
+      "text": "Consimțământ pentru cookie-uri"
+    },
+    {
+      "key": "t347",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— își amintește că ați văzut acest anunț, așa că nu îl arătăm la fiecare vizită."
+    },
+    {
+      "key": "t348",
+      "source": "Translation cache",
+      "text": "Cache de traducere"
+    },
+    {
+      "key": "t349",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "— dacă traduceți pagina, textul tradus este salvat local, astfel încât să se încarce instantaneu data viitoare."
+    },
+    {
+      "key": "t350",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "Harta Google încorporată poate seta propriile cookie-uri Google atunci când se încarcă. Puteți șterge toate cele de mai sus în orice moment ștergând datele site-ului browserului dvs."
+    },
+    {
+      "key": "t351",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "Consiliere, comunitate și compasiune, care deservesc Croydon, Redbridge, Newham, Durham și Southwark din 2015."
+    },
+    {
+      "key": "t352",
+      "source": "Get in touch",
+      "text": "Luați legătura"
+    },
+    {
+      "key": "t353",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t354",
       "source": "WhatsApp · +44 (0)7305 882959",
       "text": "WhatsApp · +44 (0)7305 882959"
     },
     {
-      "key": "t347",
+      "key": "t355",
       "source": "Croydon Hub · Ashburton Park Cafe Hall",
       "text": "Croydon Hub · Ashburton Park Cafe Hall"
     },
     {
-      "key": "t348",
+      "key": "t356",
       "source": "See all project locations",
       "text": "Vedeți toate locațiile proiectelor"
     },
     {
-      "key": "t349",
+      "key": "t357",
       "source": "Fundraiser",
       "text": "Strângere de fonduri"
     },
     {
-      "key": "t350",
+      "key": "t358",
       "source": "Volunteer",
       "text": "Voluntar"
     },
     {
-      "key": "t351",
+      "key": "t359",
       "source": "Croydon office",
       "text": "birou Croydon"
     },
     {
-      "key": "t352",
+      "key": "t360",
       "source": "Redbridge office",
       "text": "birou Redbridge"
     },
     {
-      "key": "t353",
+      "key": "t361",
       "source": "Durham hub",
       "text": "Durham hub"
     },
     {
-      "key": "t354",
+      "key": "t362",
       "source": "Southwark hub",
       "text": "Southwark hub"
     },
     {
-      "key": "t355",
+      "key": "t363",
       "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
       "text": "Floating Counselling™ · BACP-aliniat · Nr. 11334515 · Partener comunitar"
     },
     {
-      "key": "t356",
+      "key": "t364",
       "source": "Privacy",
       "text": "Confidențialitate"
     },
     {
-      "key": "t357",
+      "key": "t365",
       "source": "Safeguarding",
       "text": "Salvgardare"
     },
     {
-      "key": "t358",
+      "key": "t366",
       "source": "Fundraiser",
       "text": "Strângere de fonduri"
     },
     {
-      "key": "t359",
+      "key": "t367",
       "source": "Donate",
       "text": "Dona"
     },
     {
-      "key": "t360",
+      "key": "t368",
       "source": "Ask Floating",
       "text": "Întreabă Floating"
     },
     {
-      "key": "t361",
+      "key": "t369",
       "source": "Ask Floating",
       "text": "Întreabă Floating"
     },
     {
-      "key": "t362",
+      "key": "t370",
       "source": "Choose a quick route",
       "text": "Alegeți o rută rapidă"
     },
     {
-      "key": "t363",
+      "key": "t371",
       "source": "If you are not sure which service fits, choose the closest option and we will route you.",
       "text": "Dacă nu sunteți sigur care serviciu se potrivește, alegeți cea mai apropiată opțiune și vă vom ruta."
     },
     {
-      "key": "t364",
+      "key": "t372",
       "source": "Counselling enquiry",
       "text": "Cerere de consiliere"
     },
     {
-      "key": "t365",
+      "key": "t373",
       "source": "Parenting support",
       "text": "Sprijin parental"
     },
     {
-      "key": "t366",
+      "key": "t374",
       "source": "Food or community hub",
       "text": "Alimentare sau centru comunitar"
     },
     {
-      "key": "t367",
+      "key": "t375",
       "source": "Holiday school",
       "text": "Scoala de vacanta"
     },
     {
-      "key": "t368",
+      "key": "t376",
       "source": "Fundraiser",
       "text": "Strângere de fonduri"
     },
     {
-      "key": "t369",
+      "key": "t377",
       "source": "Volunteer or partner",
       "text": "Voluntar sau partener"
     },
     {
-      "key": "t370",
+      "key": "t378",
       "source": "WhatsApp Floating",
       "text": "WhatsApp Plutitor"
     },
     {
-      "key": "t371",
+      "key": "t379",
       "source": "We use a small number of cookies to make this site work and to understand how it's used.",
       "text": "Folosim un număr mic de cookie-uri pentru a face acest site să funcționeze și pentru a înțelege cum este utilizat."
     },
     {
-      "key": "t372",
+      "key": "t380",
       "source": "More info",
       "text": "Mai multe informații"
     },
     {
-      "key": "t373",
+      "key": "t381",
       "source": "Decline",
       "text": "Declin"
     },
     {
-      "key": "t374",
+      "key": "t382",
       "source": "Accept",
       "text": "Accepta"
     },
     {
-      "key": "a375",
+      "key": "a383",
       "source": "Primary",
       "text": "Primar"
     },
     {
-      "key": "a376",
+      "key": "a384",
       "source": "Floating Counselling — Home",
       "text": "Consiliere flotantă — Acasă"
     },
     {
-      "key": "a377",
+      "key": "a385",
       "source": "Floating Counselling",
       "text": "Consiliere flotantă"
     },
     {
-      "key": "a378",
+      "key": "a386",
       "source": "Toggle navigation",
       "text": "Comutați navigarea"
     },
     {
-      "key": "a379",
+      "key": "a387",
       "source": "Counselling conversation at Floating Counselling",
       "text": "Conversație de consiliere la Floating Counselling [[a732]]] Derulați la impact [[a733]]] Impactul nostru"
     },
     {
-      "key": "a380",
+      "key": "a388",
       "source": "Scroll to impact",
       "text": "Derulați la impact"
     },
     {
-      "key": "a381",
+      "key": "a389",
       "source": "Our impact",
       "text": "Impactul nostru"
     },
     {
-      "key": "a382",
+      "key": "a390",
       "source": "Celestina Oniye-Thomas from Floating Counselling",
       "text": "Celestina Oniye-Thomas de la Floating Counselling"
     },
     {
-      "key": "a383",
+      "key": "a391",
       "source": "Impact Parenting support artwork from Floating Counselling",
       "text": "Impact Parenting acceptă lucrări de artă de la Floating Counselling"
     },
     {
-      "key": "a384",
+      "key": "a392",
       "source": "Floating Counselling community organisation impact infographic",
       "text": "Infografic de impact al organizației comunitare Floating Counselling [[a737]]] Valorile școlii de vacanță [[a738]]] Buletin informativ pentru Săptămâna 1 a școlii de vacanță"
     },
     {
-      "key": "a385",
+      "key": "a393",
       "source": "Holiday school values",
       "text": "Valorile școlii de vacanță"
     },
     {
-      "key": "a386",
+      "key": "a394",
       "source": "Holiday school week 1 newsletter",
       "text": "Buletin informativ săptămâna 1 a școlii de vacanță"
     },
     {
-      "key": "a387",
+      "key": "a395",
       "source": "Floating Community Hub community gathering",
       "text": "Adunarea comunității flotant Community Hub [[a740]]] Celestina Oniye-Thomas [[a741]]] Omowonu-Ola Ogunlela [[a742]]] Elizabeth Owode [[a743]]] Linda Yeboah [[a744]]] Departamentul pentru Educație [[a745]]] Consiliul Croydon [[a746]]] CCG-uri London de Sud-Vest"
     },
     {
-      "key": "a388",
+      "key": "a396",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "a389",
+      "key": "a397",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "a390",
+      "key": "a398",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "a391",
+      "key": "a399",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah"
     },
     {
-      "key": "a392",
+      "key": "a400",
       "source": "Department for Education",
       "text": "Departamentul pentru Educație"
     },
     {
-      "key": "a393",
+      "key": "a401",
       "source": "Croydon Council",
       "text": "Consiliul Croydon"
     },
     {
-      "key": "a394",
+      "key": "a402",
       "source": "South West London CCGs",
       "text": "CCG-uri din sud-vestul Londrei"
     },
     {
-      "key": "a395",
+      "key": "a403",
       "source": "The National Lottery Community Fund",
       "text": "Fondul comunitar al Loteriei Naționale [[a748]]] Forumul BME"
     },
     {
-      "key": "a396",
+      "key": "a404",
       "source": "BME Forum",
       "text": "Forumul BME"
     },
     {
-      "key": "a397",
+      "key": "a405",
       "source": "Croydon Voluntary Action",
       "text": "Croydon Acțiune voluntară"
     },
     {
-      "key": "a398",
+      "key": "a406",
       "source": "Volunteer application form",
       "text": "Formular de cerere de voluntariat [[a751]]] Locațiile proiectului [[a752]]] Linkuri sociale [[a753]]] Facebook [[a754]]] Instagram [[a755]]] Twitter / X [[a756]]] YouTube [[a757]]] Floating Counselling — Acasă [[a758]]] Floating Counselling [[a759]]] Linkuri sociale [[a760]]] Facebook [[a761]]] Instagram [[a762]]] Twitter / X [[a763]]] YouTube [[a764]]] Locațiile proiectului"
     },
     {
-      "key": "a399",
+      "key": "a407",
       "source": "Project locations",
       "text": "Locațiile proiectului"
     },
     {
-      "key": "a400",
+      "key": "a408",
       "source": "Social links",
       "text": "Legături sociale"
     },
     {
-      "key": "a401",
+      "key": "a409",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a402",
+      "key": "a410",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a403",
+      "key": "a411",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a404",
+      "key": "a412",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a405",
+      "key": "a413",
       "source": "Floating Counselling — Home",
       "text": "Consiliere flotantă — Acasă"
     },
     {
-      "key": "a406",
+      "key": "a414",
       "source": "Floating Counselling",
       "text": "Consiliere flotantă"
     },
     {
-      "key": "a407",
+      "key": "a415",
       "source": "Social links",
       "text": "Legături sociale"
     },
     {
-      "key": "a408",
+      "key": "a416",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a409",
+      "key": "a417",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a410",
+      "key": "a418",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a411",
+      "key": "a419",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a412",
+      "key": "a420",
       "source": "Project locations",
       "text": "Locațiile proiectului"
     },
     {
-      "key": "a413",
+      "key": "a421",
       "source": "Fundraise for Floating Counselling",
       "text": "Strângere de fonduri pentru Floating Counselling"
     },
     {
-      "key": "a414",
+      "key": "a422",
       "source": "Donate to Floating Counselling",
       "text": "Donează către Floating Counselling [[a767]]] Înapoi sus [[a768]]] Ask Floating [[a769]]] Închide asistentul"
     },
     {
-      "key": "a415",
+      "key": "a423",
       "source": "Back to top",
       "text": "Înapoi sus"
     },
     {
-      "key": "a416",
+      "key": "a424",
       "source": "Ask Floating",
       "text": "Întreabă Floating"
     },
     {
-      "key": "a417",
+      "key": "a425",
       "source": "Close assistant",
       "text": "Asistent apropiat"
     },
     {
-      "key": "a418",
+      "key": "a426",
       "source": "Cookie notice",
       "text": "Notificare privind cookie-urile"
     }

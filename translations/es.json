@@ -2,9 +2,9 @@
   "language": "es",
   "languageName": "Spanish",
   "sourceLanguage": "en",
-  "sourceHash": "sym184",
-  "sourceUrl": "http://127.0.0.1:55223/",
-  "generatedAt": "2026-06-01T22:06:19.143Z",
+  "sourceHash": "4ftabt",
+  "sourceUrl": "http://127.0.0.1:57366/",
+  "generatedAt": "2026-06-01T22:55:57.786Z",
   "translations": [
     {
       "key": "t0",
@@ -1413,263 +1413,263 @@
     },
     {
       "key": "t281",
+      "source": "Counselling enquiry",
+      "text": "Consulta de asesoramiento"
+    },
+    {
+      "key": "t282",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t283",
+      "source": "Community Hub / food support",
+      "text": "Centro comunitario/apoyo alimentario"
+    },
+    {
+      "key": "t284",
+      "source": "Holiday school",
+      "text": "Escuela de vacaciones"
+    },
+    {
+      "key": "t285",
+      "source": "Fundraising",
+      "text": "Recaudación de fondos"
+    },
+    {
+      "key": "t286",
+      "source": "Volunteering",
+      "text": "Voluntariado"
+    },
+    {
+      "key": "t287",
+      "source": "Press / partnership",
+      "text": "Prensa / asociación"
+    },
+    {
+      "key": "t288",
+      "source": "Something else",
+      "text": "Otra cosa"
+    },
+    {
+      "key": "t289",
       "source": "Message",
       "text": "Mensaje"
     },
     {
-      "key": "t282",
+      "key": "t290",
       "source": "I agree to be contacted in line with the",
       "text": "Acepto ser contactado de acuerdo con el"
     },
     {
-      "key": "t283",
+      "key": "t291",
       "source": "privacy policy",
       "text": "política de privacidad"
     },
     {
-      "key": "t284",
+      "key": "t292",
       "source": "Send message",
       "text": "Enviar mensaje"
     },
     {
-      "key": "t285",
+      "key": "t293",
       "source": "We're here",
       "text": "Estamos aquí"
     },
     {
-      "key": "t286",
+      "key": "t294",
       "source": "Whatever you're carrying, you don't carry it alone.",
       "text": "Lo que sea que lleves, no lo llevas solo."
     },
     {
-      "key": "t287",
+      "key": "t295",
       "source": "Whether you need counselling, community support, food, or just someone to talk to. Reach out today. Your first step matters.",
       "text": "Ya sea que necesite asesoramiento, apoyo comunitario, comida o simplemente alguien con quien hablar. Comuníquese hoy. Tu primer paso importa."
     },
     {
-      "key": "t288",
+      "key": "t296",
       "source": "Email us",
       "text": "Envíenos un correo electrónico"
     },
     {
-      "key": "t289",
+      "key": "t297",
       "source": "WhatsApp us",
       "text": "WhatsApp nosotros"
     },
     {
-      "key": "t290",
+      "key": "t298",
       "source": "Donate via PayPal",
       "text": "Donar a través de PayPal"
     },
     {
-      "key": "t291",
+      "key": "t299",
       "source": "Localgiving",
       "text": "Localgiving"
     },
     {
-      "key": "t292",
+      "key": "t300",
       "source": "Fundraiser",
       "text": "Recaudación de fondos"
     },
     {
-      "key": "t293",
+      "key": "t301",
       "source": "Volunteer",
       "text": "Voluntario"
     },
     {
-      "key": "t294",
+      "key": "t302",
       "source": "Policies & your privacy",
       "text": "Políticas y su privacidad"
     },
     {
-      "key": "t295",
+      "key": "t303",
       "source": "How we protect you and your data.",
       "text": "Cómo te protegemos a ti y a tus datos."
     },
     {
-      "key": "t296",
+      "key": "t304",
       "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
       "text": "Un resumen en inglés sencillo de cómo manejamos su información, mantenemos a las personas seguras y utilizamos cookies. Para conocer las políticas completas o cualquier solicitud, envíe un correo electrónico"
     },
     {
-      "key": "t297",
+      "key": "t305",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t298",
+      "key": "t306",
       "source": "Privacy policy",
       "text": "Política de privacidad"
     },
     {
-      "key": "t299",
+      "key": "t307",
       "source": "Who we are.",
       "text": "Quiénes somos."
     },
     {
-      "key": "t300",
+      "key": "t308",
       "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
       "text": "Floating Counselling Community es una organización de base UK que brinda asesoramiento y apoyo comunitario desde 2015. Operamos como FLOATING COUNSELING COMMUNITY, una empresa limitada por garantía registrada en Inglaterra y Gales, número de empresa 11334515. Somos el controlador de datos de la información que usted comparte con nosotros. Para solicitudes de privacidad, envíe un correo electrónico"
     },
     {
-      "key": "t301",
+      "key": "t309",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t302",
+      "key": "t310",
       "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
       "text": "o escribe a nuestra oficina Croydon en 26 Avenue Road, London SE25 4DX."
     },
     {
-      "key": "t303",
+      "key": "t311",
       "source": "What we collect.",
       "text": "Lo que recopilamos."
     },
     {
-      "key": "t304",
+      "key": "t312",
       "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
       "text": "Cuando se comunica con nosotros a través del formulario de consulta, por correo electrónico o WhatsApp, recibimos los detalles que usted elige brindarnos: generalmente su nombre, dirección de correo electrónico, el tema que selecciona y su mensaje. Si se suscribe a nuestro boletín informativo, recopilamos su dirección de correo electrónico. No solicitamos información de salud de categoría especial a través de este sitio web; Por favor comparte sólo aquello con lo que te sientas cómodo."
     },
     {
-      "key": "t305",
+      "key": "t313",
       "source": "How we use it, and our lawful basis.",
       "text": "Cómo lo usamos y nuestra base legal."
     },
     {
-      "key": "t306",
+      "key": "t314",
       "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
       "text": "Usamos sus datos para responderle, brindarle el soporte que solicita y ejecutar nuestros servicios (UK GDPR \"consentimiento\" e \"intereses legítimos\"). Cuando tenemos el deber de proteger a alguien, podemos procesar información para cumplir con una obligación legal (consulte Protección)."
     },
     {
-      "key": "t307",
+      "key": "t315",
       "source": "Who we share it with.",
       "text": "Con quién lo compartimos."
     },
     {
-      "key": "t308",
+      "key": "t316",
       "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
       "text": "No vendemos tus datos. Dependemos de un pequeño número de proveedores de servicios confiables que nos ayudan a administrar el sitio web, el correo electrónico, los formularios, las solicitudes de voluntariado, las donaciones y los mapas. Cada proveedor sólo recibe la información necesaria para ese servicio y cada uno tiene su propio aviso de privacidad."
     },
     {
-      "key": "t309",
+      "key": "t317",
       "source": "Translation.",
       "text": "Traducción."
     },
     {
-      "key": "t310",
+      "key": "t318",
       "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
       "text": "Si traduces esta página, el texto de la página en pantalla puede enviarse de forma segura a un servicio de traducción para que se pueda devolver la versión traducida. La traducción es opcional, los mensajes del formulario de contacto no se traducen con esta función y el texto traducido puede almacenarse en caché en su navegador para que se cargue más rápido la próxima vez."
     },
     {
-      "key": "t311",
+      "key": "t319",
       "source": "How long we keep it.",
       "text": "Cuánto tiempo lo conservaremos."
     },
     {
-      "key": "t312",
+      "key": "t320",
       "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
       "text": "Conservamos los detalles de consultas y solicitudes de soporte solo durante el tiempo necesario para responder, brindar soporte, cumplir con deberes de protección y cumplir con obligaciones legales o contables. Los registros de donaciones y voluntarios se mantienen de acuerdo con el proveedor correspondiente y los requisitos legales de retención."
     },
     {
-      "key": "t313",
+      "key": "t321",
       "source": "Your rights.",
       "text": "Tus derechos."
     },
     {
-      "key": "t314",
+      "key": "t322",
       "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
       "text": "En UK GDPR puedes solicitar acceder, rectificar, eliminar o restringir tus datos, oponerte al procesamiento, solicitar la portabilidad o retirar el consentimiento en cualquier momento. Correo electrónico"
     },
     {
-      "key": "t315",
+      "key": "t323",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t316",
+      "key": "t324",
       "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
       "text": "o escríbenos a 26 Avenue Road, London SE25 4DX. Si no está satisfecho con nuestra respuesta, puede presentar una queja ante el ICO en ico.org.uk."
     },
     {
-      "key": "t317",
+      "key": "t325",
       "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
       "text": "Última revisión: 29 de mayo de 2026. Este resumen en inglés sencillo se proporciona para fines de transparencia y debe verificarse con las políticas completas de Floating Counselling Community antes de su publicación."
     },
     {
-      "key": "t318",
+      "key": "t326",
       "source": "Safeguarding",
       "text": "Salvaguardia"
     },
     {
-      "key": "t319",
+      "key": "t327",
       "source": "Our commitment.",
       "text": "Nuestro compromiso."
     },
     {
-      "key": "t320",
+      "key": "t328",
       "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
       "text": "La seguridad y el bienestar de los niños, jóvenes y adultos en riesgo con los que trabajamos es lo primero. Nuestra práctica está informada sobre el trauma y alineada con los estándares éticos BACP."
     },
     {
-      "key": "t321",
+      "key": "t329",
       "source": "Confidentiality and its limits.",
       "text": "La confidencialidad y sus límites."
     },
     {
-      "key": "t322",
+      "key": "t330",
       "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
       "text": "Lo que compartes se mantiene en estricta confidencialidad. La excepción es una situación de protección, cuando existe un riesgo de daño grave para usted o para otra persona, o cuando tenemos el deber legal de actuar. Siempre que sea seguro hacerlo, lo hablaremos con usted primero."
     },
     {
-      "key": "t323",
+      "key": "t331",
       "source": "Raising a concern.",
       "text": "Planteando una inquietud."
     },
     {
-      "key": "t324",
+      "key": "t332",
       "source": "If you're worried about someone's safety, contact us at",
       "text": "Si te preocupa la seguridad de alguien, contáctanos al"
-    },
-    {
-      "key": "t325",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t326",
-      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
-      "text": "o +44 (0)7305 882959. Si alguien está en peligro inmediato, llame siempre al 999. También puede comunicarse con el NSPCC al 0808 800 5000, o con el equipo de salvaguardia de su autoridad local."
-    },
-    {
-      "key": "t327",
-      "source": "Our people.",
-      "text": "Nuestra gente."
-    },
-    {
-      "key": "t328",
-      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
-      "text": "El personal y los voluntarios se reclutan de forma segura y reciben controles DBS cuando corresponde a su función."
-    },
-    {
-      "key": "t329",
-      "source": "Safeguarding lead.",
-      "text": "Plomo de salvaguardia."
-    },
-    {
-      "key": "t330",
-      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
-      "text": "Linda Yeboah, Director y Oficial de Salvaguardia. Correo electrónico"
-    },
-    {
-      "key": "t331",
-      "source": "floatingcounsellinglinda@gmail.com",
-      "text": "flotantecounsellinglinda@gmail.com"
-    },
-    {
-      "key": "t332",
-      "source": "or",
-      "text": "o"
     },
     {
       "key": "t333",
@@ -1678,426 +1678,466 @@
     },
     {
       "key": "t334",
-      "source": ". If someone is in immediate danger, call 999.",
-      "text": ". Si alguien está en peligro inmediato, llame al 999."
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "o +44 (0)7305 882959. Si alguien está en peligro inmediato, llame siempre al 999. También puede comunicarse con el NSPCC al 0808 800 5000, o con el equipo de salvaguardia de su autoridad local."
     },
     {
       "key": "t335",
-      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
-      "text": "Última revisión: 29 de mayo de 2026. Este resumen debe compararse con la política de protección completa de Floating Counselling Community antes de su publicación."
+      "source": "Our people.",
+      "text": "Nuestra gente."
     },
     {
       "key": "t336",
-      "source": "Cookies & storage",
-      "text": "Cookies y almacenamiento"
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "El personal y los voluntarios se reclutan de forma segura y reciben controles DBS cuando corresponde a su función."
     },
     {
       "key": "t337",
-      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
-      "text": "Mantenemos las cookies al mínimo y no utilizamos publicidad ni seguimiento entre sitios. El sitio almacena un par de pequeños elementos en su navegador:"
+      "source": "Safeguarding lead.",
+      "text": "Plomo de salvaguardia."
     },
     {
       "key": "t338",
-      "source": "Cookie consent",
-      "text": "Consentimiento de cookies"
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, Director y Oficial de Salvaguardia. Correo electrónico"
     },
     {
       "key": "t339",
-      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
-      "text": "— recuerda que has visto este aviso, por lo que no lo mostramos en cada visita."
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "flotantecounsellinglinda@gmail.com"
     },
     {
       "key": "t340",
-      "source": "Translation cache",
-      "text": "Caché de traducción"
+      "source": "or",
+      "text": "o"
     },
     {
       "key": "t341",
-      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
-      "text": "— si traduces la página, el texto traducido se guarda localmente para que se cargue instantáneamente la próxima vez."
-    },
-    {
-      "key": "t342",
-      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
-      "text": "El mapa de Google integrado puede establecer cookies propias de Google cuando se carga. Puede borrar todo lo anterior en cualquier momento borrando los datos del sitio de su navegador."
-    },
-    {
-      "key": "t343",
-      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
-      "text": "Asesoramiento, comunidad y compasión, sirviendo a Croydon, Redbridge, Newham, Durham y Southwark desde 2015."
-    },
-    {
-      "key": "t344",
-      "source": "Get in touch",
-      "text": "Ponte en contacto"
-    },
-    {
-      "key": "t345",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
+      "key": "t342",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". Si alguien está en peligro inmediato, llame al 999."
+    },
+    {
+      "key": "t343",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Última revisión: 29 de mayo de 2026. Este resumen debe compararse con la política de protección completa de Floating Counselling Community antes de su publicación."
+    },
+    {
+      "key": "t344",
+      "source": "Cookies & storage",
+      "text": "Cookies y almacenamiento"
+    },
+    {
+      "key": "t345",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "Mantenemos las cookies al mínimo y no utilizamos publicidad ni seguimiento entre sitios. El sitio almacena un par de pequeños elementos en su navegador:"
+    },
+    {
       "key": "t346",
+      "source": "Cookie consent",
+      "text": "Consentimiento de cookies"
+    },
+    {
+      "key": "t347",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— recuerda que has visto este aviso, por lo que no lo mostramos en cada visita."
+    },
+    {
+      "key": "t348",
+      "source": "Translation cache",
+      "text": "Caché de traducción"
+    },
+    {
+      "key": "t349",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "— si traduces la página, el texto traducido se guarda localmente para que se cargue instantáneamente la próxima vez."
+    },
+    {
+      "key": "t350",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "El mapa de Google integrado puede establecer cookies propias de Google cuando se carga. Puede borrar todo lo anterior en cualquier momento borrando los datos del sitio de su navegador."
+    },
+    {
+      "key": "t351",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "Asesoramiento, comunidad y compasión, sirviendo a Croydon, Redbridge, Newham, Durham y Southwark desde 2015."
+    },
+    {
+      "key": "t352",
+      "source": "Get in touch",
+      "text": "Ponte en contacto"
+    },
+    {
+      "key": "t353",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t354",
       "source": "WhatsApp · +44 (0)7305 882959",
       "text": "WhatsApp · +44 (0)7305 882959"
     },
     {
-      "key": "t347",
+      "key": "t355",
       "source": "Croydon Hub · Ashburton Park Cafe Hall",
       "text": "Concentrador Croydon · Ashburton Park Cafe Hall"
     },
     {
-      "key": "t348",
+      "key": "t356",
       "source": "See all project locations",
       "text": "Ver todas las ubicaciones del proyecto"
     },
     {
-      "key": "t349",
+      "key": "t357",
       "source": "Fundraiser",
       "text": "Recaudación de fondos"
     },
     {
-      "key": "t350",
+      "key": "t358",
       "source": "Volunteer",
       "text": "Voluntario"
     },
     {
-      "key": "t351",
+      "key": "t359",
       "source": "Croydon office",
       "text": "Croydon oficina"
     },
     {
-      "key": "t352",
+      "key": "t360",
       "source": "Redbridge office",
       "text": "Redbridge oficina"
     },
     {
-      "key": "t353",
+      "key": "t361",
       "source": "Durham hub",
       "text": "Concentrador Durham"
     },
     {
-      "key": "t354",
+      "key": "t362",
       "source": "Southwark hub",
       "text": "Concentrador Southwark"
     },
     {
-      "key": "t355",
+      "key": "t363",
       "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
       "text": "Floating Counselling™ · Alineado con BACP · Empresa no. 11334515 · Socio comunitario"
     },
     {
-      "key": "t356",
+      "key": "t364",
       "source": "Privacy",
       "text": "Privacidad"
     },
     {
-      "key": "t357",
+      "key": "t365",
       "source": "Safeguarding",
       "text": "Salvaguardia"
     },
     {
-      "key": "t358",
+      "key": "t366",
       "source": "Fundraiser",
       "text": "Recaudación de fondos"
     },
     {
-      "key": "t359",
+      "key": "t367",
       "source": "Donate",
       "text": "Donar"
     },
     {
-      "key": "t360",
+      "key": "t368",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t361",
+      "key": "t369",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t362",
+      "key": "t370",
       "source": "Choose a quick route",
       "text": "Elige una ruta rápida"
     },
     {
-      "key": "t363",
+      "key": "t371",
       "source": "If you are not sure which service fits, choose the closest option and we will route you.",
       "text": "Si no estás seguro de qué servicio te conviene, elige la opción más cercana y te encaminaremos."
     },
     {
-      "key": "t364",
+      "key": "t372",
       "source": "Counselling enquiry",
       "text": "Consulta de asesoramiento"
     },
     {
-      "key": "t365",
+      "key": "t373",
       "source": "Parenting support",
       "text": "Apoyo a los padres"
     },
     {
-      "key": "t366",
+      "key": "t374",
       "source": "Food or community hub",
       "text": "Centro comunitario o de comida"
     },
     {
-      "key": "t367",
+      "key": "t375",
       "source": "Holiday school",
       "text": "Escuela de vacaciones"
     },
     {
-      "key": "t368",
+      "key": "t376",
       "source": "Fundraiser",
       "text": "Recaudación de fondos"
     },
     {
-      "key": "t369",
+      "key": "t377",
       "source": "Volunteer or partner",
       "text": "Voluntario o socio"
     },
     {
-      "key": "t370",
+      "key": "t378",
       "source": "WhatsApp Floating",
       "text": "WhatsApp Flotante"
     },
     {
-      "key": "t371",
+      "key": "t379",
       "source": "We use a small number of cookies to make this site work and to understand how it's used.",
       "text": "Utilizamos una pequeña cantidad de cookies para que este sitio funcione y para comprender cómo se utiliza."
     },
     {
-      "key": "t372",
+      "key": "t380",
       "source": "More info",
       "text": "Más información"
     },
     {
-      "key": "t373",
+      "key": "t381",
       "source": "Decline",
       "text": "Rechazar"
     },
     {
-      "key": "t374",
+      "key": "t382",
       "source": "Accept",
       "text": "Aceptar"
     },
     {
-      "key": "a375",
+      "key": "a383",
       "source": "Primary",
       "text": "Primaria"
     },
     {
-      "key": "a376",
+      "key": "a384",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — Inicio"
     },
     {
-      "key": "a377",
+      "key": "a385",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a378",
+      "key": "a386",
       "source": "Toggle navigation",
       "text": "Alternar navegación"
     },
     {
-      "key": "a379",
+      "key": "a387",
       "source": "Counselling conversation at Floating Counselling",
       "text": "Conversación de asesoramiento en Floating Counselling"
     },
     {
-      "key": "a380",
+      "key": "a388",
       "source": "Scroll to impact",
       "text": "Desplácese hasta el impacto"
     },
     {
-      "key": "a381",
+      "key": "a389",
       "source": "Our impact",
       "text": "Nuestro impacto"
     },
     {
-      "key": "a382",
+      "key": "a390",
       "source": "Celestina Oniye-Thomas from Floating Counselling",
       "text": "Celestina Oniye-Thomas de Floating Counselling"
     },
     {
-      "key": "a383",
+      "key": "a391",
       "source": "Impact Parenting support artwork from Floating Counselling",
       "text": "Ilustraciones de soporte de Impact Parenting de Floating Counselling"
     },
     {
-      "key": "a384",
+      "key": "a392",
       "source": "Floating Counselling community organisation impact infographic",
       "text": "Infografía del impacto de la organización comunitaria Floating Counselling"
     },
     {
-      "key": "a385",
+      "key": "a393",
       "source": "Holiday school values",
       "text": "Valores de la escuela de vacaciones"
     },
     {
-      "key": "a386",
+      "key": "a394",
       "source": "Holiday school week 1 newsletter",
       "text": "Boletín de la semana 1 de vacaciones escolares"
     },
     {
-      "key": "a387",
+      "key": "a395",
       "source": "Floating Community Hub community gathering",
       "text": "Reunión comunitaria del Centro Comunitario Flotante"
     },
     {
-      "key": "a388",
+      "key": "a396",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "a389",
+      "key": "a397",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "a390",
+      "key": "a398",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "a391",
+      "key": "a399",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah"
     },
     {
-      "key": "a392",
+      "key": "a400",
       "source": "Department for Education",
       "text": "Departamento de Educación"
     },
     {
-      "key": "a393",
+      "key": "a401",
       "source": "Croydon Council",
       "text": "Croydon Consejo"
     },
     {
-      "key": "a394",
+      "key": "a402",
       "source": "South West London CCGs",
       "text": "CCG London del suroeste"
     },
     {
-      "key": "a395",
+      "key": "a403",
       "source": "The National Lottery Community Fund",
       "text": "El Fondo Comunitario de la Lotería Nacional"
     },
     {
-      "key": "a396",
+      "key": "a404",
       "source": "BME Forum",
       "text": "Foro BME"
     },
     {
-      "key": "a397",
+      "key": "a405",
       "source": "Croydon Voluntary Action",
       "text": "Croydon Acción voluntaria"
     },
     {
-      "key": "a398",
+      "key": "a406",
       "source": "Volunteer application form",
       "text": "Formulario de solicitud de voluntariado"
     },
     {
-      "key": "a399",
+      "key": "a407",
       "source": "Project locations",
       "text": "Ubicaciones del proyecto"
     },
     {
-      "key": "a400",
+      "key": "a408",
       "source": "Social links",
       "text": "Enlaces sociales"
     },
     {
-      "key": "a401",
+      "key": "a409",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a402",
+      "key": "a410",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a403",
+      "key": "a411",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a404",
+      "key": "a412",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a405",
+      "key": "a413",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — Inicio"
     },
     {
-      "key": "a406",
+      "key": "a414",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a407",
+      "key": "a415",
       "source": "Social links",
       "text": "Enlaces sociales"
     },
     {
-      "key": "a408",
+      "key": "a416",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a409",
+      "key": "a417",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a410",
+      "key": "a418",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a411",
+      "key": "a419",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a412",
+      "key": "a420",
       "source": "Project locations",
       "text": "Ubicaciones del proyecto"
     },
     {
-      "key": "a413",
+      "key": "a421",
       "source": "Fundraise for Floating Counselling",
       "text": "Recaudación de fondos para Floating Counselling"
     },
     {
-      "key": "a414",
+      "key": "a422",
       "source": "Donate to Floating Counselling",
       "text": "Donar a Floating Counselling"
     },
     {
-      "key": "a415",
+      "key": "a423",
       "source": "Back to top",
       "text": "Volver arriba"
     },
     {
-      "key": "a416",
+      "key": "a424",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "a417",
+      "key": "a425",
       "source": "Close assistant",
       "text": "Asistente cercano"
     },
     {
-      "key": "a418",
+      "key": "a426",
       "source": "Cookie notice",
       "text": "Aviso de cookies"
     }

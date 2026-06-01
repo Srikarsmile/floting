@@ -2,9 +2,9 @@
   "language": "uk",
   "languageName": "Ukrainian",
   "sourceLanguage": "en",
-  "sourceHash": "sym184",
-  "sourceUrl": "http://127.0.0.1:55223/",
-  "generatedAt": "2026-06-01T22:06:19.143Z",
+  "sourceHash": "4ftabt",
+  "sourceUrl": "http://127.0.0.1:57366/",
+  "generatedAt": "2026-06-01T22:55:57.786Z",
   "translations": [
     {
       "key": "t0",
@@ -1413,263 +1413,263 @@
     },
     {
       "key": "t281",
+      "source": "Counselling enquiry",
+      "text": "Запит на консультацію"
+    },
+    {
+      "key": "t282",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
+    },
+    {
+      "key": "t283",
+      "source": "Community Hub / food support",
+      "text": "Центр спільноти / харчова підтримка"
+    },
+    {
+      "key": "t284",
+      "source": "Holiday school",
+      "text": "Школа відпочинку"
+    },
+    {
+      "key": "t285",
+      "source": "Fundraising",
+      "text": "Збір коштів"
+    },
+    {
+      "key": "t286",
+      "source": "Volunteering",
+      "text": "Волонтерство"
+    },
+    {
+      "key": "t287",
+      "source": "Press / partnership",
+      "text": "Преса / партнерство"
+    },
+    {
+      "key": "t288",
+      "source": "Something else",
+      "text": "Щось інше"
+    },
+    {
+      "key": "t289",
       "source": "Message",
       "text": "Повідомлення"
     },
     {
-      "key": "t282",
+      "key": "t290",
       "source": "I agree to be contacted in line with the",
       "text": "Я погоджуюся зв’язуватися зі мною згідно з"
     },
     {
-      "key": "t283",
+      "key": "t291",
       "source": "privacy policy",
       "text": "політика конфіденційності"
     },
     {
-      "key": "t284",
+      "key": "t292",
       "source": "Send message",
       "text": "Надіслати повідомлення"
     },
     {
-      "key": "t285",
+      "key": "t293",
       "source": "We're here",
       "text": "Ми тут"
     },
     {
-      "key": "t286",
+      "key": "t294",
       "source": "Whatever you're carrying, you don't carry it alone.",
       "text": "Що б ви не несли, ви не несете це самі."
     },
     {
-      "key": "t287",
+      "key": "t295",
       "source": "Whether you need counselling, community support, food, or just someone to talk to. Reach out today. Your first step matters.",
       "text": "Незалежно від того, чи потрібна вам консультація, підтримка громади, їжа чи просто хтось, з ким можна поговорити. Зверніться сьогодні. Ваш перший крок має значення."
     },
     {
-      "key": "t288",
+      "key": "t296",
       "source": "Email us",
       "text": "Напишіть нам"
     },
     {
-      "key": "t289",
+      "key": "t297",
       "source": "WhatsApp us",
       "text": "WhatsApp нас"
     },
     {
-      "key": "t290",
+      "key": "t298",
       "source": "Donate via PayPal",
       "text": "Пожертвуйте через PayPal"
     },
     {
-      "key": "t291",
+      "key": "t299",
       "source": "Localgiving",
       "text": "Localgiving"
     },
     {
-      "key": "t292",
+      "key": "t300",
       "source": "Fundraiser",
       "text": "Збір коштів"
     },
     {
-      "key": "t293",
+      "key": "t301",
       "source": "Volunteer",
       "text": "Волонтер"
     },
     {
-      "key": "t294",
+      "key": "t302",
       "source": "Policies & your privacy",
       "text": "Політика та ваша конфіденційність"
     },
     {
-      "key": "t295",
+      "key": "t303",
       "source": "How we protect you and your data.",
       "text": "Як ми захищаємо вас і ваші дані."
     },
     {
-      "key": "t296",
+      "key": "t304",
       "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
       "text": "Звичайний англійський опис того, як ми обробляємо вашу інформацію, забезпечуємо безпеку людей і використовуємо файли cookie. Щоб отримати повну інформацію про правила або будь-який запит, надішліть електронну пошту"
     },
     {
-      "key": "t297",
+      "key": "t305",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t298",
+      "key": "t306",
       "source": "Privacy policy",
       "text": "Політика конфіденційності"
     },
     {
-      "key": "t299",
+      "key": "t307",
       "source": "Who we are.",
       "text": "Хто ми."
     },
     {
-      "key": "t300",
+      "key": "t308",
       "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
       "text": "Floating Counselling Community – це UK масова організація, яка надає консультації та підтримку спільноти з 2015 року. Ми працюємо як FLOATING COUNSELING COMMUNITY, компанія з обмеженою відповідальністю, зареєстрована в Англії та Уельсі, номер компанії 11334515. Ми є контролером даних для інформації, якою ви надаєте нам доступ. З питань конфіденційності надсилайте електронну пошту"
     },
     {
-      "key": "t301",
+      "key": "t309",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t302",
+      "key": "t310",
       "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
       "text": "або напишіть до нашого офісу Croydon за адресою 26 Avenue Road, London SE25 4DX."
     },
     {
-      "key": "t303",
+      "key": "t311",
       "source": "What we collect.",
       "text": "Що ми збираємо."
     },
     {
-      "key": "t304",
+      "key": "t312",
       "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
       "text": "Коли ви зв’яжетеся з нами через форму запиту, електронною поштою або WhatsApp, ми отримаємо деталі, які ви вирішите надати нам — як правило, ваше ім’я, адресу електронної пошти, вибрану вами тему та ваше повідомлення. Якщо ви підпишетеся на нашу розсилку, ми отримаємо вашу електронну адресу. Ми не запитуємо інформацію про здоров’я спеціальної категорії через цей веб-сайт; будь ласка, діліться лише тим, що вам зручно."
     },
     {
-      "key": "t305",
+      "key": "t313",
       "source": "How we use it, and our lawful basis.",
       "text": "Як ми це використовуємо та наші законні підстави."
     },
     {
-      "key": "t306",
+      "key": "t314",
       "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
       "text": "Ми використовуємо ваші дані, щоб відповісти вам, надати підтримку, яку ви просите, і запустити наші послуги (UK GDPR «згода» та «законні інтереси»). Якщо ми зобов’язані захищати когось, ми можемо обробляти інформацію для виконання юридичного зобов’язання (див. Захист)."
     },
     {
-      "key": "t307",
+      "key": "t315",
       "source": "Who we share it with.",
       "text": "З ким ми цим ділимось."
     },
     {
-      "key": "t308",
+      "key": "t316",
       "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
       "text": "Ми не продаємо ваші дані. Ми покладаємося на невелику кількість надійних постачальників послуг, які допомагають нам керувати веб-сайтом, електронною поштою, формами, волонтерськими заявками, пожертвами та картами. Кожен постачальник отримує лише інформацію, необхідну для цієї послуги, і кожен має власне повідомлення про конфіденційність."
     },
     {
-      "key": "t309",
+      "key": "t317",
       "source": "Translation.",
       "text": "Переклад."
     },
     {
-      "key": "t310",
+      "key": "t318",
       "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
       "text": "Якщо ви перекладете цю сторінку, текст сторінки на екрані може бути безпечно надіслано до служби перекладу, щоб можна було повернути перекладену версію. Переклад необов’язковий, повідомлення контактної форми не перекладаються цією функцією, а перекладений текст може кешуватися у вашому браузері, щоб наступного разу завантажувався швидше."
     },
     {
-      "key": "t311",
+      "key": "t319",
       "source": "How long we keep it.",
       "text": "Як довго ми це зберігаємо."
     },
     {
-      "key": "t312",
+      "key": "t320",
       "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
       "text": "Ми зберігаємо деталі запитів і запитів на підтримку лише стільки часу, скільки потрібно для відповіді, надання підтримки, виконання обов’язків із захисту та дотримання юридичних або бухгалтерських зобов’язань. Записи про пожертвування та волонтерство зберігаються відповідно до відповідних постачальників і юридичних вимог щодо зберігання."
     },
     {
-      "key": "t313",
+      "key": "t321",
       "source": "Your rights.",
       "text": "Ваші права."
     },
     {
-      "key": "t314",
+      "key": "t322",
       "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
       "text": "Відповідно до UK GDPR ви можете попросити отримати доступ, виправити, видалити або обмежити свої дані, заперечити проти обробки, подати запит на перенесення або відкликати згоду в будь-який час. Електронна пошта"
     },
     {
-      "key": "t315",
+      "key": "t323",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t316",
+      "key": "t324",
       "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
       "text": "або напишіть нам за адресою 26 Avenue Road, London SE25 4DX. Якщо ви не задоволені нашою відповіддю, ви можете поскаржитися в ICO на ico.org.uk."
     },
     {
-      "key": "t317",
+      "key": "t325",
       "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
       "text": "Останній перегляд: 29 травня 2026 р. Цей короткий виклад англійською мовою надано для прозорості, і перед публікацією його слід перевірити на відповідність повним правилам Floating Counselling Community."
     },
     {
-      "key": "t318",
+      "key": "t326",
       "source": "Safeguarding",
       "text": "Охорона"
     },
     {
-      "key": "t319",
+      "key": "t327",
       "source": "Our commitment.",
       "text": "Наше зобов’язання."
     },
     {
-      "key": "t320",
+      "key": "t328",
       "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
       "text": "Безпека та благополуччя дітей, молоді та дорослих із групи ризику, з якими ми працюємо, стоять на першому місці. Наша практика інформована про травми та відповідає етичним стандартам BACP."
     },
     {
-      "key": "t321",
+      "key": "t329",
       "source": "Confidentiality and its limits.",
       "text": "Конфіденційність та її межі."
     },
     {
-      "key": "t322",
+      "key": "t330",
       "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
       "text": "Те, що ви надаєте, тримається в суворій конфіденційності. Винятком є ​​захисна ситуація — коли існує ризик завдати серйозної шкоди вам або комусь іншому, або коли ми маємо законний обов’язок діяти. Якщо це безпечно, ми спочатку обговоримо це з вами."
     },
     {
-      "key": "t323",
+      "key": "t331",
       "source": "Raising a concern.",
       "text": "Викликає занепокоєння."
     },
     {
-      "key": "t324",
+      "key": "t332",
       "source": "If you're worried about someone's safety, contact us at",
       "text": "Якщо ви турбуєтеся про чиюсь безпеку, зв’яжіться з нами за адресою"
-    },
-    {
-      "key": "t325",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t326",
-      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
-      "text": "або +44 (0)7305 882959. Якщо комусь загрожує безпосередня небезпека, завжди телефонуйте за номером 999. Ви також можете зв’язатися з NSPCC за номером 0808 800 5000 або з командою охорони місцевих органів влади."
-    },
-    {
-      "key": "t327",
-      "source": "Our people.",
-      "text": "Наші люди."
-    },
-    {
-      "key": "t328",
-      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
-      "text": "Співробітники та волонтери набираються безпечно та отримують перевірки DBS, якщо це відповідає їхній ролі."
-    },
-    {
-      "key": "t329",
-      "source": "Safeguarding lead.",
-      "text": "Захисний свинець."
-    },
-    {
-      "key": "t330",
-      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
-      "text": "Linda Yeboah, директор і офіцер із захисту. Електронна пошта"
-    },
-    {
-      "key": "t331",
-      "source": "floatingcounsellinglinda@gmail.com",
-      "text": "floatingcounsellinglinda@gmail.com"
-    },
-    {
-      "key": "t332",
-      "source": "or",
-      "text": "або"
     },
     {
       "key": "t333",
@@ -1678,426 +1678,466 @@
     },
     {
       "key": "t334",
-      "source": ". If someone is in immediate danger, call 999.",
-      "text": ". Якщо комусь загрожує безпосередня небезпека, телефонуйте 999."
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "або +44 (0)7305 882959. Якщо комусь загрожує безпосередня небезпека, завжди телефонуйте за номером 999. Ви також можете зв’язатися з NSPCC за номером 0808 800 5000 або з командою охорони місцевих органів влади."
     },
     {
       "key": "t335",
-      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
-      "text": "Останній перегляд: 29 травня 2026 р. Перш ніж опублікувати це резюме, слід перевірити на відповідність повній політиці безпеки Floating Counselling Community."
+      "source": "Our people.",
+      "text": "Наші люди."
     },
     {
       "key": "t336",
-      "source": "Cookies & storage",
-      "text": "Файли cookie та зберігання"
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "Співробітники та волонтери набираються безпечно та отримують перевірки DBS, якщо це відповідає їхній ролі."
     },
     {
       "key": "t337",
-      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
-      "text": "Ми зводимо до мінімуму файли cookie та не використовуємо рекламу чи міжсайтове відстеження. Сайт зберігає кілька невеликих елементів у вашому браузері:"
+      "source": "Safeguarding lead.",
+      "text": "Захисний свинець."
     },
     {
       "key": "t338",
-      "source": "Cookie consent",
-      "text": "Згода на файли cookie"
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, директор і офіцер із захисту. Електронна пошта"
     },
     {
       "key": "t339",
-      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
-      "text": "— пам’ятає, що ви бачили це сповіщення, тому ми не показуємо його кожного разу."
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatingcounsellinglinda@gmail.com"
     },
     {
       "key": "t340",
-      "source": "Translation cache",
-      "text": "Кеш перекладу"
+      "source": "or",
+      "text": "або"
     },
     {
       "key": "t341",
-      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
-      "text": "— якщо ви перекладаєте сторінку, перекладений текст зберігається локально, тому наступного разу завантажується миттєво."
-    },
-    {
-      "key": "t342",
-      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
-      "text": "Вбудована карта Google може встановлювати власні файли cookie Google під час завантаження. Ви можете очистити все вищезазначене в будь-який час, очистивши дані сайту свого браузера."
-    },
-    {
-      "key": "t343",
-      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
-      "text": "Консультування, спільнота та співчуття, обслуговування Croydon, Redbridge, Newham, Durham і Southwark з 2015 року."
-    },
-    {
-      "key": "t344",
-      "source": "Get in touch",
-      "text": "Зв'яжіться"
-    },
-    {
-      "key": "t345",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
+      "key": "t342",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". Якщо комусь загрожує безпосередня небезпека, телефонуйте 999."
+    },
+    {
+      "key": "t343",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Останній перегляд: 29 травня 2026 р. Перш ніж опублікувати це резюме, слід перевірити на відповідність повній політиці безпеки Floating Counselling Community."
+    },
+    {
+      "key": "t344",
+      "source": "Cookies & storage",
+      "text": "Файли cookie та зберігання"
+    },
+    {
+      "key": "t345",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "Ми зводимо до мінімуму файли cookie та не використовуємо рекламу чи міжсайтове відстеження. Сайт зберігає кілька невеликих елементів у вашому браузері:"
+    },
+    {
       "key": "t346",
+      "source": "Cookie consent",
+      "text": "Згода на файли cookie"
+    },
+    {
+      "key": "t347",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— пам’ятає, що ви бачили це сповіщення, тому ми не показуємо його кожного разу."
+    },
+    {
+      "key": "t348",
+      "source": "Translation cache",
+      "text": "Кеш перекладу"
+    },
+    {
+      "key": "t349",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "— якщо ви перекладаєте сторінку, перекладений текст зберігається локально, тому наступного разу завантажується миттєво."
+    },
+    {
+      "key": "t350",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "Вбудована карта Google може встановлювати власні файли cookie Google під час завантаження. Ви можете очистити все вищезазначене в будь-який час, очистивши дані сайту свого браузера."
+    },
+    {
+      "key": "t351",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "Консультування, спільнота та співчуття, обслуговування Croydon, Redbridge, Newham, Durham і Southwark з 2015 року."
+    },
+    {
+      "key": "t352",
+      "source": "Get in touch",
+      "text": "Зв'яжіться"
+    },
+    {
+      "key": "t353",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t354",
       "source": "WhatsApp · +44 (0)7305 882959",
       "text": "WhatsApp · +44 (0)7305 882959"
     },
     {
-      "key": "t347",
+      "key": "t355",
       "source": "Croydon Hub · Ashburton Park Cafe Hall",
       "text": "Концентратор Croydon · Ashburton Park Cafe Hall"
     },
     {
-      "key": "t348",
+      "key": "t356",
       "source": "See all project locations",
       "text": "Перегляньте всі розташування проекту"
     },
     {
-      "key": "t349",
+      "key": "t357",
       "source": "Fundraiser",
       "text": "Збір коштів"
     },
     {
-      "key": "t350",
+      "key": "t358",
       "source": "Volunteer",
       "text": "Волонтер"
     },
     {
-      "key": "t351",
+      "key": "t359",
       "source": "Croydon office",
       "text": "Croydon офіс"
     },
     {
-      "key": "t352",
+      "key": "t360",
       "source": "Redbridge office",
       "text": "Redbridge офіс"
     },
     {
-      "key": "t353",
+      "key": "t361",
       "source": "Durham hub",
       "text": "Концентратор Durham"
     },
     {
-      "key": "t354",
+      "key": "t362",
       "source": "Southwark hub",
       "text": "Концентратор Southwark"
     },
     {
-      "key": "t355",
+      "key": "t363",
       "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
       "text": "Floating Counselling™ · Узгоджено з BACP · Номер компанії 11334515 · Партнер спільноти"
     },
     {
-      "key": "t356",
+      "key": "t364",
       "source": "Privacy",
       "text": "Конфіденційність"
     },
     {
-      "key": "t357",
+      "key": "t365",
       "source": "Safeguarding",
       "text": "Охорона"
     },
     {
-      "key": "t358",
+      "key": "t366",
       "source": "Fundraiser",
       "text": "Збір коштів"
     },
     {
-      "key": "t359",
+      "key": "t367",
       "source": "Donate",
       "text": "Пожертвувати"
     },
     {
-      "key": "t360",
+      "key": "t368",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t361",
+      "key": "t369",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t362",
+      "key": "t370",
       "source": "Choose a quick route",
       "text": "Виберіть швидкий маршрут"
     },
     {
-      "key": "t363",
+      "key": "t371",
       "source": "If you are not sure which service fits, choose the closest option and we will route you.",
       "text": "Якщо ви не впевнені, яка послуга вам підходить, виберіть найближчий варіант, і ми надамо вам маршрут."
     },
     {
-      "key": "t364",
+      "key": "t372",
       "source": "Counselling enquiry",
       "text": "Запит на консультацію"
     },
     {
-      "key": "t365",
+      "key": "t373",
       "source": "Parenting support",
       "text": "Підтримка батьків"
     },
     {
-      "key": "t366",
+      "key": "t374",
       "source": "Food or community hub",
       "text": "Харчовий або громадський центр"
     },
     {
-      "key": "t367",
+      "key": "t375",
       "source": "Holiday school",
       "text": "Школа відпочинку"
     },
     {
-      "key": "t368",
+      "key": "t376",
       "source": "Fundraiser",
       "text": "Збір коштів"
     },
     {
-      "key": "t369",
+      "key": "t377",
       "source": "Volunteer or partner",
       "text": "Волонтер або партнер"
     },
     {
-      "key": "t370",
+      "key": "t378",
       "source": "WhatsApp Floating",
       "text": "WhatsApp Плаваючий"
     },
     {
-      "key": "t371",
+      "key": "t379",
       "source": "We use a small number of cookies to make this site work and to understand how it's used.",
       "text": "Ми використовуємо невелику кількість файлів cookie, щоб забезпечити роботу цього сайту та зрозуміти, як він використовується."
     },
     {
-      "key": "t372",
+      "key": "t380",
       "source": "More info",
       "text": "Більше інформації"
     },
     {
-      "key": "t373",
+      "key": "t381",
       "source": "Decline",
       "text": "Відхилити"
     },
     {
-      "key": "t374",
+      "key": "t382",
       "source": "Accept",
       "text": "Прийняти"
     },
     {
-      "key": "a375",
+      "key": "a383",
       "source": "Primary",
       "text": "Первинний"
     },
     {
-      "key": "a376",
+      "key": "a384",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — Головна"
     },
     {
-      "key": "a377",
+      "key": "a385",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a378",
+      "key": "a386",
       "source": "Toggle navigation",
       "text": "Перемкнути навігацію"
     },
     {
-      "key": "a379",
+      "key": "a387",
       "source": "Counselling conversation at Floating Counselling",
       "text": "Консультативна розмова в Floating Counselling"
     },
     {
-      "key": "a380",
+      "key": "a388",
       "source": "Scroll to impact",
       "text": "Прокрутіть до удару"
     },
     {
-      "key": "a381",
+      "key": "a389",
       "source": "Our impact",
       "text": "Наш вплив"
     },
     {
-      "key": "a382",
+      "key": "a390",
       "source": "Celestina Oniye-Thomas from Floating Counselling",
       "text": "Celestina Oniye-Thomas від Floating Counselling"
     },
     {
-      "key": "a383",
+      "key": "a391",
       "source": "Impact Parenting support artwork from Floating Counselling",
       "text": "Ілюстрація підтримки Impact Parenting від Floating Counselling"
     },
     {
-      "key": "a384",
+      "key": "a392",
       "source": "Floating Counselling community organisation impact infographic",
       "text": "Інфографіка Floating Counselling щодо впливу громадських організацій"
     },
     {
-      "key": "a385",
+      "key": "a393",
       "source": "Holiday school values",
       "text": "Цінності канікул"
     },
     {
-      "key": "a386",
+      "key": "a394",
       "source": "Holiday school week 1 newsletter",
       "text": "Інформаційний бюлетень 1 тижня канікул"
     },
     {
-      "key": "a387",
+      "key": "a395",
       "source": "Floating Community Hub community gathering",
       "text": "Зустріч спільноти у плаваючому центрі спільноти"
     },
     {
-      "key": "a388",
+      "key": "a396",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "a389",
+      "key": "a397",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "a390",
+      "key": "a398",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "a391",
+      "key": "a399",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah"
     },
     {
-      "key": "a392",
+      "key": "a400",
       "source": "Department for Education",
       "text": "Департамент освіти"
     },
     {
-      "key": "a393",
+      "key": "a401",
       "source": "Croydon Council",
       "text": "Рада Croydon"
     },
     {
-      "key": "a394",
+      "key": "a402",
       "source": "South West London CCGs",
       "text": "Південно-Західні London CCG"
     },
     {
-      "key": "a395",
+      "key": "a403",
       "source": "The National Lottery Community Fund",
       "text": "Фонд громадськості Національної лотереї"
     },
     {
-      "key": "a396",
+      "key": "a404",
       "source": "BME Forum",
       "text": "Форум BME"
     },
     {
-      "key": "a397",
+      "key": "a405",
       "source": "Croydon Voluntary Action",
       "text": "Croydon Добровільні дії"
     },
     {
-      "key": "a398",
+      "key": "a406",
       "source": "Volunteer application form",
       "text": "Анкета волонтера"
     },
     {
-      "key": "a399",
+      "key": "a407",
       "source": "Project locations",
       "text": "Розташування проекту"
     },
     {
-      "key": "a400",
+      "key": "a408",
       "source": "Social links",
       "text": "Соціальні посилання"
     },
     {
-      "key": "a401",
+      "key": "a409",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a402",
+      "key": "a410",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a403",
+      "key": "a411",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a404",
+      "key": "a412",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a405",
+      "key": "a413",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — Головна"
     },
     {
-      "key": "a406",
+      "key": "a414",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a407",
+      "key": "a415",
       "source": "Social links",
       "text": "Соціальні посилання"
     },
     {
-      "key": "a408",
+      "key": "a416",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a409",
+      "key": "a417",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a410",
+      "key": "a418",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a411",
+      "key": "a419",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a412",
+      "key": "a420",
       "source": "Project locations",
       "text": "Розташування проекту"
     },
     {
-      "key": "a413",
+      "key": "a421",
       "source": "Fundraise for Floating Counselling",
       "text": "Збір коштів для Floating Counselling"
     },
     {
-      "key": "a414",
+      "key": "a422",
       "source": "Donate to Floating Counselling",
       "text": "Зробіть пожертву Floating Counselling"
     },
     {
-      "key": "a415",
+      "key": "a423",
       "source": "Back to top",
       "text": "На початок"
     },
     {
-      "key": "a416",
+      "key": "a424",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "a417",
+      "key": "a425",
       "source": "Close assistant",
       "text": "Близький помічник"
     },
     {
-      "key": "a418",
+      "key": "a426",
       "source": "Cookie notice",
       "text": "Повідомлення про файли cookie"
     }
