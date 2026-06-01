@@ -24,35 +24,35 @@ holidaySupport,40,"Chartered accountants",,,,,,,,,,,false
 holidaySupport,50,"Actresses and singers",,,,,,,,,,,false
 holidaySupport,60,"Psychotherapist and artist",,,,,,,,,,,false
 holidaySupport,70,"Healthy eating",,,,,,,,,,,false
-holidayWeeks,10,"Creative therapeutic school support",,"Programme snapshot","Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",https://srikarsmile.github.io/floting/images/original-holiday-week1.jpg,Holiday school programme snapshot,,,,,,true
-holidayWeeks,20,"Friendship and uniqueness",,"Week 2","Asking for help, making better choices with friends, being unique, and the beauty of why each child is unique.",https://srikarsmile.github.io/floting/images/original-holiday-week2.png,Holiday school week 2 newsletter,,,,,,false
-holidayWeeks,30,"Confidence and self-love",,"Week 3","Confidence, happiness visualisation, affirmation, mirror work and self-love.",https://srikarsmile.github.io/floting/images/original-holiday-week3.png,Holiday school week 3 newsletter,,,,,,false
-holidayWeeks,40,"Loss, endings and appreciation",,"Week 4","Coping with endings, letters for loved ones, soul work, self-love and appreciation for self.",https://srikarsmile.github.io/floting/images/original-holiday-week4.png,Holiday school week 4 newsletter,,,,,,false
+holidayWeeks,10,"Creative therapeutic school support",,"Programme snapshot","Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",https://floting.vercel.app/images/original-holiday-week1.webp,Holiday school programme snapshot,,,,,,true
+holidayWeeks,20,"Friendship and uniqueness",,"Week 2","Asking for help, making better choices with friends, being unique, and the beauty of why each child is unique.",https://floting.vercel.app/images/original-holiday-week2.webp,Holiday school week 2 newsletter,,,,,,false
+holidayWeeks,30,"Confidence and self-love",,"Week 3","Confidence, happiness visualisation, affirmation, mirror work and self-love.",https://floting.vercel.app/images/original-holiday-week3.webp,Holiday school week 3 newsletter,,,,,,false
+holidayWeeks,40,"Loss, endings and appreciation",,"Week 4","Coping with endings, letters for loved ones, soul work, self-love and appreciation for self.",https://floting.vercel.app/images/original-holiday-week4.webp,Holiday school week 4 newsletter,,,,,,false
 hubEvents,10,"Croydon Hub every Tuesday",,,"Join the Floating Community Hub at Ashburton Park Cafe Hall, Lower Addiscombe, CR0 6RX, from 12:30-2:30pm.",,,,,,,,true
 hubEvents,20,"Housing officer support",,,"A housing officer is at the hub during the last week of the month for benefit forms, housing questions and related support.",,,,,,,,false
 hubEvents,30,"Projects across communities",,,"Floating also delivers community projects in Redbridge, Newham, Durham and Southwark so local support is easier to find.",,,,,,,,true
-hubFlyers,10,,,,,https://srikarsmile.github.io/floting/images/hub-real-20260515.webp,Floating Community Hub community gathering,,,,,,true
-hubFlyers,20,,,,,https://srikarsmile.github.io/floting/images/original-hub-housing.jpg,Housing support flyer,,,,,,false
-hubFlyers,30,,,,,https://srikarsmile.github.io/floting/images/original-hub-health.jpg,Mental and physical health matters in Croydon flyer,,,,,,false
+hubFlyers,10,,,,,https://floting.vercel.app/images/hub-real-20260515.webp,Floating Community Hub community gathering,,,,,,true
+hubFlyers,20,,,,,https://floting.vercel.app/images/original-hub-housing.webp,Housing support flyer,,,,,,false
+hubFlyers,30,,,,,https://floting.vercel.app/images/original-hub-health.webp,Mental and physical health matters in Croydon flyer,,,,,,false
 testimonials,10,"Sarah Turino","CEO, The Whole Woman Wellness Formula · USA",,"I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded and supported a wide variety of issues that parents face. I have teenage children and really needed this. It was full of knowledge to parent more consciously.",,,,,,,ST,true
 testimonials,20,"Danya Denny","Social Worker · UK",,"My son had terrible twos where he would throw himself on the floor and not follow boundaries. I have now been helped to know his personality better and been given realistic tools to help him be more resilient in a loving way.",,,,,,,DD,true
 testimonials,30,"Niina Kabesa","Author, Mother of Nations · Congo",,"As a mother of six, I learnt so much from Impact Parenting. I was able to adapt strategies to my real life and all my children straight away, and I am still using the workbooks and resources months later. Every parent needs this.",,,,,,,NK,true
 team,10,"Celestina Oniye-Thomas",,,"",https://floting.vercel.app/images/team-celestina-20260601.webp,Celestina Oniye-Thomas,https://uk.linkedin.com/in/celestina-oniye-thomas,"Read more",info@floatingcounselling.co.uk,"CEO & Head of Charitable Operations",CO,true
-team,20,"Omowonu-Ola Ogunlela",,,"",https://srikarsmile.github.io/floting/images/team-omowonu.webp,Omowonu-Ola Ogunlela,https://financecareers.nhs.uk/resource/nhs-finance-career-stories-successful-moves-between-nhs-sectors-wonu-ogunlela/,"Read more",floatingcounsellingcommunity@gmail.com,"Director & Head of Finance",OO,true
-team,30,"Elizabeth Owode",,,"",https://srikarsmile.github.io/floting/images/team-elizabeth.webp,Elizabeth Owode,https://myfamily101.kit.com/e96f58fc71,"Read more",info@floatingcounselling.co.uk,Director & Relationship Coach,EO,true
-team,40,"Linda Yeboah",,,"",https://srikarsmile.github.io/floting/images/team-linda.webp,Linda Yeboah,mailto:floatingcounsellinglinda@gmail.com?subject=Floating%20Counselling%20enquiry,Contact,floatingcounsellinglinda@gmail.com,"Director & Safeguarding Officer",LY,true
-team,50,"Niina Kabesa",,,"",https://srikarsmile.github.io/floting/images/team-niina.jpg,Niina Kabesa,,,,Holiday Camp Manager,NK,false
-team,60,"Marleine Griffin",,,"",https://srikarsmile.github.io/floting/images/team-marleine.jpg,Marleine Griffin,,,info@floatingcounselling.co.uk,Admin Lead,MG,false
-partners,10,,,,,https://srikarsmile.github.io/floting/images/partner-dfe.jpg,Department for Education,,,,,,true
-partners,20,,,,,https://srikarsmile.github.io/floting/images/partner-croydon.jpg,Croydon Council,,,,,,true
-partners,30,,,,,https://srikarsmile.github.io/floting/images/partner-swl.png,South West London CCGs,,,,,,true
-partners,40,,,,,https://srikarsmile.github.io/floting/images/partner-lottery.jpg,The National Lottery Community Fund,,,,,,true
-partners,50,,,,,https://srikarsmile.github.io/floting/images/partner-bme.jpg,BME Forum,,,,,,true
-partners,60,,,,,https://srikarsmile.github.io/floting/images/partner-cva.jpg,Croydon Voluntary Action,,,,,,true
-partners,70,,,,,https://srikarsmile.github.io/floting/images/partner-bacp.jpg,BACP,,,,,,false
-partners,80,,,,,https://srikarsmile.github.io/floting/images/partner-ico.jpg,ICO,,,,,,false
-partners,90,,,,,https://srikarsmile.github.io/floting/images/partner-neighbourly.jpg,Neighbourly,,,,,,false
-partners,100,,,,,https://srikarsmile.github.io/floting/images/partner-prs.png,PRS for Music,,,,,,false
+team,20,"Omowonu-Ola Ogunlela",,,"",https://floting.vercel.app/images/team-omowonu.webp,Omowonu-Ola Ogunlela,https://financecareers.nhs.uk/resource/nhs-finance-career-stories-successful-moves-between-nhs-sectors-wonu-ogunlela/,"Read more",floatingcounsellingcommunity@gmail.com,"Director & Head of Finance",OO,true
+team,30,"Elizabeth Owode",,,"",https://floting.vercel.app/images/team-elizabeth.webp,Elizabeth Owode,https://myfamily101.kit.com/e96f58fc71,"Read more",info@floatingcounselling.co.uk,Director & Relationship Coach,EO,true
+team,40,"Linda Yeboah",,,"",https://floting.vercel.app/images/team-linda.webp,Linda Yeboah,mailto:floatingcounsellinglinda@gmail.com?subject=Floating%20Counselling%20enquiry,Contact,floatingcounsellinglinda@gmail.com,"Director & Safeguarding Officer",LY,true
+team,50,"Niina Kabesa",,,"",https://floting.vercel.app/images/team-niina.webp,Niina Kabesa,,,,Holiday Camp Manager,NK,false
+team,60,"Marleine Griffin",,,"",https://floting.vercel.app/images/team-marleine.webp,Marleine Griffin,,,info@floatingcounselling.co.uk,Admin Lead,MG,false
+partners,10,,,,,https://floting.vercel.app/images/partner-dfe.webp,Department for Education,,,,,,true
+partners,20,,,,,https://floting.vercel.app/images/partner-croydon.webp,Croydon Council,,,,,,true
+partners,30,,,,,https://floting.vercel.app/images/partner-swl.webp,South West London CCGs,,,,,,true
+partners,40,,,,,https://floting.vercel.app/images/partner-lottery.webp,The National Lottery Community Fund,,,,,,true
+partners,50,,,,,https://floting.vercel.app/images/partner-bme.webp,BME Forum,,,,,,true
+partners,60,,,,,https://floting.vercel.app/images/partner-cva.webp,Croydon Voluntary Action,,,,,,true
+partners,70,,,,,https://floting.vercel.app/images/partner-bacp.webp,BACP,,,,,,false
+partners,80,,,,,https://floting.vercel.app/images/partner-ico.webp,ICO,,,,,,false
+partners,90,,,,,https://floting.vercel.app/images/partner-neighbourly.webp,Neighbourly,,,,,,false
+partners,100,,,,,https://floting.vercel.app/images/partner-prs.webp,PRS for Music,,,,,,false
 originalPages,10,"Counselling Services",,"Therapy","Affordable counselling in Croydon and London, with individual, couple, family and online options.",,,https://www.floatingcounselling.co.uk/counselling,"Open original page",,,,false
 originalPages,20,"Floating Community Hub",,"Community","Weekly resident support, food and clothes bank, housing help, bills support and wellbeing events.",,,https://www.floatingcounselling.co.uk/wch,"Open original page",,,,false
 originalPages,30,"Holiday School",,"Children","Creative therapeutic school programmes for children aged 5-11, including art, music, play and resilience work.",,,https://www.floatingcounselling.co.uk/holidayschool,"Open original page",,,,false

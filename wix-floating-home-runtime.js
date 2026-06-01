@@ -34,7 +34,32 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-01');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-02');
+
+const floatingHomeImageAssetAliases = Object.freeze({
+  'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
+  'images/team-celestina.webp': 'images/team-celestina-20260601.webp',
+  'images/team-marleine.jpg': 'images/team-marleine.webp',
+  'images/team-niina.jpg': 'images/team-niina.webp',
+  'images/original-impact-parenting.png': 'images/original-impact-parenting.webp',
+  'images/original-impact-infographic.png': 'images/original-impact-infographic.webp',
+  'images/original-holiday-week1.jpg': 'images/original-holiday-week1.webp',
+  'images/original-holiday-week2.png': 'images/original-holiday-week2.webp',
+  'images/original-holiday-week3.png': 'images/original-holiday-week3.webp',
+  'images/original-holiday-week4.png': 'images/original-holiday-week4.webp',
+  'images/original-hub-housing.jpg': 'images/original-hub-housing.webp',
+  'images/original-hub-health.jpg': 'images/original-hub-health.webp',
+  'images/partner-bacp.jpg': 'images/partner-bacp.webp',
+  'images/partner-bme.jpg': 'images/partner-bme.webp',
+  'images/partner-croydon.jpg': 'images/partner-croydon.webp',
+  'images/partner-cva.jpg': 'images/partner-cva.webp',
+  'images/partner-dfe.jpg': 'images/partner-dfe.webp',
+  'images/partner-ico.jpg': 'images/partner-ico.webp',
+  'images/partner-lottery.jpg': 'images/partner-lottery.webp',
+  'images/partner-neighbourly.jpg': 'images/partner-neighbourly.webp',
+  'images/partner-prs.png': 'images/partner-prs.webp',
+  'images/partner-swl.png': 'images/partner-swl.webp',
+});
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
@@ -174,6 +199,11 @@ class FloatingHome extends HTMLElement {
 
   stylesUrl() {
     return this.manifestUrlFor('styles', 'styles.css');
+  }
+
+  optimizedImagePath(path) {
+    const cleanPath = String(path || '').replace(/^\/+/, '').replace(/^floting\//, '');
+    return floatingHomeImageAssetAliases[cleanPath] || cleanPath;
   }
 
   readAssetBase() {
@@ -1378,7 +1408,21 @@ class FloatingHome extends HTMLElement {
     }
 
     if (/^(images|\.\/images)\//.test(rawValue)) {
-      return this.asset(rawValue.replace(/^\.\//, ''));
+      return this.asset(this.optimizedImagePath(rawValue.replace(/^\.\//, '')));
+    }
+
+    try {
+      const url = new URL(rawValue);
+      const localPath = decodeURIComponent(url.pathname).replace(/^\/+/, '').replace(/^floting\//, '');
+      if (/^images\//.test(localPath) && (
+        url.hostname === 'srikarsmile.github.io' ||
+        url.hostname === 'floting.vercel.app' ||
+        url.hostname === window.location.hostname
+      )) {
+        return this.asset(this.optimizedImagePath(localPath));
+      }
+    } catch (error) {
+      // Keep non-URL media values unchanged below.
     }
 
     return rawValue;
