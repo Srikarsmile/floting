@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-09');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-10');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -615,7 +615,7 @@ class FloatingHome extends HTMLElement {
       ['preload', 'fetch', this.htmlUrl()],
       ['preload', 'style', this.stylesUrl()],
       ['preload', 'image', this.asset('images/logo.webp')],
-      ['preload', 'image', this.asset('images/counselling-real-20260515.webp')],
+      ['preload', 'image', this.asset('images/counselling-real-20260515.avif')],
     ].forEach(([rel, as, href]) => {
       if (document.head.querySelector(`link[rel="${rel}"][href="${href}"]`)) return;
 
@@ -623,6 +623,7 @@ class FloatingHome extends HTMLElement {
       link.rel = rel;
       link.as = as;
       link.href = href;
+      if (/\.avif(?:\?|$)/.test(href)) link.type = 'image/avif';
       if (as === 'fetch') link.crossOrigin = 'anonymous';
       document.head.appendChild(link);
     });
@@ -1203,6 +1204,13 @@ class FloatingHome extends HTMLElement {
         node.setAttribute('src', this.asset(source.replace(/^\.\//, '')));
       }
     });
+
+    this.shadowRoot.querySelectorAll('[srcset]').forEach((node) => {
+      const sourceSet = node.getAttribute('srcset');
+      if (sourceSet && /^(images|\.\/images)\//.test(sourceSet.trim())) {
+        node.setAttribute('srcset', this.asset(sourceSet.trim().replace(/^\.\//, '')));
+      }
+    });
   }
 
   prepareImagesForFastPaint() {
@@ -1580,6 +1588,9 @@ class FloatingHome extends HTMLElement {
     if (img && image) {
       img.setAttribute('src', image);
       img.removeAttribute('srcset');
+      if (img.parentElement && img.parentElement.tagName === 'PICTURE') {
+        img.parentElement.querySelectorAll('source').forEach((source) => source.remove());
+      }
     }
 
     if (img && alt) {

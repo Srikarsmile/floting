@@ -38,9 +38,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Inter+Tight:wght@300;400;500;600;700&display=swap">
 
   <!-- Preload hero image -->
-  <link rel="preload" as="image" href="images/counselling-real-20260515.webp" type="image/webp">
+  <link rel="preload" as="image" href="images/counselling-real-20260515.avif" type="image/avif">
 
-  <link rel="stylesheet" href="styles.css?v=20260602-09">
+  <link rel="stylesheet" href="styles.css?v=20260602-10">
 
   <!-- JSON-LD: NGO -->
   <script type="application/ld+json">
@@ -79,8 +79,8 @@
   </script>
 
   <!-- Lightweight native interactions -->
-  <script defer src="floating-translation.js?v=20260602-09"></script>
-  <script defer src="script.js?v=20260602-09"></script>
+  <script defer src="floating-translation.js?v=20260602-10"></script>
+  <script defer src="script.js?v=20260602-10"></script>
 </head>
 <body>
 
@@ -184,7 +184,10 @@
 
     <div class="hero-visual">
       <div class="hero-visual-frame" data-tilt>
+        <picture>
+          <source srcset="images/counselling-real-20260515.avif" type="image/avif">
           <img src="images/counselling-real-20260515.webp" alt="Counselling conversation at Floating Counselling" data-parallax data-speed="0.15" data-cms-image="hero.image" width="1200" height="1200" fetchpriority="high" decoding="async">
+        </picture>
       </div>
       <div class="hero-float hero-float--top" data-parallax data-speed="-0.3">
         <span class="hero-float-mark"></span>
@@ -339,7 +342,10 @@
   <div class="container about-grid">
     <div class="about-image">
       <div class="about-image-frame">
-        <img src="images/team-celestina-20260601.webp" alt="Celestina Oniye-Thomas from Floating Counselling" data-parallax data-speed="0.2" data-cms-image="about.image" width="720" height="720" loading="lazy" decoding="async">
+        <picture>
+          <source srcset="images/team-celestina-20260601.avif" type="image/avif">
+          <img src="images/team-celestina-20260601.webp" alt="Celestina Oniye-Thomas from Floating Counselling" data-parallax data-speed="0.2" data-cms-image="about.image" width="720" height="720" loading="lazy" decoding="async" fetchpriority="low">
+        </picture>
       </div>
       <div class="about-float" data-parallax data-speed="-0.4">
         <h3>Since <em>2015</em></h3>
@@ -456,7 +462,10 @@
 
     <div class="holiday-week-grid" data-stagger data-cms-static="true">
       <article class="holiday-week-card" data-card>
-        <img src="images/original-holiday-week1.webp" alt="Holiday school week 1 newsletter" width="876" height="712" loading="lazy" decoding="async">
+        <picture>
+          <source srcset="images/original-holiday-week1.avif" type="image/avif">
+          <img src="images/original-holiday-week1.webp" alt="Holiday school week 1 newsletter" width="876" height="712" loading="lazy" decoding="async" fetchpriority="low">
+        </picture>
         <div>
           <span>Programme snapshot</span>
           <h3>Creative therapeutic school support</h3>
@@ -533,7 +542,10 @@
     </div>
     <div class="hub-image">
       <div class="hub-image-frame">
-        <img src="images/hub-real-20260515.webp" alt="Floating Community Hub community gathering" data-parallax data-speed="0.18" data-cms-image="hub.image" width="1200" height="1200" loading="lazy" decoding="async">
+        <picture>
+          <source srcset="images/hub-real-20260515.avif" type="image/avif">
+          <img src="images/hub-real-20260515.webp" alt="Floating Community Hub community gathering" data-parallax data-speed="0.18" data-cms-image="hub.image" width="1200" height="1200" loading="lazy" decoding="async" fetchpriority="low">
+        </picture>
       </div>
     </div>
   </div>
@@ -586,7 +598,7 @@
     </header>
     <div class="team-grid" data-stagger data-cms-limit="4">
       <article class="team-card" data-card>
-        <figure class="team-photo"><img src="images/team-celestina-20260601.webp" alt="Celestina Oniye-Thomas" width="720" height="720" loading="lazy" decoding="async"></figure>
+        <figure class="team-photo"><picture><source srcset="images/team-celestina-20260601.avif" type="image/avif"><img src="images/team-celestina-20260601.webp" alt="Celestina Oniye-Thomas" width="720" height="720" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
         <h4>Celestina Oniye-Thomas</h4>
         <div class="role">CEO &amp; Head of Charitable Operations</div>
         <div class="team-actions">
@@ -595,7 +607,7 @@
         </div>
       </article>
       <article class="team-card" data-card>
-        <figure class="team-photo"><img src="images/team-omowonu.webp" alt="Omowonu-Ola Ogunlela" width="688" height="688" loading="lazy" decoding="async"></figure>
+        <figure class="team-photo"><picture><source srcset="images/team-omowonu.avif" type="image/avif"><img src="images/team-omowonu.webp" alt="Omowonu-Ola Ogunlela" width="688" height="688" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
         <h4>Omowonu-Ola Ogunlela</h4>
         <div class="role">Director &amp; Head of Finance</div>
         <div class="team-actions">
@@ -604,7 +616,7 @@
         </div>
       </article>
       <article class="team-card" data-card>
-        <figure class="team-photo"><img src="images/team-elizabeth.webp" alt="Elizabeth Owode" width="688" height="688" loading="lazy" decoding="async"></figure>
+        <figure class="team-photo"><picture><source srcset="images/team-elizabeth.avif" type="image/avif"><img src="images/team-elizabeth.webp" alt="Elizabeth Owode" width="688" height="688" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
         <h4>Elizabeth Owode</h4>
         <div class="role">Director &amp; Relationship Coach</div>
         <div class="team-actions">
@@ -613,7 +625,7 @@
         </div>
       </article>
       <article class="team-card" data-card>
-        <figure class="team-photo"><img src="images/team-linda.webp" alt="Linda Yeboah" width="594" height="594" loading="lazy" decoding="async"></figure>
+        <figure class="team-photo"><picture><source srcset="images/team-linda.avif" type="image/avif"><img src="images/team-linda.webp" alt="Linda Yeboah" width="594" height="594" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
         <h4>Linda Yeboah</h4>
         <div class="role">Director &amp; Safeguarding Officer</div>
         <div class="team-actions">
