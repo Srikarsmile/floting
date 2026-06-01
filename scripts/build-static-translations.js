@@ -11,7 +11,7 @@ const DEFAULT_ENDPOINT = 'https://floting.vercel.app/api/translate';
 const DEFAULT_CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const BATCH_MAX_ITEMS = 35;
 const BATCH_MAX_CHARS = 4500;
-const TRANSLATION_ARTIFACT_PATTERN = /\[\[\s*t\d+\s*\]\]+|\[\[\[[^\]]+\]\]\]|[A-Z]*XTERM\s*\d+\s*XCF/i;
+const TRANSLATION_ARTIFACT_PATTERN = /\[\[[^\]]+\]\]+|[A-Z]*XTERM\s*\d+\s*XCF/i;
 
 const LANGUAGE_NAMES = {
   ar: 'Arabic',
