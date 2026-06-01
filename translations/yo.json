@@ -2,9 +2,9 @@
   "language": "yo",
   "languageName": "Yoruba",
   "sourceLanguage": "en",
-  "sourceHash": "oouxuf",
-  "sourceUrl": "http://127.0.0.1:63690/",
-  "generatedAt": "2026-05-30T10:26:56.051Z",
+  "sourceHash": "sym184",
+  "sourceUrl": "http://127.0.0.1:55223/",
+  "generatedAt": "2026-06-01T22:06:19.143Z",
   "translations": [
     {
       "key": "t0",
@@ -14,7 +14,7 @@
     {
       "key": "t1",
       "source": "Skip to content",
-      "text": "Rekọja si akoonu [[t2]]] Awọn iṣẹ [[t3]] Wa iranlọwọ [[t4]]] Awọn obi"
+      "text": "Rekọja si akoonu"
     },
     {
       "key": "t2",
@@ -34,7 +34,7 @@
     {
       "key": "t5",
       "source": "Holiday School",
-      "text": "Ile-iwe Isinmi [[t6]] Ibudo [[t7]]] Olukojọpọ [[t8]]] Iyọọda"
+      "text": "Ile-iwe Isinmi"
     },
     {
       "key": "t6",
@@ -54,7 +54,7 @@
     {
       "key": "t9",
       "source": "Translate website",
-      "text": "Tumọ oju opo wẹẹbu [[t10]]] Iwe ipade kan"
+      "text": "Tumọ oju opo wẹẹbu"
     },
     {
       "key": "t10",
@@ -78,3786 +78,2026 @@
     },
     {
       "key": "t14",
-      "source": "Compassion.",
-      "text": "Aanu. [[t15]]] A"
+      "source": "& Compassion.",
+      "text": "& Aanu."
     },
     {
       "key": "t15",
-      "source": "A",
-      "text": "A"
+      "source": "A UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care, practical help and community-driven programmes designed as wraparound care.",
+      "text": "Ifẹ-ifẹ ti o da lori UK ti n fun eniyan ni agbara, awọn idile ati awọn ẹgbẹ ti a ya sọtọ nipasẹ atilẹyin gbogbogbo, itọju itọju, iranlọwọ to wulo ati awọn eto idari agbegbe ti a ṣe apẹrẹ bi itọju yikaka."
     },
     {
       "key": "t16",
-      "source": "UK-based",
-      "text": "UK-orisun"
-    },
-    {
-      "key": "t17",
-      "source": "grassroots",
-      "text": "koriko [[t18]]] ifẹ [[t19]]] ifiagbara [[t20]]] awọn ẹni-kọọkan, [[t21]]] idile [[t22]]] ati"
-    },
-    {
-      "key": "t18",
-      "source": "charity",
-      "text": "ifẹ"
-    },
-    {
-      "key": "t19",
-      "source": "empowering",
-      "text": "ifiagbara"
-    },
-    {
-      "key": "t20",
-      "source": "individuals,",
-      "text": "awọn ẹni-kọọkan,"
-    },
-    {
-      "key": "t21",
-      "source": "families",
-      "text": "idile"
-    },
-    {
-      "key": "t22",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t23",
-      "source": "marginalised",
-      "text": "yàsọtọ [[t24]]] awọn ẹgbẹ [[t25]]] nipasẹ [[t26]]] gbogbo [[t27]]] atilẹyin, [[t28]]] iwosan [[t29]]] itọju, [[t30]]] wulo [[t31]]] iranlọwọ [[t32]]] ati [[t33]]] agbegbe-ìṣó [[t34]]] awọn eto"
-    },
-    {
-      "key": "t24",
-      "source": "groups",
-      "text": "awọn ẹgbẹ"
-    },
-    {
-      "key": "t25",
-      "source": "through",
-      "text": "nipasẹ"
-    },
-    {
-      "key": "t26",
-      "source": "holistic",
-      "text": "gbogboogbo"
-    },
-    {
-      "key": "t27",
-      "source": "support,",
-      "text": "atilẹyin,"
-    },
-    {
-      "key": "t28",
-      "source": "therapeutic",
-      "text": "mba"
-    },
-    {
-      "key": "t29",
-      "source": "care,",
-      "text": "itoju,"
-    },
-    {
-      "key": "t30",
-      "source": "practical",
-      "text": "wulo"
-    },
-    {
-      "key": "t31",
-      "source": "help",
-      "text": "Egba Mi O"
-    },
-    {
-      "key": "t32",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t33",
-      "source": "community-driven",
-      "text": "awujo-ìṣó"
-    },
-    {
-      "key": "t34",
-      "source": "programmes",
-      "text": "awọn eto"
-    },
-    {
-      "key": "t35",
-      "source": "designed",
-      "text": "apẹrẹ"
-    },
-    {
-      "key": "t36",
-      "source": "as",
-      "text": "bi [[t37]]] yikaka [[t38]]] itọju. [[t39]]] Iwe ipade kan"
-    },
-    {
-      "key": "t37",
-      "source": "wraparound",
-      "text": "murasilẹ"
-    },
-    {
-      "key": "t38",
-      "source": "care.",
-      "text": "itoju."
-    },
-    {
-      "key": "t39",
       "source": "Book a Session",
       "text": "Iwe kan Ikoni"
     },
     {
-      "key": "t40",
+      "key": "t17",
       "source": "Find the right support",
       "text": "Wa atilẹyin ti o tọ"
     },
     {
-      "key": "t41",
+      "key": "t18",
       "source": "CO",
       "text": "CO"
     },
     {
-      "key": "t42",
+      "key": "t19",
       "source": "OO",
       "text": "OO"
     },
     {
-      "key": "t43",
+      "key": "t20",
       "source": "EO",
-      "text": "EO [[t44]]] LY"
+      "text": "EO"
     },
     {
-      "key": "t44",
+      "key": "t21",
       "source": "LY",
       "text": "LY"
     },
     {
-      "key": "t45",
+      "key": "t22",
       "source": "Led by four women directors with clinical training, lived experience and deep community roots.",
       "text": "Ti a dari nipasẹ awọn oludari obinrin mẹrin pẹlu ikẹkọ ile-iwosan, iriri igbesi aye ati awọn gbongbo agbegbe ti o jinlẹ."
     },
     {
-      "key": "t46",
+      "key": "t23",
       "source": "Trauma-informed",
-      "text": "Alaye nipa ibalokanje [[t47]]] Itọju ti o pade rẹ nibiti o wa [[t48]]] 5 agbegbe ise agbese"
+      "text": "Ibanujẹ-funfun"
     },
     {
-      "key": "t47",
+      "key": "t24",
       "source": "Care that meets you where you are",
       "text": "Itọju ti o pade rẹ nibiti o wa"
     },
     {
-      "key": "t48",
+      "key": "t25",
       "source": "5 project areas",
       "text": "5 agbegbe ise agbese"
     },
     {
-      "key": "t49",
+      "key": "t26",
       "source": "Croydon · Redbridge · Newham · Durham · Southwark",
       "text": "Croydon · Redbridge · Newham · Durham · Southwark"
     },
     {
-      "key": "t50",
+      "key": "t27",
       "source": "Scroll",
       "text": "Yi lọ"
     },
     {
-      "key": "t51",
+      "key": "t28",
       "source": "Find the right support",
       "text": "Wa atilẹyin ti o tọ"
     },
     {
-      "key": "t52",
-      "source": "Choose",
-      "text": "Yan"
+      "key": "t29",
+      "source": "Choose the help you need today.",
+      "text": "Yan iranlọwọ ti o nilo loni."
     },
     {
-      "key": "t53",
-      "source": "the",
-      "text": "awọn"
+      "key": "t30",
+      "source": "Tell us what feels most urgent and we will point you towards the right support, whether that starts with therapy, practical help, family work or a partnership conversation.",
+      "text": "Sọ fun wa ohun ti o ni iyara julọ ati pe a yoo tọka si ọ si ọna atilẹyin ti o tọ, boya iyẹn bẹrẹ pẹlu itọju ailera, iranlọwọ ti o wulo, iṣẹ ẹbi tabi ibaraẹnisọrọ ajọṣepọ."
     },
     {
-      "key": "t54",
-      "source": "help",
-      "text": "iranlọwọ [[t55]]] ìwọ"
-    },
-    {
-      "key": "t55",
-      "source": "you",
-      "text": "iwo"
-    },
-    {
-      "key": "t56",
-      "source": "need",
-      "text": "nilo"
-    },
-    {
-      "key": "t57",
-      "source": "today.",
-      "text": "loni."
-    },
-    {
-      "key": "t58",
-      "source": "Tell",
-      "text": "Sọ fun [[t59]]] wa [[t60]]] kini [[t61]]] rilara [[t62]]] julọ [[t63]]] amojuto"
-    },
-    {
-      "key": "t59",
-      "source": "us",
-      "text": "awa"
-    },
-    {
-      "key": "t60",
-      "source": "what",
-      "text": "kini"
-    },
-    {
-      "key": "t61",
-      "source": "feels",
-      "text": "kan lara"
-    },
-    {
-      "key": "t62",
-      "source": "most",
-      "text": "julọ"
-    },
-    {
-      "key": "t63",
-      "source": "urgent",
-      "text": "amojuto"
-    },
-    {
-      "key": "t64",
-      "source": "and",
-      "text": "ati [[t65]]] awa [[t66]]] yoo"
-    },
-    {
-      "key": "t65",
-      "source": "we",
-      "text": "awa"
-    },
-    {
-      "key": "t66",
-      "source": "will",
-      "text": "yio"
-    },
-    {
-      "key": "t67",
-      "source": "point",
-      "text": "ojuami [[t68]]] ìwọ [[t69]]] si ọna"
-    },
-    {
-      "key": "t68",
-      "source": "you",
-      "text": "iwo"
-    },
-    {
-      "key": "t69",
-      "source": "towards",
-      "text": "si ọna"
-    },
-    {
-      "key": "t70",
-      "source": "the",
-      "text": "awọn"
-    },
-    {
-      "key": "t71",
-      "source": "right",
-      "text": "ọtun"
-    },
-    {
-      "key": "t72",
-      "source": "support,",
-      "text": "atilẹyin,"
-    },
-    {
-      "key": "t73",
-      "source": "whether",
-      "text": "boya"
-    },
-    {
-      "key": "t74",
-      "source": "that",
-      "text": "pe"
-    },
-    {
-      "key": "t75",
-      "source": "starts",
-      "text": "bẹrẹ"
-    },
-    {
-      "key": "t76",
-      "source": "with",
-      "text": "pẹlu"
-    },
-    {
-      "key": "t77",
-      "source": "therapy,",
-      "text": "itọju ailera,"
-    },
-    {
-      "key": "t78",
-      "source": "practical",
-      "text": "wulo"
-    },
-    {
-      "key": "t79",
-      "source": "help,",
-      "text": "Egba Mi O,"
-    },
-    {
-      "key": "t80",
-      "source": "family",
-      "text": "ebi"
-    },
-    {
-      "key": "t81",
-      "source": "work",
-      "text": "ṣiṣẹ"
-    },
-    {
-      "key": "t82",
-      "source": "or",
-      "text": "tabi"
-    },
-    {
-      "key": "t83",
-      "source": "a",
-      "text": "a"
-    },
-    {
-      "key": "t84",
-      "source": "partnership",
-      "text": "ajọṣepọ"
-    },
-    {
-      "key": "t85",
-      "source": "conversation.",
-      "text": "ibaraẹnisọrọ."
-    },
-    {
-      "key": "t86",
+      "key": "t31",
       "source": "Therapy",
       "text": "Itọju ailera"
     },
     {
-      "key": "t87",
+      "key": "t32",
       "source": "I need counselling",
-      "text": "Mo nilo imọran [[t88]]] Bẹrẹ pẹlu ọkan-si-ọkan, ẹbi, tọkọtaya, ẹgbẹ, ori ayelujara tabi atilẹyin itọju ara ẹni. [[t89]]] Kọ igba kan [[t90]]] Idile"
+      "text": "Mo nilo Igbaninimoran"
     },
     {
-      "key": "t88",
+      "key": "t33",
       "source": "Start with one-to-one, family, couple, group, online or in-person therapeutic support.",
       "text": "Bẹrẹ pẹlu ọkan-si-ọkan, ẹbi, tọkọtaya, ẹgbẹ, ori ayelujara tabi atilẹyin itọju ara ẹni."
     },
     {
-      "key": "t89",
+      "key": "t34",
       "source": "Book a session",
       "text": "Iwe igba"
     },
     {
-      "key": "t90",
+      "key": "t35",
       "source": "Family",
       "text": "Idile"
     },
     {
-      "key": "t91",
+      "key": "t36",
       "source": "I need parenting support",
-      "text": "Mo nilo atilẹyin obi [[t92]]] Gba awọn irinṣẹ to wulo fun ihuwasi, asomọ, imularada ibalokanjẹ ati igbẹkẹle ẹbi. [[t93]]] Wo iranlọwọ ti obi"
+      "text": "Mo nilo atilẹyin obi"
     },
     {
-      "key": "t92",
+      "key": "t37",
       "source": "Get practical tools for behaviour, attachment, trauma recovery and family confidence.",
       "text": "Gba awọn irinṣẹ to wulo fun ihuwasi, asomọ, imularada ibalokanjẹ ati igbẹkẹle ẹbi."
     },
     {
-      "key": "t93",
+      "key": "t38",
       "source": "View parenting help",
       "text": "Wo iranlọwọ obi"
     },
     {
-      "key": "t94",
-      "source": "Community",
-      "text": "Agbegbe [[t95]]] Mo nilo iranlọwọ to wulo"
-    },
-    {
-      "key": "t95",
-      "source": "I need practical help",
-      "text": "Mo nilo iranlowo to wulo"
-    },
-    {
-      "key": "t96",
-      "source": "Use the hub for food, clothing, forms, housing questions, bills help, digital inclusion and wellbeing support.",
-      "text": "Lo ibudo fun ounjẹ, aṣọ, awọn fọọmu, awọn ibeere ile, iranlọwọ owo, ifisi oni nọmba ati atilẹyin alafia."
-    },
-    {
-      "key": "t97",
-      "source": "Visit the hub",
-      "text": "Ṣabẹwo ibudo naa [[t98]]] Awọn alabaṣepọ"
-    },
-    {
-      "key": "t98",
-      "source": "Partners",
-      "text": "Awọn alabaṣepọ"
-    },
-    {
-      "key": "t99",
-      "source": "I want to volunteer or partner",
-      "text": "Mo fẹ lati yọọda tabi alabaṣepọ"
-    },
-    {
-      "key": "t100",
-      "source": "Support local residents through food donations, funding, fundraising, skills, events or professional help.",
-      "text": "Ṣe atilẹyin awọn olugbe agbegbe nipasẹ awọn ẹbun ounjẹ, igbeowosile, ikowojo, awọn ọgbọn, awọn iṣẹlẹ tabi iranlọwọ ọjọgbọn. [[t101]]] Iyọọda pẹlu wa"
-    },
-    {
-      "key": "t101",
-      "source": "Volunteer with us",
-      "text": "Iyọọda pẹlu wa"
-    },
-    {
-      "key": "t102",
-      "source": "Not sure where to start?",
-      "text": "Ko daju ibiti o ti bẹrẹ?"
-    },
-    {
-      "key": "t103",
-      "source": "Tap Ask Floating to find the right service, or send one WhatsApp message and we will route you.",
-      "text": "Fọwọ ba Ask Floating lati wa iṣẹ ti o tọ, tabi fi ifiranṣẹ WhatsApp kan ranṣẹ a yoo dari ọ."
-    },
-    {
-      "key": "t104",
-      "source": "Ask Floating",
-      "text": "Ask Floating"
-    },
-    {
-      "key": "t105",
-      "source": "A",
-      "text": "A [[t106]]] ewadun [[t107]]] ti"
-    },
-    {
-      "key": "t106",
-      "source": "decade",
-      "text": "ewadun"
-    },
-    {
-      "key": "t107",
-      "source": "of",
-      "text": "ti"
-    },
-    {
-      "key": "t108",
-      "source": "grassroots",
-      "text": "koriko [[t109]]] itọju, [[t110]]] nipasẹ [[t111]]] awọn"
-    },
-    {
-      "key": "t109",
-      "source": "care,",
-      "text": "itoju,"
-    },
-    {
-      "key": "t110",
-      "source": "by",
-      "text": "nipasẹ"
-    },
-    {
-      "key": "t111",
-      "source": "the",
-      "text": "awọn"
-    },
-    {
-      "key": "t112",
-      "source": "numbers.",
-      "text": "awọn nọmba. [[t113]]] Awọn akoko igbimọran ti a firanṣẹ"
-    },
-    {
-      "key": "t113",
-      "source": "Counselling sessions delivered",
-      "text": "Awọn akoko Igbaninimoran ti a firanṣẹ"
-    },
-    {
-      "key": "t114",
-      "source": "Clinical hours of care",
-      "text": "Awọn wakati itọju ile-iwosan"
-    },
-    {
-      "key": "t115",
-      "source": "Combined clinical experience",
-      "text": "Iriri isẹgun apapọ [[t116]]] Awọn ọmọde ni atilẹyin nipasẹ ile-iwe isinmi"
-    },
-    {
-      "key": "t116",
-      "source": "Children supported through holiday school",
-      "text": "Awọn ọmọde ni atilẹyin nipasẹ ile-iwe isinmi"
-    },
-    {
-      "key": "t117",
-      "source": "Continuous service to community",
-      "text": "Iṣẹ ilọsiwaju si agbegbe [[t118]]] Atilẹyin agbegbe ti o wulo ati itọju ailera joko papọ, ki awọn eniyan le ṣe iduroṣinṣin loni ati dagba ni ọla. [[t119]]] Ohun ti a nṣe"
-    },
-    {
-      "key": "t118",
-      "source": "Practical community support and therapeutic care sit together, so people can stabilise today and grow tomorrow.",
-      "text": "Atilẹyin agbegbe ti o wulo ati itọju ailera joko papọ, nitorinaa eniyan le ṣe iduroṣinṣin loni ati dagba ni ọla."
-    },
-    {
-      "key": "t119",
-      "source": "What we offer",
-      "text": "Ohun ti a nse"
-    },
-    {
-      "key": "t120",
-      "source": "Core",
-      "text": "mojuto [[t121]]] atilẹyin, [[t122]]] laisi [[t123]]] awọn"
-    },
-    {
-      "key": "t121",
-      "source": "support,",
-      "text": "atilẹyin,"
-    },
-    {
-      "key": "t122",
-      "source": "without",
-      "text": "laisi"
-    },
-    {
-      "key": "t123",
-      "source": "the",
-      "text": "awọn"
-    },
-    {
-      "key": "t124",
-      "source": "maze.",
-      "text": "iruniloju."
-    },
-    {
-      "key": "t125",
-      "source": "Start",
-      "text": "Bẹrẹ [[t126]]] pẹlu"
-    },
-    {
-      "key": "t126",
-      "source": "with",
-      "text": "pẹlu"
-    },
-    {
-      "key": "t127",
-      "source": "the",
-      "text": "awọn [[t128]]] irú [[t129]]] ti [[t130]]] iranlọwọ [[t131]]] ìwọ [[t132]]] nilo [[t133]]] julọ."
-    },
-    {
-      "key": "t128",
-      "source": "kind",
-      "text": "irú"
-    },
-    {
-      "key": "t129",
-      "source": "of",
-      "text": "ti"
-    },
-    {
-      "key": "t130",
-      "source": "help",
-      "text": "Egba Mi O"
-    },
-    {
-      "key": "t131",
-      "source": "you",
-      "text": "iwo"
-    },
-    {
-      "key": "t132",
-      "source": "need",
-      "text": "nilo"
-    },
-    {
-      "key": "t133",
-      "source": "most.",
-      "text": "julọ."
-    },
-    {
-      "key": "t134",
-      "source": "We",
-      "text": "Awa [[t135]]] yoo"
-    },
-    {
-      "key": "t135",
-      "source": "will",
-      "text": "yio"
-    },
-    {
-      "key": "t136",
-      "source": "route",
-      "text": "ipa ọna [[t137]]] ìwọ [[t138]]] si"
-    },
-    {
-      "key": "t137",
-      "source": "you",
-      "text": "iwo"
-    },
-    {
-      "key": "t138",
-      "source": "to",
-      "text": "si"
-    },
-    {
-      "key": "t139",
-      "source": "the",
-      "text": "awọn"
-    },
-    {
-      "key": "t140",
-      "source": "right",
-      "text": "ọtun"
-    },
-    {
-      "key": "t141",
-      "source": "person",
-      "text": "eniyan"
-    },
-    {
-      "key": "t142",
-      "source": "from",
-      "text": "lati"
-    },
-    {
-      "key": "t143",
-      "source": "there.",
-      "text": "Nibẹ."
-    },
-    {
-      "key": "t144",
-      "source": "Counselling & Mentoring",
-      "text": "Igbaninimoran & Idamọran [[t145]]] Ju 15,000 ọkan-si-ọkan, ẹgbẹ, tọkọtaya ati awọn akoko itọju ailera idile ti a firanṣẹ nipasẹ awọn alamọdaju ọpọlọ ti o peye. Ni-eniyan kọja awọn agbegbe iṣẹ akanṣe wa ati ori ayelujara, pẹlu itọju ọfẹ ati idiyele kekere fun agbalagba, Kirẹditi Agbaye ati awọn alabara ti n wọle-kekere."
-    },
-    {
-      "key": "t145",
-      "source": "Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person across our project boroughs and online, with free and low-cost care for elderly, Universal Credit and low-income clients.",
-      "text": "Ju 15,000 ọkan-si-ọkan, ẹgbẹ, tọkọtaya ati awọn akoko itọju ailera idile ti jiṣẹ nipasẹ awọn alamọdaju ọpọlọ ti o peye. Ni-eniyan kọja awọn agbegbe iṣẹ akanṣe wa ati ori ayelujara, pẹlu itọju ọfẹ ati idiyele kekere fun agbalagba, Kirẹditi Agbaye ati awọn alabara ti n wọle-kekere."
-    },
-    {
-      "key": "t146",
-      "source": "Get started",
-      "text": "Bẹrẹ"
-    },
-    {
-      "key": "t147",
-      "source": "Impact Parenting",
-      "text": "Impact Parenting [[t148]]] Awọn idanileko, 1: 1 idamọran ati awọn eto ẹgbẹ fun awọn obi, pẹlu awọn ibudo iwosan, ikẹkọ Impact Parenting Pillar ati ẹgbẹ atilẹyin aladani kan."
-    },
-    {
-      "key": "t148",
-      "source": "Workshops, 1:1 mentoring and group programmes for parents, including therapeutic camps, the Impact Parenting Pillar training and a private support group.",
-      "text": "Awọn idanileko, 1: 1 idamọran ati awọn eto ẹgbẹ fun awọn obi, pẹlu awọn ibudo itọju ailera, ikẹkọ Pillar Obi Ipa ati ẹgbẹ atilẹyin aladani kan."
-    },
-    {
-      "key": "t149",
-      "source": "Learn more",
-      "text": "Kọ ẹkọ diẹ sii"
-    },
-    {
-      "key": "t150",
-      "source": "Floating Community Hub",
-      "text": "Lilefoofo Community ibudo"
-    },
-    {
-      "key": "t151",
-      "source": "A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Newham, Durham and Southwark, offering practical support, wellbeing services and advocacy.",
-      "text": "Ibudo Croydon osẹ kan ni Ashburton Park Cafe Hall, pẹlu awọn iṣẹ akanṣe agbegbe ni Redbridge, Newham, Durham ati Southwark, nfunni ni atilẹyin ilowo, awọn iṣẹ alafia ati agbawi."
-    },
-    {
-      "key": "t152",
-      "source": "Find out more",
-      "text": "Wa diẹ sii"
-    },
-    {
-      "key": "t153",
-      "source": "Holiday School & Camps",
-      "text": "Isinmi School & amupu; [[t154]]] Itọju ailera aworan, orin, itọju ere ati awọn ilana imọ-ọkan fun awọn ọmọde ti o wa ni ọdun 5 si 11. Ju 1,400 awọn ọmọde ti o forukọsilẹ kọja awọn eto aipẹ."
-    },
-    {
-      "key": "t154",
-      "source": "Art therapy, music, play therapy and psychological techniques for children aged 5 to 11. Over 1,400 children registered across recent programmes.",
-      "text": "Itọju ailera aworan, orin, itọju ere ati awọn ilana imọ-ọkan fun awọn ọmọde ti o wa ni ọdun 5 si 11. Ju 1,400 awọn ọmọde ti forukọsilẹ kọja awọn eto aipẹ."
-    },
-    {
-      "key": "t155",
-      "source": "Register",
-      "text": "Forukọsilẹ [[t156]]] Food Bank & Awọn ibaraẹnisọrọ [[t157]]] Ounje itọrẹ lọsẹ-ọsẹ, awọn aṣọ ati awọn ohun elo pataki fun awọn ẹni-kọọkan ati awọn idile ti o nilo atilẹyin lẹsẹkẹsẹ."
-    },
-    {
-      "key": "t156",
-      "source": "Food Bank & Essentials",
-      "text": "Food Bank & Awọn ibaraẹnisọrọ"
-    },
-    {
-      "key": "t157",
-      "source": "Weekly donated food, clothes and practical essentials for individuals and families who need immediate support.",
-      "text": "Ounjẹ ti a ṣetọrẹ lọsẹọsẹ, awọn aṣọ ati awọn ohun pataki ti o wulo fun awọn ẹni-kọọkan ati awọn idile ti o nilo atilẹyin lẹsẹkẹsẹ."
-    },
-    {
-      "key": "t158",
-      "source": "Visit the hub",
-      "text": "Ṣabẹwo ibudo naa"
-    },
-    {
-      "key": "t159",
-      "source": "Financial Literacy & Employment Support",
-      "text": "Imọ-imọ-owo & Atilẹyin Iṣẹ [[t160]]] Isuna, igbẹkẹle iṣẹ, atilẹyin awọn ọgbọn ati itọsọna ile-iṣẹ fun awọn eniyan ti n tun iduroṣinṣin ṣe."
-    },
-    {
-      "key": "t160",
-      "source": "Budgeting, employment confidence, skills support and enterprise guidance for people rebuilding stability.",
-      "text": "Isuna, igbẹkẹle iṣẹ, atilẹyin awọn ọgbọn ati itọsọna ile-iṣẹ fun awọn eniyan atunṣe iduroṣinṣin."
-    },
-    {
-      "key": "t161",
-      "source": "Ask about support",
-      "text": "Beere nipa atilẹyin [[t162]]] Niwon"
-    },
-    {
-      "key": "t162",
-      "source": "Since",
-      "text": "Niwon"
-    },
-    {
-      "key": "t163",
-      "source": "Serving Croydon, Redbridge, Newham, Durham & Southwark",
-      "text": "Sisin Croydon, Redbridge, Newham, Durham & Southwark [[t164]]] Tani awa jẹ"
-    },
-    {
-      "key": "t164",
-      "source": "Who we are",
-      "text": "Tani awa"
-    },
-    {
-      "key": "t165",
-      "source": "Wraparound",
-      "text": "Wraparound [[t166]]] itọju, [[t167]]] fidimule [[t168]]] ninu [[t169]]] agbegbe. [[t170]]] Atilẹyin [[t171]]] nipasẹ [[t172]]] Maslow's"
-    },
-    {
-      "key": "t166",
-      "source": "care,",
-      "text": "itoju,"
-    },
-    {
-      "key": "t167",
-      "source": "rooted",
-      "text": "fidimule"
-    },
-    {
-      "key": "t168",
-      "source": "in",
-      "text": "ninu"
-    },
-    {
-      "key": "t169",
-      "source": "community.",
-      "text": "awujo."
-    },
-    {
-      "key": "t170",
-      "source": "Inspired",
-      "text": "Atilẹyin"
-    },
-    {
-      "key": "t171",
-      "source": "by",
-      "text": "nipasẹ"
-    },
-    {
-      "key": "t172",
-      "source": "Maslow's",
-      "text": "Maslow ká"
-    },
-    {
-      "key": "t173",
-      "source": "hierarchy",
-      "text": "logalomomoise"
-    },
-    {
-      "key": "t174",
-      "source": "of",
-      "text": "ti"
-    },
-    {
-      "key": "t175",
-      "source": "needs,",
-      "text": "aini,"
-    },
-    {
-      "key": "t176",
-      "source": "we",
-      "text": "awa"
-    },
-    {
-      "key": "t177",
-      "source": "meet",
-      "text": "pade"
-    },
-    {
-      "key": "t178",
-      "source": "people",
-      "text": "eniyan"
-    },
-    {
-      "key": "t179",
-      "source": "where",
-      "text": "ibo"
-    },
-    {
-      "key": "t180",
-      "source": "they",
-      "text": "wọn [[t181]]] jẹ"
-    },
-    {
-      "key": "t181",
-      "source": "are",
-      "text": "ni"
-    },
-    {
-      "key": "t182",
-      "source": "emotionally,",
-      "text": "ti ẹdun, [[t183]]] ni iṣe"
-    },
-    {
-      "key": "t183",
-      "source": "practically",
-      "text": "Oba"
-    },
-    {
-      "key": "t184",
-      "source": "and",
-      "text": "ati [[t185]]] lawujọ [[t186]]] si [[t187]]] ṣẹda [[t188]]] pípẹ [[t189]]] iyipada"
-    },
-    {
-      "key": "t185",
-      "source": "socially",
-      "text": "lawujọ"
-    },
-    {
-      "key": "t186",
-      "source": "to",
-      "text": "si"
-    },
-    {
-      "key": "t187",
-      "source": "create",
-      "text": "ṣẹda"
-    },
-    {
-      "key": "t188",
-      "source": "lasting",
-      "text": "pípẹ"
-    },
-    {
-      "key": "t189",
-      "source": "change",
-      "text": "yipada"
-    },
-    {
-      "key": "t190",
-      "source": "and",
-      "text": "ati [[t191]]] ti ara ẹni [[t192]]] idagbasoke. [[t193]]] A ni igberaga nipasẹ ẹgbẹ Oniruuru ti awọn obinrin Afirika, ti iriri igbesi aye ati oye alamọdaju ṣe apẹrẹ gbogbo apakan ti iṣẹ wa. [[t194]]] Oludasile wa, Celestina Oniye-Thomas, mọ iṣẹ yii lati inu. Lẹhin iwalaaye ibalokan ọmọde ati ọgbẹ ọpa-ẹhin ni ọdun mẹrindilogun ti awọn dokita ro pe yoo da irin-ajo rẹ duro, o kọ ararẹ lati rin lẹẹkansi, tun ṣe ikẹkọ bi oniwosan ọpọlọ inu, o si kọ Lilefofo ki awọn idile le rii iwosan ti o ni lati ja fun. [[t195]]] \"Resilience ati igbẹkẹle ara ẹni gba ẹmi mi là.\" [[t196]]] Celestina Oniye-Thomas - Oludasile & CEO"
-    },
-    {
-      "key": "t191",
-      "source": "personal",
-      "text": "ti ara ẹni"
-    },
-    {
-      "key": "t192",
-      "source": "growth.",
-      "text": "idagba."
-    },
-    {
-      "key": "t193",
-      "source": "We are proudly led by a diverse team of African women, whose lived experience and professional expertise shape every part of our work.",
-      "text": "A ni igberaga nipasẹ ẹgbẹ Oniruuru ti awọn obinrin Afirika, ti iriri igbesi aye ati oye alamọdaju ṣe apẹrẹ gbogbo apakan ti iṣẹ wa."
-    },
-    {
-      "key": "t194",
-      "source": "Our founder, Celestina Oniye-Thomas, knows this work from the inside. After surviving childhood trauma and a spinal injury at sixteen that doctors thought would stop her walking, she taught herself to walk again, retrained as an integrative psychotherapist, and built Floating so families could find the healing she had to fight for.",
-      "text": "Oludasile wa, Celestina Oniye-Thomas, mọ iṣẹ yii lati inu. Lẹhin iwalaaye ibalokan ọmọde ati ọgbẹ ọpa-ẹhin ni ọdun mẹrindilogun ti awọn dokita ro pe yoo da irin-ajo rẹ duro, o kọ ararẹ lati rin lẹẹkansi, tun ṣe ikẹkọ bi oniwosan ọpọlọ inu, o si kọ Lilefofo ki awọn idile le rii iwosan ti o ni lati ja fun."
-    },
-    {
-      "key": "t195",
-      "source": "\"Resilience and self-confidence saved my life.\"",
-      "text": "\"Resilience ati igbekele ara ẹni ti o ti fipamọ aye mi.\""
-    },
-    {
-      "key": "t196",
-      "source": "Celestina Oniye-Thomas — Founder & CEO",
-      "text": "Celestina Oniye-Thomas - Oludasile & CEO"
-    },
-    {
-      "key": "t197",
-      "source": "Trauma-Informed Care",
-      "text": "Abojuto Ibalẹ-Alaye"
-    },
-    {
-      "key": "t198",
-      "source": "Culturally Relevant",
-      "text": "Ni ibatan si aṣa"
-    },
-    {
-      "key": "t199",
-      "source": "Local Partnerships",
-      "text": "Awọn ajọṣepọ agbegbe"
-    },
-    {
-      "key": "t200",
-      "source": "Holistic Approach",
-      "text": "Holistic ona"
-    },
-    {
-      "key": "t201",
-      "source": "Free & Low Cost",
-      "text": "Ọfẹ & Iye kekere"
-    },
-    {
-      "key": "t202",
-      "source": "Online & In Person",
-      "text": "Online & Ni Eniyan"
-    },
-    {
-      "key": "t203",
-      "source": "Introducing",
-      "text": "Iṣafihan"
-    },
-    {
-      "key": "t204",
-      "source": "Therapy",
-      "text": "Itọju ailera [[t205]]] pẹlu"
-    },
-    {
-      "key": "t205",
-      "source": "with",
-      "text": "pẹlu"
-    },
-    {
-      "key": "t206",
-      "source": "realistic",
-      "text": "ojulowo [[t207]]] irinṣẹ"
-    },
-    {
-      "key": "t207",
-      "source": "tools",
-      "text": "irinṣẹ"
-    },
-    {
-      "key": "t208",
-      "source": "and",
-      "text": "ati [[t209]]] nwon.Mirza"
-    },
-    {
-      "key": "t209",
-      "source": "strategy",
-      "text": "nwon.Mirza"
-    },
-    {
-      "key": "t210",
-      "source": "for",
-      "text": "fun"
-    },
-    {
-      "key": "t211",
-      "source": "a",
-      "text": "a"
-    },
-    {
-      "key": "t212",
-      "source": "better",
-      "text": "dara julọ"
-    },
-    {
-      "key": "t213",
-      "source": "life.",
-      "text": "igbesi aye."
-    },
-    {
-      "key": "t214",
-      "source": "Floating",
-      "text": "Lilefoofo [[t215]]] darapọ [[t216]]] ọdun [[t217]]] bi [[t218]]] isẹgun [[t219]]] psychotherapists [[t220]]] pẹlu [[t221]]] isẹgun [[t222]]] wakati [[t223]]] ti [[t224]]] ṣiṣẹ [[t225]]] si [[t226]]] iranlọwọ [[t227]]] awọn ẹni-kọọkan, [[t228]]] ọmọ [[t229]]] ati [[t230]]] awọn obi [[t231]]] gbe [[t232]]] dara julọ [[t233]]] ati [[t234]]] jẹ [[t235]]] dara julọ."
-    },
-    {
-      "key": "t215",
-      "source": "combines",
-      "text": "daapọ"
-    },
-    {
-      "key": "t216",
-      "source": "years",
-      "text": "odun"
-    },
-    {
-      "key": "t217",
-      "source": "as",
-      "text": "bi"
-    },
-    {
-      "key": "t218",
-      "source": "clinical",
-      "text": "isẹgun"
-    },
-    {
-      "key": "t219",
-      "source": "psychotherapists",
-      "text": "psychotherapists"
-    },
-    {
-      "key": "t220",
-      "source": "with",
-      "text": "pẹlu"
-    },
-    {
-      "key": "t221",
-      "source": "clinical",
-      "text": "isẹgun"
-    },
-    {
-      "key": "t222",
-      "source": "hours",
-      "text": "wakati"
-    },
-    {
-      "key": "t223",
-      "source": "of",
-      "text": "ti"
-    },
-    {
-      "key": "t224",
-      "source": "working",
-      "text": "ṣiṣẹ"
-    },
-    {
-      "key": "t225",
-      "source": "to",
-      "text": "si"
-    },
-    {
-      "key": "t226",
-      "source": "help",
-      "text": "Egba Mi O"
-    },
-    {
-      "key": "t227",
-      "source": "individuals,",
-      "text": "awọn ẹni-kọọkan,"
-    },
-    {
-      "key": "t228",
-      "source": "children",
-      "text": "omode"
-    },
-    {
-      "key": "t229",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t230",
-      "source": "parents",
-      "text": "obi"
-    },
-    {
-      "key": "t231",
-      "source": "live",
-      "text": "gbe"
-    },
-    {
-      "key": "t232",
-      "source": "better",
-      "text": "dara julọ"
-    },
-    {
-      "key": "t233",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t234",
-      "source": "be",
-      "text": "jẹ"
-    },
-    {
-      "key": "t235",
-      "source": "better.",
-      "text": "dara julọ."
-    },
-    {
-      "key": "t236",
-      "source": "The Impact Parenting approach gives families practical, scientifically grounded strategies to heal trauma, parent more effectively, and reduce generational trauma across the family system.",
-      "text": "Ọna Impact Parenting n fun awọn idile ni iwulo, awọn ilana ti o da lori imọ-jinlẹ lati ṣe iwosan ibalokanjẹ, obi ni imunadoko, ati dinku ibalokanjẹ iran ni gbogbo eto idile. [[t237]]] 45 ọdun [[t238]]] isẹgun iriri [[t239]]] isẹgun wakati"
-    },
-    {
-      "key": "t237",
-      "source": "45 yrs",
-      "text": "45 ọdun"
-    },
-    {
-      "key": "t238",
-      "source": "clinical experience",
-      "text": "isẹgun iriri"
-    },
-    {
-      "key": "t239",
-      "source": "clinical hours",
-      "text": "isẹgun wakati"
-    },
-    {
-      "key": "t240",
-      "source": "Realistic",
-      "text": "Otitọ [[t241]]] irinṣẹ ati awọn iṣẹ-ṣiṣe [[t242]]] Ṣe o nira lati ni oye tabi ṣakoso ihuwasi ọmọ rẹ? [[t243]] A ṣe iranlọwọ fun awọn obi lati kọ asopọ, resilience ati asomọ ilera pẹlu awọn ilana ti o wulo ti o le ṣee lo ni ile. [[t244]]] Eyi kii ṣe fun ọ ti…"
-    },
-    {
-      "key": "t241",
-      "source": "tools and tasks",
-      "text": "irinṣẹ ati awọn iṣẹ-ṣiṣe"
-    },
-    {
-      "key": "t242",
-      "source": "Finding it hard to understand or manage your child’s behaviour?",
-      "text": "Ṣe o nira lati ni oye tabi ṣakoso ihuwasi ọmọ rẹ?"
-    },
-    {
-      "key": "t243",
-      "source": "We help parents build connection, resilience and healthier attachment with practical strategies that can be used at home.",
-      "text": "A ṣe iranlọwọ fun awọn obi lati kọ asopọ, resilience ati asomọ ilera pẹlu awọn ilana iṣe ti o le ṣee lo ni ile."
-    },
-    {
-      "key": "t244",
-      "source": "This is not for you if...",
-      "text": "Eyi kii ṣe fun ọ ti ..."
-    },
-    {
-      "key": "t245",
-      "source": "You are not ready to heal past traumas, or you do not believe your mental and physical health is worth investing in.",
-      "text": "O ko ṣetan lati ṣe iwosan awọn ipalara ti o kọja, tabi o ko gbagbọ pe ilera opolo ati ti ara jẹ tọ idoko-owo sinu."
-    },
-    {
-      "key": "t246",
-      "source": "Ask about Impact Parenting",
-      "text": "Beere nipa Impact Parenting"
-    },
-    {
-      "key": "t247",
-      "source": "Holiday School",
-      "text": "Ile-iwe Isinmi"
-    },
-    {
-      "key": "t248",
-      "source": "Values,",
-      "text": "Awọn iye,"
-    },
-    {
-      "key": "t249",
-      "source": "resilience",
-      "text": "resilience [[t250]]] ati [[t251]]] àtinúdá [[t252]]] fun [[t253]]] ọmọ"
-    },
-    {
-      "key": "t250",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t251",
-      "source": "creativity",
-      "text": "àtinúdá"
-    },
-    {
-      "key": "t252",
-      "source": "for",
-      "text": "fun"
-    },
-    {
-      "key": "t253",
-      "source": "children",
-      "text": "omode"
-    },
-    {
-      "key": "t254",
-      "source": "Raising",
-      "text": "igbega [[t255]]] ọmọ [[t256]]] gba [[t257]]] rọrun [[t258]]] pẹlu [[t259]]] ikẹkọ [[t260]]] akosemose [[t261]]] atilẹyin [[t262]]] ti ara [[t263]]] ilera,"
-    },
-    {
-      "key": "t255",
-      "source": "children",
-      "text": "omode"
-    },
-    {
-      "key": "t256",
-      "source": "gets",
-      "text": "n gba"
-    },
-    {
-      "key": "t257",
-      "source": "easier",
-      "text": "o rorun gan"
-    },
-    {
-      "key": "t258",
-      "source": "with",
-      "text": "pẹlu"
-    },
-    {
-      "key": "t259",
-      "source": "trained",
-      "text": "oṣiṣẹ"
-    },
-    {
-      "key": "t260",
-      "source": "professionals",
-      "text": "awọn ọjọgbọn"
-    },
-    {
-      "key": "t261",
-      "source": "supporting",
-      "text": "atilẹyin"
-    },
-    {
-      "key": "t262",
-      "source": "physical",
-      "text": "ti ara"
-    },
-    {
-      "key": "t263",
-      "source": "health,",
-      "text": "ilera,"
-    },
-    {
-      "key": "t264",
-      "source": "resilience,",
-      "text": "resilience, [[t265]]] imolara"
-    },
-    {
-      "key": "t265",
-      "source": "emotional",
-      "text": "imolara"
-    },
-    {
-      "key": "t266",
-      "source": "intelligence",
-      "text": "oye [[t267]]] ati [[t268]]] alafia [[t269]]] nipasẹ"
-    },
-    {
-      "key": "t267",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t268",
-      "source": "wellbeing",
-      "text": "alafia"
-    },
-    {
-      "key": "t269",
-      "source": "through",
-      "text": "nipasẹ"
-    },
-    {
-      "key": "t270",
-      "source": "art,",
-      "text": "aworan, [[t271]]] orin, [[t272]]] ere [[t273]]] itọju ailera, [[t274]]] iyanrin"
-    },
-    {
-      "key": "t271",
-      "source": "music,",
-      "text": "orin,"
-    },
-    {
-      "key": "t272",
-      "source": "play",
-      "text": "ere"
-    },
-    {
-      "key": "t273",
-      "source": "therapy,",
-      "text": "itọju ailera,"
-    },
-    {
-      "key": "t274",
-      "source": "sand",
-      "text": "iyanrin"
-    },
-    {
-      "key": "t275",
-      "source": "play,",
-      "text": "ere,"
-    },
-    {
-      "key": "t276",
-      "source": "piano,",
-      "text": "piano, [[t277]]] gita [[t278]]] ati [[t279]]] fihan"
-    },
-    {
-      "key": "t277",
-      "source": "guitar",
-      "text": "gita"
-    },
-    {
-      "key": "t278",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t279",
-      "source": "proven",
-      "text": "fihan"
-    },
-    {
-      "key": "t280",
-      "source": "psychological",
-      "text": "àkóbá"
-    },
-    {
-      "key": "t281",
-      "source": "techniques.",
-      "text": "awọn ilana."
-    },
-    {
-      "key": "t282",
-      "source": "Our aims and objectives",
-      "text": "Awọn ibi-afẹde ati awọn ibi-afẹde wa"
-    },
-    {
-      "key": "t283",
-      "source": "We are not just a holiday school. We teach children values and support them with things they need to grow up uniquely great.",
-      "text": "A kii ṣe ile-iwe isinmi nikan. A kọ awọn ọmọ ni iye ati atilẹyin wọn pẹlu awọn ohun ti wọn nilo lati dagba ni alailẹgbẹ nla."
-    },
-    {
-      "key": "t284",
-      "source": "I AM Honesty",
-      "text": "MO NI Otitọ"
-    },
-    {
-      "key": "t285",
-      "source": "I AM Fairness",
-      "text": "EMI Ododo [[t286]]] EMI NI Ore [[t287]]] EMI NI Iduroṣinṣin"
-    },
-    {
-      "key": "t286",
-      "source": "I AM Kindness",
-      "text": "EMI NI Ore"
-    },
-    {
-      "key": "t287",
-      "source": "I AM Integrity",
-      "text": "MO NI Otitọ"
-    },
-    {
-      "key": "t288",
-      "source": "I AM Outspoken",
-      "text": "EMI NI Asọsọ"
-    },
-    {
-      "key": "t289",
-      "source": "Original programme reach",
-      "text": "Atilẹba eto arọwọto"
-    },
-    {
-      "key": "t290",
-      "source": "Over 400 children were registered in 2021, over 1,000 in 2022, 200 more were supported at Easter 2023, with 1,440 available Summer 2023 slots.",
-      "text": "Ju awọn ọmọde 400 lọ ti forukọsilẹ ni ọdun 2021, ju 1,000 lọ ni ọdun 2022, 200 diẹ sii ni atilẹyin ni Ọjọ Ajinde Kristi 2023, pẹlu awọn iho 1,440 ti o wa ni Ooru 2023. [[t291]]] Forukọsilẹ nipasẹ Iwe-ẹri Awọn iṣẹ Isinmi"
-    },
-    {
-      "key": "t291",
-      "source": "Register via Holiday Activities Voucher",
-      "text": "Forukọsilẹ nipasẹ Iwe-ẹri Awọn iṣẹ Isinmi"
-    },
-    {
-      "key": "t292",
-      "source": "Programme snapshot",
-      "text": "aworan eto"
-    },
-    {
-      "key": "t293",
-      "source": "Creative therapeutic school support",
-      "text": "Atilẹyin ile-iwe iṣoogun ti iṣelọpọ [[t294]]] Awọn ọmọde kọ igbekele, awọn iye ati resilience nipasẹ aworan, orin, ere ati awọn iṣẹ alafia to wulo."
-    },
-    {
-      "key": "t294",
-      "source": "Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",
-      "text": "Awọn ọmọde kọ igbekele, awọn iye ati resilience nipasẹ aworan, orin, ere ati awọn iṣẹ alafia to wulo."
-    },
-    {
-      "key": "t295",
-      "source": "One-stop shop",
-      "text": "Ile-itaja iduro kan"
-    },
-    {
-      "key": "t296",
-      "source": "Floating",
-      "text": "Lilefoofo"
-    },
-    {
-      "key": "t297",
+      "key": "t39",
       "source": "Community",
       "text": "Agbegbe"
     },
     {
-      "key": "t298",
-      "source": "Hub.",
-      "text": "Ibudo. [[t299]]] A [[t300]]] aarin [[t301]]] apejọ"
+      "key": "t40",
+      "source": "I need practical help",
+      "text": "Mo nilo iranlowo to wulo"
     },
     {
-      "key": "t299",
-      "source": "A",
-      "text": "A"
+      "key": "t41",
+      "source": "Use the hub for food, clothing, forms, housing questions, bills help, digital inclusion and wellbeing support.",
+      "text": "Lo ibudo fun ounjẹ, aṣọ, awọn fọọmu, awọn ibeere ile, iranlọwọ owo, ifisi oni nọmba ati atilẹyin alafia."
     },
     {
-      "key": "t300",
-      "source": "central",
-      "text": "aarin"
+      "key": "t42",
+      "source": "Visit the hub",
+      "text": "Ṣabẹwo ibudo naa"
     },
     {
-      "key": "t301",
-      "source": "gathering",
-      "text": "apejo"
+      "key": "t43",
+      "source": "Partners",
+      "text": "Awọn alabaṣepọ"
     },
     {
-      "key": "t302",
-      "source": "place",
-      "text": "ibi [[t303]]] fun"
+      "key": "t44",
+      "source": "I want to volunteer or partner",
+      "text": "Mo fẹ lati yọọda tabi alabaṣepọ"
     },
     {
-      "key": "t303",
-      "source": "for",
-      "text": "fun"
+      "key": "t45",
+      "source": "Support local residents through food donations, funding, fundraising, skills, events or professional help.",
+      "text": "Ṣe atilẹyin awọn olugbe agbegbe nipasẹ awọn ẹbun ounjẹ, igbeowosile, ikowojo, awọn ọgbọn, awọn iṣẹlẹ tabi iranlọwọ alamọdaju."
     },
     {
-      "key": "t304",
-      "source": "Croydon",
-      "text": "Croydon"
+      "key": "t46",
+      "source": "Volunteer with us",
+      "text": "Iyọọda pẹlu wa"
     },
     {
-      "key": "t305",
-      "source": "residents,",
-      "text": "olugbe, [[t306]]] pẹlu"
+      "key": "t47",
+      "source": "Not sure where to start?",
+      "text": "Ko daju ibiti o ti bẹrẹ?"
     },
     {
-      "key": "t306",
-      "source": "with",
-      "text": "pẹlu"
+      "key": "t48",
+      "source": "Tap Ask Floating to find the right service, or send one WhatsApp message and we will route you.",
+      "text": "Fọwọ ba Ask Floating lati wa iṣẹ ti o tọ, tabi fi ifiranṣẹ WhatsApp kan ranṣẹ a yoo dari ọ."
     },
     {
-      "key": "t307",
-      "source": "wider",
-      "text": "gbooro [[t308]]] ise agbese [[t309]]] tun [[t310]]] sìn"
+      "key": "t49",
+      "source": "Ask Floating",
+      "text": "Beere Lilefoofo"
     },
     {
-      "key": "t308",
-      "source": "projects",
-      "text": "ise agbese"
+      "key": "t50",
+      "source": "A decade of grassroots care, by the numbers.",
+      "text": "Ọdun mẹwa ti itọju koriko, nipasẹ awọn nọmba."
     },
     {
-      "key": "t309",
-      "source": "also",
-      "text": "pelu"
+      "key": "t51",
+      "source": "Counselling sessions delivered",
+      "text": "Awọn akoko Igbaninimoran ti a firanṣẹ"
     },
     {
-      "key": "t310",
-      "source": "serving",
-      "text": "sìn"
+      "key": "t52",
+      "source": "Clinical hours of care",
+      "text": "Awọn wakati itọju ile-iwosan"
     },
     {
-      "key": "t311",
-      "source": "Redbridge,",
-      "text": "Redbridge,"
+      "key": "t53",
+      "source": "Combined clinical experience",
+      "text": "Iriri isẹgun apapọ"
     },
     {
-      "key": "t312",
-      "source": "Newham,",
-      "text": "Newham,"
+      "key": "t54",
+      "source": "Children supported through holiday school",
+      "text": "Awọn ọmọde ni atilẹyin nipasẹ ile-iwe isinmi"
     },
     {
-      "key": "t313",
-      "source": "Durham",
-      "text": "Durham [[t314]]] ati"
+      "key": "t55",
+      "source": "Continuous service to community",
+      "text": "Ilọsiwaju iṣẹ si agbegbe"
     },
     {
-      "key": "t314",
-      "source": "and",
-      "text": "ati"
+      "key": "t56",
+      "source": "Practical community support and therapeutic care sit together, so people can stabilise today and grow tomorrow.",
+      "text": "Atilẹyin agbegbe ti o wulo ati itọju ailera joko papọ, nitorinaa eniyan le ṣe iduroṣinṣin loni ati dagba ni ọla."
     },
     {
-      "key": "t315",
-      "source": "Southwark.",
-      "text": "Southwark. [[t316]]] Wá [[t317]]] papọ, [[t318]]] ni [[t319]]] a [[t320]]] ife [[t321]]] ti [[t322]]] tii [[t323]]] ati [[t324]]] a [[t325]]] iwiregbe."
+      "key": "t57",
+      "source": "What we offer",
+      "text": "Ohun ti a nse"
     },
     {
-      "key": "t316",
-      "source": "Come",
-      "text": "Wa"
+      "key": "t58",
+      "source": "Core support, without the maze.",
+      "text": "Atilẹyin mojuto, laisi iruniloju."
     },
     {
-      "key": "t317",
-      "source": "together,",
-      "text": "papọ,"
+      "key": "t59",
+      "source": "Start with the kind of help you need most. We will route you to the right person from there.",
+      "text": "Bẹrẹ pẹlu iru iranlọwọ ti o nilo julọ. A yoo tọ ọ lọ si eniyan ti o tọ lati ibẹ."
     },
     {
-      "key": "t318",
-      "source": "have",
-      "text": "ni"
+      "key": "t60",
+      "source": "Counselling & Mentoring",
+      "text": "Igbaninimoran & Idamọran"
     },
     {
-      "key": "t319",
-      "source": "a",
-      "text": "a"
+      "key": "t61",
+      "source": "Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person across our project boroughs and online, with free and low-cost care for elderly, Universal Credit and low-income clients.",
+      "text": "Ju 15,000 ọkan-si-ọkan, ẹgbẹ, tọkọtaya ati awọn akoko itọju ailera idile ti jiṣẹ nipasẹ awọn alamọdaju ọpọlọ ti o peye. Ni-eniyan kọja awọn agbegbe iṣẹ akanṣe wa ati ori ayelujara, pẹlu itọju ọfẹ ati idiyele kekere fun agbalagba, Kirẹditi Agbaye ati awọn alabara ti n wọle-kekere."
     },
     {
-      "key": "t320",
-      "source": "cup",
-      "text": "ife"
+      "key": "t62",
+      "source": "Get started",
+      "text": "Bẹrẹ"
     },
     {
-      "key": "t321",
-      "source": "of",
-      "text": "ti"
+      "key": "t63",
+      "source": "Impact Parenting",
+      "text": "Impact Parenting"
     },
     {
-      "key": "t322",
-      "source": "tea",
-      "text": "tii"
+      "key": "t64",
+      "source": "Workshops, 1:1 mentoring and group programmes for parents, including therapeutic camps, the Impact Parenting Pillar training and a private support group.",
+      "text": "Awọn idanileko, 1: 1 idamọran ati awọn eto ẹgbẹ fun awọn obi, pẹlu awọn ibudo itọju ailera, ikẹkọ Pillar Obi Ipa ati ẹgbẹ atilẹyin aladani kan."
     },
     {
-      "key": "t323",
-      "source": "and",
-      "text": "ati"
+      "key": "t65",
+      "source": "Learn more",
+      "text": "Kọ ẹkọ diẹ sii"
     },
     {
-      "key": "t324",
-      "source": "a",
-      "text": "a"
+      "key": "t66",
+      "source": "Floating Community Hub",
+      "text": "Lilefoofo Community ibudo"
     },
     {
-      "key": "t325",
-      "source": "chat.",
-      "text": "iwiregbe."
+      "key": "t67",
+      "source": "A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Newham, Durham and Southwark, offering practical support, wellbeing services and advocacy.",
+      "text": "Ibudo Croydon osẹ kan ni Ashburton Park Cafe Hall, pẹlu awọn iṣẹ akanṣe agbegbe ni Redbridge, Newham, Durham ati Southwark, nfunni ni atilẹyin ilowo, awọn iṣẹ alafia ati agbawi."
     },
     {
-      "key": "t326",
+      "key": "t68",
+      "source": "Find out more",
+      "text": "Wa diẹ sii"
+    },
+    {
+      "key": "t69",
+      "source": "Holiday School & Camps",
+      "text": "Isinmi School & amupu;"
+    },
+    {
+      "key": "t70",
+      "source": "Art therapy, music, play therapy and psychological techniques for children aged 5 to 11. Over 1,400 children registered across recent programmes.",
+      "text": "Itọju ailera aworan, orin, itọju ere ati awọn ilana imọ-ọkan fun awọn ọmọde ti o wa ni ọdun 5 si 11. Ju 1,400 awọn ọmọde ti forukọsilẹ kọja awọn eto aipẹ."
+    },
+    {
+      "key": "t71",
+      "source": "Register",
+      "text": "Forukọsilẹ"
+    },
+    {
+      "key": "t72",
+      "source": "Food Bank & Essentials",
+      "text": "Food Bank & Awọn ibaraẹnisọrọ"
+    },
+    {
+      "key": "t73",
+      "source": "Weekly donated food, clothes and practical essentials for individuals and families who need immediate support.",
+      "text": "Ounjẹ ti a ṣetọrẹ lọsẹọsẹ, awọn aṣọ ati awọn ohun pataki ti o wulo fun awọn ẹni-kọọkan ati awọn idile ti o nilo atilẹyin lẹsẹkẹsẹ."
+    },
+    {
+      "key": "t74",
+      "source": "Visit the hub",
+      "text": "Ṣabẹwo ibudo naa"
+    },
+    {
+      "key": "t75",
+      "source": "Financial Literacy & Employment Support",
+      "text": "Imọwe Owo & Atilẹyin Oojọ"
+    },
+    {
+      "key": "t76",
+      "source": "Budgeting, employment confidence, skills support and enterprise guidance for people rebuilding stability.",
+      "text": "Isuna, igbẹkẹle iṣẹ, atilẹyin awọn ọgbọn ati itọsọna ile-iṣẹ fun awọn eniyan atunṣe iduroṣinṣin."
+    },
+    {
+      "key": "t77",
+      "source": "Ask about support",
+      "text": "Beere nipa atilẹyin"
+    },
+    {
+      "key": "t78",
+      "source": "Since",
+      "text": "Niwon"
+    },
+    {
+      "key": "t79",
+      "source": "Serving Croydon, Redbridge, Newham, Durham & Southwark",
+      "text": "Sisin Croydon, Redbridge, Newham, Durham & Southwark"
+    },
+    {
+      "key": "t80",
+      "source": "Who we are",
+      "text": "Tani awa"
+    },
+    {
+      "key": "t81",
+      "source": "Wraparound care, rooted in community.",
+      "text": "Itọju Wraparound, fidimule ni agbegbe."
+    },
+    {
+      "key": "t82",
+      "source": "Inspired by Maslow's hierarchy of needs, we meet people where they are emotionally, practically and socially to create lasting change and personal growth.",
+      "text": "Atilẹyin nipasẹ awọn logalomomoise ti awọn iwulo Maslow, a pade eniyan nibiti wọn wa ni ti ẹdun, ni iṣe ati lawujọ lati ṣẹda iyipada ayeraye ati idagbasoke ti ara ẹni."
+    },
+    {
+      "key": "t83",
+      "source": "We are proudly led by a diverse team of African women, whose lived experience and professional expertise shape every part of our work.",
+      "text": "A ni igberaga nipasẹ ẹgbẹ Oniruuru ti awọn obinrin Afirika, ti iriri igbesi aye ati oye alamọdaju ṣe apẹrẹ gbogbo apakan ti iṣẹ wa."
+    },
+    {
+      "key": "t84",
+      "source": "Our founder, Celestina Oniye-Thomas, knows this work from the inside. After surviving childhood trauma and a spinal injury at sixteen that doctors thought would stop her walking, she taught herself to walk again, retrained as an integrative psychotherapist, and built Floating so families could find the healing she had to fight for.",
+      "text": "Oludasile wa, Celestina Oniye-Thomas, mọ iṣẹ yii lati inu. Lẹhin iwalaaye ibalokan ọmọde ati ọgbẹ ọpa-ẹhin ni ọdun mẹrindilogun ti awọn dokita ro pe yoo da irin-ajo rẹ duro, o kọ ararẹ lati rin lẹẹkansi, tun ṣe ikẹkọ bi oniwosan ọpọlọ inu, o si kọ Lilefofo ki awọn idile le rii iwosan ti o ni lati ja fun."
+    },
+    {
+      "key": "t85",
+      "source": "\"Resilience and self-confidence saved my life.\"",
+      "text": "\"Resilience ati igbekele ara ẹni ti o ti fipamọ aye mi.\""
+    },
+    {
+      "key": "t86",
+      "source": "Celestina Oniye-Thomas — Founder & CEO",
+      "text": "Celestina Oniye-Thomas - Oludasile & CEO"
+    },
+    {
+      "key": "t87",
+      "source": "Trauma-Informed Care",
+      "text": "Abojuto Ibalẹ-Alaye"
+    },
+    {
+      "key": "t88",
+      "source": "Culturally Relevant",
+      "text": "Ni ibatan si aṣa"
+    },
+    {
+      "key": "t89",
+      "source": "Local Partnerships",
+      "text": "Awọn ajọṣepọ agbegbe"
+    },
+    {
+      "key": "t90",
+      "source": "Holistic Approach",
+      "text": "Holistic ona"
+    },
+    {
+      "key": "t91",
+      "source": "Free & Low Cost",
+      "text": "Ọfẹ & Iye kekere"
+    },
+    {
+      "key": "t92",
+      "source": "Online & In Person",
+      "text": "Online & Ni Eniyan"
+    },
+    {
+      "key": "t93",
+      "source": "Introducing",
+      "text": "Iṣafihan"
+    },
+    {
+      "key": "t94",
+      "source": "Therapy with realistic tools and strategy for a better life.",
+      "text": "Itọju ailera pẹlu awọn irinṣẹ ojulowo ati ilana fun igbesi aye to dara julọ."
+    },
+    {
+      "key": "t95",
+      "source": "Floating combines 45 years as clinical psychotherapists with 50,000+ clinical hours of working to help individuals, children and parents live better and be better.",
+      "text": "Lilefoofo daapọ awọn ọdun 45 bi awọn oniwosan ọpọlọ ile-iwosan pẹlu awọn wakati ile-iwosan 50,000 + ti ṣiṣẹ lati ṣe iranlọwọ fun awọn eniyan kọọkan, awọn ọmọde ati awọn obi lati gbe daradara ati dara julọ."
+    },
+    {
+      "key": "t96",
+      "source": "The Impact Parenting approach gives families practical, scientifically grounded strategies to heal trauma, parent more effectively, and reduce generational trauma across the family system.",
+      "text": "Ọna Impact Parenting n fun awọn idile ni iwulo, awọn ilana ti o da lori imọ-jinlẹ lati ṣe iwosan ibalokanjẹ, obi ni imunadoko, ati dinku ibalokanjẹ irandiran kọja eto idile."
+    },
+    {
+      "key": "t97",
+      "source": "45 yrs",
+      "text": "45 ọdun"
+    },
+    {
+      "key": "t98",
+      "source": "clinical experience",
+      "text": "isẹgun iriri"
+    },
+    {
+      "key": "t99",
+      "source": "clinical hours",
+      "text": "isẹgun wakati"
+    },
+    {
+      "key": "t100",
+      "source": "Realistic",
+      "text": "Otitọ"
+    },
+    {
+      "key": "t101",
+      "source": "tools and tasks",
+      "text": "irinṣẹ ati awọn iṣẹ-ṣiṣe"
+    },
+    {
+      "key": "t102",
+      "source": "Finding it hard to understand or manage your child’s behaviour?",
+      "text": "Ṣe o nira lati ni oye tabi ṣakoso ihuwasi ọmọ rẹ?"
+    },
+    {
+      "key": "t103",
+      "source": "We help parents build connection, resilience and healthier attachment with practical strategies that can be used at home.",
+      "text": "A ṣe iranlọwọ fun awọn obi lati kọ asopọ, resilience ati asomọ ilera pẹlu awọn ilana iṣe ti o le ṣee lo ni ile."
+    },
+    {
+      "key": "t104",
+      "source": "This is not for you if...",
+      "text": "Eyi kii ṣe fun ọ ti ..."
+    },
+    {
+      "key": "t105",
+      "source": "You are not ready to heal past traumas, or you do not believe your mental and physical health is worth investing in.",
+      "text": "O ko ṣetan lati ṣe iwosan awọn ipalara ti o kọja, tabi o ko gbagbọ pe ilera opolo ati ti ara jẹ tọ idoko-owo sinu."
+    },
+    {
+      "key": "t106",
+      "source": "Ask about Impact Parenting",
+      "text": "Beere nipa Impact Parenting"
+    },
+    {
+      "key": "t107",
+      "source": "Holiday School",
+      "text": "Ile-iwe Isinmi"
+    },
+    {
+      "key": "t108",
+      "source": "Values, resilience and creativity for children 5-11.",
+      "text": "Awọn iye, resilience ati àtinúdá fun awọn ọmọde 5-11."
+    },
+    {
+      "key": "t109",
+      "source": "Raising children gets easier with trained professionals supporting physical health, resilience, emotional intelligence and wellbeing through art, music, play therapy, sand play, piano, guitar and proven psychological techniques.",
+      "text": "Titokọ awọn ọmọde n ni irọrun pẹlu awọn alamọdaju ti oṣiṣẹ ti n ṣe atilẹyin ilera ti ara, resilience, oye ẹdun ati alafia nipasẹ aworan, orin, itọju ere, ere iyanrin, piano, gita ati awọn ilana imọ-jinlẹ ti a fihan."
+    },
+    {
+      "key": "t110",
+      "source": "Our aims and objectives",
+      "text": "Awọn ibi-afẹde ati awọn ibi-afẹde wa"
+    },
+    {
+      "key": "t111",
+      "source": "We are not just a holiday school. We teach children values and support them with things they need to grow up uniquely great.",
+      "text": "A kii ṣe ile-iwe isinmi nikan. A kọ awọn ọmọ ni iye ati atilẹyin wọn pẹlu awọn ohun ti wọn nilo lati dagba ni alailẹgbẹ nla."
+    },
+    {
+      "key": "t112",
+      "source": "I AM Honesty",
+      "text": "MO NI Otitọ"
+    },
+    {
+      "key": "t113",
+      "source": "I AM Fairness",
+      "text": "MO NI Ododo"
+    },
+    {
+      "key": "t114",
+      "source": "I AM Kindness",
+      "text": "EMI NI Ore"
+    },
+    {
+      "key": "t115",
+      "source": "I AM Integrity",
+      "text": "MO NI Otitọ"
+    },
+    {
+      "key": "t116",
+      "source": "I AM Outspoken",
+      "text": "EMI NI Asọsọ"
+    },
+    {
+      "key": "t117",
+      "source": "Original programme reach",
+      "text": "Atilẹba eto arọwọto"
+    },
+    {
+      "key": "t118",
+      "source": "Over 400 children were registered in 2021, over 1,000 in 2022, 200 more were supported at Easter 2023, with 1,440 available Summer 2023 slots.",
+      "text": "Ju awọn ọmọde 400 lọ ti forukọsilẹ ni ọdun 2021, ju 1,000 ni 2022, 200 diẹ sii ni atilẹyin ni Ọjọ Ajinde Kristi 2023, pẹlu awọn iho 1,440 ti o wa ni Ooru 2023."
+    },
+    {
+      "key": "t119",
+      "source": "Register via Holiday Activities Voucher",
+      "text": "Forukọsilẹ nipasẹ Iwe-ẹri Awọn iṣẹ Isinmi"
+    },
+    {
+      "key": "t120",
+      "source": "Programme snapshot",
+      "text": "aworan eto"
+    },
+    {
+      "key": "t121",
+      "source": "Creative therapeutic school support",
+      "text": "Atilẹyin ile-iwe iṣoogun ti iṣelọpọ"
+    },
+    {
+      "key": "t122",
+      "source": "Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",
+      "text": "Awọn ọmọde kọ igbekele, awọn iye ati resilience nipasẹ aworan, orin, ere ati awọn iṣẹ alafia to wulo."
+    },
+    {
+      "key": "t123",
+      "source": "One-stop shop",
+      "text": "Ile-itaja iduro kan"
+    },
+    {
+      "key": "t124",
+      "source": "Floating Community Hub.",
+      "text": "Lilefoofo Community ibudo."
+    },
+    {
+      "key": "t125",
+      "source": "A central gathering place for Croydon residents, with wider projects also serving Redbridge, Newham, Durham and Southwark. Come together, have a cup of tea and a chat.",
+      "text": "Ibi apejọ aarin kan fun awọn olugbe Croydon, pẹlu awọn iṣẹ akanṣe tun n ṣiṣẹ Redbridge, Newham, Durham ati Southwark. Ẹ wa papọ, ẹ jẹ ife tii kan ati iwiregbe."
+    },
+    {
+      "key": "t126",
       "source": "The Croydon hub runs every Tuesday at Ashburton Park Cafe Hall. Floating also delivers community projects in Redbridge, Newham, Durham and Southwark, bringing practical advocacy, wellbeing support and local referrals closer to each community.",
-      "text": "ibudo Croydon nṣiṣẹ ni gbogbo ọjọ Tuesday ni Ashburton Park Cafe Hall. Lilefoofo tun n pese awọn iṣẹ akanṣe agbegbe ni Redbridge, Newham, Durham ati Southwark, mimu agbawi ti o wulo, atilẹyin alafia ati awọn itọkasi agbegbe sunmọ agbegbe kọọkan. [[t327]]] Awọn owo-owo & Awọn ifunni [[t328]]] Awọn iwe-owo ohun elo, awọn ifunni ile ati awọn iwe-ẹri ni ọsẹ akọkọ."
+      "text": "Ibudo Croydon nṣiṣẹ ni gbogbo ọjọ Tuesday ni Ashburton Park Cafe Hall. Lilefoofo tun n pese awọn iṣẹ akanṣe agbegbe ni Redbridge, Newham, Durham ati Southwark, mimu agbawi ti o wulo, atilẹyin alafia ati awọn itọkasi agbegbe sunmọ agbegbe kọọkan."
     },
     {
-      "key": "t327",
+      "key": "t127",
       "source": "Bills & Grants",
       "text": "Awọn owo & Awọn ifunni"
     },
     {
-      "key": "t328",
+      "key": "t128",
       "source": "Utility bills, home grants and vouchers during the first week.",
       "text": "Awọn iwe-owo IwUlO, awọn ifunni ile ati awọn iwe-ẹri lakoko ọsẹ akọkọ."
     },
     {
-      "key": "t329",
+      "key": "t129",
       "source": "Housing Support",
       "text": "Atilẹyin ile"
     },
     {
-      "key": "t330",
+      "key": "t130",
       "source": "Wellbeing and housing support in Croydon, Newham and partner hubs.",
-      "text": "Nini alafia ati atilẹyin ile ni Croydon, Newham ati awọn ibudo alabaṣepọ. [[t331]]] Digital ifisi [[t332]]] Atilẹyin Intanẹẹti, awọn fọọmu, imọ itanjẹ, WhatsApp, eto AI ati itọsọna SIM ọfẹ. [[t333]]] Art Therapy"
+      "text": "Nini alafia ati atilẹyin ile ni Croydon, Newham ati awọn ibudo alabaṣepọ."
     },
     {
-      "key": "t331",
+      "key": "t131",
       "source": "Digital Inclusion",
       "text": "Digital Ifisi"
     },
     {
-      "key": "t332",
+      "key": "t132",
       "source": "Internet support, forms, scam awareness, WhatsApp, AI education and free SIM guidance.",
       "text": "Atilẹyin Intanẹẹti, awọn fọọmu, imọ itanjẹ, WhatsApp, eto AI ati itọsọna SIM ọfẹ."
     },
     {
-      "key": "t333",
+      "key": "t133",
       "source": "Art Therapy",
       "text": "Itọju ailera"
     },
     {
-      "key": "t334",
+      "key": "t134",
       "source": "Third-week creative healing with Myfamily101 and Floating Counselling Community.",
-      "text": "Iwosan iṣẹda ti ọsẹ kẹta pẹlu Myfamily101 ati Floating Counselling Community. [[t335]]] Food Bank [[t336]]] Ounjẹ osẹ-ọsẹ, aṣọ ati awọn nkan pataki fun ẹni-kọọkan ati awọn idile."
+      "text": "Iwosan iṣẹda ti ọsẹ kẹta pẹlu Myfamily101 ati Floating Counselling Community."
     },
     {
-      "key": "t335",
+      "key": "t135",
       "source": "Food Bank",
       "text": "Food Bank"
     },
     {
-      "key": "t336",
+      "key": "t136",
       "source": "Weekly food, clothing and essentials for individuals and families.",
       "text": "Ounjẹ osẹ, aṣọ ati awọn nkan pataki fun ẹni kọọkan ati awọn idile."
     },
     {
-      "key": "t337",
+      "key": "t137",
       "source": "Employment Support",
-      "text": "Atilẹyin iṣẹ [[t338]]] Imọwe owo, igbẹkẹle ati atilẹyin iṣẹ fun iduroṣinṣin igba pipẹ. [[t339]]] Croydon ọfiisi"
+      "text": "Atilẹyin Iṣẹ"
     },
     {
-      "key": "t338",
+      "key": "t138",
       "source": "Financial literacy, confidence and employment support for longer-term stability.",
       "text": "Imọwe owo, igbẹkẹle ati atilẹyin iṣẹ fun iduroṣinṣin igba pipẹ."
     },
     {
-      "key": "t339",
+      "key": "t139",
       "source": "Croydon office",
       "text": "Croydon ọfiisi"
     },
     {
-      "key": "t340",
+      "key": "t140",
       "source": "26 Avenue Road, SE25 4DX",
       "text": "26 Avenue Road, SE25 4DX"
     },
     {
-      "key": "t341",
-      "source": "Map",
-      "text": "maapu"
-    },
-    {
-      "key": "t342",
-      "source": "Croydon hub",
-      "text": "ibudo Croydon"
-    },
-    {
-      "key": "t343",
-      "source": "Ashburton Park Cafe Hall, CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
-      "text": "Ashburton Park Cafe Hall, CR0 6RX. Tuesdays, 12:30 to 2:30 aṣalẹ."
-    },
-    {
-      "key": "t344",
-      "source": "Map",
-      "text": "maapu"
-    },
-    {
-      "key": "t345",
-      "source": "Redbridge office",
-      "text": "Redbridge ọfiisi"
-    },
-    {
-      "key": "t346",
-      "source": "160-162 Cranbrook Road, IG1 4PE.",
-      "text": "160-162 Cranbrook Road, IG1 4PE."
-    },
-    {
-      "key": "t347",
-      "source": "Map",
-      "text": "maapu"
-    },
-    {
-      "key": "t348",
-      "source": "Redbridge hub",
-      "text": "ibudo Redbridge"
-    },
-    {
-      "key": "t349",
-      "source": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
-      "text": "Cranbrook House, gbon 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tuesdays, 11:30am to 1:30pm ayafi awọn isinmi."
-    },
-    {
-      "key": "t350",
+      "key": "t141",
       "source": "Map",
       "text": "Maapu"
     },
     {
-      "key": "t351",
-      "source": "Durham hub",
-      "text": "ibudo Durham"
-    },
-    {
-      "key": "t352",
-      "source": "30 Wesley Street, Durham, DL14 8UH.",
-      "text": "30 Wesley Street, Durham, DL14 8UH."
-    },
-    {
-      "key": "t353",
-      "source": "Map",
-      "text": "maapu"
-    },
-    {
-      "key": "t354",
-      "source": "Newham",
-      "text": "Newham"
-    },
-    {
-      "key": "t355",
-      "source": "Monthly wellbeing and housing support. Relaunching July 2026.",
-      "text": "Nini alafia oṣooṣu ati atilẹyin ile. Ilọsiwaju ni Oṣu Keje ọdun 2026."
-    },
-    {
-      "key": "t356",
-      "source": "Southwark hub",
-      "text": "ibudo Southwark"
-    },
-    {
-      "key": "t357",
-      "source": "20 Heaton Road, Heaton Road Church, Peckham, SE15 3NL. Launching June 2026.",
-      "text": "20 Heaton Road, Heaton Road Ìjọ, Peckham, SE15 3NL. Ifilọlẹ Oṣu Kẹfa ọdun 2026."
-    },
-    {
-      "key": "t358",
-      "source": "Map",
-      "text": "maapu [[t359]]] Ohun ti eniyan sọ"
-    },
-    {
-      "key": "t359",
-      "source": "What people say",
-      "text": "Ohun ti eniyan sọ"
-    },
-    {
-      "key": "t360",
-      "source": "In",
-      "text": "Ninu [[t361]]] wọn [[t362]]] ti ara [[t363]]] ọrọ."
-    },
-    {
-      "key": "t361",
-      "source": "their",
-      "text": "won"
-    },
-    {
-      "key": "t362",
-      "source": "own",
-      "text": "ti ara"
-    },
-    {
-      "key": "t363",
-      "source": "words.",
-      "text": "awọn ọrọ."
-    },
-    {
-      "key": "t364",
-      "source": "Hear",
-      "text": "Gbo [[t365]]] lati [[t366]]] awọn [[t367]]] idile [[t368]]] ati [[t369]]] awọn ẹni-kọọkan [[t370]]] tani [[t371]]] aye [[t372]]] ni [[t373]]] jẹ [[t374]]] yipada. [[t375]]] Mo ti kọ ẹkọ pupọ lati ikẹkọ Impact Parenting Pillar ati Celestina. O jẹ iyipo daradara ti iyalẹnu ati atilẹyin ọpọlọpọ awọn ọran ti awọn obi koju. Mo ni awọn ọmọde ọdọ ati pe Mo nilo eyi gaan. O kun fun imọ si obi diẹ sii ni mimọ."
-    },
-    {
-      "key": "t365",
-      "source": "from",
-      "text": "lati"
-    },
-    {
-      "key": "t366",
-      "source": "the",
-      "text": "awọn"
-    },
-    {
-      "key": "t367",
-      "source": "families",
-      "text": "idile"
-    },
-    {
-      "key": "t368",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t369",
-      "source": "individuals",
-      "text": "awọn ẹni-kọọkan"
-    },
-    {
-      "key": "t370",
-      "source": "whose",
-      "text": "tani"
-    },
-    {
-      "key": "t371",
-      "source": "lives",
-      "text": "ngbe"
-    },
-    {
-      "key": "t372",
-      "source": "have",
-      "text": "ni"
-    },
-    {
-      "key": "t373",
-      "source": "been",
-      "text": "ti wa"
-    },
-    {
-      "key": "t374",
-      "source": "transformed.",
-      "text": "yipada."
-    },
-    {
-      "key": "t375",
-      "source": "I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded and supported a wide variety of issues that parents face. I have teenage children and really needed this. It was full of knowledge to parent more consciously.",
-      "text": "Mo ti kọ ẹkọ pupọ lati ikẹkọ Parenting Pillar ati Celestina. O jẹ iyipo daradara ti iyalẹnu ati atilẹyin ọpọlọpọ awọn ọran ti awọn obi koju. Mo ni awọn ọmọde ọdọ ati pe Mo nilo eyi gaan. O kun fun imọ si obi diẹ sii ni mimọ."
-    },
-    {
-      "key": "t376",
-      "source": "ST",
-      "text": "ST [[t377]]] Sarah Turino [[t378]]] CEO, The Gbogbo Women Nini alafia agbekalẹ · USA [[t379]]] Ọmọ mi ni ẹru meji meji nibiti yoo gbe ara rẹ si ilẹ ti ko si tẹle awọn aala. Ní báyìí, a ti ràn mí lọ́wọ́ láti mọ ìwà rẹ̀ dáadáa, wọ́n sì ti fún mi láwọn irinṣẹ́ tó mọ́gbọ́n dání láti ràn án lọ́wọ́ láti túbọ̀ fara dà á lọ́nà onífẹ̀ẹ́."
-    },
-    {
-      "key": "t377",
-      "source": "Sarah Turino",
-      "text": "Sarah Turino"
-    },
-    {
-      "key": "t378",
-      "source": "CEO, The Whole Woman Wellness Formula · USA",
-      "text": "CEO, The Whole Women Wellness Formula · USA"
-    },
-    {
-      "key": "t379",
-      "source": "My son had terrible twos where he would throw himself on the floor and not follow boundaries. I have now been helped to know his personality better and been given realistic tools to help him be more resilient in a loving way.",
-      "text": "Ọmọ mi ní ẹru twos ibi ti o ti yoo jabọ ara lori pakà ati ki o ko tẹle awọn aala. Ní báyìí, a ti ràn mí lọ́wọ́ láti mọ ìwà rẹ̀ dáadáa, wọ́n sì ti fún mi láwọn irinṣẹ́ tó mọ́gbọ́n dání láti ràn án lọ́wọ́ láti túbọ̀ fara dà á lọ́nà onífẹ̀ẹ́."
-    },
-    {
-      "key": "t380",
-      "source": "DD",
-      "text": "DD [[t381]]] Danya Denny [[t382]]] Awujọ Osise · UK [[t383]]] Gẹgẹbi iya ti ọmọ mẹfa, lati ọmọ tuntun si mejidilogun, Mo kọ ẹkọ pupọ lati Impact Parenting pẹlu Celestina. Mo tun ṣe awọn ilana naa si igbesi aye gidi mi ati gbogbo awọn ọmọ mi lẹsẹkẹsẹ - ati pe Mo tun nlo wọn ni awọn oṣu diẹ lẹhinna. Gbogbo obi nilo eyi."
-    },
-    {
-      "key": "t381",
-      "source": "Danya Denny",
-      "text": "Danya Denny"
-    },
-    {
-      "key": "t382",
-      "source": "Social Worker · UK",
-      "text": "Osise Awujo · UK"
-    },
-    {
-      "key": "t383",
-      "source": "As a mother of six, from newborn to eighteen, I learnt so much from Impact Parenting with Celestina. I adapted the strategies to my real life and all my children straight away — and I'm still using them months later. Every parent needs this.",
-      "text": "Gẹgẹbi iya ti ọmọ mẹfa, lati ọmọ tuntun si mejidilogun, Mo kọ ẹkọ pupọ lati Impact Parenting pẹlu Celestina. Mo tun ṣe awọn ilana naa si igbesi aye gidi mi ati gbogbo awọn ọmọ mi lẹsẹkẹsẹ - ati pe Mo tun nlo wọn ni awọn oṣu diẹ lẹhinna. Gbogbo obi nilo eyi."
-    },
-    {
-      "key": "t384",
-      "source": "NK",
-      "text": "NK"
-    },
-    {
-      "key": "t385",
-      "source": "Niina Kabesa",
-      "text": "Niina Kabesa"
-    },
-    {
-      "key": "t386",
-      "source": "Author & Founder, Mother of Nations · Congo",
-      "text": "Onkọwe & Oludasile, Iya ti Orilẹ-ede · Congo"
-    },
-    {
-      "key": "t387",
-      "source": "Our people",
-      "text": "Eniyan wa"
-    },
-    {
-      "key": "t388",
-      "source": "Meet",
-      "text": "Pade"
-    },
-    {
-      "key": "t389",
-      "source": "the",
-      "text": "awọn"
-    },
-    {
-      "key": "t390",
-      "source": "team.",
-      "text": "egbe."
-    },
-    {
-      "key": "t391",
-      "source": "Led",
-      "text": "Led"
-    },
-    {
-      "key": "t392",
-      "source": "by",
-      "text": "nipasẹ"
-    },
-    {
-      "key": "t393",
-      "source": "a",
-      "text": "a"
-    },
-    {
-      "key": "t394",
-      "source": "diverse",
-      "text": "oniruuru"
-    },
-    {
-      "key": "t395",
-      "source": "team",
-      "text": "egbe"
-    },
-    {
-      "key": "t396",
-      "source": "of",
-      "text": "ti"
-    },
-    {
-      "key": "t397",
-      "source": "African",
-      "text": "Afirika [[t398]]] obinrin [[t399]]] pẹlu [[t400]]] gbé [[t401]]] iriri"
-    },
-    {
-      "key": "t398",
-      "source": "women",
-      "text": "obinrin"
-    },
-    {
-      "key": "t399",
-      "source": "with",
-      "text": "pẹlu"
-    },
-    {
-      "key": "t400",
-      "source": "lived",
-      "text": "gbé"
-    },
-    {
-      "key": "t401",
-      "source": "experience",
-      "text": "iriri"
-    },
-    {
-      "key": "t402",
-      "source": "and",
-      "text": "ati [[t403]]] ọjọgbọn [[t404]]] ĭrìrĭ."
-    },
-    {
-      "key": "t403",
-      "source": "professional",
-      "text": "ọjọgbọn"
-    },
-    {
-      "key": "t404",
-      "source": "expertise.",
-      "text": "ĭrìrĭ."
-    },
-    {
-      "key": "t405",
-      "source": "Celestina Oniye-Thomas",
-      "text": "Celestina Oniye-Thomas"
-    },
-    {
-      "key": "t406",
-      "source": "CEO & Head of Charitable Operations",
-      "text": "CEO & Ori ti Charitable Mosi"
-    },
-    {
-      "key": "t407",
-      "source": "Email",
-      "text": "Imeeli"
-    },
-    {
-      "key": "t408",
-      "source": "Read more",
-      "text": "Ka siwaju"
-    },
-    {
-      "key": "t409",
-      "source": "Omowonu-Ola Ogunlela",
-      "text": "Omowonu-Ola Ogunlela"
-    },
-    {
-      "key": "t410",
-      "source": "Director & Head of Finance",
-      "text": "Oludari & Head of Finance"
-    },
-    {
-      "key": "t411",
-      "source": "Email",
-      "text": "Imeeli"
-    },
-    {
-      "key": "t412",
-      "source": "Read more",
-      "text": "Ka siwaju"
-    },
-    {
-      "key": "t413",
-      "source": "Elizabeth Owode",
-      "text": "Elizabeth Owode"
-    },
-    {
-      "key": "t414",
-      "source": "Director & Relationship Coach",
-      "text": "Oludari & Ibasepo Olukọni"
-    },
-    {
-      "key": "t415",
-      "source": "Email",
-      "text": "Imeeli"
-    },
-    {
-      "key": "t416",
-      "source": "Read more",
-      "text": "Ka siwaju"
-    },
-    {
-      "key": "t417",
-      "source": "Linda Yeboah",
-      "text": "Linda Yeboah [[t418]]] Oludari & Oṣiṣẹ Idaabobo"
-    },
-    {
-      "key": "t418",
-      "source": "Director & Safeguarding Officer",
-      "text": "Oludari & Oṣiṣẹ Idaabobo"
-    },
-    {
-      "key": "t419",
-      "source": "Email",
-      "text": "Imeeli"
-    },
-    {
-      "key": "t420",
-      "source": "Contact",
-      "text": "Olubasọrọ"
-    },
-    {
-      "key": "t421",
-      "source": "Sponsors, partners and funders",
-      "text": "Awọn onigbọwọ, awọn alabaṣepọ ati awọn agbateru [[t422]]] Atilẹyin [[t423]]] nipasẹ [[t424]]] gbẹkẹle [[t425]]] awọn alabaṣepọ."
-    },
-    {
-      "key": "t422",
-      "source": "Supported",
-      "text": "Atilẹyin"
-    },
-    {
-      "key": "t423",
-      "source": "by",
-      "text": "nipasẹ"
-    },
-    {
-      "key": "t424",
-      "source": "trusted",
-      "text": "gbẹkẹle"
-    },
-    {
-      "key": "t425",
-      "source": "partners.",
-      "text": "awọn alabaṣepọ."
-    },
-    {
-      "key": "t426",
-      "source": "A",
-      "text": "A [[t427]]] iwapọ [[t428]]] wiwo [[t429]]] ti [[t430]]] awọn"
-    },
-    {
-      "key": "t427",
-      "source": "compact",
-      "text": "iwapọ"
-    },
-    {
-      "key": "t428",
-      "source": "view",
-      "text": "wiwo"
-    },
-    {
-      "key": "t429",
-      "source": "of",
-      "text": "ti"
-    },
-    {
-      "key": "t430",
-      "source": "the",
-      "text": "awọn"
-    },
-    {
-      "key": "t431",
-      "source": "funders,",
-      "text": "awọn agbateru, [[t432]]] onigbowo [[t433]]] ati [[t434]]] awọn iforukọsilẹ [[t435]]] sile [[t436]]] awọn [[t437]]] iṣẹ."
-    },
-    {
-      "key": "t432",
-      "source": "sponsors",
-      "text": "awọn onigbọwọ"
-    },
-    {
-      "key": "t433",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t434",
-      "source": "registrations",
-      "text": "awọn iforukọsilẹ"
-    },
-    {
-      "key": "t435",
-      "source": "behind",
-      "text": "sile"
-    },
-    {
-      "key": "t436",
-      "source": "the",
-      "text": "awọn"
-    },
-    {
-      "key": "t437",
-      "source": "work.",
-      "text": "ṣiṣẹ."
-    },
-    {
-      "key": "t438",
-      "source": "Common questions",
-      "text": "Awọn ibeere ti o wọpọ [[t439]]] Ohun gbogbo [[t440]]] ìwọ [[t441]]] le [[t442]]] jẹ [[t443]]] iyalẹnu."
-    },
-    {
-      "key": "t439",
-      "source": "Everything",
-      "text": "Ohun gbogbo"
-    },
-    {
-      "key": "t440",
-      "source": "you",
-      "text": "iwo"
-    },
-    {
-      "key": "t441",
-      "source": "might",
-      "text": "alágbára"
-    },
-    {
-      "key": "t442",
-      "source": "be",
-      "text": "jẹ"
-    },
-    {
-      "key": "t443",
-      "source": "wondering.",
-      "text": "iyalẹnu."
-    },
-    {
-      "key": "t444",
-      "source": "If",
-      "text": "Ti o ba jẹ [[t445]]] tirẹ [[t446]]] ibeere [[t447]]] kii ṣe"
-    },
-    {
-      "key": "t445",
-      "source": "your",
-      "text": "tirẹ"
-    },
-    {
-      "key": "t446",
-      "source": "question",
-      "text": "ibeere"
-    },
-    {
-      "key": "t447",
-      "source": "isn't",
-      "text": "kii ṣe"
-    },
-    {
-      "key": "t448",
-      "source": "here,",
-      "text": "nibi, [[t449]]] firanṣẹ [[t450]]] wa [[t451]]] a [[t452]]] akiyesi."
-    },
-    {
-      "key": "t449",
-      "source": "send",
-      "text": "firanṣẹ"
-    },
-    {
-      "key": "t450",
-      "source": "us",
-      "text": "awa"
-    },
-    {
-      "key": "t451",
-      "source": "a",
-      "text": "a"
-    },
-    {
-      "key": "t452",
-      "source": "note.",
-      "text": "akiyesi."
-    },
-    {
-      "key": "t453",
-      "source": "We",
-      "text": "Awa [[t454]]] kà"
-    },
-    {
-      "key": "t454",
-      "source": "read",
-      "text": "ka"
-    },
-    {
-      "key": "t455",
-      "source": "every",
-      "text": "gbogbo"
-    },
-    {
-      "key": "t456",
-      "source": "message.",
-      "text": "ifiranṣẹ."
-    },
-    {
-      "key": "t457",
-      "source": "Ask us anything",
-      "text": "Beere ohunkohun fun wa"
-    },
-    {
-      "key": "t458",
-      "source": "How much does counselling cost?",
-      "text": "Elo ni iye owo idamọran? [[t459]]] Awọn akoko jẹ ọfẹ tabi iye owo kekere fun awọn ẹni kọọkan ti o yẹ. A ṣiṣẹ lori iwọn sisun da lori awọn ayidayida. Pataki wa ni iwọle, ati pe a yoo wa ọna ti o ṣiṣẹ fun ọ. [[t460]]] Kini o ṣẹlẹ ni igba akọkọ? [[t461]]] Igba akọkọ rẹ jẹ ibaraẹnisọrọ ni isinmi nipa ohun ti o mu wa wọle, kini o fẹ lati ṣiṣẹ lori, ati bi a ṣe le ṣe atilẹyin fun ọ. Ko si ohun ti a yara. O ṣeto iyara naa."
-    },
-    {
-      "key": "t459",
-      "source": "Sessions are free or low-cost for eligible individuals. We work on a sliding scale based on circumstances. Our priority is access, and we'll find a way that works for you.",
-      "text": "Awọn akoko jẹ ọfẹ tabi idiyele kekere fun awọn ẹni-kọọkan ti o yẹ. A ṣiṣẹ lori iwọn sisun da lori awọn ayidayida. Pataki wa ni iwọle, ati pe a yoo wa ọna ti o ṣiṣẹ fun ọ."
-    },
-    {
-      "key": "t460",
-      "source": "What happens in the first session?",
-      "text": "Kini o ṣẹlẹ ni igba akọkọ?"
-    },
-    {
-      "key": "t461",
-      "source": "Your first session is a relaxed conversation about what's brought you in, what you'd like to work on, and how we can support you. Nothing is rushed. You set the pace.",
-      "text": "Igba akọkọ rẹ jẹ ibaraẹnisọrọ ni ihuwasi nipa ohun ti o mu wa wọle, kini o fẹ lati ṣiṣẹ lori, ati bii a ṣe le ṣe atilẹyin fun ọ. Ko si ohun ti a yara. O ṣeto iyara naa."
-    },
-    {
-      "key": "t462",
-      "source": "Are sessions confidential?",
-      "text": "Ṣe awọn akoko aṣiri bi?"
-    },
-    {
-      "key": "t463",
-      "source": "Yes. Everything you share is held in strict confidence in line with BACP ethical guidelines. The only exceptions are safeguarding situations, which we'd always discuss with you first wherever possible.",
-      "text": "Bẹẹni. Ohun gbogbo ti o pin ni o waye ni igbẹkẹle ti o muna ni ila pẹlu awọn ilana iṣe iṣe BACP. Awọn imukuro nikan ni awọn ipo aabo, eyiti a yoo ma jiroro nigbagbogbo pẹlu rẹ ni akọkọ nibikibi ti o ṣeeṣe. [[t464]]] Ṣe o nṣe awọn akoko ori ayelujara bi?"
-    },
-    {
-      "key": "t464",
-      "source": "Do you offer online sessions?",
-      "text": "Ṣe o funni ni awọn akoko ori ayelujara?"
-    },
-    {
-      "key": "t465",
-      "source": "Yes. We offer online sessions and in-person support across the boroughs where we deliver services.",
-      "text": "Bẹẹni. A nfunni ni awọn akoko ori ayelujara ati atilẹyin eniyan ni gbogbo awọn agbegbe nibiti a ti fi awọn iṣẹ ranṣẹ. [[t466]]] Ṣe awọn oniwosan ara ẹni ni oṣiṣẹ bi? [[t467]]] Awọn oniwosan aisan wa jẹ awọn alamọdaju ti ile-iwosan ti n ṣiṣẹ ni ila pẹlu awọn iṣedede BACP. Ẹgbẹ oludari ni awọn ọdun 45+ ti apapọ iriri ile-iwosan ati ju awọn wakati ile-iwosan 50,000 lọ. [[t468]]] Ṣe Mo le tọka si ọmọ ẹbi tabi ọrẹ kan?"
-    },
-    {
-      "key": "t466",
-      "source": "Are your therapists qualified?",
-      "text": "Ṣe awọn oniwosan ọran rẹ ni oṣiṣẹ bi?"
-    },
-    {
-      "key": "t467",
-      "source": "Our therapists are clinically trained psychotherapists working in line with BACP standards. The leadership team has 45+ years of combined clinical experience and over 50,000 clinical hours.",
-      "text": "Awọn oniwosan aisan wa jẹ awọn alamọdaju ti ile-iwosan ti n ṣiṣẹ ni ila pẹlu awọn iṣedede BACP. Ẹgbẹ oludari ni awọn ọdun 45+ ti apapọ iriri ile-iwosan ati ju awọn wakati ile-iwosan 50,000 lọ."
-    },
-    {
-      "key": "t468",
-      "source": "Can I refer a family member or friend?",
-      "text": "Ṣe Mo le tọka si ọmọ ẹgbẹ tabi ọrẹ kan bi?"
-    },
-    {
-      "key": "t469",
-      "source": "Absolutely. We'll always need consent from the person themselves before opening a case. The best first step is to encourage them to email or WhatsApp us directly.",
-      "text": "Nitõtọ. A yoo nilo igbanilaaye nigbagbogbo lati ọdọ eniyan funrararẹ ṣaaju ṣiṣi ọran kan. Igbesẹ akọkọ ti o dara julọ ni lati gba wọn niyanju lati imeeli tabi WhatsApp wa taara. [[t470]]] Bawo ni MO ṣe le ṣe atilẹyin iṣẹ rẹ?"
-    },
-    {
-      "key": "t470",
-      "source": "How can I support your work?",
-      "text": "Bawo ni MO ṣe le ṣe atilẹyin iṣẹ rẹ?"
-    },
-    {
-      "key": "t471",
-      "source": "You can donate via Localgiving or PayPal, volunteer your time, follow us on social media, or fundraise on our behalf. Visit the fundraiser section or get in touch and we'll match you to something that suits.",
-      "text": "O le ṣetọrẹ nipasẹ Localgiving tabi PayPal, yọọda akoko rẹ, tẹle wa lori media awujọ, tabi ikowojo fun wa. Ṣabẹwo apakan ikowojo tabi gba ifọwọkan ati pe a yoo baamu rẹ si nkan ti o baamu."
-    },
-    {
-      "key": "t472",
-      "source": "Fundraiser",
-      "text": "Olukojọpọ"
-    },
-    {
-      "key": "t473",
-      "source": "Ways",
-      "text": "Awọn ọna [[t474]]] si [[t475]]] ikowojo [[t476]]] fun"
-    },
-    {
-      "key": "t474",
-      "source": "to",
-      "text": "si"
-    },
-    {
-      "key": "t475",
-      "source": "fundraise",
-      "text": "ikowojo"
-    },
-    {
-      "key": "t476",
-      "source": "for",
-      "text": "fun"
-    },
-    {
-      "key": "t477",
-      "source": "Floating",
-      "text": "Lilefoofo"
-    },
-    {
-      "key": "t478",
-      "source": "Counselling.",
-      "text": "Igbaninimoran."
-    },
-    {
-      "key": "t479",
-      "source": "Fundraising",
-      "text": "ikowojo [[t480]]] ṣe iranlọwọ [[t481]]] pa [[t482]]] Igbaninimoran, [[t483]]] ounje [[t484]]] atilẹyin, [[t485]]] isinmi [[t486]]] ile-iwe [[t487]]] ibi [[t488]]] ati [[t489]]] agbegbe"
-    },
-    {
-      "key": "t480",
-      "source": "helps",
-      "text": "iranlọwọ"
-    },
-    {
-      "key": "t481",
-      "source": "keep",
-      "text": "pa"
-    },
-    {
-      "key": "t482",
-      "source": "counselling,",
-      "text": "imọran,"
-    },
-    {
-      "key": "t483",
-      "source": "food",
-      "text": "ounje"
-    },
-    {
-      "key": "t484",
-      "source": "support,",
-      "text": "atilẹyin,"
-    },
-    {
-      "key": "t485",
-      "source": "holiday",
-      "text": "isinmi"
-    },
-    {
-      "key": "t486",
-      "source": "school",
-      "text": "ile-iwe"
-    },
-    {
-      "key": "t487",
-      "source": "places",
-      "text": "awọn aaye"
-    },
-    {
-      "key": "t488",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t489",
-      "source": "community",
-      "text": "awujo"
-    },
-    {
-      "key": "t490",
-      "source": "hub",
-      "text": "ibudo"
-    },
-    {
-      "key": "t491",
-      "source": "sessions",
-      "text": "awọn akoko"
-    },
-    {
-      "key": "t492",
-      "source": "accessible",
-      "text": "wiwọle"
-    },
-    {
-      "key": "t493",
-      "source": "for",
-      "text": "fun"
-    },
-    {
-      "key": "t494",
-      "source": "people",
-      "text": "eniyan"
-    },
-    {
-      "key": "t495",
-      "source": "who",
-      "text": "Àjọ WHO"
-    },
-    {
-      "key": "t496",
-      "source": "need",
-      "text": "nilo [[t497]]] wulo"
-    },
-    {
-      "key": "t497",
-      "source": "practical",
-      "text": "wulo"
-    },
-    {
-      "key": "t498",
-      "source": "and",
-      "text": "ati [[t499]]] iwosan [[t500]]] itọju."
-    },
-    {
-      "key": "t499",
-      "source": "therapeutic",
-      "text": "mba"
-    },
-    {
-      "key": "t500",
-      "source": "care.",
-      "text": "itoju."
-    },
-    {
-      "key": "t501",
-      "source": "Donate via PayPal",
-      "text": "Ṣetọrẹ nipasẹ PayPal"
-    },
-    {
-      "key": "t502",
-      "source": "Donate via Localgiving",
-      "text": "Ṣetọrẹ nipasẹ Localgiving"
-    },
-    {
-      "key": "t503",
-      "source": "Start a fundraiser",
-      "text": "Bẹrẹ ikowojo kan"
-    },
-    {
-      "key": "t504",
-      "source": "Run a personal fundraiser",
-      "text": "Ṣiṣe ikowojo ti ara ẹni"
-    },
-    {
-      "key": "t505",
-      "source": "Use birthdays, challenges or community events to raise funds for counselling and wraparound support.",
-      "text": "Lo awọn ọjọ ibi, awọn italaya tabi awọn iṣẹlẹ agbegbe lati gba owo fun imọran ati atilẹyin ipari."
-    },
-    {
-      "key": "t506",
-      "source": "Workplace or school collection",
-      "text": "Ibi iṣẹ tabi gbigba ile-iwe"
-    },
-    {
-      "key": "t507",
-      "source": "Collect food, essentials, vouchers or donations with your team, school, faith group or local business.",
-      "text": "Gba ounjẹ, awọn nkan pataki, awọn iwe-ẹri tabi awọn ẹbun pẹlu ẹgbẹ rẹ, ile-iwe, ẹgbẹ igbagbọ tabi iṣowo agbegbe."
-    },
-    {
-      "key": "t508",
-      "source": "Sponsor a project",
-      "text": "Onigbowo ise agbese"
-    },
-    {
-      "key": "t509",
-      "source": "Support a hub session, holiday school activity, counselling session or local wellbeing event.",
-      "text": "Ṣe atilẹyin igba ibudo, iṣẹ ile-iwe isinmi, igba igbimọran tabi iṣẹlẹ alafia agbegbe."
-    },
-    {
-      "key": "t510",
-      "source": "Share skills and time",
-      "text": "Pin ogbon ati akoko"
-    },
-    {
-      "key": "t511",
-      "source": "Offer professional skills, event support, transport, mentoring or practical help for local residents.",
-      "text": "Pese awọn ọgbọn alamọdaju, atilẹyin iṣẹlẹ, gbigbe, idamọran tabi iranlọwọ iṣe fun awọn olugbe agbegbe."
-    },
-    {
-      "key": "t512",
-      "source": "Volunteer",
-      "text": "Iyọọda"
-    },
-    {
-      "key": "t513",
-      "source": "Volunteer",
-      "text": "Iyọọda [[t514]]] pẹlu"
-    },
-    {
-      "key": "t514",
-      "source": "with",
-      "text": "pẹlu"
-    },
-    {
-      "key": "t515",
-      "source": "Floating",
-      "text": "Lilefoofo"
-    },
-    {
-      "key": "t516",
-      "source": "Counselling.",
-      "text": "Igbaninimoran."
-    },
-    {
-      "key": "t517",
-      "source": "Share",
-      "text": "Pinpin [[t518]]] tirẹ"
-    },
-    {
-      "key": "t518",
-      "source": "your",
-      "text": "tirẹ"
-    },
-    {
-      "key": "t519",
-      "source": "time,",
-      "text": "akoko,"
-    },
-    {
-      "key": "t520",
-      "source": "skills",
-      "text": "ogbon"
-    },
-    {
-      "key": "t521",
-      "source": "or",
-      "text": "tabi [[t522]]] ọjọgbọn [[t523]]] iriri"
-    },
-    {
-      "key": "t522",
-      "source": "professional",
-      "text": "ọjọgbọn"
-    },
-    {
-      "key": "t523",
-      "source": "experience",
-      "text": "iriri"
-    },
-    {
-      "key": "t524",
-      "source": "to",
-      "text": "si"
-    },
-    {
-      "key": "t525",
-      "source": "support",
-      "text": "atilẹyin"
-    },
-    {
-      "key": "t526",
-      "source": "counselling,",
-      "text": "Igbaninimoran, [[t527]]] agbegbe [[t528]]] ibudo"
-    },
-    {
-      "key": "t527",
-      "source": "community",
-      "text": "awujo"
-    },
-    {
-      "key": "t528",
-      "source": "hub",
-      "text": "ibudo"
-    },
-    {
-      "key": "t529",
-      "source": "sessions,",
-      "text": "awọn akoko, [[t530]]] isinmi"
-    },
-    {
-      "key": "t530",
-      "source": "holiday",
-      "text": "isinmi"
-    },
-    {
-      "key": "t531",
-      "source": "school",
-      "text": "ile-iwe"
-    },
-    {
-      "key": "t532",
-      "source": "activities,",
-      "text": "akitiyan,"
-    },
-    {
-      "key": "t533",
-      "source": "fundraising",
-      "text": "ikowojo [[t534]]] ati [[t535]]] wulo"
-    },
-    {
-      "key": "t534",
-      "source": "and",
-      "text": "ati"
-    },
-    {
-      "key": "t535",
-      "source": "practical",
-      "text": "wulo"
-    },
-    {
-      "key": "t536",
-      "source": "outreach.",
-      "text": "ijade."
-    },
-    {
-      "key": "t537",
-      "source": "Community support",
-      "text": "Atilẹyin agbegbe"
-    },
-    {
-      "key": "t538",
-      "source": "Help residents with food, clothing, forms, signposting, events and welcoming hub sessions.",
-      "text": "Ṣe iranlọwọ fun awọn olugbe pẹlu ounjẹ, aṣọ, awọn fọọmu, fifi ami si, awọn iṣẹlẹ ati awọn akoko ibudo gbigba aabọ."
-    },
-    {
-      "key": "t539",
-      "source": "Skills and projects",
-      "text": "Awọn ogbon ati awọn iṣẹ akanṣe"
-    },
-    {
-      "key": "t540",
-      "source": "Offer mentoring, admin, creative workshops, fundraising, transport, digital support or professional expertise.",
-      "text": "Pese oludamoran, abojuto, awọn idanileko iṣẹda, ikowojo, gbigbe, atilẹyin oni-nọmba tabi oye alamọdaju."
-    },
-    {
-      "key": "t541",
-      "source": "Volunteer applications",
-      "text": "Awọn ohun elo atinuwa"
-    },
-    {
-      "key": "t542",
-      "source": "Monday form",
-      "text": "Monday fọọmu"
-    },
-    {
-      "key": "t543",
-      "source": "Apply to volunteer",
-      "text": "Kan si atinuwa [[t544]]] Pari ohun elo atinuwa ki ẹgbẹ le baamu akoko rẹ, awọn ọgbọn ati wiwa si iṣẹ akanṣe ti o tọ."
-    },
-    {
-      "key": "t544",
-      "source": "Complete the volunteer application so the team can match your time, skills and availability to the right project.",
-      "text": "Pari ohun elo atinuwa ki ẹgbẹ le baamu akoko rẹ, awọn ọgbọn ati wiwa si iṣẹ akanṣe ti o tọ."
-    },
-    {
-      "key": "t545",
-      "source": "Open volunteer form",
-      "text": "Ṣii fọọmu iyọọda"
-    },
-    {
-      "key": "t546",
-      "source": "Get in touch",
-      "text": "Kan si"
-    },
-    {
-      "key": "t547",
-      "source": "We'd",
-      "text": "A fẹ"
-    },
-    {
-      "key": "t548",
-      "source": "love",
-      "text": "ife"
-    },
-    {
-      "key": "t549",
-      "source": "to",
-      "text": "si [[t550]]] gbo [[t551]]] lati [[t552]]] ìwọ."
-    },
-    {
-      "key": "t550",
-      "source": "hear",
-      "text": "gbo"
-    },
-    {
-      "key": "t551",
-      "source": "from",
-      "text": "lati"
-    },
-    {
-      "key": "t552",
-      "source": "you.",
-      "text": "iwo."
-    },
-    {
-      "key": "t553",
-      "source": "Email,",
-      "text": "Imeeli,"
-    },
-    {
-      "key": "t554",
-      "source": "WhatsApp,",
-      "text": "WhatsApp, [[t555]]] ipe"
-    },
-    {
-      "key": "t555",
-      "source": "call",
-      "text": "ipe"
-    },
-    {
-      "key": "t556",
-      "source": "or",
-      "text": "tabi [[t557]]] kun [[t558]]] ninu [[t559]]] awọn"
-    },
-    {
-      "key": "t557",
-      "source": "fill",
-      "text": "kun"
-    },
-    {
-      "key": "t558",
-      "source": "in",
-      "text": "ninu"
-    },
-    {
-      "key": "t559",
-      "source": "the",
-      "text": "awọn"
-    },
-    {
-      "key": "t560",
-      "source": "form.",
-      "text": "fọọmu."
-    },
-    {
-      "key": "t561",
-      "source": "We",
-      "text": "Awa"
-    },
-    {
-      "key": "t562",
-      "source": "aim",
-      "text": "ifọkansi [[t563]]] si"
-    },
-    {
-      "key": "t563",
-      "source": "to",
-      "text": "si"
-    },
-    {
-      "key": "t564",
-      "source": "reply",
-      "text": "idahun [[t565]]] laarin [[t566]]] meji [[t567]]] ṣiṣẹ"
-    },
-    {
-      "key": "t565",
-      "source": "within",
-      "text": "laarin"
-    },
-    {
-      "key": "t566",
-      "source": "two",
-      "text": "meji"
-    },
-    {
-      "key": "t567",
-      "source": "working",
-      "text": "ṣiṣẹ"
-    },
-    {
-      "key": "t568",
-      "source": "days.",
-      "text": "ọjọ."
-    },
-    {
-      "key": "t569",
-      "source": "Email",
-      "text": "Imeeli"
-    },
-    {
-      "key": "t570",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk [[t571]]] WhatsApp / ipe"
-    },
-    {
-      "key": "t571",
-      "source": "WhatsApp / Call",
-      "text": "WhatsApp / Ipe"
-    },
-    {
-      "key": "t572",
-      "source": "Visit the Croydon Hub",
-      "text": "Ṣabẹwo ibudo Croydon"
-    },
-    {
-      "key": "t573",
-      "source": "Ashburton Park Cafe Hall, CR0 6RX",
-      "text": "Ashburton Park Cafe Hall, CR0 6RX"
-    },
-    {
-      "key": "t574",
-      "source": "Tuesdays, 12:30 to 2:30pm.",
-      "text": "Tuesday, 12:30 to 2:30 aṣalẹ."
-    },
-    {
-      "key": "t575",
-      "source": "Project locations",
-      "text": "Awọn ipo ise agbese"
-    },
-    {
-      "key": "t576",
-      "source": "Separate contact points for Croydon, Redbridge, Durham, Newham and Southwark are listed below.",
-      "text": "Awọn aaye olubasọrọ ọtọtọ fun Croydon, Redbridge, Durham, Newham ati Southwark ti wa ni akojọ si isalẹ."
-    },
-    {
-      "key": "t577",
-      "source": "Croydon office",
-      "text": "Croydon ọfiisi"
-    },
-    {
-      "key": "t578",
-      "source": "26 Avenue Road",
-      "text": "26 Avenue opopona"
-    },
-    {
-      "key": "t579",
-      "source": "London SE25 4DX",
-      "text": "London SE25 4DX"
-    },
-    {
-      "key": "t580",
-      "source": "Open map",
-      "text": "Ṣii maapu"
-    },
-    {
-      "key": "t581",
+      "key": "t142",
       "source": "Croydon hub",
       "text": "ibudo Croydon"
     },
     {
-      "key": "t582",
-      "source": "Ashburton Park Cafe Hall",
-      "text": "Ashburton Park Cafe Hall"
+      "key": "t143",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX. Tuesdays, 12:30 to 2:30 aṣalẹ."
     },
     {
-      "key": "t583",
-      "source": "CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
-      "text": "CR0 6RX. Tuesdays, 12:30 to 2:30 aṣalẹ."
+      "key": "t144",
+      "source": "Map",
+      "text": "Maapu"
     },
     {
-      "key": "t584",
-      "source": "Open map",
-      "text": "Ṣii maapu"
-    },
-    {
-      "key": "t585",
+      "key": "t145",
       "source": "Redbridge office",
       "text": "Redbridge ọfiisi"
     },
     {
-      "key": "t586",
-      "source": "160-162 Cranbrook Road",
-      "text": "160-162 Cranbrook Road"
+      "key": "t146",
+      "source": "160-162 Cranbrook Road, IG1 4PE.",
+      "text": "160-162 Cranbrook Road, IG1 4PE."
     },
     {
-      "key": "t587",
-      "source": "Ilford IG1 4PE",
-      "text": "Ilford IG1 4PE"
+      "key": "t147",
+      "source": "Map",
+      "text": "Maapu"
     },
     {
-      "key": "t588",
-      "source": "Open map",
-      "text": "Ṣii maapu"
-    },
-    {
-      "key": "t589",
+      "key": "t148",
       "source": "Redbridge hub",
-      "text": "ibudo Redbridge [[t590]]] Cranbrook House, gbon 7D"
+      "text": "ibudo Redbridge"
     },
     {
-      "key": "t590",
-      "source": "Cranbrook House, Suite 7D",
-      "text": "Ile Cranbrook, Suite 7D"
+      "key": "t149",
+      "source": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "Cranbrook House, gbon 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tuesdays, 11:30am to 1:30pm ayafi awọn isinmi."
     },
     {
-      "key": "t591",
-      "source": "61 Cranbrook Road, Ilford IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
-      "text": "61 Cranbrook Road, Ilford IG1 4PG. Tuesdays, 11:30am to 1:30pm ayafi awọn isinmi."
+      "key": "t150",
+      "source": "Map",
+      "text": "Maapu"
     },
     {
-      "key": "t592",
-      "source": "Open map",
-      "text": "Ṣii maapu"
-    },
-    {
-      "key": "t593",
+      "key": "t151",
       "source": "Durham hub",
       "text": "ibudo Durham"
     },
     {
-      "key": "t594",
-      "source": "30 Wesley Street",
-      "text": "30 Wesley Street"
+      "key": "t152",
+      "source": "30 Wesley Street, Durham, DL14 8UH.",
+      "text": "30 Wesley Street, Durham, DL14 8UH."
     },
     {
-      "key": "t595",
-      "source": "Durham DL14 8UH",
-      "text": "Durham DL14 8UH"
+      "key": "t153",
+      "source": "Map",
+      "text": "Maapu"
     },
     {
-      "key": "t596",
-      "source": "Open map",
-      "text": "Ṣii maapu"
-    },
-    {
-      "key": "t597",
-      "source": "Southwark hub",
-      "text": "ibudo Southwark"
-    },
-    {
-      "key": "t598",
-      "source": "20 Heaton Road",
-      "text": "20 Heaton Road"
-    },
-    {
-      "key": "t599",
-      "source": "Heaton Road Church, Peckham SE15 3NL. Launching June 2026.",
-      "text": "Heaton Road Ìjọ, Peckham SE15 3NL. Ifilọlẹ Oṣu Kẹfa ọdun 2026."
-    },
-    {
-      "key": "t600",
-      "source": "Open map",
-      "text": "Ṣii maapu"
-    },
-    {
-      "key": "t601",
+      "key": "t154",
       "source": "Newham",
       "text": "Newham"
     },
     {
-      "key": "t602",
-      "source": "Monthly wellbeing support",
-      "text": "Atilẹyin alafia oṣooṣu"
+      "key": "t155",
+      "source": "Monthly wellbeing and housing support. Relaunching July 2026.",
+      "text": "Nini alafia oṣooṣu ati atilẹyin ile. Ilọsiwaju ni Oṣu Keje ọdun 2026."
     },
     {
-      "key": "t603",
-      "source": "Housing and wellbeing support relaunching July 2026.",
-      "text": "Ile ati alafia ṣe atilẹyin isọdọtun Oṣu Keje 2026. [[t604]]] Orukọ rẹ [[t605]]] Imeeli"
-    },
-    {
-      "key": "t604",
-      "source": "Your name",
-      "text": "Orukọ rẹ"
-    },
-    {
-      "key": "t605",
-      "source": "Email",
-      "text": "Imeeli"
-    },
-    {
-      "key": "t606",
-      "source": "What can we help with?",
-      "text": "Kini a le ṣe iranlọwọ pẹlu? [[t607]]] Ifiranṣẹ"
-    },
-    {
-      "key": "t607",
-      "source": "Message",
-      "text": "Ifiranṣẹ"
-    },
-    {
-      "key": "t608",
-      "source": "I agree to be contacted in line with the",
-      "text": "Mo ti gba a olubasọrọ ni ila pẹlu awọn"
-    },
-    {
-      "key": "t609",
-      "source": "privacy policy",
-      "text": "ìlànà ìpamọ [[t610]]] Firanṣẹ ifiranṣẹ"
-    },
-    {
-      "key": "t610",
-      "source": "Send message",
-      "text": "Firanṣẹ ifiranṣẹ"
-    },
-    {
-      "key": "t611",
-      "source": "We're here",
-      "text": "A wa nibi [[t612]]] Ohunkohun ti [[t613]]] iwọ ni"
-    },
-    {
-      "key": "t612",
-      "source": "Whatever",
-      "text": "Ohunkohun ti"
-    },
-    {
-      "key": "t613",
-      "source": "you're",
-      "text": "iwo ni"
-    },
-    {
-      "key": "t614",
-      "source": "carrying,",
-      "text": "gbigbe, [[t615]]] ìwọ [[t616]]] ma ṣe [[t617]]] gbe [[t618]]] o [[t619]]] nikan. [[t620]]] Boya [[t621]]] ìwọ [[t622]]] nilo [[t623]]] Igbaninimoran, [[t624]]] agbegbe [[t625]]] atilẹyin,"
-    },
-    {
-      "key": "t615",
-      "source": "you",
-      "text": "iwo"
-    },
-    {
-      "key": "t616",
-      "source": "don't",
-      "text": "maṣe"
-    },
-    {
-      "key": "t617",
-      "source": "carry",
-      "text": "gbe"
-    },
-    {
-      "key": "t618",
-      "source": "it",
-      "text": "o"
-    },
-    {
-      "key": "t619",
-      "source": "alone.",
-      "text": "nikan."
-    },
-    {
-      "key": "t620",
-      "source": "Whether",
-      "text": "Boya"
-    },
-    {
-      "key": "t621",
-      "source": "you",
-      "text": "iwo"
-    },
-    {
-      "key": "t622",
-      "source": "need",
-      "text": "nilo"
-    },
-    {
-      "key": "t623",
-      "source": "counselling,",
-      "text": "imọran,"
-    },
-    {
-      "key": "t624",
-      "source": "community",
-      "text": "awujo"
-    },
-    {
-      "key": "t625",
-      "source": "support,",
-      "text": "atilẹyin,"
-    },
-    {
-      "key": "t626",
-      "source": "food,",
-      "text": "ounjẹ,"
-    },
-    {
-      "key": "t627",
-      "source": "or",
-      "text": "tabi"
-    },
-    {
-      "key": "t628",
-      "source": "just",
-      "text": "o kan [[t629]]] ẹnikan"
-    },
-    {
-      "key": "t629",
-      "source": "someone",
-      "text": "ẹnikan"
-    },
-    {
-      "key": "t630",
-      "source": "to",
-      "text": "si"
-    },
-    {
-      "key": "t631",
-      "source": "talk",
-      "text": "sọrọ"
-    },
-    {
-      "key": "t632",
-      "source": "to.",
-      "text": "si."
-    },
-    {
-      "key": "t633",
-      "source": "Reach",
-      "text": "De ọdọ"
-    },
-    {
-      "key": "t634",
-      "source": "out",
-      "text": "jade [[t635]]] loni. [[t636]]] Tirẹ [[t637]]] akọkọ"
-    },
-    {
-      "key": "t635",
-      "source": "today.",
-      "text": "loni."
-    },
-    {
-      "key": "t636",
-      "source": "Your",
-      "text": "Tirẹ"
-    },
-    {
-      "key": "t637",
-      "source": "first",
-      "text": "akọkọ"
-    },
-    {
-      "key": "t638",
-      "source": "step",
-      "text": "igbese [[t639]]] ọrọ."
-    },
-    {
-      "key": "t639",
-      "source": "matters.",
-      "text": "ọrọ."
-    },
-    {
-      "key": "t640",
-      "source": "Email us",
-      "text": "Imeeli wa [[t641]]] WhatsApp wa"
-    },
-    {
-      "key": "t641",
-      "source": "WhatsApp us",
-      "text": "WhatsApp wa"
-    },
-    {
-      "key": "t642",
-      "source": "Donate via PayPal",
-      "text": "Ṣetọrẹ nipasẹ PayPal"
-    },
-    {
-      "key": "t643",
-      "source": "Localgiving",
-      "text": "Localgiving"
-    },
-    {
-      "key": "t644",
-      "source": "Fundraiser",
-      "text": "Olukojọpọ"
-    },
-    {
-      "key": "t645",
-      "source": "Volunteer",
-      "text": "Iyọọda [[t646]]] Awọn ilana & asiri rẹ [[t647]]] Bii a ṣe daabobo ọ ati data rẹ."
-    },
-    {
-      "key": "t646",
-      "source": "Policies & your privacy",
-      "text": "Awọn eto imulo & asiri rẹ"
-    },
-    {
-      "key": "t647",
-      "source": "How we protect you and your data.",
-      "text": "Bii a ṣe daabobo ọ ati data rẹ."
-    },
-    {
-      "key": "t648",
-      "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
-      "text": "Akopọ Gẹẹsi-Gẹẹsi ti bi a ṣe n ṣakoso alaye rẹ, tọju eniyan lailewu, ati lilo awọn kuki. Fun awọn eto imulo ni kikun tabi eyikeyi ibeere, imeeli"
-    },
-    {
-      "key": "t649",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t650",
-      "source": "Privacy policy",
-      "text": "Ilana ipamọ [[t651]]] Tani awa jẹ."
-    },
-    {
-      "key": "t651",
-      "source": "Who we are.",
-      "text": "Tani awa."
-    },
-    {
-      "key": "t652",
-      "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
-      "text": "Floating Counselling Community jẹ ile-iṣẹ grassroots UK ti n pese imọran ati atilẹyin agbegbe lati ọdun 2015. A n ṣiṣẹ gẹgẹbi AWUJO FLOATING COUNSELING, ile-iṣẹ ti o ni opin nipasẹ iṣeduro ti a forukọsilẹ ni England ati Wales, nọmba ile-iṣẹ 11334515. A jẹ oludari data fun alaye ti o pin pẹlu wa. Fun awọn ibeere ikọkọ, imeeli [[t653]]] info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t653",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t654",
-      "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
-      "text": "tabi kọ si ọfiisi Croydon wa ni 26 Avenue Road, London SE25 4DX."
-    },
-    {
-      "key": "t655",
-      "source": "What we collect.",
-      "text": "Ohun ti a gba."
-    },
-    {
-      "key": "t656",
-      "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
-      "text": "Nigbati o ba kan si wa nipasẹ fọọmu ibeere, nipasẹ imeeli tabi WhatsApp, a gba awọn alaye ti o yan lati fun wa - ni igbagbogbo orukọ rẹ, adirẹsi imeeli, koko ti o yan ati ifiranṣẹ rẹ. Ti o ba forukọsilẹ si iwe iroyin wa a gba adirẹsi imeeli rẹ. A ko beere fun alaye ilera-ẹka pataki nipasẹ oju opo wẹẹbu yii; jọwọ pin nikan ohun ti o ni itunu pẹlu."
-    },
-    {
-      "key": "t657",
-      "source": "How we use it, and our lawful basis.",
-      "text": "Bii a ṣe nlo rẹ, ati ipilẹ t’olofin wa."
-    },
-    {
-      "key": "t658",
-      "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
-      "text": "A lo awọn alaye rẹ lati dahun si ọ, pese atilẹyin ti o beere fun, ati ṣiṣe awọn iṣẹ wa (UK GDPR \"igbanilaaye\" ati \"awọn anfani ti o tọ\"). Nibiti a ti ni ojuse lati daabobo ẹnikan, a le ṣe ilana alaye lati pade ọranyan labẹ ofin (wo Aabo). [[t659]]] Eni ti a pin pelu. [[t660]]] A ko ta data rẹ. A gbẹkẹle nọmba kekere ti awọn olupese iṣẹ ti o gbẹkẹle ti o ṣe iranlọwọ fun wa lati ṣiṣe oju opo wẹẹbu, imeeli, awọn fọọmu, awọn ohun elo atinuwa, awọn ẹbun ati awọn maapu. Olupese kọọkan gba alaye ti o nilo fun iṣẹ yẹn nikan, ati pe ọkọọkan ni akiyesi asiri tirẹ."
-    },
-    {
-      "key": "t659",
-      "source": "Who we share it with.",
-      "text": "Tani a pin pẹlu rẹ."
-    },
-    {
-      "key": "t660",
-      "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
-      "text": "A ko ta data rẹ. A gbẹkẹle nọmba kekere ti awọn olupese iṣẹ ti o gbẹkẹle ti o ṣe iranlọwọ fun wa lati ṣiṣe oju opo wẹẹbu, imeeli, awọn fọọmu, awọn ohun elo atinuwa, awọn ẹbun ati awọn maapu. Olupese kọọkan gba alaye ti o nilo fun iṣẹ yẹn nikan, ati pe ọkọọkan ni akiyesi asiri tirẹ."
-    },
-    {
-      "key": "t661",
-      "source": "Translation.",
-      "text": "Itumọ. [[t662]]] Ti o ba tumọ oju-iwe yii, ọrọ oju-iwe oju-iwe le jẹ firanṣẹ ni aabo si iṣẹ itumọ kan ki ẹda ti a tumọ le jẹ pada. Itumọ jẹ iyan, awọn ifiranṣẹ fọọmu olubasọrọ kii ṣe itumọ nipasẹ ẹya ara ẹrọ yii, ati pe ọrọ ti a tumọ le jẹ cache ninu ẹrọ aṣawakiri rẹ ki o le yara yiyara nigba miiran. [[t663]]] Bawo ni pipẹ ti a tọju rẹ."
-    },
-    {
-      "key": "t662",
-      "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
-      "text": "Ti o ba tumọ oju-iwe yii, ọrọ oju-iwe loju iboju le jẹ firanṣẹ ni aabo si iṣẹ itumọ kan ki ẹya ti o tumọ le jẹ pada. Itumọ jẹ iyan, awọn ifiranṣẹ fọọmu olubasọrọ kii ṣe itumọ nipasẹ ẹya ara ẹrọ yii, ati pe ọrọ ti a tumọ le jẹ cache ninu ẹrọ aṣawakiri rẹ ki o le yara yiyara nigba miiran."
-    },
-    {
-      "key": "t663",
-      "source": "How long we keep it.",
-      "text": "Bawo ni pipẹ ti a tọju rẹ."
-    },
-    {
-      "key": "t664",
-      "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
-      "text": "A tọju ibeere ati awọn alaye ibeere atilẹyin nikan niwọn igba ti o nilo lati dahun, pese atilẹyin, pade awọn iṣẹ aabo, ati ni ibamu pẹlu awọn adehun ofin tabi iṣiro. Awọn ẹbun ati awọn igbasilẹ iyọọda ni a tọju ni ibamu si olupese ti o yẹ ati awọn ibeere idaduro ofin."
-    },
-    {
-      "key": "t665",
-      "source": "Your rights.",
-      "text": "Awọn ẹtọ rẹ."
-    },
-    {
-      "key": "t666",
-      "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
-      "text": "Labẹ UK GDPR o le beere lati wọle si, ṣe atunṣe, paarẹ tabi ni ihamọ data rẹ, nkan si ṣiṣe, beere gbigbe, tabi yọkuro aṣẹ nigbakugba. Imeeli"
-    },
-    {
-      "key": "t667",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t668",
-      "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
-      "text": "tabi kọ si wa ni 26 Avenue Road, London SE25 4DX. Ti o ko ba ni idunnu pẹlu esi wa o le kerora si ICO ni ico.org.uk."
-    },
-    {
-      "key": "t669",
-      "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
-      "text": "Atunyẹwo to kẹhin: 29 Oṣu Karun ọdun 2026. Akopọ Gẹẹsi-Gẹẹsi ni a pese fun akoyawo ati pe o yẹ ki o ṣayẹwo ni kikun awọn ilana Floating Counselling Community ṣaaju ki o to tẹjade. [[t670]]] Idaabobo [[t671]]] Ifaramo wa. [[t672]]] Aabo ati alafia ti awọn ọmọde, awọn ọdọ ati awọn agbalagba ti o wa ninu ewu ti a ṣiṣẹ pẹlu wa ni akọkọ. Iṣe wa jẹ alaye ibalokanje ati ni ibamu pẹlu awọn iṣedede iṣe BACP."
-    },
-    {
-      "key": "t670",
-      "source": "Safeguarding",
-      "text": "Idaabobo"
-    },
-    {
-      "key": "t671",
-      "source": "Our commitment.",
-      "text": "Ifaramo wa."
-    },
-    {
-      "key": "t672",
-      "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
-      "text": "Ailewu ati alafia ti awọn ọmọde, awọn ọdọ ati awọn agbalagba ti o wa ninu ewu ti a ṣiṣẹ pẹlu wa ni akọkọ. Iṣe wa jẹ alaye ibalokanje ati ni ibamu pẹlu awọn iṣedede iṣe BACP."
-    },
-    {
-      "key": "t673",
-      "source": "Confidentiality and its limits.",
-      "text": "Asiri ati awọn ifilelẹ lọ."
-    },
-    {
-      "key": "t674",
-      "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
-      "text": "Ohun ti o pin wa ni idaduro ni idaniloju to muna. Iyatọ jẹ ipo aabo - nibiti eewu ti ipalara nla wa si ọ tabi ẹlomiiran, tabi nibiti a ni ojuṣe labẹ ofin lati ṣe. Nibikibi ti o ba jẹ ailewu lati ṣe bẹ, a yoo sọrọ eyi nipasẹ rẹ akọkọ."
-    },
-    {
-      "key": "t675",
-      "source": "Raising a concern.",
-      "text": "Igbega ibakcdun kan."
-    },
-    {
-      "key": "t676",
-      "source": "If you're worried about someone's safety, contact us at",
-      "text": "Ti o ba ni aniyan nipa aabo ẹnikan, kan si wa ni"
-    },
-    {
-      "key": "t677",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t678",
-      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
-      "text": "tabi +44 (0)7305 882959. Ti ẹnikan ba wa ninu ewu lẹsẹkẹsẹ, nigbagbogbo pe 999. O tun le kan si NSPCC lori 0808 800 5000, tabi ẹgbẹ aabo ti aṣẹ agbegbe rẹ."
-    },
-    {
-      "key": "t679",
-      "source": "Our people.",
-      "text": "Awọn eniyan wa. [[t680]]] Awọn oṣiṣẹ ati awọn oluyọọda ti gba iṣẹ lailewu ati gba awọn sọwedowo DBS nibiti o yẹ si ipa wọn."
-    },
-    {
-      "key": "t680",
-      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
-      "text": "Awọn oṣiṣẹ ati awọn oluyọọda ti gba iṣẹ lailewu ati gba awọn sọwedowo DBS nibiti o yẹ si ipa wọn."
-    },
-    {
-      "key": "t681",
-      "source": "Safeguarding lead.",
-      "text": "Asiwaju aabo."
-    },
-    {
-      "key": "t682",
-      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
-      "text": "Linda Yeboah, Oludari & Oṣiṣẹ Idaabobo. Imeeli [[t683]]] floatingcounsellinglinda@gmail.com [[t684]]] tabi"
-    },
-    {
-      "key": "t683",
-      "source": "floatingcounsellinglinda@gmail.com",
-      "text": "floatingcounsellinglinda@gmail.com"
-    },
-    {
-      "key": "t684",
-      "source": "or",
-      "text": "tabi"
-    },
-    {
-      "key": "t685",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t686",
-      "source": ". If someone is in immediate danger, call 999.",
-      "text": ". Ti ẹnikan ba wa ninu ewu lẹsẹkẹsẹ, pe 999."
-    },
-    {
-      "key": "t687",
-      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
-      "text": "Atunyẹwo to kẹhin: 29 May 2026. Akopọ yii yẹ ki o ṣayẹwo lodi si ilana aabo ni kikun Floating Counselling Community ṣaaju ki o to gbejade. [[t688]]] Awọn kuki & ibi ipamọ"
-    },
-    {
-      "key": "t688",
-      "source": "Cookies & storage",
-      "text": "Awọn kuki & ibi ipamọ"
-    },
-    {
-      "key": "t689",
-      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
-      "text": "A tọju awọn kuki si o kere julọ ati pe a ko lo ipolowo tabi titọpa aaye. Aaye naa tọju awọn nkan kekere meji meji sinu ẹrọ aṣawakiri rẹ:"
-    },
-    {
-      "key": "t690",
-      "source": "Cookie consent",
-      "text": "Igbanilaaye kuki [[t691]]] - ranti pe o ti rii akiyesi yii, nitorinaa a ko ṣe afihan ni gbogbo ibewo."
-    },
-    {
-      "key": "t691",
-      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
-      "text": "— ranti pe o ti rii akiyesi yii, nitorinaa a ko ṣe afihan ni gbogbo ibewo."
-    },
-    {
-      "key": "t692",
-      "source": "Translation cache",
-      "text": "Kaṣe itumọ [[t693]]] - ti o ba tumọ oju-iwe naa, ọrọ ti a tumọ ti wa ni ipamọ ni agbegbe nitoribẹẹ o le di ẹru lẹsẹkẹsẹ ni akoko miiran. [[t694]]] Google Map ti a fi sinu le ṣeto awọn kuki ti Google nigbati o ba nrù. O le pa gbogbo awọn ti o wa loke kuro nigbakugba nipa yiyọ data aaye aṣawakiri rẹ kuro."
-    },
-    {
-      "key": "t693",
-      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
-      "text": "- ti o ba tumọ oju-iwe naa, ọrọ ti a tumọ ti wa ni fipamọ ni agbegbe nitoribẹẹ o le di ẹru lẹsẹkẹsẹ ni akoko miiran."
-    },
-    {
-      "key": "t694",
-      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
-      "text": "Maapu Google ti a fi sinu le ṣeto awọn kuki ti Google nigbati o ba nrù. O le pa gbogbo awọn ti o wa loke kuro nigbakugba nipa yiyọ data aaye aṣawakiri rẹ kuro."
-    },
-    {
-      "key": "t695",
-      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
-      "text": "Igbaninimoran, agbegbe & aanu, sìn Croydon, Redbridge, Newham, Durham ati Southwark lati ọdun 2015."
-    },
-    {
-      "key": "t696",
-      "source": "Get in touch",
-      "text": "Kan si"
-    },
-    {
-      "key": "t697",
-      "source": "info@floatingcounselling.co.uk",
-      "text": "info@floatingcounselling.co.uk"
-    },
-    {
-      "key": "t698",
-      "source": "WhatsApp · +44 (0)7305 882959",
-      "text": "WhatsApp · +44 (0) 7305 882959"
-    },
-    {
-      "key": "t699",
-      "source": "Croydon Hub · Ashburton Park Cafe Hall",
-      "text": "Ibudo Croydon · Ashburton Park Cafe Hall"
-    },
-    {
-      "key": "t700",
-      "source": "See all project locations",
-      "text": "Wo gbogbo awọn ipo ise agbese"
-    },
-    {
-      "key": "t701",
-      "source": "Fundraiser",
-      "text": "Olukoowo"
-    },
-    {
-      "key": "t702",
-      "source": "Volunteer",
-      "text": "Iyọọda"
-    },
-    {
-      "key": "t703",
-      "source": "Croydon office",
-      "text": "Croydon ọfiisi"
-    },
-    {
-      "key": "t704",
-      "source": "Redbridge office",
-      "text": "Redbridge ọfiisi"
-    },
-    {
-      "key": "t705",
-      "source": "Durham hub",
-      "text": "ibudo Durham"
-    },
-    {
-      "key": "t706",
+      "key": "t156",
       "source": "Southwark hub",
-      "text": "ibudo Southwark [[t707]]] Floating Counselling™ · BACP-ṣe deede · Ile-iṣẹ No. 11334515 · Community Partner"
+      "text": "ibudo Southwark"
     },
     {
-      "key": "t707",
-      "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
-      "text": "Igbaninimoran lilefoofo™ · ibamu BACP · Ile-iṣẹ No. 11334515 · Community Partner"
+      "key": "t157",
+      "source": "20 Heaton Road, Heaton Road Church, Peckham, SE15 3NL. Launching June 2026.",
+      "text": "20 Heaton Road, Heaton Road Ìjọ, Peckham, SE15 3NL. Ifilọlẹ Oṣu Kẹfa ọdun 2026."
     },
     {
-      "key": "t708",
-      "source": "Privacy",
-      "text": "Asiri [[t709]]] Idaabobo [[t710]]] Olukojọpọ [[t711]]] Ṣetọrẹ [[t712]]] Ask Floating [[t713]]] Ask Floating"
+      "key": "t158",
+      "source": "Map",
+      "text": "Maapu"
     },
     {
-      "key": "t709",
-      "source": "Safeguarding",
-      "text": "Idaabobo"
+      "key": "t159",
+      "source": "What people say",
+      "text": "Ohun ti eniyan sọ"
     },
     {
-      "key": "t710",
-      "source": "Fundraiser",
-      "text": "Olukoowo"
+      "key": "t160",
+      "source": "In their own words.",
+      "text": "Ninu ọrọ tiwọn."
     },
     {
-      "key": "t711",
-      "source": "Donate",
-      "text": "Ṣetọrẹ"
+      "key": "t161",
+      "source": "Hear from the families and individuals whose lives have been transformed.",
+      "text": "Gbọ lati ọdọ awọn idile ati awọn ẹni-kọọkan ti igbesi aye wọn ti yipada."
     },
     {
-      "key": "t712",
-      "source": "Ask Floating",
-      "text": "Beere Lilefoofo"
+      "key": "t162",
+      "source": "I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded and supported a wide variety of issues that parents face. I have teenage children and really needed this. It was full of knowledge to parent more consciously.",
+      "text": "Mo ti kọ ẹkọ pupọ lati ikẹkọ Parenting Pillar ati Celestina. O jẹ iyipo daradara ti iyalẹnu ati atilẹyin ọpọlọpọ awọn ọran ti awọn obi koju. Mo ni awọn ọmọde ọdọ ati pe Mo nilo eyi gaan. O kun fun imọ si obi diẹ sii ni mimọ."
     },
     {
-      "key": "t713",
-      "source": "Ask Floating",
-      "text": "Beere Lilefoofo"
+      "key": "t163",
+      "source": "ST",
+      "text": "ST"
     },
     {
-      "key": "t714",
-      "source": "Choose a quick route",
-      "text": "Yan ipa ọna ti o yara"
+      "key": "t164",
+      "source": "Sarah Turino",
+      "text": "Sarah Turino"
     },
     {
-      "key": "t715",
-      "source": "If you are not sure which service fits, choose the closest option and we will route you.",
-      "text": "Ti o ko ba ni idaniloju pe iṣẹ wo ni ibamu, yan aṣayan ti o sunmọ julọ ati pe a yoo dari ọ."
+      "key": "t165",
+      "source": "CEO, The Whole Woman Wellness Formula · USA",
+      "text": "CEO, The Whole Women Wellness Formula · USA"
     },
     {
-      "key": "t716",
-      "source": "Counselling enquiry",
-      "text": "Ìbéèrè Igbaninimoran [[t717]]] Atilẹyin obi [[t718]]] Ounjẹ tabi ibudo agbegbe [[t719]]] Ile-iwe isinmi [[t720]]] Olukojọpọ [[t721]]] Iyọọda tabi alabaṣepọ"
+      "key": "t166",
+      "source": "My son had terrible twos where he would throw himself on the floor and not follow boundaries. I have now been helped to know his personality better and been given realistic tools to help him be more resilient in a loving way.",
+      "text": "Ọmọ mi ní ẹru twos ibi ti o ti yoo jabọ ara lori pakà ati ki o ko tẹle awọn aala. Ní báyìí, a ti ràn mí lọ́wọ́ láti mọ ìwà rẹ̀ dáadáa, wọ́n sì ti fún mi láwọn irinṣẹ́ tó mọ́gbọ́n dání láti ràn án lọ́wọ́ láti túbọ̀ fara dà á lọ́nà onífẹ̀ẹ́."
     },
     {
-      "key": "t717",
-      "source": "Parenting support",
-      "text": "Atilẹyin obi"
+      "key": "t167",
+      "source": "DD",
+      "text": "DD"
     },
     {
-      "key": "t718",
-      "source": "Food or community hub",
-      "text": "Ounjẹ tabi ibudo agbegbe"
+      "key": "t168",
+      "source": "Danya Denny",
+      "text": "Danya Denny"
     },
     {
-      "key": "t719",
-      "source": "Holiday school",
-      "text": "Ile-iwe isinmi"
+      "key": "t169",
+      "source": "Social Worker · UK",
+      "text": "Osise Awujo · UK"
     },
     {
-      "key": "t720",
-      "source": "Fundraiser",
-      "text": "Olukoowo"
+      "key": "t170",
+      "source": "As a mother of six, from newborn to eighteen, I learnt so much from Impact Parenting with Celestina. I adapted the strategies to my real life and all my children straight away — and I'm still using them months later. Every parent needs this.",
+      "text": "Gẹgẹbi iya ti ọmọ mẹfa, lati ọmọ tuntun si mejidilogun, Mo kọ ẹkọ pupọ lati Impact Parenting pẹlu Celestina. Mo tun ṣe awọn ilana naa si igbesi aye gidi mi ati gbogbo awọn ọmọ mi lẹsẹkẹsẹ - ati pe Mo tun nlo wọn ni awọn oṣu diẹ lẹhinna. Gbogbo obi nilo eyi."
     },
     {
-      "key": "t721",
-      "source": "Volunteer or partner",
-      "text": "Iyọọda tabi alabaṣepọ"
+      "key": "t171",
+      "source": "NK",
+      "text": "NK"
     },
     {
-      "key": "t722",
-      "source": "WhatsApp Floating",
-      "text": "WhatsApp Lilefoofo [[t723]]] A lo nọmba kekere ti awọn kuki lati jẹ ki aaye yii ṣiṣẹ ati lati ni oye bi o ṣe nlo."
+      "key": "t172",
+      "source": "Niina Kabesa",
+      "text": "Niina Kabesa"
     },
     {
-      "key": "t723",
-      "source": "We use a small number of cookies to make this site work and to understand how it's used.",
-      "text": "A lo nọmba kekere ti awọn kuki lati jẹ ki aaye yii ṣiṣẹ ati lati loye bi o ṣe nlo."
+      "key": "t173",
+      "source": "Author & Founder, Mother of Nations · Congo",
+      "text": "Onkọwe & Oludasile, Iya ti Orilẹ-ede · Congo"
     },
     {
-      "key": "t724",
-      "source": "More info",
-      "text": "Alaye diẹ sii [[t725]]] Kọ silẹ [[t726]]] Gba [[a727]]] Akọbẹrẹ"
+      "key": "t174",
+      "source": "Our people",
+      "text": "Eniyan wa"
     },
     {
-      "key": "t725",
-      "source": "Decline",
-      "text": "Kọ silẹ"
+      "key": "t175",
+      "source": "Meet the team.",
+      "text": "Pade egbe."
     },
     {
-      "key": "t726",
-      "source": "Accept",
-      "text": "Gba"
+      "key": "t176",
+      "source": "Led by a diverse team of African women with lived experience and professional expertise.",
+      "text": "Ti ṣe itọsọna nipasẹ ẹgbẹ Oniruuru ti awọn obinrin Afirika pẹlu iriri igbesi aye ati oye alamọdaju."
     },
     {
-      "key": "a727",
-      "source": "Primary",
-      "text": "Alakoko"
-    },
-    {
-      "key": "a728",
-      "source": "Floating Counselling — Home",
-      "text": "Floating Counselling - Ile [[a729]]] Floating Counselling [[a730]]] Lilọ kiri [[a731]]] Ibaraẹnisọrọ Igbaninimoran ni Floating Counselling [[a732]]] Yi lọ si ipa [[a733]]] Ipa wa"
-    },
-    {
-      "key": "a729",
-      "source": "Floating Counselling",
-      "text": "Lilefoofo Igbaninimoran"
-    },
-    {
-      "key": "a730",
-      "source": "Toggle navigation",
-      "text": "Yipada lilọ kiri"
-    },
-    {
-      "key": "a731",
-      "source": "Counselling conversation at Floating Counselling",
-      "text": "Ibaraẹnisọrọ Igbaninimoran ni Igbaninimoran Lilefoofo"
-    },
-    {
-      "key": "a732",
-      "source": "Scroll to impact",
-      "text": "Yi lọ si ipa"
-    },
-    {
-      "key": "a733",
-      "source": "Our impact",
-      "text": "Ipa wa"
-    },
-    {
-      "key": "a734",
-      "source": "Celestina Oniye-Thomas from Floating Counselling",
-      "text": "Celestina Oniye-Thomas lati Floating Counselling"
-    },
-    {
-      "key": "a735",
-      "source": "Impact Parenting support artwork from Floating Counselling",
-      "text": "Iṣẹ ọnà atilẹyin ti obi ti o ni ipa lati Igbaninimoran Lilefoofo"
-    },
-    {
-      "key": "a736",
-      "source": "Floating Counselling community organisation impact infographic",
-      "text": "Lilefoofo Igbaninimoran awujo agbari ikolu infographic"
-    },
-    {
-      "key": "a737",
-      "source": "Holiday school values",
-      "text": "Awọn iye ile-iwe isinmi"
-    },
-    {
-      "key": "a738",
-      "source": "Holiday school week 1 newsletter",
-      "text": "Isinmi ile-iwe ọsẹ 1 iwe iroyin"
-    },
-    {
-      "key": "a739",
-      "source": "Floating Community Hub community gathering",
-      "text": "Apejọ Agbegbe Agbegbe Lilefoofo [[a740]]] Celestina Oniye-Thomas [[a741]]] Omowonu-Ola Ogunlela [[a742]]] Elizabeth Owode [[a743]]] Linda Yeboah [[a744]]] Ẹka fun Ẹkọ"
-    },
-    {
-      "key": "a740",
+      "key": "t177",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "a741",
+      "key": "t178",
+      "source": "CEO & Head of Charitable Operations",
+      "text": "CEO & Ori ti Charitable Mosi"
+    },
+    {
+      "key": "t179",
+      "source": "Email",
+      "text": "Imeeli"
+    },
+    {
+      "key": "t180",
+      "source": "Read more",
+      "text": "Ka siwaju"
+    },
+    {
+      "key": "t181",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "a742",
+      "key": "t182",
+      "source": "Director & Head of Finance",
+      "text": "Oludari & Head of Finance"
+    },
+    {
+      "key": "t183",
+      "source": "Email",
+      "text": "Imeeli"
+    },
+    {
+      "key": "t184",
+      "source": "Read more",
+      "text": "Ka siwaju"
+    },
+    {
+      "key": "t185",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "a743",
+      "key": "t186",
+      "source": "Director & Relationship Coach",
+      "text": "Oludari & Ibasepo Olukọni"
+    },
+    {
+      "key": "t187",
+      "source": "Email",
+      "text": "Imeeli"
+    },
+    {
+      "key": "t188",
+      "source": "Read more",
+      "text": "Ka siwaju"
+    },
+    {
+      "key": "t189",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah"
     },
     {
-      "key": "a744",
-      "source": "Department for Education",
-      "text": "Ẹka fun Education"
+      "key": "t190",
+      "source": "Director & Safeguarding Officer",
+      "text": "Oludari & Oṣiṣẹ Idaabobo"
     },
     {
-      "key": "a745",
-      "source": "Croydon Council",
-      "text": "Igbimọ Croydon"
+      "key": "t191",
+      "source": "Email",
+      "text": "Imeeli"
     },
     {
-      "key": "a746",
-      "source": "South West London CCGs",
-      "text": "South West London CCGs"
+      "key": "t192",
+      "source": "Contact",
+      "text": "Olubasọrọ"
     },
     {
-      "key": "a747",
-      "source": "The National Lottery Community Fund",
-      "text": "National lotiri Community Fund [[a748]]] BME Forum [[a749]]] Croydon Atinuwa Ise [[a750]]] Fọọmu ohun elo oluyọọda [[a751]]] Awọn ipo ise agbese [[a752]]] Awọn ọna asopọ awujọ [[a753]]] Facebook [[a754]]] Instagram [[a755]]] Twitter / X [[a756]]] YouTube"
+      "key": "t193",
+      "source": "Sponsors, partners and funders",
+      "text": "Awọn onigbọwọ, awọn alabaṣiṣẹpọ ati awọn agbateru"
     },
     {
-      "key": "a748",
-      "source": "BME Forum",
-      "text": "BME Forum"
+      "key": "t194",
+      "source": "Supported by trusted partners.",
+      "text": "Atilẹyin nipasẹ awọn alabaṣepọ ti o gbẹkẹle."
     },
     {
-      "key": "a749",
-      "source": "Croydon Voluntary Action",
-      "text": "Croydon Voluntary Action"
+      "key": "t195",
+      "source": "A compact view of the funders, sponsors and registrations behind the work.",
+      "text": "Wiwo iwapọ ti awọn agbateru, awọn onigbọwọ ati awọn iforukọsilẹ lẹhin iṣẹ naa."
     },
     {
-      "key": "a750",
-      "source": "Volunteer application form",
-      "text": "Fọọmu ohun elo iyọọda"
+      "key": "t196",
+      "source": "Common questions",
+      "text": "Awọn ibeere ti o wọpọ"
     },
     {
-      "key": "a751",
+      "key": "t197",
+      "source": "Everything you might be wondering.",
+      "text": "Ohun gbogbo ti o le ṣe iyalẹnu."
+    },
+    {
+      "key": "t198",
+      "source": "If your question isn't here, send us a note. We read every message.",
+      "text": "Ti ibeere rẹ ko ba si nibi, fi akọsilẹ ranṣẹ si wa. A ka gbogbo ifiranṣẹ."
+    },
+    {
+      "key": "t199",
+      "source": "Ask us anything",
+      "text": "Beere ohunkohun fun wa"
+    },
+    {
+      "key": "t200",
+      "source": "How much does counselling cost?",
+      "text": "Elo ni idiyele imọran?"
+    },
+    {
+      "key": "t201",
+      "source": "Sessions are free or low-cost for eligible individuals. We work on a sliding scale based on circumstances. Our priority is access, and we'll find a way that works for you.",
+      "text": "Awọn akoko jẹ ọfẹ tabi idiyele kekere fun awọn ẹni-kọọkan ti o yẹ. A ṣiṣẹ lori iwọn sisun da lori awọn ayidayida. Pataki wa ni iwọle, ati pe a yoo wa ọna ti o ṣiṣẹ fun ọ."
+    },
+    {
+      "key": "t202",
+      "source": "What happens in the first session?",
+      "text": "Kini o ṣẹlẹ ni igba akọkọ?"
+    },
+    {
+      "key": "t203",
+      "source": "Your first session is a relaxed conversation about what's brought you in, what you'd like to work on, and how we can support you. Nothing is rushed. You set the pace.",
+      "text": "Igba akọkọ rẹ jẹ ibaraẹnisọrọ ni ihuwasi nipa ohun ti o mu wa wọle, kini o fẹ lati ṣiṣẹ lori, ati bii a ṣe le ṣe atilẹyin fun ọ. Ko si ohun ti a yara. O ṣeto iyara naa."
+    },
+    {
+      "key": "t204",
+      "source": "Are sessions confidential?",
+      "text": "Ṣe awọn akoko aṣiri bi?"
+    },
+    {
+      "key": "t205",
+      "source": "Yes. Everything you share is held in strict confidence in line with BACP ethical guidelines. The only exceptions are safeguarding situations, which we'd always discuss with you first wherever possible.",
+      "text": "Bẹẹni. Ohun gbogbo ti o pin ni o waye ni igbẹkẹle ti o muna ni ila pẹlu awọn ilana iṣe iṣe BACP. Awọn imukuro nikan ni awọn ipo aabo, eyiti a yoo ma jiroro nigbagbogbo pẹlu rẹ ni akọkọ nibikibi ti o ṣeeṣe."
+    },
+    {
+      "key": "t206",
+      "source": "Do you offer online sessions?",
+      "text": "Ṣe o funni ni awọn akoko ori ayelujara?"
+    },
+    {
+      "key": "t207",
+      "source": "Yes. We offer online sessions and in-person support across the boroughs where we deliver services.",
+      "text": "Bẹẹni. A nfunni ni awọn akoko ori ayelujara ati atilẹyin eniyan ni gbogbo awọn agbegbe nibiti a ti fi awọn iṣẹ ranṣẹ."
+    },
+    {
+      "key": "t208",
+      "source": "Are your therapists qualified?",
+      "text": "Ṣe awọn oniwosan ọran rẹ ni oṣiṣẹ bi?"
+    },
+    {
+      "key": "t209",
+      "source": "Our therapists are clinically trained psychotherapists working in line with BACP standards. The leadership team has 45+ years of combined clinical experience and over 50,000 clinical hours.",
+      "text": "Awọn oniwosan aisan wa jẹ awọn alamọdaju ti ile-iwosan ti n ṣiṣẹ ni ila pẹlu awọn iṣedede BACP. Ẹgbẹ oludari ni awọn ọdun 45+ ti apapọ iriri ile-iwosan ati ju awọn wakati ile-iwosan 50,000 lọ."
+    },
+    {
+      "key": "t210",
+      "source": "Can I refer a family member or friend?",
+      "text": "Ṣe Mo le tọka si ọmọ ẹgbẹ tabi ọrẹ kan bi?"
+    },
+    {
+      "key": "t211",
+      "source": "Absolutely. We'll always need consent from the person themselves before opening a case. The best first step is to encourage them to email or WhatsApp us directly.",
+      "text": "Nitootọ. A yoo nilo igbanilaaye nigbagbogbo lati ọdọ eniyan funrararẹ ṣaaju ṣiṣi ọran kan. Igbesẹ akọkọ ti o dara julọ ni lati gba wọn niyanju lati imeeli tabi WhatsApp wa taara."
+    },
+    {
+      "key": "t212",
+      "source": "How can I support your work?",
+      "text": "Bawo ni MO ṣe le ṣe atilẹyin iṣẹ rẹ?"
+    },
+    {
+      "key": "t213",
+      "source": "You can donate via Localgiving or PayPal, volunteer your time, follow us on social media, or fundraise on our behalf. Visit the fundraiser section or get in touch and we'll match you to something that suits.",
+      "text": "O le ṣetọrẹ nipasẹ Localgiving tabi PayPal, yọọda akoko rẹ, tẹle wa lori media awujọ, tabi ikowojo fun wa. Ṣabẹwo apakan ikowojo tabi gba ifọwọkan ati pe a yoo baamu rẹ si nkan ti o baamu."
+    },
+    {
+      "key": "t214",
+      "source": "Fundraiser",
+      "text": "Olukoowo"
+    },
+    {
+      "key": "t215",
+      "source": "Ways to fundraise for Floating Counselling.",
+      "text": "Awọn ọna lati ṣe ikowojo fun Floating Counselling."
+    },
+    {
+      "key": "t216",
+      "source": "Fundraising helps keep counselling, food support, holiday school places and community hub sessions accessible for people who need practical and therapeutic care.",
+      "text": "Ikowojo ṣe iranlọwọ lati tọju imọran, atilẹyin ounjẹ, awọn aaye ile-iwe isinmi ati awọn akoko ibudo agbegbe ni iraye si fun awọn eniyan ti o nilo iwulo ati itọju ilera."
+    },
+    {
+      "key": "t217",
+      "source": "Donate via PayPal",
+      "text": "Ṣetọrẹ nipasẹ PayPal"
+    },
+    {
+      "key": "t218",
+      "source": "Donate via Localgiving",
+      "text": "Ṣetọrẹ nipasẹ Localgiving"
+    },
+    {
+      "key": "t219",
+      "source": "Start a fundraiser",
+      "text": "Bẹrẹ ikowojo kan"
+    },
+    {
+      "key": "t220",
+      "source": "Run a personal fundraiser",
+      "text": "Ṣiṣe ikowojo ti ara ẹni"
+    },
+    {
+      "key": "t221",
+      "source": "Use birthdays, challenges or community events to raise funds for counselling and wraparound support.",
+      "text": "Lo awọn ọjọ ibi, awọn italaya tabi awọn iṣẹlẹ agbegbe lati gba owo fun imọran ati atilẹyin ipari."
+    },
+    {
+      "key": "t222",
+      "source": "Workplace or school collection",
+      "text": "Ibi iṣẹ tabi gbigba ile-iwe"
+    },
+    {
+      "key": "t223",
+      "source": "Collect food, essentials, vouchers or donations with your team, school, faith group or local business.",
+      "text": "Gba ounjẹ, awọn nkan pataki, awọn iwe-ẹri tabi awọn ẹbun pẹlu ẹgbẹ rẹ, ile-iwe, ẹgbẹ igbagbọ tabi iṣowo agbegbe."
+    },
+    {
+      "key": "t224",
+      "source": "Sponsor a project",
+      "text": "Onigbowo ise agbese"
+    },
+    {
+      "key": "t225",
+      "source": "Support a hub session, holiday school activity, counselling session or local wellbeing event.",
+      "text": "Ṣe atilẹyin igba ibudo, iṣẹ ile-iwe isinmi, igba igbimọran tabi iṣẹlẹ alafia agbegbe."
+    },
+    {
+      "key": "t226",
+      "source": "Share skills and time",
+      "text": "Pin ogbon ati akoko"
+    },
+    {
+      "key": "t227",
+      "source": "Offer professional skills, event support, transport, mentoring or practical help for local residents.",
+      "text": "Pese awọn ọgbọn alamọdaju, atilẹyin iṣẹlẹ, gbigbe, idamọran tabi iranlọwọ iṣe fun awọn olugbe agbegbe."
+    },
+    {
+      "key": "t228",
+      "source": "Volunteer",
+      "text": "Iyọọda"
+    },
+    {
+      "key": "t229",
+      "source": "Volunteer with Floating Counselling.",
+      "text": "Iyọọda pẹlu Floating Counselling."
+    },
+    {
+      "key": "t230",
+      "source": "Share your time, skills or professional experience to support counselling, community hub sessions, holiday school activities, fundraising and practical outreach.",
+      "text": "Pin akoko rẹ, awọn ọgbọn tabi iriri alamọdaju lati ṣe atilẹyin igbimọran, awọn akoko ibudo agbegbe, awọn iṣẹ ile-iwe isinmi, ikowojo ati ijade to wulo."
+    },
+    {
+      "key": "t231",
+      "source": "Community support",
+      "text": "Atilẹyin agbegbe"
+    },
+    {
+      "key": "t232",
+      "source": "Help residents with food, clothing, forms, signposting, events and welcoming hub sessions.",
+      "text": "Ṣe iranlọwọ fun awọn olugbe pẹlu ounjẹ, aṣọ, awọn fọọmu, fifi ami si, awọn iṣẹlẹ ati awọn akoko ibudo gbigba aabọ."
+    },
+    {
+      "key": "t233",
+      "source": "Skills and projects",
+      "text": "Awọn ogbon ati awọn iṣẹ akanṣe"
+    },
+    {
+      "key": "t234",
+      "source": "Offer mentoring, admin, creative workshops, fundraising, transport, digital support or professional expertise.",
+      "text": "Pese oludamoran, abojuto, awọn idanileko iṣẹda, ikowojo, gbigbe, atilẹyin oni-nọmba tabi oye alamọdaju."
+    },
+    {
+      "key": "t235",
+      "source": "Volunteer applications",
+      "text": "Awọn ohun elo atinuwa"
+    },
+    {
+      "key": "t236",
+      "source": "Monday form",
+      "text": "Monday fọọmu"
+    },
+    {
+      "key": "t237",
+      "source": "Apply to volunteer",
+      "text": "Kan si iyọọda"
+    },
+    {
+      "key": "t238",
+      "source": "Complete the volunteer application so the team can match your time, skills and availability to the right project.",
+      "text": "Pari ohun elo atinuwa ki ẹgbẹ le baamu akoko rẹ, awọn ọgbọn ati wiwa si iṣẹ akanṣe ti o tọ."
+    },
+    {
+      "key": "t239",
+      "source": "Open volunteer form",
+      "text": "Ṣii fọọmu iyọọda"
+    },
+    {
+      "key": "t240",
+      "source": "Get in touch",
+      "text": "Kan si"
+    },
+    {
+      "key": "t241",
+      "source": "We'd love to hear from you.",
+      "text": "A yoo nifẹ lati gbọ lati ọdọ rẹ."
+    },
+    {
+      "key": "t242",
+      "source": "Email, WhatsApp, call or fill in the form. We aim to reply within two working days.",
+      "text": "Imeeli, WhatsApp, pe tabi fọwọsi fọọmu naa. A ṣe ifọkansi lati dahun laarin awọn ọjọ iṣẹ meji."
+    },
+    {
+      "key": "t243",
+      "source": "Email",
+      "text": "Imeeli"
+    },
+    {
+      "key": "t244",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t245",
+      "source": "WhatsApp / Call",
+      "text": "WhatsApp / Ipe"
+    },
+    {
+      "key": "t246",
+      "source": "Visit the Croydon Hub",
+      "text": "Ṣabẹwo ibudo Croydon"
+    },
+    {
+      "key": "t247",
+      "source": "Ashburton Park Cafe Hall, CR0 6RX",
+      "text": "Ashburton Park Cafe Hall, CR0 6RX"
+    },
+    {
+      "key": "t248",
+      "source": "Tuesdays, 12:30 to 2:30pm.",
+      "text": "Tuesday, 12:30 to 2:30 aṣalẹ."
+    },
+    {
+      "key": "t249",
       "source": "Project locations",
       "text": "Awọn ipo ise agbese"
     },
     {
-      "key": "a752",
-      "source": "Social links",
-      "text": "Awujo ìjápọ"
+      "key": "t250",
+      "source": "Separate contact points for Croydon, Redbridge, Durham, Newham and Southwark are listed below.",
+      "text": "Awọn aaye olubasọrọ ọtọtọ fun Croydon, Redbridge, Durham, Newham ati Southwark ti wa ni akojọ si isalẹ."
     },
     {
-      "key": "a753",
-      "source": "Facebook",
-      "text": "Facebook"
+      "key": "t251",
+      "source": "Croydon office",
+      "text": "Croydon ọfiisi"
     },
     {
-      "key": "a754",
-      "source": "Instagram",
-      "text": "Instagram"
+      "key": "t252",
+      "source": "26 Avenue Road",
+      "text": "26 Avenue opopona"
     },
     {
-      "key": "a755",
-      "source": "Twitter / X",
-      "text": "Twitter / X"
+      "key": "t253",
+      "source": "London SE25 4DX",
+      "text": "London SE25 4DX"
     },
     {
-      "key": "a756",
-      "source": "YouTube",
-      "text": "YouTube"
+      "key": "t254",
+      "source": "Open map",
+      "text": "Ṣii maapu"
     },
     {
-      "key": "a757",
-      "source": "Floating Counselling — Home",
-      "text": "Floating Counselling - Ile [[a758]]] Floating Counselling [[a759]]] Awọn ọna asopọ awujọ [[a760]]] Facebook [[a761]]] Instagram [[a762]]] Twitter / X [[a763]]] YouTube [[a764]]] Awọn ipo ise agbese"
+      "key": "t255",
+      "source": "Croydon hub",
+      "text": "ibudo Croydon"
     },
     {
-      "key": "a758",
-      "source": "Floating Counselling",
-      "text": "Lilefoofo Igbaninimoran"
+      "key": "t256",
+      "source": "Ashburton Park Cafe Hall",
+      "text": "Ashburton Park Cafe Hall"
     },
     {
-      "key": "a759",
-      "source": "Social links",
-      "text": "Awujo ìjápọ"
+      "key": "t257",
+      "source": "CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
+      "text": "CR0 6RX. Tuesdays, 12:30 to 2:30 aṣalẹ."
     },
     {
-      "key": "a760",
-      "source": "Facebook",
-      "text": "Facebook"
+      "key": "t258",
+      "source": "Open map",
+      "text": "Ṣii maapu"
     },
     {
-      "key": "a761",
-      "source": "Instagram",
-      "text": "Instagram"
+      "key": "t259",
+      "source": "Redbridge office",
+      "text": "Redbridge ọfiisi"
     },
     {
-      "key": "a762",
-      "source": "Twitter / X",
-      "text": "Twitter / X"
+      "key": "t260",
+      "source": "160-162 Cranbrook Road",
+      "text": "160-162 Cranbrook Road"
     },
     {
-      "key": "a763",
-      "source": "YouTube",
-      "text": "YouTube"
+      "key": "t261",
+      "source": "Ilford IG1 4PE",
+      "text": "Ilford IG1 4PE"
     },
     {
-      "key": "a764",
-      "source": "Project locations",
-      "text": "Awọn ipo ise agbese"
+      "key": "t262",
+      "source": "Open map",
+      "text": "Ṣii maapu"
     },
     {
-      "key": "a765",
-      "source": "Fundraise for Floating Counselling",
-      "text": "Ikowojo fun Floating Counselling [[a766]]] Ṣetọrẹ si Floating Counselling [[a767]]] Pada si oke [[a768]]] Ask Floating [[a769]]] Oluranlọwọ sunmọ"
+      "key": "t263",
+      "source": "Redbridge hub",
+      "text": "ibudo Redbridge"
     },
     {
-      "key": "a766",
-      "source": "Donate to Floating Counselling",
-      "text": "Ṣetọrẹ si Igbaninimoran Lilefoofo"
+      "key": "t264",
+      "source": "Cranbrook House, Suite 7D",
+      "text": "Ile Cranbrook, Suite 7D"
     },
     {
-      "key": "a767",
-      "source": "Back to top",
-      "text": "Pada si oke"
+      "key": "t265",
+      "source": "61 Cranbrook Road, Ilford IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
+      "text": "61 Cranbrook Road, Ilford IG1 4PG. Tuesdays, 11:30am to 1:30pm ayafi awọn isinmi."
     },
     {
-      "key": "a768",
+      "key": "t266",
+      "source": "Open map",
+      "text": "Ṣii maapu"
+    },
+    {
+      "key": "t267",
+      "source": "Durham hub",
+      "text": "ibudo Durham"
+    },
+    {
+      "key": "t268",
+      "source": "30 Wesley Street",
+      "text": "30 Wesley Street"
+    },
+    {
+      "key": "t269",
+      "source": "Durham DL14 8UH",
+      "text": "Durham DL14 8UH"
+    },
+    {
+      "key": "t270",
+      "source": "Open map",
+      "text": "Ṣii maapu"
+    },
+    {
+      "key": "t271",
+      "source": "Southwark hub",
+      "text": "ibudo Southwark"
+    },
+    {
+      "key": "t272",
+      "source": "20 Heaton Road",
+      "text": "20 Heaton Road"
+    },
+    {
+      "key": "t273",
+      "source": "Heaton Road Church, Peckham SE15 3NL. Launching June 2026.",
+      "text": "Heaton Road Ìjọ, Peckham SE15 3NL. Ifilọlẹ Oṣu Kẹfa ọdun 2026."
+    },
+    {
+      "key": "t274",
+      "source": "Open map",
+      "text": "Ṣii maapu"
+    },
+    {
+      "key": "t275",
+      "source": "Newham",
+      "text": "Newham"
+    },
+    {
+      "key": "t276",
+      "source": "Monthly wellbeing support",
+      "text": "Atilẹyin alafia oṣooṣu"
+    },
+    {
+      "key": "t277",
+      "source": "Housing and wellbeing support relaunching July 2026.",
+      "text": "Ibugbe ati atilẹyin alafia ni atunbẹrẹ Keje 2026."
+    },
+    {
+      "key": "t278",
+      "source": "Your name",
+      "text": "Orukọ rẹ"
+    },
+    {
+      "key": "t279",
+      "source": "Email",
+      "text": "Imeeli"
+    },
+    {
+      "key": "t280",
+      "source": "What can we help with?",
+      "text": "Kini a le ṣe iranlọwọ pẹlu?"
+    },
+    {
+      "key": "t281",
+      "source": "Message",
+      "text": "Ifiranṣẹ"
+    },
+    {
+      "key": "t282",
+      "source": "I agree to be contacted in line with the",
+      "text": "Mo ti gba a olubasọrọ ni ila pẹlu awọn"
+    },
+    {
+      "key": "t283",
+      "source": "privacy policy",
+      "text": "ìpamọ eto imulo"
+    },
+    {
+      "key": "t284",
+      "source": "Send message",
+      "text": "Firanṣẹ ifiranṣẹ"
+    },
+    {
+      "key": "t285",
+      "source": "We're here",
+      "text": "A wa nibi"
+    },
+    {
+      "key": "t286",
+      "source": "Whatever you're carrying, you don't carry it alone.",
+      "text": "Ohunkohun ti o ba gbe, iwọ ko gbe nikan."
+    },
+    {
+      "key": "t287",
+      "source": "Whether you need counselling, community support, food, or just someone to talk to. Reach out today. Your first step matters.",
+      "text": "Boya o nilo imọran, atilẹyin agbegbe, ounjẹ, tabi ẹnikan kan lati ba sọrọ. De ọdọ loni. Igbese akọkọ rẹ ṣe pataki."
+    },
+    {
+      "key": "t288",
+      "source": "Email us",
+      "text": "Imeeli wa"
+    },
+    {
+      "key": "t289",
+      "source": "WhatsApp us",
+      "text": "WhatsApp wa"
+    },
+    {
+      "key": "t290",
+      "source": "Donate via PayPal",
+      "text": "Ṣetọrẹ nipasẹ PayPal"
+    },
+    {
+      "key": "t291",
+      "source": "Localgiving",
+      "text": "Localgiving"
+    },
+    {
+      "key": "t292",
+      "source": "Fundraiser",
+      "text": "Olukoowo"
+    },
+    {
+      "key": "t293",
+      "source": "Volunteer",
+      "text": "Iyọọda"
+    },
+    {
+      "key": "t294",
+      "source": "Policies & your privacy",
+      "text": "Awọn eto imulo & asiri rẹ"
+    },
+    {
+      "key": "t295",
+      "source": "How we protect you and your data.",
+      "text": "Bii a ṣe daabobo ọ ati data rẹ."
+    },
+    {
+      "key": "t296",
+      "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
+      "text": "Akopọ Gẹẹsi-Gẹẹsi ti bi a ṣe n ṣakoso alaye rẹ, tọju eniyan lailewu, ati lilo awọn kuki. Fun awọn eto imulo ni kikun tabi eyikeyi ibeere, imeeli"
+    },
+    {
+      "key": "t297",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t298",
+      "source": "Privacy policy",
+      "text": "Ilana asiri"
+    },
+    {
+      "key": "t299",
+      "source": "Who we are.",
+      "text": "Tani awa."
+    },
+    {
+      "key": "t300",
+      "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
+      "text": "Floating Counselling Community jẹ agbari grassroots UK ti n pese imọran ati atilẹyin agbegbe lati ọdun 2015. A n ṣiṣẹ bi AWUJO FLOOATING COUNSELING, ile-iṣẹ ti o ni opin nipasẹ iṣeduro ti a forukọsilẹ ni England ati Wales, nọmba ile-iṣẹ 11334515. A jẹ oludari data fun alaye ti o pin pẹlu wa. Fun awọn ibeere ikọkọ, imeeli"
+    },
+    {
+      "key": "t301",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t302",
+      "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
+      "text": "tabi kọ si ọfiisi Croydon wa ni 26 Avenue Road, London SE25 4DX."
+    },
+    {
+      "key": "t303",
+      "source": "What we collect.",
+      "text": "Ohun ti a gba."
+    },
+    {
+      "key": "t304",
+      "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
+      "text": "Nigbati o ba kan si wa nipasẹ fọọmu ibeere, nipasẹ imeeli tabi WhatsApp, a gba awọn alaye ti o yan lati fun wa - ni igbagbogbo orukọ rẹ, adirẹsi imeeli, koko ti o yan ati ifiranṣẹ rẹ. Ti o ba forukọsilẹ si iwe iroyin wa a gba adirẹsi imeeli rẹ. A ko beere fun alaye ilera-ẹka pataki nipasẹ oju opo wẹẹbu yii; jọwọ pin nikan ohun ti o ni itunu pẹlu."
+    },
+    {
+      "key": "t305",
+      "source": "How we use it, and our lawful basis.",
+      "text": "Bii a ṣe nlo rẹ, ati ipilẹ t’olofin wa."
+    },
+    {
+      "key": "t306",
+      "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
+      "text": "A lo awọn alaye rẹ lati dahun si ọ, pese atilẹyin ti o beere fun, ati ṣiṣe awọn iṣẹ wa (UK GDPR \"igbanilaaye\" ati \"awọn anfani ti o tọ\"). Nibiti a ti ni ojuse lati daabobo ẹnikan, a le ṣe ilana alaye lati pade ọranyan labẹ ofin (wo Aabo)."
+    },
+    {
+      "key": "t307",
+      "source": "Who we share it with.",
+      "text": "Tani a pin pẹlu rẹ."
+    },
+    {
+      "key": "t308",
+      "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
+      "text": "A ko ta data rẹ. A gbẹkẹle nọmba kekere ti awọn olupese iṣẹ ti o gbẹkẹle ti o ṣe iranlọwọ fun wa lati ṣiṣe oju opo wẹẹbu, imeeli, awọn fọọmu, awọn ohun elo atinuwa, awọn ẹbun ati awọn maapu. Olupese kọọkan gba alaye ti o nilo fun iṣẹ yẹn nikan, ati pe ọkọọkan ni akiyesi asiri tirẹ."
+    },
+    {
+      "key": "t309",
+      "source": "Translation.",
+      "text": "Itumọ."
+    },
+    {
+      "key": "t310",
+      "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
+      "text": "Ti o ba tumọ oju-iwe yii, ọrọ oju-iwe loju iboju le jẹ firanṣẹ ni aabo si iṣẹ itumọ kan ki ẹya ti o tumọ le jẹ pada. Itumọ jẹ iyan, awọn ifiranṣẹ fọọmu olubasọrọ kii ṣe itumọ nipasẹ ẹya ara ẹrọ yii, ati pe ọrọ ti a tumọ le jẹ cache ninu ẹrọ aṣawakiri rẹ ki o le yara yiyara nigba miiran."
+    },
+    {
+      "key": "t311",
+      "source": "How long we keep it.",
+      "text": "Bawo ni pipẹ ti a tọju rẹ."
+    },
+    {
+      "key": "t312",
+      "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
+      "text": "A tọju ibeere ati awọn alaye ibeere atilẹyin nikan niwọn igba ti o nilo lati dahun, pese atilẹyin, pade awọn iṣẹ aabo, ati ni ibamu pẹlu awọn adehun ofin tabi iṣiro. Awọn ẹbun ati awọn igbasilẹ iyọọda ni a tọju ni ibamu si olupese ti o yẹ ati awọn ibeere idaduro ofin."
+    },
+    {
+      "key": "t313",
+      "source": "Your rights.",
+      "text": "Awọn ẹtọ rẹ."
+    },
+    {
+      "key": "t314",
+      "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
+      "text": "Labẹ UK GDPR o le beere lati wọle si, ṣe atunṣe, paarẹ tabi ni ihamọ data rẹ, nkan si ṣiṣe, beere gbigbe, tabi yọkuro aṣẹ nigbakugba. Imeeli"
+    },
+    {
+      "key": "t315",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t316",
+      "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
+      "text": "tabi kọ si wa ni 26 Avenue Road, London SE25 4DX. Ti o ko ba ni idunnu pẹlu esi wa o le kerora si ICO ni ico.org.uk."
+    },
+    {
+      "key": "t317",
+      "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
+      "text": "Atunyẹwo ikẹhin: 29 May 2026. Akopọ ti Gẹẹsi-Gẹẹsi ti o ni itara ti pese fun akoyawo ati pe o yẹ ki o ṣayẹwo ni ilodi si awọn ilana kikun ti Floating Counselling Community ṣaaju ikede."
+    },
+    {
+      "key": "t318",
+      "source": "Safeguarding",
+      "text": "Idaabobo"
+    },
+    {
+      "key": "t319",
+      "source": "Our commitment.",
+      "text": "Ifaramo wa."
+    },
+    {
+      "key": "t320",
+      "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
+      "text": "Ailewu ati alafia ti awọn ọmọde, awọn ọdọ ati awọn agbalagba ti o wa ninu ewu ti a ṣiṣẹ pẹlu wa ni akọkọ. Iṣe wa jẹ alaye ibalokanje ati ni ibamu pẹlu awọn iṣedede iṣe BACP."
+    },
+    {
+      "key": "t321",
+      "source": "Confidentiality and its limits.",
+      "text": "Asiri ati awọn ifilelẹ lọ."
+    },
+    {
+      "key": "t322",
+      "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
+      "text": "Ohun ti o pin wa ni idaduro ni idaniloju to muna. Iyatọ jẹ ipo aabo - nibiti eewu ti ipalara nla wa si ọ tabi ẹlomiiran, tabi nibiti a ni ojuṣe labẹ ofin lati ṣe. Nibikibi ti o ba jẹ ailewu lati ṣe bẹ, a yoo sọrọ eyi nipasẹ rẹ akọkọ."
+    },
+    {
+      "key": "t323",
+      "source": "Raising a concern.",
+      "text": "Igbega ibakcdun kan."
+    },
+    {
+      "key": "t324",
+      "source": "If you're worried about someone's safety, contact us at",
+      "text": "Ti o ba ni aniyan nipa aabo ẹnikan, kan si wa ni"
+    },
+    {
+      "key": "t325",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t326",
+      "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
+      "text": "tabi +44 (0)7305 882959. Ti ẹnikan ba wa ninu ewu lẹsẹkẹsẹ, nigbagbogbo pe 999. O tun le kan si NSPCC lori 0808 800 5000, tabi ẹgbẹ aabo ti aṣẹ agbegbe rẹ."
+    },
+    {
+      "key": "t327",
+      "source": "Our people.",
+      "text": "Eniyan wa."
+    },
+    {
+      "key": "t328",
+      "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
+      "text": "Awọn oṣiṣẹ ati awọn oluyọọda ti gba iṣẹ lailewu ati gba awọn sọwedowo DBS nibiti o yẹ si ipa wọn."
+    },
+    {
+      "key": "t329",
+      "source": "Safeguarding lead.",
+      "text": "Asiwaju aabo."
+    },
+    {
+      "key": "t330",
+      "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
+      "text": "Linda Yeboah, Oludari & Oṣiṣẹ Idaabobo. Imeeli"
+    },
+    {
+      "key": "t331",
+      "source": "floatingcounsellinglinda@gmail.com",
+      "text": "floatingcounsellinglinda@gmail.com"
+    },
+    {
+      "key": "t332",
+      "source": "or",
+      "text": "tabi"
+    },
+    {
+      "key": "t333",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t334",
+      "source": ". If someone is in immediate danger, call 999.",
+      "text": ". Ti ẹnikan ba wa ninu ewu lẹsẹkẹsẹ, pe 999."
+    },
+    {
+      "key": "t335",
+      "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
+      "text": "Atunwo ikẹhin: 29 May 2026. Akopọ yii yẹ ki o ṣayẹwo lodi si ilana aabo ni kikun Floating Counselling Community ṣaaju ki o to tẹjade."
+    },
+    {
+      "key": "t336",
+      "source": "Cookies & storage",
+      "text": "Awọn kuki & ibi ipamọ"
+    },
+    {
+      "key": "t337",
+      "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
+      "text": "A tọju awọn kuki si o kere julọ ati pe a ko lo ipolowo tabi titọpa aaye. Aaye naa tọju awọn nkan kekere meji meji sinu ẹrọ aṣawakiri rẹ:"
+    },
+    {
+      "key": "t338",
+      "source": "Cookie consent",
+      "text": "Igbanilaaye kuki"
+    },
+    {
+      "key": "t339",
+      "source": "— remembers that you've seen this notice, so we don't show it every visit.",
+      "text": "— ranti pe o ti rii akiyesi yii, nitorinaa a ko ṣe afihan ni gbogbo ibewo."
+    },
+    {
+      "key": "t340",
+      "source": "Translation cache",
+      "text": "Kaṣe itumọ"
+    },
+    {
+      "key": "t341",
+      "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
+      "text": "- ti o ba tumọ oju-iwe naa, ọrọ ti a tumọ ti wa ni fipamọ ni agbegbe nitoribẹẹ o le di ẹru lẹsẹkẹsẹ ni akoko miiran."
+    },
+    {
+      "key": "t342",
+      "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
+      "text": "Maapu Google ti a fi sinu le ṣeto awọn kuki ti Google nigbati o ba nrù. O le pa gbogbo awọn ti o wa loke kuro nigbakugba nipa yiyọ data aaye aṣawakiri rẹ kuro."
+    },
+    {
+      "key": "t343",
+      "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
+      "text": "Igbaninimoran, agbegbe & aanu, sìn Croydon, Redbridge, Newham, Durham ati Southwark lati ọdun 2015."
+    },
+    {
+      "key": "t344",
+      "source": "Get in touch",
+      "text": "Kan si"
+    },
+    {
+      "key": "t345",
+      "source": "info@floatingcounselling.co.uk",
+      "text": "info@floatingcounselling.co.uk"
+    },
+    {
+      "key": "t346",
+      "source": "WhatsApp · +44 (0)7305 882959",
+      "text": "WhatsApp · +44 (0) 7305 882959"
+    },
+    {
+      "key": "t347",
+      "source": "Croydon Hub · Ashburton Park Cafe Hall",
+      "text": "Ibudo Croydon · Ashburton Park Cafe Hall"
+    },
+    {
+      "key": "t348",
+      "source": "See all project locations",
+      "text": "Wo gbogbo awọn ipo ise agbese"
+    },
+    {
+      "key": "t349",
+      "source": "Fundraiser",
+      "text": "Olukoowo"
+    },
+    {
+      "key": "t350",
+      "source": "Volunteer",
+      "text": "Iyọọda"
+    },
+    {
+      "key": "t351",
+      "source": "Croydon office",
+      "text": "Croydon ọfiisi"
+    },
+    {
+      "key": "t352",
+      "source": "Redbridge office",
+      "text": "Redbridge ọfiisi"
+    },
+    {
+      "key": "t353",
+      "source": "Durham hub",
+      "text": "ibudo Durham"
+    },
+    {
+      "key": "t354",
+      "source": "Southwark hub",
+      "text": "ibudo Southwark"
+    },
+    {
+      "key": "t355",
+      "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
+      "text": "Igbaninimoran lilefoofo™ · ibamu BACP · Ile-iṣẹ No. 11334515 · Community Partner"
+    },
+    {
+      "key": "t356",
+      "source": "Privacy",
+      "text": "Asiri"
+    },
+    {
+      "key": "t357",
+      "source": "Safeguarding",
+      "text": "Idaabobo"
+    },
+    {
+      "key": "t358",
+      "source": "Fundraiser",
+      "text": "Olukoowo"
+    },
+    {
+      "key": "t359",
+      "source": "Donate",
+      "text": "Ṣetọrẹ"
+    },
+    {
+      "key": "t360",
       "source": "Ask Floating",
       "text": "Beere Lilefoofo"
     },
     {
-      "key": "a769",
+      "key": "t361",
+      "source": "Ask Floating",
+      "text": "Beere Lilefoofo"
+    },
+    {
+      "key": "t362",
+      "source": "Choose a quick route",
+      "text": "Yan ipa ọna ti o yara"
+    },
+    {
+      "key": "t363",
+      "source": "If you are not sure which service fits, choose the closest option and we will route you.",
+      "text": "Ti o ko ba ni idaniloju pe iṣẹ wo ni ibamu, yan aṣayan ti o sunmọ julọ ati pe a yoo dari ọ."
+    },
+    {
+      "key": "t364",
+      "source": "Counselling enquiry",
+      "text": "Ìbéèrè Igbaninimoran"
+    },
+    {
+      "key": "t365",
+      "source": "Parenting support",
+      "text": "Atilẹyin obi"
+    },
+    {
+      "key": "t366",
+      "source": "Food or community hub",
+      "text": "Ounjẹ tabi ibudo agbegbe"
+    },
+    {
+      "key": "t367",
+      "source": "Holiday school",
+      "text": "Ile-iwe isinmi"
+    },
+    {
+      "key": "t368",
+      "source": "Fundraiser",
+      "text": "Olukoowo"
+    },
+    {
+      "key": "t369",
+      "source": "Volunteer or partner",
+      "text": "Iyọọda tabi alabaṣepọ"
+    },
+    {
+      "key": "t370",
+      "source": "WhatsApp Floating",
+      "text": "WhatsApp Lilefoofo"
+    },
+    {
+      "key": "t371",
+      "source": "We use a small number of cookies to make this site work and to understand how it's used.",
+      "text": "A lo nọmba kekere ti awọn kuki lati jẹ ki aaye yii ṣiṣẹ ati lati loye bi o ṣe nlo."
+    },
+    {
+      "key": "t372",
+      "source": "More info",
+      "text": "Alaye diẹ sii"
+    },
+    {
+      "key": "t373",
+      "source": "Decline",
+      "text": "Kọ silẹ"
+    },
+    {
+      "key": "t374",
+      "source": "Accept",
+      "text": "Gba"
+    },
+    {
+      "key": "a375",
+      "source": "Primary",
+      "text": "Alakoko"
+    },
+    {
+      "key": "a376",
+      "source": "Floating Counselling — Home",
+      "text": "Floating Counselling - Ile [[a758]]] Floating Counselling [[a759]]] Awọn ọna asopọ awujọ [[a760]]] Facebook [[a761]]] Instagram [[a762]]] Twitter / X [[a763]]] YouTube [[a764]]] Awọn ipo ise agbese"
+    },
+    {
+      "key": "a377",
+      "source": "Floating Counselling",
+      "text": "Lilefoofo Igbaninimoran"
+    },
+    {
+      "key": "a378",
+      "source": "Toggle navigation",
+      "text": "Yipada lilọ kiri"
+    },
+    {
+      "key": "a379",
+      "source": "Counselling conversation at Floating Counselling",
+      "text": "Ibaraẹnisọrọ Igbaninimoran ni Igbaninimoran Lilefoofo"
+    },
+    {
+      "key": "a380",
+      "source": "Scroll to impact",
+      "text": "Yi lọ si ipa"
+    },
+    {
+      "key": "a381",
+      "source": "Our impact",
+      "text": "Ipa wa"
+    },
+    {
+      "key": "a382",
+      "source": "Celestina Oniye-Thomas from Floating Counselling",
+      "text": "Celestina Oniye-Thomas lati Floating Counselling"
+    },
+    {
+      "key": "a383",
+      "source": "Impact Parenting support artwork from Floating Counselling",
+      "text": "Iṣẹ ọnà atilẹyin ti obi ti o ni ipa lati Igbaninimoran Lilefoofo"
+    },
+    {
+      "key": "a384",
+      "source": "Floating Counselling community organisation impact infographic",
+      "text": "Lilefoofo Igbaninimoran awujo agbari ikolu infographic"
+    },
+    {
+      "key": "a385",
+      "source": "Holiday school values",
+      "text": "Awọn iye ile-iwe isinmi"
+    },
+    {
+      "key": "a386",
+      "source": "Holiday school week 1 newsletter",
+      "text": "Isinmi ile-iwe ọsẹ 1 iwe iroyin"
+    },
+    {
+      "key": "a387",
+      "source": "Floating Community Hub community gathering",
+      "text": "Apejọ Agbegbe Agbegbe Lilefoofo [[a740]]] Celestina Oniye-Thomas [[a741]]] Omowonu-Ola Ogunlela [[a742]]] Elizabeth Owode [[a743]]] Linda Yeboah [[a744]]] Ẹka fun Ẹkọ"
+    },
+    {
+      "key": "a388",
+      "source": "Celestina Oniye-Thomas",
+      "text": "Celestina Oniye-Thomas"
+    },
+    {
+      "key": "a389",
+      "source": "Omowonu-Ola Ogunlela",
+      "text": "Omowonu-Ola Ogunlela"
+    },
+    {
+      "key": "a390",
+      "source": "Elizabeth Owode",
+      "text": "Elizabeth Owode"
+    },
+    {
+      "key": "a391",
+      "source": "Linda Yeboah",
+      "text": "Linda Yeboah"
+    },
+    {
+      "key": "a392",
+      "source": "Department for Education",
+      "text": "Ẹka fun Education"
+    },
+    {
+      "key": "a393",
+      "source": "Croydon Council",
+      "text": "Igbimọ Croydon"
+    },
+    {
+      "key": "a394",
+      "source": "South West London CCGs",
+      "text": "South West London CCGs"
+    },
+    {
+      "key": "a395",
+      "source": "The National Lottery Community Fund",
+      "text": "National lotiri Community Fund [[a748]]] BME Forum [[a749]]] Croydon Atinuwa Ise [[a750]]] Fọọmu ohun elo oluyọọda [[a751]]] Awọn ipo ise agbese [[a752]]] Awọn ọna asopọ awujọ [[a753]]] Facebook [[a754]]] Instagram [[a755]]] Twitter / X [[a756]]] YouTube"
+    },
+    {
+      "key": "a396",
+      "source": "BME Forum",
+      "text": "BME Forum"
+    },
+    {
+      "key": "a397",
+      "source": "Croydon Voluntary Action",
+      "text": "Croydon Voluntary Action"
+    },
+    {
+      "key": "a398",
+      "source": "Volunteer application form",
+      "text": "Fọọmu ohun elo iyọọda"
+    },
+    {
+      "key": "a399",
+      "source": "Project locations",
+      "text": "Awọn ipo ise agbese"
+    },
+    {
+      "key": "a400",
+      "source": "Social links",
+      "text": "Awujo ìjápọ"
+    },
+    {
+      "key": "a401",
+      "source": "Facebook",
+      "text": "Facebook"
+    },
+    {
+      "key": "a402",
+      "source": "Instagram",
+      "text": "Instagram"
+    },
+    {
+      "key": "a403",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a404",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a405",
+      "source": "Floating Counselling — Home",
+      "text": "Floating Counselling - Ile [[a758]]] Floating Counselling [[a759]]] Awọn ọna asopọ awujọ [[a760]]] Facebook [[a761]]] Instagram [[a762]]] Twitter / X [[a763]]] YouTube [[a764]]] Awọn ipo ise agbese"
+    },
+    {
+      "key": "a406",
+      "source": "Floating Counselling",
+      "text": "Lilefoofo Igbaninimoran"
+    },
+    {
+      "key": "a407",
+      "source": "Social links",
+      "text": "Awujo ìjápọ"
+    },
+    {
+      "key": "a408",
+      "source": "Facebook",
+      "text": "Facebook"
+    },
+    {
+      "key": "a409",
+      "source": "Instagram",
+      "text": "Instagram"
+    },
+    {
+      "key": "a410",
+      "source": "Twitter / X",
+      "text": "Twitter / X"
+    },
+    {
+      "key": "a411",
+      "source": "YouTube",
+      "text": "YouTube"
+    },
+    {
+      "key": "a412",
+      "source": "Project locations",
+      "text": "Awọn ipo ise agbese"
+    },
+    {
+      "key": "a413",
+      "source": "Fundraise for Floating Counselling",
+      "text": "Ikowojo fun Floating Counselling [[a766]]] Ṣetọrẹ si Floating Counselling [[a767]]] Pada si oke [[a768]]] Ask Floating [[a769]]] Oluranlọwọ sunmọ"
+    },
+    {
+      "key": "a414",
+      "source": "Donate to Floating Counselling",
+      "text": "Ṣetọrẹ si Igbaninimoran Lilefoofo"
+    },
+    {
+      "key": "a415",
+      "source": "Back to top",
+      "text": "Pada si oke"
+    },
+    {
+      "key": "a416",
+      "source": "Ask Floating",
+      "text": "Beere Lilefoofo"
+    },
+    {
+      "key": "a417",
       "source": "Close assistant",
       "text": "Oluranlọwọ sunmọ"
     },
     {
-      "key": "a770",
+      "key": "a418",
       "source": "Cookie notice",
       "text": "Akiyesi kukisi"
     }

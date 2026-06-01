@@ -2,9 +2,9 @@
   "language": "ur",
   "languageName": "Urdu",
   "sourceLanguage": "en",
-  "sourceHash": "oouxuf",
-  "sourceUrl": "http://127.0.0.1:63690/",
-  "generatedAt": "2026-05-30T10:25:07.414Z",
+  "sourceHash": "sym184",
+  "sourceUrl": "http://127.0.0.1:55223/",
+  "generatedAt": "2026-06-01T22:06:19.143Z",
   "translations": [
     {
       "key": "t0",
@@ -78,3786 +78,2026 @@
     },
     {
       "key": "t14",
-      "source": "Compassion.",
-      "text": "ہمدردی۔"
+      "source": "& Compassion.",
+      "text": "اور ہمدردی۔"
     },
     {
       "key": "t15",
-      "source": "A",
-      "text": "] اے"
+      "source": "A UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care, practical help and community-driven programmes designed as wraparound care.",
+      "text": "ایک UK پر مبنی نچلی سطح پر خیراتی ادارہ جو افراد، خاندانوں اور پسماندہ گروہوں کو مکمل مدد، علاج معالجے، عملی مدد اور کمیونٹی سے چلنے والے پروگراموں کے ذریعے بااختیار بناتا ہے جسے لفافے کی دیکھ بھال کے طور پر ڈیزائن کیا گیا ہے۔"
     },
     {
       "key": "t16",
-      "source": "UK-based",
-      "text": "UK پر مبنی"
-    },
-    {
-      "key": "t17",
-      "source": "grassroots",
-      "text": "نچلی سطح پر"
-    },
-    {
-      "key": "t18",
-      "source": "charity",
-      "text": "صدقہ"
-    },
-    {
-      "key": "t19",
-      "source": "empowering",
-      "text": "بااختیار بنانا"
-    },
-    {
-      "key": "t20",
-      "source": "individuals,",
-      "text": "افراد،"
-    },
-    {
-      "key": "t21",
-      "source": "families",
-      "text": "خاندان"
-    },
-    {
-      "key": "t22",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t23",
-      "source": "marginalised",
-      "text": "پسماندہ"
-    },
-    {
-      "key": "t24",
-      "source": "groups",
-      "text": "گروپس"
-    },
-    {
-      "key": "t25",
-      "source": "through",
-      "text": "کے ذریعے"
-    },
-    {
-      "key": "t26",
-      "source": "holistic",
-      "text": "مجموعی"
-    },
-    {
-      "key": "t27",
-      "source": "support,",
-      "text": "سپورٹ،"
-    },
-    {
-      "key": "t28",
-      "source": "therapeutic",
-      "text": "علاج معالجہ"
-    },
-    {
-      "key": "t29",
-      "source": "care,",
-      "text": "دیکھ بھال،"
-    },
-    {
-      "key": "t30",
-      "source": "practical",
-      "text": "] عملی"
-    },
-    {
-      "key": "t31",
-      "source": "help",
-      "text": "مدد"
-    },
-    {
-      "key": "t32",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t33",
-      "source": "community-driven",
-      "text": "کمیونٹی سے چلنے والا"
-    },
-    {
-      "key": "t34",
-      "source": "programmes",
-      "text": "پروگرام"
-    },
-    {
-      "key": "t35",
-      "source": "designed",
-      "text": "ڈیزائن کیا گیا۔"
-    },
-    {
-      "key": "t36",
-      "source": "as",
-      "text": "بطور"
-    },
-    {
-      "key": "t37",
-      "source": "wraparound",
-      "text": "لپیٹنا"
-    },
-    {
-      "key": "t38",
-      "source": "care.",
-      "text": "] دیکھ بھال۔"
-    },
-    {
-      "key": "t39",
       "source": "Book a Session",
       "text": "ایک سیشن بک کرو"
     },
     {
-      "key": "t40",
+      "key": "t17",
       "source": "Find the right support",
       "text": "صحیح سپورٹ تلاش کریں۔"
     },
     {
-      "key": "t41",
+      "key": "t18",
       "source": "CO",
       "text": "CO"
     },
     {
-      "key": "t42",
+      "key": "t19",
       "source": "OO",
       "text": "اوہ"
     },
     {
-      "key": "t43",
+      "key": "t20",
       "source": "EO",
       "text": "ای او"
     },
     {
-      "key": "t44",
+      "key": "t21",
       "source": "LY",
       "text": "LY"
     },
     {
-      "key": "t45",
+      "key": "t22",
       "source": "Led by four women directors with clinical training, lived experience and deep community roots.",
       "text": "کلینکل ٹریننگ، زندہ تجربہ اور گہری کمیونٹی کی جڑیں رکھنے والی چار خواتین ڈائریکٹرز کی قیادت میں۔"
     },
     {
-      "key": "t46",
+      "key": "t23",
       "source": "Trauma-informed",
       "text": "صدمے سے آگاہ"
     },
     {
-      "key": "t47",
+      "key": "t24",
       "source": "Care that meets you where you are",
       "text": "دیکھ بھال جو آپ سے ملتی ہے جہاں آپ ہیں۔"
     },
     {
-      "key": "t48",
+      "key": "t25",
       "source": "5 project areas",
       "text": "5 پروجیکٹ کے علاقے"
     },
     {
-      "key": "t49",
+      "key": "t26",
       "source": "Croydon · Redbridge · Newham · Durham · Southwark",
       "text": "Croydon · Redbridge · Newham · Durham · Southwark"
     },
     {
-      "key": "t50",
+      "key": "t27",
       "source": "Scroll",
       "text": "سکرول کریں۔"
     },
     {
-      "key": "t51",
+      "key": "t28",
       "source": "Find the right support",
       "text": "صحیح سپورٹ تلاش کریں۔"
     },
     {
-      "key": "t52",
-      "source": "Choose",
-      "text": "منتخب کریں۔"
+      "key": "t29",
+      "source": "Choose the help you need today.",
+      "text": "آج آپ کو درکار مدد کا انتخاب کریں۔"
     },
     {
-      "key": "t53",
-      "source": "the",
-      "text": "the"
+      "key": "t30",
+      "source": "Tell us what feels most urgent and we will point you towards the right support, whether that starts with therapy, practical help, family work or a partnership conversation.",
+      "text": "ہمیں بتائیں کہ کون سی چیز سب سے زیادہ ضروری محسوس ہوتی ہے اور ہم آپ کو صحیح مدد کی طرف اشارہ کریں گے، چاہے وہ تھراپی، عملی مدد، خاندانی کام یا شراکتی گفتگو سے شروع ہو۔"
     },
     {
-      "key": "t54",
-      "source": "help",
-      "text": "مدد"
-    },
-    {
-      "key": "t55",
-      "source": "you",
-      "text": "آپ"
-    },
-    {
-      "key": "t56",
-      "source": "need",
-      "text": "کی ضرورت ہے۔"
-    },
-    {
-      "key": "t57",
-      "source": "today.",
-      "text": "آج۔"
-    },
-    {
-      "key": "t58",
-      "source": "Tell",
-      "text": "بتائیں"
-    },
-    {
-      "key": "t59",
-      "source": "us",
-      "text": "ہم"
-    },
-    {
-      "key": "t60",
-      "source": "what",
-      "text": "] کیا"
-    },
-    {
-      "key": "t61",
-      "source": "feels",
-      "text": "محسوس ہوتا ہے۔"
-    },
-    {
-      "key": "t62",
-      "source": "most",
-      "text": "زیادہ تر"
-    },
-    {
-      "key": "t63",
-      "source": "urgent",
-      "text": "فوری"
-    },
-    {
-      "key": "t64",
-      "source": "and",
-      "text": "] اور"
-    },
-    {
-      "key": "t65",
-      "source": "we",
-      "text": "ہم"
-    },
-    {
-      "key": "t66",
-      "source": "will",
-      "text": "] کرے گا۔"
-    },
-    {
-      "key": "t67",
-      "source": "point",
-      "text": "پوائنٹ"
-    },
-    {
-      "key": "t68",
-      "source": "you",
-      "text": "آپ"
-    },
-    {
-      "key": "t69",
-      "source": "towards",
-      "text": "کی طرف"
-    },
-    {
-      "key": "t70",
-      "source": "the",
-      "text": "the"
-    },
-    {
-      "key": "t71",
-      "source": "right",
-      "text": "صحیح"
-    },
-    {
-      "key": "t72",
-      "source": "support,",
-      "text": "سپورٹ،"
-    },
-    {
-      "key": "t73",
-      "source": "whether",
-      "text": "چاہے"
-    },
-    {
-      "key": "t74",
-      "source": "that",
-      "text": "وہ"
-    },
-    {
-      "key": "t75",
-      "source": "starts",
-      "text": "شروع ہوتا ہے۔"
-    },
-    {
-      "key": "t76",
-      "source": "with",
-      "text": "کے ساتھ"
-    },
-    {
-      "key": "t77",
-      "source": "therapy,",
-      "text": "تھراپی،"
-    },
-    {
-      "key": "t78",
-      "source": "practical",
-      "text": "] عملی"
-    },
-    {
-      "key": "t79",
-      "source": "help,",
-      "text": "مدد،"
-    },
-    {
-      "key": "t80",
-      "source": "family",
-      "text": "خاندان"
-    },
-    {
-      "key": "t81",
-      "source": "work",
-      "text": "کام"
-    },
-    {
-      "key": "t82",
-      "source": "or",
-      "text": "یا"
-    },
-    {
-      "key": "t83",
-      "source": "a",
-      "text": "] a"
-    },
-    {
-      "key": "t84",
-      "source": "partnership",
-      "text": "شراکت داری"
-    },
-    {
-      "key": "t85",
-      "source": "conversation.",
-      "text": "گفتگو۔"
-    },
-    {
-      "key": "t86",
+      "key": "t31",
       "source": "Therapy",
       "text": "تھراپی"
     },
     {
-      "key": "t87",
+      "key": "t32",
       "source": "I need counselling",
       "text": "مجھے مشاورت کی ضرورت ہے۔"
     },
     {
-      "key": "t88",
+      "key": "t33",
       "source": "Start with one-to-one, family, couple, group, online or in-person therapeutic support.",
       "text": "ایک سے ایک، خاندان، جوڑے، گروپ، آن لائن یا ذاتی طور پر علاج معالجے کے ساتھ شروع کریں۔"
     },
     {
-      "key": "t89",
+      "key": "t34",
       "source": "Book a session",
       "text": "ایک سیشن بک کرو"
     },
     {
-      "key": "t90",
+      "key": "t35",
       "source": "Family",
       "text": "خاندان"
     },
     {
-      "key": "t91",
+      "key": "t36",
       "source": "I need parenting support",
       "text": "مجھے والدین کی مدد کی ضرورت ہے۔"
     },
     {
-      "key": "t92",
+      "key": "t37",
       "source": "Get practical tools for behaviour, attachment, trauma recovery and family confidence.",
       "text": "برتاؤ، اٹیچمنٹ، صدمے سے نجات اور خاندان کے اعتماد کے لیے عملی ٹولز حاصل کریں۔"
     },
     {
-      "key": "t93",
+      "key": "t38",
       "source": "View parenting help",
       "text": "والدین کی مدد دیکھیں"
     },
     {
-      "key": "t94",
+      "key": "t39",
       "source": "Community",
       "text": "کمیونٹی"
     },
     {
-      "key": "t95",
+      "key": "t40",
       "source": "I need practical help",
       "text": "مجھے عملی مدد کی ضرورت ہے۔"
     },
     {
-      "key": "t96",
+      "key": "t41",
       "source": "Use the hub for food, clothing, forms, housing questions, bills help, digital inclusion and wellbeing support.",
       "text": "خوراک، لباس، فارم، رہائش کے سوالات، بلوں میں مدد، ڈیجیٹل شمولیت اور فلاح و بہبود کے لیے مرکز کا استعمال کریں۔"
     },
     {
-      "key": "t97",
+      "key": "t42",
       "source": "Visit the hub",
       "text": "مرکز کا دورہ کریں۔"
     },
     {
-      "key": "t98",
+      "key": "t43",
       "source": "Partners",
       "text": "شراکت دار"
     },
     {
-      "key": "t99",
+      "key": "t44",
       "source": "I want to volunteer or partner",
       "text": "میں رضاکار یا ساتھی بننا چاہتا ہوں۔ کھانے کے عطیات، فنڈنگ، فنڈ ریزنگ، مہارتوں، تقریبات یا پیشہ ورانہ مدد کے ذریعے مقامی باشندوں کی مدد کریں۔"
     },
     {
-      "key": "t100",
+      "key": "t45",
       "source": "Support local residents through food donations, funding, fundraising, skills, events or professional help.",
       "text": "کھانے کے عطیات، فنڈنگ، فنڈ ریزنگ، ہنر، تقریبات یا پیشہ ورانہ مدد کے ذریعے مقامی باشندوں کی مدد کریں۔"
     },
     {
-      "key": "t101",
+      "key": "t46",
       "source": "Volunteer with us",
       "text": "ہمارے ساتھ رضاکارانہ خدمات انجام دیں۔"
     },
     {
-      "key": "t102",
+      "key": "t47",
       "source": "Not sure where to start?",
       "text": "یقین نہیں ہے کہ کہاں سے شروع کیا جائے؟"
     },
     {
-      "key": "t103",
+      "key": "t48",
       "source": "Tap Ask Floating to find the right service, or send one WhatsApp message and we will route you.",
       "text": "صحیح سروس تلاش کرنے کے لیے Ask Floating کو تھپتھپائیں، یا ایک WhatsApp پیغام بھیجیں اور ہم آپ کو روٹ کریں گے۔"
     },
     {
-      "key": "t104",
+      "key": "t49",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t105",
-      "source": "A",
-      "text": "] اے"
+      "key": "t50",
+      "source": "A decade of grassroots care, by the numbers.",
+      "text": "نچلی سطح کی دیکھ بھال کی ایک دہائی، تعداد کے لحاظ سے۔"
     },
     {
-      "key": "t106",
-      "source": "decade",
-      "text": "] دہائی"
-    },
-    {
-      "key": "t107",
-      "source": "of",
-      "text": "of"
-    },
-    {
-      "key": "t108",
-      "source": "grassroots",
-      "text": "نچلی سطح پر"
-    },
-    {
-      "key": "t109",
-      "source": "care,",
-      "text": "دیکھ بھال،"
-    },
-    {
-      "key": "t110",
-      "source": "by",
-      "text": "بذریعہ"
-    },
-    {
-      "key": "t111",
-      "source": "the",
-      "text": "the"
-    },
-    {
-      "key": "t112",
-      "source": "numbers.",
-      "text": "نمبر۔"
-    },
-    {
-      "key": "t113",
+      "key": "t51",
       "source": "Counselling sessions delivered",
       "text": "مشاورتی سیشنز کی فراہمی"
     },
     {
-      "key": "t114",
+      "key": "t52",
       "source": "Clinical hours of care",
       "text": "دیکھ بھال کے کلینیکل گھنٹے"
     },
     {
-      "key": "t115",
+      "key": "t53",
       "source": "Combined clinical experience",
       "text": "مشترکہ طبی تجربہ"
     },
     {
-      "key": "t116",
+      "key": "t54",
       "source": "Children supported through holiday school",
       "text": "چھٹی والے اسکول کے ذریعے بچوں کی مدد کی جاتی ہے۔"
     },
     {
-      "key": "t117",
+      "key": "t55",
       "source": "Continuous service to community",
       "text": "کمیونٹی کی مسلسل خدمت"
     },
     {
-      "key": "t118",
+      "key": "t56",
       "source": "Practical community support and therapeutic care sit together, so people can stabilise today and grow tomorrow.",
       "text": "عملی کمیونٹی سپورٹ اور علاج معالجے ایک ساتھ بیٹھتے ہیں، تاکہ لوگ آج مستحکم ہو سکیں اور کل ترقی کر سکیں۔"
     },
     {
-      "key": "t119",
+      "key": "t57",
       "source": "What we offer",
       "text": "جو ہم پیش کرتے ہیں۔"
     },
     {
-      "key": "t120",
-      "source": "Core",
-      "text": "کور"
+      "key": "t58",
+      "source": "Core support, without the maze.",
+      "text": "بنیادی حمایت، بھولبلییا کے بغیر."
     },
     {
-      "key": "t121",
-      "source": "support,",
-      "text": "سپورٹ،"
+      "key": "t59",
+      "source": "Start with the kind of help you need most. We will route you to the right person from there.",
+      "text": "اس قسم کی مدد کے ساتھ شروع کریں جس کی آپ کو سب سے زیادہ ضرورت ہے۔ ہم آپ کو وہاں سے صحیح شخص تک پہنچائیں گے۔"
     },
     {
-      "key": "t122",
-      "source": "without",
-      "text": "بغیر"
-    },
-    {
-      "key": "t123",
-      "source": "the",
-      "text": "the"
-    },
-    {
-      "key": "t124",
-      "source": "maze.",
-      "text": "بھولبلییا۔"
-    },
-    {
-      "key": "t125",
-      "source": "Start",
-      "text": "شروع کریں۔"
-    },
-    {
-      "key": "t126",
-      "source": "with",
-      "text": "کے ساتھ"
-    },
-    {
-      "key": "t127",
-      "source": "the",
-      "text": "the"
-    },
-    {
-      "key": "t128",
-      "source": "kind",
-      "text": "قسم"
-    },
-    {
-      "key": "t129",
-      "source": "of",
-      "text": "of"
-    },
-    {
-      "key": "t130",
-      "source": "help",
-      "text": "مدد"
-    },
-    {
-      "key": "t131",
-      "source": "you",
-      "text": "آپ"
-    },
-    {
-      "key": "t132",
-      "source": "need",
-      "text": "کی ضرورت ہے۔"
-    },
-    {
-      "key": "t133",
-      "source": "most.",
-      "text": "زیادہ تر۔"
-    },
-    {
-      "key": "t134",
-      "source": "We",
-      "text": "ہم"
-    },
-    {
-      "key": "t135",
-      "source": "will",
-      "text": "کرے گا۔"
-    },
-    {
-      "key": "t136",
-      "source": "route",
-      "text": "راستہ"
-    },
-    {
-      "key": "t137",
-      "source": "you",
-      "text": "آپ"
-    },
-    {
-      "key": "t138",
-      "source": "to",
-      "text": "سے"
-    },
-    {
-      "key": "t139",
-      "source": "the",
-      "text": "the"
-    },
-    {
-      "key": "t140",
-      "source": "right",
-      "text": "صحیح"
-    },
-    {
-      "key": "t141",
-      "source": "person",
-      "text": "شخص"
-    },
-    {
-      "key": "t142",
-      "source": "from",
-      "text": "سے"
-    },
-    {
-      "key": "t143",
-      "source": "there.",
-      "text": "وہاں۔"
-    },
-    {
-      "key": "t144",
+      "key": "t60",
       "source": "Counselling & Mentoring",
       "text": "مشاورت اور رہنمائی"
     },
     {
-      "key": "t145",
+      "key": "t61",
       "source": "Over 15,000 one-to-one, group, couple and family therapy sessions delivered by qualified psychotherapists. In-person across our project boroughs and online, with free and low-cost care for elderly, Universal Credit and low-income clients.",
       "text": "15,000 سے زیادہ ون ٹو ون، گروپ، جوڑے اور فیملی تھیراپی سیشن جو کوالیفائیڈ سائیکو تھراپسٹس کے ذریعے فراہم کیے گئے۔ بوڑھوں، یونیورسل کریڈٹ اور کم آمدنی والے کلائنٹس کے لیے مفت اور کم لاگت کی دیکھ بھال کے ساتھ، ہمارے پراجیکٹ بورو اور آن لائن میں ذاتی طور پر۔"
     },
     {
-      "key": "t146",
+      "key": "t62",
       "source": "Get started",
       "text": "شروع کریں۔"
     },
     {
-      "key": "t147",
+      "key": "t63",
       "source": "Impact Parenting",
       "text": "Impact Parenting"
     },
     {
-      "key": "t148",
+      "key": "t64",
       "source": "Workshops, 1:1 mentoring and group programmes for parents, including therapeutic camps, the Impact Parenting Pillar training and a private support group.",
       "text": "والدین کے لیے ورکشاپس، 1:1 رہنمائی اور گروپ پروگرام، بشمول علاج کے کیمپ، Impact Parenting Pillar ٹریننگ اور ایک پرائیویٹ سپورٹ گروپ۔"
     },
     {
-      "key": "t149",
+      "key": "t65",
       "source": "Learn more",
       "text": "مزید جانیں۔"
     },
     {
-      "key": "t150",
+      "key": "t66",
       "source": "Floating Community Hub",
       "text": "فلوٹنگ کمیونٹی حب"
     },
     {
-      "key": "t151",
+      "key": "t67",
       "source": "A weekly Croydon hub at Ashburton Park Cafe Hall, plus community projects in Redbridge, Newham, Durham and Southwark, offering practical support, wellbeing services and advocacy.",
       "text": "Ashburton Park Cafe Hall پر ہفتہ وار Croydon مرکز، نیز Redbridge، Newham، Durham اور Southwark میں کمیونٹی پروجیکٹس، عملی مدد اور فلاح و بہبود کی خدمات پیش کرتے ہیں۔"
     },
     {
-      "key": "t152",
+      "key": "t68",
       "source": "Find out more",
       "text": "مزید معلومات حاصل کریں۔"
     },
     {
-      "key": "t153",
+      "key": "t69",
       "source": "Holiday School & Camps",
       "text": "ہالیڈے اسکول اور کیمپس"
     },
     {
-      "key": "t154",
+      "key": "t70",
       "source": "Art therapy, music, play therapy and psychological techniques for children aged 5 to 11. Over 1,400 children registered across recent programmes.",
       "text": "5 سے 11 سال کی عمر کے بچوں کے لیے آرٹ تھراپی، میوزک، پلے تھراپی اور نفسیاتی تکنیک۔ حالیہ پروگراموں میں 1,400 سے زیادہ بچے رجسٹرڈ ہوئے۔"
     },
     {
-      "key": "t155",
+      "key": "t71",
       "source": "Register",
       "text": "رجسٹر کریں۔"
     },
     {
-      "key": "t156",
+      "key": "t72",
       "source": "Food Bank & Essentials",
       "text": "فوڈ بینک اور ضروری اشیاء ان افراد اور خاندانوں کے لیے جنہیں فوری مدد کی ضرورت ہے، ہفتہ وار عطیہ کردہ خوراک، کپڑے اور عملی لوازمات۔"
     },
     {
-      "key": "t157",
+      "key": "t73",
       "source": "Weekly donated food, clothes and practical essentials for individuals and families who need immediate support.",
       "text": "ان افراد اور خاندانوں کے لیے جن کو فوری مدد کی ضرورت ہے، ہفتہ وار عطیہ کردہ خوراک، کپڑے اور عملی لوازمات۔"
     },
     {
-      "key": "t158",
+      "key": "t74",
       "source": "Visit the hub",
       "text": "مرکز کا دورہ کریں۔"
     },
     {
-      "key": "t159",
+      "key": "t75",
       "source": "Financial Literacy & Employment Support",
       "text": "مالی خواندگی اور روزگار کی معاونت"
     },
     {
-      "key": "t160",
+      "key": "t76",
       "source": "Budgeting, employment confidence, skills support and enterprise guidance for people rebuilding stability.",
       "text": "بجٹ سازی، روزگار کا اعتماد، مہارت کی حمایت اور استحکام کی تعمیر نو کرنے والے لوگوں کے لیے انٹرپرائز گائیڈنس۔"
     },
     {
-      "key": "t161",
+      "key": "t77",
       "source": "Ask about support",
       "text": "سپورٹ کے بارے میں پوچھیں۔"
     },
     {
-      "key": "t162",
+      "key": "t78",
       "source": "Since",
       "text": "چونکہ"
     },
     {
-      "key": "t163",
+      "key": "t79",
       "source": "Serving Croydon, Redbridge, Newham, Durham & Southwark",
       "text": "پیش کرنا Croydon, Redbridge, Newham, Durham اور Southwark"
     },
     {
-      "key": "t164",
+      "key": "t80",
       "source": "Who we are",
       "text": "ہم کون ہیں۔"
     },
     {
-      "key": "t165",
-      "source": "Wraparound",
-      "text": "لپیٹنا"
+      "key": "t81",
+      "source": "Wraparound care, rooted in community.",
+      "text": "لپیٹ کی دیکھ بھال، کمیونٹی میں جڑیں."
     },
     {
-      "key": "t166",
-      "source": "care,",
-      "text": "دیکھ بھال،"
+      "key": "t82",
+      "source": "Inspired by Maslow's hierarchy of needs, we meet people where they are emotionally, practically and socially to create lasting change and personal growth.",
+      "text": "مسلو کی ضروریات کے درجہ بندی سے متاثر ہو کر، ہم ایسے لوگوں سے ملتے ہیں جہاں وہ جذباتی، عملی اور سماجی طور پر پائیدار تبدیلی اور ذاتی ترقی کے لیے ہوتے ہیں۔"
     },
     {
-      "key": "t167",
-      "source": "rooted",
-      "text": "جڑیں"
-    },
-    {
-      "key": "t168",
-      "source": "in",
-      "text": "میں"
-    },
-    {
-      "key": "t169",
-      "source": "community.",
-      "text": "کمیونٹی۔"
-    },
-    {
-      "key": "t170",
-      "source": "Inspired",
-      "text": "متاثر"
-    },
-    {
-      "key": "t171",
-      "source": "by",
-      "text": "بذریعہ"
-    },
-    {
-      "key": "t172",
-      "source": "Maslow's",
-      "text": "مسلو کا"
-    },
-    {
-      "key": "t173",
-      "source": "hierarchy",
-      "text": "درجہ بندی"
-    },
-    {
-      "key": "t174",
-      "source": "of",
-      "text": "of"
-    },
-    {
-      "key": "t175",
-      "source": "needs,",
-      "text": "ضروریات،"
-    },
-    {
-      "key": "t176",
-      "source": "we",
-      "text": "ہم"
-    },
-    {
-      "key": "t177",
-      "source": "meet",
-      "text": "ملیں۔"
-    },
-    {
-      "key": "t178",
-      "source": "people",
-      "text": "] لوگ"
-    },
-    {
-      "key": "t179",
-      "source": "where",
-      "text": "] جہاں"
-    },
-    {
-      "key": "t180",
-      "source": "they",
-      "text": "وہ"
-    },
-    {
-      "key": "t181",
-      "source": "are",
-      "text": "ہیں۔"
-    },
-    {
-      "key": "t182",
-      "source": "emotionally,",
-      "text": "جذباتی طور پر،"
-    },
-    {
-      "key": "t183",
-      "source": "practically",
-      "text": "] عملی طور پر"
-    },
-    {
-      "key": "t184",
-      "source": "and",
-      "text": "] اور"
-    },
-    {
-      "key": "t185",
-      "source": "socially",
-      "text": "سماجی طور پر"
-    },
-    {
-      "key": "t186",
-      "source": "to",
-      "text": "سے"
-    },
-    {
-      "key": "t187",
-      "source": "create",
-      "text": "بنائیں"
-    },
-    {
-      "key": "t188",
-      "source": "lasting",
-      "text": "دیرپا"
-    },
-    {
-      "key": "t189",
-      "source": "change",
-      "text": "تبدیلی"
-    },
-    {
-      "key": "t190",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t191",
-      "source": "personal",
-      "text": "ذاتی"
-    },
-    {
-      "key": "t192",
-      "source": "growth.",
-      "text": "ترقی۔"
-    },
-    {
-      "key": "t193",
+      "key": "t83",
       "source": "We are proudly led by a diverse team of African women, whose lived experience and professional expertise shape every part of our work.",
       "text": "ہم فخر کے ساتھ افریقی خواتین کی ایک متنوع ٹیم کی قیادت کر رہے ہیں، جن کا زندہ تجربہ اور پیشہ ورانہ مہارت ہمارے کام کے ہر حصے کو تشکیل دیتی ہے۔"
     },
     {
-      "key": "t194",
+      "key": "t84",
       "source": "Our founder, Celestina Oniye-Thomas, knows this work from the inside. After surviving childhood trauma and a spinal injury at sixteen that doctors thought would stop her walking, she taught herself to walk again, retrained as an integrative psychotherapist, and built Floating so families could find the healing she had to fight for.",
       "text": "ہمارے بانی، Celestina Oniye-Thomas، اس کام کو اندر سے جانتے ہیں۔ بچپن کے صدمے اور سولہ سال کی عمر میں ریڑھ کی ہڈی کی چوٹ سے بچنے کے بعد جس کے بارے میں ڈاکٹروں کا خیال تھا کہ اس کا چلنا بند ہو جائے گا، اس نے خود کو دوبارہ چلنا سکھایا، ایک مربوط سائیکو تھراپسٹ کے طور پر دوبارہ تربیت دی، اور فلوٹنگ بنائی تاکہ خاندانوں کو وہ علاج مل سکے جس کے لیے اسے لڑنا پڑا۔"
     },
     {
-      "key": "t195",
+      "key": "t85",
       "source": "\"Resilience and self-confidence saved my life.\"",
       "text": "\"لچک اور خود اعتمادی نے میری جان بچائی۔\""
     },
     {
-      "key": "t196",
+      "key": "t86",
       "source": "Celestina Oniye-Thomas — Founder & CEO",
       "text": "Celestina Oniye-Thomas — بانی اور سی ای او"
     },
     {
-      "key": "t197",
+      "key": "t87",
       "source": "Trauma-Informed Care",
       "text": "صدمے سے آگاہ کیئر"
     },
     {
-      "key": "t198",
+      "key": "t88",
       "source": "Culturally Relevant",
       "text": "ثقافتی طور پر متعلقہ"
     },
     {
-      "key": "t199",
+      "key": "t89",
       "source": "Local Partnerships",
       "text": "مقامی شراکتیں۔"
     },
     {
-      "key": "t200",
+      "key": "t90",
       "source": "Holistic Approach",
       "text": "جامع نقطہ نظر"
     },
     {
-      "key": "t201",
+      "key": "t91",
       "source": "Free & Low Cost",
       "text": "مفت اور کم قیمت"
     },
     {
-      "key": "t202",
+      "key": "t92",
       "source": "Online & In Person",
       "text": "آن لائن اور ذاتی طور پر"
     },
     {
-      "key": "t203",
+      "key": "t93",
       "source": "Introducing",
       "text": "متعارف کروا رہا ہے۔"
     },
     {
-      "key": "t204",
-      "source": "Therapy",
-      "text": "تھراپی"
+      "key": "t94",
+      "source": "Therapy with realistic tools and strategy for a better life.",
+      "text": "ایک بہتر زندگی کے لیے حقیقت پسندانہ ٹولز اور حکمت عملی کے ساتھ تھراپی۔"
     },
     {
-      "key": "t205",
-      "source": "with",
-      "text": "کے ساتھ"
+      "key": "t95",
+      "source": "Floating combines 45 years as clinical psychotherapists with 50,000+ clinical hours of working to help individuals, children and parents live better and be better.",
+      "text": "فلوٹنگ 45 سالوں کو کلینیکل سائیکو تھراپسٹ کے طور پر 50,000+ کلینیکل گھنٹوں کے ساتھ جوڑتا ہے تاکہ افراد، بچوں اور والدین کو بہتر زندگی گزارنے اور بہتر ہونے میں مدد ملے۔"
     },
     {
-      "key": "t206",
-      "source": "realistic",
-      "text": "حقیقت پسندانہ"
-    },
-    {
-      "key": "t207",
-      "source": "tools",
-      "text": "ٹولز"
-    },
-    {
-      "key": "t208",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t209",
-      "source": "strategy",
-      "text": "حکمت عملی"
-    },
-    {
-      "key": "t210",
-      "source": "for",
-      "text": "کے لیے"
-    },
-    {
-      "key": "t211",
-      "source": "a",
-      "text": "] ایک"
-    },
-    {
-      "key": "t212",
-      "source": "better",
-      "text": "بہتر"
-    },
-    {
-      "key": "t213",
-      "source": "life.",
-      "text": "] زندگی۔"
-    },
-    {
-      "key": "t214",
-      "source": "Floating",
-      "text": "تیرنا"
-    },
-    {
-      "key": "t215",
-      "source": "combines",
-      "text": "یکجا کرتا ہے۔"
-    },
-    {
-      "key": "t216",
-      "source": "years",
-      "text": "] سال"
-    },
-    {
-      "key": "t217",
-      "source": "as",
-      "text": "بطور"
-    },
-    {
-      "key": "t218",
-      "source": "clinical",
-      "text": "] طبی"
-    },
-    {
-      "key": "t219",
-      "source": "psychotherapists",
-      "text": "سائیکو تھراپسٹ"
-    },
-    {
-      "key": "t220",
-      "source": "with",
-      "text": "کے ساتھ"
-    },
-    {
-      "key": "t221",
-      "source": "clinical",
-      "text": "کلینیکل"
-    },
-    {
-      "key": "t222",
-      "source": "hours",
-      "text": "گھنٹے"
-    },
-    {
-      "key": "t223",
-      "source": "of",
-      "text": "of"
-    },
-    {
-      "key": "t224",
-      "source": "working",
-      "text": "کام کر رہا ہے۔"
-    },
-    {
-      "key": "t225",
-      "source": "to",
-      "text": "سے"
-    },
-    {
-      "key": "t226",
-      "source": "help",
-      "text": "مدد"
-    },
-    {
-      "key": "t227",
-      "source": "individuals,",
-      "text": "افراد،"
-    },
-    {
-      "key": "t228",
-      "source": "children",
-      "text": "بچے"
-    },
-    {
-      "key": "t229",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t230",
-      "source": "parents",
-      "text": "والدین"
-    },
-    {
-      "key": "t231",
-      "source": "live",
-      "text": "لائیو"
-    },
-    {
-      "key": "t232",
-      "source": "better",
-      "text": "بہتر"
-    },
-    {
-      "key": "t233",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t234",
-      "source": "be",
-      "text": "ہونا"
-    },
-    {
-      "key": "t235",
-      "source": "better.",
-      "text": "بہتر۔"
-    },
-    {
-      "key": "t236",
+      "key": "t96",
       "source": "The Impact Parenting approach gives families practical, scientifically grounded strategies to heal trauma, parent more effectively, and reduce generational trauma across the family system.",
       "text": "Impact Parenting نقطہ نظر خاندانوں کو صدمے کو ٹھیک کرنے، والدین کو زیادہ مؤثر طریقے سے، اور خاندانی نظام میں نسلی صدمے کو کم کرنے کے لیے عملی، سائنسی بنیادوں پر مبنی حکمت عملی فراہم کرتا ہے۔"
     },
     {
-      "key": "t237",
+      "key": "t97",
       "source": "45 yrs",
       "text": "45 سال"
     },
     {
-      "key": "t238",
+      "key": "t98",
       "source": "clinical experience",
       "text": "طبی تجربہ"
     },
     {
-      "key": "t239",
+      "key": "t99",
       "source": "clinical hours",
       "text": "طبی اوقات"
     },
     {
-      "key": "t240",
+      "key": "t100",
       "source": "Realistic",
       "text": "حقیقت پسندانہ"
     },
     {
-      "key": "t241",
+      "key": "t101",
       "source": "tools and tasks",
       "text": "ٹولز اور کام"
     },
     {
-      "key": "t242",
+      "key": "t102",
       "source": "Finding it hard to understand or manage your child’s behaviour?",
       "text": "اپنے بچے کے رویے کو سمجھنا یا اس کا انتظام کرنا مشکل ہے؟"
     },
     {
-      "key": "t243",
+      "key": "t103",
       "source": "We help parents build connection, resilience and healthier attachment with practical strategies that can be used at home.",
       "text": "ہم والدین کو عملی حکمت عملیوں کے ساتھ کنکشن، لچک اور صحت مند اٹیچمنٹ بنانے میں مدد کرتے ہیں جنہیں گھر پر استعمال کیا جا سکتا ہے۔"
     },
     {
-      "key": "t244",
+      "key": "t104",
       "source": "This is not for you if...",
       "text": "یہ آپ کے لیے نہیں ہے اگر..."
     },
     {
-      "key": "t245",
+      "key": "t105",
       "source": "You are not ready to heal past traumas, or you do not believe your mental and physical health is worth investing in.",
       "text": "آپ ماضی کے صدمات کو ٹھیک کرنے کے لیے تیار نہیں ہیں، یا آپ کو یقین نہیں ہے کہ آپ کی ذہنی اور جسمانی صحت سرمایہ کاری کے قابل ہے۔"
     },
     {
-      "key": "t246",
+      "key": "t106",
       "source": "Ask about Impact Parenting",
       "text": "Impact Parenting کے بارے میں پوچھیں۔"
     },
     {
-      "key": "t247",
+      "key": "t107",
       "source": "Holiday School",
       "text": "چھٹیوں کا اسکول"
     },
     {
-      "key": "t248",
-      "source": "Values,",
-      "text": "اقدار،"
+      "key": "t108",
+      "source": "Values, resilience and creativity for children 5-11.",
+      "text": "5-11 سال کے بچوں کے لیے اقدار، لچک اور تخلیقی صلاحیتیں۔"
     },
     {
-      "key": "t249",
-      "source": "resilience",
-      "text": "لچک"
+      "key": "t109",
+      "source": "Raising children gets easier with trained professionals supporting physical health, resilience, emotional intelligence and wellbeing through art, music, play therapy, sand play, piano, guitar and proven psychological techniques.",
+      "text": "فن، موسیقی، پلے تھراپی، سینڈ پلے، پیانو، گٹار اور ثابت شدہ نفسیاتی تکنیکوں کے ذریعے تربیت یافتہ پیشہ ور افراد کی جسمانی صحت، لچک، جذباتی ذہانت اور تندرستی کے ساتھ بچوں کی پرورش آسان ہو جاتی ہے۔"
     },
     {
-      "key": "t250",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t251",
-      "source": "creativity",
-      "text": "تخلیقی صلاحیت"
-    },
-    {
-      "key": "t252",
-      "source": "for",
-      "text": "کے لیے"
-    },
-    {
-      "key": "t253",
-      "source": "children",
-      "text": "بچے"
-    },
-    {
-      "key": "t254",
-      "source": "Raising",
-      "text": "اٹھانا"
-    },
-    {
-      "key": "t255",
-      "source": "children",
-      "text": "بچے"
-    },
-    {
-      "key": "t256",
-      "source": "gets",
-      "text": "ملتا ہے۔"
-    },
-    {
-      "key": "t257",
-      "source": "easier",
-      "text": "آسان"
-    },
-    {
-      "key": "t258",
-      "source": "with",
-      "text": "کے ساتھ"
-    },
-    {
-      "key": "t259",
-      "source": "trained",
-      "text": "تربیت یافتہ"
-    },
-    {
-      "key": "t260",
-      "source": "professionals",
-      "text": "پیشہ ور افراد"
-    },
-    {
-      "key": "t261",
-      "source": "supporting",
-      "text": "سپورٹ کرنا"
-    },
-    {
-      "key": "t262",
-      "source": "physical",
-      "text": "جسمانی [[t263]]] صحت"
-    },
-    {
-      "key": "t263",
-      "source": "health,",
-      "text": "صحت،"
-    },
-    {
-      "key": "t264",
-      "source": "resilience,",
-      "text": "لچک،"
-    },
-    {
-      "key": "t265",
-      "source": "emotional",
-      "text": "جذباتی"
-    },
-    {
-      "key": "t266",
-      "source": "intelligence",
-      "text": "ذہانت"
-    },
-    {
-      "key": "t267",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t268",
-      "source": "wellbeing",
-      "text": "خیریت"
-    },
-    {
-      "key": "t269",
-      "source": "through",
-      "text": "کے ذریعے"
-    },
-    {
-      "key": "t270",
-      "source": "art,",
-      "text": "فن،"
-    },
-    {
-      "key": "t271",
-      "source": "music,",
-      "text": "موسیقی،"
-    },
-    {
-      "key": "t272",
-      "source": "play",
-      "text": "کھیلیں"
-    },
-    {
-      "key": "t273",
-      "source": "therapy,",
-      "text": "تھراپی،"
-    },
-    {
-      "key": "t274",
-      "source": "sand",
-      "text": "ریت"
-    },
-    {
-      "key": "t275",
-      "source": "play,",
-      "text": "کھیلنا،"
-    },
-    {
-      "key": "t276",
-      "source": "piano,",
-      "text": "پیانو،"
-    },
-    {
-      "key": "t277",
-      "source": "guitar",
-      "text": "گٹار"
-    },
-    {
-      "key": "t278",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t279",
-      "source": "proven",
-      "text": "ثابت ہے۔"
-    },
-    {
-      "key": "t280",
-      "source": "psychological",
-      "text": "] نفسیاتی"
-    },
-    {
-      "key": "t281",
-      "source": "techniques.",
-      "text": "تکنیک۔"
-    },
-    {
-      "key": "t282",
+      "key": "t110",
       "source": "Our aims and objectives",
       "text": "ہمارے اغراض و مقاصد"
     },
     {
-      "key": "t283",
+      "key": "t111",
       "source": "We are not just a holiday school. We teach children values and support them with things they need to grow up uniquely great.",
       "text": "ہم صرف چھٹی والے اسکول نہیں ہیں۔ ہم بچوں کو اقدار سکھاتے ہیں اور ان چیزوں کے ساتھ ان کی مدد کرتے ہیں جن کی انہیں منفرد طور پر عظیم بننے کے لیے ضرورت ہوتی ہے۔"
     },
     {
-      "key": "t284",
+      "key": "t112",
       "source": "I AM Honesty",
       "text": "میں ایمانداری ہوں۔"
     },
     {
-      "key": "t285",
+      "key": "t113",
       "source": "I AM Fairness",
       "text": "میں انصاف پسند ہوں۔"
     },
     {
-      "key": "t286",
+      "key": "t114",
       "source": "I AM Kindness",
       "text": "میں مہربان ہوں۔"
     },
     {
-      "key": "t287",
+      "key": "t115",
       "source": "I AM Integrity",
       "text": "میں سالمیت ہوں۔"
     },
     {
-      "key": "t288",
+      "key": "t116",
       "source": "I AM Outspoken",
       "text": "میں کھلا بولنے والا ہوں۔"
     },
     {
-      "key": "t289",
+      "key": "t117",
       "source": "Original programme reach",
       "text": "اصل پروگرام تک رسائی"
     },
     {
-      "key": "t290",
+      "key": "t118",
       "source": "Over 400 children were registered in 2021, over 1,000 in 2022, 200 more were supported at Easter 2023, with 1,440 available Summer 2023 slots.",
       "text": "2021 میں 400 سے زیادہ بچے رجسٹر کیے گئے، 2022 میں 1,000 سے زیادہ، ایسٹر 2023 میں 200 مزید سپورٹ کیے گئے، جن میں 1,440 سمر 2023 سلاٹس دستیاب ہیں۔"
     },
     {
-      "key": "t291",
+      "key": "t119",
       "source": "Register via Holiday Activities Voucher",
       "text": "چھٹیوں کی سرگرمیاں واؤچر کے ذریعے رجسٹر کریں۔"
     },
     {
-      "key": "t292",
+      "key": "t120",
       "source": "Programme snapshot",
       "text": "پروگرام کا سنیپ شاٹ"
     },
     {
-      "key": "t293",
+      "key": "t121",
       "source": "Creative therapeutic school support",
       "text": "تخلیقی علاج سے متعلق اسکول کی مدد"
     },
     {
-      "key": "t294",
+      "key": "t122",
       "source": "Children build confidence, values and resilience through art, music, play and practical wellbeing activities.",
       "text": "بچے فن، موسیقی، کھیل اور صحت کی عملی سرگرمیوں کے ذریعے اعتماد، اقدار اور لچک پیدا کرتے ہیں۔"
     },
     {
-      "key": "t295",
+      "key": "t123",
       "source": "One-stop shop",
       "text": "ون اسٹاپ شاپ"
     },
     {
-      "key": "t296",
-      "source": "Floating",
-      "text": "تیرنا"
+      "key": "t124",
+      "source": "Floating Community Hub.",
+      "text": "فلوٹنگ کمیونٹی ہب۔"
     },
     {
-      "key": "t297",
-      "source": "Community",
-      "text": "کمیونٹی"
+      "key": "t125",
+      "source": "A central gathering place for Croydon residents, with wider projects also serving Redbridge, Newham, Durham and Southwark. Come together, have a cup of tea and a chat.",
+      "text": "Croydon کے رہائشیوں کے لیے ایک مرکزی اجتماع کی جگہ، جس میں وسیع تر پروجیکٹس Redbridge، Newham، Durham اور Southwark کو بھی پیش کرتے ہیں۔ آؤ اکٹھے ہو کر چائے پیتے ہیں اور گپ شپ کرتے ہیں۔"
     },
     {
-      "key": "t298",
-      "source": "Hub.",
-      "text": "حب۔"
-    },
-    {
-      "key": "t299",
-      "source": "A",
-      "text": "] اے"
-    },
-    {
-      "key": "t300",
-      "source": "central",
-      "text": "مرکزی"
-    },
-    {
-      "key": "t301",
-      "source": "gathering",
-      "text": "اجتماع"
-    },
-    {
-      "key": "t302",
-      "source": "place",
-      "text": "جگہ"
-    },
-    {
-      "key": "t303",
-      "source": "for",
-      "text": "کے لیے"
-    },
-    {
-      "key": "t304",
-      "source": "Croydon",
-      "text": "Croydon"
-    },
-    {
-      "key": "t305",
-      "source": "residents,",
-      "text": "رہائشی،"
-    },
-    {
-      "key": "t306",
-      "source": "with",
-      "text": "کے ساتھ"
-    },
-    {
-      "key": "t307",
-      "source": "wider",
-      "text": "وسیع تر"
-    },
-    {
-      "key": "t308",
-      "source": "projects",
-      "text": "پروجیکٹس"
-    },
-    {
-      "key": "t309",
-      "source": "also",
-      "text": "بھی"
-    },
-    {
-      "key": "t310",
-      "source": "serving",
-      "text": "سرونگ"
-    },
-    {
-      "key": "t311",
-      "source": "Redbridge,",
-      "text": "Redbridge،"
-    },
-    {
-      "key": "t312",
-      "source": "Newham,",
-      "text": "Newham،"
-    },
-    {
-      "key": "t313",
-      "source": "Durham",
-      "text": "Durham"
-    },
-    {
-      "key": "t314",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t315",
-      "source": "Southwark.",
-      "text": "Southwark۔"
-    },
-    {
-      "key": "t316",
-      "source": "Come",
-      "text": "آئیں"
-    },
-    {
-      "key": "t317",
-      "source": "together,",
-      "text": "ایک ساتھ،"
-    },
-    {
-      "key": "t318",
-      "source": "have",
-      "text": "کے پاس ہے۔"
-    },
-    {
-      "key": "t319",
-      "source": "a",
-      "text": "] ایک"
-    },
-    {
-      "key": "t320",
-      "source": "cup",
-      "text": "] کپ"
-    },
-    {
-      "key": "t321",
-      "source": "of",
-      "text": "of"
-    },
-    {
-      "key": "t322",
-      "source": "tea",
-      "text": "چائے"
-    },
-    {
-      "key": "t323",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t324",
-      "source": "a",
-      "text": "] ایک"
-    },
-    {
-      "key": "t325",
-      "source": "chat.",
-      "text": "چیٹ۔"
-    },
-    {
-      "key": "t326",
+      "key": "t126",
       "source": "The Croydon hub runs every Tuesday at Ashburton Park Cafe Hall. Floating also delivers community projects in Redbridge, Newham, Durham and Southwark, bringing practical advocacy, wellbeing support and local referrals closer to each community.",
       "text": "Croydon مرکز ہر منگل کو Ashburton Park Cafe Hall پر چلتا ہے۔ Floating Redbridge، Newham، Durham اور Southwark میں کمیونٹی پروجیکٹس بھی فراہم کرتا ہے، عملی وکالت، فلاح و بہبود اور مقامی حوالہ جات کو ہر کمیونٹی کے قریب لاتا ہے۔"
     },
     {
-      "key": "t327",
+      "key": "t127",
       "source": "Bills & Grants",
       "text": "بل اور گرانٹس"
     },
     {
-      "key": "t328",
+      "key": "t128",
       "source": "Utility bills, home grants and vouchers during the first week.",
       "text": "پہلے ہفتے کے دوران یوٹیلٹی بلز، ہوم گرانٹس اور واؤچرز۔"
     },
     {
-      "key": "t329",
+      "key": "t129",
       "source": "Housing Support",
       "text": "ہاؤسنگ سپورٹ"
     },
     {
-      "key": "t330",
+      "key": "t130",
       "source": "Wellbeing and housing support in Croydon, Newham and partner hubs.",
       "text": "Croydon، Newham اور پارٹنر ہبز میں فلاح و بہبود اور رہائش کی معاونت۔"
     },
     {
-      "key": "t331",
+      "key": "t131",
       "source": "Digital Inclusion",
       "text": "ڈیجیٹل شمولیت"
     },
     {
-      "key": "t332",
+      "key": "t132",
       "source": "Internet support, forms, scam awareness, WhatsApp, AI education and free SIM guidance.",
       "text": "انٹرنیٹ سپورٹ، فارمز، گھوٹالے سے متعلق آگاہی، WhatsApp، AI تعلیم اور مفت سم رہنمائی۔"
     },
     {
-      "key": "t333",
+      "key": "t133",
       "source": "Art Therapy",
       "text": "آرٹ تھراپی"
     },
     {
-      "key": "t334",
+      "key": "t134",
       "source": "Third-week creative healing with Myfamily101 and Floating Counselling Community.",
       "text": "Myfamily101 اور Floating Counselling Community کے ساتھ تیسرے ہفتے کی تخلیقی شفا۔"
     },
     {
-      "key": "t335",
+      "key": "t135",
       "source": "Food Bank",
       "text": "فوڈ بینک افراد اور خاندانوں کے لیے ہفتہ وار کھانا، لباس اور ضروری اشیاء۔"
     },
     {
-      "key": "t336",
+      "key": "t136",
       "source": "Weekly food, clothing and essentials for individuals and families.",
       "text": "افراد اور خاندانوں کے لیے ہفتہ وار کھانا، لباس اور ضروری اشیاء۔"
     },
     {
-      "key": "t337",
+      "key": "t137",
       "source": "Employment Support",
       "text": "ایمپلائمنٹ سپورٹ"
     },
     {
-      "key": "t338",
+      "key": "t138",
       "source": "Financial literacy, confidence and employment support for longer-term stability.",
       "text": "طویل مدتی استحکام کے لیے مالی خواندگی، اعتماد اور روزگار کی معاونت۔"
     },
     {
-      "key": "t339",
+      "key": "t139",
       "source": "Croydon office",
       "text": "Croydon آفس"
     },
     {
-      "key": "t340",
+      "key": "t140",
       "source": "26 Avenue Road, SE25 4DX",
       "text": "26 ایونیو روڈ، SE25 4DX"
     },
     {
-      "key": "t341",
+      "key": "t141",
       "source": "Map",
       "text": "نقشہ"
     },
     {
-      "key": "t342",
+      "key": "t142",
       "source": "Croydon hub",
       "text": "Croydon حب"
     },
     {
-      "key": "t343",
+      "key": "t143",
       "source": "Ashburton Park Cafe Hall, CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
       "text": "Ashburton Park Cafe Hall, CR0 6RX۔ منگل، 12:30 سے ​​2:30 بجے تک۔"
     },
     {
-      "key": "t344",
+      "key": "t144",
       "source": "Map",
       "text": "نقشہ"
     },
     {
-      "key": "t345",
+      "key": "t145",
       "source": "Redbridge office",
       "text": "Redbridge آفس"
     },
     {
-      "key": "t346",
+      "key": "t146",
       "source": "160-162 Cranbrook Road, IG1 4PE.",
       "text": "160-162 Cranbrook Road, IG1 4PE۔"
     },
     {
-      "key": "t347",
+      "key": "t147",
       "source": "Map",
       "text": "نقشہ"
     },
     {
-      "key": "t348",
+      "key": "t148",
       "source": "Redbridge hub",
       "text": "Redbridge حب"
     },
     {
-      "key": "t349",
+      "key": "t149",
       "source": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
       "text": "Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford, IG1 4PG۔ منگل، 11:30am سے 1:30pm تعطیلات کے علاوہ۔"
     },
     {
-      "key": "t350",
+      "key": "t150",
       "source": "Map",
       "text": "نقشہ"
     },
     {
-      "key": "t351",
+      "key": "t151",
       "source": "Durham hub",
       "text": "Durham حب"
     },
     {
-      "key": "t352",
+      "key": "t152",
       "source": "30 Wesley Street, Durham, DL14 8UH.",
       "text": "30 Wesley Street, Durham, DL14 8UH۔"
     },
     {
-      "key": "t353",
+      "key": "t153",
       "source": "Map",
       "text": "نقشہ"
     },
     {
-      "key": "t354",
+      "key": "t154",
       "source": "Newham",
       "text": "Newham"
     },
     {
-      "key": "t355",
+      "key": "t155",
       "source": "Monthly wellbeing and housing support. Relaunching July 2026.",
       "text": "ماہانہ فلاح و بہبود اور ہاؤسنگ سپورٹ۔ جولائی 2026 کو دوبارہ لانچ ہو رہا ہے۔"
     },
     {
-      "key": "t356",
+      "key": "t156",
       "source": "Southwark hub",
       "text": "Southwark حب"
     },
     {
-      "key": "t357",
+      "key": "t157",
       "source": "20 Heaton Road, Heaton Road Church, Peckham, SE15 3NL. Launching June 2026.",
       "text": "20 Heaton Road, Heaton Road چرچ, Peckham, SE15 3NL۔ جون 2026 کو لانچ ہو رہا ہے۔"
     },
     {
-      "key": "t358",
+      "key": "t158",
       "source": "Map",
       "text": "نقشہ"
     },
     {
-      "key": "t359",
+      "key": "t159",
       "source": "What people say",
       "text": "لوگ کیا کہتے ہیں۔"
     },
     {
-      "key": "t360",
-      "source": "In",
-      "text": "میں"
+      "key": "t160",
+      "source": "In their own words.",
+      "text": "ان کے اپنے الفاظ میں۔"
     },
     {
-      "key": "t361",
-      "source": "their",
-      "text": "ان کا"
+      "key": "t161",
+      "source": "Hear from the families and individuals whose lives have been transformed.",
+      "text": "ان خاندانوں اور افراد سے سنیں جن کی زندگیاں بدل گئی ہیں۔"
     },
     {
-      "key": "t362",
-      "source": "own",
-      "text": "اپنے"
-    },
-    {
-      "key": "t363",
-      "source": "words.",
-      "text": "الفاظ۔"
-    },
-    {
-      "key": "t364",
-      "source": "Hear",
-      "text": "سنو"
-    },
-    {
-      "key": "t365",
-      "source": "from",
-      "text": "سے"
-    },
-    {
-      "key": "t366",
-      "source": "the",
-      "text": "the"
-    },
-    {
-      "key": "t367",
-      "source": "families",
-      "text": "خاندان"
-    },
-    {
-      "key": "t368",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t369",
-      "source": "individuals",
-      "text": "افراد"
-    },
-    {
-      "key": "t370",
-      "source": "whose",
-      "text": "] جس کا"
-    },
-    {
-      "key": "t371",
-      "source": "lives",
-      "text": "] رہتا ہے۔"
-    },
-    {
-      "key": "t372",
-      "source": "have",
-      "text": "کے پاس ہے۔"
-    },
-    {
-      "key": "t373",
-      "source": "been",
-      "text": "رہا ہے۔"
-    },
-    {
-      "key": "t374",
-      "source": "transformed.",
-      "text": "بدل گیا۔"
-    },
-    {
-      "key": "t375",
+      "key": "t162",
       "source": "I have learned so much from Impact Parenting Pillar training and Celestina. It was incredibly well-rounded and supported a wide variety of issues that parents face. I have teenage children and really needed this. It was full of knowledge to parent more consciously.",
       "text": "میں نے Impact Parenting Pillar ٹریننگ اور Celestina سے بہت کچھ سیکھا ہے۔ یہ ناقابل یقین حد تک اچھی طرح سے گول تھا اور والدین کو درپیش متعدد مسائل کی حمایت کرتا تھا۔ میرے نوعمر بچے ہیں اور مجھے واقعی اس کی ضرورت ہے۔ یہ والدین کو زیادہ شعوری طور پر علم سے بھرا ہوا تھا۔"
     },
     {
-      "key": "t376",
+      "key": "t163",
       "source": "ST",
       "text": "ST"
     },
     {
-      "key": "t377",
+      "key": "t164",
       "source": "Sarah Turino",
       "text": "سارہ ٹورینو"
     },
     {
-      "key": "t378",
+      "key": "t165",
       "source": "CEO, The Whole Woman Wellness Formula · USA",
       "text": "CEO، The Hole Woman Wellness Formula · USA"
     },
     {
-      "key": "t379",
+      "key": "t166",
       "source": "My son had terrible twos where he would throw himself on the floor and not follow boundaries. I have now been helped to know his personality better and been given realistic tools to help him be more resilient in a loving way.",
       "text": "میرے بیٹے کے خوفناک دو تھے جہاں وہ خود کو فرش پر پھینک دیتا تھا اور حدود کی پیروی نہیں کرتا تھا۔ اب مجھے اس کی شخصیت کو بہتر طریقے سے جاننے میں مدد ملی ہے اور مجھے حقیقت پسندانہ ٹولز دیے گئے ہیں تاکہ وہ محبت بھرے انداز میں زیادہ لچکدار بننے میں مدد کر سکیں۔"
     },
     {
-      "key": "t380",
+      "key": "t167",
       "source": "DD",
       "text": "ڈی ڈی"
     },
     {
-      "key": "t381",
+      "key": "t168",
       "source": "Danya Denny",
       "text": "دانیہ ڈینی"
     },
     {
-      "key": "t382",
+      "key": "t169",
       "source": "Social Worker · UK",
       "text": "سماجی کارکن · UK"
     },
     {
-      "key": "t383",
+      "key": "t170",
       "source": "As a mother of six, from newborn to eighteen, I learnt so much from Impact Parenting with Celestina. I adapted the strategies to my real life and all my children straight away — and I'm still using them months later. Every parent needs this.",
       "text": "چھ بچوں کی ماں کے طور پر، نوزائیدہ سے اٹھارہ تک، میں نے Celestina کے ساتھ Impact Parenting سے بہت کچھ سیکھا۔ میں نے حکمت عملیوں کو اپنی حقیقی زندگی اور اپنے تمام بچوں کے لیے فوراً ڈھال لیا — اور میں انہیں مہینوں بعد بھی استعمال کر رہا ہوں۔ ہر والدین کو اس کی ضرورت ہے۔"
     },
     {
-      "key": "t384",
+      "key": "t171",
       "source": "NK",
       "text": "این کے"
     },
     {
-      "key": "t385",
+      "key": "t172",
       "source": "Niina Kabesa",
       "text": "نینا کبیسہ"
     },
     {
-      "key": "t386",
+      "key": "t173",
       "source": "Author & Founder, Mother of Nations · Congo",
       "text": "مصنف اور بانی، مدر آف نیشنز · کانگو"
     },
     {
-      "key": "t387",
+      "key": "t174",
       "source": "Our people",
       "text": "ہمارے لوگ"
     },
     {
-      "key": "t388",
-      "source": "Meet",
-      "text": "ملیں۔"
+      "key": "t175",
+      "source": "Meet the team.",
+      "text": "ٹیم سے ملو۔"
     },
     {
-      "key": "t389",
-      "source": "the",
-      "text": "the"
+      "key": "t176",
+      "source": "Led by a diverse team of African women with lived experience and professional expertise.",
+      "text": "زندہ تجربہ اور پیشہ ورانہ مہارت کے ساتھ افریقی خواتین کی ایک متنوع ٹیم کی قیادت۔"
     },
     {
-      "key": "t390",
-      "source": "team.",
-      "text": "ٹیم۔"
-    },
-    {
-      "key": "t391",
-      "source": "Led",
-      "text": "قیادت"
-    },
-    {
-      "key": "t392",
-      "source": "by",
-      "text": "بذریعہ"
-    },
-    {
-      "key": "t393",
-      "source": "a",
-      "text": "] ایک"
-    },
-    {
-      "key": "t394",
-      "source": "diverse",
-      "text": "متنوع"
-    },
-    {
-      "key": "t395",
-      "source": "team",
-      "text": "ٹیم"
-    },
-    {
-      "key": "t396",
-      "source": "of",
-      "text": "of"
-    },
-    {
-      "key": "t397",
-      "source": "African",
-      "text": "افریقی"
-    },
-    {
-      "key": "t398",
-      "source": "women",
-      "text": "خواتین"
-    },
-    {
-      "key": "t399",
-      "source": "with",
-      "text": "کے ساتھ"
-    },
-    {
-      "key": "t400",
-      "source": "lived",
-      "text": "رہتے تھے۔"
-    },
-    {
-      "key": "t401",
-      "source": "experience",
-      "text": "تجربہ"
-    },
-    {
-      "key": "t402",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t403",
-      "source": "professional",
-      "text": "] پیشہ ور"
-    },
-    {
-      "key": "t404",
-      "source": "expertise.",
-      "text": "مہارت۔"
-    },
-    {
-      "key": "t405",
+      "key": "t177",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "t406",
+      "key": "t178",
       "source": "CEO & Head of Charitable Operations",
       "text": "سی ای او اور چیریٹیبل آپریشنز کے سربراہ"
     },
     {
-      "key": "t407",
+      "key": "t179",
       "source": "Email",
       "text": "ای میل"
     },
     {
-      "key": "t408",
+      "key": "t180",
       "source": "Read more",
       "text": "مزید پڑھیں"
     },
     {
-      "key": "t409",
+      "key": "t181",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "t410",
+      "key": "t182",
       "source": "Director & Head of Finance",
       "text": "ڈائریکٹر اور ہیڈ آف فنانس"
     },
     {
-      "key": "t411",
+      "key": "t183",
       "source": "Email",
       "text": "ای میل"
     },
     {
-      "key": "t412",
+      "key": "t184",
       "source": "Read more",
       "text": "مزید پڑھیں"
     },
     {
-      "key": "t413",
+      "key": "t185",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "t414",
+      "key": "t186",
       "source": "Director & Relationship Coach",
       "text": "ڈائریکٹر اور ریلیشن شپ کوچ"
     },
     {
-      "key": "t415",
+      "key": "t187",
       "source": "Email",
       "text": "ای میل"
     },
     {
-      "key": "t416",
+      "key": "t188",
       "source": "Read more",
       "text": "مزید پڑھیں"
     },
     {
-      "key": "t417",
+      "key": "t189",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah"
     },
     {
-      "key": "t418",
+      "key": "t190",
       "source": "Director & Safeguarding Officer",
       "text": "ڈائریکٹر اور سیف گارڈنگ آفیسر"
     },
     {
-      "key": "t419",
+      "key": "t191",
       "source": "Email",
       "text": "ای میل"
     },
     {
-      "key": "t420",
+      "key": "t192",
       "source": "Contact",
       "text": "رابطہ کریں۔"
     },
     {
-      "key": "t421",
+      "key": "t193",
       "source": "Sponsors, partners and funders",
       "text": "سپانسرز، پارٹنرز اور فنڈرز"
     },
     {
-      "key": "t422",
-      "source": "Supported",
-      "text": "تائید شدہ"
+      "key": "t194",
+      "source": "Supported by trusted partners.",
+      "text": "بھروسہ مند شراکت داروں کے ذریعہ تعاون یافتہ۔"
     },
     {
-      "key": "t423",
-      "source": "by",
-      "text": "بذریعہ"
+      "key": "t195",
+      "source": "A compact view of the funders, sponsors and registrations behind the work.",
+      "text": "کام کے پیچھے فنڈرز، اسپانسرز اور رجسٹریشن کا ایک مختصر منظر۔"
     },
     {
-      "key": "t424",
-      "source": "trusted",
-      "text": "قابل اعتماد"
-    },
-    {
-      "key": "t425",
-      "source": "partners.",
-      "text": "شراکت دار۔"
-    },
-    {
-      "key": "t426",
-      "source": "A",
-      "text": "] اے"
-    },
-    {
-      "key": "t427",
-      "source": "compact",
-      "text": "کمپیکٹ"
-    },
-    {
-      "key": "t428",
-      "source": "view",
-      "text": "ملاحظہ کریں۔"
-    },
-    {
-      "key": "t429",
-      "source": "of",
-      "text": "of"
-    },
-    {
-      "key": "t430",
-      "source": "the",
-      "text": "the"
-    },
-    {
-      "key": "t431",
-      "source": "funders,",
-      "text": "فنڈرز،"
-    },
-    {
-      "key": "t432",
-      "source": "sponsors",
-      "text": "سپانسرز"
-    },
-    {
-      "key": "t433",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t434",
-      "source": "registrations",
-      "text": "رجسٹریشنز"
-    },
-    {
-      "key": "t435",
-      "source": "behind",
-      "text": "پیچھے"
-    },
-    {
-      "key": "t436",
-      "source": "the",
-      "text": "the"
-    },
-    {
-      "key": "t437",
-      "source": "work.",
-      "text": "کام۔"
-    },
-    {
-      "key": "t438",
+      "key": "t196",
       "source": "Common questions",
       "text": "عام سوالات"
     },
     {
-      "key": "t439",
-      "source": "Everything",
-      "text": "سب کچھ"
+      "key": "t197",
+      "source": "Everything you might be wondering.",
+      "text": "ہر وہ چیز جو آپ سوچ رہے ہوں گے۔"
     },
     {
-      "key": "t440",
-      "source": "you",
-      "text": "آپ"
+      "key": "t198",
+      "source": "If your question isn't here, send us a note. We read every message.",
+      "text": "اگر آپ کا سوال یہاں نہیں ہے تو ہمیں ایک نوٹ بھیجیں۔ ہم ہر پیغام کو پڑھتے ہیں۔"
     },
     {
-      "key": "t441",
-      "source": "might",
-      "text": "ہو سکتا ہے۔"
-    },
-    {
-      "key": "t442",
-      "source": "be",
-      "text": "ہونا"
-    },
-    {
-      "key": "t443",
-      "source": "wondering.",
-      "text": "حیرت زدہ۔"
-    },
-    {
-      "key": "t444",
-      "source": "If",
-      "text": "] اگر"
-    },
-    {
-      "key": "t445",
-      "source": "your",
-      "text": "آپ کا"
-    },
-    {
-      "key": "t446",
-      "source": "question",
-      "text": "] سوال"
-    },
-    {
-      "key": "t447",
-      "source": "isn't",
-      "text": "نہیں ہے۔"
-    },
-    {
-      "key": "t448",
-      "source": "here,",
-      "text": "یہاں،"
-    },
-    {
-      "key": "t449",
-      "source": "send",
-      "text": "بھیجیں۔"
-    },
-    {
-      "key": "t450",
-      "source": "us",
-      "text": "ہم"
-    },
-    {
-      "key": "t451",
-      "source": "a",
-      "text": "] ایک"
-    },
-    {
-      "key": "t452",
-      "source": "note.",
-      "text": "نوٹ۔"
-    },
-    {
-      "key": "t453",
-      "source": "We",
-      "text": "ہم"
-    },
-    {
-      "key": "t454",
-      "source": "read",
-      "text": "پڑھیں"
-    },
-    {
-      "key": "t455",
-      "source": "every",
-      "text": "ہر"
-    },
-    {
-      "key": "t456",
-      "source": "message.",
-      "text": "پیغام۔"
-    },
-    {
-      "key": "t457",
+      "key": "t199",
       "source": "Ask us anything",
       "text": "ہم سے کچھ بھی پوچھیں۔"
     },
     {
-      "key": "t458",
+      "key": "t200",
       "source": "How much does counselling cost?",
       "text": "مشاورت پر کتنا خرچ آتا ہے؟"
     },
     {
-      "key": "t459",
+      "key": "t201",
       "source": "Sessions are free or low-cost for eligible individuals. We work on a sliding scale based on circumstances. Our priority is access, and we'll find a way that works for you.",
       "text": "سیشنز اہل افراد کے لیے مفت یا کم لاگت کے ہوتے ہیں۔ ہم حالات کی بنیاد پر سلائیڈنگ پیمانے پر کام کرتے ہیں۔ ہماری ترجیح رسائی ہے، اور ہم ایک ایسا طریقہ تلاش کریں گے جو آپ کے لیے کارآمد ہو۔"
     },
     {
-      "key": "t460",
+      "key": "t202",
       "source": "What happens in the first session?",
       "text": "پہلے سیشن میں کیا ہوتا ہے؟"
     },
     {
-      "key": "t461",
+      "key": "t203",
       "source": "Your first session is a relaxed conversation about what's brought you in, what you'd like to work on, and how we can support you. Nothing is rushed. You set the pace.",
       "text": "آپ کا پہلا سیشن اس بارے میں ایک پر سکون گفتگو ہے کہ آپ کو کس چیز میں لایا ہے، آپ کس چیز پر کام کرنا چاہتے ہیں، اور ہم آپ کی مدد کیسے کر سکتے ہیں۔ کچھ بھی جلدی نہیں ہے۔ آپ رفتار طے کریں۔"
     },
     {
-      "key": "t462",
+      "key": "t204",
       "source": "Are sessions confidential?",
       "text": "کیا سیشن خفیہ ہوتے ہیں؟"
     },
     {
-      "key": "t463",
+      "key": "t205",
       "source": "Yes. Everything you share is held in strict confidence in line with BACP ethical guidelines. The only exceptions are safeguarding situations, which we'd always discuss with you first wherever possible.",
       "text": "ہاں۔ آپ جو کچھ بھی شیئر کرتے ہیں اسے BACP اخلاقی رہنما خطوط کے مطابق سخت اعتماد کے ساتھ رکھا جاتا ہے۔ صرف مستثنیات حفاظتی حالات ہیں، جن پر ہم ہمیشہ آپ کے ساتھ بات کریں گے جہاں بھی ممکن ہو۔"
     },
     {
-      "key": "t464",
+      "key": "t206",
       "source": "Do you offer online sessions?",
       "text": "کیا آپ آن لائن سیشن پیش کرتے ہیں؟"
     },
     {
-      "key": "t465",
+      "key": "t207",
       "source": "Yes. We offer online sessions and in-person support across the boroughs where we deliver services.",
       "text": "ہاں۔ ہم آن لائن سیشن اور ذاتی مدد کی پیشکش کرتے ہیں جہاں ہم خدمات فراہم کرتے ہیں۔"
     },
     {
-      "key": "t466",
+      "key": "t208",
       "source": "Are your therapists qualified?",
       "text": "کیا آپ کے معالج اہل ہیں؟"
     },
     {
-      "key": "t467",
+      "key": "t209",
       "source": "Our therapists are clinically trained psychotherapists working in line with BACP standards. The leadership team has 45+ years of combined clinical experience and over 50,000 clinical hours.",
       "text": "ہمارے معالج طبی طور پر تربیت یافتہ سائیکو تھراپسٹ ہیں جو BACP معیارات کے مطابق کام کرتے ہیں۔ قیادت کی ٹیم کے پاس 45+ سال کا مشترکہ طبی تجربہ اور 50,000 سے زیادہ کلینیکل گھنٹے ہیں۔"
     },
     {
-      "key": "t468",
+      "key": "t210",
       "source": "Can I refer a family member or friend?",
       "text": "کیا میں خاندان کے کسی رکن یا دوست کا حوالہ دے سکتا ہوں؟"
     },
     {
-      "key": "t469",
+      "key": "t211",
       "source": "Absolutely. We'll always need consent from the person themselves before opening a case. The best first step is to encourage them to email or WhatsApp us directly.",
       "text": "بالکل۔ کیس کھولنے سے پہلے ہمیں ہمیشہ خود اس شخص کی رضامندی درکار ہوگی۔ بہترین پہلا قدم یہ ہے کہ ان کی حوصلہ افزائی کریں کہ وہ ہمیں براہ راست ای میل کریں یا WhatsApp کریں۔"
     },
     {
-      "key": "t470",
+      "key": "t212",
       "source": "How can I support your work?",
       "text": "میں آپ کے کام کی حمایت کیسے کر سکتا ہوں؟"
     },
     {
-      "key": "t471",
+      "key": "t213",
       "source": "You can donate via Localgiving or PayPal, volunteer your time, follow us on social media, or fundraise on our behalf. Visit the fundraiser section or get in touch and we'll match you to something that suits.",
       "text": "آپ Localgiving یا PayPal کے ذریعے عطیہ کر سکتے ہیں، اپنا وقت رضاکارانہ طور پر دے سکتے ہیں، سوشل میڈیا پر ہماری پیروی کر سکتے ہیں، یا ہماری طرف سے چندہ جمع کر سکتے ہیں۔ فنڈ ریزر سیکشن پر جائیں یا رابطہ کریں اور ہم آپ کو مناسب چیز سے ملائیں گے۔"
     },
     {
-      "key": "t472",
+      "key": "t214",
       "source": "Fundraiser",
       "text": "فنڈ جمع کرنے والا"
     },
     {
-      "key": "t473",
-      "source": "Ways",
-      "text": "طریقے"
+      "key": "t215",
+      "source": "Ways to fundraise for Floating Counselling.",
+      "text": "Floating Counselling کے لیے فنڈ اکٹھا کرنے کے طریقے۔"
     },
     {
-      "key": "t474",
-      "source": "to",
-      "text": "سے"
+      "key": "t216",
+      "source": "Fundraising helps keep counselling, food support, holiday school places and community hub sessions accessible for people who need practical and therapeutic care.",
+      "text": "فنڈ ریزنگ مشاورت، خوراک کی امداد، چھٹی والے اسکول کی جگہوں اور کمیونٹی ہب سیشنز کو ان لوگوں کے لیے قابل رسائی رکھنے میں مدد کرتی ہے جنہیں عملی اور علاج کی دیکھ بھال کی ضرورت ہے۔"
     },
     {
-      "key": "t475",
-      "source": "fundraise",
-      "text": "فنڈ اکٹھا کرنا"
-    },
-    {
-      "key": "t476",
-      "source": "for",
-      "text": "کے لیے"
-    },
-    {
-      "key": "t477",
-      "source": "Floating",
-      "text": "تیرنا"
-    },
-    {
-      "key": "t478",
-      "source": "Counselling.",
-      "text": "مشاورت۔"
-    },
-    {
-      "key": "t479",
-      "source": "Fundraising",
-      "text": "فنڈ ریزنگ"
-    },
-    {
-      "key": "t480",
-      "source": "helps",
-      "text": "مدد کرتا ہے۔"
-    },
-    {
-      "key": "t481",
-      "source": "keep",
-      "text": "رکھیں"
-    },
-    {
-      "key": "t482",
-      "source": "counselling,",
-      "text": "مشاورت،"
-    },
-    {
-      "key": "t483",
-      "source": "food",
-      "text": "کھانا"
-    },
-    {
-      "key": "t484",
-      "source": "support,",
-      "text": "سپورٹ،"
-    },
-    {
-      "key": "t485",
-      "source": "holiday",
-      "text": "چھٹی"
-    },
-    {
-      "key": "t486",
-      "source": "school",
-      "text": "] اسکول"
-    },
-    {
-      "key": "t487",
-      "source": "places",
-      "text": "مقامات"
-    },
-    {
-      "key": "t488",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t489",
-      "source": "community",
-      "text": "] کمیونٹی"
-    },
-    {
-      "key": "t490",
-      "source": "hub",
-      "text": "حب"
-    },
-    {
-      "key": "t491",
-      "source": "sessions",
-      "text": "سیشن"
-    },
-    {
-      "key": "t492",
-      "source": "accessible",
-      "text": "قابل رسائی"
-    },
-    {
-      "key": "t493",
-      "source": "for",
-      "text": "کے لیے"
-    },
-    {
-      "key": "t494",
-      "source": "people",
-      "text": "] لوگ"
-    },
-    {
-      "key": "t495",
-      "source": "who",
-      "text": "] کون"
-    },
-    {
-      "key": "t496",
-      "source": "need",
-      "text": "] کی ضرورت ہے۔"
-    },
-    {
-      "key": "t497",
-      "source": "practical",
-      "text": "] عملی"
-    },
-    {
-      "key": "t498",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t499",
-      "source": "therapeutic",
-      "text": "علاج"
-    },
-    {
-      "key": "t500",
-      "source": "care.",
-      "text": "] دیکھ بھال۔"
-    },
-    {
-      "key": "t501",
+      "key": "t217",
       "source": "Donate via PayPal",
       "text": "PayPal کے ذریعے عطیہ کریں۔"
     },
     {
-      "key": "t502",
+      "key": "t218",
       "source": "Donate via Localgiving",
       "text": "Localgiving کے ذریعے عطیہ کریں۔"
     },
     {
-      "key": "t503",
+      "key": "t219",
       "source": "Start a fundraiser",
       "text": "ایک فنڈ ریزر شروع کریں۔"
     },
     {
-      "key": "t504",
+      "key": "t220",
       "source": "Run a personal fundraiser",
       "text": "ذاتی فنڈ ریزر چلائیں۔"
     },
     {
-      "key": "t505",
+      "key": "t221",
       "source": "Use birthdays, challenges or community events to raise funds for counselling and wraparound support.",
       "text": "سالگرہ، چیلنجز یا کمیونٹی ایونٹس کا استعمال مشاورت اور ریپراؤنڈ سپورٹ کے لیے فنڈز اکٹھا کریں۔"
     },
     {
-      "key": "t506",
+      "key": "t222",
       "source": "Workplace or school collection",
       "text": "کام کی جگہ یا اسکول کا مجموعہ"
     },
     {
-      "key": "t507",
+      "key": "t223",
       "source": "Collect food, essentials, vouchers or donations with your team, school, faith group or local business.",
       "text": "اپنی ٹیم، اسکول، ایمانی گروپ یا مقامی کاروبار کے ساتھ کھانا، ضروری چیزیں، واؤچرز یا عطیات جمع کریں۔"
     },
     {
-      "key": "t508",
+      "key": "t224",
       "source": "Sponsor a project",
       "text": "ایک پروجیکٹ کو اسپانسر کریں۔"
     },
     {
-      "key": "t509",
+      "key": "t225",
       "source": "Support a hub session, holiday school activity, counselling session or local wellbeing event.",
       "text": "حب سیشن، چھٹی والے اسکول کی سرگرمی، مشاورتی سیشن یا مقامی فلاح و بہبود کے پروگرام کی حمایت کریں۔"
     },
     {
-      "key": "t510",
+      "key": "t226",
       "source": "Share skills and time",
       "text": "مہارت اور وقت کا اشتراک کریں۔"
     },
     {
-      "key": "t511",
+      "key": "t227",
       "source": "Offer professional skills, event support, transport, mentoring or practical help for local residents.",
       "text": "مقامی رہائشیوں کے لیے پیشہ ورانہ مہارتیں، ایونٹ سپورٹ، ٹرانسپورٹ، رہنمائی یا عملی مدد پیش کریں۔"
     },
     {
-      "key": "t512",
+      "key": "t228",
       "source": "Volunteer",
       "text": "رضاکار"
     },
     {
-      "key": "t513",
-      "source": "Volunteer",
-      "text": "رضاکار"
+      "key": "t229",
+      "source": "Volunteer with Floating Counselling.",
+      "text": "Floating Counselling کے ساتھ رضاکار بنیں۔"
     },
     {
-      "key": "t514",
-      "source": "with",
-      "text": "کے ساتھ"
+      "key": "t230",
+      "source": "Share your time, skills or professional experience to support counselling, community hub sessions, holiday school activities, fundraising and practical outreach.",
+      "text": "مشاورت، کمیونٹی ہب سیشنز، چھٹی والے اسکول کی سرگرمیوں، فنڈ ریزنگ اور عملی آؤٹ ریچ میں مدد کے لیے اپنا وقت، مہارت یا پیشہ ورانہ تجربہ شیئر کریں۔"
     },
     {
-      "key": "t515",
-      "source": "Floating",
-      "text": "تیرتا ہے۔"
-    },
-    {
-      "key": "t516",
-      "source": "Counselling.",
-      "text": "مشاورت۔"
-    },
-    {
-      "key": "t517",
-      "source": "Share",
-      "text": "شیئر کریں۔"
-    },
-    {
-      "key": "t518",
-      "source": "your",
-      "text": "آپ کا"
-    },
-    {
-      "key": "t519",
-      "source": "time,",
-      "text": "وقت،"
-    },
-    {
-      "key": "t520",
-      "source": "skills",
-      "text": "ہنر"
-    },
-    {
-      "key": "t521",
-      "source": "or",
-      "text": "یا"
-    },
-    {
-      "key": "t522",
-      "source": "professional",
-      "text": "پیشہ ورانہ"
-    },
-    {
-      "key": "t523",
-      "source": "experience",
-      "text": "تجربہ"
-    },
-    {
-      "key": "t524",
-      "source": "to",
-      "text": "سے"
-    },
-    {
-      "key": "t525",
-      "source": "support",
-      "text": "سپورٹ"
-    },
-    {
-      "key": "t526",
-      "source": "counselling,",
-      "text": "مشاورت،"
-    },
-    {
-      "key": "t527",
-      "source": "community",
-      "text": "کمیونٹی"
-    },
-    {
-      "key": "t528",
-      "source": "hub",
-      "text": "حب"
-    },
-    {
-      "key": "t529",
-      "source": "sessions,",
-      "text": "سیشنز،"
-    },
-    {
-      "key": "t530",
-      "source": "holiday",
-      "text": "چھٹی"
-    },
-    {
-      "key": "t531",
-      "source": "school",
-      "text": "اسکول"
-    },
-    {
-      "key": "t532",
-      "source": "activities,",
-      "text": "سرگرمیاں،"
-    },
-    {
-      "key": "t533",
-      "source": "fundraising",
-      "text": "فنڈ ریزنگ"
-    },
-    {
-      "key": "t534",
-      "source": "and",
-      "text": "اور"
-    },
-    {
-      "key": "t535",
-      "source": "practical",
-      "text": "] عملی"
-    },
-    {
-      "key": "t536",
-      "source": "outreach.",
-      "text": "آؤٹ ریچ۔"
-    },
-    {
-      "key": "t537",
+      "key": "t231",
       "source": "Community support",
       "text": "کمیونٹی سپورٹ"
     },
     {
-      "key": "t538",
+      "key": "t232",
       "source": "Help residents with food, clothing, forms, signposting, events and welcoming hub sessions.",
       "text": "رہائشیوں کی خوراک، لباس، فارم، سائن پوسٹنگ، تقریبات اور خیرمقدم حب سیشنز میں مدد کریں۔"
     },
     {
-      "key": "t539",
+      "key": "t233",
       "source": "Skills and projects",
       "text": "ہنر اور منصوبے"
     },
     {
-      "key": "t540",
+      "key": "t234",
       "source": "Offer mentoring, admin, creative workshops, fundraising, transport, digital support or professional expertise.",
       "text": "رہنمائی، منتظم، تخلیقی ورکشاپس، فنڈ ریزنگ، ٹرانسپورٹ، ڈیجیٹل سپورٹ یا پیشہ ورانہ مہارت کی پیشکش کریں۔"
     },
     {
-      "key": "t541",
+      "key": "t235",
       "source": "Volunteer applications",
       "text": "رضاکارانہ درخواستیں۔"
     },
     {
-      "key": "t542",
+      "key": "t236",
       "source": "Monday form",
       "text": "پیر کا فارم"
     },
     {
-      "key": "t543",
+      "key": "t237",
       "source": "Apply to volunteer",
       "text": "رضاکار کے لیے درخواست دیں۔"
     },
     {
-      "key": "t544",
+      "key": "t238",
       "source": "Complete the volunteer application so the team can match your time, skills and availability to the right project.",
       "text": "رضاکارانہ درخواست کو مکمل کریں تاکہ ٹیم آپ کے وقت، مہارت اور دستیابی کو صحیح پروجیکٹ کے مطابق کر سکے۔"
     },
     {
-      "key": "t545",
+      "key": "t239",
       "source": "Open volunteer form",
       "text": "رضاکارانہ فارم کھولیں۔"
     },
     {
-      "key": "t546",
+      "key": "t240",
       "source": "Get in touch",
       "text": "رابطہ کریں۔"
     },
     {
-      "key": "t547",
-      "source": "We'd",
-      "text": "ہم کریں گے۔"
+      "key": "t241",
+      "source": "We'd love to hear from you.",
+      "text": "ہم آپ سے سننا پسند کریں گے۔"
     },
     {
-      "key": "t548",
-      "source": "love",
-      "text": "محبت"
+      "key": "t242",
+      "source": "Email, WhatsApp, call or fill in the form. We aim to reply within two working days.",
+      "text": "ای میل، WhatsApp، کال کریں یا فارم بھریں۔ ہمارا مقصد دو کام کے دنوں میں جواب دینا ہے۔"
     },
     {
-      "key": "t549",
-      "source": "to",
-      "text": "سے"
-    },
-    {
-      "key": "t550",
-      "source": "hear",
-      "text": "سنیں۔"
-    },
-    {
-      "key": "t551",
-      "source": "from",
-      "text": "سے"
-    },
-    {
-      "key": "t552",
-      "source": "you.",
-      "text": "آپ۔"
-    },
-    {
-      "key": "t553",
-      "source": "Email,",
-      "text": "ای میل،"
-    },
-    {
-      "key": "t554",
-      "source": "WhatsApp,",
-      "text": "WhatsApp،"
-    },
-    {
-      "key": "t555",
-      "source": "call",
-      "text": "کال"
-    },
-    {
-      "key": "t556",
-      "source": "or",
-      "text": "] یا"
-    },
-    {
-      "key": "t557",
-      "source": "fill",
-      "text": "بھریں۔"
-    },
-    {
-      "key": "t558",
-      "source": "in",
-      "text": "میں"
-    },
-    {
-      "key": "t559",
-      "source": "the",
-      "text": "the"
-    },
-    {
-      "key": "t560",
-      "source": "form.",
-      "text": "فارم۔"
-    },
-    {
-      "key": "t561",
-      "source": "We",
-      "text": "ہم"
-    },
-    {
-      "key": "t562",
-      "source": "aim",
-      "text": "مقصد"
-    },
-    {
-      "key": "t563",
-      "source": "to",
-      "text": "سے"
-    },
-    {
-      "key": "t564",
-      "source": "reply",
-      "text": "جواب"
-    },
-    {
-      "key": "t565",
-      "source": "within",
-      "text": "کے اندر"
-    },
-    {
-      "key": "t566",
-      "source": "two",
-      "text": "] دو"
-    },
-    {
-      "key": "t567",
-      "source": "working",
-      "text": "کام کر رہا ہے۔"
-    },
-    {
-      "key": "t568",
-      "source": "days.",
-      "text": "دن۔"
-    },
-    {
-      "key": "t569",
+      "key": "t243",
       "source": "Email",
       "text": "ای میل"
     },
     {
-      "key": "t570",
+      "key": "t244",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t571",
+      "key": "t245",
       "source": "WhatsApp / Call",
       "text": "WhatsApp / کال"
     },
     {
-      "key": "t572",
+      "key": "t246",
       "source": "Visit the Croydon Hub",
       "text": "Croydon حب ملاحظہ کریں۔"
     },
     {
-      "key": "t573",
+      "key": "t247",
       "source": "Ashburton Park Cafe Hall, CR0 6RX",
       "text": "Ashburton Park Cafe Hall, CR0 6RX"
     },
     {
-      "key": "t574",
+      "key": "t248",
       "source": "Tuesdays, 12:30 to 2:30pm.",
       "text": "منگل، دوپہر 12:30 تا 2:30 بجے۔"
     },
     {
-      "key": "t575",
+      "key": "t249",
       "source": "Project locations",
       "text": "پروجیکٹ کے مقامات"
     },
     {
-      "key": "t576",
+      "key": "t250",
       "source": "Separate contact points for Croydon, Redbridge, Durham, Newham and Southwark are listed below.",
       "text": "Croydon، Redbridge، Durham، Newham اور Southwark کے لیے الگ الگ رابطہ پوائنٹس ذیل میں درج ہیں۔"
     },
     {
-      "key": "t577",
+      "key": "t251",
       "source": "Croydon office",
       "text": "Croydon آفس"
     },
     {
-      "key": "t578",
+      "key": "t252",
       "source": "26 Avenue Road",
       "text": "26 ایونیو روڈ"
     },
     {
-      "key": "t579",
+      "key": "t253",
       "source": "London SE25 4DX",
       "text": "London SE25 4DX"
     },
     {
-      "key": "t580",
+      "key": "t254",
       "source": "Open map",
       "text": "نقشہ کھولیں۔"
     },
     {
-      "key": "t581",
+      "key": "t255",
       "source": "Croydon hub",
       "text": "Croydon حب"
     },
     {
-      "key": "t582",
+      "key": "t256",
       "source": "Ashburton Park Cafe Hall",
       "text": "Ashburton Park Cafe Hall"
     },
     {
-      "key": "t583",
+      "key": "t257",
       "source": "CR0 6RX. Tuesdays, 12:30 to 2:30pm.",
       "text": "CR0 6RX۔ منگل، 12:30 سے ​​2:30 بجے تک۔"
     },
     {
-      "key": "t584",
+      "key": "t258",
       "source": "Open map",
       "text": "نقشہ کھولیں۔"
     },
     {
-      "key": "t585",
+      "key": "t259",
       "source": "Redbridge office",
       "text": "Redbridge آفس"
     },
     {
-      "key": "t586",
+      "key": "t260",
       "source": "160-162 Cranbrook Road",
       "text": "160-162 Cranbrook Road"
     },
     {
-      "key": "t587",
+      "key": "t261",
       "source": "Ilford IG1 4PE",
       "text": "Ilford IG1 4PE"
     },
     {
-      "key": "t588",
+      "key": "t262",
       "source": "Open map",
       "text": "نقشہ کھولیں۔"
     },
     {
-      "key": "t589",
+      "key": "t263",
       "source": "Redbridge hub",
       "text": "Redbridge حب"
     },
     {
-      "key": "t590",
+      "key": "t264",
       "source": "Cranbrook House, Suite 7D",
       "text": "Cranbrook House، سویٹ 7D"
     },
     {
-      "key": "t591",
+      "key": "t265",
       "source": "61 Cranbrook Road, Ilford IG1 4PG. Tuesdays, 11:30am to 1:30pm except holidays.",
       "text": "61 Cranbrook Road, Ilford IG1 4PG۔ منگل، 11:30am سے 1:30pm تعطیلات کے علاوہ۔"
     },
     {
-      "key": "t592",
+      "key": "t266",
       "source": "Open map",
       "text": "نقشہ کھولیں۔"
     },
     {
-      "key": "t593",
+      "key": "t267",
       "source": "Durham hub",
       "text": "Durham حب"
     },
     {
-      "key": "t594",
+      "key": "t268",
       "source": "30 Wesley Street",
       "text": "30 Wesley Street"
     },
     {
-      "key": "t595",
+      "key": "t269",
       "source": "Durham DL14 8UH",
       "text": "Durham DL14 8UH"
     },
     {
-      "key": "t596",
+      "key": "t270",
       "source": "Open map",
       "text": "نقشہ کھولیں۔"
     },
     {
-      "key": "t597",
+      "key": "t271",
       "source": "Southwark hub",
       "text": "Southwark حب"
     },
     {
-      "key": "t598",
+      "key": "t272",
       "source": "20 Heaton Road",
       "text": "20 Heaton Road"
     },
     {
-      "key": "t599",
+      "key": "t273",
       "source": "Heaton Road Church, Peckham SE15 3NL. Launching June 2026.",
       "text": "Heaton Road چرچ، Peckham SE15 3NL۔ جون 2026 کو لانچ ہو رہا ہے۔"
     },
     {
-      "key": "t600",
+      "key": "t274",
       "source": "Open map",
       "text": "نقشہ کھولیں۔"
     },
     {
-      "key": "t601",
+      "key": "t275",
       "source": "Newham",
       "text": "Newham"
     },
     {
-      "key": "t602",
+      "key": "t276",
       "source": "Monthly wellbeing support",
       "text": "ماہانہ فلاح و بہبود کی معاونت"
     },
     {
-      "key": "t603",
+      "key": "t277",
       "source": "Housing and wellbeing support relaunching July 2026.",
       "text": "ہاؤسنگ اور فلاح و بہبود کی معاونت جولائی 2026 کو دوبارہ شروع ہو رہی ہے۔"
     },
     {
-      "key": "t604",
+      "key": "t278",
       "source": "Your name",
       "text": "آپ کا نام"
     },
     {
-      "key": "t605",
+      "key": "t279",
       "source": "Email",
       "text": "ای میل"
     },
     {
-      "key": "t606",
+      "key": "t280",
       "source": "What can we help with?",
       "text": "ہم کس چیز کی مدد کر سکتے ہیں؟"
     },
     {
-      "key": "t607",
+      "key": "t281",
       "source": "Message",
       "text": "پیغام"
     },
     {
-      "key": "t608",
+      "key": "t282",
       "source": "I agree to be contacted in line with the",
       "text": "میں اس بات سے اتفاق کرتا ہوں کہ اس کے مطابق رابطہ کیا جائے۔"
     },
     {
-      "key": "t609",
+      "key": "t283",
       "source": "privacy policy",
       "text": "رازداری کی پالیسی"
     },
     {
-      "key": "t610",
+      "key": "t284",
       "source": "Send message",
       "text": "پیغام بھیجیں۔"
     },
     {
-      "key": "t611",
+      "key": "t285",
       "source": "We're here",
       "text": "ہم یہاں ہیں۔"
     },
     {
-      "key": "t612",
-      "source": "Whatever",
-      "text": "جو بھی ہو۔"
+      "key": "t286",
+      "source": "Whatever you're carrying, you don't carry it alone.",
+      "text": "جو کچھ بھی آپ لے جا رہے ہیں، آپ اسے اکیلے نہیں اٹھاتے۔"
     },
     {
-      "key": "t613",
-      "source": "you're",
-      "text": "آپ ہیں۔"
+      "key": "t287",
+      "source": "Whether you need counselling, community support, food, or just someone to talk to. Reach out today. Your first step matters.",
+      "text": "چاہے آپ کو مشاورت، کمیونٹی سپورٹ، خوراک، یا صرف کسی سے بات کرنے کی ضرورت ہو۔ آج ہی پہنچیں۔ آپ کا پہلا قدم اہم ہے۔"
     },
     {
-      "key": "t614",
-      "source": "carrying,",
-      "text": "لے جانا،"
-    },
-    {
-      "key": "t615",
-      "source": "you",
-      "text": "آپ"
-    },
-    {
-      "key": "t616",
-      "source": "don't",
-      "text": "نہیں کرتے"
-    },
-    {
-      "key": "t617",
-      "source": "carry",
-      "text": "لے جانا"
-    },
-    {
-      "key": "t618",
-      "source": "it",
-      "text": "یہ"
-    },
-    {
-      "key": "t619",
-      "source": "alone.",
-      "text": "تنہا۔"
-    },
-    {
-      "key": "t620",
-      "source": "Whether",
-      "text": "چاہے"
-    },
-    {
-      "key": "t621",
-      "source": "you",
-      "text": "آپ"
-    },
-    {
-      "key": "t622",
-      "source": "need",
-      "text": "کی ضرورت ہے۔"
-    },
-    {
-      "key": "t623",
-      "source": "counselling,",
-      "text": "مشاورت،"
-    },
-    {
-      "key": "t624",
-      "source": "community",
-      "text": "] کمیونٹی"
-    },
-    {
-      "key": "t625",
-      "source": "support,",
-      "text": "سپورٹ،"
-    },
-    {
-      "key": "t626",
-      "source": "food,",
-      "text": "کھانا،"
-    },
-    {
-      "key": "t627",
-      "source": "or",
-      "text": "] یا"
-    },
-    {
-      "key": "t628",
-      "source": "just",
-      "text": "بس"
-    },
-    {
-      "key": "t629",
-      "source": "someone",
-      "text": "] کوئی"
-    },
-    {
-      "key": "t630",
-      "source": "to",
-      "text": "سے"
-    },
-    {
-      "key": "t631",
-      "source": "talk",
-      "text": "گفتگو"
-    },
-    {
-      "key": "t632",
-      "source": "to.",
-      "text": "سے۔"
-    },
-    {
-      "key": "t633",
-      "source": "Reach",
-      "text": "پہنچیں۔"
-    },
-    {
-      "key": "t634",
-      "source": "out",
-      "text": "باہر"
-    },
-    {
-      "key": "t635",
-      "source": "today.",
-      "text": "] آج۔"
-    },
-    {
-      "key": "t636",
-      "source": "Your",
-      "text": "آپ کا"
-    },
-    {
-      "key": "t637",
-      "source": "first",
-      "text": "پہلے"
-    },
-    {
-      "key": "t638",
-      "source": "step",
-      "text": "قدم"
-    },
-    {
-      "key": "t639",
-      "source": "matters.",
-      "text": "معاملات۔"
-    },
-    {
-      "key": "t640",
+      "key": "t288",
       "source": "Email us",
       "text": "ہمیں ای میل کریں۔"
     },
     {
-      "key": "t641",
+      "key": "t289",
       "source": "WhatsApp us",
       "text": "WhatsApp ہمیں"
     },
     {
-      "key": "t642",
+      "key": "t290",
       "source": "Donate via PayPal",
       "text": "PayPal کے ذریعے عطیہ کریں۔"
     },
     {
-      "key": "t643",
+      "key": "t291",
       "source": "Localgiving",
       "text": "Localgiving"
     },
     {
-      "key": "t644",
+      "key": "t292",
       "source": "Fundraiser",
       "text": "فنڈ جمع کرنے والا"
     },
     {
-      "key": "t645",
+      "key": "t293",
       "source": "Volunteer",
       "text": "رضاکار"
     },
     {
-      "key": "t646",
+      "key": "t294",
       "source": "Policies & your privacy",
       "text": "پالیسیاں اور آپ کی رازداری"
     },
     {
-      "key": "t647",
+      "key": "t295",
       "source": "How we protect you and your data.",
       "text": "ہم آپ اور آپ کے ڈیٹا کی حفاظت کیسے کرتے ہیں۔"
     },
     {
-      "key": "t648",
+      "key": "t296",
       "source": "A plain-English summary of how we handle your information, keep people safe, and use cookies. For the full policies or any request, email",
       "text": "ایک سادہ انگریزی خلاصہ کہ ہم آپ کی معلومات کو کیسے ہینڈل کرتے ہیں، لوگوں کو محفوظ رکھتے ہیں، اور کوکیز استعمال کرتے ہیں۔ مکمل پالیسیوں یا کسی بھی درخواست کے لیے، ای میل کریں۔"
     },
     {
-      "key": "t649",
+      "key": "t297",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t650",
+      "key": "t298",
       "source": "Privacy policy",
       "text": "رازداری کی پالیسی"
     },
     {
-      "key": "t651",
+      "key": "t299",
       "source": "Who we are.",
       "text": "ہم کون ہیں۔"
     },
     {
-      "key": "t652",
+      "key": "t300",
       "source": "Floating Counselling Community is a UK grassroots organisation providing counselling and community support since 2015. We operate as FLOATING COUNSELLING COMMUNITY, a company limited by guarantee registered in England and Wales, company number 11334515. We are the data controller for information you share with us. For privacy requests, email",
       "text": "Floating Counselling Community ایک UK نچلی سطح پر تنظیم ہے جو 2015 سے مشاورت اور کمیونٹی سپورٹ فراہم کرتی ہے۔ ہم فلوٹنگ کونسلنگ کمیونٹی کے طور پر کام کرتے ہیں، ایک کمپنی جو انگلستان اور ویلز میں رجسٹرڈ گارنٹی کے ذریعے محدود ہے، کمپنی نمبر 11334515۔ ہم آپ کے ساتھ ڈیٹا شیئر کرنے کے لیے ڈیٹا کنٹرول کرنے والے ہیں۔ رازداری کی درخواستوں کے لیے، ای میل کریں۔"
     },
     {
-      "key": "t653",
+      "key": "t301",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t654",
+      "key": "t302",
       "source": "or write to our Croydon office at 26 Avenue Road, London SE25 4DX.",
       "text": "یا 26 ایونیو روڈ، London SE25 4DX پر ہمارے Croydon دفتر کو لکھیں۔"
     },
     {
-      "key": "t655",
+      "key": "t303",
       "source": "What we collect.",
       "text": "جو ہم جمع کرتے ہیں۔"
     },
     {
-      "key": "t656",
+      "key": "t304",
       "source": "When you contact us through the enquiry form, by email or WhatsApp, we receive the details you choose to give us — typically your name, email address, the topic you select and your message. If you sign up to our newsletter we collect your email address. We do not ask for special-category health information through this website; please share only what you're comfortable with.",
       "text": "جب آپ انکوائری فارم کے ذریعے، ای میل یا WhatsApp کے ذریعے ہم سے رابطہ کرتے ہیں، تو ہمیں وہ تفصیلات موصول ہوتی ہیں جو آپ ہمیں دینے کا انتخاب کرتے ہیں — عام طور پر آپ کا نام، ای میل پتہ، آپ کا منتخب کردہ موضوع اور آپ کا پیغام۔ اگر آپ ہمارے نیوز لیٹر میں سائن اپ کرتے ہیں تو ہم آپ کا ای میل ایڈریس جمع کرتے ہیں۔ ہم اس ویب سائٹ کے ذریعے صحت سے متعلق خصوصی معلومات نہیں مانگتے ہیں۔ براہ کرم صرف وہی شئیر کریں جس میں آپ کو راحت ہو۔"
     },
     {
-      "key": "t657",
+      "key": "t305",
       "source": "How we use it, and our lawful basis.",
       "text": "ہم اسے کیسے استعمال کرتے ہیں، اور ہماری قانونی بنیاد۔"
     },
     {
-      "key": "t658",
+      "key": "t306",
       "source": "We use your details to reply to you, provide the support you ask for, and run our services (UK GDPR \"consent\" and \"legitimate interests\"). Where we have a duty to protect someone, we may process information to meet a legal obligation (see Safeguarding).",
       "text": "ہم آپ کی تفصیلات کا استعمال آپ کو جواب دینے، آپ کی مدد فراہم کرنے اور اپنی خدمات (UK GDPR \"رضامندی\" اور \"جائز مفادات\") چلانے کے لیے استعمال کرتے ہیں۔ جہاں کسی کی حفاظت کرنا ہمارا فرض ہے، ہم قانونی ذمہ داری کو پورا کرنے کے لیے معلومات پر کارروائی کر سکتے ہیں (سیف گارڈنگ دیکھیں)۔"
     },
     {
-      "key": "t659",
+      "key": "t307",
       "source": "Who we share it with.",
       "text": "ہم اسے کس کے ساتھ بانٹتے ہیں۔"
     },
     {
-      "key": "t660",
+      "key": "t308",
       "source": "We don't sell your data. We rely on a small number of trusted service providers who help us run the website, email, forms, volunteer applications, donations and maps. Each provider only receives the information needed for that service, and each has its own privacy notice.",
       "text": "ہم آپ کا ڈیٹا فروخت نہیں کرتے ہیں۔ ہم بہت کم بھروسہ مند خدمات فراہم کرنے والوں پر انحصار کرتے ہیں جو ویب سائٹ، ای میل، فارم، رضاکارانہ درخواستیں، عطیات اور نقشے چلانے میں ہماری مدد کرتے ہیں۔ ہر فراہم کنندہ صرف اس خدمت کے لیے درکار معلومات وصول کرتا ہے، اور ہر ایک کا اپنا رازداری کا نوٹس ہوتا ہے۔"
     },
     {
-      "key": "t661",
+      "key": "t309",
       "source": "Translation.",
       "text": "ترجمہ۔"
     },
     {
-      "key": "t662",
+      "key": "t310",
       "source": "If you translate this page, the on-screen page text may be sent securely to a translation service so the translated version can be returned. Translation is optional, contact-form messages are not translated by this feature, and translated text may be cached in your browser so it loads faster next time.",
       "text": "اگر آپ اس صفحہ کا ترجمہ کرتے ہیں، تو اسکرین پر موجود صفحہ کا متن محفوظ طریقے سے ترجمہ سروس کو بھیجا جا سکتا ہے تاکہ ترجمہ شدہ ورژن واپس کیا جا سکے۔ ترجمہ اختیاری ہے، رابطہ فارم کے پیغامات کا اس خصوصیت سے ترجمہ نہیں کیا جاتا ہے، اور ترجمہ شدہ متن آپ کے براؤزر میں محفوظ کیا جا سکتا ہے تاکہ اگلی بار یہ تیزی سے لوڈ ہو۔"
     },
     {
-      "key": "t663",
+      "key": "t311",
       "source": "How long we keep it.",
       "text": "ہم اسے کب تک رکھتے ہیں۔"
     },
     {
-      "key": "t664",
+      "key": "t312",
       "source": "We keep enquiry and support-request details only for as long as needed to respond, provide support, meet safeguarding duties, and comply with legal or accounting obligations. Donation and volunteer records are kept according to the relevant provider and legal retention requirements.",
       "text": "ہم انکوائری اور مدد کی درخواست کی تفصیلات صرف اس وقت تک رکھتے ہیں جب تک کہ جواب دینے، مدد فراہم کرنے، حفاظتی فرائض کو پورا کرنے، اور قانونی یا اکاؤنٹنگ ذمہ داریوں کی تعمیل کرنے کی ضرورت ہو۔ عطیہ اور رضاکارانہ ریکارڈ متعلقہ فراہم کنندہ اور قانونی برقراری کی ضروریات کے مطابق رکھا جاتا ہے۔"
     },
     {
-      "key": "t665",
+      "key": "t313",
       "source": "Your rights.",
       "text": "آپ کے حقوق۔"
     },
     {
-      "key": "t666",
+      "key": "t314",
       "source": "Under UK GDPR you can ask to access, correct, delete or restrict your data, object to processing, request portability, or withdraw consent at any time. Email",
       "text": "UK GDPR کے تحت آپ اپنے ڈیٹا تک رسائی، درست، حذف یا محدود کرنے، پروسیسنگ پر اعتراض، پورٹیبلٹی کی درخواست، یا کسی بھی وقت رضامندی واپس لینے کے لیے کہہ سکتے ہیں۔ ای میل"
     },
     {
-      "key": "t667",
+      "key": "t315",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t668",
+      "key": "t316",
       "source": "or write to us at 26 Avenue Road, London SE25 4DX. If you're unhappy with our response you can complain to the ICO at ico.org.uk.",
       "text": "یا ہمیں 26 ایونیو روڈ، London SE25 4DX پر لکھیں۔ اگر آپ ہمارے جواب سے ناخوش ہیں تو آپ ico.org.uk پر ICO سے شکایت کر سکتے ہیں۔"
     },
     {
-      "key": "t669",
+      "key": "t317",
       "source": "Last reviewed: 29 May 2026. This plain-English summary is provided for transparency and should be checked against Floating Counselling Community's full policies before publication.",
       "text": "آخری بار جائزہ لیا گیا: 29 مئی 2026۔ یہ سادہ انگریزی خلاصہ شفافیت کے لیے فراہم کیا گیا ہے اور اشاعت سے پہلے اسے Floating Counselling Community کی مکمل پالیسیوں کے خلاف چیک کیا جانا چاہیے۔"
     },
     {
-      "key": "t670",
+      "key": "t318",
       "source": "Safeguarding",
       "text": "حفاظت کرنا"
     },
     {
-      "key": "t671",
+      "key": "t319",
       "source": "Our commitment.",
       "text": "ہمارا عزم۔"
     },
     {
-      "key": "t672",
+      "key": "t320",
       "source": "The safety and wellbeing of the children, young people and adults at risk we work with comes first. Our practice is trauma-informed and aligned with BACP ethical standards.",
       "text": "بچوں، نوجوانوں اور خطرے سے دوچار بالغوں کی حفاظت اور بہبود جن کے ساتھ ہم کام کرتے ہیں سب سے پہلے آتا ہے۔ ہماری مشق صدمے سے باخبر اور BACP اخلاقی معیارات کے ساتھ منسلک ہے۔"
     },
     {
-      "key": "t673",
+      "key": "t321",
       "source": "Confidentiality and its limits.",
       "text": "رازداری اور اس کی حدود۔"
     },
     {
-      "key": "t674",
+      "key": "t322",
       "source": "What you share is held in strict confidence. The exception is a safeguarding situation — where there is a risk of serious harm to you or someone else, or where we have a legal duty to act. Wherever it is safe to do so, we will talk this through with you first.",
       "text": "آپ جو شئیر کرتے ہیں اسے سخت اعتماد کے ساتھ رکھا جاتا ہے۔ استثناء ایک حفاظتی صورتحال ہے — جہاں آپ کو یا کسی اور کو شدید نقصان پہنچنے کا خطرہ ہو، یا جہاں ہمارا قانونی فرض ہے کہ ہم کارروائی کریں۔ جہاں کہیں بھی ایسا کرنا محفوظ ہے، ہم پہلے آپ کے ساتھ اس پر بات کریں گے۔"
     },
     {
-      "key": "t675",
+      "key": "t323",
       "source": "Raising a concern.",
       "text": "تشویش پیدا کرنا۔"
     },
     {
-      "key": "t676",
+      "key": "t324",
       "source": "If you're worried about someone's safety, contact us at",
       "text": "اگر آپ کسی کی حفاظت کے بارے میں فکر مند ہیں تو ہم سے اس پر رابطہ کریں۔"
     },
     {
-      "key": "t677",
+      "key": "t325",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t678",
+      "key": "t326",
       "source": "or +44 (0)7305 882959. If someone is in immediate danger, always call 999. You can also contact the NSPCC on 0808 800 5000, or your local authority's safeguarding team.",
       "text": "یا +44 (0)7305 882959۔ اگر کسی کو فوری خطرہ ہو تو ہمیشہ 999 پر کال کریں۔ آپ NSPCC سے 0808 800 5000 پر یا اپنی مقامی اتھارٹی کی حفاظتی ٹیم سے بھی رابطہ کر سکتے ہیں۔"
     },
     {
-      "key": "t679",
+      "key": "t327",
       "source": "Our people.",
       "text": "ہمارے لوگ۔"
     },
     {
-      "key": "t680",
+      "key": "t328",
       "source": "Staff and volunteers are recruited safely and receive DBS checks where appropriate to their role.",
       "text": "عملے اور رضاکاروں کو محفوظ طریقے سے بھرتی کیا جاتا ہے اور جہاں ان کے کردار کے مطابق مناسب ہو DBS چیک حاصل کرتے ہیں۔"
     },
     {
-      "key": "t681",
+      "key": "t329",
       "source": "Safeguarding lead.",
       "text": "لیڈ کی حفاظت کرنا۔"
     },
     {
-      "key": "t682",
+      "key": "t330",
       "source": "Linda Yeboah, Director & Safeguarding Officer. Email",
       "text": "Linda Yeboah، ڈائریکٹر اور سیف گارڈنگ آفیسر۔ ای میل"
     },
     {
-      "key": "t683",
+      "key": "t331",
       "source": "floatingcounsellinglinda@gmail.com",
       "text": "floatingcounsellinglinda@gmail.com"
     },
     {
-      "key": "t684",
+      "key": "t332",
       "source": "or",
       "text": "] یا"
     },
     {
-      "key": "t685",
+      "key": "t333",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t686",
+      "key": "t334",
       "source": ". If someone is in immediate danger, call 999.",
       "text": "]۔ اگر کسی کو فوری خطرہ ہو تو 999 پر کال کریں۔"
     },
     {
-      "key": "t687",
+      "key": "t335",
       "source": "Last reviewed: 29 May 2026. This summary should be checked against Floating Counselling Community's full safeguarding policy before publication.",
       "text": "آخری بار جائزہ لیا گیا: 29 مئی 2026۔ اشاعت سے پہلے اس خلاصے کو Floating Counselling Community کی مکمل حفاظتی پالیسی کے خلاف چیک کیا جانا چاہئے۔"
     },
     {
-      "key": "t688",
+      "key": "t336",
       "source": "Cookies & storage",
       "text": "کوکیز اور اسٹوریج"
     },
     {
-      "key": "t689",
+      "key": "t337",
       "source": "We keep cookies to a minimum and don't use advertising or cross-site tracking. The site stores a couple of small items in your browser:",
       "text": "ہم کوکیز کو کم سے کم رکھتے ہیں اور اشتہارات یا کراس سائٹ ٹریکنگ کا استعمال نہیں کرتے ہیں۔ سائٹ آپ کے براؤزر میں کچھ چھوٹی اشیاء کو ذخیرہ کرتی ہے:"
     },
     {
-      "key": "t690",
+      "key": "t338",
       "source": "Cookie consent",
       "text": "کوکی کی رضامندی۔"
     },
     {
-      "key": "t691",
+      "key": "t339",
       "source": "— remembers that you've seen this notice, so we don't show it every visit.",
       "text": "— یاد ہے کہ آپ نے یہ نوٹس دیکھا ہے، اس لیے ہم اسے ہر دورے پر نہیں دکھاتے ہیں۔"
     },
     {
-      "key": "t692",
+      "key": "t340",
       "source": "Translation cache",
       "text": "ترجمہ کیشے"
     },
     {
-      "key": "t693",
+      "key": "t341",
       "source": "— if you translate the page, the translated text is saved locally so it loads instantly next time.",
       "text": "— اگر آپ صفحہ کا ترجمہ کرتے ہیں، تو ترجمہ شدہ متن مقامی طور پر محفوظ ہوجاتا ہے تاکہ اگلی بار فوری طور پر لوڈ ہوجائے۔"
     },
     {
-      "key": "t694",
+      "key": "t342",
       "source": "The embedded Google Map may set Google's own cookies when it loads. You can clear all of the above at any time by clearing your browser's site data.",
       "text": "ایمبیڈڈ گوگل میپ لوڈ ہونے پر گوگل کی اپنی کوکیز سیٹ کر سکتا ہے۔ آپ کسی بھی وقت اپنے براؤزر کی سائٹ کا ڈیٹا صاف کر کے مذکورہ بالا سبھی کو صاف کر سکتے ہیں۔"
     },
     {
-      "key": "t695",
+      "key": "t343",
       "source": "Counselling, community & compassion, serving Croydon, Redbridge, Newham, Durham and Southwark since 2015.",
       "text": "2015 سے Croydon، Redbridge، Newham، Durham اور Southwark کی خدمت، مشاورت، برادری اور ہمدردی۔"
     },
     {
-      "key": "t696",
+      "key": "t344",
       "source": "Get in touch",
       "text": "رابطہ کریں۔"
     },
     {
-      "key": "t697",
+      "key": "t345",
       "source": "info@floatingcounselling.co.uk",
       "text": "info@floatingcounselling.co.uk"
     },
     {
-      "key": "t698",
+      "key": "t346",
       "source": "WhatsApp · +44 (0)7305 882959",
       "text": "WhatsApp · +44 (0)7305 882959"
     },
     {
-      "key": "t699",
+      "key": "t347",
       "source": "Croydon Hub · Ashburton Park Cafe Hall",
       "text": "Croydon Hub · Ashburton Park Cafe Hall"
     },
     {
-      "key": "t700",
+      "key": "t348",
       "source": "See all project locations",
       "text": "پروجیکٹ کے تمام مقامات دیکھیں"
     },
     {
-      "key": "t701",
+      "key": "t349",
       "source": "Fundraiser",
       "text": "فنڈ جمع کرنے والا"
     },
     {
-      "key": "t702",
+      "key": "t350",
       "source": "Volunteer",
       "text": "رضاکار"
     },
     {
-      "key": "t703",
+      "key": "t351",
       "source": "Croydon office",
       "text": "Croydon آفس"
     },
     {
-      "key": "t704",
+      "key": "t352",
       "source": "Redbridge office",
       "text": "Redbridge آفس"
     },
     {
-      "key": "t705",
+      "key": "t353",
       "source": "Durham hub",
       "text": "Durham حب"
     },
     {
-      "key": "t706",
+      "key": "t354",
       "source": "Southwark hub",
       "text": "Southwark حب"
     },
     {
-      "key": "t707",
+      "key": "t355",
       "source": "Floating Counselling™ · BACP-aligned · Company no. 11334515 · Community Partner",
       "text": "Floating Counselling™ · BACP سے منسلک · کمپنی نمبر۔ 11334515 · کمیونٹی پارٹنر"
     },
     {
-      "key": "t708",
+      "key": "t356",
       "source": "Privacy",
       "text": "رازداری"
     },
     {
-      "key": "t709",
+      "key": "t357",
       "source": "Safeguarding",
       "text": "حفاظت کرنا"
     },
     {
-      "key": "t710",
+      "key": "t358",
       "source": "Fundraiser",
       "text": "فنڈ جمع کرنے والا"
     },
     {
-      "key": "t711",
+      "key": "t359",
       "source": "Donate",
       "text": "عطیہ کریں۔"
     },
     {
-      "key": "t712",
+      "key": "t360",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t713",
+      "key": "t361",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "t714",
+      "key": "t362",
       "source": "Choose a quick route",
       "text": "ایک فوری راستہ منتخب کریں۔"
     },
     {
-      "key": "t715",
+      "key": "t363",
       "source": "If you are not sure which service fits, choose the closest option and we will route you.",
       "text": "اگر آپ کو یقین نہیں ہے کہ کون سی سروس فٹ بیٹھتی ہے تو قریب ترین آپشن کا انتخاب کریں اور ہم آپ کو روٹ کریں گے۔"
     },
     {
-      "key": "t716",
+      "key": "t364",
       "source": "Counselling enquiry",
       "text": "مشاورتی انکوائری"
     },
     {
-      "key": "t717",
+      "key": "t365",
       "source": "Parenting support",
       "text": "والدین کی معاونت"
     },
     {
-      "key": "t718",
+      "key": "t366",
       "source": "Food or community hub",
       "text": "فوڈ یا کمیونٹی ہب"
     },
     {
-      "key": "t719",
+      "key": "t367",
       "source": "Holiday school",
       "text": "چھٹیوں کا اسکول"
     },
     {
-      "key": "t720",
+      "key": "t368",
       "source": "Fundraiser",
       "text": "فنڈ جمع کرنے والا"
     },
     {
-      "key": "t721",
+      "key": "t369",
       "source": "Volunteer or partner",
       "text": "رضاکار یا ساتھی"
     },
     {
-      "key": "t722",
+      "key": "t370",
       "source": "WhatsApp Floating",
       "text": "WhatsApp فلوٹنگ"
     },
     {
-      "key": "t723",
+      "key": "t371",
       "source": "We use a small number of cookies to make this site work and to understand how it's used.",
       "text": "ہم اس سائٹ کو کام کرنے اور اسے استعمال کرنے کے طریقے کو سمجھنے کے لیے بہت کم تعداد میں کوکیز استعمال کرتے ہیں۔"
     },
     {
-      "key": "t724",
+      "key": "t372",
       "source": "More info",
       "text": "مزید معلومات"
     },
     {
-      "key": "t725",
+      "key": "t373",
       "source": "Decline",
       "text": "انکار"
     },
     {
-      "key": "t726",
+      "key": "t374",
       "source": "Accept",
       "text": "قبول کریں۔"
     },
     {
-      "key": "a727",
+      "key": "a375",
       "source": "Primary",
       "text": "پرائمری"
     },
     {
-      "key": "a728",
+      "key": "a376",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — گھر"
     },
     {
-      "key": "a729",
+      "key": "a377",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a730",
+      "key": "a378",
       "source": "Toggle navigation",
       "text": "نیویگیشن ٹوگل کریں۔"
     },
     {
-      "key": "a731",
+      "key": "a379",
       "source": "Counselling conversation at Floating Counselling",
       "text": "Floating Counselling پر مشاورتی گفتگو"
     },
     {
-      "key": "a732",
+      "key": "a380",
       "source": "Scroll to impact",
       "text": "اثر کے لیے اسکرول کریں۔"
     },
     {
-      "key": "a733",
+      "key": "a381",
       "source": "Our impact",
       "text": "ہمارا اثر"
     },
     {
-      "key": "a734",
+      "key": "a382",
       "source": "Celestina Oniye-Thomas from Floating Counselling",
       "text": "Celestina Oniye-Thomas سے Floating Counselling"
     },
     {
-      "key": "a735",
+      "key": "a383",
       "source": "Impact Parenting support artwork from Floating Counselling",
       "text": "Floating Counselling سے Impact Parenting سپورٹ آرٹ ورک"
     },
     {
-      "key": "a736",
+      "key": "a384",
       "source": "Floating Counselling community organisation impact infographic",
       "text": "Floating Counselling کمیونٹی تنظیم اثر انفوگرافک"
     },
     {
-      "key": "a737",
+      "key": "a385",
       "source": "Holiday school values",
       "text": "چھٹی والے اسکول کی اقدار"
     },
     {
-      "key": "a738",
+      "key": "a386",
       "source": "Holiday school week 1 newsletter",
       "text": "چھٹی والے اسکول ہفتہ 1 نیوز لیٹر"
     },
     {
-      "key": "a739",
+      "key": "a387",
       "source": "Floating Community Hub community gathering",
       "text": "فلوٹنگ کمیونٹی حب کمیونٹی اجتماع"
     },
     {
-      "key": "a740",
+      "key": "a388",
       "source": "Celestina Oniye-Thomas",
       "text": "Celestina Oniye-Thomas"
     },
     {
-      "key": "a741",
+      "key": "a389",
       "source": "Omowonu-Ola Ogunlela",
       "text": "Omowonu-Ola Ogunlela"
     },
     {
-      "key": "a742",
+      "key": "a390",
       "source": "Elizabeth Owode",
       "text": "Elizabeth Owode"
     },
     {
-      "key": "a743",
+      "key": "a391",
       "source": "Linda Yeboah",
       "text": "Linda Yeboah"
     },
     {
-      "key": "a744",
+      "key": "a392",
       "source": "Department for Education",
       "text": "محکمہ تعلیم"
     },
     {
-      "key": "a745",
+      "key": "a393",
       "source": "Croydon Council",
       "text": "Croydon کونسل"
     },
     {
-      "key": "a746",
+      "key": "a394",
       "source": "South West London CCGs",
       "text": "ساؤتھ ویسٹ London CCGs"
     },
     {
-      "key": "a747",
+      "key": "a395",
       "source": "The National Lottery Community Fund",
       "text": "نیشنل لاٹری کمیونٹی فنڈ"
     },
     {
-      "key": "a748",
+      "key": "a396",
       "source": "BME Forum",
       "text": "BME فورم"
     },
     {
-      "key": "a749",
+      "key": "a397",
       "source": "Croydon Voluntary Action",
       "text": "Croydon رضاکارانہ کارروائی"
     },
     {
-      "key": "a750",
+      "key": "a398",
       "source": "Volunteer application form",
       "text": "رضاکارانہ درخواست فارم"
     },
     {
-      "key": "a751",
+      "key": "a399",
       "source": "Project locations",
       "text": "پروجیکٹ کے مقامات"
     },
     {
-      "key": "a752",
+      "key": "a400",
       "source": "Social links",
       "text": "سماجی روابط"
     },
     {
-      "key": "a753",
+      "key": "a401",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a754",
+      "key": "a402",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a755",
+      "key": "a403",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a756",
+      "key": "a404",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a757",
+      "key": "a405",
       "source": "Floating Counselling — Home",
       "text": "Floating Counselling — گھر"
     },
     {
-      "key": "a758",
+      "key": "a406",
       "source": "Floating Counselling",
       "text": "Floating Counselling"
     },
     {
-      "key": "a759",
+      "key": "a407",
       "source": "Social links",
       "text": "سماجی روابط"
     },
     {
-      "key": "a760",
+      "key": "a408",
       "source": "Facebook",
       "text": "Facebook"
     },
     {
-      "key": "a761",
+      "key": "a409",
       "source": "Instagram",
       "text": "Instagram"
     },
     {
-      "key": "a762",
+      "key": "a410",
       "source": "Twitter / X",
       "text": "Twitter / X"
     },
     {
-      "key": "a763",
+      "key": "a411",
       "source": "YouTube",
       "text": "YouTube"
     },
     {
-      "key": "a764",
+      "key": "a412",
       "source": "Project locations",
       "text": "پروجیکٹ کے مقامات"
     },
     {
-      "key": "a765",
+      "key": "a413",
       "source": "Fundraise for Floating Counselling",
       "text": "Floating Counselling کے لیے فنڈ جمع کرنا"
     },
     {
-      "key": "a766",
+      "key": "a414",
       "source": "Donate to Floating Counselling",
       "text": "Floating Counselling کو عطیہ کریں۔"
     },
     {
-      "key": "a767",
+      "key": "a415",
       "source": "Back to top",
       "text": "واپس اوپر"
     },
     {
-      "key": "a768",
+      "key": "a416",
       "source": "Ask Floating",
       "text": "Ask Floating"
     },
     {
-      "key": "a769",
+      "key": "a417",
       "source": "Close assistant",
       "text": "قریبی معاون"
     },
     {
-      "key": "a770",
+      "key": "a418",
       "source": "Cookie notice",
       "text": "کوکی نوٹس"
     }

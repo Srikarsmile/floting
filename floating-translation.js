@@ -24,7 +24,9 @@
   const BATCH_MAX_ITEMS = 100;
   const BATCH_MAX_CHARS = 12000;
   const MAX_PARALLEL_BATCHES = 3;
-  const CACHE_VERSION = 'floating-translation-v1';
+  const CACHE_VERSION = 'floating-translation-v2';
+  const STATIC_TRANSLATION_VERSION = '20260602-01';
+  const TRANSLATION_ARTIFACT_PATTERN = /\[\[\s*t\d+\s*\]\]+|\[\[\[[^\]]+\]\]\]|[A-Z]*XTERM\s*\d+\s*XCF/i;
   const RTL_LANGUAGES = new Set(['ar', 'ur']);
   const TEXT_ATTRS = ['aria-label', 'alt', 'placeholder', 'title'];
   const SKIP_SELECTOR = [
@@ -58,6 +60,15 @@
 
   function cleanText(value) {
     return String(value || '').replace(/\s+/g, ' ').trim();
+  }
+
+  function hasTranslationArtifact(value) {
+    return TRANSLATION_ARTIFACT_PATTERN.test(String(value || ''));
+  }
+
+  function isUsableTranslationText(value) {
+    const text = cleanText(value);
+    return Boolean(text) && !hasTranslationArtifact(text);
   }
 
   function deferWork() {
@@ -240,22 +251,36 @@
     const map = new Map();
     translations.forEach((item, index) => {
       if (typeof item === 'string') {
-        map.set(String(index), item);
+        if (isUsableTranslationText(item)) map.set(String(index), item);
         return;
       }
 
       if (item && item.key !== undefined && typeof item.text === 'string') {
-        map.set(String(item.key), item.text);
+        if (isUsableTranslationText(item.text)) map.set(String(item.key), item.text);
       }
     });
     return map;
+  }
+
+  function sanitizeStaticTranslations(translations) {
+    const sanitized = [];
+
+    translations.forEach((item, index) => {
+      const key = item && item.key !== undefined ? String(item.key) : String(index);
+      const text = typeof item === 'string' ? item : item && item.text;
+      if (!isUsableTranslationText(text)) return;
+      sanitized.push({ key, text });
+    });
+
+    return sanitized;
   }
 
   async function requestStaticTranslations(staticBase, language, sourceHash, entries) {
     const base = normalizeBaseUrl(staticBase);
     if (!base) return null;
 
-    const response = await fetch(`${base}${encodeURIComponent(language)}.json?v=${encodeURIComponent(sourceHash)}`, {
+    const staticVersion = `${sourceHash}-${STATIC_TRANSLATION_VERSION}`;
+    const response = await fetch(`${base}${encodeURIComponent(language)}.json?v=${encodeURIComponent(staticVersion)}`, {
       cache: 'force-cache',
     });
 
@@ -266,11 +291,11 @@
     const translations = data && Array.isArray(data.translations) ? data.translations : null;
     if (!translations || data.language !== language) return null;
 
-    if (data.sourceHash === sourceHash) return translations;
+    if (data.sourceHash === sourceHash) return sanitizeStaticTranslations(translations);
 
     const bySource = new Map();
     translations.forEach((item) => {
-      if (item && typeof item.source === 'string' && typeof item.text === 'string') {
+      if (item && typeof item.source === 'string' && isUsableTranslationText(item.text)) {
         bySource.set(cleanText(item.source), item.text);
       }
     });

@@ -11,6 +11,7 @@ const DEFAULT_ENDPOINT = 'https://floting.vercel.app/api/translate';
 const DEFAULT_CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const BATCH_MAX_ITEMS = 35;
 const BATCH_MAX_CHARS = 4500;
+const TRANSLATION_ARTIFACT_PATTERN = /\[\[\s*t\d+\s*\]\]+|\[\[\[[^\]]+\]\]\]|[A-Z]*XTERM\s*\d+\s*XCF/i;
 
 const LANGUAGE_NAMES = {
   ar: 'Arabic',
@@ -86,10 +87,14 @@ function protectText(text) {
 }
 
 function restoreProtectedText(text) {
-  return String(text || '').replace(/FCXTERM\s*(\d+)\s*XCF/gi, (match, index) => {
+  return String(text || '').replace(/[A-Z]*XTERM\s*(\d+)\s*XCF/gi, (match, index) => {
     const term = PROTECTED_TERMS[Number(index)];
     return term || match;
   });
+}
+
+function hasTranslationArtifact(value) {
+  return TRANSLATION_ARTIFACT_PATTERN.test(String(value || ''));
 }
 
 function parseArgs(argv) {
@@ -377,8 +382,9 @@ async function translateBatchWithGoogle(language, batch) {
     match = markerPattern.exec(translatedBlock);
   }
 
-  const missing = batch.filter((entry) => !byKey.has(entry.key));
-  for (const entry of missing) {
+  const invalid = batch.filter((entry) => !byKey.has(entry.key) || hasTranslationArtifact(byKey.get(entry.key)));
+
+  for (const entry of invalid) {
     byKey.set(entry.key, await translateWithGoogle(language, entry.text));
   }
 
