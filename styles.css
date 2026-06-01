@@ -3007,6 +3007,10 @@ body.nav-open .back-to-top {
     height: 30px;
     width: auto;
   }
+  .nav-logo {
+    min-height: 44px;
+    align-items: center;
+  }
   .nav-links {
     display: none;
     position: absolute;
@@ -3264,9 +3268,10 @@ body.nav-open .back-to-top {
   .team-card .team-readmore {
     display: inline-flex;
     font-size: 0.78rem;
-    padding: 9px 10px;
-    min-height: 40px;
+    padding: 10px 10px;
+    min-height: 44px;
     font-weight: 600;
+    align-items: center;
   }
 
   /* Newsletter form — stack neatly */
@@ -3298,6 +3303,12 @@ body.nav-open .back-to-top {
   }
   .hub-info-item .info-label {
     letter-spacing: 0.12em;
+  }
+  .hub-info-item a {
+    min-height: 44px;
+    min-width: 44px;
+    align-items: center;
+    justify-content: center;
   }
   .hub-features { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
   .hub-feature { padding: 16px 14px; }
@@ -3386,6 +3397,9 @@ body.nav-open .back-to-top {
   .location-card p {
     font-size: 0.86rem;
   }
+  .location-card a {
+    min-height: 44px;
+  }
   .contact-socials {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -3394,6 +3408,16 @@ body.nav-open .back-to-top {
   .contact-socials a {
     width: 100%;
     border-radius: 14px;
+  }
+  .form-consent {
+    min-height: 44px;
+    align-items: center;
+  }
+  .form-consent input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    flex: 0 0 22px;
+    margin-top: 0;
   }
   .contact-map { height: 280px; }
   .map-wrap { margin-top: 40px; }
@@ -3419,7 +3443,7 @@ body.nav-open .back-to-top {
     margin-top: 16px;
   }
   .footer-location-pills a {
-    min-height: 40px;
+    min-height: 44px;
     font-size: 0.78rem;
   }
 
@@ -3590,8 +3614,14 @@ body.nav-open .back-to-top {
     .nav-links .nav-cta { padding: 14px 24px !important; }
   }
   .footer ul a { padding: 12px 0; display: inline-block; min-height: 44px; }
-  .footer-legal a { padding: 10px 0; display: inline-block; min-height: 40px; }
-  .contact-channels a { padding: 8px 0; display: inline-block; min-height: 40px; }
+  .footer-legal a { padding: 12px 0; display: inline-block; min-height: 44px; }
+  .footer-socials a { width: 44px; height: 44px; }
+  .contact-channels a { padding: 10px 0; display: inline-block; min-height: 44px; }
+  .location-card a,
+  .hub-info-item a {
+    min-height: 44px;
+    min-width: 44px;
+  }
 }
 
 /* ═══════════════════════════════════════════
