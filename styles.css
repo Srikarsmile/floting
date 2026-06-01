@@ -511,6 +511,18 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   padding: clamp(80px, 11vw, 140px) 0;
   position: relative;
 }
+
+@supports (content-visibility: auto) {
+  .section:not(.support-pathways):not(.fundraiser-section):not(.volunteer-section):not(#faq) {
+    content-visibility: auto;
+    contain-intrinsic-size: auto var(--section-contain-size, 900px);
+  }
+
+  .section--dark { --section-contain-size: 980px; }
+  .section--contact { --section-contain-size: 1180px; }
+  .section--partners { --section-contain-size: 520px; }
+}
+
 .section--cream      { background: var(--clr-bg-warm); }
 .section--cream-deep { background: var(--clr-bg-deep); }
 .section--book       { background: linear-gradient(180deg, var(--clr-bg) 0%, var(--clr-bg-deep) 100%); }
