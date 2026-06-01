@@ -611,6 +611,8 @@
       }
     }
 
+    const selectedBeforeReady = select.value;
+
     select.addEventListener('change', () => {
       const language = select.value;
       if (!language) return;
@@ -624,6 +626,16 @@
       closeNavigation();
       translate(language);
     });
+
+    select.disabled = false;
+    select.removeAttribute('aria-busy');
+
+    if (selectedBeforeReady && selectedBeforeReady !== 'en') {
+      window.requestAnimationFrame(() => {
+        closeNavigation();
+        translate(selectedBeforeReady);
+      });
+    }
 
     return {
       reset,
