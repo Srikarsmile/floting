@@ -40,7 +40,7 @@
   <!-- Preload hero image -->
   <link rel="preload" as="image" href="images/counselling-real-20260515.avif" type="image/avif">
 
-  <link rel="stylesheet" href="styles.css?v=20260602-13">
+  <link rel="stylesheet" href="styles.css?v=20260602-14">
 
   <!-- JSON-LD: NGO -->
   <script type="application/ld+json">
@@ -79,8 +79,8 @@
   </script>
 
   <!-- Lightweight native interactions -->
-  <script defer src="floating-translation.js?v=20260602-13"></script>
-  <script defer src="script.js?v=20260602-13"></script>
+  <script defer src="floating-translation.js?v=20260602-14"></script>
+  <script defer src="script.js?v=20260602-14"></script>
 </head>
 <body>
 
@@ -777,13 +777,20 @@
           <p>Complete the volunteer application so the team can match your time, skills and availability to the right project.</p>
           <a href="https://forms.monday.com/forms/7566d310174da5f553ac3308406a82c6?r=euc1" class="btn btn-primary" target="_blank" rel="noopener" data-magnetic>Open volunteer form <span class="arrow">→</span></a>
         </div>
-        <div class="volunteer-embed" aria-label="Volunteer application form">
-          <iframe
-            title="Volunteer application form"
-            src="https://forms.monday.com/forms/embed/7566d310174da5f553ac3308406a82c6?r=euc1"
-            loading="lazy"
-            referrerpolicy="strict-origin-when-cross-origin"
-          ></iframe>
+        <div class="volunteer-embed deferred-embed" data-deferred-embed aria-label="Volunteer application form">
+          <div class="embed-placeholder">
+            <span>Embedded form</span>
+            <h4>Load the volunteer application form</h4>
+            <p>The form opens in this page when you need it, keeping the site lighter while you browse.</p>
+            <button
+              type="button"
+              class="btn btn-primary embed-load-button"
+              data-embed-src="https://forms.monday.com/forms/embed/7566d310174da5f553ac3308406a82c6?r=euc1"
+              data-embed-title="Volunteer application form"
+              data-embed-referrerpolicy="strict-origin-when-cross-origin"
+            >Load form <span class="arrow">→</span></button>
+          </div>
+          <noscript><p><a href="https://forms.monday.com/forms/7566d310174da5f553ac3308406a82c6?r=euc1">Open the volunteer form</a>.</p></noscript>
         </div>
       </div>
     </div>
@@ -923,13 +930,22 @@
   </div>
 
   <div class="container map-wrap" data-fade>
-    <iframe
-      class="contact-map"
-      title="Ashburton Park Cafe Hall on Google Maps"
-      src="https://www.google.com/maps?q=Ashburton+Park+Cafe+Hall+Lower+Addiscombe+Croydon+CR0+6RX&output=embed"
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-      allowfullscreen></iframe>
+    <div class="contact-map deferred-embed" data-deferred-embed aria-label="Ashburton Park Cafe Hall on Google Maps">
+      <div class="embed-placeholder embed-placeholder--map">
+        <span>Map preview</span>
+        <h4>Ashburton Park Cafe Hall</h4>
+        <p>Load the embedded Google Map only when you need directions.</p>
+        <button
+          type="button"
+          class="btn btn-primary embed-load-button"
+          data-embed-src="https://www.google.com/maps?q=Ashburton+Park+Cafe+Hall+Lower+Addiscombe+Croydon+CR0+6RX&output=embed"
+          data-embed-title="Ashburton Park Cafe Hall on Google Maps"
+          data-embed-referrerpolicy="no-referrer-when-downgrade"
+          data-embed-allowfullscreen="true"
+        >Load map <span class="arrow">→</span></button>
+      </div>
+      <noscript><p><a href="https://www.google.com/maps/search/?api=1&query=Ashburton+Park+Cafe+Hall+Croydon+CR0+6RX">Open the map</a>.</p></noscript>
+    </div>
   </div>
 </section>
 

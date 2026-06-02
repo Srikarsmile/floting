@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-13');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-14');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -2009,6 +2009,8 @@ class FloatingHome extends HTMLElement {
       this.bindLanguageTranslation(root, languageSelect, navToggle, navLinks);
     }
 
+    this.bindDeferredEmbeds(root, signal);
+
     const assistantPanel = root.querySelector('[data-assistant-panel]');
     const assistantWidget = root.querySelector('[data-assistant-widget]');
     const assistantOpenButtons = root.querySelectorAll('[data-assistant-open]');
@@ -2070,6 +2072,33 @@ class FloatingHome extends HTMLElement {
         if (isValid) contactForm.reset();
       }, { signal });
     }
+  }
+
+  bindDeferredEmbeds(root, signal) {
+    if (!root || !root.querySelectorAll) return;
+
+    root.querySelectorAll('[data-embed-src]').forEach((button) => {
+      if (button.dataset.embedBound === 'true') return;
+      button.dataset.embedBound = 'true';
+
+      button.addEventListener('click', () => {
+        const container = button.closest('[data-deferred-embed]');
+        const source = button.dataset.embedSrc;
+        if (!container || !source) return;
+
+        const iframe = document.createElement('iframe');
+        iframe.title = button.dataset.embedTitle || 'Embedded content';
+        iframe.src = source;
+        iframe.loading = 'lazy';
+        iframe.referrerPolicy = button.dataset.embedReferrerpolicy || 'strict-origin-when-cross-origin';
+        if (button.dataset.embedAllowfullscreen === 'true') {
+          iframe.allowFullscreen = true;
+        }
+
+        container.classList.add('is-loaded');
+        container.replaceChildren(iframe);
+      }, { signal });
+    });
   }
 
   scrollToShadowTarget(target) {

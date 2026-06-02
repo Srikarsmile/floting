@@ -786,12 +786,55 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   background: var(--clr-white);
   box-shadow: 0 18px 44px rgba(10,42,40,0.08);
 }
+.deferred-embed {
+  position: relative;
+}
+.deferred-embed iframe,
 .volunteer-embed iframe {
   display: block;
   width: 100%;
   height: 100%;
   border: 0;
   background: var(--clr-white);
+}
+.embed-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 14px;
+  padding: clamp(28px, 5vw, 56px);
+  text-align: center;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(108,180,180,0.18), transparent 34%),
+    linear-gradient(135deg, rgba(251,247,238,0.96), rgba(232,244,241,0.9));
+  color: var(--clr-text);
+}
+.embed-placeholder span {
+  color: var(--clr-accent);
+  font-size: var(--fs-eyebrow);
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.embed-placeholder h4 {
+  max-width: 18ch;
+  color: var(--clr-primary);
+  font-size: clamp(1.35rem, 2.8vw, 2rem);
+}
+.embed-placeholder p {
+  max-width: 42ch;
+  margin: 0;
+  color: var(--clr-text-light);
+  font-size: 0.98rem;
+}
+.embed-placeholder .btn {
+  margin-top: 4px;
+}
+.embed-placeholder--map {
+  min-height: 280px;
 }
 
 /* ═══════════════════════════════════════════
@@ -2710,10 +2753,12 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .contact-map {
   width: 100%;
   height: 360px;
+  overflow: hidden;
   border: 0;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-soft);
   filter: grayscale(0.2) contrast(0.95);
+  background: var(--clr-white);
 }
 
 /* ═══════════════════════════════════════════

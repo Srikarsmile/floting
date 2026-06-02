@@ -65,6 +65,32 @@
     return Math.round(value).toLocaleString() + suffix;
   }
 
+  function bindDeferredEmbeds(root) {
+    const scope = root || document;
+    scope.querySelectorAll('[data-embed-src]').forEach((button) => {
+      if (button.dataset.embedBound === 'true') return;
+      button.dataset.embedBound = 'true';
+
+      button.addEventListener('click', () => {
+        const container = button.closest('[data-deferred-embed]');
+        const source = button.dataset.embedSrc;
+        if (!container || !source) return;
+
+        const iframe = document.createElement('iframe');
+        iframe.title = button.dataset.embedTitle || 'Embedded content';
+        iframe.src = source;
+        iframe.loading = 'lazy';
+        iframe.referrerPolicy = button.dataset.embedReferrerpolicy || 'strict-origin-when-cross-origin';
+        if (button.dataset.embedAllowfullscreen === 'true') {
+          iframe.allowFullscreen = true;
+        }
+
+        container.classList.add('is-loaded');
+        container.replaceChildren(iframe);
+      });
+    });
+  }
+
   ready(() => {
     const navbar = document.getElementById('navbar');
     const navToggle = document.getElementById('navToggle');
@@ -135,6 +161,8 @@
         }
       }
     }
+
+    bindDeferredEmbeds(document);
 
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener('click', (event) => {
