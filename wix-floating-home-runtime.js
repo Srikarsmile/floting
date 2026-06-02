@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-18');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-19');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -393,6 +393,8 @@ class FloatingHome extends HTMLElement {
             --clr-accent: #C46A4A;
             --clr-accent-soft: #E0A48A;
             --clr-accent-warm: #C46A4A;
+            --clr-donate: #B84E00;
+            --clr-donate-hover: #A94710;
             --clr-sage: #A8CCCC;
             --clr-bg: #F4EFE3;
             --clr-bg-warm: #ECE4D2;

@@ -609,12 +609,12 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .btn-glass:hover { background: rgba(255,255,255,0.22); }
 
 .btn-donate {
-  background: var(--clr-donate);
+  background: var(--clr-donate, #B84E00);
   color: var(--clr-white);
   box-shadow: 0 14px 30px -12px rgba(184,78,0,0.48);
 }
 .btn-donate:hover {
-  background: var(--clr-donate-hover);
+  background: var(--clr-donate-hover, #A94710);
   color: var(--clr-white);
   box-shadow: 0 16px 34px -12px rgba(169,71,16,0.52);
 }
@@ -2881,7 +2881,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .donate-fab {
   bottom: 152px;
-  background: var(--clr-donate);
+  background: var(--clr-donate, #B84E00);
   box-shadow: 0 12px 30px -12px rgba(184,78,0,0.5);
 }
 .fundraiser-fab {
@@ -2890,7 +2890,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .support-fab.is-visible { transform: translateY(0); opacity: 1; }
 .support-fab:hover { background: var(--clr-primary-soft); box-shadow: 0 12px 32px -10px rgba(10,86,81,0.5); }
-.donate-fab:hover { background: var(--clr-donate-hover); }
+.donate-fab:hover { background: var(--clr-donate-hover, #A94710); }
 .fundraiser-fab:hover { background: var(--clr-primary); }
 .support-fab svg { width: 18px; height: 18px; }
 
