@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-12');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-13');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -2205,11 +2205,12 @@ class FloatingHome extends HTMLElement {
       else if (y < lastFabY - 12) scrollingDown = false;
       lastFabY = y;
 
-      const contactRect = contactEl && contactEl.getBoundingClientRect();
-      const footerRect = footerEl && footerEl.getBoundingClientRect();
+      const withinScrollRange = y > 600 && y < max - 200;
+      const contactRect = withinScrollRange && contactEl && contactEl.getBoundingClientRect();
+      const footerRect = withinScrollRange && footerEl && footerEl.getBoundingClientRect();
       const contactIsVisible = contactRect && contactRect.top < window.innerHeight - 40 && contactRect.bottom > 80;
       const footerIsVisible = footerRect && footerRect.top < window.innerHeight - 40;
-      const inFabRange = y > 600 && y < max - 200 && !contactIsVisible && !footerIsVisible;
+      const inFabRange = withinScrollRange && !contactIsVisible && !footerIsVisible;
       if (!smallScreen.matches) {
         supportFabs.forEach((fab) => fab.classList.toggle('is-visible', inFabRange));
       } else {
@@ -2221,7 +2222,7 @@ class FloatingHome extends HTMLElement {
         const menuOpen = root.getElementById('navLinks') && root.getElementById('navLinks').classList.contains('open');
         assistantWidget.classList.toggle(
           'is-muted',
-          Boolean(menuOpen) || contactIsVisible || footerIsVisible || (smallScreen.matches && y < 720),
+          Boolean(menuOpen) || Boolean(contactIsVisible) || Boolean(footerIsVisible) || (smallScreen.matches && y < 720),
         );
       }
 

@@ -71,19 +71,27 @@
     const navLinks = document.getElementById('navLinks');
     const progress = document.querySelector('.scroll-progress span');
     const languageSelect = document.getElementById('languageSelect');
+    const viewportJobs = [];
+    let viewportTicking = false;
+
+    const scheduleViewportUpdate = () => {
+      if (viewportTicking) return;
+      viewportTicking = true;
+      requestAnimationFrame(() => {
+        viewportTicking = false;
+        viewportJobs.forEach((job) => job());
+      });
+    };
+
+    const addViewportJob = (job) => {
+      viewportJobs.push(job);
+    };
 
     if (navbar) {
-      let navTicking = false;
       const updateNav = () => {
         navbar.classList.toggle('scrolled', window.scrollY > 24);
-        navTicking = false;
       };
-      window.addEventListener('scroll', () => {
-        if (!navTicking) {
-          navTicking = true;
-          requestAnimationFrame(updateNav);
-        }
-      }, { passive: true });
+      addViewportJob(updateNav);
       updateNav();
     }
 
@@ -152,20 +160,13 @@
     window.addEventListener('hashchange', scrollToCurrentHash);
 
     if (progress) {
-      let progressTicking = false;
       const updateProgress = () => {
         const doc = document.documentElement;
         const max = doc.scrollHeight - doc.clientHeight;
         const pct = max > 0 ? window.scrollY / max : 0;
         progress.style.transform = `scaleX(${Math.min(1, Math.max(0, pct)).toFixed(4)})`;
-        progressTicking = false;
       };
-      window.addEventListener('scroll', () => {
-        if (!progressTicking) {
-          progressTicking = true;
-          requestAnimationFrame(updateProgress);
-        }
-      }, { passive: true });
+      addViewportJob(updateProgress);
       updateProgress();
     }
 
@@ -218,7 +219,6 @@
     const smallScreen = window.matchMedia('(max-width: 720px)');
     let lastFabY = window.scrollY;
     let scrollingDown = false;
-    let fabTicking = false;
 
     const updateFabs = () => {
       const y = window.scrollY;
@@ -227,11 +227,12 @@
       else if (y < lastFabY - 12) scrollingDown = false;
       lastFabY = y;
 
-      const contactRect = contactEl && contactEl.getBoundingClientRect();
-      const footerRect = footerEl && footerEl.getBoundingClientRect();
+      const withinScrollRange = y > 600 && y < max - 200;
+      const contactRect = withinScrollRange && contactEl && contactEl.getBoundingClientRect();
+      const footerRect = withinScrollRange && footerEl && footerEl.getBoundingClientRect();
       const contactIsVisible = contactRect && contactRect.top < window.innerHeight - 40 && contactRect.bottom > 80;
       const footerIsVisible = footerRect && footerRect.top < window.innerHeight - 40;
-      const inFabRange = y > 600 && y < max - 200 && !contactIsVisible && !footerIsVisible;
+      const inFabRange = withinScrollRange && !contactIsVisible && !footerIsVisible;
       const supportVisible = inFabRange &&
         !document.body.classList.contains('cookie-open') &&
         !document.body.classList.contains('nav-open');
@@ -242,22 +243,20 @@
       if (assistantWidget) {
         assistantWidget.classList.toggle(
           'is-muted',
-          contactIsVisible || footerIsVisible || (smallScreen.matches && y < 720),
+          Boolean(contactIsVisible) || Boolean(footerIsVisible) || (smallScreen.matches && y < 720),
         );
       }
       if (backToTop) backToTop.classList.toggle('is-visible', y > 1200 && !scrollingDown);
-      fabTicking = false;
     };
 
     if (supportFabs.length || backToTop) {
-      window.addEventListener('scroll', () => {
-        if (!fabTicking) {
-          fabTicking = true;
-          requestAnimationFrame(updateFabs);
-        }
-      }, { passive: true });
-      window.addEventListener('resize', updateFabs, { passive: true });
+      addViewportJob(updateFabs);
       updateFabs();
+    }
+
+    if (viewportJobs.length) {
+      window.addEventListener('scroll', scheduleViewportUpdate, { passive: true });
+      window.addEventListener('resize', scheduleViewportUpdate, { passive: true });
     }
 
     if (backToTop) {
@@ -323,7 +322,7 @@
           localStorage.setItem('fc-cookie-consent', button.dataset.cookie);
           banner.classList.remove('is-visible');
           document.body.classList.remove('cookie-open');
-          updateFabs();
+          scheduleViewportUpdate();
           window.setTimeout(() => { banner.hidden = true; }, 300);
         });
       });
