@@ -4,6 +4,7 @@ const floatingHomeId = "customElement1";
 const floatingLoaderUrl = "https://floting.vercel.app/wix-loader.js";
 const floatingManifestUrl = "https://floting.vercel.app/build-manifest.json";
 const floatingTranslationEndpoint = "https://floting.vercel.app/api/translate";
+const floatingDomFallbackId = "floating-home-dom-fallback";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
 
@@ -52,6 +53,70 @@ function findFloatingHomeElement() {
   });
 
   return candidates[0] || null;
+}
+
+function findFloatingHomeDomElement() {
+  try {
+    if (typeof document === "undefined") {
+      return null;
+    }
+
+    return (
+      document.getElementById(floatingDomFallbackId) ||
+      document.querySelector("floating-home") ||
+      null
+    );
+  } catch (error) {
+    return null;
+  }
+}
+
+function setFloatingAttributes(element) {
+  if (!element || typeof element.setAttribute !== "function") {
+    return;
+  }
+
+  try {
+    element.setAttribute("data-floating-manifest-url", floatingManifestUrl);
+    if (floatingTranslationEndpoint) {
+      element.setAttribute("data-translation-endpoint", floatingTranslationEndpoint);
+    }
+
+    if (typeof element.getAttribute !== "function" || !element.getAttribute("data-cms")) {
+      element.setAttribute("data-cms", "");
+    }
+  } catch (error) {
+    // Attribute support depends on the Wix render target.
+  }
+}
+
+function ensureFloatingHomeDomFallback() {
+  try {
+    if (typeof document === "undefined" || !document.body) {
+      return null;
+    }
+
+    let element = findFloatingHomeDomElement();
+
+    if (!element) {
+      element = document.createElement("floating-home");
+      element.id = floatingDomFallbackId;
+      document.body.insertBefore(element, document.body.firstChild);
+    }
+
+    setFloatingAttributes(element);
+    element.style.setProperty("display", "block", "important");
+    element.style.setProperty("width", "100%", "important");
+    element.style.setProperty("min-height", "100vh", "important");
+    element.style.setProperty("position", "relative", "important");
+    element.style.setProperty("z-index", "2147483647", "important");
+    element.style.setProperty("background", "#f4efe3", "important");
+    document.body.setAttribute("data-floating-dom-fallback", "active");
+
+    return element;
+  } catch (error) {
+    return null;
+  }
 }
 
 function addKeepPath(element, keepIds) {
@@ -166,6 +231,7 @@ function installFloatingPageGuards() {
       "html,body{background:#f4efe3!important;overflow-x:hidden!important;}",
       "[id*='poptin' i],[class*='poptin' i],iframe[src*='poptin' i],a[href*='poptin.com' i]{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}",
       "[data-floating-home-hidden='true']{display:none!important;visibility:hidden!important;height:0!important;min-height:0!important;overflow:hidden!important;}",
+      "body[data-floating-dom-fallback='active']>*:not(#" + floatingDomFallbackId + "):not(script):not(style){display:none!important;visibility:hidden!important;height:0!important;min-height:0!important;overflow:hidden!important;}",
     ].join("");
   } catch (error) {
     // Wix can restrict direct document access in some editor contexts.
@@ -260,22 +326,13 @@ function applyFloatingHomeLayout() {
   const floatingHome = findFloatingHomeElement();
 
   if (!floatingHome) {
+    ensureFloatingHomeDomFallback();
     return;
   }
 
   showElement(floatingHome);
 
-  if (typeof floatingHome.setAttribute === "function") {
-    try {
-      floatingHome.setAttribute("data-floating-manifest-url", floatingManifestUrl);
-      if (floatingTranslationEndpoint) {
-        floatingHome.setAttribute("data-translation-endpoint", floatingTranslationEndpoint);
-      }
-      floatingHome.setAttribute("data-cms", "");
-    } catch (error) {
-      // Attribute support depends on the Wix custom element render target.
-    }
-  }
+  setFloatingAttributes(floatingHome);
 
   const keepIds = {};
   const floatingHomeKey = getElementKey(floatingHome);
@@ -384,7 +441,7 @@ function loadFloatingCms() {
 }
 
 function applyFloatingCms(payload) {
-  const floatingHome = findFloatingHomeElement();
+  const floatingHome = findFloatingHomeElement() || findFloatingHomeDomElement();
 
   if (!floatingHome || !payload) {
     return;
@@ -409,5 +466,13 @@ $w.onReady(function () {
 
   [0, 40, 120, 250, 700, 1500, 3000, 6000, 10000].forEach(function (delay) {
     setTimeout(applyFloatingHomeLayout, delay);
+  });
+
+  loadFloatingCms().then(function (payload) {
+    [0, 250, 1000, 2500].forEach(function (delay) {
+      setTimeout(function () {
+        applyFloatingCms(payload);
+      }, delay);
+    });
   });
 });
