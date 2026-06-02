@@ -40,7 +40,7 @@
   <!-- Preload hero image -->
   <link rel="preload" as="image" href="images/counselling-real-20260515.avif" type="image/avif">
 
-  <link rel="stylesheet" href="styles.css?v=20260602-11">
+  <link rel="stylesheet" href="styles.css?v=20260602-12">
 
   <!-- JSON-LD: NGO -->
   <script type="application/ld+json">
@@ -79,8 +79,8 @@
   </script>
 
   <!-- Lightweight native interactions -->
-  <script defer src="floating-translation.js?v=20260602-11"></script>
-  <script defer src="script.js?v=20260602-11"></script>
+  <script defer src="floating-translation.js?v=20260602-12"></script>
+  <script defer src="script.js?v=20260602-12"></script>
 </head>
 <body>
 
@@ -419,10 +419,16 @@
     </div>
     <div class="feature-media-stack" data-stagger>
       <figure class="original-photo-card original-photo-card--wide">
-        <img src="images/original-impact-parenting.webp" alt="Impact Parenting support artwork from Floating Counselling" data-cms-image="parenting.image" width="900" height="576" loading="lazy" decoding="async">
+        <picture>
+          <source srcset="images/original-impact-parenting.avif" type="image/avif">
+          <img src="images/original-impact-parenting.webp" alt="Impact Parenting support artwork from Floating Counselling" data-cms-image="parenting.image" width="900" height="576" loading="lazy" decoding="async" fetchpriority="low">
+        </picture>
       </figure>
       <figure class="original-photo-card original-photo-card--paper">
-        <img src="images/original-impact-infographic.webp" alt="Floating Counselling community organisation impact infographic" data-cms-image="parenting.infographic" width="900" height="2046" loading="lazy" decoding="async">
+        <picture>
+          <source srcset="images/original-impact-infographic.avif" type="image/avif">
+          <img src="images/original-impact-infographic.webp" alt="Floating Counselling community organisation impact infographic" data-cms-image="parenting.infographic" width="900" height="2046" loading="lazy" decoding="async" fetchpriority="low">
+        </picture>
       </figure>
     </div>
   </div>

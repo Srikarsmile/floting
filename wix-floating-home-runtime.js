@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-11');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-12');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -59,6 +59,18 @@ const floatingHomeImageAssetAliases = Object.freeze({
   'images/partner-neighbourly.jpg': 'images/partner-neighbourly.webp',
   'images/partner-prs.png': 'images/partner-prs.webp',
   'images/partner-swl.png': 'images/partner-swl.webp',
+});
+
+const floatingHomeAvifAssetAliases = Object.freeze({
+  'images/counselling-real-20260515.webp': 'images/counselling-real-20260515.avif',
+  'images/hub-real-20260515.webp': 'images/hub-real-20260515.avif',
+  'images/original-holiday-week1.webp': 'images/original-holiday-week1.avif',
+  'images/original-impact-infographic.webp': 'images/original-impact-infographic.avif',
+  'images/original-impact-parenting.webp': 'images/original-impact-parenting.avif',
+  'images/team-celestina-20260601.webp': 'images/team-celestina-20260601.avif',
+  'images/team-elizabeth.webp': 'images/team-elizabeth.avif',
+  'images/team-linda.webp': 'images/team-linda.avif',
+  'images/team-omowonu.webp': 'images/team-omowonu.avif',
 });
 
 class FloatingHome extends HTMLElement {
@@ -204,6 +216,44 @@ class FloatingHome extends HTMLElement {
   optimizedImagePath(path) {
     const cleanPath = String(path || '').replace(/^\/+/, '').replace(/^floting\//, '');
     return floatingHomeImageAssetAliases[cleanPath] || cleanPath;
+  }
+
+  avifImagePath(path) {
+    const optimizedPath = this.optimizedImagePath(path);
+    if (/\.avif(?:$|\?)/i.test(optimizedPath)) return optimizedPath;
+    return floatingHomeAvifAssetAliases[optimizedPath] || '';
+  }
+
+  localImagePath(value) {
+    const rawValue = String(value || '').trim();
+    if (!rawValue) return '';
+
+    if (/^(images|\.\/images)\//.test(rawValue)) {
+      return rawValue.replace(/^\.\//, '').split(/[?#]/)[0];
+    }
+
+    try {
+      const url = new URL(rawValue, this.assetBase);
+      const assetUrl = new URL(this.assetBase);
+      const isLocalAsset =
+        url.hostname === assetUrl.hostname ||
+        url.hostname === 'floting.vercel.app' ||
+        url.hostname === 'srikarsmile.github.io' ||
+        url.hostname === window.location.hostname;
+
+      if (!isLocalAsset) return '';
+
+      const localPath = decodeURIComponent(url.pathname).replace(/^\/+/, '').replace(/^floting\//, '');
+      return /^images\//.test(localPath) ? localPath : '';
+    } catch (error) {
+      return '';
+    }
+  }
+
+  avifSourceForImage(value) {
+    const localPath = this.localImagePath(value);
+    const avifPath = localPath ? this.avifImagePath(localPath) : '';
+    return avifPath ? this.asset(avifPath) : '';
   }
 
   readAssetBase() {
@@ -1589,7 +1639,15 @@ class FloatingHome extends HTMLElement {
       img.setAttribute('src', image);
       img.removeAttribute('srcset');
       if (img.parentElement && img.parentElement.tagName === 'PICTURE') {
-        img.parentElement.querySelectorAll('source').forEach((source) => source.remove());
+        const picture = img.parentElement;
+        const avifSource = this.avifSourceForImage(image);
+        picture.querySelectorAll('source').forEach((source) => source.remove());
+        if (avifSource) {
+          const source = document.createElement('source');
+          source.setAttribute('srcset', avifSource);
+          source.setAttribute('type', 'image/avif');
+          picture.insertBefore(source, img);
+        }
       }
     }
 

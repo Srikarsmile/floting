@@ -1,7 +1,7 @@
 key,value,image,alt,url,enabled
 hero.title,"Counselling, Community & Compassion.",,,,true
 hero.lede,"A UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care, practical help and community-driven programmes designed as wraparound care.",,,,true
-hero.image,,https://floting.vercel.app/images/counselling-real-20260515.webp,Counselling conversation at Floating Counselling,,true
+hero.image,,https://floting.vercel.app/images/counselling-real-20260515.avif,Counselling conversation at Floating Counselling,,true
 hero.primaryUrl,,,,#contact,true
 hero.secondaryUrl,,,,#pathways,true
 pathways.title,"Choose the help you need today.",,,,true
@@ -17,18 +17,18 @@ about.body,"We are proudly led by a diverse team of African women, whose lived e
 about.founder,"Our founder, Celestina Oniye-Thomas, knows this work from the inside. After surviving childhood trauma and a spinal injury at sixteen that doctors thought would stop her walking, she taught herself to walk again, retrained as an integrative psychotherapist, and built Floating so families could find the healing she had to fight for.",,,,true
 about.quote,"""Resilience and self-confidence saved my life.""",,,,true
 about.quoteByline,"Celestina Oniye-Thomas — Founder & CEO",,,,true
-about.image,,https://floting.vercel.app/images/team-celestina-20260601.webp,Celestina Oniye-Thomas from Floating Counselling,,true
+about.image,,https://floting.vercel.app/images/team-celestina-20260601.avif,Celestina Oniye-Thomas from Floating Counselling,,true
 parenting.title,"Therapy with realistic tools and strategy for a better life.",,,,true
 parenting.subtitle,"Floating combines 45 years as clinical psychotherapists with 50,000+ clinical hours of working to help individuals, children and parents live better and be better.",,,,true
 parenting.body,"The Impact Parenting approach gives families practical, scientifically grounded strategies to heal trauma, parent more effectively, and reduce generational trauma across the family system.",,,,true
-parenting.image,,https://floting.vercel.app/images/original-impact-parenting.webp,Impact Parenting support artwork from Floating Counselling,,true
-parenting.infographic,,https://floting.vercel.app/images/original-impact-infographic.webp,Floating Counselling community organisation impact infographic,,true
+parenting.image,,https://floting.vercel.app/images/original-impact-parenting.avif,Impact Parenting support artwork from Floating Counselling,,true
+parenting.infographic,,https://floting.vercel.app/images/original-impact-infographic.avif,Floating Counselling community organisation impact infographic,,true
 holiday.title,"Values, resilience and creativity for children 5-11.",,,,true
 holiday.subtitle,"Raising children gets easier with trained professionals supporting physical health, resilience, emotional intelligence and wellbeing through art, music, play therapy, sand play, piano, guitar and proven psychological techniques.",,,,true
 hub.title,"Floating Community Hub.",,,,true
 hub.subtitle,"A central gathering place for Croydon residents, with wider projects also serving Redbridge, Newham, Durham and Southwark. Come together, have a cup of tea and a chat.",,,,true
 hub.body,"The Croydon hub runs every Tuesday at Ashburton Park Cafe Hall, CR0 6RX, from 12:30 to 2:30pm. Floating also delivers community projects in Redbridge, Newham, Durham and Southwark, bringing practical advocacy, wellbeing support and local referrals closer to each community.",,,,true
-hub.image,,https://floting.vercel.app/images/hub-real-20260515.webp,Floating Community Hub community gathering,,true
+hub.image,,https://floting.vercel.app/images/hub-real-20260515.avif,Floating Community Hub community gathering,,true
 testimonials.title,"In their own words.",,,,true
 testimonials.subtitle,"Hear from the families and individuals whose lives have been transformed.",,,,true
 team.title,"Meet the team.",,,,true
