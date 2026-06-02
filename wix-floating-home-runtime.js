@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-19');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-20');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -1628,10 +1628,20 @@ class FloatingHome extends HTMLElement {
 
   bindLanguageTranslation(root, languageSelect, navToggle, navLinks) {
     const closeNav = () => {
-      if (!navToggle || !navLinks) return;
-      navToggle.classList.remove('open');
-      navLinks.classList.remove('open');
-      navToggle.setAttribute('aria-expanded', 'false');
+      if (navToggle && navLinks) {
+        navToggle.classList.remove('open');
+        navLinks.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      }
+
+      const floatingRoot = root && root.querySelector('.floating-root');
+      if (floatingRoot) floatingRoot.classList.remove('nav-open');
+
+      this.clearGlobalNavState();
+
+      if (typeof this.updateSupportFabVisibility === 'function') {
+        this.updateSupportFabVisibility();
+      }
     };
 
     this.loadTranslationClient()
