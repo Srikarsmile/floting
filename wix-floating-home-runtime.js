@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-14');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-15');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -188,6 +188,26 @@ class FloatingHome extends HTMLElement {
   asset(path) {
     const cleanPath = String(path).replace(/^\/+/, '');
     return `${this.assetBase}${cleanPath}?v=${this.version}`;
+  }
+
+  assetSourceSet(sourceSet) {
+    return String(sourceSet || '')
+      .split(',')
+      .map((candidate) => {
+        const trimmed = candidate.trim();
+        if (!trimmed) return '';
+
+        const match = trimmed.match(/^(\S+)(\s+.+)?$/);
+        if (!match) return trimmed;
+
+        const source = match[1];
+        const descriptor = match[2] || '';
+        if (!/^(images|\.\/images)\//.test(source)) return trimmed;
+
+        return `${this.asset(source.replace(/^\.\//, ''))}${descriptor}`;
+      })
+      .filter(Boolean)
+      .join(', ');
   }
 
   manifestUrlFor(key, fallbackPath) {
@@ -665,8 +685,16 @@ class FloatingHome extends HTMLElement {
       ['preload', 'fetch', this.htmlUrl()],
       ['preload', 'style', this.stylesUrl()],
       ['preload', 'image', this.asset('images/logo.webp')],
-      ['preload', 'image', this.asset('images/counselling-real-20260515.avif')],
-    ].forEach(([rel, as, href]) => {
+      [
+        'preload',
+        'image',
+        this.asset('images/counselling-real-20260515-960.avif'),
+        this.assetSourceSet(
+          'images/counselling-real-20260515-640.avif 640w, images/counselling-real-20260515-960.avif 960w, images/counselling-real-20260515.avif 1200w',
+        ),
+        '(max-width: 720px) 92vw, (max-width: 1100px) 480px, 560px',
+      ],
+    ].forEach(([rel, as, href, imageSrcset, imageSizes]) => {
       if (document.head.querySelector(`link[rel="${rel}"][href="${href}"]`)) return;
 
       const link = document.createElement('link');
@@ -675,6 +703,8 @@ class FloatingHome extends HTMLElement {
       link.href = href;
       if (/\.avif(?:\?|$)/.test(href)) link.type = 'image/avif';
       if (as === 'fetch') link.crossOrigin = 'anonymous';
+      if (imageSrcset) link.setAttribute('imagesrcset', imageSrcset);
+      if (imageSizes) link.setAttribute('imagesizes', imageSizes);
       document.head.appendChild(link);
     });
   }
@@ -1258,7 +1288,7 @@ class FloatingHome extends HTMLElement {
     this.shadowRoot.querySelectorAll('[srcset]').forEach((node) => {
       const sourceSet = node.getAttribute('srcset');
       if (sourceSet && /^(images|\.\/images)\//.test(sourceSet.trim())) {
-        node.setAttribute('srcset', this.asset(sourceSet.trim().replace(/^\.\//, '')));
+        node.setAttribute('srcset', this.assetSourceSet(sourceSet));
       }
     });
   }

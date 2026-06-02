@@ -1165,13 +1165,22 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .hub-bg { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; contain: paint; }
 .hub-bg-image {
   position: absolute; inset: -10% -5%;
-  background-image: url('images/hub-real-20260515.webp');
+  background-image: url('images/hub-real-20260515-960.webp');
   background-image: image-set(
-    url('images/hub-real-20260515.avif') type('image/avif'),
-    url('images/hub-real-20260515.webp') type('image/webp')
+    url('images/hub-real-20260515-960.avif') type('image/avif'),
+    url('images/hub-real-20260515-960.webp') type('image/webp')
   );
   background-size: cover; background-position: center;
   opacity: 0.08; filter: saturate(0) brightness(1.6);
+}
+@media (max-width: 720px) {
+  .hub-bg-image {
+    background-image: url('images/hub-real-20260515-640.webp');
+    background-image: image-set(
+      url('images/hub-real-20260515-640.avif') type('image/avif'),
+      url('images/hub-real-20260515-640.webp') type('image/webp')
+    );
+  }
 }
 .hub-bg-orb {
   position: absolute; top: 20%; right: -10%;

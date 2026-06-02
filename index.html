@@ -38,9 +38,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Inter+Tight:wght@300;400;500;600;700&display=swap">
 
   <!-- Preload hero image -->
-  <link rel="preload" as="image" href="images/counselling-real-20260515.avif" type="image/avif">
+  <link
+    rel="preload"
+    as="image"
+    href="images/counselling-real-20260515-960.avif"
+    type="image/avif"
+    imagesrcset="images/counselling-real-20260515-640.avif 640w, images/counselling-real-20260515-960.avif 960w, images/counselling-real-20260515.avif 1200w"
+    imagesizes="(max-width: 720px) 92vw, (max-width: 1100px) 480px, 560px"
+  >
 
-  <link rel="stylesheet" href="styles.css?v=20260602-14">
+  <link rel="stylesheet" href="styles.css?v=20260602-15">
 
   <!-- JSON-LD: NGO -->
   <script type="application/ld+json">
@@ -79,8 +86,8 @@
   </script>
 
   <!-- Lightweight native interactions -->
-  <script defer src="floating-translation.js?v=20260602-14"></script>
-  <script defer src="script.js?v=20260602-14"></script>
+  <script defer src="floating-translation.js?v=20260602-15"></script>
+  <script defer src="script.js?v=20260602-15"></script>
 </head>
 <body>
 
@@ -185,8 +192,8 @@
     <div class="hero-visual">
       <div class="hero-visual-frame" data-tilt>
         <picture>
-          <source srcset="images/counselling-real-20260515.avif" type="image/avif">
-          <img src="images/counselling-real-20260515.webp" alt="Counselling conversation at Floating Counselling" data-parallax data-speed="0.15" data-cms-image="hero.image" width="1200" height="1200" fetchpriority="high" decoding="async">
+          <source srcset="images/counselling-real-20260515-640.avif 640w, images/counselling-real-20260515-960.avif 960w, images/counselling-real-20260515.avif 1200w" sizes="(max-width: 720px) 92vw, (max-width: 1100px) 480px, 560px" type="image/avif">
+          <img src="images/counselling-real-20260515.webp" srcset="images/counselling-real-20260515-640.webp 640w, images/counselling-real-20260515-960.webp 960w, images/counselling-real-20260515.webp 1200w" sizes="(max-width: 720px) 92vw, (max-width: 1100px) 480px, 560px" alt="Counselling conversation at Floating Counselling" data-parallax data-speed="0.15" data-cms-image="hero.image" width="1200" height="1200" fetchpriority="high" decoding="async">
         </picture>
       </div>
       <div class="hero-float hero-float--top" data-parallax data-speed="-0.3">
@@ -343,8 +350,8 @@
     <div class="about-image">
       <div class="about-image-frame">
         <picture>
-          <source srcset="images/team-celestina-20260601.avif" type="image/avif">
-          <img src="images/team-celestina-20260601.webp" alt="Celestina Oniye-Thomas from Floating Counselling" data-parallax data-speed="0.2" data-cms-image="about.image" width="720" height="720" loading="lazy" decoding="async" fetchpriority="low">
+          <source srcset="images/team-celestina-20260601-360.avif 360w, images/team-celestina-20260601-540.avif 540w, images/team-celestina-20260601.avif 720w" sizes="(max-width: 900px) 92vw, 520px" type="image/avif">
+          <img src="images/team-celestina-20260601.webp" srcset="images/team-celestina-20260601-360.webp 360w, images/team-celestina-20260601-540.webp 540w, images/team-celestina-20260601.webp 720w" sizes="(max-width: 900px) 92vw, 520px" alt="Celestina Oniye-Thomas from Floating Counselling" data-parallax data-speed="0.2" data-cms-image="about.image" width="720" height="720" loading="lazy" decoding="async" fetchpriority="low">
         </picture>
       </div>
       <div class="about-float" data-parallax data-speed="-0.4">
@@ -420,14 +427,14 @@
     <div class="feature-media-stack" data-stagger>
       <figure class="original-photo-card original-photo-card--wide">
         <picture>
-          <source srcset="images/original-impact-parenting.avif" type="image/avif">
-          <img src="images/original-impact-parenting.webp" alt="Impact Parenting support artwork from Floating Counselling" data-cms-image="parenting.image" width="900" height="576" loading="lazy" decoding="async" fetchpriority="low">
+          <source srcset="images/original-impact-parenting-600.avif 600w, images/original-impact-parenting-720.avif 720w, images/original-impact-parenting.avif 900w" sizes="(max-width: 900px) 92vw, 520px" type="image/avif">
+          <img src="images/original-impact-parenting.webp" srcset="images/original-impact-parenting-600.webp 600w, images/original-impact-parenting-720.webp 720w, images/original-impact-parenting.webp 900w" sizes="(max-width: 900px) 92vw, 520px" alt="Impact Parenting support artwork from Floating Counselling" data-cms-image="parenting.image" width="900" height="576" loading="lazy" decoding="async" fetchpriority="low">
         </picture>
       </figure>
       <figure class="original-photo-card original-photo-card--paper">
         <picture>
-          <source srcset="images/original-impact-infographic.avif" type="image/avif">
-          <img src="images/original-impact-infographic.webp" alt="Floating Counselling community organisation impact infographic" data-cms-image="parenting.infographic" width="900" height="2046" loading="lazy" decoding="async" fetchpriority="low">
+          <source srcset="images/original-impact-infographic-600.avif 600w, images/original-impact-infographic-720.avif 720w, images/original-impact-infographic.avif 900w" sizes="(max-width: 900px) 88vw, 430px" type="image/avif">
+          <img src="images/original-impact-infographic.webp" srcset="images/original-impact-infographic-600.webp 600w, images/original-impact-infographic-720.webp 720w, images/original-impact-infographic.webp 900w" sizes="(max-width: 900px) 88vw, 430px" alt="Floating Counselling community organisation impact infographic" data-cms-image="parenting.infographic" width="900" height="2046" loading="lazy" decoding="async" fetchpriority="low">
         </picture>
       </figure>
     </div>
@@ -469,8 +476,8 @@
     <div class="holiday-week-grid" data-stagger data-cms-static="true">
       <article class="holiday-week-card" data-card>
         <picture>
-          <source srcset="images/original-holiday-week1.avif" type="image/avif">
-          <img src="images/original-holiday-week1.webp" alt="Holiday school week 1 newsletter" width="876" height="712" loading="lazy" decoding="async" fetchpriority="low">
+          <source srcset="images/original-holiday-week1-600.avif 600w, images/original-holiday-week1-720.avif 720w, images/original-holiday-week1.avif 876w" sizes="(max-width: 720px) 92vw, 390px" type="image/avif">
+          <img src="images/original-holiday-week1.webp" srcset="images/original-holiday-week1-600.webp 600w, images/original-holiday-week1-720.webp 720w, images/original-holiday-week1.webp 876w" sizes="(max-width: 720px) 92vw, 390px" alt="Holiday school week 1 newsletter" width="876" height="712" loading="lazy" decoding="async" fetchpriority="low">
         </picture>
         <div>
           <span>Programme snapshot</span>
@@ -549,8 +556,8 @@
     <div class="hub-image">
       <div class="hub-image-frame">
         <picture>
-          <source srcset="images/hub-real-20260515.avif" type="image/avif">
-          <img src="images/hub-real-20260515.webp" alt="Floating Community Hub community gathering" data-parallax data-speed="0.18" data-cms-image="hub.image" width="1200" height="1200" loading="lazy" decoding="async" fetchpriority="low">
+          <source srcset="images/hub-real-20260515-640.avif 640w, images/hub-real-20260515-960.avif 960w, images/hub-real-20260515.avif 1200w" sizes="(max-width: 900px) 92vw, 560px" type="image/avif">
+          <img src="images/hub-real-20260515.webp" srcset="images/hub-real-20260515-640.webp 640w, images/hub-real-20260515-960.webp 960w, images/hub-real-20260515.webp 1200w" sizes="(max-width: 900px) 92vw, 560px" alt="Floating Community Hub community gathering" data-parallax data-speed="0.18" data-cms-image="hub.image" width="1200" height="1200" loading="lazy" decoding="async" fetchpriority="low">
         </picture>
       </div>
     </div>
@@ -604,7 +611,7 @@
     </header>
     <div class="team-grid" data-stagger data-cms-limit="4">
       <article class="team-card" data-card>
-        <figure class="team-photo"><picture><source srcset="images/team-celestina-20260601.avif" type="image/avif"><img src="images/team-celestina-20260601.webp" alt="Celestina Oniye-Thomas" width="720" height="720" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
+        <figure class="team-photo"><picture><source srcset="images/team-celestina-20260601-360.avif 360w, images/team-celestina-20260601-540.avif 540w, images/team-celestina-20260601.avif 720w" sizes="112px" type="image/avif"><img src="images/team-celestina-20260601.webp" srcset="images/team-celestina-20260601-360.webp 360w, images/team-celestina-20260601-540.webp 540w, images/team-celestina-20260601.webp 720w" sizes="112px" alt="Celestina Oniye-Thomas" width="720" height="720" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
         <h4>Celestina Oniye-Thomas</h4>
         <div class="role">CEO &amp; Head of Charitable Operations</div>
         <div class="team-actions">
@@ -613,7 +620,7 @@
         </div>
       </article>
       <article class="team-card" data-card>
-        <figure class="team-photo"><picture><source srcset="images/team-omowonu.avif" type="image/avif"><img src="images/team-omowonu.webp" alt="Omowonu-Ola Ogunlela" width="688" height="688" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
+        <figure class="team-photo"><picture><source srcset="images/team-omowonu-360.avif 360w, images/team-omowonu-520.avif 520w, images/team-omowonu.avif 688w" sizes="112px" type="image/avif"><img src="images/team-omowonu.webp" srcset="images/team-omowonu-360.webp 360w, images/team-omowonu-520.webp 520w, images/team-omowonu.webp 688w" sizes="112px" alt="Omowonu-Ola Ogunlela" width="688" height="688" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
         <h4>Omowonu-Ola Ogunlela</h4>
         <div class="role">Director &amp; Head of Finance</div>
         <div class="team-actions">
@@ -622,7 +629,7 @@
         </div>
       </article>
       <article class="team-card" data-card>
-        <figure class="team-photo"><picture><source srcset="images/team-elizabeth.avif" type="image/avif"><img src="images/team-elizabeth.webp" alt="Elizabeth Owode" width="688" height="688" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
+        <figure class="team-photo"><picture><source srcset="images/team-elizabeth-360.avif 360w, images/team-elizabeth-520.avif 520w, images/team-elizabeth.avif 688w" sizes="112px" type="image/avif"><img src="images/team-elizabeth.webp" srcset="images/team-elizabeth-360.webp 360w, images/team-elizabeth-520.webp 520w, images/team-elizabeth.webp 688w" sizes="112px" alt="Elizabeth Owode" width="688" height="688" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
         <h4>Elizabeth Owode</h4>
         <div class="role">Director &amp; Relationship Coach</div>
         <div class="team-actions">
@@ -631,7 +638,7 @@
         </div>
       </article>
       <article class="team-card" data-card>
-        <figure class="team-photo"><picture><source srcset="images/team-linda.avif" type="image/avif"><img src="images/team-linda.webp" alt="Linda Yeboah" width="594" height="594" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
+        <figure class="team-photo"><picture><source srcset="images/team-linda-320.avif 320w, images/team-linda-480.avif 480w, images/team-linda.avif 594w" sizes="112px" type="image/avif"><img src="images/team-linda.webp" srcset="images/team-linda-320.webp 320w, images/team-linda-480.webp 480w, images/team-linda.webp 594w" sizes="112px" alt="Linda Yeboah" width="594" height="594" loading="lazy" decoding="async" fetchpriority="low"></picture></figure>
         <h4>Linda Yeboah</h4>
         <div class="role">Director &amp; Safeguarding Officer</div>
         <div class="team-actions">
