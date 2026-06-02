@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-15');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-16');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -1565,13 +1565,18 @@ class FloatingHome extends HTMLElement {
   }
 
   translationStaticBase() {
-    const configured = String(this.getAttribute('data-translation-static-base') || '').trim();
+    const configured = String(
+      this.getAttribute('data-translation-shadow-static-base') ||
+      floatingHomeRuntimeManifest.translationShadowStaticBase ||
+      this.getAttribute('data-translation-static-base') ||
+      '',
+    ).trim();
     if (configured) return configured;
 
     try {
-      return new URL('translations/', this.assetBase).toString();
+      return new URL('translations/wix/', this.assetBase).toString();
     } catch (error) {
-      return 'https://floting.vercel.app/translations/';
+      return 'https://floting.vercel.app/translations/wix/';
     }
   }
 

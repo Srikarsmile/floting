@@ -1,0 +1,23 @@
+{
+  "sourceLanguage": "en",
+  "sourceHash": "1yldsml",
+  "generatedAt": "2026-06-02T01:13:39.908Z",
+  "languages": {
+    "ar": "translations/wix/ar.json",
+    "bn": "translations/wix/bn.json",
+    "es": "translations/wix/es.json",
+    "fr": "translations/wix/fr.json",
+    "hi": "translations/wix/hi.json",
+    "pa": "translations/wix/pa.json",
+    "pl": "translations/wix/pl.json",
+    "pt": "translations/wix/pt.json",
+    "ro": "translations/wix/ro.json",
+    "so": "translations/wix/so.json",
+    "ta": "translations/wix/ta.json",
+    "te": "translations/wix/te.json",
+    "tr": "translations/wix/tr.json",
+    "uk": "translations/wix/uk.json",
+    "ur": "translations/wix/ur.json",
+    "yo": "translations/wix/yo.json"
+  }
+}

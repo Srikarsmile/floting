@@ -24,7 +24,9 @@ The script writes:
 - `translations/manifest.json`
 - `translations/ar.json`, `translations/es.json`, etc.
 
-The static files include a source hash. If the live page text changes and the hash no longer matches, the site safely falls back to the live translator rather than showing stale copy.
+The per-language files are compact and contain only the language code, source hash, and translated `key`/`text` pairs. `translations/source.json` keeps the English source text for regeneration and debugging. If the live page text changes and a language file hash no longer matches, the site safely falls back to the live translator rather than showing stale copy.
+
+The Wix custom element translates its shadow DOM, so it uses a separate compact set in `translations/wix/`. Regenerate that set by running the same script with `--out-dir=translations/wix` against a source page that contains the `<floating-home>` custom element.
 
 ## Vercel Environment Variables
 

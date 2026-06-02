@@ -3,7 +3,7 @@
 
   var DEFAULT_MANIFEST_URL = 'https://floting.vercel.app/build-manifest.json';
   var DEFAULT_ASSET_BASE = 'https://floting.vercel.app/';
-  var DEFAULT_VERSION = '20260602-15';
+  var DEFAULT_VERSION = '20260602-16';
   var LOADER_ID = 'floating-home-vercel-loader';
   var RUNTIME_ID = 'floating-home-runtime';
   var APPLY_DELAYS = [0, 40, 120, 300, 700, 1500, 3000, 6000];
@@ -54,6 +54,10 @@
       ),
       translationEndpoint: normalizeUrl(manifest.translationEndpoint, assetBase + 'api/translate'),
       translationStaticBase: normalizeUrl(manifest.translationStaticBase, assetBase + 'translations/'),
+      translationShadowStaticBase: normalizeUrl(
+        manifest.translationShadowStaticBase,
+        assetBase + 'translations/wix/',
+      ),
     };
   }
 
@@ -91,6 +95,7 @@
       element.setAttribute('data-floating-asset-base', manifest.assetBase);
       element.setAttribute('data-translation-endpoint', manifest.translationEndpoint);
       element.setAttribute('data-translation-static-base', manifest.translationStaticBase);
+      element.setAttribute('data-translation-shadow-static-base', manifest.translationShadowStaticBase);
       element.setAttribute('data-floating-manifest-url', manifestUrl());
     });
   }

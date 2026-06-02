@@ -6,7 +6,7 @@ const http = require('http');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const OUT_DIR = path.join(ROOT, 'translations');
+const DEFAULT_OUT_DIR = path.join(ROOT, 'translations');
 const DEFAULT_ENDPOINT = 'https://floting.vercel.app/api/translate';
 const DEFAULT_CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const BATCH_MAX_ITEMS = 35;
@@ -393,9 +393,16 @@ async function translateBatchWithGoogle(language, batch) {
   }));
 }
 
-function writeJson(filePath, data) {
+function compactTranslations(translations) {
+  return translations.map((item) => ({
+    key: item.key,
+    text: item.text,
+  }));
+}
+
+function writeJson(filePath, data, compact = false) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  fs.writeFileSync(`${filePath}.tmp`, `${JSON.stringify(data, null, 2)}\n`);
+  fs.writeFileSync(`${filePath}.tmp`, `${JSON.stringify(data, null, compact ? 0 : 2)}\n`);
   fs.renameSync(`${filePath}.tmp`, filePath);
 }
 
@@ -403,6 +410,7 @@ async function main() {
   const options = parseArgs(process.argv.slice(2));
   const endpoint = String(options.endpoint || DEFAULT_ENDPOINT).trim();
   const provider = String(options.provider || 'floating').trim().toLowerCase();
+  const outDir = path.resolve(ROOT, String(options.outDir || 'translations').trim());
   const selectedLanguages = String(options.languages || Object.keys(LANGUAGE_NAMES).join(','))
     .split(',')
     .map((language) => language.trim().toLowerCase())
@@ -422,8 +430,10 @@ async function main() {
     const { entries, sourceHash } = await collectSourceEntries(sourceUrl);
     console.log(`Collected ${entries.length} translatable entries (${sourceHash})`);
 
-    fs.mkdirSync(OUT_DIR, { recursive: true });
-    writeJson(path.join(OUT_DIR, 'source.json'), {
+    fs.mkdirSync(outDir, { recursive: true });
+    const manifestPathFor = (filePath) => path.relative(ROOT, filePath).split(path.sep).join('/');
+
+    writeJson(path.join(outDir, 'source.json'), {
       sourceLanguage: 'en',
       sourceHash,
       sourceUrl,
@@ -440,12 +450,12 @@ async function main() {
 
     const batches = createBatches(entries);
     for (const language of selectedLanguages) {
-      const outputPath = path.join(OUT_DIR, `${language}.json`);
+      const outputPath = path.join(outDir, `${language}.json`);
       if (!force && fs.existsSync(outputPath)) {
         try {
           const existing = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
           if (existing.sourceHash === sourceHash && existing.language === language) {
-            manifest.languages[language] = `translations/${language}.json`;
+            manifest.languages[language] = manifestPathFor(outputPath);
             console.log(`Skipping ${language}; existing file is current`);
             continue;
           }
@@ -466,17 +476,13 @@ async function main() {
 
       writeJson(outputPath, {
         language,
-        languageName: LANGUAGE_NAMES[language],
-        sourceLanguage: 'en',
         sourceHash,
-        sourceUrl,
-        generatedAt: new Date().toISOString(),
-        translations: translated,
-      });
-      manifest.languages[language] = `translations/${language}.json`;
+        translations: compactTranslations(translated),
+      }, true);
+      manifest.languages[language] = manifestPathFor(outputPath);
     }
 
-    writeJson(path.join(OUT_DIR, 'manifest.json'), manifest);
+    writeJson(path.join(outDir, 'manifest.json'), manifest);
   } finally {
     if (localServer) {
       await new Promise((resolve) => localServer.close(resolve));

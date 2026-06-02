@@ -1,10 +1,11 @@
 {
-  "version": "20260602-15",
+  "version": "20260602-16",
   "assetBase": "https://floting.vercel.app/",
-  "runtime": "https://floting.vercel.app/wix-floating-home-runtime.js?v=20260602-15",
-  "html": "https://floting.vercel.app/index.html?v=20260602-15",
-  "styles": "https://floting.vercel.app/styles.css?v=20260602-15",
-  "translationScript": "https://floting.vercel.app/floating-translation.js?v=20260602-15",
+  "runtime": "https://floting.vercel.app/wix-floating-home-runtime.js?v=20260602-16",
+  "html": "https://floting.vercel.app/index.html?v=20260602-16",
+  "styles": "https://floting.vercel.app/styles.css?v=20260602-16",
+  "translationScript": "https://floting.vercel.app/floating-translation.js?v=20260602-16",
   "translationEndpoint": "https://floting.vercel.app/api/translate",
-  "translationStaticBase": "https://floting.vercel.app/translations/"
+  "translationStaticBase": "https://floting.vercel.app/translations/",
+  "translationShadowStaticBase": "https://floting.vercel.app/translations/wix/"
 }
