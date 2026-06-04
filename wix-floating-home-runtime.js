@@ -794,8 +794,8 @@ class FloatingHome extends HTMLElement {
 
           .floating-root {
             display: block;
-            width: 100%;
-            max-width: 100%;
+            width: min(100%, 100vw);
+            max-width: 100vw;
             min-height: 100vh;
             opacity: ${editorPreview ? '1' : '0'};
             visibility: ${editorPreview ? 'visible' : 'hidden'};
@@ -1014,8 +1014,9 @@ class FloatingHome extends HTMLElement {
       return;
     }
 
-    this.style.setProperty('width', '100%', 'important');
-    this.style.setProperty('max-width', 'none', 'important');
+    this.style.setProperty('width', '100vw', 'important');
+    this.style.setProperty('max-width', '100vw', 'important');
+    this.style.setProperty('min-width', '0', 'important');
     this.style.setProperty('min-height', '100vh', 'important');
     this.style.setProperty('overflow', 'visible', 'important');
     this.style.setProperty('contain', 'none', 'important');

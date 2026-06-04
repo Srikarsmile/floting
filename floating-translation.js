@@ -219,7 +219,12 @@
     if (root && root.host && root.host.setAttribute) {
       root.host.setAttribute('lang', language);
       root.host.setAttribute('dir', direction);
-      return;
+
+      const floatingRoot = root.querySelector && root.querySelector('.floating-root');
+      if (floatingRoot && floatingRoot.setAttribute) {
+        floatingRoot.setAttribute('lang', language);
+        floatingRoot.setAttribute('dir', direction);
+      }
     }
 
     document.documentElement.lang = language;
