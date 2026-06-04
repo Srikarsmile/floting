@@ -25,7 +25,7 @@
   const BATCH_MAX_CHARS = 12000;
   const MAX_PARALLEL_BATCHES = 3;
   const CACHE_VERSION = 'floating-translation-v2';
-  const STATIC_TRANSLATION_VERSION = '20260602-04';
+  const STATIC_TRANSLATION_VERSION = '20260604-01';
   const TRANSLATION_ARTIFACT_PATTERN = /\[\[[^\]]+\]\]+|[A-Z]*XTERM\s*\d+\s*XCF/i;
   const RTL_LANGUAGES = new Set(['ar', 'ur']);
   const TEXT_ATTRS = ['aria-label', 'alt', 'placeholder', 'title'];
@@ -226,6 +226,24 @@
     document.documentElement.dir = direction;
   }
 
+  function unlockPageScroll(root) {
+    const ownerDocument = root && root.ownerDocument ? root.ownerDocument : document;
+    const doc = ownerDocument.documentElement;
+    const body = ownerDocument.body;
+
+    if (doc) {
+      doc.classList.remove('floating-nav-open');
+      doc.style.removeProperty('overflow');
+      doc.style.removeProperty('overflow-y');
+    }
+
+    if (body) {
+      body.classList.remove('nav-open', 'floating-nav-open');
+      body.style.removeProperty('overflow');
+      body.style.removeProperty('overflow-y');
+    }
+  }
+
   async function requestTranslations(endpoint, payload) {
     const response = await fetch(endpoint, {
       method: 'POST',
@@ -377,6 +395,7 @@
       if (typeof settings.onAfterChange === 'function') {
         settings.onAfterChange();
       }
+      unlockPageScroll(root);
     }
 
     function markCacheDirty() {
@@ -484,6 +503,7 @@
       setDocumentLanguage(root, 'en');
       select.value = 'en';
       setStatus(status, 'English restored', 'ready');
+      unlockPageScroll(root);
       window.setTimeout(() => setStatus(status, '', ''), 1800);
     }
 
@@ -596,6 +616,7 @@
           setDocumentLanguage(root, language);
           select.value = language;
           setStatus(status, `${targetLabel} on`, 'ready');
+          unlockPageScroll(root);
         });
       } catch (error) {
         entries.forEach((entry) => entry.reset());
@@ -607,6 +628,7 @@
         if (runId === translationRunId) {
           select.disabled = false;
           select.removeAttribute('aria-busy');
+          unlockPageScroll(root);
         }
       }
     }

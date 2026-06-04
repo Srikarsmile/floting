@@ -65,6 +65,17 @@
     return Math.round(value).toLocaleString() + suffix;
   }
 
+  function unlockPageScroll() {
+    document.documentElement.classList.remove('floating-nav-open');
+    document.documentElement.style.removeProperty('overflow');
+    document.documentElement.style.removeProperty('overflow-y');
+
+    if (!document.body) return;
+    document.body.classList.remove('nav-open', 'floating-nav-open');
+    document.body.style.removeProperty('overflow');
+    document.body.style.removeProperty('overflow-y');
+  }
+
   function bindDeferredEmbeds(root) {
     const scope = root || document;
     scope.querySelectorAll('[data-embed-src]').forEach((button) => {
@@ -126,8 +137,7 @@
         navToggle.classList.remove('open');
         navLinks.classList.remove('open');
         navToggle.setAttribute('aria-expanded', 'false');
-        document.body.classList.remove('nav-open');
-        document.body.style.overflow = '';
+        unlockPageScroll();
       };
 
       navToggle.addEventListener('click', () => {
@@ -135,7 +145,11 @@
         navLinks.classList.toggle('open', open);
         navToggle.setAttribute('aria-expanded', String(open));
         document.body.classList.toggle('nav-open', open);
-        document.body.style.overflow = open ? 'hidden' : '';
+        if (open) {
+          document.body.style.overflow = 'hidden';
+        } else {
+          unlockPageScroll();
+        }
       });
 
       navLinks.querySelectorAll('a').forEach((link) => {

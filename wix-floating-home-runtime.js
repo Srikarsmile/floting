@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260602-21');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260604-01');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -985,10 +985,10 @@ class FloatingHome extends HTMLElement {
         </main>
 
         <section class="editor-stats" aria-label="Floating Counselling impact">
-          <div class="editor-stat"><strong>15,000+</strong><span>Counselling sessions delivered</span></div>
+          <div class="editor-stat"><strong>23,000+</strong><span>Counselling sessions delivered</span></div>
           <div class="editor-stat"><strong>50,000+</strong><span>Clinical hours of care</span></div>
           <div class="editor-stat"><strong>45 yrs</strong><span>Combined clinical experience</span></div>
-          <div class="editor-stat"><strong>1,400+</strong><span>Children supported</span></div>
+          <div class="editor-stat"><strong>10,000+</strong><span>Children supported</span></div>
           <div class="editor-stat"><strong>10+ yrs</strong><span>Croydon, Redbridge, Newham, Durham &amp; Southwark</span></div>
         </section>
       </div>
@@ -1902,8 +1902,13 @@ class FloatingHome extends HTMLElement {
       container.replaceChildren();
       items.forEach((item) => {
         const link = document.createElement('a');
+        const href = this.itemText(item, ['url', 'href', 'link']) || '#contact';
         link.textContent = this.itemText(item, ['title', 'name', 'ctaLabel']) || 'Ask for help';
-        link.setAttribute('href', this.itemText(item, ['url', 'href', 'link']) || '#contact');
+        link.setAttribute('href', href);
+        if (/^https?:\/\//i.test(href)) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener');
+        }
         container.appendChild(link);
       });
     });
@@ -2220,11 +2225,12 @@ class FloatingHome extends HTMLElement {
 
   clearGlobalNavState() {
     document.documentElement.classList.remove('floating-nav-open');
+    document.documentElement.style.removeProperty('overflow');
+    document.documentElement.style.removeProperty('overflow-y');
     if (document.body) {
-      document.body.classList.remove('floating-nav-open');
-      if (document.body.style.getPropertyValue('overflow') === 'hidden') {
-        document.body.style.removeProperty('overflow');
-      }
+      document.body.classList.remove('nav-open', 'floating-nav-open');
+      document.body.style.removeProperty('overflow');
+      document.body.style.removeProperty('overflow-y');
     }
   }
 
