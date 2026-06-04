@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260604-07');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260604-08');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -202,7 +202,7 @@ const floatingHomeStructuredData = Object.freeze([
             'One-to-one, couple, family, group, online and in-person therapy delivered by qualified psychotherapists.',
           provider: { '@id': 'https://www.floatingcounselling.co.uk/#organization' },
           areaServed: ['Croydon', 'Redbridge', 'Newham', 'Durham', 'Southwark'],
-          url: 'https://floting.vercel.app/therapy.html',
+          url: 'https://www.floatingcounselling.co.uk/therapy',
         },
       },
       {
@@ -289,7 +289,7 @@ const floatingHomeStructuredData = Object.freeze([
 
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
-    return ['data-cms', 'data-floating-build', 'data-floating-asset-base'];
+    return ['data-cms', 'data-floating-build', 'data-floating-asset-base', 'data-floating-page'];
   }
 
   constructor() {
@@ -365,6 +365,16 @@ class FloatingHome extends HTMLElement {
       return;
     }
 
+    if (name === 'data-floating-page') {
+      if (this.hasRendered) {
+        this.hasRendered = false;
+        this.classList.remove('is-ready');
+        this.render();
+      }
+
+      return;
+    }
+
     if (name !== 'data-cms') return;
 
     this.readCmsAttribute();
@@ -427,8 +437,7 @@ class FloatingHome extends HTMLElement {
       .join(', ');
   }
 
-  manifestUrlFor(key, fallbackPath) {
-    const value = floatingHomeRuntimeManifest && floatingHomeRuntimeManifest[key];
+  manifestUrlFromValue(value, fallbackPath) {
     if (value) {
       try {
         const url = new URL(String(value), this.assetBase);
@@ -442,8 +451,42 @@ class FloatingHome extends HTMLElement {
     return this.asset(fallbackPath);
   }
 
+  manifestUrlFor(key, fallbackPath) {
+    const value = floatingHomeRuntimeManifest && floatingHomeRuntimeManifest[key];
+    return this.manifestUrlFromValue(value, fallbackPath);
+  }
+
+  currentPageKey() {
+    const explicit = String(this.getAttribute('data-floating-page') || '').trim().toLowerCase();
+    if (['home', 'therapy', 'fundraiser'].includes(explicit)) return explicit;
+
+    try {
+      const pathname = window.location.pathname.toLowerCase().replace(/\/+$/, '');
+      if (/(^|\/)therapy(?:\.html)?$/.test(pathname)) return 'therapy';
+      if (/(^|\/)(ways-to-fundraise|fundraiser)(?:\.html)?$/.test(pathname)) return 'fundraiser';
+    } catch (error) {
+      // Fall through to the home page.
+    }
+
+    return 'home';
+  }
+
+  pageManifestEntry() {
+    const pages = floatingHomeRuntimeManifest && floatingHomeRuntimeManifest.pages;
+    const page = pages && typeof pages === 'object' ? pages[this.currentPageKey()] : null;
+    return page && typeof page === 'object' ? page : {};
+  }
+
+  fallbackHtmlPath() {
+    const page = this.currentPageKey();
+    if (page === 'therapy') return 'therapy.html';
+    if (page === 'fundraiser') return 'ways-to-fundraise.html';
+    return 'index.html';
+  }
+
   htmlUrl() {
-    return this.manifestUrlFor('html', 'index.html');
+    const page = this.pageManifestEntry();
+    return this.manifestUrlFromValue(page.html, this.fallbackHtmlPath());
   }
 
   stylesUrl() {
@@ -660,6 +703,7 @@ class FloatingHome extends HTMLElement {
       const html = await response.text();
       const doc = new DOMParser().parseFromString(html, 'text/html');
       const bodyHtml = doc.body ? doc.body.innerHTML : '';
+      const pageHeadHtml = this.pageHeadHtml(doc);
       const editorPreview = this.isWixEditorPreview();
 
       root.innerHTML = `
@@ -667,6 +711,7 @@ class FloatingHome extends HTMLElement {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Inter+Tight:wght@300;400;500;600;700&display=swap" data-floating-fonts>
         <link rel="stylesheet" href="${this.stylesUrl()}" data-floating-stylesheet>
+        ${pageHeadHtml}
         <style>
           :host {
             display: block;
@@ -910,6 +955,38 @@ class FloatingHome extends HTMLElement {
 
       window.setTimeout(finish, 1800);
     });
+  }
+
+  pageHeadHtml(doc) {
+    const head = doc && doc.head;
+    if (!head) return '';
+
+    return Array.from(head.querySelectorAll('link[rel~="stylesheet"], style'))
+      .map((node) => {
+        const clone = node.cloneNode(true);
+
+        if (clone.tagName === 'LINK') {
+          const href = clone.getAttribute('href');
+          if (!href || /styles\.css(?:$|[?#])/i.test(href)) return '';
+
+          try {
+            clone.setAttribute('href', new URL(href, this.assetBase).toString());
+          } catch (error) {
+            return '';
+          }
+        }
+
+        if (clone.tagName === 'STYLE') {
+          clone.textContent = String(clone.textContent || '')
+            .replace(/:root/g, ':host, .floating-root')
+            .replace(/(^|})\s*body\s*\{/g, '$1 .floating-root {');
+        }
+
+        clone.setAttribute('data-floating-page-head', 'true');
+        return clone.outerHTML;
+      })
+      .filter(Boolean)
+      .join('\n');
   }
 
   prepareWixHost() {
@@ -1701,6 +1778,52 @@ class FloatingHome extends HTMLElement {
     });
   }
 
+  publicPageUrl(page, hash) {
+    const suffix = page === 'therapy' ? 'therapy' : page === 'fundraiser' ? 'ways-to-fundraise' : '';
+    const url = new URL(suffix, 'https://www.floatingcounselling.co.uk/');
+    if (hash) url.hash = hash.replace(/^#?/, '');
+    return url.toString();
+  }
+
+  rewriteLocalLinks() {
+    this.shadowRoot.querySelectorAll('a[href]').forEach((anchor) => {
+      const href = String(anchor.getAttribute('href') || '').trim();
+      if (!href || href.startsWith('#') || /^(mailto|tel|sms|whatsapp):/i.test(href)) return;
+
+      let url;
+      try {
+        url = new URL(href, this.assetBase);
+      } catch (error) {
+        return;
+      }
+
+      const assetOrigin = (() => {
+        try {
+          return new URL(this.assetBase).origin;
+        } catch (error) {
+          return 'https://floting.vercel.app';
+        }
+      })();
+
+      if (url.origin !== assetOrigin && url.origin !== 'https://www.floatingcounselling.co.uk') return;
+
+      const path = url.pathname.toLowerCase().replace(/^\/+|\/+$/g, '');
+      if (!path || path === 'index.html') {
+        anchor.setAttribute('href', this.publicPageUrl('home', url.hash));
+        return;
+      }
+
+      if (path === 'therapy' || path === 'therapy.html') {
+        anchor.setAttribute('href', this.publicPageUrl('therapy', url.hash));
+        return;
+      }
+
+      if (path === 'ways-to-fundraise' || path === 'ways-to-fundraise.html' || path === 'fundraiser') {
+        anchor.setAttribute('href', this.publicPageUrl('fundraiser', url.hash));
+      }
+    });
+  }
+
   prepareImagesForFastPaint() {
     const images = Array.from(this.shadowRoot.querySelectorAll('img'));
 
@@ -2374,6 +2497,8 @@ class FloatingHome extends HTMLElement {
 
     const cookieBanner = root.getElementById('cookieBanner');
     if (cookieBanner) cookieBanner.hidden = true;
+
+    this.rewriteLocalLinks();
   }
 
   bindInteractions() {

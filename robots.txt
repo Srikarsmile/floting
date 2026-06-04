@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://floting.vercel.app/sitemap.xml
+Sitemap: https://www.floatingcounselling.co.uk/sitemap.xml

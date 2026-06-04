@@ -37,8 +37,8 @@ Embedded static content source: https://floting.vercel.app/
 ## Important URLs
 
 - Home: https://www.floatingcounselling.co.uk/
-- Therapy and counselling: https://floting.vercel.app/therapy.html
-- Ways to fundraise: https://floting.vercel.app/ways-to-fundraise.html
+- Therapy and counselling: https://www.floatingcounselling.co.uk/therapy
+- Ways to fundraise: https://www.floatingcounselling.co.uk/ways-to-fundraise
 - Donate via PayPal: https://www.paypal.com/donate/?business=info%40floatingcounselling.co.uk&currency_code=GBP
 - Donate via Localgiving: https://localgiving.org/charity/floatingcounselling
 

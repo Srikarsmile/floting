@@ -3,7 +3,7 @@
 
   var DEFAULT_MANIFEST_URL = 'https://floting.vercel.app/build-manifest.json';
   var DEFAULT_ASSET_BASE = 'https://floting.vercel.app/';
-  var DEFAULT_VERSION = '20260604-07';
+  var DEFAULT_VERSION = '20260604-08';
   var LOADER_ID = 'floating-home-vercel-loader';
   var RUNTIME_ID = 'floating-home-runtime';
   var APPLY_DELAYS = [0, 40, 120, 300, 700, 1500, 3000, 6000];
@@ -42,6 +42,7 @@
     var assetBase = normalizeUrl(manifest.assetBase, DEFAULT_ASSET_BASE);
     var version = String(manifest.version || DEFAULT_VERSION).trim() || DEFAULT_VERSION;
     var favicons = manifest.favicons && typeof manifest.favicons === 'object' ? manifest.favicons : {};
+    var pages = manifest.pages && typeof manifest.pages === 'object' ? manifest.pages : {};
 
     return {
       version: version,
@@ -63,6 +64,23 @@
       favicon32: normalizeUrl(favicons.png32, assetBase + 'images/favicon-32.png?v=' + encodeURIComponent(version)),
       favicon512: normalizeUrl(favicons.png512, assetBase + 'images/favicon-512.png?v=' + encodeURIComponent(version)),
       appleTouchIcon: normalizeUrl(favicons.appleTouchIcon, assetBase + 'images/favicon-180.png?v=' + encodeURIComponent(version)),
+      pages: {
+        home: {
+          html: normalizeUrl(pages.home && pages.home.html, assetBase + 'index.html?v=' + encodeURIComponent(version)),
+          url: 'https://www.floatingcounselling.co.uk/',
+        },
+        therapy: {
+          html: normalizeUrl(pages.therapy && pages.therapy.html, assetBase + 'therapy.html?v=' + encodeURIComponent(version)),
+          url: 'https://www.floatingcounselling.co.uk/therapy',
+        },
+        fundraiser: {
+          html: normalizeUrl(
+            pages.fundraiser && pages.fundraiser.html,
+            assetBase + 'ways-to-fundraise.html?v=' + encodeURIComponent(version),
+          ),
+          url: 'https://www.floatingcounselling.co.uk/ways-to-fundraise',
+        },
+      },
     };
   }
 
@@ -94,9 +112,22 @@
     return Array.prototype.slice.call(document.querySelectorAll('floating-home'));
   }
 
+  function pageKeyForPath() {
+    try {
+      var pathname = window.location.pathname.toLowerCase().replace(/\/+$/, '');
+      if (/(^|\/)therapy(?:\.html)?$/.test(pathname)) return 'therapy';
+      if (/(^|\/)(ways-to-fundraise|fundraiser)(?:\.html)?$/.test(pathname)) return 'fundraiser';
+    } catch (error) {
+      // Fall through to home.
+    }
+
+    return 'home';
+  }
+
   function applyManifestToElements(manifest) {
     floatingHomes().forEach(function (element) {
       element.setAttribute('data-floating-build', manifest.version);
+      element.setAttribute('data-floating-page', pageKeyForPath());
       element.setAttribute('data-floating-asset-base', manifest.assetBase);
       element.setAttribute('data-translation-endpoint', manifest.translationEndpoint);
       element.setAttribute('data-translation-static-base', manifest.translationStaticBase);
