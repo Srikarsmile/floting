@@ -55,3 +55,9 @@ Import seed: `FloatingHomeItems.csv`
 5. Edit rows in Wix CMS. Save the site, then use Test Site.
 
 Images can be GitHub Pages image URLs, public image URLs, or Wix Media Manager image fields. The custom element normalises Wix image values such as `wix:image://...` into public `static.wixstatic.com` URLs.
+
+## Current Wix Dashboard Setup
+
+Checked on 2026-06-04: the Wix dashboard already has `FloatingHomeContent` and `FloatingHomeItems`, but both were empty. Import `FloatingHomeContent.csv` into `FloatingHomeContent` and `FloatingHomeItems.csv` into `FloatingHomeItems` before handing the dashboard to non-technical editors.
+
+The old visual Home page is not the editing source anymore. Keep the Home page as a single custom element named `customElement1`, and edit content through the two CMS collections.

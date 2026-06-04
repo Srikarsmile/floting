@@ -3,7 +3,11 @@ import wixData from "wix-data";
 const floatingHomeId = "customElement1";
 const floatingLoaderUrl = "https://floting.vercel.app/wix-loader.js";
 const floatingManifestUrl = "https://floting.vercel.app/build-manifest.json";
+const floatingAssetBase = "https://floting.vercel.app/";
+const floatingBuildVersion = "20260604-04";
 const floatingTranslationEndpoint = "https://floting.vercel.app/api/translate";
+const floatingTranslationStaticBase = "https://floting.vercel.app/translations/";
+const floatingTranslationShadowStaticBase = "https://floting.vercel.app/translations/wix/";
 const floatingDomFallbackId = "floating-home-dom-fallback";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
@@ -78,9 +82,13 @@ function setFloatingAttributes(element) {
 
   try {
     element.setAttribute("data-floating-manifest-url", floatingManifestUrl);
+    element.setAttribute("data-floating-asset-base", floatingAssetBase);
+    element.setAttribute("data-floating-build", floatingBuildVersion);
     if (floatingTranslationEndpoint) {
       element.setAttribute("data-translation-endpoint", floatingTranslationEndpoint);
     }
+    element.setAttribute("data-translation-static-base", floatingTranslationStaticBase);
+    element.setAttribute("data-translation-shadow-static-base", floatingTranslationShadowStaticBase);
 
     if (typeof element.getAttribute !== "function" || !element.getAttribute("data-cms")) {
       element.setAttribute("data-cms", "");
@@ -106,8 +114,10 @@ function ensureFloatingHomeDomFallback() {
 
     setFloatingAttributes(element);
     element.style.setProperty("display", "block", "important");
-    element.style.setProperty("width", "100%", "important");
+    element.style.setProperty("width", "100vw", "important");
+    element.style.setProperty("max-width", "100vw", "important");
     element.style.setProperty("min-height", "100vh", "important");
+    element.style.setProperty("min-height", "100svh", "important");
     element.style.setProperty("position", "relative", "important");
     element.style.setProperty("z-index", "2147483647", "important");
     element.style.setProperty("background", "#f4efe3", "important");
@@ -232,6 +242,7 @@ function installFloatingPageGuards() {
       "[id*='poptin' i],[class*='poptin' i],iframe[src*='poptin' i],a[href*='poptin.com' i]{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}",
       "[data-floating-home-hidden='true']{display:none!important;visibility:hidden!important;height:0!important;min-height:0!important;overflow:hidden!important;}",
       "body[data-floating-dom-fallback='active']>*:not(#" + floatingDomFallbackId + "):not(script):not(style){display:none!important;visibility:hidden!important;height:0!important;min-height:0!important;overflow:hidden!important;}",
+      "floating-home{display:block!important;width:100vw!important;max-width:100vw!important;min-height:100vh!important;min-height:100svh!important;background:#f4efe3!important;}",
     ].join("");
   } catch (error) {
     // Wix can restrict direct document access in some editor contexts.
@@ -448,14 +459,31 @@ function applyFloatingCms(payload) {
   }
 
   if (!payload.content.length && !payload.items.length) {
+    if (typeof floatingHome.setAttribute === "function") {
+      try {
+        floatingHome.setAttribute("data-cms-status", "empty");
+        floatingHome.setAttribute("data-cms-content-count", "0");
+        floatingHome.setAttribute("data-cms-items-count", "0");
+      } catch (error) {
+        // Attribute support depends on the Wix render target.
+      }
+    }
     return;
   }
 
   if (typeof floatingHome.setAttribute === "function") {
     try {
       floatingHome.setAttribute("data-cms", JSON.stringify(payload));
+      floatingHome.setAttribute("data-cms-status", "loaded");
+      floatingHome.setAttribute("data-cms-content-count", String(payload.content.length));
+      floatingHome.setAttribute("data-cms-items-count", String(payload.items.length));
     } catch (error) {
       // Keep the static fallback if Wix rejects a large attribute update.
+      try {
+        floatingHome.setAttribute("data-cms-status", "attribute-error");
+      } catch (attributeError) {
+        // Ignore secondary diagnostics failures.
+      }
     }
   }
 }
