@@ -43,9 +43,17 @@ function isAllowedVercelPreview(origin) {
   }
 }
 
+function isAllowedLocalOrigin(origin) {
+  try {
+    return ['localhost', '127.0.0.1', '::1'].includes(new URL(origin).hostname);
+  } catch (error) {
+    return false;
+  }
+}
+
 function corsOrigin(origin) {
   if (!origin) return '';
-  if (allowedOrigins().includes(origin) || isAllowedVercelPreview(origin)) return origin;
+  if (allowedOrigins().includes(origin) || isAllowedVercelPreview(origin) || isAllowedLocalOrigin(origin)) return origin;
   return '';
 }
 

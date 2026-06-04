@@ -25,7 +25,7 @@
   const BATCH_MAX_CHARS = 12000;
   const MAX_PARALLEL_BATCHES = 3;
   const CACHE_VERSION = 'floating-translation-v2';
-  const STATIC_TRANSLATION_VERSION = '20260604-05';
+  const STATIC_TRANSLATION_VERSION = '20260604-06';
   const TRANSLATION_ARTIFACT_PATTERN = /\[\[[^\]]+\]\]+|[A-Z]*XTERM\s*\d+\s*XCF/i;
   const RTL_LANGUAGES = new Set(['ar', 'ur']);
   const TEXT_ATTRS = ['aria-label', 'alt', 'placeholder', 'title'];
@@ -291,6 +291,29 @@
     return sanitized;
   }
 
+  function remapStaticTranslationsByKey(translations, entries) {
+    const byKey = new Map();
+
+    translations.forEach((item, index) => {
+      const key = item && item.key !== undefined ? String(item.key) : String(index);
+      const text = typeof item === 'string' ? item : item && item.text;
+      if (isUsableTranslationText(text)) byKey.set(key, text);
+    });
+
+    const remapped = [];
+    let matchedCount = 0;
+
+    entries.forEach((entry) => {
+      const translated = byKey.get(entry.key);
+      if (!translated) return;
+      matchedCount += 1;
+      remapped.push({ key: entry.key, text: translated });
+    });
+
+    const minimumUsefulCoverage = entries.length > 30 ? entries.length * 0.82 : entries.length;
+    return matchedCount >= minimumUsefulCoverage ? remapped : null;
+  }
+
   async function requestStaticTranslations(staticBase, language, sourceHash, entries) {
     const base = normalizeBaseUrl(staticBase);
     if (!base) return null;
@@ -327,7 +350,9 @@
     });
 
     const minimumUsefulCoverage = entries.length > 30 ? entries.length * 0.72 : entries.length;
-    return matchedCount >= minimumUsefulCoverage ? remapped : null;
+    if (matchedCount >= minimumUsefulCoverage) return remapped;
+
+    return remapStaticTranslationsByKey(translations, entries);
   }
 
   function estimatedPayloadChars(entry) {

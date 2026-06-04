@@ -1,34 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Floating Counselling">
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" role="img" aria-label="Floating Counselling">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0F8F86"/>
-      <stop offset="1" stop-color="#063836"/>
+    <linearGradient id="leafLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef7f1"/>
+      <stop offset="1" stop-color="#94d5cb"/>
     </linearGradient>
-    <linearGradient id="petal" x1="0.5" y1="0" x2="0.5" y2="1">
-      <stop offset="0" stop-color="#FBF7EE"/>
-      <stop offset="1" stop-color="#C7DDDA"/>
+    <linearGradient id="leafMid" x1="0.15" y1="0.05" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#bfe9de"/>
+      <stop offset="1" stop-color="#24a99b"/>
     </linearGradient>
+    <linearGradient id="leafDark" x1="0.15" y1="0" x2="0.95" y2="1">
+      <stop offset="0" stop-color="#72cfc4"/>
+      <stop offset="1" stop-color="#0a8f86"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.4" flood-color="#063836" flood-opacity="0.18"/>
+    </filter>
   </defs>
-  <rect width="32" height="32" rx="7" fill="url(#bg)"/>
-  <g transform="translate(0 1)">
-    <!-- outermost left -->
-    <path d="M16 23 C12 20 11 14 16 7 C21 14 20 20 16 23 Z"
-          fill="url(#petal)" opacity="0.55"
-          transform="rotate(-46 16 25) scale(0.85 0.9) translate(2.8 2.5)"/>
-    <!-- outermost right -->
-    <path d="M16 23 C12 20 11 14 16 7 C21 14 20 20 16 23 Z"
-          fill="url(#petal)" opacity="0.55"
-          transform="rotate(46 16 25) scale(0.85 0.9) translate(-2.8 2.5)"/>
-    <!-- inner left -->
-    <path d="M16 23 C12 20 11 14 16 7 C21 14 20 20 16 23 Z"
-          fill="url(#petal)" opacity="0.85"
-          transform="rotate(-22 16 25) scale(0.95 0.97)"/>
-    <!-- inner right -->
-    <path d="M16 23 C12 20 11 14 16 7 C21 14 20 20 16 23 Z"
-          fill="url(#petal)" opacity="0.85"
-          transform="rotate(22 16 25) scale(0.95 0.97)"/>
-    <!-- center, tallest -->
-    <path d="M16 23 C12 20 11 14 16 6.5 C21 14 20 20 16 23 Z"
-          fill="url(#petal)"/>
+
+  <rect width="64" height="64" rx="15" fill="#f4efe3"/>
+  <circle cx="32" cy="34" r="25" fill="#e4f2ec"/>
+
+  <g filter="url(#shadow)" stroke="#0a9b91" stroke-width="1.25" stroke-linejoin="round">
+    <path d="M31.8 55C15.8 43.6 15.4 22 31.8 6.3C48.2 22 47.8 43.6 31.8 55Z" fill="url(#leafMid)"/>
+    <path d="M29.5 55C11.8 48.8 4.5 30.3 3 15.8C21 17.7 31.5 33.3 29.5 55Z" fill="url(#leafLight)"/>
+    <path d="M34.1 55C51.8 48.8 59.1 30.3 60.6 15.8C42.6 17.7 32.1 33.3 34.1 55Z" fill="url(#leafDark)"/>
+    <path d="M31.8 55C20.2 47 19 27.6 31.8 12.4C44.6 27.6 43.4 47 31.8 55Z" fill="url(#leafLight)" opacity="0.82"/>
   </g>
 </svg>

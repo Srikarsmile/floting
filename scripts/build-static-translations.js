@@ -396,6 +396,7 @@ async function translateBatchWithGoogle(language, batch) {
 function compactTranslations(translations) {
   return translations.map((item) => ({
     key: item.key,
+    source: item.source,
     text: item.text,
   }));
 }
