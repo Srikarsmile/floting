@@ -3,7 +3,7 @@
 
   var DEFAULT_MANIFEST_URL = 'https://floting.vercel.app/build-manifest.json';
   var DEFAULT_ASSET_BASE = 'https://floting.vercel.app/';
-  var DEFAULT_VERSION = '20260604-06';
+  var DEFAULT_VERSION = '20260604-07';
   var LOADER_ID = 'floating-home-vercel-loader';
   var RUNTIME_ID = 'floating-home-runtime';
   var APPLY_DELAYS = [0, 40, 120, 300, 700, 1500, 3000, 6000];
@@ -41,6 +41,7 @@
     var manifest = raw && typeof raw === 'object' ? raw : {};
     var assetBase = normalizeUrl(manifest.assetBase, DEFAULT_ASSET_BASE);
     var version = String(manifest.version || DEFAULT_VERSION).trim() || DEFAULT_VERSION;
+    var favicons = manifest.favicons && typeof manifest.favicons === 'object' ? manifest.favicons : {};
 
     return {
       version: version,
@@ -58,6 +59,10 @@
         manifest.translationShadowStaticBase,
         assetBase + 'translations/wix/',
       ),
+      faviconSvg: normalizeUrl(favicons.svg, assetBase + 'images/favicon.svg?v=' + encodeURIComponent(version)),
+      favicon32: normalizeUrl(favicons.png32, assetBase + 'images/favicon-32.png?v=' + encodeURIComponent(version)),
+      favicon512: normalizeUrl(favicons.png512, assetBase + 'images/favicon-512.png?v=' + encodeURIComponent(version)),
+      appleTouchIcon: normalizeUrl(favicons.appleTouchIcon, assetBase + 'images/favicon-180.png?v=' + encodeURIComponent(version)),
     };
   }
 
@@ -108,6 +113,63 @@
     });
   }
 
+  function appendIconLink(id, attributes) {
+    var existing = document.getElementById(id);
+    if (existing && existing.parentNode) {
+      existing.parentNode.removeChild(existing);
+    }
+
+    var link = document.createElement('link');
+    link.id = id;
+    Object.keys(attributes).forEach(function (name) {
+      link.setAttribute(name, attributes[name]);
+    });
+    link.setAttribute('data-floating-favicon', 'true');
+    document.head.appendChild(link);
+  }
+
+  function applyFavicons(manifest) {
+    if (!document.head) return;
+
+    Array.prototype.slice
+      .call(document.head.querySelectorAll('link[rel~="icon"], link[rel="apple-touch-icon"], link[rel="mask-icon"]'))
+      .forEach(function (link) {
+        if (link.getAttribute('data-floating-favicon') === 'true') return;
+        if (link.parentNode) link.parentNode.removeChild(link);
+      });
+
+    appendIconLink('floating-favicon-svg', {
+      rel: 'icon',
+      type: 'image/svg+xml',
+      href: manifest.faviconSvg,
+    });
+    appendIconLink('floating-favicon-32', {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '32x32',
+      href: manifest.favicon32,
+    });
+    appendIconLink('floating-favicon-512', {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '512x512',
+      href: manifest.favicon512,
+    });
+    appendIconLink('floating-apple-touch-icon', {
+      rel: 'apple-touch-icon',
+      sizes: '180x180',
+      href: manifest.appleTouchIcon,
+    });
+  }
+
+  function scheduleFaviconUpdates(manifest) {
+    APPLY_DELAYS.forEach(function (delay) {
+      window.setTimeout(function () {
+        applyFavicons(manifest);
+      }, delay);
+    });
+  }
+
   function loadRuntime(manifest) {
     var existing = document.getElementById(RUNTIME_ID);
 
@@ -142,6 +204,7 @@
     fetchManifest().then(function (manifest) {
       publishManifest(manifest);
       scheduleElementUpdates(manifest);
+      scheduleFaviconUpdates(manifest);
       loadRuntime(manifest);
     });
   }
