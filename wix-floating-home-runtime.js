@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260604-04');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260604-05');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -73,6 +73,220 @@ const floatingHomeAvifAssetAliases = Object.freeze({
   'images/team-omowonu.webp': 'images/team-omowonu.avif',
 });
 
+const floatingHomeSeo = Object.freeze({
+  title: 'Floating Counselling | Counselling, Therapy & Community Support in Croydon',
+  description:
+    'Affordable counselling, family therapy, parenting support, food bank, financial literacy and community hub services across Croydon, Redbridge, Newham, Durham and Southwark.',
+  canonical: 'https://www.floatingcounselling.co.uk/',
+  image: 'https://www.floatingcounselling.co.uk/images/og-cover.jpg',
+  imageAlt: 'Floating Counselling provides trauma-informed counselling and community support',
+  locale: 'en_GB',
+});
+
+const floatingHomeStructuredData = Object.freeze([
+  {
+    '@context': 'https://schema.org',
+    '@type': 'NGO',
+    '@id': 'https://www.floatingcounselling.co.uk/#organization',
+    name: 'Floating Counselling',
+    legalName: 'FLOATING COUNSELLING COMMUNITY',
+    alternateName: 'Floating Counselling Community',
+    url: 'https://www.floatingcounselling.co.uk/',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.floatingcounselling.co.uk/images/logo.png',
+    },
+    image: 'https://www.floatingcounselling.co.uk/images/og-cover.jpg',
+    description:
+      'UK-based grassroots charity delivering affordable counselling, family therapy, parenting support, food bank, financial literacy, employment support, holiday school and community hub services.',
+    foundingDate: '2015',
+    identifier: 'Company limited by guarantee registered in England and Wales, company number 11334515',
+    slogan: 'Counselling, community and compassion.',
+    email: 'info@floatingcounselling.co.uk',
+    telephone: '+44-7305-882959',
+    address: [
+      {
+        '@type': 'PostalAddress',
+        name: 'Croydon office',
+        streetAddress: '26 Avenue Road',
+        addressLocality: 'London',
+        postalCode: 'SE25 4DX',
+        addressCountry: 'GB',
+      },
+      {
+        '@type': 'PostalAddress',
+        name: 'Croydon hub',
+        streetAddress: 'Ashburton Park Cafe Hall, Lower Addiscombe',
+        addressLocality: 'Croydon',
+        postalCode: 'CR0 6RX',
+        addressCountry: 'GB',
+      },
+      {
+        '@type': 'PostalAddress',
+        name: 'Redbridge office',
+        streetAddress: '160-162 Cranbrook Road',
+        addressLocality: 'Ilford',
+        postalCode: 'IG1 4PE',
+        addressCountry: 'GB',
+      },
+    ],
+    areaServed: ['Croydon', 'Redbridge', 'Newham', 'Durham', 'Southwark', 'London', 'United Kingdom'],
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        telephone: '+44-7305-882959',
+        contactType: 'enquiries',
+        email: 'info@floatingcounselling.co.uk',
+        areaServed: 'GB',
+        availableLanguage: ['English'],
+      },
+    ],
+    knowsAbout: [
+      'Counselling',
+      'Psychotherapy',
+      'Family therapy',
+      'Parenting support',
+      'Trauma-informed care',
+      'Community hub support',
+      'Food bank support',
+      'Financial literacy',
+      'Employment support',
+      'Holiday school',
+    ],
+    sameAs: [
+      'https://www.facebook.com/FloatingCounselling',
+      'https://www.instagram.com/floating_bodymindsoul',
+      'https://twitter.com/FloatCounsellor',
+      'https://www.youtube.com/@floatingcounsellinguk',
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': 'https://www.floatingcounselling.co.uk/#website',
+    url: 'https://www.floatingcounselling.co.uk/',
+    name: 'Floating Counselling',
+    publisher: { '@id': 'https://www.floatingcounselling.co.uk/#organization' },
+    inLanguage: 'en-GB',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': 'https://www.floatingcounselling.co.uk/#webpage',
+    url: 'https://www.floatingcounselling.co.uk/',
+    name: floatingHomeSeo.title,
+    description: floatingHomeSeo.description,
+    isPartOf: { '@id': 'https://www.floatingcounselling.co.uk/#website' },
+    about: { '@id': 'https://www.floatingcounselling.co.uk/#organization' },
+    primaryImageOfPage: {
+      '@type': 'ImageObject',
+      url: floatingHomeSeo.image,
+    },
+    inLanguage: 'en-GB',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    '@id': 'https://www.floatingcounselling.co.uk/#services',
+    name: 'Floating Counselling services',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        item: {
+          '@type': 'Service',
+          '@id': 'https://www.floatingcounselling.co.uk/#service-counselling',
+          name: 'Counselling and therapy',
+          serviceType: 'Counselling, psychotherapy and mentoring',
+          description:
+            'One-to-one, couple, family, group, online and in-person therapy delivered by qualified psychotherapists.',
+          provider: { '@id': 'https://www.floatingcounselling.co.uk/#organization' },
+          areaServed: ['Croydon', 'Redbridge', 'Newham', 'Durham', 'Southwark'],
+          url: 'https://floting.vercel.app/therapy.html',
+        },
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        item: {
+          '@type': 'Service',
+          '@id': 'https://www.floatingcounselling.co.uk/#service-parenting',
+          name: 'Impact Parenting support',
+          serviceType: 'Parenting support and family mentoring',
+          description:
+            'Workshops, mentoring and practical strategies for parents and families rebuilding confidence and connection.',
+          provider: { '@id': 'https://www.floatingcounselling.co.uk/#organization' },
+          areaServed: ['Croydon', 'Redbridge', 'Newham', 'Durham', 'Southwark'],
+          url: 'https://www.floatingcounselling.co.uk/#parenting',
+        },
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        item: {
+          '@type': 'Service',
+          '@id': 'https://www.floatingcounselling.co.uk/#service-community-hub',
+          name: 'Floating Community Hub',
+          serviceType: 'Community support hub',
+          description:
+            'Community hub support for wellbeing, forms, housing questions, bills, grants, digital inclusion, food and local referrals.',
+          provider: { '@id': 'https://www.floatingcounselling.co.uk/#organization' },
+          areaServed: ['Croydon', 'Redbridge', 'Newham', 'Durham', 'Southwark'],
+          url: 'https://www.floatingcounselling.co.uk/#hub',
+        },
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        item: {
+          '@type': 'Service',
+          '@id': 'https://www.floatingcounselling.co.uk/#service-holiday-school',
+          name: "Holiday school and children's camps",
+          serviceType: "Holiday school and therapeutic children's programme",
+          description: 'Art therapy, music, play therapy and psychological techniques for children aged 5 to 11.',
+          provider: { '@id': 'https://www.floatingcounselling.co.uk/#organization' },
+          areaServed: ['Croydon', 'Redbridge', 'Newham', 'Durham', 'Southwark'],
+          url: 'https://www.floatingcounselling.co.uk/#holiday-school',
+        },
+      },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': 'https://www.floatingcounselling.co.uk/#faq-schema',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How much does counselling cost?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text:
+            'Sessions are free or low-cost for eligible individuals. Floating Counselling works on a sliding scale based on circumstances, with access as the priority.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Where does Floating Counselling work?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text:
+            'Floating Counselling serves Croydon, Redbridge, Newham, Durham and Southwark, with a Croydon hub at Ashburton Park Cafe Hall and additional project locations.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I get food bank or practical community support?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text:
+            'Yes. The Floating Community Hub includes food, clothing, essentials, form filling, housing questions, bills help, digital inclusion and local referrals.',
+        },
+      },
+    ],
+  },
+]);
+
 class FloatingHome extends HTMLElement {
   static get observedAttributes() {
     return ['data-cms', 'data-floating-build', 'data-floating-asset-base'];
@@ -110,6 +324,7 @@ class FloatingHome extends HTMLElement {
     this.readAssetBase();
     this.readBuildVersion();
     this.installGlobalGuards();
+    this.applySeoMetadata();
     this.repairWixDocumentScroll();
     this.preloadCriticalAssets();
     this.prepareWixHost();
@@ -304,6 +519,96 @@ class FloatingHome extends HTMLElement {
     if (this.getAttribute('data-floating-build') !== this.version) {
       this.setAttribute('data-floating-build', this.version);
     }
+  }
+
+  applySeoMetadata() {
+    if (typeof document === 'undefined' || !document.head || this.isWixEditorCanvas()) {
+      return;
+    }
+
+    try {
+      document.title = floatingHomeSeo.title;
+      this.upsertHeadLink('canonical', floatingHomeSeo.canonical);
+      [
+        { name: 'description', content: floatingHomeSeo.description },
+        { name: 'robots', content: 'index, follow, max-image-preview:large' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:site_name', content: 'Floating Counselling' },
+        { property: 'og:title', content: 'Floating Counselling - Counselling, Community & Compassion' },
+        { property: 'og:description', content: floatingHomeSeo.description },
+        { property: 'og:url', content: floatingHomeSeo.canonical },
+        { property: 'og:image', content: floatingHomeSeo.image },
+        { property: 'og:image:alt', content: floatingHomeSeo.imageAlt },
+        { property: 'og:locale', content: floatingHomeSeo.locale },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:site', content: '@FloatCounsellor' },
+        { name: 'twitter:title', content: 'Floating Counselling - Counselling, Community & Compassion' },
+        { name: 'twitter:description', content: floatingHomeSeo.description },
+        { name: 'twitter:image', content: floatingHomeSeo.image },
+        { name: 'twitter:image:alt', content: floatingHomeSeo.imageAlt },
+      ].forEach((attributes) => this.upsertHeadMeta(attributes));
+      this.upsertStructuredData();
+    } catch (error) {
+      // SEO tags are an enhancement; rendering must never depend on them.
+    }
+  }
+
+  upsertHeadMeta(attributes) {
+    const key = attributes.name ? 'name' : 'property';
+    const keyValue = attributes[key];
+    if (!keyValue || !document.head) return;
+
+    const existing = Array.from(document.head.querySelectorAll(`meta[${key}]`))
+      .find((meta) => meta.getAttribute(key) === keyValue);
+    const meta = existing || document.createElement('meta');
+
+    Object.keys(attributes).forEach((attribute) => {
+      meta.setAttribute(attribute, attributes[attribute]);
+    });
+    meta.setAttribute('data-floating-seo', 'true');
+
+    if (!existing) {
+      document.head.appendChild(meta);
+    }
+  }
+
+  upsertHeadLink(rel, href) {
+    if (!rel || !href || !document.head) return;
+
+    const existing = Array.from(document.head.querySelectorAll('link[rel]'))
+      .find((link) => link.getAttribute('rel') === rel);
+    const link = existing || document.createElement('link');
+
+    link.setAttribute('rel', rel);
+    link.setAttribute('href', href);
+    link.setAttribute('data-floating-seo', 'true');
+
+    if (!existing) {
+      document.head.appendChild(link);
+    }
+  }
+
+  upsertStructuredData() {
+    if (!document.head) return;
+
+    const id = 'floating-home-seo-jsonld';
+    let script = document.getElementById(id);
+
+    if (!script) {
+      script = document.createElement('script');
+      script.id = id;
+      script.type = 'application/ld+json';
+      document.head.appendChild(script);
+    }
+
+    script.textContent = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@graph': floatingHomeStructuredData.map((item) => {
+        const graphItem = { ...item };
+        delete graphItem['@context'];
+        return graphItem;
+      }),
+    });
   }
 
   async render() {

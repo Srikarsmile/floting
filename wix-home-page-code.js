@@ -1,16 +1,22 @@
 import wixData from "wix-data";
+import wixSeoFrontend from "wix-seo-frontend";
 
 const floatingHomeId = "customElement1";
 const floatingLoaderUrl = "https://floting.vercel.app/wix-loader.js";
 const floatingManifestUrl = "https://floting.vercel.app/build-manifest.json";
 const floatingAssetBase = "https://floting.vercel.app/";
-const floatingBuildVersion = "20260604-04";
+const floatingBuildVersion = "20260604-05";
 const floatingTranslationEndpoint = "https://floting.vercel.app/api/translate";
 const floatingTranslationStaticBase = "https://floting.vercel.app/translations/";
 const floatingTranslationShadowStaticBase = "https://floting.vercel.app/translations/wix/";
 const floatingDomFallbackId = "floating-home-dom-fallback";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
+const floatingSeoTitle = "Floating Counselling | Counselling, Therapy & Community Support in Croydon";
+const floatingSeoDescription =
+  "Affordable counselling, family therapy, parenting support, food bank, financial literacy and community hub services across Croydon, Redbridge, Newham, Durham and Southwark.";
+const floatingSeoImage = "https://www.floatingcounselling.co.uk/images/og-cover.jpg";
+const floatingSeoUrl = "https://www.floatingcounselling.co.uk/";
 
 function asList(selector) {
   const elements = [];
@@ -488,7 +494,127 @@ function applyFloatingCms(payload) {
   }
 }
 
+function applyFloatingSeo() {
+  try {
+    wixSeoFrontend.setTitle(floatingSeoTitle).catch(function () {});
+    wixSeoFrontend
+      .setMetaTags([
+        { name: "description", content: floatingSeoDescription },
+        { name: "robots", content: "index, follow, max-image-preview:large" },
+        { property: "og:type", content: "website" },
+        { property: "og:site_name", content: "Floating Counselling" },
+        { property: "og:title", content: "Floating Counselling - Counselling, Community & Compassion" },
+        { property: "og:description", content: floatingSeoDescription },
+        { property: "og:url", content: floatingSeoUrl },
+        { property: "og:image", content: floatingSeoImage },
+        {
+          property: "og:image:alt",
+          content: "Floating Counselling provides trauma-informed counselling and community support",
+        },
+        { property: "og:locale", content: "en_GB" },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:site", content: "@FloatCounsellor" },
+        { name: "twitter:title", content: "Floating Counselling - Counselling, Community & Compassion" },
+        { name: "twitter:description", content: floatingSeoDescription },
+        { name: "twitter:image", content: floatingSeoImage },
+        {
+          name: "twitter:image:alt",
+          content: "Floating Counselling provides trauma-informed counselling and community support",
+        },
+      ])
+      .catch(function () {});
+    wixSeoFrontend
+      .setStructuredData([
+        {
+          "@context": "https://schema.org",
+          "@type": "NGO",
+          "@id": "https://www.floatingcounselling.co.uk/#organization",
+          name: "Floating Counselling",
+          legalName: "FLOATING COUNSELLING COMMUNITY",
+          alternateName: "Floating Counselling Community",
+          url: floatingSeoUrl,
+          logo: "https://www.floatingcounselling.co.uk/images/logo.png",
+          image: floatingSeoImage,
+          description:
+            "UK-based grassroots charity delivering affordable counselling, family therapy, parenting support, food bank, financial literacy, employment support, holiday school and community hub services.",
+          foundingDate: "2015",
+          identifier: "Company limited by guarantee registered in England and Wales, company number 11334515",
+          email: "info@floatingcounselling.co.uk",
+          telephone: "+44-7305-882959",
+          areaServed: ["Croydon", "Redbridge", "Newham", "Durham", "Southwark", "London", "United Kingdom"],
+          knowsAbout: [
+            "Counselling",
+            "Psychotherapy",
+            "Family therapy",
+            "Parenting support",
+            "Trauma-informed care",
+            "Community hub support",
+            "Food bank support",
+            "Financial literacy",
+            "Employment support",
+            "Holiday school",
+          ],
+          sameAs: [
+            "https://www.facebook.com/FloatingCounselling",
+            "https://www.instagram.com/floating_bodymindsoul",
+            "https://twitter.com/FloatCounsellor",
+            "https://www.youtube.com/@floatingcounsellinguk",
+          ],
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://www.floatingcounselling.co.uk/#website",
+          url: floatingSeoUrl,
+          name: "Floating Counselling",
+          publisher: { "@id": "https://www.floatingcounselling.co.uk/#organization" },
+          inLanguage: "en-GB",
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://www.floatingcounselling.co.uk/#webpage",
+          url: floatingSeoUrl,
+          name: floatingSeoTitle,
+          description: floatingSeoDescription,
+          isPartOf: { "@id": "https://www.floatingcounselling.co.uk/#website" },
+          about: { "@id": "https://www.floatingcounselling.co.uk/#organization" },
+          inLanguage: "en-GB",
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "@id": "https://www.floatingcounselling.co.uk/#faq-schema",
+          mainEntity: [
+            {
+              "@type": "Question",
+              name: "How much does counselling cost?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text:
+                  "Sessions are free or low-cost for eligible individuals. Floating Counselling works on a sliding scale based on circumstances, with access as the priority.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Where does Floating Counselling work?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text:
+                  "Floating Counselling serves Croydon, Redbridge, Newham, Durham and Southwark, with a Croydon hub at Ashburton Park Cafe Hall and additional project locations.",
+              },
+            },
+          ],
+        },
+      ])
+      .catch(function () {});
+  } catch (error) {
+    // SEO API availability can differ between editor, preview and published modes.
+  }
+}
+
 $w.onReady(function () {
+  applyFloatingSeo();
   refreshFloatingHomeScript();
   installFloatingPageGuards();
 

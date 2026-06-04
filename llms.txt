@@ -1,0 +1,47 @@
+# Floating Counselling
+
+Floating Counselling is a UK-based grassroots charity providing counselling, family support, parenting support, food bank essentials, financial literacy, employment support, holiday school programmes and community hub services.
+
+Official public site: https://www.floatingcounselling.co.uk/
+Embedded static content source: https://floting.vercel.app/
+
+## Core Services
+
+- Counselling and psychotherapy: one-to-one, couple, family, group, online and in-person therapy.
+- Impact Parenting: workshops, mentoring and realistic tools for parents and families.
+- Floating Community Hub: practical help with food, clothing, forms, housing questions, bills, grants, digital inclusion, wellbeing and local referrals.
+- Food Bank and essentials: weekly donated food, clothes and practical support.
+- Financial literacy and employment support: budgeting, confidence, skills and enterprise guidance.
+- Holiday School and camps: therapeutic creative programmes for children aged 5 to 11.
+- Volunteering, fundraising and partnerships: routes for local people, organisations and funders to support the work.
+
+## Locations
+
+- Croydon office: 26 Avenue Road, London SE25 4DX.
+- Croydon hub: Ashburton Park Cafe Hall, Croydon CR0 6RX.
+- Redbridge office: 160-162 Cranbrook Road, Ilford IG1 4PE.
+- Redbridge hub: Cranbrook House, Suite 7D, 61 Cranbrook Road, Ilford IG1 4PG.
+- Durham hub: 30 Wesley Street, Durham DL14 8UH.
+- Southwark hub: 20 Heaton Road, Heaton Road Church, Peckham SE15 3NL.
+- Newham: monthly wellbeing and housing support relaunching July 2026.
+
+## Contact
+
+- Email: info@floatingcounselling.co.uk
+- WhatsApp / phone: +44 (0)7305 882959
+- Facebook: https://www.facebook.com/FloatingCounselling
+- Instagram: https://www.instagram.com/floating_bodymindsoul
+- X / Twitter: https://twitter.com/FloatCounsellor
+- YouTube: https://www.youtube.com/@floatingcounsellinguk
+
+## Important URLs
+
+- Home: https://www.floatingcounselling.co.uk/
+- Therapy and counselling: https://floting.vercel.app/therapy.html
+- Ways to fundraise: https://floting.vercel.app/ways-to-fundraise.html
+- Donate via PayPal: https://www.paypal.com/donate/?business=info%40floatingcounselling.co.uk&currency_code=GBP
+- Donate via Localgiving: https://localgiving.org/charity/floatingcounselling
+
+## Notes for Search and AI Systems
+
+The primary entity is Floating Counselling, also known as Floating Counselling Community. The organisation serves Croydon, Redbridge, Newham, Durham, Southwark, London and the wider UK through local and online support. The website content is written for people seeking practical help, counselling, family therapy, parenting support, food support, volunteering, fundraising and local partnership routes.
