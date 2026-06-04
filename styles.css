@@ -515,19 +515,19 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
    SECTIONS — base
    ═══════════════════════════════════════════ */
 .section {
-  padding: clamp(56px, 6vw, 88px) 0;
+  padding: clamp(44px, 4.8vw, 68px) 0;
   position: relative;
 }
 
 @supports (content-visibility: auto) {
   .section:not(.support-pathways):not(.fundraiser-section):not(.volunteer-section):not(#faq) {
     content-visibility: auto;
-    contain-intrinsic-size: auto var(--section-contain-size, 560px);
+    contain-intrinsic-size: auto var(--section-contain-size, 460px);
   }
 
-  .section--dark { --section-contain-size: 680px; }
-  .section--contact { --section-contain-size: 820px; }
-  .section--partners { --section-contain-size: 380px; }
+  .section--dark { --section-contain-size: 560px; }
+  .section--contact { --section-contain-size: 700px; }
+  .section--partners { --section-contain-size: 320px; }
 }
 
 .section--cream      { background: var(--clr-bg-warm); }
@@ -567,7 +567,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .section--dark .section-subtitle { color: rgba(251,246,236,0.78); }
 
 .section-header {
-  text-align: center; margin-bottom: clamp(28px, 4vw, 48px);
+  text-align: center; margin-bottom: clamp(22px, 3vw, 36px);
   display: flex; flex-direction: column; align-items: center;
 }
 .section-header .section-title { max-width: 22ch; }
@@ -631,7 +631,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .fundraiser-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
-  gap: clamp(36px, 5vw, 76px);
+  gap: clamp(28px, 4vw, 56px);
   align-items: start;
 }
 .fundraiser-intro {
@@ -642,7 +642,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   display: flex;
   flex-wrap: wrap;
   gap: var(--s-4);
-  margin-top: var(--s-7);
+  margin-top: var(--s-5);
 }
 .fundraiser-card-grid {
   display: grid;
@@ -650,8 +650,8 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   gap: var(--s-5);
 }
 .fundraiser-card {
-  min-height: 190px;
-  padding: var(--s-7);
+  min-height: 170px;
+  padding: var(--s-6);
   border-radius: var(--radius);
   background: rgba(251,247,238,0.86);
   border: 1px solid rgba(10,86,81,0.11);
@@ -702,7 +702,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .volunteer-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
-  gap: clamp(36px, 5vw, 76px);
+  gap: clamp(28px, 4vw, 56px);
   align-items: start;
 }
 .volunteer-copy {
@@ -712,7 +712,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .volunteer-points {
   display: grid;
   gap: var(--s-4);
-  margin-top: var(--s-7);
+  margin-top: var(--s-5);
 }
 .volunteer-points article {
   padding: var(--s-5);
@@ -773,7 +773,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
     linear-gradient(135deg, rgba(244,239,227,0.95), rgba(251,247,238,0.98));
 }
 .volunteer-application-copy {
-  padding: clamp(28px, 4vw, 52px) clamp(28px, 5vw, 64px) var(--s-6);
+  padding: clamp(24px, 3vw, 40px) clamp(24px, 4vw, 48px) var(--s-5);
 }
 .volunteer-application h3 {
   color: var(--clr-primary);
@@ -791,8 +791,8 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   width: fit-content;
 }
 .volunteer-embed {
-  height: clamp(540px, 62vw, 720px);
-  margin: 0 clamp(20px, 4vw, 40px) clamp(20px, 4vw, 40px);
+  height: clamp(480px, 56vw, 620px);
+  margin: 0 clamp(18px, 3vw, 32px) clamp(18px, 3vw, 32px);
   overflow: hidden;
   border: 1px solid rgba(10,86,81,0.12);
   border-radius: calc(var(--radius) - 4px);
@@ -854,12 +854,12 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
    SERVICES
    ═══════════════════════════════════════════ */
 .services-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-5);
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-4);
 }
 .service-card {
   background: var(--clr-bg);
   border-radius: var(--radius);
-  padding: var(--s-7) var(--s-6);
+  padding: var(--s-6);
   position: relative; overflow: hidden;
   border: 1px solid var(--clr-line);
   transition: transform var(--t-mid) var(--ease-out),
@@ -884,7 +884,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   background: rgba(196,106,74,0.10);
   color: var(--clr-accent);
   display: inline-flex; align-items: center; justify-content: center;
-  margin-bottom: var(--s-6);
+  margin-bottom: var(--s-4);
   transition: background var(--t-mid) var(--ease-out),
               color var(--t-mid) var(--ease-out);
 }
@@ -896,7 +896,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .service-card p { font-size: 0.95rem; color: var(--clr-text-light); }
 .learn-more {
   display: inline-flex; align-items: center; gap: 8px;
-  margin-top: var(--s-6); font-weight: 600; color: var(--clr-accent-warm);
+  margin-top: var(--s-4); font-weight: 600; color: var(--clr-accent-warm);
   font-size: 0.9rem;
 }
 .learn-more span { transition: transform var(--t-fast) var(--ease-out); }
@@ -913,7 +913,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .pathway-layout {
   display: grid;
   grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
-  gap: clamp(36px, 5vw, 72px);
+  gap: clamp(28px, 4vw, 56px);
   align-items: start;
 }
 .pathway-intro {
@@ -923,13 +923,13 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .pathway-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--s-5);
+  gap: var(--s-4);
 }
 .pathway-card {
-  min-height: 210px;
+  min-height: 185px;
   display: flex;
   flex-direction: column;
-  padding: var(--s-7);
+  padding: var(--s-6);
   border-radius: var(--radius);
   background: rgba(251,247,238,0.82);
   border: 1px solid rgba(10,86,81,0.11);
@@ -971,12 +971,12 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .pathway-note {
   grid-column: 2;
-  margin-top: var(--s-5);
+  margin-top: var(--s-4);
   display: flex;
   align-items: center;
   gap: var(--s-4);
   flex-wrap: wrap;
-  padding: var(--s-5) var(--s-6);
+  padding: var(--s-4) var(--s-5);
   border-radius: var(--radius);
   background: var(--clr-primary);
   color: var(--clr-bg);
@@ -1029,7 +1029,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1px;
-  margin-top: var(--s-8);
+  margin-top: var(--s-6);
   border: 1px solid var(--clr-line);
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -1062,10 +1062,10 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .community-model-cards {
   display: grid;
-  gap: var(--s-5);
+  gap: var(--s-4);
 }
 .community-model-card {
-  padding: var(--s-8);
+  padding: var(--s-6);
   border-radius: var(--radius-lg);
   background: var(--clr-white);
   border: 1px solid rgba(10,86,81,0.10);
@@ -1102,7 +1102,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
    ═══════════════════════════════════════════ */
 .about-grid {
   display: grid; grid-template-columns: 1fr 1fr;
-  gap: clamp(40px, 7vw, 90px); align-items: center;
+  gap: clamp(32px, 5vw, 68px); align-items: center;
 }
 .about-content { min-width: 0; }
 .about-image { position: relative; }
@@ -1136,7 +1136,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 
 .about-values {
   display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-4);
-  margin-top: var(--s-8);
+  margin-top: var(--s-6);
 }
 .value-item {
   display: flex; align-items: center; gap: 12px;
@@ -1203,12 +1203,12 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .hub-grid {
   display: grid; grid-template-columns: 1.1fr 1fr;
-  gap: clamp(40px, 6vw, 80px); align-items: center;
+  gap: clamp(32px, 5vw, 62px); align-items: center;
   position: relative; z-index: 1;
 }
 .hub-features {
   display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-4);
-  margin-top: var(--s-8);
+  margin-top: var(--s-6);
 }
 .hub-feature {
   background: rgba(255,255,255,0.05);
@@ -1252,7 +1252,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .hub-image-frame img { width: 100%; height: 100%; object-fit: contain; }
 
 .hub-info {
-  margin-top: var(--s-8);
+  margin-top: var(--s-6);
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--s-3);
@@ -1296,7 +1296,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--s-3);
-  margin-top: var(--s-7);
+  margin-top: var(--s-5);
 }
 .hub-events article {
   padding: var(--s-5);
@@ -1318,7 +1318,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--s-5);
-  margin-top: var(--s-9);
+  margin-top: var(--s-7);
   position: relative;
   z-index: 1;
 }
@@ -1340,7 +1340,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
    ═══════════════════════════════════════════ */
 .school-grid {
   display: grid; grid-template-columns: 1fr 1.05fr;
-  gap: clamp(40px, 6vw, 80px); align-items: center;
+  gap: clamp(32px, 5vw, 62px); align-items: center;
 }
 .school-image { position: relative; }
 .school-image-frame {
@@ -1355,7 +1355,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
   box-shadow: var(--shadow);
 }
-.themes { display: grid; gap: var(--s-3); margin-top: var(--s-7); margin-bottom: var(--s-7); }
+.themes { display: grid; gap: var(--s-3); margin-top: var(--s-5); margin-bottom: var(--s-5); }
 .theme-week {
   display: flex; gap: var(--s-5); align-items: flex-start;
   background: rgba(255,255,255,0.6);
@@ -1655,12 +1655,12 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
    TESTIMONIALS
    ═══════════════════════════════════════════ */
 .testimonials-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-7);
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-5);
 }
 .testimonial-card {
   background: var(--clr-bg);
   border-radius: var(--radius);
-  padding: var(--s-8) var(--s-7);
+  padding: var(--s-6);
   position: relative; overflow: hidden;
   border: 1px solid var(--clr-line);
   transition: transform var(--t-mid) var(--ease-out), box-shadow var(--t-mid) var(--ease-out);
@@ -1673,7 +1673,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .testimonial-card p {
   font-size: 0.98rem; color: var(--clr-text);
-  margin-bottom: var(--s-7); line-height: 1.65;
+  margin-bottom: var(--s-5); line-height: 1.6;
   font-family: var(--font-display); font-style: italic; font-weight: 400;
 }
 .testimonial-author { display: flex; align-items: center; gap: 14px; }
@@ -1694,10 +1694,10 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
    TEAM
    ═══════════════════════════════════════════ */
 .team-grid {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-6);
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-4);
 }
 .team-card {
-  text-align: center; padding: var(--s-9) var(--s-6);
+  text-align: center; padding: var(--s-6);
   background: var(--clr-bg-warm);
   border-radius: var(--radius);
   border: 1px solid transparent;
