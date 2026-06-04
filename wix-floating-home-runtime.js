@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260604-03');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260604-04');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -443,6 +443,10 @@ class FloatingHome extends HTMLElement {
           }
 
           .floating-root {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            min-height: 100vh;
             opacity: ${editorPreview ? '1' : '0'};
             visibility: ${editorPreview ? 'visible' : 'hidden'};
           }
@@ -470,6 +474,7 @@ class FloatingHome extends HTMLElement {
             -moz-osx-font-smoothing: grayscale;
             position: relative;
             isolation: isolate;
+            min-width: 0;
             -webkit-text-size-adjust: 100%;
             text-size-adjust: 100%;
             scroll-padding-top: 92px;
@@ -609,7 +614,7 @@ class FloatingHome extends HTMLElement {
     this.setAttribute('data-floating-home-host', 'true');
     this.style.setProperty('display', 'block', 'important');
     this.style.setProperty('position', 'relative', 'important');
-    this.style.setProperty('z-index', '1', 'important');
+    this.style.setProperty('z-index', '2147483647', 'important');
     this.style.setProperty('box-sizing', 'border-box', 'important');
     this.style.setProperty('background', '#f4efe3', 'important');
     this.style.setProperty('left', 'auto', 'important');
@@ -661,11 +666,21 @@ class FloatingHome extends HTMLElement {
         #floating-home-dom-fallback {
           display: block !important;
           width: 100% !important;
-          max-width: none !important;
+          max-width: 100vw !important;
           height: auto !important;
-          min-height: 0 !important;
+          min-height: 100vh !important;
+          min-height: 100svh !important;
           overflow: visible !important;
           contain: none !important;
+        }
+
+        body.device-mobile-optimized > floating-home,
+        body.device-mobile-optimized #floating-home-dom-fallback {
+          width: 100vw !important;
+          max-width: 100vw !important;
+          min-width: 0 !important;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
         }
       `;
       document.head.appendChild(style);
@@ -1050,31 +1065,65 @@ class FloatingHome extends HTMLElement {
   fitWixViewport() {
     if (!this.isConnected || this.isWixEditorPreview()) return;
 
-    const viewportWidth = document.documentElement.clientWidth || window.innerWidth || 0;
+    const viewportWidth = this.wixViewportWidth();
 
     if (!viewportWidth) return;
 
+    const isMobileViewer = this.isWixMobileViewer();
     const rect = this.getBoundingClientRect();
     const currentMarginLeft = Number.parseFloat(this.style.marginLeft) || 0;
     const currentMarginTop = Number.parseFloat(this.style.marginTop) || 0;
     const naturalLeft = rect.left - currentMarginLeft + (window.scrollX || 0);
     const naturalTop = rect.top - currentMarginTop + (window.scrollY || 0);
     const topOffset = naturalTop > 0 ? -naturalTop : 0;
+    const widthValue = isMobileViewer ? '100vw' : `${viewportWidth}px`;
+    const maxWidthValue = isMobileViewer ? '100vw' : `${viewportWidth}px`;
 
-    this.setImportantStyle(this, 'width', `${viewportWidth}px`);
-    this.setImportantStyle(this, 'max-width', `${viewportWidth}px`);
-    this.setImportantStyle(this, 'margin-left', `${Math.round(-naturalLeft)}px`);
+    this.setImportantStyle(this, 'width', widthValue);
+    this.setImportantStyle(this, 'max-width', maxWidthValue);
+    this.setImportantStyle(this, 'min-width', '0');
+    this.setImportantStyle(this, 'margin-left', isMobileViewer ? '0px' : `${Math.round(-naturalLeft)}px`);
     this.setImportantStyle(this, 'margin-top', `${Math.round(topOffset)}px`);
 
     const root = this.shadowRoot && this.shadowRoot.querySelector('.floating-root');
     if (root) {
       this.setImportantStyle(root, 'width', '100%');
       this.setImportantStyle(root, 'max-width', '100%');
+      this.setImportantStyle(root, 'min-width', '0');
+      this.setImportantStyle(root, 'min-height', '100vh');
       this.setImportantStyle(root, 'overflow-x', 'clip');
     }
 
     document.documentElement.style.setProperty('overflow-x', 'hidden', 'important');
     document.body.style.setProperty('overflow-x', 'hidden', 'important');
+  }
+
+  wixViewportWidth() {
+    const values = [
+      window.visualViewport && window.visualViewport.width,
+      window.innerWidth,
+      document.documentElement && document.documentElement.clientWidth,
+    ];
+
+    if (this.isWixMobileViewer() && window.screen && window.screen.width) {
+      values.unshift(window.screen.width);
+    }
+
+    const widths = values
+      .map((value) => Number.parseFloat(value))
+      .filter((value) => Number.isFinite(value) && value > 0);
+
+    if (!widths.length) return 0;
+
+    return Math.max(320, Math.round(Math.min(...widths)));
+  }
+
+  isWixMobileViewer() {
+    return Boolean(
+      (document.body && document.body.classList.contains('device-mobile-optimized')) ||
+      (document.body && document.body.classList.contains('device-mobile-non-optimized')) ||
+      (window.matchMedia && window.matchMedia('(max-width: 720px)').matches)
+    );
   }
 
   setImportantStyle(node, property, value) {
