@@ -1,30 +1,30 @@
 {
-  "version": "20260604-08",
+  "version": "20260604-09",
   "assetBase": "https://floting.vercel.app/",
-  "runtime": "https://floting.vercel.app/wix-floating-home-runtime.js?v=20260604-08",
-  "html": "https://floting.vercel.app/index.html?v=20260604-08",
-  "styles": "https://floting.vercel.app/styles.css?v=20260604-08",
-  "translationScript": "https://floting.vercel.app/floating-translation.js?v=20260604-08",
+  "runtime": "https://floting.vercel.app/wix-floating-home-runtime.js?v=20260604-09",
+  "html": "https://floting.vercel.app/index.html?v=20260604-09",
+  "styles": "https://floting.vercel.app/styles.css?v=20260604-09",
+  "translationScript": "https://floting.vercel.app/floating-translation.js?v=20260604-09",
   "translationEndpoint": "https://floting.vercel.app/api/translate",
   "translationStaticBase": "https://floting.vercel.app/translations/",
   "translationShadowStaticBase": "https://floting.vercel.app/translations/wix/",
   "favicons": {
-    "svg": "https://floting.vercel.app/images/favicon.svg?v=20260604-08",
-    "png32": "https://floting.vercel.app/images/favicon-32.png?v=20260604-08",
-    "png512": "https://floting.vercel.app/images/favicon-512.png?v=20260604-08",
-    "appleTouchIcon": "https://floting.vercel.app/images/favicon-180.png?v=20260604-08"
+    "svg": "https://floting.vercel.app/images/favicon.svg?v=20260604-09",
+    "png32": "https://floting.vercel.app/images/favicon-32.png?v=20260604-09",
+    "png512": "https://floting.vercel.app/images/favicon-512.png?v=20260604-09",
+    "appleTouchIcon": "https://floting.vercel.app/images/favicon-180.png?v=20260604-09"
   },
   "pages": {
     "home": {
-      "html": "https://floting.vercel.app/index.html?v=20260604-08",
+      "html": "https://floting.vercel.app/index.html?v=20260604-09",
       "url": "https://www.floatingcounselling.co.uk/"
     },
     "therapy": {
-      "html": "https://floting.vercel.app/therapy.html?v=20260604-08",
+      "html": "https://floting.vercel.app/therapy.html?v=20260604-09",
       "url": "https://www.floatingcounselling.co.uk/therapy"
     },
     "fundraiser": {
-      "html": "https://floting.vercel.app/ways-to-fundraise.html?v=20260604-08",
+      "html": "https://floting.vercel.app/ways-to-fundraise.html?v=20260604-09",
       "url": "https://www.floatingcounselling.co.uk/ways-to-fundraise"
     }
   }
