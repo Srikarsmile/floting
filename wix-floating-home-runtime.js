@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260604-01');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260604-02');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -100,6 +100,7 @@ class FloatingHome extends HTMLElement {
     this.boundRepairWixLayout = () => {
       if (!this.isConnected || this.isWixEditorPreview()) return;
       this.hideExternalNoise();
+      this.repairWixDocumentScroll();
       this.isolateFromWixLayout();
     };
   }
@@ -109,6 +110,7 @@ class FloatingHome extends HTMLElement {
     this.readAssetBase();
     this.readBuildVersion();
     this.installGlobalGuards();
+    this.repairWixDocumentScroll();
     this.preloadCriticalAssets();
     this.prepareWixHost();
     this.readCmsAttribute();
@@ -558,6 +560,7 @@ class FloatingHome extends HTMLElement {
       this.bindInteractions();
       this.scheduleWixIsolation();
       await stylesheetReady;
+      this.repairWixDocumentScroll();
       this.repairWixTopGap();
       this.classList.add('is-ready');
     } catch (error) {
@@ -601,6 +604,7 @@ class FloatingHome extends HTMLElement {
 
   prepareWixHost() {
     this.installGlobalGuards();
+    this.repairWixDocumentScroll();
     this.hideExternalNoise();
     this.setAttribute('data-floating-home-host', 'true');
     this.style.setProperty('display', 'block', 'important');
@@ -629,6 +633,54 @@ class FloatingHome extends HTMLElement {
     this.style.setProperty('overflow', 'visible', 'important');
     this.style.setProperty('contain', 'none', 'important');
     this.fitWixViewport();
+  }
+
+  repairWixDocumentScroll() {
+    if (this.isWixEditorPreview() || !document.documentElement || !document.body) return;
+
+    if (document.head && !document.getElementById('floating-wix-scroll-guards')) {
+      const style = document.createElement('style');
+      style.id = 'floating-wix-scroll-guards';
+      style.textContent = `
+        html {
+          height: auto !important;
+          min-height: 100% !important;
+          overflow-x: hidden !important;
+          overflow-y: auto !important;
+        }
+
+        body {
+          height: auto !important;
+          min-height: 100% !important;
+          overflow-x: hidden !important;
+          overflow-y: visible !important;
+          position: static !important;
+        }
+
+        body > floating-home,
+        #floating-home-dom-fallback {
+          display: block !important;
+          width: 100% !important;
+          max-width: none !important;
+          height: auto !important;
+          min-height: 0 !important;
+          overflow: visible !important;
+          contain: none !important;
+        }
+      `;
+      document.head.appendChild(style);
+    }
+
+    document.documentElement.style.setProperty('height', 'auto', 'important');
+    document.documentElement.style.setProperty('min-height', '100%', 'important');
+    document.documentElement.style.setProperty('overflow-x', 'hidden', 'important');
+    document.documentElement.style.setProperty('overflow-y', 'auto', 'important');
+
+    document.body.style.setProperty('height', 'auto', 'important');
+    document.body.style.setProperty('min-height', '100%', 'important');
+    document.body.style.setProperty('overflow-x', 'hidden', 'important');
+    document.body.style.setProperty('overflow-y', 'visible', 'important');
+    document.body.style.setProperty('position', 'static', 'important');
   }
 
   installGlobalGuards() {
