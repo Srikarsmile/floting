@@ -5,16 +5,16 @@ const floatingHomeId = "customElement1";
 const floatingLoaderUrl = "https://floting.vercel.app/wix-loader.js";
 const floatingManifestUrl = "https://floting.vercel.app/build-manifest.json";
 const floatingAssetBase = "https://floting.vercel.app/";
-const floatingBuildVersion = "20260604-08";
+const floatingBuildVersion = "20260606-02";
 const floatingTranslationEndpoint = "https://floting.vercel.app/api/translate";
 const floatingTranslationStaticBase = "https://floting.vercel.app/translations/";
 const floatingTranslationShadowStaticBase = "https://floting.vercel.app/translations/wix/";
 const floatingDomFallbackId = "floating-home-dom-fallback";
 const cmsContentCollection = "Import1";
 const cmsItemsCollection = "Import2";
-const floatingSeoTitle = "Floating Counselling | Counselling, Therapy & Community Support in Croydon";
+const floatingSeoTitle = "Floating Counselling Community | Counselling, Therapy & Community Support in Croydon";
 const floatingSeoDescription =
-  "Affordable counselling, family therapy, parenting support, food bank, financial literacy and community hub services across Croydon, Redbridge, Newham, Durham and Southwark.";
+  "Floating Counselling Community provides affordable counselling, family therapy, parenting support, food bank, financial literacy and community hub services across Croydon, Redbridge, Newham, Durham and Southwark.";
 const floatingSeoImage = "https://www.floatingcounselling.co.uk/images/og-cover.jpg";
 const floatingSeoUrl = "https://www.floatingcounselling.co.uk/";
 

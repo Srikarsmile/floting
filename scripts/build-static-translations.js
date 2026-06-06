@@ -419,11 +419,12 @@ async function main() {
   const force = Boolean(options.force);
   let localServer = null;
   let sourceUrl = String(options.sourceUrl || '').trim();
+  const sourcePath = String(options.sourcePath || '').trim();
 
   if (!sourceUrl) {
     const started = await startServer();
     localServer = started.server;
-    sourceUrl = started.url;
+    sourceUrl = new URL(sourcePath || '/', started.url).toString();
   }
 
   try {

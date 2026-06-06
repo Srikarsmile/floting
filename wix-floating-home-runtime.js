@@ -12,7 +12,7 @@ const floatingHomeAssetBase = (() => {
   const manifestAssetBase = String(floatingHomeRuntimeManifest.assetBase || '').trim();
   if (manifestAssetBase) {
     try {
-      return new URL(manifestAssetBase).href;
+      return new URL(manifestAssetBase, window.location.href).href;
     } catch (error) {
       return floatingHomeDefaultAssetBase;
     }
@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260604-08');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260606-02');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -74,12 +74,12 @@ const floatingHomeAvifAssetAliases = Object.freeze({
 });
 
 const floatingHomeSeo = Object.freeze({
-  title: 'Floating Counselling | Counselling, Therapy & Community Support in Croydon',
+  title: 'Floating Counselling Community | Counselling, Therapy & Community Support in Croydon',
   description:
-    'Affordable counselling, family therapy, parenting support, food bank, financial literacy and community hub services across Croydon, Redbridge, Newham, Durham and Southwark.',
+    'Floating Counselling Community provides affordable counselling, family therapy, parenting support, food bank, financial literacy and community hub services across Croydon, Redbridge, Newham, Durham and Southwark.',
   canonical: 'https://www.floatingcounselling.co.uk/',
   image: 'https://www.floatingcounselling.co.uk/images/og-cover.jpg',
-  imageAlt: 'Floating Counselling provides trauma-informed counselling and community support',
+  imageAlt: 'Floating Counselling Community provides trauma-informed counselling and community support',
   locale: 'en_GB',
 });
 
@@ -88,9 +88,9 @@ const floatingHomeStructuredData = Object.freeze([
     '@context': 'https://schema.org',
     '@type': 'NGO',
     '@id': 'https://www.floatingcounselling.co.uk/#organization',
-    name: 'Floating Counselling',
+    name: 'Floating Counselling Community',
     legalName: 'FLOATING COUNSELLING COMMUNITY',
-    alternateName: 'Floating Counselling Community',
+    alternateName: 'Floating Counselling',
     url: 'https://www.floatingcounselling.co.uk/',
     logo: {
       '@type': 'ImageObject',
@@ -165,7 +165,7 @@ const floatingHomeStructuredData = Object.freeze([
     '@type': 'WebSite',
     '@id': 'https://www.floatingcounselling.co.uk/#website',
     url: 'https://www.floatingcounselling.co.uk/',
-    name: 'Floating Counselling',
+    name: 'Floating Counselling Community',
     publisher: { '@id': 'https://www.floatingcounselling.co.uk/#organization' },
     inLanguage: 'en-GB',
   },
@@ -188,7 +188,7 @@ const floatingHomeStructuredData = Object.freeze([
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     '@id': 'https://www.floatingcounselling.co.uk/#services',
-    name: 'Floating Counselling services',
+    name: 'Floating Counselling Community services',
     itemListElement: [
       {
         '@type': 'ListItem',
@@ -262,16 +262,16 @@ const floatingHomeStructuredData = Object.freeze([
         acceptedAnswer: {
           '@type': 'Answer',
           text:
-            'Sessions are free or low-cost for eligible individuals. Floating Counselling works on a sliding scale based on circumstances, with access as the priority.',
+            'Sessions are free or low-cost for eligible individuals. Floating Counselling Community works on a sliding scale based on circumstances, with access as the priority.',
         },
       },
       {
         '@type': 'Question',
-        name: 'Where does Floating Counselling work?',
+        name: 'Where does Floating Counselling Community work?',
         acceptedAnswer: {
           '@type': 'Answer',
           text:
-            'Floating Counselling serves Croydon, Redbridge, Newham, Durham and Southwark, with a Croydon hub at Ashburton Park Cafe Hall and additional project locations.',
+            'Floating Counselling Community serves Croydon, Redbridge, Newham, Durham and Southwark, with a Croydon hub at Ashburton Park Cafe Hall and additional project locations.',
         },
       },
       {
@@ -320,6 +320,11 @@ class FloatingHome extends HTMLElement {
   }
 
   connectedCallback() {
+    if (this.shouldPreserveWixNativePage()) {
+      this.preserveWixNativePage();
+      return;
+    }
+
     this.classList.remove('is-ready');
     this.readAssetBase();
     this.readBuildVersion();
@@ -336,6 +341,11 @@ class FloatingHome extends HTMLElement {
 
   attributeChangedCallback(name, previousValue, nextValue) {
     if (previousValue === nextValue) return;
+
+    if (this.shouldPreserveWixNativePage()) {
+      this.preserveWixNativePage();
+      return;
+    }
 
     if (name === 'data-floating-build') {
       const previousVersion = this.version;
@@ -462,13 +472,42 @@ class FloatingHome extends HTMLElement {
 
     try {
       const pathname = window.location.pathname.toLowerCase().replace(/\/+$/, '');
-      if (/(^|\/)therapy(?:\.html)?$/.test(pathname)) return 'therapy';
+      if (/(^|\/)(therapy|counselling|types-of-therapy)(?:\.html)?$/.test(pathname)) return 'therapy';
       if (/(^|\/)(ways-to-fundraise|fundraiser)(?:\.html)?$/.test(pathname)) return 'fundraiser';
     } catch (error) {
       // Fall through to the home page.
     }
 
     return 'home';
+  }
+
+  shouldPreserveWixNativePage() {
+    if (this.isWixEditorPreview()) return false;
+
+    try {
+      const pathname = window.location.pathname.toLowerCase().replace(/^\/+|\/+$/g, '');
+      return pathname === 'book' || pathname === 'blog';
+    } catch (error) {
+      return false;
+    }
+  }
+
+  preserveWixNativePage() {
+    this.stopWixLayoutWatchdog();
+    this.stopSupportFabWatcher();
+    this.setAttribute('data-floating-preserved-page', 'true');
+    this.setAttribute('aria-hidden', 'true');
+    this.classList.remove('is-ready');
+    this.style.setProperty('display', 'none', 'important');
+    this.style.setProperty('visibility', 'hidden', 'important');
+    this.style.setProperty('height', '0', 'important');
+    this.style.setProperty('min-height', '0', 'important');
+    this.style.setProperty('overflow', 'hidden', 'important');
+    this.style.setProperty('pointer-events', 'none', 'important');
+
+    if (this.shadowRoot) {
+      this.shadowRoot.innerHTML = '';
+    }
   }
 
   pageManifestEntry() {
@@ -576,8 +615,8 @@ class FloatingHome extends HTMLElement {
         { name: 'description', content: floatingHomeSeo.description },
         { name: 'robots', content: 'index, follow, max-image-preview:large' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:site_name', content: 'Floating Counselling' },
-        { property: 'og:title', content: 'Floating Counselling - Counselling, Community & Compassion' },
+        { property: 'og:site_name', content: 'Floating Counselling Community' },
+        { property: 'og:title', content: 'Floating Counselling Community - Counselling, Community & Compassion' },
         { property: 'og:description', content: floatingHomeSeo.description },
         { property: 'og:url', content: floatingHomeSeo.canonical },
         { property: 'og:image', content: floatingHomeSeo.image },
@@ -585,7 +624,7 @@ class FloatingHome extends HTMLElement {
         { property: 'og:locale', content: floatingHomeSeo.locale },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:site', content: '@FloatCounsellor' },
-        { name: 'twitter:title', content: 'Floating Counselling - Counselling, Community & Compassion' },
+        { name: 'twitter:title', content: 'Floating Counselling Community - Counselling, Community & Compassion' },
         { name: 'twitter:description', content: floatingHomeSeo.description },
         { name: 'twitter:image', content: floatingHomeSeo.image },
         { name: 'twitter:image:alt', content: floatingHomeSeo.imageAlt },
@@ -1417,7 +1456,7 @@ class FloatingHome extends HTMLElement {
           <section>
             <div class="editor-badge"><span></span> Croydon · Redbridge · Newham · Durham · Southwark</div>
             <h1>Counselling, <em>Community</em> &amp; Compassion.</h1>
-            <p class="editor-copy">A UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care, practical help and community-driven programmes designed as wraparound care.</p>
+            <p class="editor-copy">Floating Counselling Community is a UK-based grassroots charity empowering individuals, families and marginalised groups through holistic support, therapeutic care, practical help and community-driven programmes designed as wraparound care.</p>
             <div class="editor-buttons" aria-hidden="true">
               <span class="editor-button primary">Book a Session</span>
               <span class="editor-button">Find the right support</span>
@@ -1814,8 +1853,9 @@ class FloatingHome extends HTMLElement {
         return;
       }
 
-      if (path === 'therapy' || path === 'therapy.html') {
-        anchor.setAttribute('href', this.publicPageUrl('therapy', url.hash));
+      if (path === 'therapy' || path === 'therapy.html' || path === 'counselling' || path === 'types-of-therapy') {
+        const hash = path === 'types-of-therapy' && !url.hash ? '#therapy-types' : url.hash;
+        anchor.setAttribute('href', this.publicPageUrl('therapy', hash));
         return;
       }
 

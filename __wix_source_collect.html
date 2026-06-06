@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floating Counselling Community translation source</title>
+  <script>
+    const floatingOrigin = new URL('/', window.location.href).toString();
+    const floatingVersion = '20260606-02';
+    const floatingUrl = (path) => new URL(`${path}?v=${floatingVersion}`, floatingOrigin).toString();
+
+    window.FloatingHomeManifest = {
+      version: floatingVersion,
+      assetBase: floatingOrigin,
+      runtime: floatingUrl('/wix-floating-home-runtime.js'),
+      html: floatingUrl('/index.html'),
+      styles: floatingUrl('/styles.css'),
+      translationScript: floatingUrl('/floating-translation.js'),
+      translationEndpoint: new URL('/api/translate', floatingOrigin).toString(),
+      translationStaticBase: new URL('/translations/', floatingOrigin).toString(),
+      translationShadowStaticBase: new URL('/translations/wix/', floatingOrigin).toString(),
+      pages: {
+        home: { html: floatingUrl('/index.html') },
+        therapy: { html: floatingUrl('/therapy.html') },
+        fundraiser: { html: floatingUrl('/ways-to-fundraise.html') }
+      }
+    };
+  </script>
+  <script defer src="/wix-floating-home-runtime.js?v=20260606-02"></script>
+</head>
+<body>
+  <floating-home data-floating-build="20260606-02" data-floating-asset-base="/" data-floating-page="home"></floating-home>
+</body>
+</html>

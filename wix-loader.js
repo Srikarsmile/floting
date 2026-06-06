@@ -3,11 +3,181 @@
 
   var DEFAULT_MANIFEST_URL = 'https://floting.vercel.app/build-manifest.json';
   var DEFAULT_ASSET_BASE = 'https://floting.vercel.app/';
-  var DEFAULT_VERSION = '20260604-08';
+  var DEFAULT_VERSION = '20260606-02';
   var LOADER_ID = 'floating-home-vercel-loader';
   var RUNTIME_ID = 'floating-home-runtime';
   var APPLY_DELAYS = [0, 40, 120, 300, 700, 1500, 3000, 6000];
   var VIEWPORT_CONTENT = 'width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover';
+  var LEGACY_ROUTE_REDIRECTS = {
+    counselling: '/therapy',
+    'types-of-therapy': '/therapy#therapy-types',
+    'online-telephone-session': '/therapy',
+    community: '/#hub',
+    holidayschool: '/#holiday-school',
+    'holiday-school': '/#holiday-school',
+    covid19: '/',
+    events: '/',
+    wch: '/#hub',
+    homelessproject: '/#hub',
+    international: '/#hub',
+    freeresources: '/',
+    counsellorgetpaid: '/',
+    'blank-3': '/',
+    newpage: '/',
+  };
+  var LEGACY_MENU_LABELS_TO_KEEP = {
+    home: true,
+    'book - disciplining with love': true,
+    book: true,
+    blog: true,
+  };
+  var LEGACY_MENU_LABELS_TO_HIDE = {
+    'new page': true,
+    community: true,
+    'holiday school': true,
+    '+ events': true,
+    events: true,
+    'counsellors get paid course': true,
+    'free resources': true,
+    'covid 19': true,
+    'book a session': true,
+  };
+  var LEGACY_MENU_PATHS_TO_HIDE = {
+    counselling: true,
+    'online-telephone-session': true,
+    community: true,
+    holidayschool: true,
+    covid19: true,
+    events: true,
+    wch: true,
+    homelessproject: true,
+    international: true,
+    freeresources: true,
+    counsellorgetpaid: true,
+    'blank-3': true,
+  };
+  var PRESERVED_WIX_PATHS = {
+    book: true,
+    blog: true,
+  };
+
+  function normalizedCurrentPath() {
+    try {
+      return window.location.pathname.toLowerCase().replace(/^\/+|\/+$/g, '');
+    } catch (error) {
+      return '';
+    }
+  }
+
+  function isEditorLike() {
+    try {
+      return /editor\.wix\.com|\/html\/editor\/|CustomElementPreviewIframe|editor-elements-library/i.test(
+        String(window.location.href || '') + ' ' + String(document.referrer || ''),
+      );
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function redirectLegacyRoute() {
+    if (isEditorLike()) return false;
+
+    var path = normalizedCurrentPath();
+    var target = LEGACY_ROUTE_REDIRECTS[path];
+    if (!target) return false;
+
+    try {
+      var url = new URL(target, window.location.origin);
+      window.location.replace(url.toString());
+      return true;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function shouldPreserveWixPage() {
+    return !!PRESERVED_WIX_PATHS[normalizedCurrentPath()];
+  }
+
+  function normalizeMenuLabel(value) {
+    return String(value || '')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toLowerCase();
+  }
+
+  function pathFromHref(anchor) {
+    try {
+      return new URL(anchor.getAttribute('href') || '', window.location.href)
+        .pathname
+        .toLowerCase()
+        .replace(/^\/+|\/+$/g, '');
+    } catch (error) {
+      return '';
+    }
+  }
+
+  function closestMenuItem(anchor) {
+    return (
+      anchor.closest('[data-testid="menuItemDepth0"]') ||
+      anchor.closest('li') ||
+      anchor
+    );
+  }
+
+  function cleanLegacyWixNavigation() {
+    if (isEditorLike()) return;
+
+    Array.prototype.slice.call(document.querySelectorAll('a[href]')).forEach(function (anchor) {
+      if (anchor.closest('floating-home')) return;
+
+      var label = normalizeMenuLabel(anchor.textContent);
+      var path = pathFromHref(anchor);
+      var keep =
+        LEGACY_MENU_LABELS_TO_KEEP[label] ||
+        path === '' ||
+        path === 'book' ||
+        path === 'blog';
+      var hide =
+        LEGACY_MENU_LABELS_TO_HIDE[label] ||
+        LEGACY_MENU_PATHS_TO_HIDE[path];
+
+      if (path === 'book') {
+        anchor.setAttribute('href', 'https://www.floatingcounselling.co.uk/book');
+      }
+      if (path === 'blog') {
+        anchor.setAttribute('href', 'https://www.floatingcounselling.co.uk/blog');
+      }
+      if (path === '' && label === 'home') {
+        anchor.setAttribute('href', 'https://www.floatingcounselling.co.uk/');
+      }
+
+      if (hide && !keep) {
+        var item = closestMenuItem(anchor);
+        item.setAttribute('data-floating-legacy-hidden', 'true');
+        item.setAttribute('aria-hidden', 'true');
+        item.style.setProperty('display', 'none', 'important');
+        item.style.setProperty('visibility', 'hidden', 'important');
+        item.style.setProperty('pointer-events', 'none', 'important');
+      }
+    });
+  }
+
+  function scheduleLegacyNavigationCleanup() {
+    APPLY_DELAYS.forEach(function (delay) {
+      window.setTimeout(cleanLegacyWixNavigation, delay);
+    });
+
+    if (typeof MutationObserver !== 'function' || !document.body) return;
+
+    var observer = new MutationObserver(function () {
+      cleanLegacyWixNavigation();
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+    window.setTimeout(function () {
+      observer.disconnect();
+    }, 8000);
+  }
 
   function ensureViewportMeta() {
     if (!document.head) return;
@@ -112,10 +282,41 @@
     return Array.prototype.slice.call(document.querySelectorAll('floating-home'));
   }
 
+  function suppressFloatingHomeElementsForPreservedPage() {
+    if (!shouldPreserveWixPage()) return;
+
+    floatingHomes().forEach(function (element) {
+      element.setAttribute('data-floating-preserved-page', 'true');
+      element.setAttribute('aria-hidden', 'true');
+      element.style.setProperty('display', 'none', 'important');
+      element.style.setProperty('visibility', 'hidden', 'important');
+      element.style.setProperty('height', '0', 'important');
+      element.style.setProperty('min-height', '0', 'important');
+      element.style.setProperty('overflow', 'hidden', 'important');
+      element.style.setProperty('pointer-events', 'none', 'important');
+    });
+  }
+
+  function schedulePreservedPageSuppression() {
+    APPLY_DELAYS.forEach(function (delay) {
+      window.setTimeout(suppressFloatingHomeElementsForPreservedPage, delay);
+    });
+
+    if (typeof MutationObserver !== 'function' || !document.body) return;
+
+    var observer = new MutationObserver(function () {
+      suppressFloatingHomeElementsForPreservedPage();
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+    window.setTimeout(function () {
+      observer.disconnect();
+    }, 8000);
+  }
+
   function pageKeyForPath() {
     try {
       var pathname = window.location.pathname.toLowerCase().replace(/\/+$/, '');
-      if (/(^|\/)therapy(?:\.html)?$/.test(pathname)) return 'therapy';
+      if (/(^|\/)(therapy|counselling|types-of-therapy)(?:\.html)?$/.test(pathname)) return 'therapy';
       if (/(^|\/)(ways-to-fundraise|fundraiser)(?:\.html)?$/.test(pathname)) return 'fundraiser';
     } catch (error) {
       // Fall through to home.
@@ -229,13 +430,20 @@
   }
 
   function boot() {
+    if (redirectLegacyRoute()) return;
     ensureViewportMeta();
     scheduleViewportUpdates();
+    scheduleLegacyNavigationCleanup();
 
     fetchManifest().then(function (manifest) {
       publishManifest(manifest);
-      scheduleElementUpdates(manifest);
       scheduleFaviconUpdates(manifest);
+      if (shouldPreserveWixPage()) {
+        schedulePreservedPageSuppression();
+        return;
+      }
+
+      scheduleElementUpdates(manifest);
       loadRuntime(manifest);
     });
   }

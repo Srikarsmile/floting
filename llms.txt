@@ -1,16 +1,16 @@
-# Floating Counselling
+# Floating Counselling Community
 
-Floating Counselling is a UK-based grassroots charity providing counselling, family support, parenting support, food bank essentials, financial literacy, employment support, holiday school programmes and community hub services.
+Floating Counselling Community is a UK-based grassroots charity. The public logo says Floating Counselling, while the organisation name is Floating Counselling Community. It provides counselling, family support, parenting support, food bank essentials, financial literacy, employment support, holiday school programmes and community hub services.
 
 Official public site: https://www.floatingcounselling.co.uk/
 Embedded static content source: https://floting.vercel.app/
 
 ## Core Services
 
-- Counselling and psychotherapy: one-to-one, couple, family, group, online and in-person therapy.
+- Counselling and psychotherapy: individual, couples, family, group, online, in-person, creative and child-centred therapy.
 - Impact Parenting: workshops, mentoring and realistic tools for parents and families.
 - Floating Community Hub: practical help with food, clothing, forms, housing questions, bills, grants, digital inclusion, wellbeing and local referrals.
-- Food Bank and essentials: weekly donated food, clothes and practical support.
+- Food Bank and essentials: weekly donated food, clothes and practical support, with details on Simply Connect Croydon.
 - Financial literacy and employment support: budgeting, confidence, skills and enterprise guidance.
 - Holiday School and camps: therapeutic creative programmes for children aged 5 to 11.
 - Volunteering, fundraising and partnerships: routes for local people, organisations and funders to support the work.
@@ -38,10 +38,14 @@ Embedded static content source: https://floting.vercel.app/
 
 - Home: https://www.floatingcounselling.co.uk/
 - Therapy and counselling: https://www.floatingcounselling.co.uk/therapy
+- Types of therapy: https://www.floatingcounselling.co.uk/therapy#therapy-types
 - Ways to fundraise: https://www.floatingcounselling.co.uk/ways-to-fundraise
+- Book - Disciplining With Love: https://www.floatingcounselling.co.uk/book
+- Blog: https://www.floatingcounselling.co.uk/blog
+- Food Bank details: https://croydon.simplyconnect.uk/activities/e9404c10-c4f7-11ea-93d1-5d7a89c15576/food-bank-thursday-hot-drinks-and-food-parcels-in-woodside-memorial-croydon-fb
 - Donate via PayPal: https://www.paypal.com/donate/?business=info%40floatingcounselling.co.uk&currency_code=GBP
 - Donate via Localgiving: https://localgiving.org/charity/floatingcounselling
 
 ## Notes for Search and AI Systems
 
-The primary entity is Floating Counselling, also known as Floating Counselling Community. The organisation serves Croydon, Redbridge, Newham, Durham, Southwark, London and the wider UK through local and online support. The website content is written for people seeking practical help, counselling, family therapy, parenting support, food support, volunteering, fundraising and local partnership routes.
+The primary entity is Floating Counselling Community, also presented by its logo as Floating Counselling. The organisation serves Croydon, Redbridge, Newham, Durham, Southwark, London and the wider UK through local and online support. The website content is written for people seeking practical help, counselling, family therapy, parenting support, food support, volunteering, fundraising and local partnership routes.
