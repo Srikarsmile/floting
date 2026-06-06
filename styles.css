@@ -1753,6 +1753,67 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .testimonial-author span { font-size: 0.78rem; color: var(--clr-text-muted); }
 
+.client-feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--s-5);
+}
+.client-feedback-card {
+  min-height: 100%;
+  padding: var(--s-6);
+  border: 1px solid var(--clr-line);
+  border-radius: var(--radius);
+  background: var(--clr-bg);
+}
+.client-feedback-card h3 {
+  margin-bottom: var(--s-3);
+  color: var(--clr-primary);
+  font-size: 1.08rem;
+}
+.client-feedback-card p {
+  color: var(--clr-text-light);
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+.client-feedback-source {
+  display: block;
+  margin-top: var(--s-4);
+  color: var(--clr-accent);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.section-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s-4);
+  margin-top: var(--s-7);
+}
+.founder-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: var(--s-5);
+}
+.founder-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 9px 14px;
+  border: 1px solid var(--clr-line);
+  border-radius: 999px;
+  background: rgba(251,247,238,0.7);
+  color: var(--clr-primary);
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+.founder-link:hover {
+  border-color: rgba(10,86,81,0.28);
+  background: var(--clr-bg);
+  color: var(--clr-primary-soft);
+}
+
 /* ═══════════════════════════════════════════
    TEAM
    ═══════════════════════════════════════════ */
@@ -3117,6 +3178,9 @@ body.nav-open .back-to-top {
   .services-grid, .testimonials-grid, .team-grid, .blog-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .client-feedback-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .about-grid, .hub-grid, .school-grid, .book-grid, .original-feature-grid {
     grid-template-columns: 1fr; gap: 60px;
   }
@@ -3326,6 +3390,10 @@ body.nav-open .back-to-top {
   .services-grid, .testimonials-grid, .blog-grid, .events-grid,
   .resources-grid, .programmes-grid, .holiday-week-grid, .hub-flyer-grid,
   .pathway-grid, .community-model-cards, .fundraiser-card-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+  .client-feedback-grid {
     grid-template-columns: minmax(0, 1fr);
     gap: 12px;
   }
@@ -3622,6 +3690,14 @@ body.nav-open .back-to-top {
   .cta-section { padding: 48px 0; }
   .cta-buttons { flex-direction: column; align-items: stretch; }
   .cta-buttons .btn { justify-content: center; width: 100%; }
+  .section-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .section-actions .btn {
+    justify-content: center;
+    width: 100%;
+  }
 
   /* Footer */
   .footer { padding: 56px 0 calc(96px + env(safe-area-inset-bottom, 0px)); }
