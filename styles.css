@@ -172,7 +172,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 .navbar .container { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
 
 .nav-logo {
-  display: inline-flex; align-items: center;
+  display: inline-flex; align-items: center; gap: 10px;
   line-height: 1;
 }
 .nav-logo-img {
@@ -181,6 +181,23 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
 }
 .navbar.scrolled .nav-logo-img { height: 32px; }
 .nav-logo:hover .nav-logo-img { opacity: 0.78; }
+.nav-brand-name {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding-left: 10px;
+  border-left: 1px solid rgba(10,86,81,0.18);
+  color: var(--clr-primary);
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+.navbar.scrolled .nav-brand-name {
+  min-height: 24px;
+  font-size: 0.82rem;
+}
 
 /* Footer logo on dark background — invert to white */
 .footer-logo .nav-logo-img {
@@ -189,6 +206,10 @@ button { font: inherit; cursor: pointer; background: none; border: none; }
   opacity: 0.92;
 }
 .footer-logo:hover .nav-logo-img { opacity: 1; }
+.footer-logo .nav-brand-name {
+  border-left-color: rgba(251,247,238,0.24);
+  color: var(--clr-bg);
+}
 
 .nav-links { display: flex; gap: 22px; list-style: none; align-items: center; }
 .nav-links a {
@@ -3145,6 +3166,12 @@ body.nav-open .back-to-top {
   .nav-logo {
     min-height: 44px;
     align-items: center;
+  }
+  .nav-brand-name,
+  .navbar.scrolled .nav-brand-name {
+    min-height: 22px;
+    padding-left: 8px;
+    font-size: 0.76rem;
   }
   .nav-links {
     display: none;
