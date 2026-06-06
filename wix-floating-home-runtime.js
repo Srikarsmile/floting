@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260606-05');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260606-06');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -1828,7 +1828,7 @@ class FloatingHome extends HTMLElement {
       }
 
       if (path === 'therapy' || path === 'therapy.html' || path === 'counselling' || path === 'types-of-therapy') {
-        const hash = path === 'types-of-therapy' && !url.hash ? '#therapy-types' : url.hash;
+        const hash = path === 'types-of-therapy' && !url.hash ? '#counselling-approaches' : url.hash;
         anchor.setAttribute('href', this.publicPageUrl('therapy', hash));
         return;
       }

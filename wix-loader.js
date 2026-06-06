@@ -3,14 +3,14 @@
 
   var DEFAULT_MANIFEST_URL = 'https://floting.vercel.app/build-manifest.json';
   var DEFAULT_ASSET_BASE = 'https://floting.vercel.app/';
-  var DEFAULT_VERSION = '20260606-05';
+  var DEFAULT_VERSION = '20260606-06';
   var LOADER_ID = 'floating-home-vercel-loader';
   var RUNTIME_ID = 'floating-home-runtime';
   var APPLY_DELAYS = [0, 40, 120, 300, 700, 1500, 3000, 6000];
   var VIEWPORT_CONTENT = 'width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover';
   var LEGACY_ROUTE_REDIRECTS = {
     counselling: '/therapy',
-    'types-of-therapy': '/therapy#therapy-types',
+    'types-of-therapy': '/therapy#counselling-approaches',
     'online-telephone-session': '/therapy',
     community: '/#hub',
     holidayschool: '/#holiday-school',
