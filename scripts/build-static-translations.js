@@ -73,6 +73,8 @@ const PROTECTED_TERMS = [
   'Omowonu-Ola Ogunlela',
   'Elizabeth Owode',
   'Linda Yeboah',
+  'info@floatingcounselling.co.uk',
+  'floatingcounsellinglinda@gmail.com',
 ].sort((a, b) => b.length - a.length);
 
 function protectedToken(index) {
