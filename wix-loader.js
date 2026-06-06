@@ -3,7 +3,7 @@
 
   var DEFAULT_MANIFEST_URL = 'https://floting.vercel.app/build-manifest.json';
   var DEFAULT_ASSET_BASE = 'https://floting.vercel.app/';
-  var DEFAULT_VERSION = '20260606-02';
+  var DEFAULT_VERSION = '20260606-03';
   var LOADER_ID = 'floating-home-vercel-loader';
   var RUNTIME_ID = 'floating-home-runtime';
   var APPLY_DELAYS = [0, 40, 120, 300, 700, 1500, 3000, 6000];
@@ -56,11 +56,6 @@
     counsellorgetpaid: true,
     'blank-3': true,
   };
-  var PRESERVED_WIX_PATHS = {
-    book: true,
-    blog: true,
-  };
-
   function normalizedCurrentPath() {
     try {
       return window.location.pathname.toLowerCase().replace(/^\/+|\/+$/g, '');
@@ -93,10 +88,6 @@
     } catch (error) {
       return false;
     }
-  }
-
-  function shouldPreserveWixPage() {
-    return !!PRESERVED_WIX_PATHS[normalizedCurrentPath()];
   }
 
   function normalizeMenuLabel(value) {
@@ -250,6 +241,14 @@
           ),
           url: 'https://www.floatingcounselling.co.uk/ways-to-fundraise',
         },
+        book: {
+          html: normalizeUrl(pages.book && pages.book.html, assetBase + 'book.html?v=' + encodeURIComponent(version)),
+          url: 'https://www.floatingcounselling.co.uk/book',
+        },
+        blog: {
+          html: normalizeUrl(pages.blog && pages.blog.html, assetBase + 'blog.html?v=' + encodeURIComponent(version)),
+          url: 'https://www.floatingcounselling.co.uk/blog',
+        },
       },
     };
   }
@@ -282,42 +281,13 @@
     return Array.prototype.slice.call(document.querySelectorAll('floating-home'));
   }
 
-  function suppressFloatingHomeElementsForPreservedPage() {
-    if (!shouldPreserveWixPage()) return;
-
-    floatingHomes().forEach(function (element) {
-      element.setAttribute('data-floating-preserved-page', 'true');
-      element.setAttribute('aria-hidden', 'true');
-      element.style.setProperty('display', 'none', 'important');
-      element.style.setProperty('visibility', 'hidden', 'important');
-      element.style.setProperty('height', '0', 'important');
-      element.style.setProperty('min-height', '0', 'important');
-      element.style.setProperty('overflow', 'hidden', 'important');
-      element.style.setProperty('pointer-events', 'none', 'important');
-    });
-  }
-
-  function schedulePreservedPageSuppression() {
-    APPLY_DELAYS.forEach(function (delay) {
-      window.setTimeout(suppressFloatingHomeElementsForPreservedPage, delay);
-    });
-
-    if (typeof MutationObserver !== 'function' || !document.body) return;
-
-    var observer = new MutationObserver(function () {
-      suppressFloatingHomeElementsForPreservedPage();
-    });
-    observer.observe(document.body, { childList: true, subtree: true });
-    window.setTimeout(function () {
-      observer.disconnect();
-    }, 8000);
-  }
-
   function pageKeyForPath() {
     try {
       var pathname = window.location.pathname.toLowerCase().replace(/\/+$/, '');
       if (/(^|\/)(therapy|counselling|types-of-therapy)(?:\.html)?$/.test(pathname)) return 'therapy';
       if (/(^|\/)(ways-to-fundraise|fundraiser)(?:\.html)?$/.test(pathname)) return 'fundraiser';
+      if (/(^|\/)book(?:\.html)?$/.test(pathname)) return 'book';
+      if (/(^|\/)blog(?:\.html)?$/.test(pathname)) return 'blog';
     } catch (error) {
       // Fall through to home.
     }
@@ -438,11 +408,6 @@
     fetchManifest().then(function (manifest) {
       publishManifest(manifest);
       scheduleFaviconUpdates(manifest);
-      if (shouldPreserveWixPage()) {
-        schedulePreservedPageSuppression();
-        return;
-      }
-
       scheduleElementUpdates(manifest);
       loadRuntime(manifest);
     });

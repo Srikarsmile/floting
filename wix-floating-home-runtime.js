@@ -34,7 +34,7 @@ const floatingHomeAssetBase = (() => {
   return floatingHomeDefaultAssetBase;
 })();
 
-const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260606-02');
+const floatingHomeCurrentBuild = String(floatingHomeRuntimeManifest.version || '20260606-03');
 
 const floatingHomeImageAssetAliases = Object.freeze({
   'images/team-celestina.jpg': 'images/team-celestina-20260601.webp',
@@ -320,11 +320,6 @@ class FloatingHome extends HTMLElement {
   }
 
   connectedCallback() {
-    if (this.shouldPreserveWixNativePage()) {
-      this.preserveWixNativePage();
-      return;
-    }
-
     this.classList.remove('is-ready');
     this.readAssetBase();
     this.readBuildVersion();
@@ -341,11 +336,6 @@ class FloatingHome extends HTMLElement {
 
   attributeChangedCallback(name, previousValue, nextValue) {
     if (previousValue === nextValue) return;
-
-    if (this.shouldPreserveWixNativePage()) {
-      this.preserveWixNativePage();
-      return;
-    }
 
     if (name === 'data-floating-build') {
       const previousVersion = this.version;
@@ -468,46 +458,19 @@ class FloatingHome extends HTMLElement {
 
   currentPageKey() {
     const explicit = String(this.getAttribute('data-floating-page') || '').trim().toLowerCase();
-    if (['home', 'therapy', 'fundraiser'].includes(explicit)) return explicit;
+    if (['home', 'therapy', 'fundraiser', 'book', 'blog'].includes(explicit)) return explicit;
 
     try {
       const pathname = window.location.pathname.toLowerCase().replace(/\/+$/, '');
       if (/(^|\/)(therapy|counselling|types-of-therapy)(?:\.html)?$/.test(pathname)) return 'therapy';
       if (/(^|\/)(ways-to-fundraise|fundraiser)(?:\.html)?$/.test(pathname)) return 'fundraiser';
+      if (/(^|\/)book(?:\.html)?$/.test(pathname)) return 'book';
+      if (/(^|\/)blog(?:\.html)?$/.test(pathname)) return 'blog';
     } catch (error) {
       // Fall through to the home page.
     }
 
     return 'home';
-  }
-
-  shouldPreserveWixNativePage() {
-    if (this.isWixEditorPreview()) return false;
-
-    try {
-      const pathname = window.location.pathname.toLowerCase().replace(/^\/+|\/+$/g, '');
-      return pathname === 'book' || pathname === 'blog';
-    } catch (error) {
-      return false;
-    }
-  }
-
-  preserveWixNativePage() {
-    this.stopWixLayoutWatchdog();
-    this.stopSupportFabWatcher();
-    this.setAttribute('data-floating-preserved-page', 'true');
-    this.setAttribute('aria-hidden', 'true');
-    this.classList.remove('is-ready');
-    this.style.setProperty('display', 'none', 'important');
-    this.style.setProperty('visibility', 'hidden', 'important');
-    this.style.setProperty('height', '0', 'important');
-    this.style.setProperty('min-height', '0', 'important');
-    this.style.setProperty('overflow', 'hidden', 'important');
-    this.style.setProperty('pointer-events', 'none', 'important');
-
-    if (this.shadowRoot) {
-      this.shadowRoot.innerHTML = '';
-    }
   }
 
   pageManifestEntry() {
@@ -520,6 +483,8 @@ class FloatingHome extends HTMLElement {
     const page = this.currentPageKey();
     if (page === 'therapy') return 'therapy.html';
     if (page === 'fundraiser') return 'ways-to-fundraise.html';
+    if (page === 'book') return 'book.html';
+    if (page === 'blog') return 'blog.html';
     return 'index.html';
   }
 
@@ -1819,7 +1784,16 @@ class FloatingHome extends HTMLElement {
   }
 
   publicPageUrl(page, hash) {
-    const suffix = page === 'therapy' ? 'therapy' : page === 'fundraiser' ? 'ways-to-fundraise' : '';
+    const suffix =
+      page === 'therapy'
+        ? 'therapy'
+        : page === 'fundraiser'
+          ? 'ways-to-fundraise'
+          : page === 'book'
+            ? 'book'
+            : page === 'blog'
+              ? 'blog'
+              : '';
     const url = new URL(suffix, 'https://www.floatingcounselling.co.uk/');
     if (hash) url.hash = hash.replace(/^#?/, '');
     return url.toString();
@@ -1861,6 +1835,16 @@ class FloatingHome extends HTMLElement {
 
       if (path === 'ways-to-fundraise' || path === 'ways-to-fundraise.html' || path === 'fundraiser') {
         anchor.setAttribute('href', this.publicPageUrl('fundraiser', url.hash));
+        return;
+      }
+
+      if (path === 'book' || path === 'book.html') {
+        anchor.setAttribute('href', this.publicPageUrl('book', url.hash));
+        return;
+      }
+
+      if (path === 'blog' || path === 'blog.html') {
+        anchor.setAttribute('href', this.publicPageUrl('blog', url.hash));
       }
     });
   }

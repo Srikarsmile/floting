@@ -6,7 +6,7 @@
   <title>Floating Counselling Community translation source</title>
   <script>
     const floatingOrigin = new URL('/', window.location.href).toString();
-    const floatingVersion = '20260606-02';
+    const floatingVersion = '20260606-03';
     const floatingUrl = (path) => new URL(`${path}?v=${floatingVersion}`, floatingOrigin).toString();
 
     window.FloatingHomeManifest = {
@@ -22,13 +22,15 @@
       pages: {
         home: { html: floatingUrl('/index.html') },
         therapy: { html: floatingUrl('/therapy.html') },
-        fundraiser: { html: floatingUrl('/ways-to-fundraise.html') }
+        fundraiser: { html: floatingUrl('/ways-to-fundraise.html') },
+        book: { html: floatingUrl('/book.html') },
+        blog: { html: floatingUrl('/blog.html') }
       }
     };
   </script>
-  <script defer src="/wix-floating-home-runtime.js?v=20260606-02"></script>
+  <script defer src="/wix-floating-home-runtime.js?v=20260606-03"></script>
 </head>
 <body>
-  <floating-home data-floating-build="20260606-02" data-floating-asset-base="/" data-floating-page="home"></floating-home>
+  <floating-home data-floating-build="20260606-03" data-floating-asset-base="/" data-floating-page="home"></floating-home>
 </body>
 </html>
